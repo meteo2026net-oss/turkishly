@@ -23,9 +23,9 @@ class HomeScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text('سارة سليمان',
+                Text('ساره تركيي',
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 17)),
-                Text('SARA SULEIMAN',
+                Text('SARA TURKII',
                     textDirection: TextDirection.ltr,
                     style: TextStyle(fontSize: 9, letterSpacing: 1.5, fontWeight: FontWeight.w700)),
               ],
@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
                       textDirection: TextDirection.ltr,
                       style: TextStyle(color: Colors.white70)),
                   const SizedBox(height: 10),
-                  const Text('رحلتك مع سارة سليمان لتعلّم التركية',
+                  const Text('رحلتك مع ساره تركيي لتعلّم التركية',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 22,
