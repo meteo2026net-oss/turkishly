@@ -1,0 +1,193 @@
+import 'package:flutter/material.dart';
+
+import '../data/course_catalog.dart';
+import '../models/course_unit.dart';
+import '../theme/app_theme.dart';
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final units = CourseCatalog.units;
+    final completed = units.where((unit) => unit.isCompleted).length;
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Turkishly',
+            style: TextStyle(fontWeight: FontWeight.w800, letterSpacing: -0.5)),
+      ),
+      body: SafeArea(
+        child: ListView(
+          padding: const EdgeInsets.all(20),
+          children: [
+            Container(
+              padding: const EdgeInsets.all(22),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(26),
+                gradient: const LinearGradient(
+                  begin: Alignment.topRight,
+                  end: Alignment.bottomLeft,
+                  colors: [Color(0xFF3D9069), Color(0xFF246044)],
+                ),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Merhaba! 👋',
+                      textDirection: TextDirection.ltr,
+                      style: TextStyle(color: Colors.white70)),
+                  const SizedBox(height: 10),
+                  const Text('ابدأ رحلتك في تعلّم التركية',
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 22,
+                          fontWeight: FontWeight.w800)),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'تعلّم خطوة بخطوة، من الكلمات الأولى حتى التواصل بطلاقة.',
+                    style: TextStyle(color: Colors.white, height: 1.6),
+                  ),
+                  const SizedBox(height: 18),
+                  Text(
+                    completed.toString() + ' وحدات مكتملة تعليمياً',
+                    style: const TextStyle(
+                        color: Colors.white, fontWeight: FontWeight.w700),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 26),
+            const Text('مسارك التعليمي',
+                style: TextStyle(
+                    color: AppColors.darkGreen,
+                    fontSize: 21,
+                    fontWeight: FontWeight.w800)),
+            const SizedBox(height: 12),
+            Wrap(
+              spacing: 8,
+              children: CourseCatalog.levels
+                  .map((level) => Chip(
+                        label: Text(level),
+                        backgroundColor: level == 'A1'
+                            ? AppColors.softGreen
+                            : AppColors.white,
+                      ))
+                  .toList(),
+            ),
+            const SizedBox(height: 12),
+            ...units.map((unit) => Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: _UnitCard(unit: unit),
+                )),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _UnitCard extends StatelessWidget {
+  const _UnitCard({required this.unit});
+  final CourseUnit unit;
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: InkWell(
+        borderRadius: BorderRadius.circular(22),
+        onTap: () => showModalBottomSheet<void>(
+          context: context,
+          isScrollControlled: true,
+          builder: (_) => _UnitDetails(unit: unit),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(18),
+          child: Row(
+            children: [
+              const Icon(Icons.menu_book_outlined,
+                  color: AppColors.green, size: 30),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(unit.titleArabic,
+                        style: const TextStyle(
+                            color: AppColors.darkGreen,
+                            fontWeight: FontWeight.w800)),
+                    const SizedBox(height: 4),
+                    Text(unit.titleTurkish,
+                        textDirection: TextDirection.ltr,
+                        style: const TextStyle(
+                            color: AppColors.muted, fontSize: 12)),
+                    const SizedBox(height: 6),
+                    Text(
+                      unit.lessonCount.toString() + ' دروس • ' + unit.level,
+                      style: const TextStyle(
+                          color: AppColors.muted, fontSize: 11),
+                    ),
+                  ],
+                ),
+              ),
+              const Icon(Icons.chevron_left, color: AppColors.muted),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _UnitDetails extends StatelessWidget {
+  const _UnitDetails({required this.unit});
+  final CourseUnit unit;
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: SizedBox(
+        height: MediaQuery.sizeOf(context).height * 0.78,
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(unit.titleArabic,
+                      style: const TextStyle(
+                          color: AppColors.darkGreen,
+                          fontSize: 20,
+                          fontWeight: FontWeight.w800)),
+                  const SizedBox(height: 5),
+                  Text(unit.titleTurkish,
+                      textDirection: TextDirection.ltr,
+                      style: const TextStyle(color: AppColors.green)),
+                  const SizedBox(height: 8),
+                  Text(unit.description),
+                ],
+              ),
+            ),
+            Expanded(
+              child: ListView.separated(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                itemCount: unit.lessons.length,
+                separatorBuilder: (_, __) => const Divider(height: 1),
+                itemBuilder: (context, index) => ListTile(
+                  contentPadding: EdgeInsets.zero,
+                  leading: CircleAvatar(
+                    backgroundColor: AppColors.softGreen,
+                    child: Text((index + 1).toString()),
+                  ),
+                  title: Text(unit.lessons[index]),
+                  trailing: const Icon(Icons.arrow_back_ios_new, size: 15),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
