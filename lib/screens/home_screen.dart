@@ -29,31 +29,31 @@ class HomeScreen extends StatelessWidget {
                 gradient: const LinearGradient(
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
-                  colors: [Color(0xFF3D9069), Color(0xFF246044)],
+                  colors: [AppColors.navy, Color(0xFF164D91)],
                 ),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text('Merhaba! 👋',
+                  const Text('Merhaba!  •  أهلاً بك',
                       textDirection: TextDirection.ltr,
                       style: TextStyle(color: Colors.white70)),
                   const SizedBox(height: 10),
-                  const Text('ابدأ رحلتك في تعلّم التركية',
+                  const Text('رحلتك مع سارة سليمان لتعلّم التركية',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 22,
                           fontWeight: FontWeight.w800)),
                   const SizedBox(height: 8),
                   const Text(
-                    'تعلّم خطوة بخطوة، من الكلمات الأولى حتى التواصل بطلاقة.',
+                    'منهج İstanbul مع شرح عربي وتدريبات تفاعلية ومحادثات تساعدك على التقدم بثقة.',
                     style: TextStyle(color: Colors.white, height: 1.6),
                   ),
                   const SizedBox(height: 18),
                   Text(
                     completed.toString() + ' وحدات مكتملة تعليمياً',
                     style: const TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.w700),
+                        color: AppColors.gold, fontWeight: FontWeight.w800),
                   ),
                 ],
               ),
