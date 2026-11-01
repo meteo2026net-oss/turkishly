@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/course_catalog.dart';
 import '../models/course_unit.dart';
+import 'lesson_screen.dart';
 import '../theme/app_theme.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -182,6 +183,21 @@ class _UnitDetails extends StatelessWidget {
                   ),
                   title: Text(unit.lessons[index]),
                   trailing: const Icon(Icons.arrow_back_ios_new, size: 15),
+                  onTap: unit.id == 'a1-u3' && index == 6
+                      ? () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) => const A1Unit3Lesson7Screen(),
+                            ),
+                          );
+                        }
+                      : () {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('سيُضاف محتوى هذا الدرس في الدفعات القادمة.'),
+                            ),
+                          );
+                        },
                 ),
               ),
             ),
