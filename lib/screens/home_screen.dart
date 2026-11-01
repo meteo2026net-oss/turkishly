@@ -17,7 +17,17 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Row(
           children: [
-            Icon(Icons.local_florist_rounded, color: AppColors.red, size: 27),
+            Container(
+              width: 38,
+              height: 38,
+              decoration: BoxDecoration(
+                color: AppColors.navy,
+                borderRadius: BorderRadius.circular(13),
+                border: Border.all(color: AppColors.gold, width: 1.5),
+              ),
+              child: const Icon(Icons.local_florist_rounded,
+                  color: AppColors.red, size: 25),
+            ),
             SizedBox(width: 8),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -122,7 +132,7 @@ class _UnitCard extends StatelessWidget {
           child: Row(
             children: [
               const Icon(Icons.menu_book_outlined,
-                  color: AppColors.green, size: 30),
+                  color: AppColors.navy, size: 30),
               const SizedBox(width: 14),
               Expanded(
                 child: Column(
