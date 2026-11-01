@@ -15,8 +15,23 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Turkishly',
-            style: TextStyle(fontWeight: FontWeight.w800, letterSpacing: -0.5)),
+        title: const Row(
+          children: [
+            Icon(Icons.local_florist_rounded, color: AppColors.red, size: 27),
+            SizedBox(width: 8),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text('سارة سليمان',
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 17)),
+                Text('SARA SULEIMAN',
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(fontSize: 9, letterSpacing: 1.5, fontWeight: FontWeight.w700)),
+              ],
+            ),
+          ],
+        ),
       ),
       body: SafeArea(
         child: ListView(
