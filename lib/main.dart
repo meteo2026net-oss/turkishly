@@ -15,7 +15,7 @@ class TurkishlyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'سارة سليمان | Sara Suleiman',
+      title: 'ساره تركيي | Sara Turkii',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       locale: const Locale('ar'),
