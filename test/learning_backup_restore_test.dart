@@ -96,6 +96,18 @@ void main() {
       expect(prefs.containsKey('sara_turkii_invalid_list_value'), isFalse);
     });
 
+    test('round-trips recognized per-lesson and per-word progress keys', () async {
+      await LearningProgress.recordAttempt('a1-u1-1');
+      await LearningProgress.recordWordReview('word-7', recalled: true);
+      final backup = await LearningProgress.exportBackup();
+      SharedPreferences.setMockInitialValues(<String, Object>{});
+
+      await LearningProgress.restoreBackup(backup);
+
+      expect(await LearningProgress.attemptsFor('a1-u1-1'), 1);
+      expect(await LearningProgress.wordReviewStreak('word-7'), 1);
+    });
+
     test('exports only recognized app keys', () async {
       final backup = await LearningProgress.exportBackup();
       final decoded = jsonDecode(backup) as Map<String, dynamic>;
