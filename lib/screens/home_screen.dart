@@ -8,6 +8,7 @@ import 'course_lesson_screen.dart';
 import 'vocabulary_screen.dart';
 import 'quiz_screen.dart';
 import 'missed_questions_screen.dart';
+import 'performance_insights_screen.dart';
 import 'level_assessment_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -258,6 +259,30 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text('مراجعة أخطائي', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
                   SizedBox(height: 3),
                   Text('راجع إجاباتك وشروحاتها وانتقل إلى الدرس المرتبط.', style: TextStyle(color: AppColors.muted, fontSize: 10)),
+                ])),
+                const Icon(Icons.chevron_left_rounded, color: AppColors.navy),
+              ]),
+            ),
+          ),
+        ),
+        const SizedBox(height: 9),
+        Material(
+          color: const Color(0xFFEAF2FF),
+          borderRadius: BorderRadius.circular(16),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(16),
+            onTap: () => Navigator.of(context).push(MaterialPageRoute<void>(
+              builder: (_) => const PerformanceInsightsScreen(),
+            )),
+            child: Padding(
+              padding: const EdgeInsets.all(14),
+              child: Row(children: [
+                const Icon(Icons.analytics_outlined, color: AppColors.navy, size: 25),
+                const SizedBox(width: 10),
+                const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text('تحليل الأداء', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
+                  SizedBox(height: 3),
+                  Text('اكتشف الموضوعات الأكثر ظهوراً في سجل أخطائك.', style: TextStyle(color: AppColors.muted, fontSize: 10)),
                 ])),
                 const Icon(Icons.chevron_left_rounded, color: AppColors.navy),
               ]),
