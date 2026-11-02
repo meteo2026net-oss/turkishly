@@ -58,7 +58,8 @@ const _scenarios = <_Scenario>[
     _Turn('Müdür', 'Geçen hafta gönderdiğiniz raporu inceledim.', 'راجعت التقرير الذي أرسلتموه الأسبوع الماضي.'),
     _Turn('أنت', 'Görüşleriniz benim için çok önemli.', 'ملاحظاتكم مهمة جداً بالنسبة لي.'),
     _Turn('Müdür', 'Bazı bölümlerin daha ayrıntılı açıklanması gerekiyor.', 'هناك حاجة إلى شرح بعض الأقسام بمزيد من التفصيل.', prompt: 'ما معنى ayrıntılı؟', options: ['بسرعة', 'بالتفصيل', 'باختصار'], answer: 1, note: 'Ayrıntılı تعني مفصّل أو يتضمن تفاصيل.'),
-    _Turn('أنت', 'Önerilerinizi dikkate alıp raporu güncelleyeceğim.', 'سآخذ اقتراحاتكم بعين الاعتبار وسأحدّث التقرير.', prompt: 'ما معنى dikkate almak؟', options: ['أخذ الشيء بعين الاعتبار', 'رفض الشيء', 'تأجيل الشيء'], answer: 0, note: 'Dikkate almak تعبير اصطلاحي معناه أخذ الأمر بعين الاعتبار.'),,
+    _Turn('أنت', 'Önerilerinizi dikkate alıp raporu güncelleyeceğim.', 'سآخذ اقتراحاتكم بعين الاعتبار وسأحدّث التقرير.', prompt: 'ما معنى dikkate almak؟', options: ['أخذ الشيء بعين الاعتبار', 'رفض الشيء', 'تأجيل الشيء'], answer: 0, note: 'Dikkate almak تعبير اصطلاحي معناه أخذ الأمر بعين الاعتبار.'),
+  ]),
   _Scenario('حجز فندق وحل مشكلة', 'شرح مشكلة في الحجز وطلب حل مناسب', 'B1', Icons.hotel_rounded, [
     _Turn('Resepsiyonist', 'Rezervasyonunuz iki gece için görünüyor.', 'يظهر أن حجزك لليلتين.'),
     _Turn('أنت', 'Aslında üç gece kalmam gerekiyor.', 'في الواقع أحتاج إلى الإقامة ثلاث ليالٍ.'),
@@ -82,7 +83,6 @@ const _scenarios = <_Scenario>[
     _Turn('أنت', 'Bu doğrultuda, karşılıklı yükümlülüklerin ölçülebilir göstergelerle tanımlanmasını öneriyoruz.', 'وفي هذا الاتجاه، نقترح تحديد الالتزامات المتبادلة بمؤشرات قابلة للقياس.'),
     _Turn('ممثّل الطرف الأول', 'Anlaşmazlık durumunda hangi uzlaşma mekanizmasını öngörüyorsunuz?', 'ما آلية التسوية التي تتصورونها في حال حدوث خلاف؟', prompt: 'ما معنى uzlaşma mekanizması؟', options: ['آلية التسوية', 'خطة التوظيف', 'جدول الإنتاج'], answer: 0, note: 'Uzlaşma تعني التوافق أو التسوية، وmekanizma تعني آلية.'),
     _Turn('أنت', 'Önce arabuluculuk sürecinin işletilmesini, sonuç alınamaması hâlinde bağımsız değerlendirmeye başvurulmasını uygun buluyoruz.', 'نرى أن تبدأ العملية بالوساطة، وإذا تعذر التوصل إلى نتيجة نلجأ إلى تقييم مستقل.', prompt: 'ما معنى arabuluculuk؟', options: ['الوساطة', 'المحاسبة', 'المراجعة اللغوية'], answer: 0, note: 'Arabuluculuk هي الوساطة، أي تدخل طرف محايد للمساعدة في تسوية الخلاف.'),
-  ])
   ]),
 ];
 
