@@ -167,15 +167,17 @@ class LearningProgress {
   static Future<void> recordQuizResult({required int score, required int total, String source = 'الاختبار الشامل'}) async {
     await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
-    final percent = total <= 0 ? 0 : (score * 100 ~/ total);
+    final safeTotal = total < 0 ? 0 : total;
+    final safeScore = score.clamp(0, safeTotal).toInt();
+    final percent = safeTotal == 0 ? 0 : safeScore * 100 ~/ safeTotal;
     final best = prefs.getInt(_quizBestKey) ?? 0;
     await prefs.setInt(_quizLatestKey, percent);
     if (percent > best) await prefs.setInt(_quizBestKey, percent);
     await prefs.setInt(_quizCountKey, (prefs.getInt(_quizCountKey) ?? 0) + 1);
     final history = prefs.getStringList(_quizHistoryKey) ?? <String>[];
     history.add(jsonEncode(<String, dynamic>{
-      'score': score,
-      'total': total,
+      'score': safeScore,
+      'total': safeTotal,
       'percent': percent,
       'source': source,
       'completedAt': DateTime.now().toIso8601String(),
@@ -269,6 +271,7 @@ class LearningProgress {
     String? lessonTitle,
     String? source,
   }) async {
+    await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_missedQuestionDetailsKey) ?? <String>[];
     final items = raw.map((value) {
@@ -361,15 +364,19 @@ class LearningProgress {
     final prefs = await SharedPreferences.getInstance();
     final key = '$_levelPassPrefix$level';
     final previous = prefs.getInt(key) ?? 0;
-    if (percent > previous) await prefs.setInt(key, percent);
+    final safePercent = percent.clamp(0, 100).toInt();
+    if (safePercent > previous) await prefs.setInt(key, safePercent);
   }
 
   static Future<void> recordLevelAssessmentAttempt({required String level, required int score, required int total}) async {
+    await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
     final history = prefs.getStringList(_levelHistoryKey) ?? <String>[];
-    final percent = total <= 0 ? 0 : score * 100 ~/ total;
+    final safeTotal = total < 0 ? 0 : total;
+    final safeScore = score.clamp(0, safeTotal).toInt();
+    final percent = safeTotal == 0 ? 0 : safeScore * 100 ~/ safeTotal;
     history.add(jsonEncode(<String, dynamic>{
-      'level': level, 'score': score, 'total': total, 'percent': percent,
+      'level': level, 'score': safeScore, 'total': safeTotal, 'percent': percent,
       'completedAt': DateTime.now().toIso8601String(),
     }));
     if (history.length > 100) history.removeRange(0, history.length - 100);
