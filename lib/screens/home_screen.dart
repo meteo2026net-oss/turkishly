@@ -7,6 +7,7 @@ import '../widgets/brand_mark.dart';
 import 'course_lesson_screen.dart';
 import 'vocabulary_screen.dart';
 import 'quiz_screen.dart';
+import 'level_assessment_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -240,7 +241,32 @@ class _HomeScreenState extends State<HomeScreen> {
           ]),
         ),
       ]))),
-    SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(20, 24, 20, 10),
+    SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(17, 20, 17, 12),
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          gradient: const LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft,
+            colors: [Color(0xFF102B52), Color(0xFF2676B8)]),
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: Row(children: [
+          const Icon(Icons.workspace_premium_rounded, color: Color(0xFFFFD98A), size: 31),
+          const SizedBox(width: 12),
+          const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text('تقييم المستوى A1', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 15)),
+            SizedBox(height: 4),
+            Text('اختبر أساسياتك في 10 أسئلة واحصل على تقييمك.', style: TextStyle(color: Colors.white70, fontSize: 10, height: 1.5)),
+          ])),
+          IconButton(
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute<void>(
+              builder: (_) => const LevelAssessmentScreen(level: 'A1'),
+            )),
+            icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
+            tooltip: 'ابدأ التقييم',
+          ),
+        ]),
+      ))),
+    SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(20, 12, 20, 10),
       child: _heading('مستويات المنهج', 'تدرج منظم في اللغة التركية'))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 0, 17, 25),
       sliver: SliverList(delegate: SliverChildBuilderDelegate((context, i) =>
