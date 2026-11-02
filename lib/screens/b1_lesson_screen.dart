@@ -67,7 +67,7 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
         .where((entry) => answers[entry.key] == entry.value.answer).length;
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FC),
-      appBar: AppBar(title: Text('${widget.unitId.startsWith('b2-') ? 'B2' : 'B1'} • الدرس ${lesson.globalNumber}'),
+      appBar: AppBar(title: Text('${widget.unitId.startsWith("b2-") ? "B2" : "B1"} • الدرس ${lesson.globalNumber}'),
         backgroundColor: Colors.white, foregroundColor: AppColors.darkGreen, elevation: 0),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 14, 16, 30),
