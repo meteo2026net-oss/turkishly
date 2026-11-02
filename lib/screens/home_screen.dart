@@ -313,7 +313,7 @@ class _UnitDetails extends StatelessWidget {
         itemBuilder: (context, i) => Material(color: Colors.white, borderRadius: BorderRadius.circular(16),
           child: InkWell(borderRadius: BorderRadius.circular(16), onTap: () => Navigator.of(context).push(MaterialPageRoute<void>(
             builder: (_) => CourseLessonScreen(unitId: unit.id, unitTitle: unit.titleArabic, lessonTitle: unit.lessons[i], lessonNumber: i + 1),
-          ).then((_) => onProgressChanged?.call())),
+          )).then((_) => onProgressChanged?.call())),
             child: Padding(padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 12), child: Row(children: [
               Container(width: 35, height: 35, alignment: Alignment.center, decoration: const BoxDecoration(color: Color(0xFFEAF2FF), shape: BoxShape.circle),
                 child: Text('${i + 1}', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
