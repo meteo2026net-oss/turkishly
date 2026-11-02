@@ -19,6 +19,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
   int _bestQuiz = 0;
   int _quizCount = 0;
   int _mistakes = 0;
+  int _streak = 0;
   List<Map<String, dynamic>> _quizHistory = <Map<String, dynamic>>[];
   List<Map<String, dynamic>> _levelHistory = <Map<String, dynamic>>[];
   Map<String, int> _levelBest = <String, int>{};
@@ -40,6 +41,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       LearningProgress.quizHistory(limit: 100),
       LearningProgress.levelAssessmentHistory(limit: 100),
       ...CourseCatalog.levels.map(LearningProgress.levelAssessmentBest),
+      LearningProgress.currentLearningStreak(),
     ]);
     if (!mounted) return;
     setState(() {
@@ -54,6 +56,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
         for (var i = 0; i < CourseCatalog.levels.length; i++)
           CourseCatalog.levels[i]: values[7 + i] as int,
       };
+      _streak = values[7 + CourseCatalog.levels.length] as int;
       _loading = false;
     });
   }
