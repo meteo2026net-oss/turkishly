@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Progress is stored locally on this device/browser. No personal data is sent.
@@ -10,6 +12,7 @@ class LearningProgress {
   static const _quizLatestKey = 'sara_turkii_quiz_latest_v1';
   static const _quizCountKey = 'sara_turkii_quiz_count_v1';
   static const _missedQuestionsKey = 'sara_turkii_missed_questions_v1';
+  static const _missedQuestionDetailsKey = 'sara_turkii_missed_question_details_v1';
   static const _wordReviewPrefix = 'sara_turkii_word_review_v1_';
   static const _wordStreakPrefix = 'sara_turkii_word_streak_v1_';
   static const _levelPassPrefix = 'sara_turkii_level_pass_v1_';
@@ -97,9 +100,57 @@ class LearningProgress {
     return prefs.getStringList(_missedQuestionsKey) ?? <String>[];
   }
 
+  /// Saves a complete review card while preserving the legacy prompt-only list.
+  static Future<void> recordMissedQuestionDetails({
+    required String prompt,
+    required String selectedAnswer,
+    required String correctAnswer,
+    required String explanation,
+    required String topic,
+  }) async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getStringList(_missedQuestionDetailsKey) ?? <String>[];
+    final items = raw.map((value) {
+      try {
+        return Map<String, dynamic>.from(jsonDecode(value) as Map);
+      } catch (_) {
+        return <String, dynamic>{};
+      }
+    }).where((item) => item.isNotEmpty).toList();
+    items.removeWhere((item) => item['prompt'] == prompt);
+    items.add(<String, dynamic>{
+      'prompt': prompt,
+      'selectedAnswer': selectedAnswer,
+      'correctAnswer': correctAnswer,
+      'explanation': explanation,
+      'topic': topic,
+      'updatedAt': DateTime.now().toIso8601String(),
+    });
+    await prefs.setStringList(
+      _missedQuestionDetailsKey,
+      items.map((item) => jsonEncode(item)).toList(),
+    );
+    await recordMissedQuestion(prompt);
+  }
+
+  static Future<List<Map<String, dynamic>>> missedQuestionDetails() async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getStringList(_missedQuestionDetailsKey) ?? <String>[];
+    final result = <Map<String, dynamic>>[];
+    for (final value in raw) {
+      try {
+        result.add(Map<String, dynamic>.from(jsonDecode(value) as Map));
+      } catch (_) {
+        // Ignore malformed legacy or interrupted entries safely.
+      }
+    }
+    return result;
+  }
+
   static Future<void> clearMissedQuestions() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_missedQuestionsKey);
+    await prefs.remove(_missedQuestionDetailsKey);
   }
 
   static Future<int> bestQuizScore() async {
