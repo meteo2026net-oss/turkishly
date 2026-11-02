@@ -220,6 +220,8 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                 const SizedBox(width: 9),
                 Expanded(child: _periodMetric('آخر 30 يوماً', 30)),
               ]),
+              const SizedBox(height: 12),
+              _weeklyActivityChart(),
               const SizedBox(height: 15),
               Container(
                 padding: const EdgeInsets.all(13),
@@ -247,6 +249,65 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       final date = DateTime.tryParse(item['completedAt']?.toString() ?? '');
       return date != null && !date.isBefore(cutoff) && !date.isAfter(now);
     }).toList();
+  }
+
+  Widget _weeklyActivityChart() {
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    final days = List<DateTime>.generate(
+      7, (index) => today.subtract(Duration(days: 6 - index)),
+    );
+    final events = _activitiesSince(7);
+    final counts = days.map((day) => events.where((item) {
+      final date = DateTime.tryParse(item['completedAt']?.toString() ?? '');
+      return date != null &&
+          date.year == day.year && date.month == day.month && date.day == day.day;
+    }).length).toList();
+    final maxCount = counts.fold<int>(0, (maxValue, value) =>
+        value > maxValue ? value : maxValue);
+    const labels = <String>['اث', 'ثل', 'أر', 'خم', 'جم', 'سب', 'أح'];
+    return Container(
+      padding: const EdgeInsets.fromLTRB(13, 12, 13, 10),
+      decoration: _surface(),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        const Text('توزيع النشاط اليومي', textAlign: TextAlign.right,
+          style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 12)),
+        const SizedBox(height: 12),
+        SizedBox(
+          height: 86,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: List.generate(7, (index) {
+              final count = counts[index];
+              final barHeight = maxCount == 0 ? 5.0 : 8.0 + (count / maxCount) * 42.0;
+              return Expanded(child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Text('$count', style: const TextStyle(
+                    color: AppColors.muted, fontSize: 9, fontWeight: FontWeight.w700)),
+                  const SizedBox(height: 4),
+                  Container(
+                    height: barHeight,
+                    width: 17,
+                    decoration: BoxDecoration(
+                      color: index == 6 ? AppColors.navy : const Color(0xFF78A9D8),
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                  ),
+                  const SizedBox(height: 5),
+                  Text(labels[days[index].weekday - 1],
+                    style: const TextStyle(color: AppColors.muted, fontSize: 8)),
+                ],
+              ));
+            }),
+          ),
+        ),
+        const SizedBox(height: 4),
+        const Text('عدد الاختبارات والتقييمات المسجلة في كل يوم',
+          textAlign: TextAlign.right,
+          style: TextStyle(color: AppColors.muted, fontSize: 9)),
+      ]),
+    );
   }
 
   Widget _periodMetric(String label, int days) {
