@@ -18,6 +18,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
   int _total = 0;
   int _quizBest = 0;
   int _quizCount = 0;
+  List<Map<String, dynamic>> _history = <Map<String, dynamic>>[];
 
   @override
   void initState() {
@@ -30,6 +31,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
       LearningProgress.missedQuestionDetails(),
       LearningProgress.bestQuizScore(),
       LearningProgress.quizCount(),
+      LearningProgress.quizHistory(limit: 12),
     ]);
     final details = values[0] as List<Map<String, dynamic>>;
     final counts = <String, int>{};
@@ -53,6 +55,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
       _total = details.length;
       _quizBest = values[1] as int;
       _quizCount = values[2] as int;
+      _history = values[3] as List<Map<String, dynamic>>;
       _loading = false;
     });
   }
@@ -81,6 +84,58 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
                 const SizedBox(width: 9),
                 Expanded(child: _metric('أسئلة الأخطاء', '$_total', Icons.fact_check_rounded)),
               ]),
+              const SizedBox(height: 18),
+              _section(
+                icon: Icons.show_chart_rounded,
+                title: 'سجل المحاولات الأخيرة',
+                subtitle: 'كل محاولة مكتملة تُسجّل بتاريخها ونتيجتها، بحد أقصى 100 محاولة على هذا الجهاز.',
+              ),
+              const SizedBox(height: 10),
+              if (_history.isEmpty)
+                Container(
+                  padding: const EdgeInsets.all(18),
+                  decoration: _surface(),
+                  child: const Text('ستظهر نتائجك هنا بعد إكمال الاختبار الشامل.',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(color: AppColors.muted, fontSize: 12)),
+                )
+              else ...[
+                Container(
+                  height: 150,
+                  padding: const EdgeInsets.fromLTRB(10, 14, 10, 8),
+                  decoration: _surface(),
+                  child: CustomPaint(
+                    painter: _AttemptChartPainter(_history.map((item) => (item['percent'] as num?)?.toDouble() ?? 0).toList().reversed.toList()),
+                    child: const SizedBox.expand(),
+                  ),
+                ),
+                const SizedBox(height: 9),
+                ..._history.take(8).map((attempt) {
+                  final score = (attempt['score'] as num?)?.toInt() ?? 0;
+                  final total = (attempt['total'] as num?)?.toInt() ?? 0;
+                  final percent = (attempt['percent'] as num?)?.toInt() ?? 0;
+                  final rawDate = DateTime.tryParse(attempt['completedAt']?.toString() ?? '');
+                  final date = rawDate == null ? 'تاريخ غير متاح' : '${rawDate.year}/${rawDate.month.toString().padLeft(2, '0')}/${rawDate.day.toString().padLeft(2, '0')}  ${rawDate.hour.toString().padLeft(2, '0')}:${rawDate.minute.toString().padLeft(2, '0')}';
+                  return Container(
+                    margin: const EdgeInsets.only(bottom: 7),
+                    padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 11),
+                    decoration: _surface(),
+                    child: Row(children: [
+                      Container(width: 48, height: 40, alignment: Alignment.center,
+                        decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(10)),
+                        child: Text('$percent%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
+                      const SizedBox(width: 10),
+                      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+                        Text('${attempt['source'] ?? 'اختبار'} · $score من $total',
+                          textAlign: TextAlign.right,
+                          style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w800, fontSize: 12)),
+                        const SizedBox(height: 3),
+                        Text(date, style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+                      ])),
+                    ]),
+                  );
+                }),
+              ],
               const SizedBox(height: 18),
               _section(
                 icon: Icons.track_changes_rounded,
@@ -247,4 +302,39 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
         style: const TextStyle(color: AppColors.muted, fontSize: 11, height: 1.5)),
     ],
   );
+}
+
+
+class _AttemptChartPainter extends CustomPainter {
+  _AttemptChartPainter(this.values);
+  final List<double> values;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    if (values.isEmpty) return;
+    final grid = Paint()..color = const Color(0xFFE9EEF6)..strokeWidth = 1;
+    final line = Paint()..color = const Color(0xFF2E82C7)..strokeWidth = 2.8..style = PaintingStyle.stroke..strokeCap = StrokeCap.round;
+    final dot = Paint()..color = const Color(0xFF2E82C7);
+    for (var i = 0; i <= 4; i++) {
+      final y = size.height * i / 4;
+      canvas.drawLine(Offset(0, y), Offset(size.width, y), grid);
+    }
+    final points = <Offset>[];
+    for (var i = 0; i < values.length; i++) {
+      final x = values.length == 1 ? size.width / 2 : size.width * i / (values.length - 1);
+      final y = size.height * (1 - values[i].clamp(0, 100) / 100);
+      points.add(Offset(x, y));
+    }
+    if (points.length == 1) {
+      canvas.drawCircle(points.first, 4, dot);
+    } else {
+      final path = Path()..moveTo(points.first.dx, points.first.dy);
+      for (final point in points.skip(1)) { path.lineTo(point.dx, point.dy); }
+      canvas.drawPath(path, line);
+      for (final point in points) { canvas.drawCircle(point, 3.5, dot); }
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant _AttemptChartPainter oldDelegate) => oldDelegate.values != values;
 }
