@@ -78,6 +78,26 @@ void main() {
       expect(history.single['score'], 2);
       expect(history.single['percent'], 100);
     });
+
+    test('includes conversation history in portable backups', () async {
+      await LearningProgress.recordConversationResult(
+        scenarioId: 'cafe',
+        title: 'في المقهى',
+        level: 'A1',
+        score: 1,
+        total: 2,
+      );
+      final backup = await LearningProgress.exportBackup();
+      SharedPreferences.setMockInitialValues(<String, Object>{});
+
+      final restored = await LearningProgress.restoreBackup(backup);
+      final history = await LearningProgress.conversationHistory();
+
+      expect(restored, greaterThan(0));
+      expect(history, hasLength(1));
+      expect(history.single['scenarioId'], 'cafe');
+      expect(history.single['percent'], 50);
+    });
   });
 
   group('Level assessment history', () {
