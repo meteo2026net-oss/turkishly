@@ -54,8 +54,8 @@ void main() {
       expect(history.single['score'], 8);
       expect(history.single['total'], 10);
       expect(history.single['percent'], 80);
-      expect(await LearningProgress.levelAssessmentBest('B2'), 0);
-      expect(await LearningProgress.isLevelPassed('B2'), isFalse);
+      expect(await LearningProgress.levelAssessmentBest('B2'), 80);
+      expect(await LearningProgress.isLevelPassed('B2'), isTrue);
     });
 
     test('retains the best percentage independently from attempt history', () async {
