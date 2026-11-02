@@ -1,3 +1,8 @@
+import 'package:flutter/material.dart';
+import '../data/b1_course_data.dart';
+import '../services/learning_progress.dart';
+import '../theme/app_theme.dart';
+
 class B1LessonScreen extends StatefulWidget {
   const B1LessonScreen({
     super.key, required this.unitId, required this.unitTitle,
