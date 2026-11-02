@@ -10,7 +10,7 @@ void main() {
         .toList();
 
     test('C2 now contains 210 lessons with continuous global numbering', () {
-      expect(C2CourseData.lessons, hasLength(310));
+      expect(C2CourseData.lessons, hasLength(510));
       expect(batch, hasLength(30));
       expect(
         batch.map((lesson) => lesson.globalNumber).toList()..sort(),
