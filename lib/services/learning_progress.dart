@@ -22,11 +22,35 @@ class LearningProgress {
   static const _conversationHistoryKey = 'sara_turkii_conversation_history_v1';
 
 
+  static bool _isSupportedBackupKey(String key) {
+    const fixedKeys = <String>{
+      _completedKey,
+      _learnedWordsKey,
+      _quizBestKey,
+      _quizLatestKey,
+      _quizCountKey,
+      _quizHistoryKey,
+      _missedQuestionsKey,
+      _missedQuestionDetailsKey,
+      _levelHistoryKey,
+      _activityDatesKey,
+      _conversationHistoryKey,
+    };
+    bool hasDynamicId(String prefix) =>
+        key.startsWith(prefix) && key.length > prefix.length;
+
+    return fixedKeys.contains(key) ||
+        hasDynamicId(_attemptPrefix) ||
+        hasDynamicId(_wordReviewPrefix) ||
+        hasDynamicId(_wordStreakPrefix) ||
+        hasDynamicId(_levelPassPrefix);
+  }
+
   /// Creates a portable, versioned backup of this app's learning data.
   static Future<String> exportBackup() async {
     final prefs = await SharedPreferences.getInstance();
     final values = <String, dynamic>{};
-    for (final key in prefs.getKeys().where((key) => key.startsWith('sara_turkii_'))) {
+    for (final key in prefs.getKeys().where(_isSupportedBackupKey)) {
       final value = prefs.get(key);
       if (value is String || value is int || value is double || value is bool ||
           (value is List<String>)) {
@@ -58,7 +82,7 @@ class LearningProgress {
     final prefs = await SharedPreferences.getInstance();
     var restored = 0;
     for (final entry in data.entries) {
-      if (!entry.key.startsWith('sara_turkii_')) continue;
+      if (!_isSupportedBackupKey(entry.key)) continue;
       final value = entry.value;
       var saved = false;
       if (value is String) {
