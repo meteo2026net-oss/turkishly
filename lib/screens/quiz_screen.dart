@@ -99,7 +99,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Future<void> _finish() async {
     setState(() => _saving = true);
-    await LearningProgress.recordQuizResult(score: _score, total: _questions.length);
+    await LearningProgress.recordQuizResult(score: _score, total: _questions.length, source: 'الاختبار الشامل');
     final missed = await LearningProgress.missedQuestions();
     final missedDetails = await LearningProgress.missedQuestionDetails();
     final values = await Future.wait([
