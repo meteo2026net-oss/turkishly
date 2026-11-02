@@ -6,6 +6,9 @@ class LearningProgress {
   static const _completedKey = 'sara_turkii_completed_lessons_v1';
   static const _attemptPrefix = 'sara_turkii_attempts_v1_';
   static const _learnedWordsKey = 'sara_turkii_learned_words_v1';
+  static const _quizBestKey = 'sara_turkii_quiz_best_v1';
+  static const _quizLatestKey = 'sara_turkii_quiz_latest_v1';
+  static const _quizCountKey = 'sara_turkii_quiz_count_v1';
 
   static Future<Set<String>> completedLessons() async {
     final prefs = await SharedPreferences.getInstance();
@@ -41,6 +44,30 @@ class LearningProgress {
       words.remove(wordId);
     }
     await prefs.setStringList(_learnedWordsKey, words.toList());
+  }
+
+  static Future<void> recordQuizResult({required int score, required int total}) async {
+    final prefs = await SharedPreferences.getInstance();
+    final percent = total <= 0 ? 0 : (score * 100 ~/ total);
+    final best = prefs.getInt(_quizBestKey) ?? 0;
+    await prefs.setInt(_quizLatestKey, percent);
+    if (percent > best) await prefs.setInt(_quizBestKey, percent);
+    await prefs.setInt(_quizCountKey, (prefs.getInt(_quizCountKey) ?? 0) + 1);
+  }
+
+  static Future<int> bestQuizScore() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_quizBestKey) ?? 0;
+  }
+
+  static Future<int> latestQuizScore() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_quizLatestKey) ?? 0;
+  }
+
+  static Future<int> quizCount() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_quizCountKey) ?? 0;
   }
 
   static Future<int> attemptsFor(String lessonId) async {
