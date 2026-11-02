@@ -41,8 +41,8 @@ void main() {
     });
 
     test('rejects unsupported formats and oversized payloads', () async {
-      expect(() => LearningProgress.restoreBackup('{"format":"unknown","version":1,"data":{}}'), throwsFormatException);
-      expect(() => LearningProgress.restoreBackup(List<String>.filled(5 * 1024 * 1024 + 1, 'x').join()), throwsFormatException);
+      await expectLater(LearningProgress.restoreBackup('{"format":"unknown","version":1,"data":{}}'), throwsFormatException);
+      await expectLater(LearningProgress.restoreBackup(List<String>.filled(5 * 1024 * 1024 + 1, 'x').join()), throwsFormatException);
     });
   });
 }
