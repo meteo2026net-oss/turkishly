@@ -18,6 +18,10 @@ class _HomeScreenState extends State<HomeScreen> {
   int tab = 0;
   String query = '';
   Set<String> completedLessonIds = <String>{};
+  int learnedWordCount = 0;
+  int bestQuiz = 0;
+  int latestQuiz = 0;
+  int quizAttempts = 0;
   List<CourseUnit> get units => CourseCatalog.units;
 
   @override
@@ -27,8 +31,21 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadProgress() async {
-    final saved = await LearningProgress.completedLessons();
-    if (mounted) setState(() => completedLessonIds = saved);
+    final values = await Future.wait([
+      LearningProgress.completedLessons(),
+      LearningProgress.learnedWords(),
+      LearningProgress.bestQuizScore(),
+      LearningProgress.latestQuizScore(),
+      LearningProgress.quizCount(),
+    ]);
+    if (!mounted) return;
+    setState(() {
+      completedLessonIds = values[0] as Set<String>;
+      learnedWordCount = (values[1] as Set<String>).length;
+      bestQuiz = values[2] as int;
+      latestQuiz = values[3] as int;
+      quizAttempts = values[4] as int;
+    });
   }
 
   bool _unitIsComplete(CourseUnit unit) => unit.lessons.asMap().entries.every(
@@ -193,6 +210,36 @@ class _HomeScreenState extends State<HomeScreen> {
           style: TextStyle(color: AppColors.muted, height: 1.6, fontSize: 12)),
       ]),
     ))),
+    SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(17, 20, 17, 0),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        const Text('ملخص تعلمك', textAlign: TextAlign.right,
+          style: TextStyle(color: AppColors.darkGreen, fontSize: 18, fontWeight: FontWeight.w900)),
+        const SizedBox(height: 5),
+        const Text('إحصاءات محفوظة على هذا الجهاز', textAlign: TextAlign.right,
+          style: TextStyle(color: AppColors.muted, fontSize: 11)),
+        const SizedBox(height: 12),
+        Row(children: [
+          Expanded(child: _progressMetric(Icons.menu_book_rounded, '${completedLessonIds.length}', 'دروس مكتملة')),
+          const SizedBox(width: 9),
+          Expanded(child: _progressMetric(Icons.translate_rounded, '${learnedWordCount}', 'كلمات متقنة')),
+        ]),
+        const SizedBox(height: 9),
+        Row(children: [
+          Expanded(child: _progressMetric(Icons.emoji_events_rounded, '${bestQuiz}%', 'أفضل نتيجة')),
+          const SizedBox(width: 9),
+          Expanded(child: _progressMetric(Icons.quiz_rounded, '${quizAttempts}', 'اختبارات مكتملة')),
+        ]),
+        const SizedBox(height: 9),
+        Container(padding: const EdgeInsets.all(14),
+          decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(16)),
+          child: Row(children: [
+            const Icon(Icons.trending_up_rounded, color: AppColors.navy),
+            const SizedBox(width: 9),
+            Expanded(child: Text('آخر نتيجة اختبار: ${latestQuiz}% — استمر في التدريب لتحسين مستواك.',
+              textAlign: TextAlign.right, style: const TextStyle(color: AppColors.navy, fontSize: 11, height: 1.5, fontWeight: FontWeight.w700))),
+          ]),
+        ),
+      ]))),
     SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(20, 24, 20, 10),
       child: _heading('مستويات المنهج', 'تدرج منظم في اللغة التركية'))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 0, 17, 25),
@@ -200,6 +247,22 @@ class _HomeScreenState extends State<HomeScreen> {
         Padding(padding: const EdgeInsets.only(bottom: 9), child: _levelTile(CourseCatalog.levels[i])),
         childCount: CourseCatalog.levels.length))),
   ]);
+
+  Widget _progressMetric(IconData icon, String value, String label) => Container(
+    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 15),
+    decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(17),
+      border: Border.all(color: AppColors.border)),
+    child: Row(children: [
+      Container(width: 36, height: 36, decoration: BoxDecoration(
+        color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(11)),
+        child: Icon(icon, color: AppColors.navy, size: 19)),
+      const SizedBox(width: 9),
+      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+        Text(value, style: const TextStyle(color: AppColors.darkGreen, fontSize: 18, fontWeight: FontWeight.w900)),
+        Text(label, textAlign: TextAlign.right, style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+      ])),
+    ]),
+  );
 
   Widget _levelTile(String level) {
     final count = units.where((u) => u.level == level).length;
