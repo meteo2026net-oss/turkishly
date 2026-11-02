@@ -18,6 +18,7 @@ class LearningProgress {
   static const _wordStreakPrefix = 'sara_turkii_word_streak_v1_';
   static const _levelPassPrefix = 'sara_turkii_level_pass_v1_';
   static const _levelHistoryKey = 'sara_turkii_level_assessment_history_v1';
+  static const _activityDatesKey = 'sara_turkii_learning_activity_dates_v1';
 
 
   /// Creates a portable, versioned backup of this app's learning data.
@@ -75,6 +76,31 @@ class LearningProgress {
     return restored;
   }
 
+  /// Records one local calendar-day learning activity without sending data anywhere.
+  static Future<void> recordLearningActivity() async {
+    final prefs = await SharedPreferences.getInstance();
+    final now = DateTime.now();
+    final today = '${now.year.toString().padLeft(4, '0')}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
+    final dates = (prefs.getStringList(_activityDatesKey) ?? <String>[]).toSet()..add(today);
+    final sorted = dates.toList()..sort();
+    if (sorted.length > 400) sorted.removeRange(0, sorted.length - 400);
+    await prefs.setStringList(_activityDatesKey, sorted);
+  }
+
+  /// Counts consecutive active days ending today, or yesterday if today has not yet been used.
+  static Future<int> currentLearningStreak() async {
+    final prefs = await SharedPreferences.getInstance();
+    final dates = (prefs.getStringList(_activityDatesKey) ?? <String>[]).toSet();
+    var cursor = DateTime.now();
+    String key(DateTime value) => '${value.year.toString().padLeft(4, '0')}-${value.month.toString().padLeft(2, '0')}-${value.day.toString().padLeft(2, '0')}';
+    if (!dates.contains(key(cursor))) cursor = cursor.subtract(const Duration(days: 1));
+    var streak = 0;
+    while (dates.contains(key(cursor))) {
+      streak++;
+      cursor = cursor.subtract(const Duration(days: 1));
+    }
+    return streak;
+  }
   static Future<Set<String>> completedLessons() async {
     final prefs = await SharedPreferences.getInstance();
     return (prefs.getStringList(_completedKey) ?? <String>[]).toSet();
@@ -87,6 +113,7 @@ class LearningProgress {
   }
 
   static Future<void> completeLesson(String lessonId) async {
+    await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
     final lessons = prefs.getStringList(_completedKey) ?? <String>[];
     if (!lessons.contains(lessonId)) {
@@ -114,6 +141,7 @@ class LearningProgress {
   /// Records recall quality and schedules the next local review.
   /// Successful recall intervals grow gradually; missed words return to today's queue.
   static Future<void> recordWordReview(String wordId, {required bool recalled}) async {
+    await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
     final streakKey = '$_wordStreakPrefix$wordId';
     final streak = recalled ? (prefs.getInt(streakKey) ?? 0) + 1 : 0;
@@ -136,6 +164,7 @@ class LearningProgress {
   }
 
   static Future<void> recordQuizResult({required int score, required int total, String source = 'الاختبار الشامل'}) async {
+    await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
     final percent = total <= 0 ? 0 : (score * 100 ~/ total);
     final best = prefs.getInt(_quizBestKey) ?? 0;
