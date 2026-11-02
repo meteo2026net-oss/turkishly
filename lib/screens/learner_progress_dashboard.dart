@@ -455,33 +455,92 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
     return events.take(8).toList();
   }
 
+  void _showActivityDetails(Map<String, dynamic> item) {
+    final date = DateTime.tryParse(item['completedAt']?.toString() ?? '');
+    final score = (item['score'] as num?)?.toInt() ?? 0;
+    final total = (item['total'] as num?)?.toInt() ?? 0;
+    final percent = (item['percent'] as num?)?.toInt() ?? 0;
+    final isQuiz = item['eventType'] == 'اختبار';
+    final dateLabel = date == null
+        ? 'تاريخ غير متاح'
+        : '${date.year}/${date.month.toString().padLeft(2, '0')}/${date.day.toString().padLeft(2, '0')} · ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}';
+    showDialog<void>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: Text('${item['eventTitle']}', textAlign: TextAlign.right,
+          style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900)),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Center(child: Text('$percent%',
+              style: const TextStyle(color: AppColors.navy, fontSize: 34, fontWeight: FontWeight.w900))),
+            const SizedBox(height: 12),
+            _detailRow('نوع النشاط', isQuiz ? 'اختبار شامل' : 'تقييم مستوى'),
+            _detailRow('النتيجة', total > 0 ? '$score من $total' : 'غير متاحة'),
+            _detailRow('النسبة', '$percent%'),
+            _detailRow('التاريخ والوقت', dateLabel),
+            if (item['level'] != null) _detailRow('المستوى', '${item['level']}'),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(dialogContext).pop(),
+            child: const Text('إغلاق'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _detailRow(String label, String value) => Padding(
+    padding: const EdgeInsets.symmetric(vertical: 5),
+    child: Row(children: [
+      Expanded(child: Text(value, textAlign: TextAlign.left,
+        style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w700, fontSize: 11))),
+      const SizedBox(width: 10),
+      Text(label, textAlign: TextAlign.right,
+        style: const TextStyle(color: AppColors.muted, fontSize: 11)),
+    ]),
+  );
+
   Widget _activityTile(Map<String, dynamic> item) {
     final date = DateTime.tryParse(item['completedAt']?.toString() ?? '');
     final dateLabel = date == null
         ? 'تاريخ غير متاح'
         : '${date.year}/${date.month.toString().padLeft(2, '0')}/${date.day.toString().padLeft(2, '0')} · ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}';
     final percent = (item['percent'] as num?)?.toInt() ?? 0;
-    return Container(
-      margin: const EdgeInsets.only(bottom: 7),
-      padding: const EdgeInsets.all(12),
-      decoration: _surface(),
-      child: Row(children: [
-        Container(
-          width: 34, height: 34,
-          decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(10)),
-          child: Icon(item['eventType'] == 'اختبار' ? Icons.quiz_rounded : Icons.assessment_rounded,
-            color: AppColors.navy, size: 18),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(16),
+        onTap: () => _showActivityDetails(item),
+        child: Container(
+          margin: const EdgeInsets.only(bottom: 7),
+          padding: const EdgeInsets.all(12),
+          decoration: _surface(),
+          child: Row(children: [
+            Container(
+              width: 34, height: 34,
+              decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(10)),
+              child: Icon(item['eventType'] == 'اختبار' ? Icons.quiz_rounded : Icons.assessment_rounded,
+                color: AppColors.navy, size: 18),
+            ),
+            const SizedBox(width: 10),
+            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+              Text('${item['eventTitle']}', textAlign: TextAlign.right,
+                style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 11)),
+              Text(dateLabel, textAlign: TextAlign.right,
+                style: const TextStyle(color: AppColors.muted, fontSize: 9)),
+              const Text('اضغط لعرض تفاصيل النشاط', textAlign: TextAlign.right,
+                style: TextStyle(color: Color(0xFF4382B8), fontSize: 9)),
+            ])),
+            const SizedBox(width: 8),
+            Text('$percent%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900)),
+          ]),
         ),
-        const SizedBox(width: 10),
-        Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-          Text('${item['eventTitle']}', textAlign: TextAlign.right,
-            style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 11)),
-          Text(dateLabel, textAlign: TextAlign.right,
-            style: const TextStyle(color: AppColors.muted, fontSize: 9)),
-        ])),
-        const SizedBox(width: 8),
-        Text('$percent%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900)),
-      ]),
+      ),
     );
   }
 
