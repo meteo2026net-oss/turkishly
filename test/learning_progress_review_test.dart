@@ -40,6 +40,38 @@ void main() {
     });
   });
 
+  group('Adaptive review recommendations', () {
+    test('ranks recurring missed topics by frequency and limits the result', () async {
+      Future<void> save(String prompt, String topic) =>
+          LearningProgress.recordMissedQuestionDetails(
+            prompt: prompt,
+            selectedAnswer: 'wrong',
+            correctAnswer: 'right',
+            explanation: 'review',
+            topic: topic,
+          );
+
+      await save('question-1', 'الأفعال والتصريف');
+      await save('question-2', 'المفردات الأساسية');
+      await save('question-3', 'الأفعال والتصريف');
+      await save('question-4', 'الأفعال والتصريف');
+      await save('question-5', 'المفردات الأساسية');
+
+      final summary = await LearningProgress.missedQuestionTopicSummary(limit: 2);
+
+      expect(summary, hasLength(2));
+      expect(summary.first['topic'], 'الأفعال والتصريف');
+      expect(summary.first['count'], 3);
+      expect(summary.last['topic'], 'المفردات الأساسية');
+      expect(summary.last['count'], 2);
+      expect(await LearningProgress.missedQuestionTopicSummary(limit: 0), isEmpty);
+    });
+
+    test('returns no recommendations when the learner has no saved mistakes', () async {
+      expect(await LearningProgress.missedQuestionTopicSummary(), isEmpty);
+    });
+  });
+
   group('Conversation practice history', () {
     test('persists completed scenario scores and returns newest attempts first', () async {
       await LearningProgress.recordConversationResult(
