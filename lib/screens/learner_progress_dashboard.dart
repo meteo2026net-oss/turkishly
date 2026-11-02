@@ -164,6 +164,10 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
               if (_quizHistory.isNotEmpty) ...[
                 _quizPerformanceComparison(),
                 const SizedBox(height: 12),
+                if (_quizHistory.length >= 2) ...[
+                  _quizTrendAnalysis(),
+                  const SizedBox(height: 12),
+                ],
               ],
               if (_quizHistory.isNotEmpty) ...[
                 const SizedBox(height: 7),
@@ -388,6 +392,111 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
           const SizedBox(height: 5),
           const Text(
             'المقارنة مبنية على سجل الاختبارات المحفوظ، ولا تشمل تقييمات المستويات.',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.muted, fontSize: 9, height: 1.5)),
+        ],
+      ),
+    );
+  }
+
+  Widget _quizTrendAnalysis() {
+    final attempts = _quizHistory
+        .where((item) => DateTime.tryParse(item['completedAt']?.toString() ?? '') != null)
+        .toList()
+      ..sort((a, b) {
+        final aDate = DateTime.parse(a['completedAt'].toString());
+        final bDate = DateTime.parse(b['completedAt'].toString());
+        return aDate.compareTo(bDate);
+      });
+    final recent = attempts.length <= 5
+        ? attempts
+        : attempts.sublist(attempts.length - 5);
+    if (recent.length < 2) return const SizedBox.shrink();
+
+    final scores = recent
+        .map((item) => (item['percent'] as num?)?.toInt() ?? 0)
+        .toList();
+    final first = scores.first;
+    final latest = scores.last;
+    final change = latest - first;
+    final trendLabel = change > 0
+        ? 'تحسن بمقدار $change نقطة مئوية'
+        : change < 0
+            ? 'تراجع بمقدار ${change.abs()} نقطة مئوية'
+            : 'استقرار بين أول وآخر نتيجة';
+    final trendColor = change > 0
+        ? const Color(0xFF23866B)
+        : change < 0
+            ? const Color(0xFFB7791F)
+            : AppColors.navy;
+    final average = (scores.reduce((a, b) => a + b) / scores.length).round();
+    final maxScore = scores.fold<int>(0, (maxValue, value) =>
+        value > maxValue ? value : maxValue);
+
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: _surface(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          const Text('اتجاه أداء آخر الاختبارات',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.darkGreen,
+              fontWeight: FontWeight.w900, fontSize: 13)),
+          const SizedBox(height: 5),
+          const Text('تسلسل آخر خمس محاولات مسجلة زمنياً',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.muted, fontSize: 9)),
+          const SizedBox(height: 12),
+          SizedBox(
+            height: 112,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: List.generate(recent.length, (index) {
+                final score = scores[index];
+                final barHeight = 12.0 + (score / 100) * 66.0;
+                return Expanded(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Text('$score%',
+                        style: const TextStyle(color: AppColors.navy,
+                          fontSize: 9, fontWeight: FontWeight.w800)),
+                      const SizedBox(height: 4),
+                      Container(
+                        height: barHeight,
+                        width: 22,
+                        decoration: BoxDecoration(
+                          color: index == recent.length - 1
+                              ? const Color(0xFF23866B)
+                              : const Color(0xFF78A9D8),
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                      ),
+                      const SizedBox(height: 5),
+                      Text('اختبار ${index + 1}',
+                        style: const TextStyle(color: AppColors.muted, fontSize: 8)),
+                    ],
+                  ),
+                );
+              }),
+            ),
+          ),
+          const SizedBox(height: 10),
+          Row(
+            children: [
+              Expanded(
+                child: Text(trendLabel, textAlign: TextAlign.right,
+                  style: TextStyle(color: trendColor,
+                    fontSize: 10, fontWeight: FontWeight.w900)),
+              ),
+              Text('متوسط النتائج: $average%',
+                style: const TextStyle(color: AppColors.darkGreen,
+                  fontSize: 10, fontWeight: FontWeight.w800)),
+            ],
+          ),
+          const SizedBox(height: 5),
+          const Text('يعتمد التحليل على آخر النتائج ذات التاريخ المحفوظ، ولا يغيّر سجل الاختبارات.',
             textAlign: TextAlign.right,
             style: TextStyle(color: AppColors.muted, fontSize: 9, height: 1.5)),
         ],
