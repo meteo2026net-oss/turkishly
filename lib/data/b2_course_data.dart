@@ -1,6 +1,6 @@
 import 'b1_course_data.dart';
 
-/// B2 curriculum: lessons 181–210.
+/// B2 curriculum: lessons 181–300.
 /// The shared lesson/question model keeps the existing quiz and progress UI compatible.
 class B2CourseData {
   static List<String> _rotate(List<String> options, int answerIndex) =>
