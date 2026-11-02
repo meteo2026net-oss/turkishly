@@ -19,6 +19,62 @@ class LearningProgress {
   static const _levelPassPrefix = 'sara_turkii_level_pass_v1_';
   static const _levelHistoryKey = 'sara_turkii_level_assessment_history_v1';
 
+
+  /// Creates a portable, versioned backup of this app's learning data.
+  static Future<String> exportBackup() async {
+    final prefs = await SharedPreferences.getInstance();
+    final values = <String, dynamic>{};
+    for (final key in prefs.getKeys().where((key) => key.startsWith('sara_turkii_'))) {
+      final value = prefs.get(key);
+      if (value is String || value is int || value is double || value is bool ||
+          (value is List<String>)) {
+        values[key] = value;
+      }
+    }
+    return jsonEncode(<String, dynamic>{
+      'format': 'sara_turkii_learning_backup',
+      'version': 1,
+      'exportedAt': DateTime.now().toIso8601String(),
+      'data': values,
+    });
+  }
+
+  /// Restores only recognized app-prefixed keys; unrelated preferences are never touched.
+  /// Existing learning data is merged/overwritten by matching keys in the backup.
+  static Future<int> restoreBackup(String source) async {
+    if (source.length > 5 * 1024 * 1024) {
+      throw const FormatException('حجم النسخة الاحتياطية أكبر من الحد المسموح.');
+    }
+    final decoded = jsonDecode(source);
+    if (decoded is! Map<String, dynamic> ||
+        decoded['format'] != 'sara_turkii_learning_backup' ||
+        decoded['version'] != 1 ||
+        decoded['data'] is! Map) {
+      throw const FormatException('صيغة النسخة الاحتياطية غير معروفة أو غير مدعومة.');
+    }
+    final data = Map<String, dynamic>.from(decoded['data'] as Map);
+    final prefs = await SharedPreferences.getInstance();
+    var restored = 0;
+    for (final entry in data.entries) {
+      if (!entry.key.startsWith('sara_turkii_')) continue;
+      final value = entry.value;
+      var saved = false;
+      if (value is String) {
+        saved = await prefs.setString(entry.key, value);
+      } else if (value is int) {
+        saved = await prefs.setInt(entry.key, value);
+      } else if (value is double) {
+        saved = await prefs.setDouble(entry.key, value);
+      } else if (value is bool) {
+        saved = await prefs.setBool(entry.key, value);
+      } else if (value is List && value.every((item) => item is String)) {
+        saved = await prefs.setStringList(entry.key, value.cast<String>());
+      }
+      if (saved) restored++;
+    }
+    return restored;
+  }
+
   static Future<Set<String>> completedLessons() async {
     final prefs = await SharedPreferences.getInstance();
     return (prefs.getStringList(_completedKey) ?? <String>[]).toSet();
