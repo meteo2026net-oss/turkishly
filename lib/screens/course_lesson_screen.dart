@@ -324,111 +324,177 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
   Widget build(BuildContext context) {
     final lesson = LessonContent.find(widget.unitId, widget.lessonNumber - 1);
     if (lesson == null) {
-      return Scaffold(
+      return Scaffold(backgroundColor: const Color(0xFFF5F7FC),
         appBar: AppBar(title: Text('الدرس ${widget.lessonNumber}')),
-        body: const Center(child: Text('محتوى هذا الدرس غير متاح حالياً.')),
-      );
+        body: const Center(child: Text('محتوى هذا الدرس غير متاح حالياً.')));
     }
-
+    final correct = checked && selected == lesson.answer;
     return Scaffold(
-      appBar: AppBar(title: Text('الدرس ${widget.lessonNumber}')),
-      body: ListView(
-        padding: const EdgeInsets.fromLTRB(18, 8, 18, 32),
-        children: [
-          Container(
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(24),
-              gradient: const LinearGradient(
-                colors: [Color(0xFF3D9069), Color(0xFF246044)],
-              ),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text('A1 • ${widget.unitTitle} • الدرس ${widget.lessonNumber}',
-                    style: const TextStyle(color: Colors.white70)),
-                const SizedBox(height: 10),
-                Text(widget.lessonTitle,
-                    style: const TextStyle(color: Colors.white, fontSize: 21, fontWeight: FontWeight.w800, height: 1.5)),
-                const SizedBox(height: 12),
-                const Text('هدف الدرس', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800)),
-                const SizedBox(height: 5),
-                Text(lesson.goal, style: const TextStyle(color: Colors.white, height: 1.6)),
-              ],
-            ),
-          ),
-          const SizedBox(height: 16),
-          _section('الشرح', Text(lesson.explanation, style: const TextStyle(height: 1.8))),
-          _section('أمثلة وتطبيقات', Column(
-            children: lesson.examples.map((example) => Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(child: Text(example.turkish, textDirection: TextDirection.ltr,
-                    style: const TextStyle(color: AppColors.green, fontWeight: FontWeight.w800))),
-                  const SizedBox(width: 12),
-                  Expanded(child: Text(example.arabic, style: const TextStyle(color: AppColors.darkGreen))),
-                ],
-              ),
-            )).toList(),
-          )),
-          _section('اختبر فهمك', Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(lesson.question, style: const TextStyle(fontWeight: FontWeight.w800, height: 1.6)),
-              const SizedBox(height: 8),
-              ...List.generate(lesson.options.length, (index) => RadioListTile<int>(
-                value: index,
-                groupValue: selected,
-                dense: true,
-                contentPadding: EdgeInsets.zero,
-                activeColor: AppColors.green,
-                title: Text(lesson.options[index]),
-                onChanged: checked ? null : (value) => setState(() => selected = value),
-              )),
-              const SizedBox(height: 8),
-              if (!checked)
-                FilledButton(
-                  onPressed: selected == null ? null : () => setState(() => checked = true),
-                  child: const Text('تحقق من الإجابة'),
-                )
-              else ...[
-                Text(
-                  selected == lesson.answer ? 'إجابة صحيحة! أحسنت.' : 'ليست الإجابة الصحيحة. راجع الشرح ثم حاول مرة أخرى.',
-                  style: TextStyle(
-                    color: selected == lesson.answer ? AppColors.green : Colors.red.shade700,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-                const SizedBox(height: 6),
-                Text(lesson.feedback, style: const TextStyle(height: 1.6)),
-                TextButton.icon(
-                  onPressed: () => setState(() { selected = null; checked = false; }),
-                  icon: const Icon(Icons.refresh),
-                  label: const Text('إعادة المحاولة'),
-                ),
-              ],
-            ],
-          )),
-          const SizedBox(height: 10),
-          const Text('نصيحة: اقرأ الأمثلة التركية بصوت مسموع، ثم حاول تكوين جملة جديدة بنفس النمط.',
-              style: TextStyle(color: AppColors.muted, height: 1.7)),
-        ],
+      backgroundColor: const Color(0xFFF5F7FC),
+      appBar: AppBar(
+        backgroundColor: const Color(0xFFF5F7FC),
+        title: const Text('مساحة التعلّم', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
+        centerTitle: true,
+        actions: [IconButton(onPressed: () => Navigator.maybePop(context), icon: const Icon(Icons.close_rounded))],
       ),
+      body: SafeArea(bottom: false, child: ListView(
+        physics: const BouncingScrollPhysics(),
+        padding: const EdgeInsets.fromLTRB(17, 5, 17, 22),
+        children: [
+          _lessonHero(lesson),
+          const SizedBox(height: 17),
+          _sectionHeader(Icons.lightbulb_outline_rounded, 'افهم الفكرة', 'شرح مبسط للقاعدة'),
+          _surface(child: Text(lesson.explanation, style: const TextStyle(color: AppColors.darkGreen, fontSize: 14, height: 1.9))),
+          const SizedBox(height: 19),
+          _sectionHeader(Icons.auto_awesome_rounded, 'شاهد الأمثلة', 'اقرأ التركية ثم افهم معناها'),
+          ...lesson.examples.asMap().entries.map((entry) => _exampleCard(entry.key, entry.value)),
+          const SizedBox(height: 12),
+          _sectionHeader(Icons.quiz_outlined, 'تحدّي سريع', 'اختر الإجابة الصحيحة لتتأكد من فهمك'),
+          _quizCard(lesson, correct),
+          const SizedBox(height: 18),
+          Container(padding: const EdgeInsets.all(15),
+            decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(19)),
+            child: const Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Icon(Icons.tips_and_updates_outlined, color: AppColors.navy, size: 21), SizedBox(width: 10),
+              Expanded(child: Text('نصيحة: اقرأ الأمثلة التركية بصوت مسموع، ثم حاول تكوين جملة جديدة بنفس النمط.',
+                style: TextStyle(color: AppColors.darkGreen, height: 1.7, fontSize: 12, fontWeight: FontWeight.w600))),
+            ]),
+          ),
+        ],
+      )),
+      bottomNavigationBar: checked && correct ? SafeArea(top: false, child: Container(
+        padding: const EdgeInsets.fromLTRB(17, 10, 17, 12),
+        decoration: const BoxDecoration(color: Colors.white, boxShadow: [BoxShadow(color: Color(0x12000000), blurRadius: 14, offset: Offset(0, -4))]),
+        child: FilledButton.icon(onPressed: () => Navigator.maybePop(context),
+          icon: const Icon(Icons.check_circle_outline_rounded), label: const Text('أحسنت! العودة إلى قائمة الدروس'),
+          style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(50), backgroundColor: AppColors.navy,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
+        ),
+      )) : null,
     );
   }
 
-  Widget _section(String title, Widget child) => Card(
-    margin: const EdgeInsets.only(bottom: 14),
-    child: Padding(
-      padding: const EdgeInsets.all(16),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text(title, style: const TextStyle(color: AppColors.darkGreen, fontSize: 17, fontWeight: FontWeight.w800)),
-        const SizedBox(height: 12),
-        child,
+  Widget _lessonHero(LessonContent lesson) => Container(
+    padding: const EdgeInsets.all(20),
+    decoration: BoxDecoration(borderRadius: BorderRadius.circular(27),
+      gradient: const LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft,
+        colors: [Color(0xFF102B52), Color(0xFF174E91), Color(0xFF2676B8)]),
+      boxShadow: [BoxShadow(color: const Color(0xFF123D70).withValues(alpha: .17), blurRadius: 20, offset: const Offset(0, 9))]),
+    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Row(children: [
+        Container(padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+          decoration: BoxDecoration(color: Colors.white.withValues(alpha: .13), borderRadius: BorderRadius.circular(20)),
+          child: Text('${widget.unitTitle}  •  الدرس ${widget.lessonNumber}',
+            style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w800))),
+        const Spacer(), const Icon(Icons.menu_book_rounded, color: Color(0xFFFFD98A), size: 23),
       ]),
-    ),
+      const SizedBox(height: 17),
+      Text(widget.lessonTitle, style: const TextStyle(color: Colors.white, fontSize: 23, fontWeight: FontWeight.w900, height: 1.45)),
+      const SizedBox(height: 15), Container(height: 1, color: Colors.white.withValues(alpha: .18)),
+      const SizedBox(height: 13),
+      const Text('هدفك في هذا الدرس', style: TextStyle(color: Color(0xFFFFD98A), fontSize: 12, fontWeight: FontWeight.w900)),
+      const SizedBox(height: 6),
+      Text(lesson.goal, style: const TextStyle(color: Colors.white, fontSize: 13, height: 1.75)),
+    ]),
+  );
+
+  Widget _sectionHeader(IconData icon, String title, String subtitle) => Padding(
+    padding: const EdgeInsets.only(bottom: 10),
+    child: Row(children: [
+      Container(width: 37, height: 37, decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(12)),
+        child: Icon(icon, color: AppColors.navy, size: 20)),
+      const SizedBox(width: 10),
+      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Text(title, style: const TextStyle(color: AppColors.darkGreen, fontSize: 17, fontWeight: FontWeight.w900)),
+        const SizedBox(height: 2), Text(subtitle, style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+      ])),
+    ]),
+  );
+
+  Widget _surface({required Widget child}) => Container(
+    padding: const EdgeInsets.all(16),
+    decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(20), border: Border.all(color: AppColors.border)),
+    child: child,
+  );
+
+  Widget _exampleCard(int index, LessonExample example) => Container(
+    margin: const EdgeInsets.only(bottom: 9), padding: const EdgeInsets.all(14),
+    decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(18), border: Border.all(color: AppColors.border)),
+    child: Row(children: [
+      Container(width: 30, height: 30, alignment: Alignment.center,
+        decoration: const BoxDecoration(color: Color(0xFFEAF2FF), shape: BoxShape.circle),
+        child: Text('${index + 1}', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 11))),
+      const SizedBox(width: 11),
+      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Text(example.turkish, textDirection: TextDirection.ltr, style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 15)),
+        const SizedBox(height: 5), Text(example.arabic, style: const TextStyle(color: AppColors.muted, fontSize: 12, height: 1.5)),
+      ])),
+      const Icon(Icons.volume_up_outlined, color: AppColors.muted, size: 19),
+    ]),
+  );
+
+  Widget _quizCard(LessonContent lesson, bool correct) => Container(
+    padding: const EdgeInsets.all(16),
+    decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(22), border: Border.all(color: AppColors.border)),
+    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Row(children: [
+        const Icon(Icons.flag_outlined, color: AppColors.navy, size: 18), const SizedBox(width: 7),
+        const Text('سؤال الدرس', style: TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w800)),
+        const Spacer(), Text('${lesson.options.length} خيارات', style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+      ]),
+      const SizedBox(height: 10),
+      Text(lesson.question, style: const TextStyle(color: AppColors.darkGreen, fontSize: 15, fontWeight: FontWeight.w900, height: 1.65)),
+      const SizedBox(height: 13),
+      ...List.generate(lesson.options.length, (index) {
+        final isSelected = selected == index;
+        final isAnswer = index == lesson.answer;
+        final showAnswer = checked && isAnswer;
+        final showWrong = checked && isSelected && !isAnswer;
+        final bg = showAnswer ? const Color(0xFFE8F7EF) : showWrong ? const Color(0xFFFFEEEE) : isSelected ? const Color(0xFFEAF2FF) : const Color(0xFFF8FAFD);
+        final border = showAnswer ? const Color(0xFF49A879) : showWrong ? const Color(0xFFE57373) : isSelected ? AppColors.navy : AppColors.border;
+        return Padding(padding: const EdgeInsets.only(bottom: 8), child: InkWell(
+          borderRadius: BorderRadius.circular(15), onTap: checked ? null : () => setState(() => selected = index),
+          child: AnimatedContainer(duration: const Duration(milliseconds: 160), padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 13),
+            decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(15), border: Border.all(color: border, width: isSelected || showAnswer ? 1.4 : 1)),
+            child: Row(children: [
+              Container(width: 27, height: 27, alignment: Alignment.center, decoration: BoxDecoration(color: Colors.white.withValues(alpha: .85), shape: BoxShape.circle),
+                child: Text(String.fromCharCode(65 + index), style: const TextStyle(color: AppColors.navy, fontSize: 11, fontWeight: FontWeight.w900))),
+              const SizedBox(width: 10),
+              Expanded(child: Text(lesson.options[index], style: const TextStyle(color: AppColors.darkGreen, fontSize: 13, fontWeight: FontWeight.w700))),
+              if (showAnswer) const Icon(Icons.check_circle_rounded, color: Color(0xFF29945F), size: 20),
+              if (showWrong) const Icon(Icons.cancel_rounded, color: Color(0xFFD95757), size: 20),
+              if (!checked && isSelected) const Icon(Icons.radio_button_checked_rounded, color: AppColors.navy, size: 20),
+            ]),
+          ),
+        ));
+      }),
+      const SizedBox(height: 8),
+      if (!checked) SizedBox(width: double.infinity, child: FilledButton(
+        onPressed: selected == null ? null : () => setState(() => checked = true),
+        style: FilledButton.styleFrom(backgroundColor: AppColors.navy, minimumSize: const Size.fromHeight(49),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
+        child: const Text('تحقق من الإجابة', style: TextStyle(fontWeight: FontWeight.w900)),
+      )) else ...[
+        Container(width: double.infinity, padding: const EdgeInsets.all(13),
+          decoration: BoxDecoration(color: correct ? const Color(0xFFE8F7EF) : const Color(0xFFFFF3E8), borderRadius: BorderRadius.circular(14)),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Row(children: [
+              Icon(correct ? Icons.celebration_rounded : Icons.info_outline_rounded,
+                color: correct ? const Color(0xFF29945F) : const Color(0xFFB76A24), size: 19),
+              const SizedBox(width: 7),
+              Text(correct ? 'إجابة صحيحة! أحسنت' : 'حاول مرة أخرى',
+                style: TextStyle(color: correct ? const Color(0xFF247A50) : const Color(0xFF9A5B20), fontWeight: FontWeight.w900, fontSize: 13)),
+            ]),
+            const SizedBox(height: 6), Text(lesson.feedback, style: const TextStyle(color: AppColors.darkGreen, fontSize: 12, height: 1.6)),
+          ]),
+        ),
+        if (!correct) Padding(padding: const EdgeInsets.only(top: 8), child: SizedBox(width: double.infinity,
+          child: OutlinedButton.icon(onPressed: () => setState(() { selected = null; checked = false; }),
+            icon: const Icon(Icons.refresh_rounded), label: const Text('إعادة المحاولة'),
+            style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(46), foregroundColor: AppColors.navy,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14))),
+          ))),
+      ],
+    ]),
   );
 }
