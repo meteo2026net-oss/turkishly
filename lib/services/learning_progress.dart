@@ -10,6 +10,8 @@ class LearningProgress {
   static const _quizLatestKey = 'sara_turkii_quiz_latest_v1';
   static const _quizCountKey = 'sara_turkii_quiz_count_v1';
   static const _missedQuestionsKey = 'sara_turkii_missed_questions_v1';
+  static const _wordReviewPrefix = 'sara_turkii_word_review_v1_';
+  static const _wordStreakPrefix = 'sara_turkii_word_streak_v1_';
 
   static Future<Set<String>> completedLessons() async {
     final prefs = await SharedPreferences.getInstance();
@@ -45,6 +47,30 @@ class LearningProgress {
       words.remove(wordId);
     }
     await prefs.setStringList(_learnedWordsKey, words.toList());
+  }
+
+  /// Records recall quality and schedules the next local review.
+  /// Successful recall intervals grow gradually; missed words return to today's queue.
+  static Future<void> recordWordReview(String wordId, {required bool recalled}) async {
+    final prefs = await SharedPreferences.getInstance();
+    final streakKey = '$_wordStreakPrefix$wordId';
+    final streak = recalled ? (prefs.getInt(streakKey) ?? 0) + 1 : 0;
+    const intervals = <int>[1, 3, 7, 14, 30];
+    final days = recalled ? intervals[(streak - 1).clamp(0, intervals.length - 1)] : 0;
+    final due = DateTime.now().add(Duration(days: days)).millisecondsSinceEpoch;
+    await prefs.setInt(streakKey, streak);
+    await prefs.setInt('$_wordReviewPrefix$wordId', due);
+  }
+
+  static Future<DateTime?> wordReviewDueAt(String wordId) async {
+    final prefs = await SharedPreferences.getInstance();
+    final value = prefs.getInt('$_wordReviewPrefix$wordId');
+    return value == null ? null : DateTime.fromMillisecondsSinceEpoch(value);
+  }
+
+  static Future<int> wordReviewStreak(String wordId) async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt('$_wordStreakPrefix$wordId') ?? 0;
   }
 
   static Future<void> recordQuizResult({required int score, required int total}) async {
