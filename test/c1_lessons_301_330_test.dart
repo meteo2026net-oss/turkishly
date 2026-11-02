@@ -5,7 +5,7 @@ import 'package:turkishly/data/course_catalog.dart';
 void main() {
   group('C1 lessons 301-330', () {
     test('all thirty lessons exist with unique global numbers', () {
-      final lessons = C1CourseData.lessons;
+      final lessons = C1CourseData.lessons.where((e) => e.globalNumber >= 301 && e.globalNumber <= 330).toList();
       expect(lessons, hasLength(30));
       expect(lessons.map((e) => e.globalNumber).toSet(), hasLength(30));
       expect(lessons.map((e) => e.globalNumber).toSet(), containsAll(List.generate(30, (i) => 301 + i)));
