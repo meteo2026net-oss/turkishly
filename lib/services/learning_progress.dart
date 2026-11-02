@@ -107,6 +107,9 @@ class LearningProgress {
     required String correctAnswer,
     required String explanation,
     required String topic,
+    String? unitId,
+    int? lessonNumber,
+    String? lessonTitle,
   }) async {
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_missedQuestionDetailsKey) ?? <String>[];
@@ -124,6 +127,9 @@ class LearningProgress {
       'correctAnswer': correctAnswer,
       'explanation': explanation,
       'topic': topic,
+      if (unitId != null) 'unitId': unitId,
+      if (lessonNumber != null) 'lessonNumber': lessonNumber,
+      if (lessonTitle != null) 'lessonTitle': lessonTitle,
       'updatedAt': DateTime.now().toIso8601String(),
     });
     await prefs.setStringList(
