@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:turkishly/screens/conversation_practice_screen.dart';
+import 'package:turkishly/services/learning_progress.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -40,5 +41,9 @@ void main() {
 
     expect(find.text('أحسنت! أنهيت المحادثة'), findsOneWidget);
     expect(find.text('2 من 2 إجابات صحيحة'), findsOneWidget);
+    final history = await LearningProgress.conversationHistory();
+    expect(history, hasLength(1));
+    expect(history.single['title'], 'التعارف لأول مرة');
+    expect(history.single['percent'], 100);
   });
 }
