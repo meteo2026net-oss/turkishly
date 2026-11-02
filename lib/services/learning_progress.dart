@@ -110,6 +110,7 @@ class LearningProgress {
     String? unitId,
     int? lessonNumber,
     String? lessonTitle,
+    String? source,
   }) async {
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_missedQuestionDetailsKey) ?? <String>[];
@@ -127,6 +128,7 @@ class LearningProgress {
       'correctAnswer': correctAnswer,
       'explanation': explanation,
       'topic': topic,
+      if (source != null) 'source': source,
       if (unitId != null) 'unitId': unitId,
       if (lessonNumber != null) 'lessonNumber': lessonNumber,
       if (lessonTitle != null) 'lessonTitle': lessonTitle,
