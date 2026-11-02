@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../theme/app_theme.dart';
+import '../services/learning_progress.dart';
 
 class LessonExample {
   const LessonExample(this.turkish, this.arabic);
@@ -320,6 +321,14 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
   int? selected;
   bool checked = false;
 
+  Future<void> _checkAnswer(LessonContent lesson) async {
+    final answerIsCorrect = selected == lesson.answer;
+    setState(() => checked = true);
+    final lessonId = '${widget.unitId}-${widget.lessonNumber}';
+    await LearningProgress.recordAttempt(lessonId);
+    if (answerIsCorrect) await LearningProgress.completeLesson(lessonId);
+  }
+
   @override
   Widget build(BuildContext context) {
     final lesson = LessonContent.find(widget.unitId, widget.lessonNumber - 1);
@@ -470,7 +479,7 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
       }),
       const SizedBox(height: 8),
       if (!checked) SizedBox(width: double.infinity, child: FilledButton(
-        onPressed: selected == null ? null : () => setState(() => checked = true),
+        onPressed: selected == null ? null : () => _checkAnswer(lesson),
         style: FilledButton.styleFrom(backgroundColor: AppColors.navy, minimumSize: const Size.fromHeight(49),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
         child: const Text('تحقق من الإجابة', style: TextStyle(fontWeight: FontWeight.w900)),
