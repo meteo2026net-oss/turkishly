@@ -155,6 +155,8 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
               if (_levelHistory.isNotEmpty) ...[
                 const SizedBox(height: 8),
                 _levelPerformanceBreakdown(),
+                const SizedBox(height: 12),
+                _levelTrendAnalysis(),
               ],
               const SizedBox(height: 12),
               _heading('الاختبارات والمراجعة', 'ملخص المحاولات وسجل الأخطاء'),
@@ -399,6 +401,117 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
             );
           }),
           const Text('النتائج محسوبة من سجل تقييمات المستوى فقط، ولا تتضمن الاختبارات الشاملة.',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.muted, fontSize: 9, height: 1.5)),
+        ],
+      ),
+    );
+  }
+
+  Widget _levelTrendAnalysis() {
+    final rows = CourseCatalog.levels.map((level) {
+      final attempts = _levelHistory
+          .where((item) => item['level']?.toString() == level)
+          .where((item) => DateTime.tryParse(item['completedAt']?.toString() ?? '') != null)
+          .toList();
+      attempts.sort((a, b) {
+        final ad = DateTime.parse(a['completedAt'].toString());
+        final bd = DateTime.parse(b['completedAt'].toString());
+        return ad.compareTo(bd);
+      });
+      final recent = attempts.length > 5
+          ? attempts.sublist(attempts.length - 5)
+          : attempts;
+      if (recent.isEmpty) return null;
+      final scores = recent
+          .map((item) => (item['percent'] as num?)?.toInt().clamp(0, 100) ?? 0)
+          .toList();
+      return <String, dynamic>{
+        'level': level,
+        'scores': scores,
+        'change': scores.last - scores.first,
+      };
+    }).whereType<Map<String, dynamic>>().toList();
+
+    if (rows.isEmpty) return const SizedBox.shrink();
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: _surface(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          const Text('اتجاه نتائج تقييمات المستويات',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.darkGreen,
+              fontWeight: FontWeight.w900, fontSize: 13)),
+          const SizedBox(height: 5),
+          const Text('آخر خمس محاولات مؤرخة لكل مستوى، مرتبة من الأقدم إلى الأحدث.',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.muted, fontSize: 9)),
+          const SizedBox(height: 12),
+          ...rows.map((row) {
+            final level = row['level'] as String;
+            final scores = row['scores'] as List<int>;
+            final change = row['change'] as int;
+            final changeLabel = change > 0
+                ? 'تحسن $change نقطة'
+                : change < 0
+                    ? 'تراجع ${change.abs()} نقطة'
+                    : 'مستقر';
+            final changeColor = change > 0
+                ? const Color(0xFF23845B)
+                : change < 0
+                    ? const Color(0xFFC45A52)
+                    : AppColors.muted;
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 13),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Row(children: [
+                    Text(changeLabel, style: TextStyle(
+                      color: changeColor, fontSize: 9, fontWeight: FontWeight.w800)),
+                    const Spacer(),
+                    Text(level, style: const TextStyle(
+                      color: AppColors.darkGreen, fontSize: 11, fontWeight: FontWeight.w900)),
+                  ]),
+                  const SizedBox(height: 8),
+                  SizedBox(
+                    height: 76,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: List.generate(scores.length, (index) {
+                        final score = scores[index];
+                        final height = 12.0 + score * 0.43;
+                        return Expanded(child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Text('$score%', style: const TextStyle(
+                              color: AppColors.muted, fontSize: 8, fontWeight: FontWeight.w700)),
+                            const SizedBox(height: 3),
+                            Container(
+                              height: height,
+                              width: 19,
+                              decoration: BoxDecoration(
+                                color: index == scores.length - 1
+                                    ? AppColors.navy
+                                    : const Color(0xFF78A9D8),
+                                borderRadius: BorderRadius.circular(5),
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Text('${index + 1}', style: const TextStyle(
+                              color: AppColors.muted, fontSize: 8)),
+                          ],
+                        ));
+                      }),
+                    ),
+                  ),
+                ],
+              ),
+            );
+          }),
+          const Text('المقارنة بين أول وآخر محاولة ضمن آخر خمس محاولات المؤرخة؛ ولا تُدمج معها نتائج الاختبارات الشاملة.',
             textAlign: TextAlign.right,
             style: TextStyle(color: AppColors.muted, fontSize: 9, height: 1.5)),
         ],
