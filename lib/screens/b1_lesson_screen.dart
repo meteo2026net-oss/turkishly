@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../data/b1_course_data.dart';
 import '../data/b2_course_data.dart';
 import '../data/c1_course_data.dart';
+import '../data/c2_course_data.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 
@@ -44,7 +45,7 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
           unitId: widget.unitId,
           lessonNumber: widget.lessonNumber,
           lessonTitle: lesson.title,
-          source: 'B1 lesson',
+          source: '${widget.unitId.split('-').first.toUpperCase()} lesson',
         );
       }
     }
@@ -57,9 +58,11 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final lesson = widget.unitId.startsWith('c1-')
-        ? C1CourseData.find(widget.unitId, widget.lessonNumber)
-        : widget.unitId.startsWith('b2-')
+    final lesson = widget.unitId.startsWith('c2-')
+        ? C2CourseData.find(widget.unitId, widget.lessonNumber)
+        : widget.unitId.startsWith('c1-')
+            ? C1CourseData.find(widget.unitId, widget.lessonNumber)
+            : widget.unitId.startsWith('b2-')
             ? B2CourseData.find(widget.unitId, widget.lessonNumber)
             : B1CourseData.find(widget.unitId, widget.lessonNumber);
     if (lesson == null) {
@@ -70,7 +73,7 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
         .where((entry) => answers[entry.key] == entry.value.answer).length;
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FC),
-      appBar: AppBar(title: Text('${widget.unitId.startsWith("b2-") ? "B2" : "B1"} • الدرس ${lesson.globalNumber}'),
+      appBar: AppBar(title: Text('${widget.unitId.split('-').first.toUpperCase()} • الدرس ${lesson.globalNumber}'),
         backgroundColor: Colors.white, foregroundColor: AppColors.darkGreen, elevation: 0),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 14, 16, 30),
