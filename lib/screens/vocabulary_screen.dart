@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
+import 'visual_vocabulary_screen.dart';
 
 class _Word {
   const _Word(this.id, this.tr, this.ar, this.example, this.translation);
@@ -113,6 +114,13 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
               const SizedBox(height: 5),
               const Text('تعلم كلمة، افهم استخدامها، ثم اختبر ذاكرتك.', style: TextStyle(color: AppColors.muted, fontSize: 12)),
               const SizedBox(height: 18),
+              const SizedBox(height: 12),
+              SizedBox(width: double.infinity, child: FilledButton.icon(
+                onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const VisualVocabularyScreen())),
+                icon: const Icon(Icons.image_search_rounded),
+                label: const Text('تدرب بالصور: اختر الكلمة واقرأها'),
+                style: FilledButton.styleFrom(backgroundColor: AppColors.navy, minimumSize: const Size.fromHeight(50)),
+              )),
               _progress(),
             ]),
           )),
