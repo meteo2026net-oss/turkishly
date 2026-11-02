@@ -18,7 +18,7 @@ class B1Lesson {
   final String title, goal, rule, dialogue, speakingTask;
   final List<String> examples;
   final List<B1Question> questions;
-  int get lessonNumber => (globalNumber - (unitId == 'b1-u1' ? 120 : unitId == 'b1-u2' ? 130 : unitId == 'b1-u3' ? 140 : unitId == 'b1-u4' ? 150 : unitId == 'b1-u5' ? 160 : unitId == 'b1-u6' ? 170 : unitId == 'b2-u1' ? 180 : unitId == 'b2-u2' ? 190 : unitId == 'b2-u3' ? 200 : unitId == 'b2-u4' ? 210 : unitId == 'b2-u5' ? 220 : unitId == 'b2-u6' ? 230 : unitId == 'b2-u7' ? 240 : unitId == 'b2-u8' ? 250 : unitId == 'b2-u9' ? 260 : unitId == 'b2-u10' ? 270 : unitId == 'b2-u11' ? 280 : 290));
+  int get lessonNumber => globalNumber - switch (unitId) { 'b1-u1' => 120, 'b1-u2' => 130, 'b1-u3' => 140, 'b1-u4' => 150, 'b1-u5' => 160, 'b1-u6' => 170, 'b2-u1' => 180, 'b2-u2' => 190, 'b2-u3' => 200, 'b2-u4' => 210, 'b2-u5' => 220, 'b2-u6' => 230, 'b2-u7' => 240, 'b2-u8' => 250, 'b2-u9' => 260, 'b2-u10' => 270, 'b2-u11' => 280, 'b2-u12' => 290, 'c1-u1' => 300, 'c1-u2' => 310, 'c1-u3' => 320, _ => globalNumber };
 }
 
 class B1CourseData {
