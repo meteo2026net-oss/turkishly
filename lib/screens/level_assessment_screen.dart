@@ -1,5 +1,11 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import '../data/b1_course_data.dart';
+import '../data/b2_course_data.dart';
+import '../data/c1_course_data.dart';
+import '../data/c2_course_data.dart';
+import '../data/course_catalog.dart';
+import '../screens/course_lesson_screen.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 
@@ -20,28 +26,57 @@ class LevelAssessmentScreen extends StatefulWidget {
 }
 
 class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
-  static const _questionBank = <_AssessmentQuestion>[
-    _AssessmentQuestion('ما معنى Günaydın؟', ['مساء الخير', 'صباح الخير', 'إلى اللقاء', 'شكراً'], 1, 'Günaydın تعني صباح الخير.'),
-    _AssessmentQuestion('اختر الضمير الذي يعني «نحن».', ['Ben', 'Sen', 'Biz', 'Onlar'], 2, 'Biz تعني نحن.'),
-    _AssessmentQuestion('ما جمع كلمة kitap؟', ['kitaplar', 'kitapler', 'kitaplarım', 'kitaplerim'], 0, 'تأخذ kitap اللاحقة -lar بسبب الانسجام الصوتي.'),
-    _AssessmentQuestion('أكمل: Ben ___ öğrenciyim.', ['bir', 'çok', 've', 'ama'], 0, 'يمكن استخدام bir هنا بمعنى طالب/واحد بحسب السياق.'),
-    _AssessmentQuestion('ما معنى Nerede؟', ['متى؟', 'لماذا؟', 'أين؟', 'كيف؟'], 2, 'Nerede تعني أين؟'),
-    _AssessmentQuestion('اختر العبارة الصحيحة: «منزلي كبير».', ['Ev büyük benim', 'Benim evim büyük', 'Büyük evim ben', 'Evim benim büyükler'], 1, 'Benim evim büyük تعني منزلي كبير.'),
-    _AssessmentQuestion('ما معنى Su؟', ['خبز', 'ماء', 'كتاب', 'منزل'], 1, 'Su تعني ماء.'),
-    _AssessmentQuestion('أي كلمة تعني «اليوم»؟', ['Yarın', 'Dün', 'Bugün', 'Sabah'], 2, 'Bugün تعني اليوم.'),
-    _AssessmentQuestion('اختر الصفة قبل الاسم في «سيارة جديدة».', ['araba yeni', 'yeni araba', 'araba yeniler', 'yenim araba'], 1, 'الصفة تسبق الاسم: yeni araba.'),
-    _AssessmentQuestion('كيف تسأل شخصاً عن اسمه؟', ['Nasılsın?', 'Adın ne?', 'Nerelisin?', 'Kaç yaşındasın?'], 1, 'Adın ne? تعني ما اسمك؟'),
-    _AssessmentQuestion('ما معنى Teşekkür ederim؟', ['عفواً', 'شكراً لك', 'تصبح على خير', 'من فضلك'], 1, 'Teşekkür ederim تعني شكراً لك.'),
-    _AssessmentQuestion('اختر الضمير الذي يعني «هم».', ['O', 'Biz', 'Siz', 'Onlar'], 3, 'Onlar تعني هم/هن.'),
-    _AssessmentQuestion('ما معنى Yarın؟', ['أمس', 'اليوم', 'غداً', 'الآن'], 2, 'Yarın تعني غداً.'),
-    _AssessmentQuestion('أكمل: Ben Türkçe ___.', ['konuşuyorum', 'konuşuyorsun', 'konuşuyoruz', 'konuşuyorlar'], 0, 'مع Ben نستخدم صيغة المتكلم: konuşuyorum.'),
-    _AssessmentQuestion('ما معنى Kaç yaşındasın؟', ['أين تسكن؟', 'كم عمرك؟', 'ما اسمك؟', 'من أين أنت؟'], 1, 'Kaç yaşındasın؟ تعني كم عمرك؟'),
-    _AssessmentQuestion('اختر النفي الصحيح: «لا أفهم».', ['Anlıyorum', 'Anlamıyorum', 'Anlamıyorsun', 'Anladım'], 1, 'Anlamıyorum تعني أنا لا أفهم.'),
-    _AssessmentQuestion('ما معنى Lütfen؟', ['شكراً', 'نعم', 'من فضلك', 'لا'], 2, 'Lütfen تعني من فضلك.'),
-    _AssessmentQuestion('اختر كلمة «كتاب».', ['Kalem', 'Defter', 'Kitap', 'Masa'], 2, 'Kitap تعني كتاب.'),
-    _AssessmentQuestion('أكمل السؤال: Sen ner___?', ['ede', 'eden', 'eyim', 'eyiz'], 0, 'Nerede تعني أين؟ وتكتب كلمة واحدة.'),
-    _AssessmentQuestion('ما معنى İyi akşamlar؟', ['صباح الخير', 'مساء الخير', 'إلى اللقاء', 'ليلة سعيدة'], 1, 'İyi akşamlar تعني مساء الخير.'),
-  ];
+  /// Builds the diagnostic pool from the actual lessons of the requested CEFR level.
+  /// A1/A2 contribute one authored question per lesson; B1-C2 contribute their
+  /// complete lesson question sets, so advanced assessments are not beginner-only.
+  static List<_AssessmentQuestion> _questionBankForLevel(String level) {
+    final pool = <_AssessmentQuestion>[];
+    for (final unit in CourseCatalog.units.where((unit) => unit.level == level)) {
+      for (var index = 0; index < unit.lessons.length; index++) {
+        switch (level) {
+          case 'A1':
+          case 'A2':
+            final lesson = LessonContent.find(unit.id, index);
+            if (lesson != null) {
+              pool.add(_AssessmentQuestion(
+                lesson.question, lesson.options, lesson.answer, lesson.feedback,
+              ));
+            }
+            break;
+          case 'B1':
+            final lesson = B1CourseData.find(unit.id, index + 1);
+            if (lesson != null) {
+              pool.addAll(lesson.questions.map((q) =>
+                _AssessmentQuestion(q.prompt, q.options, q.answer, q.explanation)));
+            }
+            break;
+          case 'B2':
+            final lesson = B2CourseData.find(unit.id, index + 1);
+            if (lesson != null) {
+              pool.addAll(lesson.questions.map((q) =>
+                _AssessmentQuestion(q.prompt, q.options, q.answer, q.explanation)));
+            }
+            break;
+          case 'C1':
+            final lesson = C1CourseData.find(unit.id, index + 1);
+            if (lesson != null) {
+              pool.addAll(lesson.questions.map((q) =>
+                _AssessmentQuestion(q.prompt, q.options, q.answer, q.explanation)));
+            }
+            break;
+          case 'C2':
+            final lesson = C2CourseData.find(unit.id, index + 1);
+            if (lesson != null) {
+              pool.addAll(lesson.questions.map((q) =>
+                _AssessmentQuestion(q.prompt, q.options, q.answer, q.explanation)));
+            }
+            break;
+        }
+      }
+    }
+    return pool;
+  }
+
   static const _questionsPerAttempt = 10;
   late List<_AssessmentQuestion> _questions;
 
@@ -60,7 +95,10 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
   }
 
   void _newQuestionSet() {
-    final pool = List<_AssessmentQuestion>.of(_questionBank)..shuffle(Random());
+    final pool = _questionBankForLevel(widget.level)..shuffle(Random());
+    if (pool.length < _questionsPerAttempt) {
+      throw StateError('Assessment bank for ${widget.level} has fewer than $_questionsPerAttempt questions.');
+    }
     _questions = pool.take(_questionsPerAttempt).toList(growable: false);
   }
 
