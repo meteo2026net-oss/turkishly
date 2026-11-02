@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:turkishly/services/learning_progress.dart';
@@ -14,15 +15,11 @@ void main() {
 
   group('Learning progress backup', () {
     test('exports only app-owned preferences in a versioned format', () async {
-      final decoded = Map<String, dynamic>.from(
-        // JSON is decoded by the service on restore; decode the exported shape here.
-        (await LearningProgress.exportBackup()).isNotEmpty
-            ? const <String, dynamic>{}
-            : const <String, dynamic>{},
-      );
-      expect(decoded, isEmpty);
       final backup = await LearningProgress.exportBackup();
-      expect(backup, contains('sara_turkii_learning_backup'));
+      final decoded = jsonDecode(backup) as Map<String, dynamic>;
+      expect(decoded['format'], 'sara_turkii_learning_backup');
+      expect(decoded['version'], 1);
+      expect(decoded['data'], isA<Map<String, dynamic>>());
       expect(backup, isNot(contains('unrelated_preference')));
     });
 
