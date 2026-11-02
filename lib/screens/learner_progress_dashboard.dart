@@ -277,7 +277,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                   item['completedAt']?.toString(),
                 )),
               ],
-              if (_quizHistory.isNotEmpty || _levelHistory.isNotEmpty) ...[
+              if (_quizHistory.isNotEmpty || _levelHistory.isNotEmpty || _conversationHistory.isNotEmpty) ...[
                 const SizedBox(height: 18),
                 _heading('السجل الزمني للتعلم', 'آخر الاختبارات والتقييمات والمحادثات المسجلة على هذا الجهاز'),
                 const SizedBox(height: 9),
@@ -396,7 +396,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
           ),
         ),
         const SizedBox(height: 4),
-        const Text('عدد الاختبارات والتقييمات المسجلة في كل يوم',
+        const Text('عدد الاختبارات والتقييمات والمحادثات المسجلة في كل يوم',
           textAlign: TextAlign.right,
           style: TextStyle(color: AppColors.muted, fontSize: 9)),
       ]),
