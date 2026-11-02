@@ -29,6 +29,7 @@ flutter build web --release --base-href /turkishly/
 ```
 
 يتم تشغيل الأوامر نفسها آلياً عبر GitHub Actions عند فتح Pull Request أو تحديث الفرع الرئيسي.
+بعد نجاح التحقق، تحفظ GitHub Actions نسخة الويب المبنية كـ artifact باسم `turkishly-web-build` لمدة 14 يوماً؛ يمكن تنزيلها من صفحة تشغيل Workflow دون نشر تلقائي للموقع.
 
 ## تنظيم المشروع
 - `lib/main.dart`: نقطة تشغيل التطبيق.
