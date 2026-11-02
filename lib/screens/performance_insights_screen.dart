@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
+import 'missed_questions_screen.dart';
 
 class PerformanceInsightsScreen extends StatefulWidget {
   const PerformanceInsightsScreen({super.key});
@@ -13,6 +14,7 @@ class PerformanceInsightsScreen extends StatefulWidget {
 class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
   bool _loading = true;
   List<MapEntry<String, int>> _topics = <MapEntry<String, int>>[];
+  List<MapEntry<String, int>> _sources = <MapEntry<String, int>>[];
   int _total = 0;
   int _quizBest = 0;
   int _quizCount = 0;
@@ -31,16 +33,23 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
     ]);
     final details = values[0] as List<Map<String, dynamic>>;
     final counts = <String, int>{};
+    final sourceCounts = <String, int>{};
     for (final item in details) {
       final topic = item['topic']?.toString().trim();
       final key = topic == null || topic.isEmpty ? 'غير مصنف' : topic;
       counts[key] = (counts[key] ?? 0) + 1;
+      final source = item['source']?.toString().trim();
+      final sourceKey = source == null || source.isEmpty ? 'مصدر غير محدد' : source;
+      sourceCounts[sourceKey] = (sourceCounts[sourceKey] ?? 0) + 1;
     }
     final topics = counts.entries.toList()
+      ..sort((a, b) => b.value.compareTo(a.value));
+    final sources = sourceCounts.entries.toList()
       ..sort((a, b) => b.value.compareTo(a.value));
     if (!mounted) return;
     setState(() {
       _topics = topics;
+      _sources = sources;
       _total = details.length;
       _quizBest = values[1] as int;
       _quizCount = values[2] as int;
@@ -121,6 +130,65 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
                     ]),
                   );
                 }),
+              const SizedBox(height: 18),
+              _section(
+                icon: Icons.source_rounded,
+                title: 'مصادر الأخطاء',
+                subtitle: 'توزيع الأسئلة المحفوظة بحسب الاختبار أو تقييم المستوى.',
+              ),
+              const SizedBox(height: 10),
+              if (_sources.isEmpty)
+                _emptySourceCard()
+              else
+                ..._sources.map((source) => Container(
+                  margin: const EdgeInsets.only(bottom: 8),
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                  decoration: _surface(),
+                  child: Row(children: [
+                    Expanded(child: Text(source.key, textAlign: TextAlign.right,
+                      style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w800, fontSize: 12))),
+                    Text('${source.value} سؤال', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 12)),
+                  ]),
+                )),
+              if (_topics.isNotEmpty) ...[
+                const SizedBox(height: 10),
+                Container(
+                  padding: const EdgeInsets.all(14),
+                  decoration: BoxDecoration(color: const Color(0xFFFFF6E8), borderRadius: BorderRadius.circular(15)),
+                  child: Row(children: [
+                    const Icon(Icons.priority_high_rounded, color: Color(0xFFB7791F)),
+                    const SizedBox(width: 9),
+                    Expanded(child: Text('الأولوية الحالية: ${_topics.first.key} (${_topics.first.value} سؤال)',
+                      textAlign: TextAlign.right,
+                      style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w800, fontSize: 12))),
+                  ]),
+                ),
+              ],
+              const SizedBox(height: 12),
+              Material(
+                color: const Color(0xFFEAF2FF),
+                borderRadius: BorderRadius.circular(15),
+                child: InkWell(
+                  borderRadius: BorderRadius.circular(15),
+                  onTap: () async {
+                    await Navigator.of(context).push(MaterialPageRoute<void>(
+                      builder: (_) => const MissedQuestionsScreen(),
+                    ));
+                    _load();
+                  },
+                  child: const Padding(
+                    padding: EdgeInsets.all(14),
+                    child: Row(children: [
+                      Icon(Icons.fact_check_rounded, color: AppColors.navy),
+                      SizedBox(width: 9),
+                      Expanded(child: Text('فتح سجل مراجعة الأخطاء',
+                        textAlign: TextAlign.right,
+                        style: TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 12))),
+                      Icon(Icons.chevron_left_rounded, color: AppColors.navy),
+                    ]),
+                  ),
+                ),
+              ),
               const SizedBox(height: 12),
               Container(
                 padding: const EdgeInsets.all(14),
@@ -138,6 +206,13 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
             ],
           ),
         ),
+  );
+
+  Widget _emptySourceCard() => Container(
+    padding: const EdgeInsets.all(16),
+    decoration: _surface(),
+    child: const Text('لا توجد بيانات مصادر بعد.', textAlign: TextAlign.center,
+      style: TextStyle(color: AppColors.muted, fontSize: 11)),
   );
 
   BoxDecoration _surface() => BoxDecoration(
