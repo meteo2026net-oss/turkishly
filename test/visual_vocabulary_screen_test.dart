@@ -7,6 +7,7 @@ void main() {
     await tester.pumpWidget(const MaterialApp(home: VisualVocabularyScreen()));
     await tester.pumpAndSettle();
     expect(find.text('اختر الكلمة التركية المناسبة للصورة'), findsOneWidget);
-    expect(find.byIcon(Icons.menu_book_rounded), findsOneWidget);
+    expect(find.text('ما اسم هذا الشيء باللغة التركية؟'), findsOneWidget);
+    expect(find.textContaining('الصورة 1 من'), findsOneWidget);
   });
 }
