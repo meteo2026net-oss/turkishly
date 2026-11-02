@@ -11,6 +11,7 @@ class LearningProgress {
   static const _quizBestKey = 'sara_turkii_quiz_best_v1';
   static const _quizLatestKey = 'sara_turkii_quiz_latest_v1';
   static const _quizCountKey = 'sara_turkii_quiz_count_v1';
+  static const _quizHistoryKey = 'sara_turkii_quiz_history_v1';
   static const _missedQuestionsKey = 'sara_turkii_missed_questions_v1';
   static const _missedQuestionDetailsKey = 'sara_turkii_missed_question_details_v1';
   static const _wordReviewPrefix = 'sara_turkii_word_review_v1_';
@@ -77,13 +78,39 @@ class LearningProgress {
     return prefs.getInt('$_wordStreakPrefix$wordId') ?? 0;
   }
 
-  static Future<void> recordQuizResult({required int score, required int total}) async {
+  static Future<void> recordQuizResult({required int score, required int total, String source = 'الاختبار الشامل'}) async {
     final prefs = await SharedPreferences.getInstance();
     final percent = total <= 0 ? 0 : (score * 100 ~/ total);
     final best = prefs.getInt(_quizBestKey) ?? 0;
     await prefs.setInt(_quizLatestKey, percent);
     if (percent > best) await prefs.setInt(_quizBestKey, percent);
     await prefs.setInt(_quizCountKey, (prefs.getInt(_quizCountKey) ?? 0) + 1);
+    final history = prefs.getStringList(_quizHistoryKey) ?? <String>[];
+    history.add(jsonEncode(<String, dynamic>{
+      'score': score,
+      'total': total,
+      'percent': percent,
+      'source': source,
+      'completedAt': DateTime.now().toIso8601String(),
+    }));
+    if (history.length > 100) history.removeRange(0, history.length - 100);
+    await prefs.setStringList(_quizHistoryKey, history);
+  }
+
+  /// Returns the latest completed attempts, newest first. Legacy aggregate scores remain intact.
+  static Future<List<Map<String, dynamic>>> quizHistory({int limit = 30}) async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getStringList(_quizHistoryKey) ?? <String>[];
+    final result = <Map<String, dynamic>>[];
+    for (final value in raw.reversed) {
+      try {
+        result.add(Map<String, dynamic>.from(jsonDecode(value) as Map));
+      } catch (_) {
+        // Skip an incomplete history entry without affecting other records.
+      }
+      if (result.length >= limit) break;
+    }
+    return result;
   }
 
   static Future<void> recordMissedQuestion(String prompt) async {
