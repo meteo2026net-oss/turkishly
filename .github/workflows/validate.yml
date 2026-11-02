@@ -30,6 +30,27 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Validate web app manifest
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest_path = Path("web/manifest.json")
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          required = ("name", "short_name", "start_url", "scope", "display", "icons")
+          missing = [key for key in required if not manifest.get(key)]
+          if missing:
+              raise SystemExit(f"Web manifest is missing required fields: {missing}")
+          for icon in manifest["icons"]:
+              icon_path = Path("web") / icon["src"]
+              if not icon_path.is_file():
+                  raise SystemExit(f"Manifest icon does not exist: {icon_path}")
+          if manifest.get("lang") != "ar" or manifest.get("dir") != "rtl":
+              raise SystemExit("Web manifest must declare Arabic RTL metadata")
+          print("Web manifest and referenced icons are valid.")
+          PY
+
       - name: Analyze Dart and Flutter code
         run: flutter analyze --no-fatal-infos --no-fatal-warnings
 
