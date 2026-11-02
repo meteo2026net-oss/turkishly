@@ -11,10 +11,8 @@ void main() {
   });
 
   testWidgets('learner can complete a conversation and see answer feedback', (tester) async {
-    await tester.view.physicalSize = const Size(900, 1400);
-    await tester.view.devicePixelRatio = 1.0;
-    addTearDown(tester.view.resetPhysicalSize);
-    addTearDown(tester.view.resetDevicePixelRatio);
+    await tester.binding.setSurfaceSize(const Size(900, 1400));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
 
     await tester.pumpWidget(const MaterialApp(home: ConversationPracticeScreen()));
     expect(find.text('تحدث بالتركية في مواقف يومية'), findsOneWidget);
