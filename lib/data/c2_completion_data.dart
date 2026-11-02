@@ -587,4 +587,4 @@ _S('c2-u78',1199,'استراتيجية تطوير المهارات المتقد�
 _S('c2-u78',1200,'مشروع المهارات المتقدمة والمشروع الختامي','المهارات المتقدمة والمشروع الختامي')
 ];
 }
-class _S {const _S(this.unit,this.n,this.title,this.theme,this.area);final String unit,title,theme,area;final int n;}
+class _S {const _S(this.unit,this.n,this.title,this.theme);final String unit,title,theme;final int n;}
