@@ -9,8 +9,8 @@ void main() {
         .where((lesson) => lesson.globalNumber >= 571 && lesson.globalNumber <= 600)
         .toList();
 
-    test('C2 now contains 180 lessons with continuous global numbering', () {
-      expect(C2CourseData.lessons, hasLength(180));
+    test('C2 now contains 210 lessons with continuous global numbering', () {
+      expect(C2CourseData.lessons, hasLength(210));
       expect(batch, hasLength(30));
       expect(
         batch.map((lesson) => lesson.globalNumber).toList()..sort(),
