@@ -5,7 +5,7 @@ import 'c2_capstone_course_data.dart';
 import 'c2_professional_course_data.dart';
 import 'c2_strategic_course_data.dart';
 import 'c2_global_course_data.dart';
-import 'c2_professional_200_course_data.dart';
+import 'c2_completion_data.dart';
 /// C2 advanced course lessons 421-450.
 class C2CourseData {
  static List<String> _rotate(List<String> v,int a)=>List<String>.generate(v.length,(i)=>v[(i-a+v.length)%v.length]);
@@ -18,7 +18,7 @@ class C2CourseData {
  ...C2ProfessionalCourseData.lessons,
  ...C2StrategicCourseData.lessons,
  ...C2GlobalCourseData.lessons,
- ...C2Professional200CourseData.lessons,
+ ...C2CompletionData.lessons,
  ...[
 _Spec(unitId:'c2-u1',number:421,title:'تحليل الخطاب متعدد الطبقات',goal:'تحليل البنية اللغوية والحجاجية والاجتماعية لخطاب معقد.',rule:'افصل مستويات الخطاب: المعنى الصريح والضمني والبنية الحجاجية والسياق والافتراضات.',term:'söylem katmanları',meaning:'طبقات الخطاب',sentence:'Metnin açık anlamı kadar örtük varsayımları da incelenmelidir.',translation:'ينبغي تحليل الافتراضات الضمنية بقدر المعنى الصريح للنص.',form:'çok katmanlı söylem çözümlemesi',functionText:'تحليل الخطاب على مستويات لغوية وسياقية متعددة.',task:'حلل خطاباً عاماً وحدد طبقاته الدلالية والحجاجية والاجتماعية.',example:'Söylemin farklı katmanlarını birbirinden ayırdım.|فصلت طبقات الخطاب المختلفة.',dialogue:'A: Yalnızca sözcükleri mi inceliyoruz؟ — هل نحلل الكلمات فقط؟\nB: Hayır, bağlamı ve güç ilişkilerini de dikkate alıyoruz. — لا، نراعي السياق وعلاقات القوة أيضاً.'),
 _Spec(unitId:'c2-u1',number:422,title:'تحليل الافتراضات المسبقة',goal:'اكتشاف الافتراضات التي يبني عليها الكاتب حجته دون التصريح بها.',rule:'اسأل ما الذي يجب أن يكون صحيحاً حتى تصح النتيجة، ثم اختبر الافتراض بالأدلة.',term:'ön kabul',meaning:'افتراض مسبق',sentence:'Yazarın sonucu, tartışmaya açmadığı bir ön kabule dayanıyor.',translation:'تستند نتيجة الكاتب إلى افتراض مسبق لم يطرحه للنقاش.',form:'örtük ön kabul',functionText:'استخراج الافتراضات الضمنية وتقييمها.',task:'استخرج ثلاثة افتراضات من مقال واختبر صلاحية كل منها.',example:'Örtük kabulleri görünür hâle getirdim.|جعلت الافتراضات الضمنية ظاهرة.',dialogue:'A: Bu savın dayanağı nedir؟ — ما أساس هذه الحجة؟\nB: Önce kabul edilen varsayımı sorgulamalıyız. — ينبغي أن نتساءل أولاً عن الافتراض المقبول.'),
