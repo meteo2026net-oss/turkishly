@@ -136,6 +136,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                     _heroMetric('${_completed.length}', 'درس مكتمل'),
                     _heroMetric('$_words', 'كلمة متقنة'),
                     _heroMetric('$_bestQuiz%', 'أفضل اختبار'),
+                    _heroMetric('$_streak', 'أيام متتالية'),
                   ]),
                 ]),
               ),
