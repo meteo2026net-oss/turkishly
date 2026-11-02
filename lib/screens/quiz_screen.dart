@@ -70,6 +70,9 @@ class _QuizScreenState extends State<QuizScreen> {
         correctAnswer: question.options[question.answer],
         explanation: question.explanation,
         topic: _topicFor(_index),
+        unitId: _lessonFor(_index)['unitId'] as String,
+        lessonNumber: _lessonFor(_index)['lessonNumber'] as int,
+        lessonTitle: _lessonFor(_index)['lessonTitle'] as String,
       );
       final saved = await Future.wait([
         LearningProgress.missedQuestions(),
@@ -111,6 +114,14 @@ class _QuizScreenState extends State<QuizScreen> {
       _finished = true;
       _saving = false;
     });
+  }
+
+  Map<String, dynamic> _lessonFor(int index) {
+    if (index == 0 || index == 3 || index == 7) return {'unitId': 'a1-u1', 'lessonNumber': 1, 'lessonTitle': 'الحروف التركية وطريقة نطقها'};
+    if (index == 2) return {'unitId': 'a1-u1', 'lessonNumber': 3, 'lessonTitle': 'الانسجام الصوتي الأساسي'};
+    if (index == 5) return {'unitId': 'a1-u3', 'lessonNumber': 2, 'lessonTitle': 'الألوان والصفات الأساسية'};
+    if (index == 1 || index == 4 || index == 6 || index == 8 || index == 9 || index == 11) return {'unitId': 'a1-u2', 'lessonNumber': 1, 'lessonTitle': 'التحيات في المواقف اليومية'};
+    return {'unitId': 'a1-u2', 'lessonNumber': 2, 'lessonTitle': 'التعريف بالنفس'};
   }
 
   String _topicFor(int index) {
