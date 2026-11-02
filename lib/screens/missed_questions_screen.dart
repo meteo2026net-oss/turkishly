@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../data/course_catalog.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 import 'course_lesson_screen.dart';
@@ -124,10 +125,9 @@ class _MissedQuestionsScreenState extends State<MissedQuestionsScreen> {
   ]);
 
   String _unitTitle(String id) {
-    switch (id) {
-      case 'a1-u1': return 'الأبجدية والأصوات التركية';
-      case 'a1-u3': return 'الأشياء والأدوات والألوان';
-      default: return 'التحيات والتعارف';
+    for (final unit in CourseCatalog.units) {
+      if (unit.id == id) return unit.titleArabic;
     }
+    return 'وحدة تعليمية';
   }
 }
