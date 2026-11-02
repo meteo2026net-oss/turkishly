@@ -12,6 +12,7 @@ import 'missed_questions_screen.dart';
 import 'performance_insights_screen.dart';
 import 'learner_progress_dashboard.dart';
 import 'level_assessment_screen.dart';
+import 'conversation_practice_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -101,6 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
     SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(20, 24, 20, 12),
       child: _heading('تابع رحلتك', 'خطوة صغيرة كل يوم تصنع فرقاً', action: 'كل الوحدات', onTap: () => setState(() => tab = 1)))),
     SliverToBoxAdapter(child: _continueCard()),
+    SliverToBoxAdapter(child: _conversationPracticeCard()),
     SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(20, 25, 20, 12),
       child: _heading('استكشف المنهج', 'من الأساسيات إلى المحادثة'))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 0, 17, 28),
@@ -108,6 +110,40 @@ class _HomeScreenState extends State<HomeScreen> {
         Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(context, units[i], i, onProgressChanged: _loadProgress)),
         childCount: units.length > 5 ? 5 : units.length))),
   ]);
+
+  Widget _conversationPracticeCard() => Padding(
+    padding: const EdgeInsets.fromLTRB(17, 12, 17, 0),
+    child: Material(
+      color: const Color(0xFFEAF2FF),
+      borderRadius: BorderRadius.circular(20),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(20),
+        onTap: () async {
+          await Navigator.of(context).push(MaterialPageRoute<void>(
+            builder: (_) => const ConversationPracticeScreen(),
+          ));
+          _loadProgress();
+        },
+        child: Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: const Color(0xFFD5E3F5)),
+          ),
+          child: Row(children: [
+            const Icon(Icons.forum_rounded, color: AppColors.navy, size: 29),
+            const SizedBox(width: 12),
+            const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text('تدرّب على المحادثة', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 14)),
+              SizedBox(height: 4),
+              Text('مواقف يومية وحوارات تركية مع ترجمة', style: TextStyle(color: AppColors.muted, fontSize: 11)),
+            ])),
+            const Icon(Icons.arrow_back_ios_new_rounded, color: AppColors.navy, size: 17),
+          ]),
+        ),
+      ),
+    ),
+  );
 
   Widget _hero(int done) => Container(
     padding: const EdgeInsets.all(21),
