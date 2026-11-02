@@ -12,6 +12,7 @@ class LearningProgress {
   static const _missedQuestionsKey = 'sara_turkii_missed_questions_v1';
   static const _wordReviewPrefix = 'sara_turkii_word_review_v1_';
   static const _wordStreakPrefix = 'sara_turkii_word_streak_v1_';
+  static const _levelPassPrefix = 'sara_turkii_level_pass_v1_';
 
   static Future<Set<String>> completedLessons() async {
     final prefs = await SharedPreferences.getInstance();
@@ -115,6 +116,21 @@ class LearningProgress {
     final prefs = await SharedPreferences.getInstance();
     return prefs.getInt(_quizCountKey) ?? 0;
   }
+
+  static Future<void> recordLevelAssessment(String level, int percent) async {
+    final prefs = await SharedPreferences.getInstance();
+    final key = '$_levelPassPrefix$level';
+    final previous = prefs.getInt(key) ?? 0;
+    if (percent > previous) await prefs.setInt(key, percent);
+  }
+
+  static Future<int> levelAssessmentBest(String level) async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt('$_levelPassPrefix$level') ?? 0;
+  }
+
+  static Future<bool> isLevelPassed(String level) async =>
+      (await levelAssessmentBest(level)) >= 80;
 
   static Future<int> attemptsFor(String lessonId) async {
     final prefs = await SharedPreferences.getInstance();
