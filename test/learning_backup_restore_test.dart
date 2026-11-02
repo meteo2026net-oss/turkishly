@@ -48,7 +48,7 @@ void main() {
         jsonEncode({
           'format': 'sara_turkii_learning_backup',
           'version': 1,
-          'data': <String, dynamic>[],
+          'data': <String, dynamic>{},
         }),
       ];
 
