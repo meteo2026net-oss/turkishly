@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: _heading('استكشف المنهج', 'من الأساسيات إلى المحادثة'))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 0, 17, 28),
       sliver: SliverList(delegate: SliverChildBuilderDelegate((context, i) =>
-        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(units[i], i)),
+        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(context, units[i], i)),
         childCount: units.length > 5 ? 5 : units.length))),
   ]);
 
@@ -147,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
     ))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 17, 17, 28),
       sliver: SliverList(delegate: SliverChildBuilderDelegate((context, i) =>
-        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(filtered[i], i)),
+        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(context, filtered[i], i)),
         childCount: filtered.length))),
   ]);
 
@@ -236,12 +236,12 @@ Widget _heading(String title, String subtitle, {String? action, VoidCallback? on
   if (action != null) TextButton(onPressed: onTap, child: Text(action)),
 ]);
 
-Widget _unitTile(CourseUnit unit, int index) {
+Widget _unitTile(BuildContext context, CourseUnit unit, int index) {
   const tints = [Color(0xFFEAF2FF), Color(0xFFFFF4E3), Color(0xFFEAF7F2), Color(0xFFF2EDFF)];
   const icons = [Icons.translate_rounded, Icons.chat_bubble_outline_rounded, Icons.headphones_rounded, Icons.edit_note_rounded];
   return Material(color: Colors.white, borderRadius: BorderRadius.circular(20),
     child: InkWell(borderRadius: BorderRadius.circular(20), onTap: () => showModalBottomSheet<void>(
-      context: navigatorKey.currentContext!, isScrollControlled: true, backgroundColor: Colors.transparent,
+      context: context, isScrollControlled: true, backgroundColor: Colors.transparent,
       builder: (_) => _UnitDetails(unit: unit)),
       child: Container(padding: const EdgeInsets.all(14),
         decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), border: Border.all(color: AppColors.border)),
@@ -268,8 +268,6 @@ Widget _unitTile(CourseUnit unit, int index) {
     ),
   );
 }
-
-final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 class _UnitDetails extends StatelessWidget {
   const _UnitDetails({required this.unit});
