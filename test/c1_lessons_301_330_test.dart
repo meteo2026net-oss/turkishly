@@ -26,6 +26,7 @@ void main() {
     test('every lesson has five valid multiple-choice questions', () {
       for (final lesson in C1CourseData.lessons) {
         expect(lesson.questions, hasLength(5), reason: lesson.title);
+        expect(lesson.questions.map((q) => q.answer).toSet().length, greaterThan(1), reason: 'Answer positions should vary in ${lesson.title}');
         expect(lesson.examples, hasLength(2), reason: lesson.title);
         expect(lesson.examples.every((e) => e.trim().isNotEmpty), isTrue);
         expect(lesson.dialogue.trim(), isNotEmpty);
