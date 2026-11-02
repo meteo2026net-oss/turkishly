@@ -49,11 +49,12 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
   int _turnIndex = 0, _score = 0, _answered = 0;
   int? _selected;
   bool _finished = false;
+  bool _savingResult = false;
   _Scenario? get _scenario => _scenarioIndex == null ? null : _scenarios[_scenarioIndex!];
   _Turn? get _turn => _scenario == null ? null : _scenario!.turns[_turnIndex];
 
   Future<void> _start(int index) async {
-    setState(() { _scenarioIndex = index; _turnIndex = 0; _score = 0; _answered = 0; _selected = null; _finished = false; });
+    setState(() { _scenarioIndex = index; _turnIndex = 0; _score = 0; _answered = 0; _selected = null; _finished = false; _savingResult = false; });
     await LearningProgress.recordLearningActivity();
   }
 
@@ -62,15 +63,27 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
     setState(() { _selected = index; _answered++; if (index == _turn!.answer) _score++; });
   }
 
-  void _next() {
+  Future<void> _next() async {
+    if (_savingResult || _finished) return;
     if (_turnIndex == _scenario!.turns.length - 1) {
-      setState(() => _finished = true);
+      final scenario = _scenario!;
+      setState(() => _savingResult = true);
+      try {
+        await LearningProgress.recordConversationResult(
+          scenarioId: scenario.title,
+          title: scenario.title,
+          level: scenario.level,
+          score: _score,
+          total: _answered,
+        );
+      } finally {
+        if (mounted) setState(() { _savingResult = false; _finished = true; });
     } else {
       setState(() { _turnIndex++; _selected = null; });
     }
   }
 
-  void _back() => setState(() { _scenarioIndex = null; _turnIndex = 0; _selected = null; _finished = false; });
+  void _back() => setState(() { _scenarioIndex = null; _turnIndex = 0; _selected = null; _finished = false; _savingResult = false; });
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -148,9 +161,9 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
           child: Text(turn.note!, textAlign: TextAlign.right, style: const TextStyle(color: AppColors.navy, fontSize: 12, height: 1.6))),
       ],
       const SizedBox(height: 18),
-      FilledButton(onPressed: hasQuestion && !answered ? null : _next,
+      FilledButton(onPressed: _savingResult || (hasQuestion && !answered) ? null : _next,
         style: FilledButton.styleFrom(backgroundColor: AppColors.navy, minimumSize: const Size.fromHeight(50)),
-        child: Text(_turnIndex == scenario.turns.length - 1 ? 'إنهاء المحادثة' : 'متابعة الحوار')),
+        child: Text(_savingResult ? 'جارٍ حفظ النتيجة…' : _turnIndex == scenario.turns.length - 1 ? 'إنهاء المحادثة' : 'متابعة الحوار')),
       TextButton(onPressed: _back, child: const Text('العودة إلى المواقف')),
     ]);
   }
