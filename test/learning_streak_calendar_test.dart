@@ -46,7 +46,7 @@ void main() {
     SharedPreferences.setMockInitialValues(<String, Object>{
       'sara_turkii_learning_activity_dates_v1': <String>[
         '2026-03-27',
-        '2026-03-29',
+        '2026-03-28',
       ],
     });
 
