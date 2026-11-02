@@ -79,6 +79,7 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
 
   static const _questionsPerAttempt = 10;
   late List<_AssessmentQuestion> _questions;
+  int _questionPoolSize = 0;
 
   int _index = 0;
   int _score = 0;
@@ -96,6 +97,7 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
 
   void _newQuestionSet() {
     final pool = _questionBankForLevel(widget.level)..shuffle(Random());
+    _questionPoolSize = pool.length;
     if (pool.length < _questionsPerAttempt) {
       throw StateError('Assessment bank for ${widget.level} has fewer than $_questionsPerAttempt questions.');
     }
@@ -185,7 +187,7 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             const Text('اختبار تشخيصي للمستوى', style: TextStyle(color: AppColors.darkGreen, fontSize: 17, fontWeight: FontWeight.w900)),
             const SizedBox(height: 5),
-            const Text('10 أسئلة مختارة عشوائياً من بنك يضم 20 سؤالاً في المفردات والتراكيب والقواعد الأساسية. درجة الاجتياز 80%.', style: TextStyle(color: AppColors.muted, fontSize: 11, height: 1.6)),
+            const Text('10 أسئلة مختارة عشوائياً من بنك يضم $_questionPoolSize سؤالاً من محتوى المستوى في المفردات والتراكيب والقواعد. درجة الاجتياز 80%.', style: TextStyle(color: AppColors.muted, fontSize: 11, height: 1.6)),
             const SizedBox(height: 9),
             Text('أفضل نتيجة محفوظة: $_best%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w800)),
           ]),
