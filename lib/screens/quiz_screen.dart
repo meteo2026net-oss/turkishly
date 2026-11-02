@@ -122,12 +122,16 @@ class _QuizScreenState extends State<QuizScreen> {
       case 0:
       case 3:
         return {'unitId': 'a1-u1', 'lessonNumber': 1, 'lessonTitle': 'الحروف التركية وطريقة نطقها'};
+      case 1:
+      case 4:
+      case 6:
+        return {'unitId': 'a1-u2', 'lessonNumber': 1, 'lessonTitle': 'التحيات في المواقف اليومية'};
       case 2:
         return {'unitId': 'a1-u1', 'lessonNumber': 3, 'lessonTitle': 'الانسجام الصوتي الأساسي'};
       case 7:
         return {'unitId': 'a1-u1', 'lessonNumber': 2, 'lessonTitle': 'الحروف المتحركة والثقيلة والخفيفة'};
       case 5:
-        return {'unitId': 'a1-u3', 'lessonNumber': 2, 'lessonTitle': 'الألوان والصفات الأساسية'};
+        return {'unitId': 'a1-u3', 'lessonNumber': 5, 'lessonTitle': 'وصف الأشياء بالألوان والصفات'};
       case 9:
         return {'unitId': 'a1-u3', 'lessonNumber': 4, 'lessonTitle': 'أسماء الإشارة: هذا وهذه وهؤلاء'};
       case 11:
@@ -143,6 +147,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
   String _topicFor(int index) {
     if (index == 0 || index == 3 || index == 7) return 'الأبجدية والأصوات';
+    if (index == 1 || index == 4 || index == 6) return 'التحيات والعبارات اليومية';
     if (index == 2) return 'الجمع والانسجام الصوتي';
     if (index == 5) return 'الألوان وترتيب الصفات';
     if (index == 8) return 'الأيام والتعبير عن الزمن';
