@@ -40,8 +40,8 @@ class B2CourseData {
       sentenceChoices: ["أرسلت التقرير الذي أعددته إلى المدير.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["fiil + -DIK + iyelik eki", "-DIK + iyelik eki", "-en/-an", "-madan önce"],
       functionChoices: ["تحديد الشيء المرتبط بفعل قام به المتحدث.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: [["Hazırladığım dosyalar hazır.|الملفات التي أعددتها جاهزة.","Tanıdığım kişi burada çalışıyor.|الشخص الذي أعرفه يعمل هنا."], "A: Hangi raporu arıyorsun? — أي تقرير تبحث عنه؟\nB: Dün hazırladığım raporu. — التقرير الذي أعددته أمس."],
-      dialogue: "صف ثلاثة أشياء أنجزتها مستخدماً الجمل الموصولة.", task: undefined,
+      examples: ["Hazırladığım dosyalar hazır.|الملفات التي أعددتها جاهزة.","Tanıdığım kişi burada çalışıyor.|الشخص الذي أعرفه يعمل هنا."],
+      dialogue: "صف ثلاثة أشياء أنجزتها مستخدماً الجمل الموصولة.", task: "اكتب جملتين من إنشائك مستخدماً قاعدة الدرس.",
     ),
     _lesson(
       unitId: "b2-u1", number: 182, title: "صيغ المستقبل الموصولة",
@@ -52,7 +52,7 @@ class B2CourseData {
       sentenceChoices: ["نستعد للعرض الذي سنقدمه غداً.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["fiil + -AcAk + iyelik eki", "-AcAk + iyelik eki", "-DIK + iyelik eki", "-miş gibi"],
       functionChoices: ["تحديد فعل مستقبلي مرتبط باسم.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["التزامن", ["Gelecek hafta başlayacak proje önemli.|المشروع الذي سيبدأ الأسبوع القادم مهم.","Alacağımız karar herkesi etkileyecek.|القرار الذي سنتخذه سيؤثر في الجميع."]],
+      examples: ["التزامن", "Gelecek hafta başlayacak proje önemli.|المشروع الذي سيبدأ الأسبوع القادم مهم.","Alacağımız karar herkesi etkileyecek.|القرار الذي سنتخذه سيؤثر في الجميع."],
       dialogue: "A: Hangi konuyu konuşacağız? — أي موضوع سنناقش؟\nB: Yarın ele alacağımız konuyu. — الموضوع الذي سنتناوله غداً.", task: "تحدث عن ثلاثة مشاريع أو قرارات ستقوم بها مستقبلاً.",
     ),
     _lesson(
@@ -64,7 +64,7 @@ class B2CourseData {
       sentenceChoices: ["الشيء الوحيد الذي أعرفه هو أن الاجتماع قد تأجل.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["bildiğim / bildiğin / bildiği", "-DIK + iyelik", "-AcAk + iyelik", "-miş"],
       functionChoices: ["ربط جملة تابعة باسم أو معنى اسمي.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["استمرار الفعل", ["Onun söylediği doğru olabilir.|قد يكون ما قاله صحيحاً.","Nereye gittiğini bilmiyorum.|لا أعرف إلى أين ذهب."]],
+      examples: ["استمرار الفعل", "Onun söylediği doğru olabilir.|قد يكون ما قاله صحيحاً.","Nereye gittiğini bilmiyorum.|لا أعرف إلى أين ذهب."],
       dialogue: "A: Sonucu biliyor musun? — هل تعرف النتيجة؟\nB: Bildiğim kadarıyla henüz açıklanmadı. — حسب علمي لم تُعلن بعد.", task: "كوّن خمس جمل تبدأ بمعنى ما أعرفه أو ما أعتقده.",
     ),
     _lesson(
@@ -76,7 +76,7 @@ class B2CourseData {
       sentenceChoices: ["سيتم نشر اللائحة الجديدة الشهر القادم.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["fiil + edilgenlik eki + zaman", "edilgen fiil", "ettirgen fiil", "dönüşlü fiil"],
       functionChoices: ["التركيز على الحدث أو النتيجة لا الفاعل.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["فعل متبادل", ["Belgeler dün kontrol edildi.|تم فحص الوثائق أمس.","Yeni bina burada inşa ediliyor.|يتم بناء مبنى جديد هنا."]],
+      examples: ["فعل متبادل", "Belgeler dün kontrol edildi.|تم فحص الوثائق أمس.","Yeni bina burada inşa ediliyor.|يتم بناء مبنى جديد هنا."],
       dialogue: "A: Raporu kim yazdı? — من كتب التقرير؟\nB: Rapor dün hazırlandı. — أُعد التقرير أمس.", task: "حوّل ست جمل معلومة إلى المبني للمجهول.",
     ),
     _lesson(
@@ -88,7 +88,7 @@ class B2CourseData {
       sentenceChoices: ["طلبت إصلاح السيارة في مركز الصيانة.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["fiil + ettirgenlik eki", "ettirgen çatı", "edilgen çatı", "dönüşlü çatı"],
       functionChoices: ["بيان أن الفاعل تسبب في قيام غيره بالفعل.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["القيام بالفعل بصورة متبادلة", ["Saçımı kestirdim.|قصصت شعري لدى الحلاق (جعلت الحلاق يقصه).","Belgeleri sekreterime hazırlattım.|طلبت من سكرتيرتي إعداد الوثائق."]],
+      examples: ["القيام بالفعل بصورة متبادلة", "Saçımı kestirdim.|قصصت شعري لدى الحلاق (جعلت الحلاق يقصه).","Belgeleri sekreterime hazırlattım.|طلبت من سكرتيرتي إعداد الوثائق."],
       dialogue: "A: Bu işi kendin mi yaptın? — هل قمت بهذا العمل بنفسك؟\nB: Hayır, uzmana yaptırdım. — لا، طلبت من المختص تنفيذه.", task: "صف ثلاث خدمات تطلب من الآخرين تنفيذها.",
     ),
     _lesson(
@@ -100,7 +100,7 @@ class B2CourseData {
       sentenceChoices: ["يتعاون الجيران مع بعضهم في الأيام الصعبة.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["birbirleriyle + karşılıklı eylem", "karşılıklı eylem", "edilgen eylem", "tek taraflı eylem"],
       functionChoices: ["إظهار المشاركة المتبادلة بين الأطراف.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["حدث مستقبلي", ["Toplantıdan sonra görüştüler.|التقوا بعد الاجتماع.","Birbirimize destek oluyoruz.|نحن ندعم بعضنا بعضاً."]],
+      examples: ["حدث مستقبلي", "Toplantıdan sonra görüştüler.|التقوا بعد الاجتماع.","Birbirimize destek oluyoruz.|نحن ندعم بعضنا بعضاً."],
       dialogue: "A: Projeyi nasıl bitirdiniz? — كيف أنهيتم المشروع؟\nB: Birbirimize yardım ederek. — بمساعدة بعضنا بعضاً.", task: "اكتب حواراً يصف تعاون فريق في إنجاز مشروع.",
     ),
     _lesson(
@@ -112,7 +112,7 @@ class B2CourseData {
       sentenceChoices: ["أوضح المدير أن المشروع سيكتمل في موعده.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["...-DIğını / ...-AcAğını belirtti", "dolaylı anlatım", "doğrudan alıntı", "emir cümlesi"],
       functionChoices: ["نقل محتوى تصريح أو توقع.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["تعجب", ["Toplantının iptal edildiğini söyledi.|قال إن الاجتماع أُلغي.","Ne zaman döneceğini sordu.|سأل متى سيعود."]],
+      examples: ["تعجب", "Toplantının iptal edildiğini söyledi.|قال إن الاجتماع أُلغي.","Ne zaman döneceğini sordu.|سأل متى سيعود."],
       dialogue: "A: Müdür ne söyledi? — ماذا قال المدير؟\nB: Raporun bugün gönderileceğini belirtti. — أوضح أن التقرير سيُرسل اليوم.", task: "حوّل خمسة أقوال وأسئلة مباشرة إلى كلام غير مباشر.",
     ),
     _lesson(
@@ -124,7 +124,7 @@ class B2CourseData {
       sentenceChoices: ["إذا أرسلت الوثائق في الوقت المحدد فسيتم تقييم طلبك.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["şart kipi + gelecek sonuç", "-se/-sa + gelecek", "-seydi/-saydı", "-miş"],
       functionChoices: ["ربط تحقق الشرط بنتيجة لاحقة.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["التزامن", ["Vaktin olursa bizi ara.|اتصل بنا إن كان لديك وقت.","Daha erken başlasaydık yetişebilirdik.|لو بدأنا أبكر لتمكنا من اللحاق."]],
+      examples: ["التزامن", "Vaktin olursa bizi ara.|اتصل بنا إن كان لديك وقت.","Daha erken başlasaydık yetişebilirdik.|لو بدأنا أبكر لتمكنا من اللحاق."],
       dialogue: "A: Yetişebilir miyiz? — هل يمكننا اللحاق؟\nB: Hemen başlarsak evet. — نعم إذا بدأنا فوراً.", task: "أنشئ أربع جمل شرطية واقعية وجملتين افتراضيتين.",
     ),
     _lesson(
@@ -136,7 +136,7 @@ class B2CourseData {
       sentenceChoices: ["حضر الاجتماع رغم انشغاله الشديد.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["-mesine rağmen / -dığı halde", "rağmen", "bu nedenle", "çünkü"],
       functionChoices: ["إظهار أن النتيجة حدثت رغم العائق.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["الاستنتاج", ["Yağmur yağmasına rağmen dışarı çıktık.|خرجنا رغم هطول المطر.","Her ne kadar zor olsa da deneyeceğim.|سأحاول رغم أنه صعب."]],
+      examples: ["الاستنتاج", "Yağmur yağmasına rağmen dışarı çıktık.|خرجنا رغم هطول المطر.","Her ne kadar zor olsa da deneyeceğim.|سأحاول رغم أنه صعب."],
       dialogue: "A: Neden geldin? Çok yorgundun. — لماذا أتيت؟ كنت متعباً جداً.\nB: Yorgun olmama rağmen gelmek istedim. — أردت الحضور رغم تعبي.", task: "اكتب خمس جمل تبدأ بمعنى رغم أن.",
     ),
     _lesson(
@@ -148,7 +148,7 @@ class B2CourseData {
       sentenceChoices: ["قال إن التقرير الذي يتم إعداده سيُعرض غداً.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["relative + passive + indirect speech", "relative + passive", "causative + passive", "direct speech"],
       functionChoices: ["إنتاج جملة مركبة دقيقة متعددة العلاقات.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["أمر مباشر", ["Onaylanan proje uygulanmaya başladı.|بدأ تنفيذ المشروع الذي تمت الموافقة عليه.","Müdür, belgelerin incelendiğini söyledi.|قال المدير إن الوثائق قد فُحصت."]],
+      examples: ["أمر مباشر", "Onaylanan proje uygulanmaya başladı.|بدأ تنفيذ المشروع الذي تمت الموافقة عليه.","Müdür, belgelerin incelendiğini söyledi.|قال المدير إن الوثائق قد فُحصت."],
       dialogue: "A: Proje ne zaman başlayacak? — متى سيبدأ المشروع؟\nB: Onaylanan planın gelecek hafta uygulanacağı açıklandı. — أُعلن أن الخطة التي تمت الموافقة عليها ستُنفذ الأسبوع القادم.", task: "اكتب فقرة تجمع المبني للمجهول والشرط والكلام غير المباشر.",
     ),
     _lesson(
@@ -160,7 +160,7 @@ class B2CourseData {
       sentenceChoices: ["يبدو أن الاجتماع سيستغرق وقتاً أطول مما توقعنا.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["anlaşılan o ki / belli ki", "çıkarım", "kesin emir", "doğrudan soru"],
       functionChoices: ["إظهار نتيجة استدلالية لا معلومة مباشرة فقط.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["مقارنة", ["Belli ki konuyu iyi araştırmış.|من الواضح أنه بحث الموضوع جيداً.","Demek ki yanlış anlamışız.|إذن لقد فهمنا خطأ."]],
+      examples: ["مقارنة", "Belli ki konuyu iyi araştırmış.|من الواضح أنه بحث الموضوع جيداً.","Demek ki yanlış anlamışız.|إذن لقد فهمنا خطأ."],
       dialogue: "A: Herkes dışarı çıkıyor. — الجميع يخرج إلى الخارج.\nB: Demek ki toplantı bitti. — إذن انتهى الاجتماع.", task: "استنتج خمس نتائج من قرائن يومية واذكر الدليل.",
     ),
     _lesson(
@@ -172,7 +172,7 @@ class B2CourseData {
       sentenceChoices: ["لا بد أنه أرسل الملف إلى عنوان خاطئ على الأرجح.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["-miş olabilir / olsa gerek", "olasılık", "zorunluluk kesinliği", "geçmiş alışkanlık"],
       functionChoices: ["عرض احتمال مستنتج دون تأكيد قاطع.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["أمر", ["Anahtarını evde unutmuş olabilir.|ربما نسي مفتاحه في المنزل.","Yol kapalı olsa gerek.|لا بد أن الطريق مغلق على الأرجح."]],
+      examples: ["أمر", "Anahtarını evde unutmuş olabilir.|ربما نسي مفتاحه في المنزل.","Yol kapalı olsa gerek.|لا بد أن الطريق مغلق على الأرجح."],
       dialogue: "A: Neden henüz gelmedi? — لماذا لم يصل بعد؟\nB: Trafikte kalmış olabilir. — ربما علق في الازدحام.", task: "رتّب أربعة توقعات من احتمال ضعيف إلى قوي مع تبريرها.",
     ),
     _lesson(
@@ -184,7 +184,7 @@ class B2CourseData {
       sentenceChoices: ["لو كانت ميزانيتنا أعلى لوسعنا المشروع.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["-seydi/-saydı + -ardı/-erdi", "gerçek dışı koşul", "gerçek koşul", "gelecek plan"],
       functionChoices: ["التحدث عن نتائج لم تتحقق بسبب عدم تحقق الشرط.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["ضرورة", ["Daha dikkatli olsaydım hata yapmazdım.|لو كنت أكثر انتباهاً لما ارتكبت الخطأ.","Zamanımız olsaydı müzeyi de gezerdik.|لو كان لدينا وقت لزرنا المتحف أيضاً."]],
+      examples: ["ضرورة", "Daha dikkatli olsaydım hata yapmazdım.|لو كنت أكثر انتباهاً لما ارتكبت الخطأ.","Zamanımız olsaydı müzeyi de gezerdik.|لو كان لدينا وقت لزرنا المتحف أيضاً."],
       dialogue: "A: Neden başvurmadın? — لماذا لم تقدم؟\nB: Şartları bilseydim başvururdum. — لو كنت أعرف الشروط لتقدمت.", task: "اكتب ست جمل عن قرارات مختلفة ونتائجها الافتراضية.",
     ),
     _lesson(
@@ -196,7 +196,7 @@ class B2CourseData {
       sentenceChoices: ["يوفر العمل عن بُعد مرونة؛ ومن ناحية أخرى قد يصعّب التواصل.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["iddia + karşıt görüş + sonuç", "karşıtlık ve bağlama", "zaman sıralaması", "emir"],
       functionChoices: ["تنظيم حجة متعددة الجوانب.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["تحديد مكان", ["Bununla birlikte maliyetler de artabilir.|ومع ذلك قد ترتفع التكاليف أيضاً.","Dolayısıyla yeni bir plan hazırlamalıyız.|وبالتالي علينا إعداد خطة جديدة."]],
+      examples: ["تحديد مكان", "Bununla birlikte maliyetler de artabilir.|ومع ذلك قد ترتفع التكاليف أيضاً.","Dolayısıyla yeni bir plan hazırlamalıyız.|وبالتالي علينا إعداد خطة جديدة."],
       dialogue: "A: Bu yöntem tamamen iyi mi? — هل هذه الطريقة جيدة تماماً؟\nB: Avantajları var; öte yandan bazı riskleri de bulunuyor. — لها مزايا؛ ومن ناحية أخرى لها بعض المخاطر.", task: "اكتب حجة من فقرتين تعرض فيها رأياً ورأياً مضاداً.",
     ),
     _lesson(
@@ -208,7 +208,7 @@ class B2CourseData {
       sentenceChoices: ["هذه القاعدة تنطبق على الجميع، باستثناء بعض الحالات.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["genel kural + istisna", "istisna", "genelleme", "zorunluluk"],
       functionChoices: ["تجنب التعميم المطلق وتحديد نطاق الحكم.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["مقارنة", ["Genellikle erken başlar, ancak bugün geç kaldı.|يبدأ عادة مبكراً، لكنه تأخر اليوم.","Bunun dışında ek bir şart yok.|لا يوجد شرط إضافي عدا ذلك."]],
+      examples: ["مقارنة", "Genellikle erken başlar, ancak bugün geç kaldı.|يبدأ عادة مبكراً، لكنه تأخر اليوم.","Bunun dışında ek bir şart yok.|لا يوجد شرط إضافي عدا ذلك."],
       dialogue: "A: Herkes katılabilir mi? — هل يستطيع الجميع المشاركة؟\nB: Evet, birkaç özel durum dışında. — نعم، باستثناء حالات خاصة قليلة.", task: "اذكر ثلاث قواعد عامة وثلاثة استثناءات من الحياة اليومية.",
     ),
     _lesson(
@@ -220,7 +220,7 @@ class B2CourseData {
       sentenceChoices: ["أعددنا جدولاً جديداً مع أخذ قيود الميزانية في الاعتبار.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["... göz önünde bulundurarak", "gerekçelendirme", "istek bildirme", "zaman sıralaması"],
       functionChoices: ["تعليل قرار مع مراعاة عدة عوامل.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["تعبير عن شعور", ["Teknik nedenlerle hizmet geçici olarak durduruldu.|توقفت الخدمة مؤقتاً لأسباب تقنية.","Yoğun talep nedeniyle süre uzatıldı.|مُددت الفترة بسبب الطلب المرتفع."]],
+      examples: ["تعبير عن شعور", "Teknik nedenlerle hizmet geçici olarak durduruldu.|توقفت الخدمة مؤقتاً لأسباب تقنية.","Yoğun talep nedeniyle süre uzatıldı.|مُددت الفترة بسبب الطلب المرتفع."],
       dialogue: "A: Neden tarihi değiştirdiniz? — لماذا غيرتم الموعد؟\nB: Katılımcıların durumunu göz önünde bulundurarak karar verdik. — اتخذنا القرار مع مراعاة ظروف المشاركين.", task: "اكتب تعليلاً رسمياً لقرار يتضمن ثلاثة عوامل.",
     ),
     _lesson(
@@ -232,7 +232,7 @@ class B2CourseData {
       sentenceChoices: ["ينبغي أن نوزع الموارد مع إعطاء الأولوية للاحتياجات الأكثر إلحاحاً.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["öncelik + -e vermek", "öncelik belirleme", "eşitlik bildirme", "geçmiş anlatımı"],
       functionChoices: ["ترتيب المهمات والاحتياجات.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["الاحتمال", ["Güvenlik her zaman önceliklidir.|السلامة لها الأولوية دائماً.","Asıl mesele zamanı doğru kullanmak.|المسألة الأساسية هي استخدام الوقت بشكل صحيح."]],
+      examples: ["الاحتمال", "Güvenlik her zaman önceliklidir.|السلامة لها الأولوية دائماً.","Asıl mesele zamanı doğru kullanmak.|المسألة الأساسية هي استخدام الوقت بشكل صحيح."],
       dialogue: "A: Önce ne yapmalıyız? — ماذا ينبغي أن نفعل أولاً؟\nB: En önemli konuya öncelik vermeliyiz. — ينبغي أن نعطي الأولوية للموضوع الأهم.", task: "رتب خمس مهام من الأكثر إلى الأقل أهمية وعلل ترتيبك.",
     ),
     _lesson(
@@ -244,7 +244,7 @@ class B2CourseData {
       sentenceChoices: ["أظهر الطلب على التعليم عبر الإنترنت ارتفاعاً في السنوات الأخيرة.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["giderek + sıfat/fiil / artış göstermek", "eğilim ve değişim", "tek seferlik emir", "geçmiş alışkanlık"],
       functionChoices: ["وصف تغيرات كمية أو نوعية عبر الزمن.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["اتجاه مكاني", ["Maliyetler giderek yükseliyor.|التكاليف ترتفع تدريجياً.","Katılım oranı son aylarda sabit kaldı.|ظل معدل المشاركة ثابتاً في الأشهر الأخيرة."]],
+      examples: ["اتجاه مكاني", "Maliyetler giderek yükseliyor.|التكاليف ترتفع تدريجياً.","Katılım oranı son aylarda sabit kaldı.|ظل معدل المشاركة ثابتاً في الأشهر الأخيرة."],
       dialogue: "A: Sonuçlarda ne fark ettin? — ماذا لاحظت في النتائج؟\nB: Katılım giderek artıyor. — المشاركة تزداد تدريجياً.", task: "صف اتجاهاً صاعداً وآخر هابطاً باستخدام خمسة تعبيرات.",
     ),
     _lesson(
@@ -256,7 +256,7 @@ class B2CourseData {
       sentenceChoices: ["بعبارة أخرى، الهدف الأساسي من القرار هو استخدام الموارد بكفاءة.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["özetle / başka bir ifadeyle", "özetleme ve yeniden ifade", "doğrudan alıntı", "abartma"],
       functionChoices: ["إعادة عرض المعنى بإيجاز ودقة.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["أمر", ["Kısacası proje beklenenden başarılı oldu.|باختصار، كان المشروع أنجح من المتوقع.","Genel olarak sonuçlar olumlu.|بوجه عام، النتائج إيجابية."]],
+      examples: ["أمر", "Kısacası proje beklenenden başarılı oldu.|باختصار، كان المشروع أنجح من المتوقع.","Genel olarak sonuçlar olumlu.|بوجه عام، النتائج إيجابية."],
       dialogue: "A: Raporun ana fikri ne? — ما الفكرة الأساسية للتقرير؟\nB: Özetle, verimliliği artırmamız gerekiyor. — باختصار، علينا زيادة الكفاءة.", task: "لخّص نصاً قصيراً من خمس جمل في جملتين دون فقد الفكرة الأساسية.",
     ),
     _lesson(
@@ -268,7 +268,7 @@ class B2CourseData {
       sentenceChoices: ["البيانات متسقة؛ وبالتالي فهي تدعم هذه النتيجة.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["iddia + kanıt + yorum + sonuç", "argüman kurma", "sadece betimleme", "emir verme"],
       functionChoices: ["بناء حجة قابلة للفهم ومسنودة بالأدلة.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["ترتيب زمني", ["Nitekim araştırma da bu görüşü destekliyor.|والدراسة بالفعل تدعم هذا الرأي.","Buna rağmen farklı sonuçlar ortaya çıkabilir.|ومع ذلك قد تظهر نتائج مختلفة."]],
+      examples: ["ترتيب زمني", "Nitekim araştırma da bu görüşü destekliyor.|والدراسة بالفعل تدعم هذا الرأي.","Buna rağmen farklı sonuçlar ortaya çıkabilir.|ومع ذلك قد تظهر نتائج مختلفة."],
       dialogue: "A: Bu görüşü neye dayandırıyorsun? — على ماذا تستند في هذا الرأي؟\nB: Verilere ve araştırma sonuçlarına. — إلى البيانات ونتائج البحث.", task: "اكتب فقرة حجاجية من 120 كلمة تتضمن ادعاء ودليلاً ورأياً مقابلاً وخلاصة.",
     ),
     _lesson(
@@ -280,7 +280,7 @@ class B2CourseData {
       sentenceChoices: ["أرجو إبلاغي بنتيجة تقييم طلبي.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["Sayın + amaç + ayrıntı + talep + kapanış", "resmî yazışma", "samimi mesaj", "günlük konuşma"],
       functionChoices: ["صياغة مراسلات مؤسسية مهذبة ومحددة.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["تعجب", ["Bilgilerinize sunarım.|أضع ذلك بين أيديكم للعلم.","İlginiz için teşekkür eder, iyi çalışmalar dilerim.|أشكركم على اهتمامكم وأتمنى لكم التوفيق."]],
+      examples: ["تعجب", "Bilgilerinize sunarım.|أضع ذلك بين أيديكم للعلم.","İlginiz için teşekkür eder, iyi çalışmalar dilerim.|أشكركم على اهتمامكم وأتمنى لكم التوفيق."],
       dialogue: "A: Başvurunuzla ilgili başka bir talebiniz var mı? — هل لديكم طلب آخر بخصوص طلبكم؟\nB: Sonucun e-posta yoluyla bildirilmesini arz ederim. — أرجو إبلاغي بالنتيجة عبر البريد الإلكتروني.", task: "اكتب رسالة رسمية من 120–150 كلمة تطلب فيها معلومات عن برنامج تدريبي.",
     ),
     _lesson(
@@ -292,7 +292,7 @@ class B2CourseData {
       sentenceChoices: ["تشير نتائج البحث إلى ثلاث نقاط أساسية.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["amaç + yöntem + bulgular + değerlendirme", "rapor yapısı", "kişisel günlük", "reklam metni"],
       functionChoices: ["تقديم معلومات قابلة للمراجعة مع توصيات.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["حوار", ["Veriler iki grupta incelendi.|دُرست البيانات ضمن مجموعتين.","Sonuçlara göre ek çalışma gerekiyor.|وفقاً للنتائج، هناك حاجة إلى عمل إضافي."]],
+      examples: ["حوار", "Veriler iki grupta incelendi.|دُرست البيانات ضمن مجموعتين.","Sonuçlara göre ek çalışma gerekiyor.|وفقاً للنتائج، هناك حاجة إلى عمل إضافي."],
       dialogue: "A: Raporun en önemli bölümü hangisi? — ما أهم جزء في التقرير؟\nB: Bulgular ve bunların değerlendirilmesi. — النتائج وتقييمها.", task: "أعد مخطط تقرير يتضمن الهدف والمنهج والنتائج وثلاث توصيات.",
     ),
     _lesson(
@@ -304,7 +304,7 @@ class B2CourseData {
       sentenceChoices: ["ترتبط موثوقية المصدر ارتباطاً وثيقاً بالمنهج المستخدم.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["kaynak + kanıt + tutarlılık + sınırlılık", "eleştirel değerlendirme", "körü körüne kabul", "kişisel tahmin"],
       functionChoices: ["تقييم قوة المعلومات وحدودها.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["أمر", ["İki kaynak benzer sonuçlara ulaşıyor.|توصل مصدران إلى نتائج متشابهة.","Ancak örneklem büyüklüğü sınırlı.|لكن حجم العينة محدود."]],
+      examples: ["أمر", "İki kaynak benzer sonuçlara ulaşıyor.|توصل مصدران إلى نتائج متشابهة.","Ancak örneklem büyüklüğü sınırlı.|لكن حجم العينة محدود."],
       dialogue: "A: Hangi kaynağı kullanmalıyız? — أي مصدر ينبغي أن نستخدم؟\nB: Yöntemi açık ve verileri tutarlı olanı. — المصدر الذي منهجه واضح وبياناته متسقة.", task: "قارن مصدرين افتراضيين واذكر قوة كل منهما وحدوده.",
     ),
     _lesson(
@@ -316,7 +316,7 @@ class B2CourseData {
       sentenceChoices: ["أتفهم اعتراضكم؛ لكن البيانات تشير إلى نتيجة مختلفة.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["itirazı kabul etme + gerekçe + karşı görüş", "karşı görüş sunma", "kişiyi eleştirme", "konuyu değiştirme"],
       functionChoices: ["إدارة حوار حجاجي محترم.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["إصدار أمر", ["Bu noktada sizinle aynı fikirde değilim.|في هذه النقطة لا أتفق معكم.","Önerinizi değerlendirelim, ardından karar verelim.|لنقيّم اقتراحكم ثم نتخذ القرار."]],
+      examples: ["إصدار أمر", "Bu noktada sizinle aynı fikirde değilim.|في هذه النقطة لا أتفق معكم.","Önerinizi değerlendirelim, ardından karar verelim.|لنقيّم اقتراحكم ثم نتخذ القرار."],
       dialogue: "A: Bu plan çok pahalı. — هذه الخطة مكلفة جداً.\nB: Kaygınızı anlıyorum; alternatifleri de değerlendirebiliriz. — أتفهم قلقك؛ ويمكننا تقييم البدائل أيضاً.", task: "اكتب حوار مناظرة من 12 سطراً يتضمن اعتراضاً ورداً ودليلاً.",
     ),
     _lesson(
@@ -328,7 +328,7 @@ class B2CourseData {
       sentenceChoices: ["لا يمكن الوصول إلى حكم قاطع اعتماداً على هذه النتائج وحدها.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["sınırlı kanıt + temkinli sonuç", "bilimsel ihtiyat", "kesin hüküm", "abartılı genelleme"],
       functionChoices: ["التعبير بدقة عن درجة اليقين.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["أمر", ["Bulgular bu görüşü kısmen destekliyor.|تدعم النتائج هذا الرأي جزئياً.","Daha fazla veriye ihtiyaç vardır.|هناك حاجة إلى مزيد من البيانات."]],
+      examples: ["أمر", "Bulgular bu görüşü kısmen destekliyor.|تدعم النتائج هذا الرأي جزئياً.","Daha fazla veriye ihtiyaç vardır.|هناك حاجة إلى مزيد من البيانات."],
       dialogue: "A: Bu araştırma her şeyi kanıtlıyor mu? — هل يثبت هذا البحث كل شيء؟\nB: Hayır, sonuçları dikkatli yorumlamak gerekir. — لا، ينبغي تفسير النتائج بحذر.", task: "اكتب ثلاث نتائج بصياغة متحفظة وثلاث عبارات جزم غير مناسبة لها.",
     ),
     _lesson(
@@ -340,7 +340,7 @@ class B2CourseData {
       sentenceChoices: ["تحملت مسؤولية مهمة في هذا المشروع.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["isim + uygun fiil eşdizimi", "eşdizim", "kelime kelime çeviri", "rastgele ekleme"],
       functionChoices: ["استخدام تعبيرات طبيعية شائعة بدلاً من الترجمة الحرفية.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["لاحقة زمن", ["Yeni bir adım atmalıyız.|ينبغي أن نتخذ خطوة جديدة.","Bu çalışma önemli katkı sağladı.|قدم هذا العمل مساهمة مهمة."]],
+      examples: ["لاحقة زمن", "Yeni bir adım atmalıyız.|ينبغي أن نتخذ خطوة جديدة.","Bu çalışma önemli katkı sağladı.|قدم هذا العمل مساهمة مهمة."],
       dialogue: "A: Projede hangi görevi üstlendin? — ما المهمة التي توليتها في المشروع؟\nB: Veri analizinden sorumluluk üstlendim. — تحملت مسؤولية تحليل البيانات.", task: "اكتب عشر جمل مستخدماً خمسة تلازمات لفظية تركية.",
     ),
     _lesson(
@@ -352,7 +352,7 @@ class B2CourseData {
       sentenceChoices: ["سيدخل التنظيم المذكور حيز التنفيذ العام القادم.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["eş anlamlı + gönderim ifadesi", "yeniden ifade", "gereksiz tekrar", "anlam kayması"],
       functionChoices: ["تقليل التكرار وتحسين ترابط النص.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["الخروج عن الموضوع", ["Bu yaklaşım, yani söz konusu yöntem, daha etkilidir.|هذا النهج، أي الطريقة المذكورة، أكثر فعالية.","Aynı görüş farklı biçimde ifade edilebilir.|يمكن التعبير عن الرأي نفسه بصيغة مختلفة."]],
+      examples: ["الخروج عن الموضوع", "Bu yaklaşım, yani söz konusu yöntem, daha etkilidir.|هذا النهج، أي الطريقة المذكورة، أكثر فعالية.","Aynı görüş farklı biçimde ifade edilebilir.|يمكن التعبير عن الرأي نفسه بصيغة مختلفة."],
       dialogue: "A: Metinde neden aynı kelime çok geçiyor? — لماذا تتكرر الكلمة نفسها كثيراً في النص؟\nB: Bazı ifadeleri yeniden düzenleyebiliriz. — يمكننا إعادة صياغة بعض التعبيرات.", task: "أعد صياغة فقرة قصيرة لتقليل التكرار مع الحفاظ على المصطلحات.",
     ),
     _lesson(
@@ -364,7 +364,7 @@ class B2CourseData {
       sentenceChoices: ["هدف العرض هو مشاركة النتائج التي تم التوصل إليها بوضوح.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["giriş + ana bölümler + sonuç", "akademik sunum", "günlük sohbet", "rastgele anlatım"],
       functionChoices: ["تنظيم عرض شفهي مفهوم ومقنع.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["شعار إعلاني", ["Öncelikle araştırmanın kapsamını açıklayacağım.|سأشرح أولاً نطاق البحث.","Son bölümde önerilerimi sunacağım.|سأعرض توصياتي في القسم الأخير."]],
+      examples: ["شعار إعلاني", "Öncelikle araştırmanın kapsamını açıklayacağım.|سأشرح أولاً نطاق البحث.","Son bölümde önerilerimi sunacağım.|سأعرض توصياتي في القسم الأخير."],
       dialogue: "A: Sunumuna nasıl başlayacaksın? — كيف ستبدأ عرضك؟\nB: Önce amacı ve kapsamı açıklayacağım. — سأشرح الهدف والنطاق أولاً.", task: "حضّر مخطط عرض من خمس دقائق مع مقدمة وثلاثة محاور وخاتمة.",
     ),
     _lesson(
@@ -376,7 +376,7 @@ class B2CourseData {
       sentenceChoices: ["تمكنت الأطراف من التوصل إلى اتفاق بعد مفاوضات طويلة.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["teklif + karşı teklif + ortak çözüm", "uzlaşma", "tek taraflı dayatma", "konuyu kapatma"],
       functionChoices: ["إدارة التفاوض للوصول إلى حل مقبول.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["اتهام", ["Bu koşullarda orta yolu bulabiliriz.|يمكننا إيجاد حل وسط في هذه الظروف.","Teklifinizi değerlendirmek için zamana ihtiyacımız var.|نحتاج إلى وقت لتقييم عرضكم."]],
+      examples: ["اتهام", "Bu koşullarda orta yolu bulabiliriz.|يمكننا إيجاد حل وسط في هذه الظروف.","Teklifinizi değerlendirmek için zamana ihtiyacımız var.|نحتاج إلى وقت لتقييم عرضكم."],
       dialogue: "A: Bu fiyatı kabul edemeyiz. — لا يمكننا قبول هذا السعر.\nB: O hâlde ödeme koşullarında uzlaşalım. — إذن لنتوصل إلى اتفاق بشأن شروط الدفع.", task: "اكتب حوار تفاوض حول موعد أو ميزانية أو تقسيم مهام.",
     ),
     _lesson(
@@ -388,7 +388,7 @@ class B2CourseData {
       sentenceChoices: ["يعتمد اتساق النص على ترابط الأفكار بطريقة منطقية.", "سأعود إلى المنزل بعد انتهاء العمل.", "لم أقرأ هذا التقرير من قبل.", "لا تعبّر هذه الجملة عن المعنى المطلوب."],
       formChoices: ["kanıt + gerekçe + karşı görüş + sonuç", "B2 düzeyinde bütünleşik iletişim", "yalnızca basit cümleler", "ezberlenmiş tek ifade"],
       functionChoices: ["إنتاج خطاب متقدم دقيق ومترابط ومناسب للسياق.", "التعبير عن الزمن فقط", "التعبير عن المكان فقط", "النفي المطلق"],
-      examples: ["كلمات غير مترابطة", ["Veriler, önerilen yaklaşımın etkili olduğunu gösteriyor.|تظهر البيانات أن النهج المقترح فعال.","Buna rağmen sınırlılıkları da dikkate almalıyız.|ومع ذلك ينبغي أن نأخذ حدوده في الاعتبار."]],
+      examples: ["كلمات غير مترابطة", "Veriler, önerilen yaklaşımın etkili olduğunu gösteriyor.|تظهر البيانات أن النهج المقترح فعال.","Buna rağmen sınırlılıkları da dikkate almalıyız.|ومع ذلك ينبغي أن نأخذ حدوده في الاعتبار."],
       dialogue: "A: B2 seviyesinde hangi beceriler önemlidir? — ما المهارات المهمة في مستوى B2؟\nB: Karmaşık fikirleri açıklamak, tartışmak ve tutarlı metinler üretmek. — شرح الأفكار المركبة ومناقشتها وإنتاج نصوص مترابطة.", task: "نفّذ تقييماً متكاملاً: اكتب تقريراً من 180 كلمة، ثم قدم عرضاً شفهياً من خمس دقائق، وناقش اعتراضاً واحداً مدعوماً بدليل.",
     ),
     _lesson(
