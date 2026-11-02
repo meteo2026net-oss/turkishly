@@ -5,7 +5,7 @@ void main(){
  group('C2 lessons 731-930',(){
   final batch=C2CourseData.lessons.where((e)=>e.globalNumber>=731&&e.globalNumber<=930).toList();
   test('C2 has 510 lessons and the new range is continuous',(){
-   expect(C2CourseData.lessons,hasLength(510));expect(batch,hasLength(200));
+   expect(C2CourseData.lessons,hasLength(780));expect(batch,hasLength(200));
    expect(batch.map((e)=>e.globalNumber).toSet(),Set<int>.from(List<int>.generate(200,(i)=>731+i)));
   });
   test('twenty new units each have ten lessons',(){
