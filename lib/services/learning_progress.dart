@@ -18,7 +18,6 @@ class LearningProgress {
   static const _wordStreakPrefix = 'sara_turkii_word_streak_v1_';
   static const _levelPassPrefix = 'sara_turkii_level_pass_v1_';
   static const _levelHistoryKey = 'sara_turkii_level_assessment_history_v1';
-  static const _levelHistoryKey = 'sara_turkii_level_assessment_history_v1';
 
   static Future<Set<String>> completedLessons() async {
     final prefs = await SharedPreferences.getInstance();
@@ -231,26 +230,6 @@ class LearningProgress {
     for (final value in raw.reversed) {
       try { result.add(Map<String, dynamic>.from(jsonDecode(value) as Map)); }
       catch (_) { /* Ignore malformed entries. */ }
-      if (result.length >= limit) break;
-    }
-    return result;
-  }
-
-  static Future<void> recordLevelAssessmentAttempt({required String level, required int score, required int total}) async {
-    final prefs = await SharedPreferences.getInstance();
-    final history = prefs.getStringList(_levelHistoryKey) ?? <String>[];
-    final percent = total <= 0 ? 0 : score * 100 ~/ total;
-    history.add(jsonEncode(<String, dynamic>{'level': level, 'score': score, 'total': total, 'percent': percent, 'completedAt': DateTime.now().toIso8601String()}));
-    if (history.length > 100) history.removeRange(0, history.length - 100);
-    await prefs.setStringList(_levelHistoryKey, history);
-  }
-
-  static Future<List<Map<String, dynamic>>> levelAssessmentHistory({int limit = 30}) async {
-    final prefs = await SharedPreferences.getInstance();
-    final raw = prefs.getStringList(_levelHistoryKey) ?? <String>[];
-    final result = <Map<String, dynamic>>[];
-    for (final value in raw.reversed) {
-      try { result.add(Map<String, dynamic>.from(jsonDecode(value) as Map)); } catch (_) {}
       if (result.length >= limit) break;
     }
     return result;
