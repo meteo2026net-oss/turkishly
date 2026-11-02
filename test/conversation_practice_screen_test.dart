@@ -11,6 +11,28 @@ void main() {
     SharedPreferences.setMockInitialValues(<String, Object>{});
   });
 
+  testWidgets('advanced scenarios are available from B1 through C2', (tester) async {
+    await tester.binding.setSurfaceSize(const Size(900, 1400));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(const MaterialApp(home: ConversationPracticeScreen()));
+
+    const scenarios = <String>[
+      'حجز فندق وحل مشكلة',
+      'مناقشة خطة مشروع',
+      'عرض بحث في مؤتمر',
+      'التفاوض على اتفاق',
+    ];
+    for (final title in scenarios) {
+      expect(find.text(title), findsOneWidget);
+      await tester.tap(find.text(title));
+      await tester.pumpAndSettle();
+      expect(find.text('متابعة الحوار'), findsOneWidget);
+      await tester.tap(find.text('العودة إلى المواقف'));
+      await tester.pumpAndSettle();
+    }
+  });
+
   testWidgets('learner can complete a conversation and see answer feedback', (tester) async {
     await tester.binding.setSurfaceSize(const Size(900, 1400));
     addTearDown(() => tester.binding.setSurfaceSize(null));
