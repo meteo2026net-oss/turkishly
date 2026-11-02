@@ -555,7 +555,7 @@ class _UnitDetails extends StatelessWidget {
             borderRadius: BorderRadius.circular(16),
             onTap: () async {
               await Navigator.of(context).push(MaterialPageRoute<void>(
-                builder: (_) => unit.id.startsWith('b1-')
+                builder: (_) => (unit.id.startsWith('b1-') || unit.id.startsWith('b2-'))
                   ? B1LessonScreen(
                       unitId: unit.id,
                       unitTitle: unit.titleArabic,
