@@ -5,6 +5,7 @@ import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 import '../widgets/brand_mark.dart';
 import 'course_lesson_screen.dart';
+import 'vocabulary_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -42,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FC),
       body: SafeArea(bottom: false, child: IndexedStack(index: tab, children: [
-        _home(done), _library(), _progress(done),
+        _home(done), _library(), const VocabularyScreen(), _progress(done),
       ])),
       bottomNavigationBar: _nav(),
     );
@@ -61,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ])),
       _circleButton(Icons.notifications_none_rounded, () {}),
       const SizedBox(width: 8),
-      _circleButton(Icons.person_outline_rounded, () => setState(() => tab = 2)),
+      _circleButton(Icons.person_outline_rounded, () => setState(() => tab = 3)),
     ]),
   );
 
@@ -218,7 +219,8 @@ class _HomeScreenState extends State<HomeScreen> {
     child: SafeArea(top: false, child: Padding(padding: const EdgeInsets.fromLTRB(12, 8, 12, 6), child: Row(children: [
       _navItem(0, Icons.home_rounded, 'الرئيسية'),
       _navItem(1, Icons.auto_stories_rounded, 'الدروس'),
-      _navItem(2, Icons.insights_rounded, 'إنجازي'),
+      _navItem(2, Icons.translate_rounded, 'المفردات'),
+      _navItem(3, Icons.insights_rounded, 'إنجازي'),
     ]))),
   );
 
