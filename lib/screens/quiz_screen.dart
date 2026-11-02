@@ -40,6 +40,7 @@ class _QuizScreenState extends State<QuizScreen> {
   int _best = 0;
   int _count = 0;
   List<String> _missedQuestions = <String>[];
+  List<Map<String, dynamic>> _missedDetails = <Map<String, dynamic>>[];
 
   @override
   void initState() {
@@ -63,9 +64,23 @@ class _QuizScreenState extends State<QuizScreen> {
       if (option == question.answer) _score++;
     });
     if (option != question.answer) {
-      await LearningProgress.recordMissedQuestion(question.prompt);
-      final saved = await LearningProgress.missedQuestions();
-      if (mounted) setState(() => _missedQuestions = saved);
+      await LearningProgress.recordMissedQuestionDetails(
+        prompt: question.prompt,
+        selectedAnswer: question.options[option],
+        correctAnswer: question.options[question.answer],
+        explanation: question.explanation,
+        topic: _topicFor(_index),
+      );
+      final saved = await Future.wait([
+        LearningProgress.missedQuestions(),
+        LearningProgress.missedQuestionDetails(),
+      ]);
+      if (mounted) {
+        setState(() {
+          _missedQuestions = saved[0] as List<String>;
+          _missedDetails = saved[1] as List<Map<String, dynamic>>;
+        });
+      }
     }
   }
 
@@ -82,6 +97,7 @@ class _QuizScreenState extends State<QuizScreen> {
     setState(() => _saving = true);
     await LearningProgress.recordQuizResult(score: _score, total: _questions.length);
     final missed = await LearningProgress.missedQuestions();
+    final missedDetails = await LearningProgress.missedQuestionDetails();
     final values = await Future.wait([
       LearningProgress.bestQuizScore(),
       LearningProgress.quizCount(),
@@ -91,9 +107,17 @@ class _QuizScreenState extends State<QuizScreen> {
       _best = values[0];
       _count = values[1];
       _missedQuestions = missed;
+      _missedDetails = missedDetails;
       _finished = true;
       _saving = false;
     });
+  }
+
+  String _topicFor(int index) {
+    if (index == 0 || index == 3 || index == 7) return 'الأبجدية والأصوات';
+    if (index == 2 || index == 5) return 'المفردات والانسجام الصوتي';
+    if (index == 1 || index == 4 || index == 6 || index == 8 || index == 9 || index == 11) return 'المفردات والتحيات';
+    return 'العبارات الأساسية والتواصل';
   }
 
   void _restart() {
@@ -239,18 +263,51 @@ class _QuizScreenState extends State<QuizScreen> {
         Text('$_score من ${_questions.length} إجابة صحيحة', style: const TextStyle(color: AppColors.navy, fontSize: 16, fontWeight: FontWeight.w900)),
         const SizedBox(height: 8),
         Text(message, textAlign: TextAlign.center, style: const TextStyle(color: AppColors.muted, fontSize: 13, height: 1.6)),
-        if (_missedQuestions.isNotEmpty) ...[
+        if (_missedQuestions.isNotEmpty || _missedDetails.isNotEmpty) ...[
           const SizedBox(height: 20),
           Align(alignment: Alignment.centerRight, child: Text('أسئلة تحتاج إلى مراجعة (${_missedQuestions.length})',
             style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 15))),
           const SizedBox(height: 8),
-          ..._missedQuestions.map((item) => Container(
-            width: double.infinity, margin: const EdgeInsets.only(bottom: 7),
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(color: const Color(0xFFFFF6E8), borderRadius: BorderRadius.circular(13)),
-            child: Text(item, textAlign: TextAlign.right,
-              style: const TextStyle(color: AppColors.darkGreen, fontSize: 12, fontWeight: FontWeight.w700)),
-          )),
+          if (_missedDetails.isNotEmpty)
+            ..._missedDetails.reversed.map((item) => Container(
+              width: double.infinity,
+              margin: const EdgeInsets.only(bottom: 9),
+              padding: const EdgeInsets.all(13),
+              decoration: BoxDecoration(
+                color: const Color(0xFFFFF6E8),
+                borderRadius: BorderRadius.circular(14),
+                border: Border.all(color: const Color(0xFFF0DDBB)),
+              ),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                Text(item['prompt']?.toString() ?? '',
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(color: AppColors.darkGreen, fontSize: 13, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 8),
+                Text('إجابتك: ${item['selectedAnswer'] ?? '—'}',
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(color: Color(0xFFB33B3B), fontSize: 11)),
+                const SizedBox(height: 4),
+                Text('الإجابة الصحيحة: ${item['correctAnswer'] ?? '—'}',
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(color: Color(0xFF187347), fontSize: 11, fontWeight: FontWeight.w800)),
+                const SizedBox(height: 7),
+                Text('الموضوع: ${item['topic'] ?? 'مراجعة عامة'}',
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+                const SizedBox(height: 5),
+                Text(item['explanation']?.toString() ?? '',
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(color: AppColors.navy, fontSize: 11, height: 1.6)),
+              ]),
+            ))
+          else
+            ..._missedQuestions.map((item) => Container(
+              width: double.infinity, margin: const EdgeInsets.only(bottom: 7),
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(color: const Color(0xFFFFF6E8), borderRadius: BorderRadius.circular(13)),
+              child: Text(item, textAlign: TextAlign.right,
+                style: const TextStyle(color: AppColors.darkGreen, fontSize: 12, fontWeight: FontWeight.w700)),
+            )),
           Align(alignment: Alignment.centerLeft, child: TextButton.icon(
             onPressed: () async {
               await LearningProgress.clearMissedQuestions();
