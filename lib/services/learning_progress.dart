@@ -46,14 +46,34 @@ class LearningProgress {
         hasDynamicId(_levelPassPrefix);
   }
 
+  /// Validates both the key and its expected SharedPreferences value type.
+  /// Prevents a malformed backup from changing a known key to an incompatible type.
+  static bool _isSupportedBackupValue(String key, Object? value) {
+    if (!_isSupportedBackupKey(key)) return false;
+
+    const integerKeys = <String>{
+      _quizBestKey,
+      _quizLatestKey,
+      _quizCountKey,
+    };
+    final isDynamicInteger = key.startsWith(_attemptPrefix) ||
+        key.startsWith(_wordReviewPrefix) ||
+        key.startsWith(_wordStreakPrefix) ||
+        key.startsWith(_levelPassPrefix);
+
+    if (integerKeys.contains(key) || isDynamicInteger) {
+      return value is int;
+    }
+    return value is List<String>;
+  }
+
   /// Creates a portable, versioned backup of this app's learning data.
   static Future<String> exportBackup() async {
     final prefs = await SharedPreferences.getInstance();
     final values = <String, dynamic>{};
     for (final key in prefs.getKeys().where(_isSupportedBackupKey)) {
       final value = prefs.get(key);
-      if (value is String || value is int || value is double || value is bool ||
-          (value is List<String>)) {
+      if (_isSupportedBackupValue(key, value)) {
         values[key] = value;
       }
     }
@@ -82,20 +102,14 @@ class LearningProgress {
     final prefs = await SharedPreferences.getInstance();
     var restored = 0;
     for (final entry in data.entries) {
-      if (!_isSupportedBackupKey(entry.key)) continue;
+      if (!_isSupportedBackupValue(entry.key, entry.value)) continue;
       final value = entry.value;
-      var saved = false;
-      if (value is String) {
-        saved = await prefs.setString(entry.key, value);
-      } else if (value is int) {
-        saved = await prefs.setInt(entry.key, value);
-      } else if (value is double) {
-        saved = await prefs.setDouble(entry.key, value);
-      } else if (value is bool) {
-        saved = await prefs.setBool(entry.key, value);
-      } else if (value is List && value.every((item) => item is String)) {
-        saved = await prefs.setStringList(entry.key, value.cast<String>());
-      }
+      final saved = value is int
+          ? await prefs.setInt(entry.key, value)
+          : await prefs.setStringList(
+              entry.key,
+              (value as List).cast<String>(),
+            );
       if (saved) restored++;
     }
     return restored;
