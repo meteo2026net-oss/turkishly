@@ -113,16 +113,20 @@ class LearningProgress {
   }
 
   /// Counts consecutive active days ending today, or yesterday if today has not yet been used.
-  static Future<int> currentLearningStreak() async {
+  static Future<int> currentLearningStreak({DateTime? now}) async {
     final prefs = await SharedPreferences.getInstance();
     final dates = (prefs.getStringList(_activityDatesKey) ?? <String>[]).toSet();
-    var cursor = DateTime.now();
+    final reference = now ?? DateTime.now();
+    DateTime cursor = DateTime(reference.year, reference.month, reference.day);
     String key(DateTime value) => '${value.year.toString().padLeft(4, '0')}-${value.month.toString().padLeft(2, '0')}-${value.day.toString().padLeft(2, '0')}';
-    if (!dates.contains(key(cursor))) cursor = cursor.subtract(const Duration(days: 1));
+    // Calendar arithmetic avoids 23/25-hour DST days being mistaken for a missed day.
+    if (!dates.contains(key(cursor))) {
+      cursor = DateTime(cursor.year, cursor.month, cursor.day - 1);
+    }
     var streak = 0;
     while (dates.contains(key(cursor))) {
       streak++;
-      cursor = cursor.subtract(const Duration(days: 1));
+      cursor = DateTime(cursor.year, cursor.month, cursor.day - 1);
     }
     return streak;
   }
