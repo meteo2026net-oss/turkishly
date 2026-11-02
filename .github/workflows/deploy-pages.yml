@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Analyze Dart and Flutter code
+        run: flutter analyze
+
+      - name: Run curriculum tests
+        run: flutter test
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
