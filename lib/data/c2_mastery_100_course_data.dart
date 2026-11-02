@@ -1,6 +1,6 @@
 import 'b1_course_data.dart';
 
-class C2GlobalCourseData {
+class C2Mastery100CourseData {
  static List<String> _rotate(List<String> v,int a)=>List<String>.generate(v.length,(i)=>v[(i-a+v.length)%v.length]);
  static B1Question _q(String p,List<String> o,int a,String e)=>B1Question(p,_rotate(o,a),a,e);
  static B1Lesson _build(_D d)=>B1Lesson(
