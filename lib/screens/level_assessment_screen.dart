@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
@@ -19,18 +20,30 @@ class LevelAssessmentScreen extends StatefulWidget {
 }
 
 class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
-  static const _questions = <_AssessmentQuestion>[
+  static const _questionBank = <_AssessmentQuestion>[
     _AssessmentQuestion('ما معنى Günaydın؟', ['مساء الخير', 'صباح الخير', 'إلى اللقاء', 'شكراً'], 1, 'Günaydın تعني صباح الخير.'),
     _AssessmentQuestion('اختر الضمير الذي يعني «نحن».', ['Ben', 'Sen', 'Biz', 'Onlar'], 2, 'Biz تعني نحن.'),
     _AssessmentQuestion('ما جمع كلمة kitap؟', ['kitaplar', 'kitapler', 'kitaplarım', 'kitaplerim'], 0, 'تأخذ kitap اللاحقة -lar بسبب الانسجام الصوتي.'),
-    _AssessmentQuestion('أكمل: Ben ___ öğrenciyim.', ['bir', 'çok', 've', 'ama'], 0, 'يمكن استخدام bir قبل الاسم بمعنى طالب/واحد بحسب السياق.'),
+    _AssessmentQuestion('أكمل: Ben ___ öğrenciyim.', ['bir', 'çok', 've', 'ama'], 0, 'يمكن استخدام bir هنا بمعنى طالب/واحد بحسب السياق.'),
     _AssessmentQuestion('ما معنى Nerede؟', ['متى؟', 'لماذا؟', 'أين؟', 'كيف؟'], 2, 'Nerede تعني أين؟'),
     _AssessmentQuestion('اختر العبارة الصحيحة: «منزلي كبير».', ['Ev büyük benim', 'Benim evim büyük', 'Büyük evim ben', 'Evim benim büyükler'], 1, 'Benim evim büyük تعني منزلي كبير.'),
     _AssessmentQuestion('ما معنى Su؟', ['خبز', 'ماء', 'كتاب', 'منزل'], 1, 'Su تعني ماء.'),
     _AssessmentQuestion('أي كلمة تعني «اليوم»؟', ['Yarın', 'Dün', 'Bugün', 'Sabah'], 2, 'Bugün تعني اليوم.'),
     _AssessmentQuestion('اختر الصفة قبل الاسم في «سيارة جديدة».', ['araba yeni', 'yeni araba', 'araba yeniler', 'yenim araba'], 1, 'الصفة تسبق الاسم: yeni araba.'),
     _AssessmentQuestion('كيف تسأل شخصاً عن اسمه؟', ['Nasılsın?', 'Adın ne?', 'Nerelisin?', 'Kaç yaşındasın?'], 1, 'Adın ne? تعني ما اسمك؟'),
+    _AssessmentQuestion('ما معنى Teşekkür ederim؟', ['عفواً', 'شكراً لك', 'تصبح على خير', 'من فضلك'], 1, 'Teşekkür ederim تعني شكراً لك.'),
+    _AssessmentQuestion('اختر الضمير الذي يعني «هم».', ['O', 'Biz', 'Siz', 'Onlar'], 3, 'Onlar تعني هم/هن.'),
+    _AssessmentQuestion('ما معنى Yarın؟', ['أمس', 'اليوم', 'غداً', 'الآن'], 2, 'Yarın تعني غداً.'),
+    _AssessmentQuestion('أكمل: Ben Türkçe ___.', ['konuşuyorum', 'konuşuyorsun', 'konuşuyoruz', 'konuşuyorlar'], 0, 'مع Ben نستخدم صيغة المتكلم: konuşuyorum.'),
+    _AssessmentQuestion('ما معنى Kaç yaşındasın؟', ['أين تسكن؟', 'كم عمرك؟', 'ما اسمك؟', 'من أين أنت؟'], 1, 'Kaç yaşındasın؟ تعني كم عمرك؟'),
+    _AssessmentQuestion('اختر النفي الصحيح: «لا أفهم».', ['Anlıyorum', 'Anlamıyorum', 'Anlamıyorsun', 'Anladım'], 1, 'Anlamıyorum تعني أنا لا أفهم.'),
+    _AssessmentQuestion('ما معنى Lütfen؟', ['شكراً', 'نعم', 'من فضلك', 'لا'], 2, 'Lütfen تعني من فضلك.'),
+    _AssessmentQuestion('اختر كلمة «كتاب».', ['Kalem', 'Defter', 'Kitap', 'Masa'], 2, 'Kitap تعني كتاب.'),
+    _AssessmentQuestion('أكمل السؤال: Sen ner___?', ['ede', 'eden', 'eyim', 'eyiz'], 0, 'Nerede تعني أين؟ وتكتب كلمة واحدة.'),
+    _AssessmentQuestion('ما معنى İyi akşamlar؟', ['صباح الخير', 'مساء الخير', 'إلى اللقاء', 'ليلة سعيدة'], 1, 'İyi akşamlar تعني مساء الخير.'),
   ];
+  static const _questionsPerAttempt = 10;
+  late List<_AssessmentQuestion> _questions;
 
   int _index = 0;
   int _score = 0;
@@ -42,7 +55,13 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
   @override
   void initState() {
     super.initState();
+    _newQuestionSet();
     _loadBest();
+  }
+
+  void _newQuestionSet() {
+    final pool = List<_AssessmentQuestion>.of(_questionBank)..shuffle(Random());
+    _questions = pool.take(_questionsPerAttempt).toList(growable: false);
   }
 
   Future<void> _loadBest() async {
@@ -73,7 +92,13 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
   }
 
   void _restart() {
-    setState(() { _index = 0; _score = 0; _selected = null; _finished = false; });
+    setState(() {
+      _newQuestionSet();
+      _index = 0;
+      _score = 0;
+      _selected = null;
+      _finished = false;
+    });
   }
 
   @override
@@ -94,7 +119,7 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             const Text('اختبار تشخيصي للمستوى', style: TextStyle(color: AppColors.darkGreen, fontSize: 17, fontWeight: FontWeight.w900)),
             const SizedBox(height: 5),
-            const Text('10 أسئلة في المفردات والتراكيب والقواعد الأساسية. درجة الاجتياز 80%.', style: TextStyle(color: AppColors.muted, fontSize: 11, height: 1.6)),
+            const Text('10 أسئلة مختارة عشوائياً من بنك يضم 20 سؤالاً في المفردات والتراكيب والقواعد الأساسية. درجة الاجتياز 80%.', style: TextStyle(color: AppColors.muted, fontSize: 11, height: 1.6)),
             const SizedBox(height: 9),
             Text('أفضل نتيجة محفوظة: $_best%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w800)),
           ]),
