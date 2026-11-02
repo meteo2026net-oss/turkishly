@@ -23,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int bestQuiz = 0;
   int latestQuiz = 0;
   int quizAttempts = 0;
+  Map<String, int> levelBestScores = <String, int>{};
   List<CourseUnit> get units => CourseCatalog.units;
 
   @override
@@ -38,6 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
       LearningProgress.bestQuizScore(),
       LearningProgress.latestQuizScore(),
       LearningProgress.quizCount(),
+      ...CourseCatalog.levels.map(LearningProgress.levelAssessmentBest),
     ]);
     if (!mounted) return;
     setState(() {
@@ -46,6 +48,10 @@ class _HomeScreenState extends State<HomeScreen> {
       bestQuiz = values[2] as int;
       latestQuiz = values[3] as int;
       quizAttempts = values[4] as int;
+      levelBestScores = <String, int>{
+        for (var i = 0; i < CourseCatalog.levels.length; i++)
+          CourseCatalog.levels[i]: values[5 + i] as int,
+      };
     });
   }
 
@@ -291,15 +297,72 @@ class _HomeScreenState extends State<HomeScreen> {
   );
 
   Widget _levelTile(String level) {
-    final count = units.where((u) => u.level == level).length;
-    return Container(padding: const EdgeInsets.all(15),
-      decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(18), border: Border.all(color: AppColors.border)),
-      child: Row(children: [
-        Container(width: 42, height: 42, alignment: Alignment.center, decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(13)),
-          child: Text(level, textDirection: TextDirection.ltr, style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
-        const SizedBox(width: 12),
-        Expanded(child: Text('المستوى $level', style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w800))),
-        Text('${count} وحدة', style: const TextStyle(color: AppColors.muted, fontSize: 11)),
+    final levelUnits = units.where((u) => u.level == level).toList();
+    final count = levelUnits.length;
+    final totalLessons = levelUnits.fold<int>(0, (sum, unit) => sum + unit.lessons.length);
+    final completed = levelUnits.fold<int>(0, (sum, unit) => sum +
+      unit.lessons.asMap().entries.where((entry) =>
+        completedLessonIds.contains('${unit.id}-${entry.key + 1}')).length);
+    final percent = totalLessons == 0 ? 0 : completed * 100 ~/ totalLessons;
+    final best = levelBestScores[level] ?? 0;
+    final assessmentAvailable = level == 'A1';
+    final passed = best >= 80;
+    final status = !assessmentAvailable ? 'التقييم قيد الإعداد' :
+      passed ? 'اجتاز التقييم التشخيصي' : best > 0 ? 'لديك محاولة محفوظة' : 'التقييم متاح';
+    return Container(
+      padding: const EdgeInsets.all(15),
+      decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: AppColors.border)),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        Row(children: [
+          Container(width: 42, height: 42, alignment: Alignment.center,
+            decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(13)),
+            child: Text(level, textDirection: TextDirection.ltr,
+              style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
+          const SizedBox(width: 12),
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text('المستوى $level', style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w800)),
+            const SizedBox(height: 3),
+            Text('$count وحدة • $completed من $totalLessons درس',
+              style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+          ])),
+          if (assessmentAvailable)
+            Icon(passed ? Icons.verified_rounded : Icons.assignment_outlined,
+              color: passed ? const Color(0xFF279765) : AppColors.navy, size: 22)
+          else
+            const Icon(Icons.lock_outline_rounded, color: AppColors.muted, size: 20),
+        ]),
+        const SizedBox(height: 12),
+        ClipRRect(borderRadius: BorderRadius.circular(8), child: LinearProgressIndicator(
+          value: totalLessons == 0 ? 0 : completed / totalLessons,
+          minHeight: 6, backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
+        const SizedBox(height: 7),
+        Row(children: [
+          Text('$percent% إنجاز الدروس', style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+          const Spacer(),
+          Text(status, style: TextStyle(color: passed ? const Color(0xFF279765) : AppColors.muted,
+            fontSize: 10, fontWeight: FontWeight.w800)),
+        ]),
+        if (assessmentAvailable) ...[
+          const SizedBox(height: 9),
+          Row(children: [
+            Text(best > 0 ? 'أفضل نتيجة: $best%' : 'لم يُجرَ التقييم بعد',
+              style: const TextStyle(color: AppColors.navy, fontSize: 11, fontWeight: FontWeight.w700)),
+            const Spacer(),
+            TextButton(
+              onPressed: () async {
+                await Navigator.of(context).push(MaterialPageRoute<void>(
+                  builder: (_) => const LevelAssessmentScreen(level: 'A1')));
+                _loadProgress();
+              },
+              child: Text(best > 0 ? 'إعادة التقييم' : 'ابدأ التقييم'),
+            ),
+          ]),
+        ] else ...[
+          const SizedBox(height: 5),
+          const Text('المحتوى الدراسي ظاهر في المنهج، لكن اختبار تحديد المستوى لم يُفعّل بعد.',
+            textAlign: TextAlign.right, style: TextStyle(color: AppColors.muted, fontSize: 10, height: 1.5)),
+        ],
       ]),
     );
   }
