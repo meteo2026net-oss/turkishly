@@ -291,7 +291,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _navItem(int index, IconData icon, String label) {
     final active = tab == index;
-    return Expanded(child: InkWell(borderRadius: BorderRadius.circular(16), onTap: () => setState(() => tab = index),
+    return Expanded(child: InkWell(borderRadius: BorderRadius.circular(16), onTap: () {
+      setState(() => tab = index);
+      if (index == 4) _loadProgress();
+    },
       child: AnimatedContainer(duration: const Duration(milliseconds: 180), padding: const EdgeInsets.symmetric(vertical: 7),
         decoration: BoxDecoration(color: active ? const Color(0xFFEAF2FF) : Colors.transparent, borderRadius: BorderRadius.circular(16)),
         child: Column(mainAxisSize: MainAxisSize.min, children: [
