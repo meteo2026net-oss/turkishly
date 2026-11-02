@@ -312,6 +312,30 @@ class LearningProgress {
     return result;
   }
 
+  /// Summarizes recurring weak topics from saved mistakes for targeted revision.
+  /// This is a transparent count-based recommendation, not an AI-generated diagnosis.
+  static Future<List<Map<String, dynamic>>> missedQuestionTopicSummary({
+    int limit = 5,
+  }) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
+    final details = await missedQuestionDetails();
+    final counts = <String, int>{};
+    for (final item in details) {
+      final topic = item['topic']?.toString().trim() ?? '';
+      if (topic.isEmpty) continue;
+      counts[topic] = (counts[topic] ?? 0) + 1;
+    }
+    final topics = counts.entries.toList()
+      ..sort((a, b) {
+        final byCount = b.value.compareTo(a.value);
+        return byCount != 0 ? byCount : a.key.compareTo(b.key);
+      });
+    return topics.take(limit).map((entry) => <String, dynamic>{
+      'topic': entry.key,
+      'count': entry.value,
+    }).toList(growable: false);
+  }
+
   static Future<void> clearMissedQuestions() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_missedQuestionsKey);
