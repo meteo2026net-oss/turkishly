@@ -17,6 +17,9 @@ void main() {
 
     await tester.pumpWidget(const MaterialApp(home: ConversationPracticeScreen()));
     expect(find.text('تحدث بالتركية في مواقف يومية'), findsOneWidget);
+    expect(find.text('التسوق وشراء الملابس'), findsOneWidget);
+    expect(find.text('في محطة القطار'), findsOneWidget);
+    expect(find.text('اجتماع في العمل'), findsOneWidget);
 
     await tester.tap(find.text('التعارف لأول مرة'));
     await tester.pumpAndSettle();
