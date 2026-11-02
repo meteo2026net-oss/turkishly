@@ -59,8 +59,8 @@ class C2GlobalCourseData {
 
 class _D {
   const _D(this.unit,this.n,this.title,this.term,this.meaning,this.tr,this.ar,this.form,this.function,this.task,this.example,this.dialogue)
-      : goal = 'إتقان المفهوم وتوظيفه في سياق تركي متخصص، مع تفسير الاختيارات وصياغة إنتاج لغوي مستقل.',
-        rule = 'المفهوم «term» يُستخدم في هذا السياق للدلالة على معناه. اربط المصطلح بوظيفته وسياقه، ولا تعتمد على المقابل الحرفي وحده.';
+      : goal = 'إتقان موضوع «$title» وتوظيف مصطلحاته في سياق تركي متخصص، مع تفسير الاختيارات وصياغة إنتاج لغوي مستقل.',
+        rule = 'المفهوم «$term» يُستخدم للدلالة على $meaning. اربط المصطلح بوظيفته وسياقه، ولا تعتمد على المقابل الحرفي وحده.';
   final String unit,title,term,meaning,tr,ar,form,function,task,example,dialogue,goal,rule;
   final int n;
 }
