@@ -70,6 +70,7 @@ class _QuizScreenState extends State<QuizScreen> {
         correctAnswer: question.options[question.answer],
         explanation: question.explanation,
         topic: _topicFor(_index),
+        source: 'الاختبار الشامل',
         unitId: _lessonFor(_index)['unitId'] as String,
         lessonNumber: _lessonFor(_index)['lessonNumber'] as int,
         lessonTitle: _lessonFor(_index)['lessonTitle'] as String,
@@ -117,18 +118,38 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Map<String, dynamic> _lessonFor(int index) {
-    if (index == 0 || index == 3 || index == 7) return {'unitId': 'a1-u1', 'lessonNumber': 1, 'lessonTitle': 'الحروف التركية وطريقة نطقها'};
-    if (index == 2) return {'unitId': 'a1-u1', 'lessonNumber': 3, 'lessonTitle': 'الانسجام الصوتي الأساسي'};
-    if (index == 5) return {'unitId': 'a1-u3', 'lessonNumber': 2, 'lessonTitle': 'الألوان والصفات الأساسية'};
-    if (index == 1 || index == 4 || index == 6 || index == 8 || index == 9 || index == 11) return {'unitId': 'a1-u2', 'lessonNumber': 1, 'lessonTitle': 'التحيات في المواقف اليومية'};
-    return {'unitId': 'a1-u2', 'lessonNumber': 2, 'lessonTitle': 'التعريف بالنفس'};
+    switch (index) {
+      case 0:
+      case 3:
+        return {'unitId': 'a1-u1', 'lessonNumber': 1, 'lessonTitle': 'الحروف التركية وطريقة نطقها'};
+      case 2:
+        return {'unitId': 'a1-u1', 'lessonNumber': 3, 'lessonTitle': 'الانسجام الصوتي الأساسي'};
+      case 7:
+        return {'unitId': 'a1-u1', 'lessonNumber': 2, 'lessonTitle': 'الحروف المتحركة والثقيلة والخفيفة'};
+      case 5:
+        return {'unitId': 'a1-u3', 'lessonNumber': 2, 'lessonTitle': 'الألوان والصفات الأساسية'};
+      case 9:
+        return {'unitId': 'a1-u3', 'lessonNumber': 4, 'lessonTitle': 'أسماء الإشارة: هذا وهذه وهؤلاء'};
+      case 11:
+        return {'unitId': 'a1-u3', 'lessonNumber': 1, 'lessonTitle': 'أسماء الأشياء والأدوات اليومية'};
+      case 8:
+        return {'unitId': 'a1-u6', 'lessonNumber': 1, 'lessonTitle': 'أيام الأسبوع والتعبير عن اليوم'};
+      case 10:
+        return {'unitId': 'a1-u2', 'lessonNumber': 2, 'lessonTitle': 'التعريف بالنفس'};
+      default:
+        return {'unitId': 'a1-u2', 'lessonNumber': 1, 'lessonTitle': 'التحيات في المواقف اليومية'};
+    }
   }
 
   String _topicFor(int index) {
     if (index == 0 || index == 3 || index == 7) return 'الأبجدية والأصوات';
-    if (index == 2 || index == 5) return 'المفردات والانسجام الصوتي';
-    if (index == 1 || index == 4 || index == 6 || index == 8 || index == 9 || index == 11) return 'المفردات والتحيات';
-    return 'العبارات الأساسية والتواصل';
+    if (index == 2) return 'الجمع والانسجام الصوتي';
+    if (index == 5) return 'الألوان وترتيب الصفات';
+    if (index == 8) return 'الأيام والتعبير عن الزمن';
+    if (index == 9) return 'أسماء الإشارة';
+    if (index == 11) return 'مفردات الأشياء';
+    if (index == 10) return 'العبارات والتعارف';
+    return 'التحيات والعبارات اليومية';
   }
 
   void _restart() {
