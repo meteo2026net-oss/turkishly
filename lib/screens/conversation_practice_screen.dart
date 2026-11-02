@@ -42,6 +42,24 @@ const _scenarios = <_Scenario>[
     _Turn('أنت', 'Çok uzak mı?', 'هل هو بعيد جداً؟', prompt: 'ما معنى sola dönün؟', options: ['انعطف يميناً', 'انعطف يساراً', 'توقف هنا'], answer: 1, note: 'Sola تعني إلى اليسار، وdönün تعني انعطف.'),
     _Turn('Yolcu', 'Hayır, beş dakika uzaklıkta.', 'لا، يبعد خمس دقائق.'),
   ]),
+  _Scenario('التسوق وشراء الملابس', 'السؤال عن السعر والمقاس والاختيار', 'A2', Icons.shopping_bag_rounded, [
+    _Turn('Satıcı', 'Merhaba, nasıl yardımcı olabilirim?', 'مرحباً، كيف يمكنني مساعدتك؟'),
+    _Turn('أنت', 'Bu gömlek ne kadar?', 'كم سعر هذا القميص؟'),
+    _Turn('Satıcı', 'Üç yüz lira.', 'ثلاثمئة ليرة.', prompt: 'كيف تسأل عن مقاس أكبر؟', options: ['Daha büyük beden var mı?', 'Saat kaç?', 'Nerede oturuyorsunuz?'], answer: 0, note: 'Daha büyük beden var mı? تعني: هل يوجد مقاس أكبر؟'),
+    _Turn('أنت', 'Kartla ödeyebilir miyim?', 'هل يمكنني الدفع بالبطاقة؟', prompt: 'ما معنى Kartla؟', options: ['نقداً', 'بالبطاقة', 'بالتقسيط'], answer: 1, note: 'Kart تعني بطاقة، و-kla أداة بمعنى باستخدام.'),
+  ]),
+  _Scenario('في محطة القطار', 'الاستفسار عن موعد القطار والتذكرة', 'A2', Icons.train_rounded, [
+    _Turn('أنت', 'İstanbul treni saat kaçta kalkıyor?', 'متى ينطلق قطار إسطنبول؟'),
+    _Turn('Görevli', 'Saat dokuzda kalkıyor.', 'ينطلق الساعة التاسعة.'),
+    _Turn('أنت', 'Biletimi nereden alabilirim?', 'من أين يمكنني شراء تذكرتي؟', prompt: 'ما معنى kalkıyor؟', options: ['يصل', 'ينطلق', 'ينتظر'], answer: 1, note: 'Kalkmak تعني ينطلق أو يغادر عند الحديث عن وسائل النقل.'),
+    _Turn('Görevli', 'Biletinizi gişeden alabilirsiniz.', 'يمكنك شراء تذكرتك من شباك التذاكر.', prompt: 'ما معنى gişe؟', options: ['شباك التذاكر', 'رصيف القطار', 'حقيبة السفر'], answer: 0, note: 'Gişe تعني شباك الخدمة أو التذاكر.'),
+  ]),
+  _Scenario('اجتماع في العمل', 'مناقشة تقرير واقتراح الخطوات التالية', 'B1', Icons.work_outline_rounded, [
+    _Turn('Müdür', 'Geçen hafta gönderdiğiniz raporu inceledim.', 'راجعت التقرير الذي أرسلتموه الأسبوع الماضي.'),
+    _Turn('أنت', 'Görüşleriniz benim için çok önemli.', 'ملاحظاتكم مهمة جداً بالنسبة لي.'),
+    _Turn('Müdür', 'Bazı bölümlerin daha ayrıntılı açıklanması gerekiyor.', 'هناك حاجة إلى شرح بعض الأقسام بمزيد من التفصيل.', prompt: 'ما معنى ayrıntılı؟', options: ['بسرعة', 'بالتفصيل', 'باختصار'], answer: 1, note: 'Ayrıntılı تعني مفصّل أو يتضمن تفاصيل.'),
+    _Turn('أنت', 'Önerilerinizi dikkate alıp raporu güncelleyeceğim.', 'سآخذ اقتراحاتكم بعين الاعتبار وسأحدّث التقرير.', prompt: 'ما معنى dikkate almak؟', options: ['أخذ الشيء بعين الاعتبار', 'رفض الشيء', 'تأجيل الشيء'], answer: 0, note: 'Dikkate almak تعبير اصطلاحي معناه أخذ الأمر بعين الاعتبار.'),
+  ]),
 ];
 
 class _ConversationPracticeScreenState extends State<ConversationPracticeScreen> {
