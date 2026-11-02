@@ -310,17 +310,51 @@ class _UnitDetails extends StatelessWidget {
       const SizedBox(height: 14),
       Expanded(child: ListView.separated(padding: const EdgeInsets.fromLTRB(17, 0, 17, 20),
         itemCount: unit.lessons.length, separatorBuilder: (_, __) => const SizedBox(height: 8),
-        itemBuilder: (context, i) => Material(color: Colors.white, borderRadius: BorderRadius.circular(16),
-          child: InkWell(borderRadius: BorderRadius.circular(16), onTap: () => Navigator.of(context).push(MaterialPageRoute<void>(
-            builder: (_) => CourseLessonScreen(unitId: unit.id, unitTitle: unit.titleArabic, lessonTitle: unit.lessons[i], lessonNumber: i + 1),
-          )).then((_) => onProgressChanged?.call())),
-            child: Padding(padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 12), child: Row(children: [
-              Container(width: 35, height: 35, alignment: Alignment.center, decoration: const BoxDecoration(color: Color(0xFFEAF2FF), shape: BoxShape.circle),
-                child: Text('${i + 1}', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
-              const SizedBox(width: 10),
-              Expanded(child: Text(unit.lessons[i], style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w700, fontSize: 12))),
-              const Icon(Icons.play_circle_outline_rounded, color: AppColors.navy, size: 22),
-            ])),
+        itemBuilder: (context, i) => Material(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(16),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(16),
+            onTap: () async {
+              await Navigator.of(context).push(MaterialPageRoute<void>(
+                builder: (_) => CourseLessonScreen(
+                  unitId: unit.id,
+                  unitTitle: unit.titleArabic,
+                  lessonTitle: unit.lessons[i],
+                  lessonNumber: i + 1,
+                ),
+              ));
+              onProgressChanged?.call();
+            },
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 12),
+              child: Row(children: [
+                Container(
+                  width: 35,
+                  height: 35,
+                  alignment: Alignment.center,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFFEAF2FF),
+                    shape: BoxShape.circle,
+                  ),
+                  child: Text('${i + 1}', style: const TextStyle(
+                    color: AppColors.navy,
+                    fontWeight: FontWeight.w900,
+                  )),
+                ),
+                const SizedBox(width: 10),
+                Expanded(child: Text(
+                  unit.lessons[i],
+                  style: const TextStyle(
+                    color: AppColors.darkGreen,
+                    fontWeight: FontWeight.w700,
+                    fontSize: 12,
+                  ),
+                )),
+                const Icon(Icons.play_circle_outline_rounded,
+                  color: AppColors.navy, size: 22),
+              ]),
+            ),
           ),
         ),
       )),
