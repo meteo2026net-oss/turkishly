@@ -4,16 +4,16 @@ import 'package:turkishly/data/course_catalog.dart';
 
 void main() {
   group('B2 curriculum', () {
-    test('contains lessons 181 through 210 exactly once', () {
+    test('contains lessons 181 through 300 exactly once', () {
       final lessons = B2CourseData.lessons;
-      expect(lessons, hasLength(30));
+      expect(lessons, hasLength(120));
       final numbers = lessons.map((e) => e.globalNumber).toList()..sort();
-      expect(numbers, List<int>.generate(30, (i) => i + 181));
+      expect(numbers, List<int>.generate(120, (i) => i + 181));
       expect(lessons.map((e) => e.globalNumber).toSet(), hasLength(30));
     });
 
-    test('contains three catalog units with ten lessons each', () {
-      for (var i = 1; i <= 3; i++) {
+    test('contains twelve catalog units with ten lessons each', () {
+      for (var i = 1; i <= 12; i++) {
         final id = 'b2-u$i';
         final unit = CourseCatalog.units.firstWhere((e) => e.id == id);
         expect(unit.level, 'B2');
