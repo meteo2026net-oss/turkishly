@@ -111,13 +111,13 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                 spacing: 9,
                 runSpacing: 9,
                 children: [
-                  _achievementCard('البداية الأولى', 'أكملت أول درس', Icons.flag_rounded, _completed.isNotEmpty, _completed.length, 1, 'درس'),
-                  _achievementCard('متعلم نشيط', 'أكملت 10 دروس', Icons.local_fire_department_rounded, _completed.length >= 10, _completed.length, 10, 'دروس'),
-                  _achievementCard('أول مفرداتك', 'أتقنت 5 كلمات', Icons.translate_rounded, _words >= 5, _words, 5, 'كلمات'),
-                  _achievementCard('رصيد لغوي', 'أتقنت 10 كلمات', Icons.menu_book_rounded, _words >= 10, _words, 10, 'كلمات'),
-                  _achievementCard('خطوة الاختبار', 'أنهيت أول اختبار', Icons.quiz_rounded, _quizCount >= 1, _quizCount, 1, 'اختبار'),
-                  _achievementCard('نتيجة متميزة', 'حققت 80% في اختبار', Icons.stars_rounded, _bestQuiz >= 80, _bestQuiz, 80, '%'),
-                  _achievementCard('اجتياز A1', 'حققت 80% في تقييم A1', Icons.workspace_premium_rounded, (_levelBest['A1'] ?? 0) >= 80, _levelBest['A1'] ?? 0, 80, '%'),
+                  _achievementCard('البداية الأولى', 'إكمال الدروس', Icons.flag_rounded, _completed.length, [1, 10, 25], 'درس'),
+                  _achievementCard('متعلم نشيط', 'الاستمرار في إكمال الدروس', Icons.local_fire_department_rounded, _completed.length, [10, 25, 50], 'دروس'),
+                  _achievementCard('أول مفرداتك', 'إتقان المفردات', Icons.translate_rounded, _words, [5, 10, 25], 'كلمات'),
+                  _achievementCard('رصيد لغوي', 'توسيع حصيلتك اللغوية', Icons.menu_book_rounded, _words, [10, 25, 50], 'كلمات'),
+                  _achievementCard('خطوة الاختبار', 'إنهاء الاختبارات', Icons.quiz_rounded, _quizCount, [1, 5, 10], 'اختبار'),
+                  _achievementCard('نتيجة متميزة', 'تحسين أفضل نتيجة اختبار', Icons.stars_rounded, _bestQuiz, [80, 90, 95], '%'),
+                  _achievementCard('اجتياز A1', 'التقدم في تقييم A1', Icons.workspace_premium_rounded, _levelBest['A1'] ?? 0, [80, 90, 95], '%'),
                 ],
               ),
               const SizedBox(height: 20),
@@ -228,40 +228,64 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
   );
 
   Widget _achievementCard(
-    String title, String description, IconData icon, bool earned,
-    int current, int target, String unit,
+    String title, String description, IconData icon,
+    int current, List<int> thresholds, String unit,
   ) {
-    final progress = target <= 0 ? 0.0 : (current / target).clamp(0.0, 1.0).toDouble();
-    final shown = current < target ? current : target;
+    final earnedLevels = thresholds.where((threshold) => current >= threshold).length;
+    final nextIndex = earnedLevels;
+    final complete = earnedLevels == thresholds.length;
+    final nextTarget = complete ? thresholds.last : thresholds[nextIndex];
+    final previousTarget = nextIndex == 0 ? 0 : thresholds[nextIndex - 1];
+    final progress = complete
+        ? 1.0
+        : ((current - previousTarget) / (nextTarget - previousTarget))
+            .clamp(0.0, 1.0).toDouble();
+    final tier = earnedLevels == 0
+        ? 'لم تُفتح بعد'
+        : earnedLevels == 1
+            ? 'برونزية'
+            : earnedLevels == 2
+                ? 'فضية'
+                : 'ذهبية';
+    final shown = current < nextTarget ? current : nextTarget;
     return SizedBox(
       width: (MediaQuery.sizeOf(context).width - 43) / 2,
       child: Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
-          color: earned ? const Color(0xFFFFF7E7) : Colors.white,
+          color: earnedLevels > 0 ? const Color(0xFFFFF7E7) : Colors.white,
           borderRadius: BorderRadius.circular(15),
-          border: Border.all(color: earned ? const Color(0xFFE8C77D) : AppColors.border),
+          border: Border.all(
+            color: earnedLevels > 0 ? const Color(0xFFE8C77D) : AppColors.border,
+          ),
         ),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           Row(children: [
-            Icon(icon, color: earned ? const Color(0xFFB7791F) : AppColors.muted, size: 25),
+            Icon(icon, color: earnedLevels > 0 ? const Color(0xFFB7791F) : AppColors.muted, size: 25),
             const SizedBox(width: 8),
             Expanded(child: Text(title, textAlign: TextAlign.right,
-              style: TextStyle(color: earned ? AppColors.darkGreen : AppColors.muted,
-                fontSize: 11, fontWeight: FontWeight.w900))),
+              style: TextStyle(
+                color: earnedLevels > 0 ? AppColors.darkGreen : AppColors.muted,
+                fontSize: 11, fontWeight: FontWeight.w900,
+              ))),
           ]),
           const SizedBox(height: 7),
-          Text(earned ? 'تم فتح الشارة' : description, textAlign: TextAlign.right,
+          Text(complete ? 'اكتملت جميع المستويات · ذهبية' : '$description · $tier',
+            textAlign: TextAlign.right,
             style: const TextStyle(color: AppColors.muted, fontSize: 9, height: 1.4)),
-          if (!earned) ...[
-            const SizedBox(height: 7),
-            ClipRRect(borderRadius: BorderRadius.circular(6),
-              child: LinearProgressIndicator(value: progress, minHeight: 5,
-                backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
-            const SizedBox(height: 4),
-            Text('$shown من $target $unit', textAlign: TextAlign.right,
-              style: const TextStyle(color: AppColors.muted, fontSize: 9)),
-          ],
+          const SizedBox(height: 7),
+          ClipRRect(borderRadius: BorderRadius.circular(6),
+            child: LinearProgressIndicator(
+              value: progress, minHeight: 5,
+              backgroundColor: const Color(0xFFE9EEF6),
+              color: complete ? const Color(0xFFB7791F) : const Color(0xFF2E82C7),
+            )),
+          const SizedBox(height: 4),
+          Text(
+            complete ? '$current $unit · اكتمل الهدف' : '$shown من $nextTarget $unit للوصول للمستوى التالي',
+            textAlign: TextAlign.right,
+            style: const TextStyle(color: AppColors.muted, fontSize: 9),
+          ),
         ]),
       ),
     );
