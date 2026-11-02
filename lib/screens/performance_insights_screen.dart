@@ -19,6 +19,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
   int _quizBest = 0;
   int _quizCount = 0;
   List<Map<String, dynamic>> _history = <Map<String, dynamic>>[];
+  List<Map<String, dynamic>> _levelHistory = <Map<String, dynamic>>[];
 
   @override
   void initState() {
@@ -32,6 +33,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
       LearningProgress.bestQuizScore(),
       LearningProgress.quizCount(),
       LearningProgress.quizHistory(limit: 12),
+      LearningProgress.levelAssessmentHistory(limit: 12),
     ]);
     final details = values[0] as List<Map<String, dynamic>>;
     final counts = <String, int>{};
@@ -56,6 +58,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
       _quizBest = values[1] as int;
       _quizCount = values[2] as int;
       _history = values[3] as List<Map<String, dynamic>>;
+      _levelHistory = values[4] as List<Map<String, dynamic>>;
       _loading = false;
     });
   }
@@ -136,6 +139,46 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
                   );
                 }),
               ],
+              const SizedBox(height: 18),
+              _section(
+                icon: Icons.school_rounded,
+                title: 'سجل تقييمات المستويات',
+                subtitle: 'محاولات تقييم A1 إلى C2 مستقلة عن الاختبار الشامل.',
+              ),
+              const SizedBox(height: 10),
+              if (_levelHistory.isEmpty)
+                Container(
+                  padding: const EdgeInsets.all(17),
+                  decoration: _surface(),
+                  child: const Text('لم تُسجّل تقييمات مستويات مكتملة بعد.',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(color: AppColors.muted, fontSize: 12)),
+                )
+              else
+                ..._levelHistory.take(8).map((attempt) {
+                  final level = attempt['level']?.toString() ?? '—';
+                  final percent = (attempt['percent'] as num?)?.toInt() ?? 0;
+                  final score = (attempt['score'] as num?)?.toInt() ?? 0;
+                  final total = (attempt['total'] as num?)?.toInt() ?? 0;
+                  final stamp = DateTime.tryParse(attempt['completedAt']?.toString() ?? '');
+                  final date = stamp == null ? 'تاريخ غير متاح' : '${stamp.year}/${stamp.month.toString().padLeft(2, '0')}/${stamp.day.toString().padLeft(2, '0')}';
+                  return Container(
+                    margin: const EdgeInsets.only(bottom: 7),
+                    padding: const EdgeInsets.all(12),
+                    decoration: _surface(),
+                    child: Row(children: [
+                      Text('$percent%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 16)),
+                      const SizedBox(width: 12),
+                      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+                        Text('المستوى $level · $score من $total',
+                          textAlign: TextAlign.right,
+                          style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w800, fontSize: 12)),
+                        const SizedBox(height: 3),
+                        Text(date, style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+                      ])),
+                    ]),
+                  );
+                }),
               const SizedBox(height: 18),
               _section(
                 icon: Icons.track_changes_rounded,
