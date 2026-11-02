@@ -1,10 +1,24 @@
 {
+  "id": "./",
   "name": "ساره تركيي | SARA TURKII",
   "short_name": "ساره تركيي",
-  "start_url": ".",
+  "description": "رفيقك لفهم اللغة التركية وممارستها بثقة باللغة العربية.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
   "background_color": "#082B63",
   "theme_color": "#082B63",
-  "description": "رفيقك لفهم اللغة التركية وممارستها بثقة",
-  "orientation": "portrait-primary"
+  "categories": ["education", "language", "utilities"],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
 }
