@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'screens/home_screen.dart';
+import 'screens/brand_splash_screen.dart';
 import 'theme/app_theme.dart';
 
 void main() {
@@ -23,7 +23,7 @@ class TurkishlyApp extends StatelessWidget {
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       home: const Directionality(
         textDirection: TextDirection.rtl,
-        child: HomeScreen(),
+        child: BrandSplashScreen(),
       ),
     );
   }
