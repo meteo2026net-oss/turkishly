@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../data/b1_course_data.dart';
+import '../data/b2_course_data.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 
@@ -55,7 +56,9 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final lesson = B1CourseData.find(widget.unitId, widget.lessonNumber);
+    final lesson = widget.unitId.startsWith('b2-')
+        ? B2CourseData.find(widget.unitId, widget.lessonNumber)
+        : B1CourseData.find(widget.unitId, widget.lessonNumber);
     if (lesson == null) {
       return Scaffold(appBar: AppBar(title: const Text('درس B1')),
         body: const Center(child: Text('لم يتم العثور على محتوى الدرس.')));
@@ -64,7 +67,7 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
         .where((entry) => answers[entry.key] == entry.value.answer).length;
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FC),
-      appBar: AppBar(title: Text('B1 • الدرس ${lesson.globalNumber}'),
+      appBar: AppBar(title: Text('${widget.unitId.startsWith('b2-') ? 'B2' : 'B1'} • الدرس ${lesson.globalNumber}'),
         backgroundColor: Colors.white, foregroundColor: AppColors.darkGreen, elevation: 0),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 14, 16, 30),
