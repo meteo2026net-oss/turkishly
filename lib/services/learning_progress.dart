@@ -19,6 +19,7 @@ class LearningProgress {
   static const _levelPassPrefix = 'sara_turkii_level_pass_v1_';
   static const _levelHistoryKey = 'sara_turkii_level_assessment_history_v1';
   static const _activityDatesKey = 'sara_turkii_learning_activity_dates_v1';
+  static const _conversationHistoryKey = 'sara_turkii_conversation_history_v1';
 
 
   /// Creates a portable, versioned backup of this app's learning data.
@@ -193,6 +194,49 @@ class LearningProgress {
         result.add(Map<String, dynamic>.from(jsonDecode(value) as Map));
       } catch (_) {
         // Skip an incomplete history entry without affecting other records.
+      }
+      if (result.length >= limit) break;
+    }
+    return result;
+  }
+
+  /// Stores completed offline conversation practice attempts.
+  static Future<void> recordConversationResult({
+    required String scenarioId,
+    required String title,
+    required String level,
+    required int score,
+    required int total,
+  }) async {
+    await recordLearningActivity();
+    final prefs = await SharedPreferences.getInstance();
+    final safeTotal = total < 0 ? 0 : total;
+    final safeScore = score.clamp(0, safeTotal);
+    final percent = safeTotal == 0 ? 0 : safeScore * 100 ~/ safeTotal;
+    final history = prefs.getStringList(_conversationHistoryKey) ?? <String>[];
+    history.add(jsonEncode(<String, dynamic>{
+      'scenarioId': scenarioId,
+      'title': title,
+      'level': level,
+      'score': safeScore,
+      'total': safeTotal,
+      'percent': percent,
+      'completedAt': DateTime.now().toIso8601String(),
+    }));
+    if (history.length > 100) history.removeRange(0, history.length - 100);
+    await prefs.setStringList(_conversationHistoryKey, history);
+  }
+
+  static Future<List<Map<String, dynamic>>> conversationHistory({int limit = 30}) async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getStringList(_conversationHistoryKey) ?? <String>[];
+    final result = <Map<String, dynamic>>[];
+    for (final value in raw.reversed) {
+      try {
+        final item = Map<String, dynamic>.from(jsonDecode(value) as Map);
+        if (item['title'] is String && item['percent'] is num) result.add(item);
+      } catch (_) {
+        // Skip malformed entries without breaking the remaining history.
       }
       if (result.length >= limit) break;
     }
