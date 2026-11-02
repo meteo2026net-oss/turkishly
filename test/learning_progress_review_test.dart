@@ -40,6 +40,46 @@ void main() {
     });
   });
 
+  group('Conversation practice history', () {
+    test('persists completed scenario scores and returns newest attempts first', () async {
+      await LearningProgress.recordConversationResult(
+        scenarioId: 'cafe',
+        title: 'في المقهى',
+        level: 'A1',
+        score: 2,
+        total: 2,
+      );
+      await LearningProgress.recordConversationResult(
+        scenarioId: 'directions',
+        title: 'الاتجاهات والطريق',
+        level: 'A2',
+        score: 1,
+        total: 2,
+      );
+
+      final history = await LearningProgress.conversationHistory();
+      expect(history, hasLength(2));
+      expect(history.first['scenarioId'], 'directions');
+      expect(history.first['percent'], 50);
+      expect(history.last['title'], 'في المقهى');
+      expect(history.last['percent'], 100);
+      expect(await LearningProgress.conversationHistory(limit: 1), hasLength(1));
+    });
+
+    test('clamps scores to the valid range', () async {
+      await LearningProgress.recordConversationResult(
+        scenarioId: 'bounds',
+        title: 'اختبار حدود النتيجة',
+        level: 'A1',
+        score: 9,
+        total: 2,
+      );
+      final history = await LearningProgress.conversationHistory();
+      expect(history.single['score'], 2);
+      expect(history.single['percent'], 100);
+    });
+  });
+
   group('Level assessment history', () {
     test('stores one history item per explicit completed attempt', () async {
       await LearningProgress.recordLevelAssessment('B2', 80);
