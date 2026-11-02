@@ -9,6 +9,7 @@ import 'vocabulary_screen.dart';
 import 'quiz_screen.dart';
 import 'missed_questions_screen.dart';
 import 'performance_insights_screen.dart';
+import 'learner_progress_dashboard.dart';
 import 'level_assessment_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -285,6 +286,30 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text('اكتشف الموضوعات الأكثر ظهوراً في سجل أخطائك.', style: TextStyle(color: AppColors.muted, fontSize: 10)),
                 ])),
                 const Icon(Icons.chevron_left_rounded, color: AppColors.navy),
+              ]),
+            ),
+          ),
+        ),
+        const SizedBox(height: 9),
+        Material(
+          color: const Color(0xFFEAF2FF),
+          borderRadius: BorderRadius.circular(16),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(16),
+            onTap: () => Navigator.of(context).push(MaterialPageRoute<void>(
+              builder: (_) => const LearnerProgressDashboard(),
+            )),
+            child: const Padding(
+              padding: EdgeInsets.all(14),
+              child: Row(children: [
+                Icon(Icons.insights_rounded, color: AppColors.navy, size: 25),
+                SizedBox(width: 10),
+                Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text('لوحة تقدم المتعلم', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
+                  SizedBox(height: 3),
+                  Text('عرض تقدم كل مستوى والدروس والاختبارات في تقرير واحد.', style: TextStyle(color: AppColors.muted, fontSize: 10)),
+                ])),
+                Icon(Icons.chevron_left_rounded, color: AppColors.navy),
               ]),
             ),
           ),
