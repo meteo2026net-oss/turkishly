@@ -152,6 +152,10 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                   ]),
                 );
               }),
+              if (_levelHistory.isNotEmpty) ...[
+                const SizedBox(height: 8),
+                _levelPerformanceBreakdown(),
+              ],
               const SizedBox(height: 12),
               _heading('الاختبارات والمراجعة', 'ملخص المحاولات وسجل الأخطاء'),
               const SizedBox(height: 10),
@@ -315,6 +319,90 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
           textAlign: TextAlign.right,
           style: TextStyle(color: AppColors.muted, fontSize: 9)),
       ]),
+    );
+  }
+
+  Widget _levelPerformanceBreakdown() {
+    final rows = CourseCatalog.levels.map((level) {
+      final attempts = _levelHistory.where((item) => item['level']?.toString() == level).toList();
+      attempts.sort((a, b) {
+        final ad = DateTime.tryParse(a['completedAt']?.toString() ?? '') ?? DateTime(2000);
+        final bd = DateTime.tryParse(b['completedAt']?.toString() ?? '') ?? DateTime(2000);
+        return bd.compareTo(ad);
+      });
+      if (attempts.isEmpty) return null;
+      final scores = attempts.map((item) => (item['percent'] as num?)?.toInt() ?? 0).toList();
+      final average = (scores.reduce((a, b) => a + b) / scores.length).round();
+      final best = scores.reduce((a, b) => a > b ? a : b);
+      return <String, dynamic>{
+        'level': level,
+        'count': attempts.length,
+        'latest': scores.first,
+        'average': average,
+        'best': best,
+      };
+    }).whereType<Map<String, dynamic>>().toList();
+
+    if (rows.isEmpty) return const SizedBox.shrink();
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: _surface(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          const Text('تحليل نتائج تقييم كل مستوى',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.darkGreen,
+              fontWeight: FontWeight.w900, fontSize: 13)),
+          const SizedBox(height: 5),
+          const Text('يعرض المحاولات المسجلة لكل مستوى بصورة مستقلة.',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.muted, fontSize: 9)),
+          const SizedBox(height: 10),
+          ...rows.map((row) {
+            final level = row['level'] as String;
+            final latest = row['latest'] as int;
+            final average = row['average'] as int;
+            final best = row['best'] as int;
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 11),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Row(children: [
+                    Text('$latest%',
+                      style: const TextStyle(color: AppColors.navy,
+                        fontWeight: FontWeight.w900, fontSize: 12)),
+                    const Spacer(),
+                    Text(level,
+                      style: const TextStyle(color: AppColors.darkGreen,
+                        fontWeight: FontWeight.w900, fontSize: 12)),
+                  ]),
+                  const SizedBox(height: 5),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(6),
+                    child: LinearProgressIndicator(
+                      value: (average / 100).clamp(0.0, 1.0),
+                      minHeight: 7,
+                      backgroundColor: const Color(0xFFE9EEF6),
+                      color: const Color(0xFF2E82C7),
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    '${row['count']} محاولة · متوسط $average% · أفضل $best%',
+                    textAlign: TextAlign.right,
+                    style: const TextStyle(color: AppColors.muted, fontSize: 9),
+                  ),
+                ],
+              ),
+            );
+          }),
+          const Text('النتائج محسوبة من سجل تقييمات المستوى فقط، ولا تتضمن الاختبارات الشاملة.',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.muted, fontSize: 9, height: 1.5)),
+        ],
+      ),
     );
   }
 
