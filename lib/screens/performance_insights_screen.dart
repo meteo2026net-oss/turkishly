@@ -1,0 +1,175 @@
+import 'package:flutter/material.dart';
+
+import '../services/learning_progress.dart';
+import '../theme/app_theme.dart';
+
+class PerformanceInsightsScreen extends StatefulWidget {
+  const PerformanceInsightsScreen({super.key});
+
+  @override
+  State<PerformanceInsightsScreen> createState() => _PerformanceInsightsScreenState();
+}
+
+class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
+  bool _loading = true;
+  List<MapEntry<String, int>> _topics = <MapEntry<String, int>>[];
+  int _total = 0;
+  int _quizBest = 0;
+  int _quizCount = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _load();
+  }
+
+  Future<void> _load() async {
+    final values = await Future.wait([
+      LearningProgress.missedQuestionDetails(),
+      LearningProgress.bestQuizScore(),
+      LearningProgress.quizCount(),
+    ]);
+    final details = values[0] as List<Map<String, dynamic>>;
+    final counts = <String, int>{};
+    for (final item in details) {
+      final topic = item['topic']?.toString().trim();
+      final key = topic == null || topic.isEmpty ? 'غير مصنف' : topic;
+      counts[key] = (counts[key] ?? 0) + 1;
+    }
+    final topics = counts.entries.toList()
+      ..sort((a, b) => b.value.compareTo(a.value));
+    if (!mounted) return;
+    setState(() {
+      _topics = topics;
+      _total = details.length;
+      _quizBest = values[1] as int;
+      _quizCount = values[2] as int;
+      _loading = false;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+    backgroundColor: const Color(0xFFF5F7FC),
+    appBar: AppBar(
+      title: const Text('تحليل الأداء', style: TextStyle(fontWeight: FontWeight.w900)),
+      backgroundColor: const Color(0xFFF5F7FC),
+      foregroundColor: AppColors.darkGreen,
+      elevation: 0,
+    ),
+    body: _loading
+      ? const Center(child: CircularProgressIndicator())
+      : RefreshIndicator(
+          onRefresh: _load,
+          child: ListView(
+            physics: const AlwaysScrollableScrollPhysics(),
+            padding: const EdgeInsets.fromLTRB(17, 8, 17, 28),
+            children: [
+              Row(children: [
+                Expanded(child: _metric('أفضل نتيجة', '$_quizBest%', Icons.emoji_events_rounded)),
+                const SizedBox(width: 9),
+                Expanded(child: _metric('الاختبارات', '$_quizCount', Icons.quiz_rounded)),
+                const SizedBox(width: 9),
+                Expanded(child: _metric('أسئلة الأخطاء', '$_total', Icons.fact_check_rounded)),
+              ]),
+              const SizedBox(height: 18),
+              _section(
+                icon: Icons.track_changes_rounded,
+                title: 'الموضوعات التي تحتاج مراجعة',
+                subtitle: 'ترتيب تنازلي حسب عدد الأسئلة المختلفة المحفوظة كأخطاء.',
+              ),
+              const SizedBox(height: 10),
+              if (_topics.isEmpty)
+                Container(
+                  padding: const EdgeInsets.all(22),
+                  decoration: _surface(),
+                  child: const Column(children: [
+                    Icon(Icons.stars_rounded, color: Color(0xFF2E9B70), size: 42),
+                    SizedBox(height: 9),
+                    Text('لا توجد أخطاء محفوظة حالياً', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900)),
+                    SizedBox(height: 5),
+                    Text('أكمل الاختبارات، وستظهر هنا الموضوعات التي تحتاج إلى مراجعة.', textAlign: TextAlign.center,
+                      style: TextStyle(color: AppColors.muted, height: 1.6, fontSize: 12)),
+                  ]),
+                )
+              else
+                ..._topics.asMap().entries.map((entry) {
+                  final rank = entry.key + 1;
+                  final topic = entry.value;
+                  final fraction = _total == 0 ? 0.0 : topic.value / _total;
+                  return Container(
+                    margin: const EdgeInsets.only(bottom: 9),
+                    padding: const EdgeInsets.all(14),
+                    decoration: _surface(),
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                      Row(children: [
+                        Container(width: 29, height: 29, alignment: Alignment.center,
+                          decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(9)),
+                          child: Text('$rank', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
+                        const SizedBox(width: 9),
+                        Expanded(child: Text(topic.key, textAlign: TextAlign.right,
+                          style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13))),
+                        Text('${topic.value} سؤال', style: const TextStyle(color: AppColors.muted, fontSize: 11)),
+                      ]),
+                      const SizedBox(height: 11),
+                      ClipRRect(borderRadius: BorderRadius.circular(8),
+                        child: LinearProgressIndicator(value: fraction, minHeight: 8,
+                          backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
+                      const SizedBox(height: 5),
+                      Text('${(fraction * 100).round()}% من سجل الأخطاء', textAlign: TextAlign.left,
+                        style: const TextStyle(color: AppColors.muted, fontSize: 10)),
+                    ]),
+                  );
+                }),
+              const SizedBox(height: 12),
+              Container(
+                padding: const EdgeInsets.all(14),
+                decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(16)),
+                child: const Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Icon(Icons.info_outline_rounded, color: AppColors.navy),
+                  SizedBox(width: 9),
+                  Expanded(child: Text(
+                    'هذه قراءة لسجل الأسئلة الخاطئة المحفوظة، وليست نسبة إتقان علمية لكل موضوع. يُحفظ السؤال مرة واحدة في السجل حتى لا تتضخم الأعداد بتكرار المحاولة.',
+                    textAlign: TextAlign.right,
+                    style: TextStyle(color: AppColors.navy, fontSize: 11, height: 1.6),
+                  )),
+                ]),
+              ),
+            ],
+          ),
+        ),
+  );
+
+  BoxDecoration _surface() => BoxDecoration(
+    color: Colors.white,
+    borderRadius: BorderRadius.circular(17),
+    border: Border.all(color: AppColors.border),
+  );
+
+  Widget _metric(String label, String value, IconData icon) => Container(
+    padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 7),
+    decoration: _surface(),
+    child: Column(children: [
+      Icon(icon, color: AppColors.navy, size: 20),
+      const SizedBox(height: 7),
+      Text(value, style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 18)),
+      const SizedBox(height: 3),
+      Text(label, textAlign: TextAlign.center, style: const TextStyle(color: AppColors.muted, fontSize: 9)),
+    ]),
+  );
+
+  Widget _section({required IconData icon, required String title, required String subtitle}) => Column(
+    crossAxisAlignment: CrossAxisAlignment.stretch,
+    children: [
+      Row(children: [
+        Icon(icon, color: AppColors.navy, size: 21),
+        const SizedBox(width: 7),
+        Expanded(child: Text(title, textAlign: TextAlign.right,
+          style: const TextStyle(color: AppColors.darkGreen, fontSize: 16, fontWeight: FontWeight.w900))),
+      ]),
+      const SizedBox(height: 4),
+      Text(subtitle, textAlign: TextAlign.right,
+        style: const TextStyle(color: AppColors.muted, fontSize: 11, height: 1.5)),
+    ],
+  );
+}
