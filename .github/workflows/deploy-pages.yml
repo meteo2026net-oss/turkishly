@@ -1,4 +1,4 @@
-name: Build and deploy Sara Turkii to GitHub Pages
+name: Build Sara Turkii Web
 
 on:
   push:
@@ -7,11 +7,9 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: flutter-web-build
   cancel-in-progress: true
 
 jobs:
@@ -30,21 +28,12 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Build Flutter web
-        run: flutter build web --release --base-href /turkishly/
+      - name: Build Flutter web for root hosting
+        run: flutter build web --release --base-href /
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload web build artifact
+        uses: actions/upload-artifact@v4
         with:
+          name: sara-turkii-web
           path: build/web
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          retention-days: 7
