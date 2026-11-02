@@ -162,6 +162,10 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
               ]),
               const SizedBox(height: 8),
               if (_quizHistory.isNotEmpty) ...[
+                _quizPerformanceComparison(),
+                const SizedBox(height: 12),
+              ],
+              if (_quizHistory.isNotEmpty) ...[
                 const SizedBox(height: 7),
                 const Text('آخر نتائج الاختبار الشامل', textAlign: TextAlign.right,
                   style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
@@ -339,6 +343,74 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       ]),
     );
   }
+
+  Widget _quizPerformanceComparison() {
+    final latest = _quizHistory.first;
+    final best = _quizHistory.fold<Map<String, dynamic>>(
+      _quizHistory.first,
+      (currentBest, item) =>
+          ((item['percent'] as num?)?.toInt() ?? 0) >
+                  ((currentBest['percent'] as num?)?.toInt() ?? 0)
+              ? item
+              : currentBest,
+    );
+    final latestPercent = (latest['percent'] as num?)?.toInt() ?? 0;
+    final bestPercent = (best['percent'] as num?)?.toInt() ?? 0;
+    final difference = latestPercent - bestPercent;
+    final differenceLabel = difference == 0
+        ? 'تساوي أفضل نتيجة'
+        : difference > 0
+            ? 'أعلى من أفضل نتيجة محفوظة بـ $difference نقطة'
+            : 'أقل من أفضل نتيجة بـ ${difference.abs()} نقطة';
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: _surface(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          const Text('مقارنة أداء الاختبارات',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.darkGreen,
+              fontWeight: FontWeight.w900, fontSize: 13)),
+          const SizedBox(height: 10),
+          Row(children: [
+            Expanded(child: _comparisonScore(
+              'آخر نتيجة', latestPercent, const Color(0xFF4382B8))),
+            const SizedBox(width: 9),
+            Expanded(child: _comparisonScore(
+              'أفضل نتيجة مسجلة', bestPercent, const Color(0xFF23866B))),
+          ]),
+          const SizedBox(height: 9),
+          Text(differenceLabel,
+            textAlign: TextAlign.right,
+            style: const TextStyle(color: AppColors.muted,
+              fontSize: 10, fontWeight: FontWeight.w700)),
+          const SizedBox(height: 5),
+          const Text(
+            'المقارنة مبنية على سجل الاختبارات المحفوظ، ولا تشمل تقييمات المستويات.',
+            textAlign: TextAlign.right,
+            style: TextStyle(color: AppColors.muted, fontSize: 9, height: 1.5)),
+        ],
+      ),
+    );
+  }
+
+  Widget _comparisonScore(String label, int percent, Color color) =>
+      Container(
+        padding: const EdgeInsets.symmetric(vertical: 11, horizontal: 9),
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.08),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Column(children: [
+          Text('$percent%',
+            style: TextStyle(color: color, fontSize: 23,
+              fontWeight: FontWeight.w900)),
+          const SizedBox(height: 3),
+          Text(label, textAlign: TextAlign.center,
+            style: const TextStyle(color: AppColors.muted, fontSize: 9)),
+        ]),
+      );
 
   Widget _achievementCard(
     String title, String description, IconData icon,
