@@ -108,6 +108,52 @@ void main() {
       expect(await LearningProgress.wordReviewStreak('word-7'), 1);
     });
 
+    test('rejects values whose types do not match their recognized keys', () async {
+      SharedPreferences.setMockInitialValues(<String, Object>{
+        'sara_turkii_completed_lessons_v1': <String>['a1-u1-1'],
+        'sara_turkii_attempts_v1_a1-u1-1': 2,
+        'unrelated_user_setting': 'keep-me',
+      });
+
+      final restored = await LearningProgress.restoreBackup(jsonEncode({
+        'format': 'sara_turkii_learning_backup',
+        'version': 1,
+        'data': <String, dynamic>{
+          'sara_turkii_quiz_best_v1': 88,
+          'sara_turkii_completed_lessons_v1': 123,
+          'sara_turkii_attempts_v1_a1-u1-1': 'not-an-integer',
+          'sara_turkii_attempts_v1_a1-u1-2': 4,
+        },
+      }));
+
+      final prefs = await SharedPreferences.getInstance();
+      expect(restored, 2);
+      expect(await LearningProgress.bestQuizScore(), 88);
+      expect(await LearningProgress.completedLessons(), {'a1-u1-1'});
+      expect(await LearningProgress.attemptsFor('a1-u1-1'), 2);
+      expect(await LearningProgress.attemptsFor('a1-u1-2'), 4);
+      expect(prefs.getString('unrelated_user_setting'), 'keep-me');
+    });
+
+    test('exports only values matching the recognized key schema', () async {
+      SharedPreferences.setMockInitialValues(<String, Object>{
+        'sara_turkii_quiz_best_v1': 45,
+        'sara_turkii_completed_lessons_v1': <String>['a1-u1-1'],
+        'sara_turkii_attempts_v1_a1-u1-1': 3,
+      });
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setString('sara_turkii_quiz_latest_v1', 'invalid-type');
+
+      final backup = await LearningProgress.exportBackup();
+      final decoded = jsonDecode(backup) as Map<String, dynamic>;
+      final data = decoded['data'] as Map<String, dynamic>;
+
+      expect(data['sara_turkii_quiz_best_v1'], 45);
+      expect(data['sara_turkii_completed_lessons_v1'], ['a1-u1-1']);
+      expect(data['sara_turkii_attempts_v1_a1-u1-1'], 3);
+      expect(data.containsKey('sara_turkii_quiz_latest_v1'), isFalse);
+    });
+
     test('exports only recognized app keys', () async {
       final backup = await LearningProgress.exportBackup();
       final decoded = jsonDecode(backup) as Map<String, dynamic>;
