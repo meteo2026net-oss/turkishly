@@ -4,6 +4,7 @@ import '../data/course_catalog.dart';
 import '../models/course_unit.dart';
 import 'course_lesson_screen.dart';
 import '../theme/app_theme.dart';
+import '../widgets/brand_mark.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,17 +18,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Row(
           children: [
-            Container(
-              width: 38,
-              height: 38,
-              decoration: BoxDecoration(
-                color: AppColors.navy,
-                borderRadius: BorderRadius.circular(13),
-                border: Border.all(color: AppColors.gold, width: 1.5),
-              ),
-              child: const Icon(Icons.local_florist_rounded,
-                  color: AppColors.red, size: 25),
-            ),
+            const BrandMark(size: 38),
             SizedBox(width: 8),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
