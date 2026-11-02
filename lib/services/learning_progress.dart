@@ -188,6 +188,7 @@ class LearningProgress {
 
   /// Returns the latest completed attempts, newest first. Legacy aggregate scores remain intact.
   static Future<List<Map<String, dynamic>>> quizHistory({int limit = 30}) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_quizHistoryKey) ?? <String>[];
     final result = <Map<String, dynamic>>[];
@@ -230,6 +231,7 @@ class LearningProgress {
   }
 
   static Future<List<Map<String, dynamic>>> conversationHistory({int limit = 30}) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_conversationHistoryKey) ?? <String>[];
     final result = <Map<String, dynamic>>[];
@@ -384,6 +386,7 @@ class LearningProgress {
   }
 
   static Future<List<Map<String, dynamic>>> levelAssessmentHistory({int limit = 30}) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_levelHistoryKey) ?? <String>[];
     final result = <Map<String, dynamic>>[];
