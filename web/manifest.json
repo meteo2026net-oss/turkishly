@@ -1,0 +1,10 @@
+{
+  "name": "ساره تركيي | SARA TURKII",
+  "short_name": "ساره تركيي",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#082B63",
+  "theme_color": "#082B63",
+  "description": "رفيقك لفهم اللغة التركية وممارستها بثقة",
+  "orientation": "portrait-primary"
+}
