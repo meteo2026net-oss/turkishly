@@ -11,6 +11,7 @@ void main() {
     SharedPreferences.setMockInitialValues(<String, Object>{
       'unrelated_user_setting': 'keep-me',
       'sara_turkii_quiz_best_v1': 25,
+      'sara_turkii_unrecognized_v1': 77,
     });
   });
 
@@ -23,6 +24,7 @@ void main() {
         'data': <String, dynamic>{
           'sara_turkii_quiz_best_v1': 92,
           'another_app_setting': 'must-not-be-imported',
+          'sara_turkii_unrecognized_v1': 66,
         },
       }));
 
@@ -31,6 +33,7 @@ void main() {
       expect(prefs.getInt('sara_turkii_quiz_best_v1'), 92);
       expect(prefs.getString('unrelated_user_setting'), 'keep-me');
       expect(prefs.containsKey('another_app_setting'), isFalse);
+      expect(prefs.getInt('sara_turkii_unrecognized_v1'), 77);
     });
 
     test('rejects unsupported format and version before writing anything', () async {
@@ -91,6 +94,16 @@ void main() {
       expect(prefs.getInt('sara_turkii_quiz_best_v1'), 88);
       expect(prefs.containsKey('sara_turkii_invalid_nested_value'), isFalse);
       expect(prefs.containsKey('sara_turkii_invalid_list_value'), isFalse);
+    });
+
+    test('exports only recognized app keys', () async {
+      final backup = await LearningProgress.exportBackup();
+      final decoded = jsonDecode(backup) as Map<String, dynamic>;
+      final data = decoded['data'] as Map<String, dynamic>;
+
+      expect(data.keys, contains('sara_turkii_quiz_best_v1'));
+      expect(data.keys, isNot(contains('sara_turkii_unrecognized_v1')));
+      expect(data.keys, isNot(contains('unrelated_user_setting')));
     });
 
     test('exported backup round-trips current learner progress', () async {
