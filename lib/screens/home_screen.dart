@@ -7,6 +7,7 @@ import '../widgets/brand_mark.dart';
 import 'course_lesson_screen.dart';
 import 'vocabulary_screen.dart';
 import 'quiz_screen.dart';
+import 'missed_questions_screen.dart';
 import 'level_assessment_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -236,6 +237,33 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(width: 9),
           Expanded(child: _progressMetric(Icons.quiz_rounded, '${quizAttempts}', 'اختبارات مكتملة')),
         ]),
+        const SizedBox(height: 12),
+        Material(
+          color: const Color(0xFFFFF6E8),
+          borderRadius: BorderRadius.circular(16),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(16),
+            onTap: () async {
+              await Navigator.of(context).push(MaterialPageRoute<void>(
+                builder: (_) => const MissedQuestionsScreen(),
+              ));
+              _loadProgress();
+            },
+            child: Padding(
+              padding: const EdgeInsets.all(14),
+              child: Row(children: [
+                const Icon(Icons.history_edu_rounded, color: Color(0xFFB7791F), size: 25),
+                const SizedBox(width: 10),
+                const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text('مراجعة أخطائي', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
+                  SizedBox(height: 3),
+                  Text('راجع إجاباتك وشروحاتها وانتقل إلى الدرس المرتبط.', style: TextStyle(color: AppColors.muted, fontSize: 10)),
+                ])),
+                const Icon(Icons.chevron_left_rounded, color: AppColors.navy),
+              ]),
+            ),
+          ),
+        ),
         const SizedBox(height: 9),
         Container(padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(16)),
