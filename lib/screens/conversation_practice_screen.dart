@@ -58,7 +58,31 @@ const _scenarios = <_Scenario>[
     _Turn('Müdür', 'Geçen hafta gönderdiğiniz raporu inceledim.', 'راجعت التقرير الذي أرسلتموه الأسبوع الماضي.'),
     _Turn('أنت', 'Görüşleriniz benim için çok önemli.', 'ملاحظاتكم مهمة جداً بالنسبة لي.'),
     _Turn('Müdür', 'Bazı bölümlerin daha ayrıntılı açıklanması gerekiyor.', 'هناك حاجة إلى شرح بعض الأقسام بمزيد من التفصيل.', prompt: 'ما معنى ayrıntılı؟', options: ['بسرعة', 'بالتفصيل', 'باختصار'], answer: 1, note: 'Ayrıntılı تعني مفصّل أو يتضمن تفاصيل.'),
-    _Turn('أنت', 'Önerilerinizi dikkate alıp raporu güncelleyeceğim.', 'سآخذ اقتراحاتكم بعين الاعتبار وسأحدّث التقرير.', prompt: 'ما معنى dikkate almak؟', options: ['أخذ الشيء بعين الاعتبار', 'رفض الشيء', 'تأجيل الشيء'], answer: 0, note: 'Dikkate almak تعبير اصطلاحي معناه أخذ الأمر بعين الاعتبار.'),
+    _Turn('أنت', 'Önerilerinizi dikkate alıp raporu güncelleyeceğim.', 'سآخذ اقتراحاتكم بعين الاعتبار وسأحدّث التقرير.', prompt: 'ما معنى dikkate almak؟', options: ['أخذ الشيء بعين الاعتبار', 'رفض الشيء', 'تأجيل الشيء'], answer: 0, note: 'Dikkate almak تعبير اصطلاحي معناه أخذ الأمر بعين الاعتبار.'),,
+  _Scenario('حجز فندق وحل مشكلة', 'شرح مشكلة في الحجز وطلب حل مناسب', 'B1', Icons.hotel_rounded, [
+    _Turn('Resepsiyonist', 'Rezervasyonunuz iki gece için görünüyor.', 'يظهر أن حجزك لليلتين.'),
+    _Turn('أنت', 'Aslında üç gece kalmam gerekiyor.', 'في الواقع أحتاج إلى الإقامة ثلاث ليالٍ.'),
+    _Turn('Resepsiyonist', 'Odanızı bir gece daha uzatabiliriz.', 'يمكننا تمديد إقامتك ليلة إضافية.', prompt: 'ما معنى uzatmak؟', options: ['تمديد', 'إلغاء', 'تغيير'], answer: 0, note: 'Uzatmak تعني إطالة أو تمديد شيء.'),
+    _Turn('أنت', 'Fiyat farkını öğrenebilir miyim?', 'هل يمكنني معرفة فرق السعر؟', prompt: 'كيف تسأل بأدب: هل يمكنني معرفة؟', options: ['Öğrenebilir miyim?', 'Biliyorum.', 'Öğrendim.'], answer: 0, note: 'صيغة -ebilir miyim? تستخدم لطلب الإذن أو السؤال بأدب.'),
+  ]),
+  _Scenario('مناقشة خطة مشروع', 'تحديد الأولويات والموعد النهائي وتوزيع المهام', 'B2', Icons.groups_rounded, [
+    _Turn('Ekip lideri', 'Projenin teslim tarihine yetişebilmemiz için öncelikleri netleştirmeliyiz.', 'علينا توضيح الأولويات حتى نتمكن من إنجاز المشروع في موعد التسليم.'),
+    _Turn('أنت', 'Öncelikle kritik görevleri belirleyip kaynakları yeniden dağıtmayı öneriyorum.', 'أقترح أن نحدد المهام الحرجة أولاً ثم نعيد توزيع الموارد.'),
+    _Turn('Ekip lideri', 'Bu yaklaşımın olası risklerini nasıl değerlendiriyorsunuz?', 'كيف تقيّم المخاطر المحتملة لهذا النهج؟', prompt: 'ما معنى olası riskler؟', options: ['المخاطر المحتملة', 'النتائج المؤكدة', 'الموارد المتاحة'], answer: 0, note: 'Olası تعني محتمل، وriskler تعني المخاطر.'),
+    _Turn('أنت', 'Düzenli ilerleme toplantılarıyla gecikmeleri erken fark edebiliriz.', 'يمكننا اكتشاف التأخيرات مبكراً عبر اجتماعات متابعة منتظمة.', prompt: 'ما معنى gecikme؟', options: ['تأخير', 'تسليم', 'تطوير'], answer: 0, note: 'Gecikme تعني التأخير أو عدم الالتزام بالموعد.'),
+  ]),
+  _Scenario('عرض بحث في مؤتمر', 'تقديم فرضية وشرح النتائج والرد على سؤال علمي', 'C1', Icons.school_rounded, [
+    _Turn('Oturum başkanı', 'Araştırmanızın temel varsayımını kısaca açıklar mısınız?', 'هل يمكن أن تشرح بإيجاز الفرضية الأساسية لبحثك؟'),
+    _Turn('أنت', 'Çalışmamız, erken müdahalenin uzun vadeli sonuçları belirgin biçimde etkilediği varsayımına dayanıyor.', 'تستند دراستنا إلى فرضية أن التدخل المبكر يؤثر بوضوح في النتائج طويلة الأمد.'),
+    _Turn('Katılımcı', 'Bulgularınız bu varsayımı hangi ölçüde destekliyor?', 'إلى أي مدى تدعم نتائجك هذه الفرضية؟', prompt: 'ما معنى hangi ölçüde؟', options: ['إلى أي مدى', 'في أي مكان', 'منذ متى'], answer: 0, note: 'Hangi ölçüde تعبير يستخدم للسؤال عن مقدار أو درجة تحقق أمر ما.'),
+    _Turn('أنت', 'Verilerimiz güçlü bir ilişkiye işaret ediyor; ancak nedensellik konusunda temkinli olmak gerekiyor.', 'تشير بياناتنا إلى علاقة قوية، لكن ينبغي توخي الحذر بشأن السببية.', prompt: 'ما معنى nedensellik؟', options: ['السببية', 'الاحتمالية', 'المقارنة'], answer: 0, note: 'Nedensellik تعني العلاقة السببية بين حدثين أو متغيرين.'),
+  ]),
+  _Scenario('التفاوض على اتفاق', 'صياغة حل وسط وتوضيح الالتزامات المتبادلة', 'C2', Icons.handshake_rounded, [
+    _Turn('ممثّل الطرف الأول', 'Tarafların beklentilerini bağdaştıracak sürdürülebilir bir çerçeve oluşturmalıyız.', 'ينبغي أن نضع إطاراً مستداماً يوفّق بين توقعات الطرفين.'),
+    _Turn('أنت', 'Bu doğrultuda, karşılıklı yükümlülüklerin ölçülebilir göstergelerle tanımlanmasını öneriyoruz.', 'وفي هذا الاتجاه، نقترح تحديد الالتزامات المتبادلة بمؤشرات قابلة للقياس.'),
+    _Turn('ممثّل الطرف الأول', 'Anlaşmazlık durumunda hangi uzlaşma mekanizmasını öngörüyorsunuz?', 'ما آلية التسوية التي تتصورونها في حال حدوث خلاف؟', prompt: 'ما معنى uzlaşma mekanizması؟', options: ['آلية التسوية', 'خطة التوظيف', 'جدول الإنتاج'], answer: 0, note: 'Uzlaşma تعني التوافق أو التسوية، وmekanizma تعني آلية.'),
+    _Turn('أنت', 'Önce arabuluculuk sürecinin işletilmesini, sonuç alınamaması hâlinde bağımsız değerlendirmeye başvurulmasını uygun buluyoruz.', 'نرى أن تبدأ العملية بالوساطة، وإذا تعذر التوصل إلى نتيجة نلجأ إلى تقييم مستقل.', prompt: 'ما معنى arabuluculuk؟', options: ['الوساطة', 'المحاسبة', 'المراجعة اللغوية'], answer: 0, note: 'Arabuluculuk هي الوساطة، أي تدخل طرف محايد للمساعدة في تسوية الخلاف.'),
+  ])
   ]),
 ];
 
