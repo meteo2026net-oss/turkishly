@@ -9,7 +9,7 @@ void main() {
       expect(lessons, hasLength(120));
       final numbers = lessons.map((e) => e.globalNumber).toList()..sort();
       expect(numbers, List<int>.generate(120, (i) => i + 181));
-      expect(lessons.map((e) => e.globalNumber).toSet(), hasLength(30));
+      expect(lessons.map((e) => e.globalNumber).toSet(), hasLength(120));
     });
 
     test('contains twelve catalog units with ten lessons each', () {
