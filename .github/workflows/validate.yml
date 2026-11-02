@@ -67,3 +67,38 @@ jobs:
           path: build/web/
           if-no-files-found: error
           retention-days: 14
+
+      - name: Generate Android project files for CI smoke build
+        run: flutter create --platforms=android .
+
+      - name: Build Android debug APK
+        run: flutter build apk --debug
+
+      - name: Upload Android debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: turkishly-android-debug
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 7
+
+  validate_ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Generate iOS project files for CI smoke build
+        run: flutter create --platforms=ios .
+
+      - name: Build iOS without code signing
+        run: flutter build ios --no-codesign
