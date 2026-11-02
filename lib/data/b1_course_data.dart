@@ -22,7 +22,13 @@ class B1Lesson {
 }
 
 class B1CourseData {
-  static B1Question _q(String p, List<String> o, String why) => B1Question(p, o, 0, why);
+  static List<String> _rotate(List<String> options, int answerIndex) => List<String>.generate(
+    options.length,
+    (index) => options[(index - answerIndex + options.length) % options.length],
+  );
+
+  static B1Question _q(String p, List<String> o, String why, int answer) =>
+      B1Question(p, o, answer, why);
   static B1Lesson _lesson({
     required String unitId, required int number, required String title,
     required String goal, required String rule, required String term,
@@ -35,11 +41,11 @@ class B1CourseData {
     unitId: unitId, globalNumber: number, title: title, goal: goal, rule: rule,
     examples: examples, dialogue: dialogue, speakingTask: task,
     questions: [
-      _q('ما معنى «$term»؟', wordChoices, '$term تعني $meaning.'),
-      _q('ما ترجمة الجملة: «$sentence»؟', sentenceChoices, '$sentence تعني $translation.'),
-      _q('اختر الصيغة الصحيحة المرتبطة بالقاعدة:', formChoices, '$formMeaning.'),
-      _q('ما الوظيفة النحوية للتعبير «$form»؟', functionChoices, '$function'),
-      _q('أكمل التركيب: $sentence', formChoices, 'الصيغة المستهدفة هي $form؛ $formMeaning.'),
+      _q('ما معنى «$term»؟', _rotate(wordChoices, number % 4), '$term تعني $meaning.', number % 4),
+      _q('ما ترجمة الجملة: «$sentence»؟', _rotate(sentenceChoices, (number + 1) % 4), '$sentence تعني $translation.', (number + 1) % 4),
+      _q('اختر الصيغة الصحيحة المرتبطة بالقاعدة:', _rotate(formChoices, (number + 2) % 4), '$formMeaning.', (number + 2) % 4),
+      _q('ما الوظيفة النحوية للتعبير «$form»؟', _rotate(functionChoices, (number + 3) % 4), '$function', (number + 3) % 4),
+      _q('أكمل التركيب: $sentence', _rotate(formChoices, (number + 1) % 4), 'الصيغة المستهدفة هي $form؛ $formMeaning.', (number + 1) % 4),
     ],
   );
 
