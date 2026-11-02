@@ -18,7 +18,7 @@ class B1Lesson {
   final String title, goal, rule, dialogue, speakingTask;
   final List<String> examples;
   final List<B1Question> questions;
-  int get lessonNumber => (globalNumber - (unitId == 'b1-u1' ? 120 : unitId == 'b1-u2' ? 130 : 140));
+  int get lessonNumber => (globalNumber - (unitId == 'b1-u1' ? 120 : unitId == 'b1-u2' ? 130 : unitId == 'b1-u3' ? 140 : unitId == 'b1-u4' ? 150 : unitId == 'b1-u5' ? 160 : 170));
 }
 
 class B1CourseData {
