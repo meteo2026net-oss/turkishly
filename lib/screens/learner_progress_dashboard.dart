@@ -57,6 +57,37 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
     });
   }
 
+  Future<void> _exportBackup() async {
+    final backup = await LearningProgress.exportBackup();
+    await Clipboard.setData(ClipboardData(text: backup));
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('تم نسخ النسخة الاحتياطية إلى الحافظة. احتفظ بها في مكان آمن.')));
+  }
+
+  Future<void> _restoreBackup() async {
+    final controller = TextEditingController();
+    final source = await showDialog<String>(context: context, builder: (dialogContext) => AlertDialog(
+      title: const Text('استعادة التقدم'),
+      content: SizedBox(width: 480, child: TextField(controller: controller, minLines: 5, maxLines: 9, textDirection: TextDirection.ltr,
+        decoration: const InputDecoration(hintText: 'الصق محتوى النسخة الاحتياطية هنا', border: OutlineInputBorder()))),
+      actions: [TextButton(onPressed: () => Navigator.pop(dialogContext), child: const Text('إلغاء')),
+        FilledButton(onPressed: () => Navigator.pop(dialogContext, controller.text.trim()), child: const Text('استعادة'))],
+    ));
+    controller.dispose();
+    if (source == null || source.isEmpty || !mounted) return;
+    try {
+      final count = await LearningProgress.restoreBackup(source);
+      await _load();
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('اكتملت الاستعادة: $count من عناصر التقدم.')));
+    } on FormatException catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(error.message)));
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('تعذرت استعادة النسخة. تحقق من محتواها ثم حاول مجدداً.')));
+    }
+  }
   int _completedForLevel(String level) => CourseCatalog.units
       .where((unit) => unit.level == level)
       .fold<int>(0, (sum, unit) => sum + unit.lessons.asMap().entries
