@@ -14,6 +14,12 @@ void main() {
   });
 
   group('Learning progress backup', () {
+    test('records a same-day activity streak', () async {
+      await LearningProgress.recordLearningActivity();
+      await LearningProgress.recordLearningActivity();
+      expect(await LearningProgress.currentLearningStreak(), 1);
+    });
+
     test('exports only app-owned preferences in a versioned format', () async {
       final backup = await LearningProgress.exportBackup();
       final decoded = jsonDecode(backup) as Map<String, dynamic>;
