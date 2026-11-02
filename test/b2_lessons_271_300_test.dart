@@ -4,6 +4,13 @@ import 'package:turkishly/data/course_catalog.dart';
 
 void main() {
   group('B2 lessons 271-300', () {
+    test('B2 lesson content has usable examples and speaking tasks', () {
+      for (final lesson in B2CourseData.lessons.where((e) => e.globalNumber >= 181 && e.globalNumber <= 300)) {
+        expect(lesson.examples, isNotEmpty);
+        expect(lesson.examples.every((example) => example.trim().isNotEmpty), isTrue);
+        expect(lesson.speakingTask.trim(), isNotEmpty);
+      }
+    });
     test('thirty lessons are present with unique global numbers', () {
       final lessons = B2CourseData.lessons.where((e) => e.globalNumber >= 271 && e.globalNumber <= 300).toList();
       expect(lessons, hasLength(30));
