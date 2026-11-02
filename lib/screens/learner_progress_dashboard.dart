@@ -21,6 +21,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
   List<Map<String, dynamic>> _quizHistory = <Map<String, dynamic>>[];
   List<Map<String, dynamic>> _levelHistory = <Map<String, dynamic>>[];
   Map<String, int> _levelBest = <String, int>{};
+  String _timelineFilter = 'الكل';
 
   @override
   void initState() {
@@ -188,7 +189,28 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                 const SizedBox(height: 18),
                 _heading('السجل الزمني للتعلم', 'آخر الاختبارات والتقييمات المسجلة على هذا الجهاز'),
                 const SizedBox(height: 9),
-                ..._activityTimeline().map(_activityTile),
+                Wrap(
+                  alignment: WrapAlignment.end,
+                  spacing: 7,
+                  children: ['الكل', 'اختبار', 'تقييم مستوى'].map((filter) => ChoiceChip(
+                    label: Text(filter, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w700)),
+                    selected: _timelineFilter == filter,
+                    onSelected: (_) => setState(() => _timelineFilter = filter),
+                    selectedColor: const Color(0xFFDCEBFA),
+                    backgroundColor: Colors.white,
+                    side: BorderSide(color: _timelineFilter == filter ? const Color(0xFF8AB9E2) : AppColors.border),
+                    labelStyle: TextStyle(color: _timelineFilter == filter ? AppColors.navy : AppColors.muted),
+                  )).toList(),
+                ),
+                const SizedBox(height: 8),
+                if (_activityTimeline().isEmpty)
+                  const Padding(
+                    padding: EdgeInsets.symmetric(vertical: 14),
+                    child: Text('لا توجد أنشطة من هذا النوع بعد.', textAlign: TextAlign.right,
+                      style: TextStyle(color: AppColors.muted, fontSize: 11)),
+                  )
+                else
+                  ..._activityTimeline().map(_activityTile),
               ],
               const SizedBox(height: 15),
               Container(
@@ -285,6 +307,9 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
         'eventType': 'تقييم مستوى',
       }),
     ];
+    if (_timelineFilter != 'الكل') {
+      events.removeWhere((event) => event['eventType'] != _timelineFilter);
+    }
     events.sort((a, b) {
       final aDate = DateTime.tryParse(a['completedAt']?.toString() ?? '') ?? DateTime(2000);
       final bDate = DateTime.tryParse(b['completedAt']?.toString() ?? '') ?? DateTime(2000);
