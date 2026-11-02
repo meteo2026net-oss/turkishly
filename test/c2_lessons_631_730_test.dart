@@ -5,7 +5,7 @@ void main(){
  group('C2 curriculum batch 631-730',(){
   final batch=C2CourseData.lessons.where((e)=>e.globalNumber>=631&&e.globalNumber<=730).toList();
   test('C2 total and new global lesson range',(){
-   expect(C2CourseData.lessons,hasLength(310));
+   expect(C2CourseData.lessons,hasLength(510));
    expect(batch,hasLength(100));
    expect(batch.map((e)=>e.globalNumber).toSet(),Set<int>.from(List<int>.generate(100,(i)=>631+i)));
   });
