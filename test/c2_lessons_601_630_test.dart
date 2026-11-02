@@ -8,7 +8,7 @@ void main() {
       lesson.globalNumber >= 601 && lesson.globalNumber <= 630).toList();
 
     test('C2 contains 210 lessons and the new global range is continuous', () {
-      expect(C2CourseData.lessons, hasLength(510));
+      expect(C2CourseData.lessons, hasLength(780));
       expect(batch, hasLength(30));
       expect(batch.map((e) => e.globalNumber).toSet(),
         Set<int>.from(List<int>.generate(30, (i) => 601 + i)));
