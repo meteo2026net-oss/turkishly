@@ -1,0 +1,8 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:turkishly/data/c1_course_data.dart';
+import 'package:turkishly/data/course_catalog.dart';
+void main(){group('C1 lessons 391-420',(){
+ test('C1 contains 120 lessons and new lessons have continuous numbering',(){expect(C1CourseData.lessons,hasLength(120));final l=C1CourseData.lessons.where((e)=>e.globalNumber>=391&&e.globalNumber<=420).toList();expect(l,hasLength(30));final n=l.map((e)=>e.globalNumber).toList()..sort();expect(n,List<int>.generate(30,(i)=>391+i));});
+ test('C1 units ten through twelve expose ten lessons each',(){for(var u=10;u<=12;u++){final id='c1-u$u';final unit=CourseCatalog.units.firstWhere((e)=>e.id==id);expect(unit.level,'C1');expect(unit.lessons,hasLength(10));for(var i=1;i<=10;i++){expect(C1CourseData.find(id,i),isNotNull,reason:'$id lesson $i');}}});
+ test('all mastery lessons have examples, dialogue, task and five valid varied questions',(){for(final l in C1CourseData.lessons.where((e)=>e.globalNumber>=391&&e.globalNumber<=420)){expect(l.questions,hasLength(5));expect(l.questions.map((q)=>q.answer).toSet().length,greaterThan(1));expect(l.examples,hasLength(2));expect(l.dialogue,isNotEmpty);expect(l.speakingTask,isNotEmpty);for(final q in l.questions){expect(q.options,hasLength(4));expect(q.options.toSet(),hasLength(4));expect(q.answer,inInclusiveRange(0,3));expect(q.explanation,isNotEmpty);}}});
+});}
