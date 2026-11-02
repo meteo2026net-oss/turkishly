@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import '../data/course_catalog.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
+import 'missed_questions_screen.dart';
 
 class LearnerProgressDashboard extends StatefulWidget {
   const LearnerProgressDashboard({super.key});
@@ -23,6 +24,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
   List<Map<String, dynamic>> _quizHistory = <Map<String, dynamic>>[];
   List<Map<String, dynamic>> _levelHistory = <Map<String, dynamic>>[];
   List<Map<String, dynamic>> _conversationHistory = <Map<String, dynamic>>[];
+  List<Map<String, dynamic>> _recommendedTopics = <Map<String, dynamic>>[];
   Map<String, int> _levelBest = <String, int>{};
   String _timelineFilter = 'الكل';
 
@@ -44,6 +46,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       ...CourseCatalog.levels.map(LearningProgress.levelAssessmentBest),
       LearningProgress.currentLearningStreak(),
       LearningProgress.conversationHistory(limit: 100),
+      LearningProgress.missedQuestionTopicSummary(limit: 3),
     ]);
     if (!mounted) return;
     setState(() {
@@ -60,6 +63,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       };
       _streak = values[7 + CourseCatalog.levels.length] as int;
       _conversationHistory = values[8 + CourseCatalog.levels.length] as List<Map<String, dynamic>>;
+      _recommendedTopics = values[9 + CourseCatalog.levels.length] as List<Map<String, dynamic>>;
       _loading = false;
     });
   }
@@ -95,6 +99,51 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('تعذرت استعادة النسخة. تحقق من محتواها ثم حاول مجدداً.')));
     }
   }
+  Widget _recommendedReviewCard() => Container(
+    padding: const EdgeInsets.all(15),
+    decoration: BoxDecoration(
+      color: const Color(0xFFEAF2FF),
+      borderRadius: BorderRadius.circular(18),
+      border: Border.all(color: const Color(0xFFD5E3F5)),
+    ),
+    child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+      Row(children: [
+        const Icon(Icons.track_changes_rounded, color: AppColors.navy, size: 21),
+        const SizedBox(width: 8),
+        const Expanded(child: Text('مراجعة مقترحة حسب أخطائك',
+          textAlign: TextAlign.right,
+          style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13))),
+      ]),
+      const SizedBox(height: 5),
+      const Text('هذه الموضوعات تكررت في سجل إجاباتك الخاطئة؛ ابدأ بالأكثر تكراراً.',
+        textAlign: TextAlign.right,
+        style: TextStyle(color: AppColors.muted, fontSize: 10, height: 1.5)),
+      const SizedBox(height: 9),
+      ..._recommendedTopics.map((item) => Padding(
+        padding: const EdgeInsets.only(bottom: 6),
+        child: Row(children: [
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5),
+            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(9)),
+            child: Text('${item['count']} خطأ محفوظ',
+              style: const TextStyle(color: AppColors.navy, fontSize: 9, fontWeight: FontWeight.w800)),
+          ),
+          const Spacer(),
+          Flexible(child: Text(item['topic']?.toString() ?? 'مراجعة عامة',
+            textAlign: TextAlign.right,
+            style: const TextStyle(color: AppColors.darkGreen, fontSize: 11, fontWeight: FontWeight.w800))),
+        ]),
+      )),
+      Align(alignment: Alignment.centerLeft, child: TextButton.icon(
+        onPressed: () => Navigator.of(context).push(MaterialPageRoute<void>(
+          builder: (_) => const MissedQuestionsScreen(),
+        )),
+        icon: const Icon(Icons.menu_book_rounded, size: 17),
+        label: const Text('ابدأ مراجعة الأخطاء'),
+      )),
+    ]),
+  );
+
   int _completedForLevel(String level) => CourseCatalog.units
       .where((unit) => unit.level == level)
       .fold<int>(0, (sum, unit) => sum + unit.lessons.asMap().entries
@@ -170,6 +219,10 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                   ]),
                 ]),
               ),
+              if (_recommendedTopics.isNotEmpty) ...[
+                const SizedBox(height: 14),
+                _recommendedReviewCard(),
+              ],
               const SizedBox(height: 16),
               _heading('شارات الإنجاز', 'تُفتح تلقائياً عند تحقيق شروط التعلم المحددة'),
               const SizedBox(height: 10),
