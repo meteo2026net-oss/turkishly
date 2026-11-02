@@ -110,13 +110,13 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                 spacing: 9,
                 runSpacing: 9,
                 children: [
-                  _achievementCard('البداية الأولى', 'أكملت أول درس', Icons.flag_rounded, _completed.isNotEmpty),
-                  _achievementCard('متعلم نشيط', 'أكملت 10 دروس', Icons.local_fire_department_rounded, _completed.length >= 10),
-                  _achievementCard('أول مفرداتك', 'أتقنت 5 كلمات', Icons.translate_rounded, _words >= 5),
-                  _achievementCard('رصيد لغوي', 'أتقنت 10 كلمات', Icons.menu_book_rounded, _words >= 10),
-                  _achievementCard('خطوة الاختبار', 'أنهيت أول اختبار', Icons.quiz_rounded, _quizCount >= 1),
-                  _achievementCard('نتيجة متميزة', 'حققت 80% في اختبار', Icons.stars_rounded, _bestQuiz >= 80),
-                  _achievementCard('اجتياز A1', 'حققت 80% في تقييم A1', Icons.workspace_premium_rounded, (_levelBest['A1'] ?? 0) >= 80),
+                  _achievementCard('البداية الأولى', 'أكملت أول درس', Icons.flag_rounded, _completed.isNotEmpty, _completed.length, 1, 'درس'),
+                  _achievementCard('متعلم نشيط', 'أكملت 10 دروس', Icons.local_fire_department_rounded, _completed.length >= 10, _completed.length, 10, 'دروس'),
+                  _achievementCard('أول مفرداتك', 'أتقنت 5 كلمات', Icons.translate_rounded, _words >= 5, _words, 5, 'كلمات'),
+                  _achievementCard('رصيد لغوي', 'أتقنت 10 كلمات', Icons.menu_book_rounded, _words >= 10, _words, 10, 'كلمات'),
+                  _achievementCard('خطوة الاختبار', 'أنهيت أول اختبار', Icons.quiz_rounded, _quizCount >= 1, _quizCount, 1, 'اختبار'),
+                  _achievementCard('نتيجة متميزة', 'حققت 80% في اختبار', Icons.stars_rounded, _bestQuiz >= 80, _bestQuiz, 80, '%'),
+                  _achievementCard('اجتياز A1', 'حققت 80% في تقييم A1', Icons.workspace_premium_rounded, (_levelBest['A1'] ?? 0) >= 80, _levelBest['A1'] ?? 0, 80, '%'),
                 ],
               ),
               const SizedBox(height: 20),
@@ -199,28 +199,45 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
         ),
   );
 
-  Widget _achievementCard(String title, String description, IconData icon, bool earned) => SizedBox(
-    width: (MediaQuery.sizeOf(context).width - 43) / 2,
-    child: Container(
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(
-        color: earned ? const Color(0xFFFFF7E7) : Colors.white,
-        borderRadius: BorderRadius.circular(15),
-        border: Border.all(color: earned ? const Color(0xFFE8C77D) : AppColors.border),
-      ),
-      child: Row(children: [
-        Icon(icon, color: earned ? const Color(0xFFB7791F) : AppColors.muted, size: 25),
-        const SizedBox(width: 8),
-        Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-          Text(title, textAlign: TextAlign.right,
-            style: TextStyle(color: earned ? AppColors.darkGreen : AppColors.muted, fontSize: 11, fontWeight: FontWeight.w900)),
-          const SizedBox(height: 3),
+  Widget _achievementCard(
+    String title, String description, IconData icon, bool earned,
+    int current, int target, String unit,
+  ) {
+    final progress = target <= 0 ? 0.0 : (current / target).clamp(0.0, 1.0).toDouble();
+    final shown = current < target ? current : target;
+    return SizedBox(
+      width: (MediaQuery.sizeOf(context).width - 43) / 2,
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: earned ? const Color(0xFFFFF7E7) : Colors.white,
+          borderRadius: BorderRadius.circular(15),
+          border: Border.all(color: earned ? const Color(0xFFE8C77D) : AppColors.border),
+        ),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          Row(children: [
+            Icon(icon, color: earned ? const Color(0xFFB7791F) : AppColors.muted, size: 25),
+            const SizedBox(width: 8),
+            Expanded(child: Text(title, textAlign: TextAlign.right,
+              style: TextStyle(color: earned ? AppColors.darkGreen : AppColors.muted,
+                fontSize: 11, fontWeight: FontWeight.w900))),
+          ]),
+          const SizedBox(height: 7),
           Text(earned ? 'تم فتح الشارة' : description, textAlign: TextAlign.right,
             style: const TextStyle(color: AppColors.muted, fontSize: 9, height: 1.4)),
-        ])),
-      ]),
-    ),
-  );
+          if (!earned) ...[
+            const SizedBox(height: 7),
+            ClipRRect(borderRadius: BorderRadius.circular(6),
+              child: LinearProgressIndicator(value: progress, minHeight: 5,
+                backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
+            const SizedBox(height: 4),
+            Text('$shown من $target $unit', textAlign: TextAlign.right,
+              style: const TextStyle(color: AppColors.muted, fontSize: 9)),
+          ],
+        ]),
+      ),
+    );
+  }
 
   Widget _heading(String title, String subtitle) => Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
     Text(title, textAlign: TextAlign.right,
