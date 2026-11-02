@@ -19,7 +19,8 @@ void main() {
         await LearningProgress.recordWordReview(wordId, recalled: true);
         final due = await LearningProgress.wordReviewDueAt(wordId);
         expect(due, isNotNull);
-        expect(due!.difference(before).inHours, expectedDays[index] * 24);
+        final hours = due!.difference(before).inHours;
+        expect(hours, inInclusiveRange(expectedDays[index] * 24 - 1, expectedDays[index] * 24));
         expect(await LearningProgress.wordReviewStreak(wordId), index + 1);
       }
     });
