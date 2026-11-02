@@ -111,6 +111,9 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
     setState(() => _saving = true);
     final percent = _score * 100 ~/ _questions.length;
     await LearningProgress.recordLevelAssessment(widget.level, percent);
+    await LearningProgress.recordLevelAssessmentAttempt(
+      level: widget.level, score: _score, total: _questions.length,
+    );
     final best = await LearningProgress.levelAssessmentBest(widget.level);
     if (!mounted) return;
     setState(() { _best = best; _finished = true; _saving = false; });
