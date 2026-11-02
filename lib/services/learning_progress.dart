@@ -64,7 +64,7 @@ class LearningProgress {
     if (integerKeys.contains(key) || isDynamicInteger) {
       return value is int;
     }
-    return value is List<String>;
+    return value is List && value.every((item) => item is String);
   }
 
   /// Creates a portable, versioned backup of this app's learning data.
