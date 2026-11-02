@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../data/course_catalog.dart';
 import '../models/course_unit.dart';
+import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 import '../widgets/brand_mark.dart';
 import 'course_lesson_screen.dart';
@@ -14,14 +15,30 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int tab = 0;
   String query = '';
+  Set<String> completedLessonIds = <String>{};
   List<CourseUnit> get units => CourseCatalog.units;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadProgress();
+  }
+
+  Future<void> _loadProgress() async {
+    final saved = await LearningProgress.completedLessons();
+    if (mounted) setState(() => completedLessonIds = saved);
+  }
+
+  bool _unitIsComplete(CourseUnit unit) => unit.lessons.asMap().entries.every(
+    (entry) => completedLessonIds.contains('${unit.id}-${entry.key + 1}'),
+  );
   List<CourseUnit> get filtered => units.where((u) =>
     u.titleArabic.contains(query) || u.titleTurkish.toLowerCase().contains(query.toLowerCase()) || u.level.toLowerCase().contains(query.toLowerCase())
   ).toList();
 
   @override
   Widget build(BuildContext context) {
-    final done = units.where((u) => u.isCompleted).length;
+    final done = units.where(_unitIsComplete).length;
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FC),
       body: SafeArea(bottom: false, child: IndexedStack(index: tab, children: [
@@ -58,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: _heading('استكشف المنهج', 'من الأساسيات إلى المحادثة'))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 0, 17, 28),
       sliver: SliverList(delegate: SliverChildBuilderDelegate((context, i) =>
-        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(context, units[i], i)),
+        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(context, units[i], i, onProgressChanged: _loadProgress)),
         childCount: units.length > 5 ? 5 : units.length))),
   ]);
 
@@ -147,7 +164,7 @@ class _HomeScreenState extends State<HomeScreen> {
     ))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 17, 17, 28),
       sliver: SliverList(delegate: SliverChildBuilderDelegate((context, i) =>
-        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(context, filtered[i], i)),
+        Padding(padding: const EdgeInsets.only(bottom: 10), child: _unitTile(context, filtered[i], i, onProgressChanged: _loadProgress)),
         childCount: filtered.length))),
   ]);
 
@@ -224,7 +241,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: SizedBox(width: 39, height: 39, child: Icon(icon, color: AppColors.darkGreen, size: 20))));
 
   void _showUnit(CourseUnit unit) => showModalBottomSheet<void>(context: context, isScrollControlled: true,
-    backgroundColor: Colors.transparent, builder: (_) => _UnitDetails(unit: unit));
+    backgroundColor: Colors.transparent, builder: (_) => _UnitDetails(unit: unit, onProgressChanged: _loadProgress));
 }
 
 Widget _heading(String title, String subtitle, {String? action, VoidCallback? onTap}) => Row(children: [
@@ -236,13 +253,13 @@ Widget _heading(String title, String subtitle, {String? action, VoidCallback? on
   if (action != null) TextButton(onPressed: onTap, child: Text(action)),
 ]);
 
-Widget _unitTile(BuildContext context, CourseUnit unit, int index) {
+Widget _unitTile(BuildContext context, CourseUnit unit, int index, {VoidCallback? onProgressChanged}) {
   const tints = [Color(0xFFEAF2FF), Color(0xFFFFF4E3), Color(0xFFEAF7F2), Color(0xFFF2EDFF)];
   const icons = [Icons.translate_rounded, Icons.chat_bubble_outline_rounded, Icons.headphones_rounded, Icons.edit_note_rounded];
   return Material(color: Colors.white, borderRadius: BorderRadius.circular(20),
     child: InkWell(borderRadius: BorderRadius.circular(20), onTap: () => showModalBottomSheet<void>(
       context: context, isScrollControlled: true, backgroundColor: Colors.transparent,
-      builder: (_) => _UnitDetails(unit: unit)),
+      builder: (_) => _UnitDetails(unit: unit, onProgressChanged: onProgressChanged)),
       child: Container(padding: const EdgeInsets.all(14),
         decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), border: Border.all(color: AppColors.border)),
         child: Row(children: [
@@ -270,8 +287,9 @@ Widget _unitTile(BuildContext context, CourseUnit unit, int index) {
 }
 
 class _UnitDetails extends StatelessWidget {
-  const _UnitDetails({required this.unit});
+  const _UnitDetails({required this.unit, this.onProgressChanged});
   final CourseUnit unit;
+  final VoidCallback? onProgressChanged;
   @override
   Widget build(BuildContext context) => Container(
     height: MediaQuery.sizeOf(context).height * .84,
@@ -294,7 +312,8 @@ class _UnitDetails extends StatelessWidget {
         itemCount: unit.lessons.length, separatorBuilder: (_, __) => const SizedBox(height: 8),
         itemBuilder: (context, i) => Material(color: Colors.white, borderRadius: BorderRadius.circular(16),
           child: InkWell(borderRadius: BorderRadius.circular(16), onTap: () => Navigator.of(context).push(MaterialPageRoute<void>(
-            builder: (_) => CourseLessonScreen(unitId: unit.id, unitTitle: unit.titleArabic, lessonTitle: unit.lessons[i], lessonNumber: i + 1))),
+            builder: (_) => CourseLessonScreen(unitId: unit.id, unitTitle: unit.titleArabic, lessonTitle: unit.lessons[i], lessonNumber: i + 1),
+          ).then((_) => onProgressChanged?.call())),
             child: Padding(padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 12), child: Row(children: [
               Container(width: 35, height: 35, alignment: Alignment.center, decoration: const BoxDecoration(color: Color(0xFFEAF2FF), shape: BoxShape.circle),
                 child: Text('${i + 1}', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
