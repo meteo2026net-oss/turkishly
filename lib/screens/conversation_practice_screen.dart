@@ -94,8 +94,15 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
           score: _score,
           total: _answered,
         );
+      } catch (_) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('تعذر حفظ النتيجة محلياً، لكن يمكنك متابعة التدريب.')),
+          );
+        }
       } finally {
         if (mounted) setState(() { _savingResult = false; _finished = true; });
+      }
     } else {
       setState(() { _turnIndex++; _selected = null; });
     }
