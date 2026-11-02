@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../data/b1_course_data.dart';
 import '../data/b2_course_data.dart';
+import '../data/c1_course_data.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 
@@ -56,9 +57,11 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final lesson = widget.unitId.startsWith('b2-')
-        ? B2CourseData.find(widget.unitId, widget.lessonNumber)
-        : B1CourseData.find(widget.unitId, widget.lessonNumber);
+    final lesson = widget.unitId.startsWith('c1-')
+        ? C1CourseData.find(widget.unitId, widget.lessonNumber)
+        : widget.unitId.startsWith('b2-')
+            ? B2CourseData.find(widget.unitId, widget.lessonNumber)
+            : B1CourseData.find(widget.unitId, widget.lessonNumber);
     if (lesson == null) {
       return Scaffold(appBar: AppBar(title: const Text('درس B1')),
         body: const Center(child: Text('لم يتم العثور على محتوى الدرس.')));
