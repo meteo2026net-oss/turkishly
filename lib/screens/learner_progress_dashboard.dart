@@ -36,8 +36,8 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       LearningProgress.bestQuizScore(),
       LearningProgress.quizCount(),
       LearningProgress.missedQuestionDetails(),
-      LearningProgress.quizHistory(limit: 6),
-      LearningProgress.levelAssessmentHistory(limit: 6),
+      LearningProgress.quizHistory(limit: 100),
+      LearningProgress.levelAssessmentHistory(limit: 100),
       ...CourseCatalog.levels.map(LearningProgress.levelAssessmentBest),
     ]);
     if (!mounted) return;
@@ -212,6 +212,14 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                 else
                   ..._activityTimeline().map(_activityTile),
               ],
+              const SizedBox(height: 18),
+              _heading('نشاطك خلال الفترة الأخيرة', 'إحصاءات محسوبة من تواريخ الاختبارات والتقييمات المسجلة فعلياً'),
+              const SizedBox(height: 9),
+              Row(children: [
+                Expanded(child: _periodMetric('آخر 7 أيام', 7)),
+                const SizedBox(width: 9),
+                Expanded(child: _periodMetric('آخر 30 يوماً', 30)),
+              ]),
               const SizedBox(height: 15),
               Container(
                 padding: const EdgeInsets.all(13),
@@ -226,6 +234,50 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
           ),
         ),
   );
+
+  List<Map<String, dynamic>> _datedActivities() => [
+    ..._quizHistory,
+    ..._levelHistory,
+  ];
+
+  List<Map<String, dynamic>> _activitiesSince(int days) {
+    final now = DateTime.now();
+    final cutoff = now.subtract(Duration(days: days));
+    return _datedActivities().where((item) {
+      final date = DateTime.tryParse(item['completedAt']?.toString() ?? '');
+      return date != null && !date.isBefore(cutoff) && !date.isAfter(now);
+    }).toList();
+  }
+
+  Widget _periodMetric(String label, int days) {
+    final items = _activitiesSince(days);
+    final average = items.isEmpty
+        ? 0
+        : (items.fold<int>(0, (sum, item) =>
+            sum + ((item['percent'] as num?)?.toInt() ?? 0)) / items.length).round();
+    return Container(
+      padding: const EdgeInsets.all(13),
+      decoration: _surface(),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        Text(label, textAlign: TextAlign.right,
+          style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 11)),
+        const SizedBox(height: 8),
+        Row(children: [
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+            Text('${items.length}', style: const TextStyle(color: AppColors.navy, fontSize: 21, fontWeight: FontWeight.w900)),
+            const Text('نشاط مسجل', style: TextStyle(color: AppColors.muted, fontSize: 9)),
+          ])),
+          Container(width: 1, height: 34, color: AppColors.border),
+          const SizedBox(width: 12),
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+            Text(items.isEmpty ? '—' : '$average%',
+              style: const TextStyle(color: AppColors.navy, fontSize: 21, fontWeight: FontWeight.w900)),
+            const Text('متوسط النتائج', style: TextStyle(color: AppColors.muted, fontSize: 9)),
+          ])),
+        ]),
+      ]),
+    );
+  }
 
   Widget _achievementCard(
     String title, String description, IconData icon,
