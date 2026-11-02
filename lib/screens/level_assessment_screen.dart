@@ -187,7 +187,7 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             const Text('اختبار تشخيصي للمستوى', style: TextStyle(color: AppColors.darkGreen, fontSize: 17, fontWeight: FontWeight.w900)),
             const SizedBox(height: 5),
-            const Text('10 أسئلة مختارة عشوائياً من بنك يضم $_questionPoolSize سؤالاً من محتوى المستوى في المفردات والتراكيب والقواعد. درجة الاجتياز 80%.', style: TextStyle(color: AppColors.muted, fontSize: 11, height: 1.6)),
+            Text('10 أسئلة مختارة عشوائياً من بنك يضم $_questionPoolSize سؤالاً من محتوى المستوى في المفردات والتراكيب والقواعد. درجة الاجتياز 80%.', style: const TextStyle(color: AppColors.muted, fontSize: 11, height: 1.6)),
             const SizedBox(height: 9),
             Text('أفضل نتيجة محفوظة: $_best%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w800)),
           ]),
