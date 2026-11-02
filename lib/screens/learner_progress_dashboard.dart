@@ -141,6 +141,33 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                 ]),
               ),
               const SizedBox(height: 20),
+              Container(
+                padding: const EdgeInsets.all(14),
+                decoration: _surface(),
+                child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                  const Text('حماية تقدمك الدراسي', textAlign: TextAlign.right,
+                    style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
+                  const SizedBox(height: 5),
+                  const Text('صدّر نسخة احتياطية أو استعد تقدماً سابقاً على هذا الجهاز.',
+                    textAlign: TextAlign.right, style: TextStyle(color: AppColors.muted, fontSize: 10)),
+                  const SizedBox(height: 11),
+                  Row(children: [
+                    Expanded(child: OutlinedButton.icon(
+                      onPressed: _exportBackup,
+                      icon: const Icon(Icons.copy_rounded, size: 17),
+                      label: const Text('نسخ احتياطي'),
+                    )),
+                    const SizedBox(width: 8),
+                    Expanded(child: FilledButton.icon(
+                      onPressed: _restoreBackup,
+                      icon: const Icon(Icons.restore_rounded, size: 17),
+                      label: const Text('استعادة'),
+                      style: FilledButton.styleFrom(backgroundColor: AppColors.navy),
+                    )),
+                  ]),
+                ]),
+              ),
+              const SizedBox(height: 16),
               _heading('شارات الإنجاز', 'تُفتح تلقائياً عند تحقيق شروط التعلم المحددة'),
               const SizedBox(height: 10),
               Wrap(
@@ -681,9 +708,9 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
             style: TextStyle(color: AppColors.darkGreen,
               fontWeight: FontWeight.w900, fontSize: 13)),
           const SizedBox(height: 5),
-          const Text('تسلسل آخر خمس محاولات مسجلة زمنياً',
+          Text('تسلسل آخر خمس محاولات · أعلى نتيجة $maxScore% · متوسط $average%',
             textAlign: TextAlign.right,
-            style: TextStyle(color: AppColors.muted, fontSize: 9)),
+            style: const TextStyle(color: AppColors.muted, fontSize: 9)),
           const SizedBox(height: 12),
           SizedBox(
             height: 112,
