@@ -40,6 +40,49 @@ void main() {
     });
   });
 
+  group('Progress record validation', () {
+    test('clamps quiz scores and stores valid percentages', () async {
+      await LearningProgress.recordQuizResult(score: 12, total: 10);
+      var history = await LearningProgress.quizHistory();
+      expect(history.single['score'], 10);
+      expect(history.single['total'], 10);
+      expect(history.single['percent'], 100);
+      expect(await LearningProgress.latestQuizScore(), 100);
+
+      await LearningProgress.recordQuizResult(score: -4, total: 10);
+      history = await LearningProgress.quizHistory();
+      expect(history.first['score'], 0);
+      expect(history.first['percent'], 0);
+    });
+
+    test('clamps level assessment attempts and best percentage', () async {
+      await LearningProgress.recordLevelAssessment('B1', 145);
+      await LearningProgress.recordLevelAssessmentAttempt(
+        level: 'B1',
+        score: 15,
+        total: 10,
+      );
+      final history = await LearningProgress.levelAssessmentHistory();
+      expect(history.single['score'], 10);
+      expect(history.single['total'], 10);
+      expect(history.single['percent'], 100);
+      expect(await LearningProgress.levelAssessmentBest('B1'), 100);
+      expect(await LearningProgress.currentLearningStreak(), greaterThanOrEqualTo(1));
+    });
+
+    test('handles zero and negative totals without division errors', () async {
+      await LearningProgress.recordLevelAssessmentAttempt(
+        level: 'A1',
+        score: 3,
+        total: 0,
+      );
+      final history = await LearningProgress.levelAssessmentHistory();
+      expect(history.single['score'], 0);
+      expect(history.single['total'], 0);
+      expect(history.single['percent'], 0);
+    });
+  });
+
   group('Adaptive review recommendations', () {
     test('ranks recurring missed topics by frequency and limits the result', () async {
       Future<void> save(String prompt, String topic) =>
