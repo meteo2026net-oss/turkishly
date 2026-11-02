@@ -69,12 +69,37 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
     if (mounted) setState(() => _best = value);
   }
 
-  void _answer(int option) {
+  Future<void> _answer(int option) async {
     if (_selected != null || _finished) return;
+    final question = _questions[_index];
     setState(() {
       _selected = option;
-      if (option == _questions[_index].answer) _score++;
+      if (option == question.answer) _score++;
     });
+    if (option != question.answer) {
+      await LearningProgress.recordMissedQuestionDetails(
+        prompt: question.prompt,
+        selectedAnswer: question.options[option],
+        correctAnswer: question.options[question.answer],
+        explanation: question.explanation,
+        topic: _topicFor(question.prompt),
+        source: 'تقييم المستوى ${widget.level}',
+      );
+    }
+  }
+
+  String _topicFor(String prompt) {
+    if (prompt.contains('ضمير')) return 'الضمائر الشخصية';
+    if (prompt.contains('جمع')) return 'الجمع والانسجام الصوتي';
+    if (prompt.contains('Günaydın') || prompt.contains('Teşekkür') ||
+        prompt.contains('Lütfen') || prompt.contains('akşamlar')) return 'التحيات والعبارات اليومية';
+    if (prompt.contains('Nerede') || prompt.contains('ner')) return 'السؤال عن المكان';
+    if (prompt.contains('kitap') || prompt.contains('Su')) return 'المفردات الأساسية';
+    if (prompt.contains('Benim evim') || prompt.contains('صفة')) return 'ترتيب الكلمات والصفات';
+    if (prompt.contains('Bugün') || prompt.contains('Yarın')) return 'الزمن والأيام';
+    if (prompt.contains('konuşuyorum') || prompt.contains('النفي')) return 'الأفعال والتصريف';
+    if (prompt.contains('Adın') || prompt.contains('yaşındasın')) return 'التعارف والمعلومات الشخصية';
+    return 'القواعد والمفردات الأساسية';
   }
 
   Future<void> _next() async {
