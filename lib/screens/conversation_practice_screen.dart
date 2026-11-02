@@ -120,7 +120,7 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
       Row(children: [
         Expanded(child: Text(scenario.title, textAlign: TextAlign.right,
           style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 17))),
-        Text('\${_turnIndex + 1}/\${scenario.turns.length}', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900)),
+        Text('${_turnIndex + 1}/${scenario.turns.length}', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900)),
       ]),
       const SizedBox(height: 10),
       ClipRRect(borderRadius: BorderRadius.circular(8), child: LinearProgressIndicator(
@@ -186,9 +186,9 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
           const Text('أحسنت! أنهيت المحادثة', textAlign: TextAlign.center,
             style: TextStyle(color: AppColors.darkGreen, fontSize: 20, fontWeight: FontWeight.w900)),
           const SizedBox(height: 12),
-          Text('\$_score من \$_answered إجابات صحيحة', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 16)),
+          Text('$_score من $_answered إجابات صحيحة', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 16)),
           const SizedBox(height: 6),
-          Text('\$percent%', style: const TextStyle(color: AppColors.darkGreen, fontSize: 32, fontWeight: FontWeight.w900)),
+          Text('$percent%', style: const TextStyle(color: AppColors.darkGreen, fontSize: 32, fontWeight: FontWeight.w900)),
           const SizedBox(height: 18),
           FilledButton(onPressed: _back, style: FilledButton.styleFrom(backgroundColor: AppColors.navy,
             minimumSize: const Size.fromHeight(49)), child: const Text('اختيار موقف آخر')),
