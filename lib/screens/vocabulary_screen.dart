@@ -37,6 +37,23 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
   int _index = 0;
   bool _showMeaning = false;
   bool _loading = true;
+  Map<String, int> _dueAt = <String, int>{};
+
+  List<_Word> get _reviewQueue {
+    final items = List<_Word>.of(_words);
+    items.sort((a, b) {
+      final aDue = _dueAt[a.id] ?? 0;
+      final bDue = _dueAt[b.id] ?? 0;
+      final byDue = aDue.compareTo(bDue);
+      if (byDue != 0) return byDue;
+      final aLearned = _learned.contains(a.id);
+      final bLearned = _learned.contains(b.id);
+      return aLearned == bLearned ? 0 : (aLearned ? 1 : -1);
+    });
+    return items;
+  }
+
+  _Word get _currentWord => _reviewQueue[_index];
 
   @override
   void initState() {
@@ -46,17 +63,31 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
 
   Future<void> _load() async {
     final saved = await LearningProgress.learnedWords();
+    final due = <String, int>{};
+    for (final word in _words) {
+      final date = await LearningProgress.wordReviewDueAt(word.id);
+      if (date != null) due[word.id] = date.millisecondsSinceEpoch;
+    }
     if (!mounted) return;
-    setState(() { _learned = saved; _loading = false; });
+    setState(() { _learned = saved; _dueAt = due; _loading = false; });
   }
 
-  Future<void> _toggleLearned() async {
-    final word = _words[_index];
-    final next = !_learned.contains(word.id);
+  Future<void> _recordRecall(bool recalled) async {
+    final word = _currentWord;
+    await LearningProgress.recordWordReview(word.id, recalled: recalled);
+    if (recalled) {
+      _learned.add(word.id);
+    } else {
+      _learned.remove(word.id);
+    }
+    await LearningProgress.setWordLearned(word.id, recalled);
+    final due = await LearningProgress.wordReviewDueAt(word.id);
+    if (!mounted) return;
     setState(() {
-      if (next) { _learned.add(word.id); } else { _learned.remove(word.id); }
+      if (due != null) _dueAt[word.id] = due.millisecondsSinceEpoch;
+      _showMeaning = false;
+      _index = (_index + 1) % _words.length;
     });
-    await LearningProgress.setWordLearned(word.id, next);
   }
 
   void _move(int delta) {
@@ -68,7 +99,7 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final word = _words[_index];
+    final word = _currentWord;
     final learned = _learned.contains(word.id);
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FC),
@@ -89,7 +120,7 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
             padding: const EdgeInsets.fromLTRB(17, 10, 17, 25),
             child: Column(children: [
               Row(children: [
-                Text('بطاقة ${_index + 1} من ${_words.length}', style: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w800)),
+                Text('بطاقة ${_index + 1} من ${_words.length} • مراجعة ذكية', style: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w800)),
                 const Spacer(),
                 if (learned) const Icon(Icons.check_circle_rounded, color: Color(0xFF29945F), size: 18),
                 if (learned) const SizedBox(width: 5),
@@ -126,21 +157,36 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
                       Text(word.translation, textAlign: TextAlign.center,
                         style: TextStyle(color: Colors.white.withValues(alpha: .8), fontSize: 12)),
                     ] else
-                      Text('اضغط لإظهار المعنى والمثال', style: TextStyle(color: Colors.white.withValues(alpha: .72), fontSize: 12)),
+                      Text('فكّر في المعنى أولاً، ثم اضغط للكشف', style: TextStyle(color: Colors.white.withValues(alpha: .72), fontSize: 12)),
                   ]),
                 ),
               ),
               const SizedBox(height: 15),
-              SizedBox(width: double.infinity, child: FilledButton.icon(
-                onPressed: _toggleLearned,
-                icon: Icon(learned ? Icons.undo_rounded : Icons.check_circle_outline_rounded),
-                label: Text(learned ? 'إعادتها إلى قائمة المراجعة' : 'أعرف هذه الكلمة'),
-                style: FilledButton.styleFrom(
-                  minimumSize: const Size.fromHeight(51),
-                  backgroundColor: learned ? const Color(0xFF64748B) : AppColors.navy,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                ),
-              )),
+              if (_showMeaning) ...[
+                Row(children: [
+                  Expanded(child: OutlinedButton.icon(
+                    onPressed: () => _recordRecall(false),
+                    icon: const Icon(Icons.refresh_rounded),
+                    label: const Text('لم أتذكرها'),
+                    style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(50),
+                      foregroundColor: const Color(0xFFB45309), side: const BorderSide(color: Color(0xFFE8C58B))),
+                  )),
+                  const SizedBox(width: 9),
+                  Expanded(child: FilledButton.icon(
+                    onPressed: () => _recordRecall(true),
+                    icon: const Icon(Icons.check_circle_outline_rounded),
+                    label: const Text('تذكرتها'),
+                    style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(50),
+                      backgroundColor: AppColors.navy, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
+                  )),
+                ]),
+              ] else
+                SizedBox(width: double.infinity, child: OutlinedButton.icon(
+                  onPressed: () => setState(() => _showMeaning = true),
+                  icon: const Icon(Icons.visibility_rounded),
+                  label: const Text('إظهار المعنى بعد المحاولة'),
+                  style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(50), foregroundColor: AppColors.navy),
+                )),
               const SizedBox(height: 10),
               Row(children: [
                 Expanded(child: OutlinedButton.icon(onPressed: () => _move(-1),
@@ -155,7 +201,7 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
               Align(alignment: Alignment.centerRight, child: Text('كلمات تحتاج إلى مراجعة',
                 style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 16))),
               const SizedBox(height: 9),
-              ..._words.where((w) => !_learned.contains(w.id)).take(5).map((w) => Container(
+              ..._reviewQueue.where((w) => !_learned.contains(w.id)).take(5).map((w) => Container(
                 margin: const EdgeInsets.only(bottom: 7),
                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
                 decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(14), border: Border.all(color: AppColors.border)),
@@ -165,7 +211,7 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
                   Text(w.ar, style: const TextStyle(color: AppColors.muted, fontSize: 12)),
                 ]),
               )),
-              if (_learned.length == _words.length)
+              if (_learned.length >= _words.length)
                 const Padding(padding: EdgeInsets.all(16), child: Text('رائع! أتقنت جميع كلمات هذه المجموعة.',
                   style: TextStyle(color: Color(0xFF29945F), fontWeight: FontWeight.w800))),
             ]),
