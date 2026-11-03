@@ -136,8 +136,8 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    backgroundColor: const Color(0xFFF5F7FC),
-    appBar: AppBar(backgroundColor: const Color(0xFFF5F7FC), foregroundColor: AppColors.darkGreen, elevation: 0,
+    backgroundColor: const Color(0xFFFFFAF3),
+    appBar: AppBar(backgroundColor: const Color(0xFFFFFAF3), foregroundColor: AppColors.darkGreen, elevation: 0,
       title: const Text('تدريب المحادثة', style: TextStyle(fontWeight: FontWeight.w900))),
     body: SafeArea(child: _scenario == null ? _list() : _finished ? _result() : _practice()),
   );
@@ -156,7 +156,7 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
           child: Container(padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(19), border: Border.all(color: AppColors.border)),
             child: Row(children: [
-              Container(width: 48, height: 48, decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(15)),
+              Container(width: 48, height: 48, decoration: BoxDecoration(color: const Color(0xFFE0F4F4), borderRadius: BorderRadius.circular(15)),
                 child: Icon(_scenarios[i].icon, color: AppColors.navy, size: 24)),
               const SizedBox(width: 12),
               Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -187,7 +187,7 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
       const SizedBox(height: 10),
       ClipRRect(borderRadius: BorderRadius.circular(8), child: LinearProgressIndicator(
         value: (_turnIndex + 1) / scenario.turns.length, minHeight: 7,
-        backgroundColor: const Color(0xFFE4EAF2), color: AppColors.navy)),
+        backgroundColor: const Color(0xFFDCEBE8), color: AppColors.navy)),
       const SizedBox(height: 18),
       Container(padding: const EdgeInsets.all(18),
         decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(22), border: Border.all(color: AppColors.border)),
@@ -206,7 +206,7 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
         const SizedBox(height: 10),
         for (var i = 0; i < turn.options.length; i++) _option(turn, i, answered),
         if (answered) Container(margin: const EdgeInsets.only(top: 8), padding: const EdgeInsets.all(12),
-          decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(13)),
+          decoration: BoxDecoration(color: const Color(0xFFE0F4F4), borderRadius: BorderRadius.circular(13)),
           child: Text(turn.note!, textAlign: TextAlign.right, style: const TextStyle(color: AppColors.navy, fontSize: 12, height: 1.6))),
       ],
       const SizedBox(height: 18),
@@ -220,8 +220,8 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
   Widget _option(_Turn turn, int index, bool answered) {
     final correct = index == turn.answer, selected = index == _selected;
     final right = answered && correct, wrong = answered && selected && !correct;
-    final bg = right ? const Color(0xFFE8F7EF) : wrong ? const Color(0xFFFFEEEE) : const Color(0xFFF7F9FC);
-    final border = right ? const Color(0xFF62B889) : wrong ? const Color(0xFFE69A9A) : AppColors.border;
+    final bg = right ? const Color(0xFFE2F5F2) : wrong ? const Color(0xFFFFEDEA) : const Color(0xFFFFFAF3);
+    final border = right ? const Color(0xFF0F9D9A) : wrong ? const Color(0xFFD97770) : AppColors.border;
     return Padding(padding: const EdgeInsets.only(bottom: 8), child: Material(color: bg, borderRadius: BorderRadius.circular(14),
       child: InkWell(borderRadius: BorderRadius.circular(14), onTap: answered ? null : () => _choose(index),
         child: Container(padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
@@ -229,8 +229,8 @@ class _ConversationPracticeScreenState extends State<ConversationPracticeScreen>
           child: Row(children: [
             Expanded(child: Text(turn.options[index], textAlign: TextAlign.right,
               style: const TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w800))),
-            if (right) const Icon(Icons.check_circle_rounded, color: Color(0xFF187347), size: 19),
-            if (wrong) const Icon(Icons.cancel_rounded, color: Color(0xFFB33B3B), size: 19),
+            if (right) const Icon(Icons.check_circle_rounded, color: Color(0xFF16785D), size: 19),
+            if (wrong) const Icon(Icons.cancel_rounded, color: Color(0xFFB94F4F), size: 19),
           ]),
         ),
       ),
