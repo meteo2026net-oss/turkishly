@@ -132,7 +132,7 @@ class _JsonLessonScreenState extends State<JsonLessonScreen> {
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
             gradient: const LinearGradient(
-              colors: [Color(0xFF102B52), Color(0xFF2676B8)],
+              colors: [Color(0xFF164E63), Color(0xFF0F9D9A)],
             ),
             borderRadius: BorderRadius.circular(22),
           ),
@@ -143,7 +143,7 @@ class _JsonLessonScreenState extends State<JsonLessonScreen> {
                 '${lesson.level} • LESSON ${lesson.order}',
                 textDirection: TextDirection.ltr,
                 style: const TextStyle(
-                  color: Color(0xFFFFD98A),
+                  color: Color(0xFFF4C66A),
                   fontWeight: FontWeight.w900,
                   fontSize: 11,
                 ),
@@ -302,7 +302,7 @@ class _JsonLessonScreenState extends State<JsonLessonScreen> {
         }),
         if (_submitted) ...[
           Card(
-            color: const Color(0xFFEAF5EE),
+            color: const Color(0xFFE2F5F2),
             child: Padding(
               padding: const EdgeInsets.all(16),
               child: Text(
@@ -328,7 +328,7 @@ class _JsonLessonScreenState extends State<JsonLessonScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        backgroundColor: const Color(0xFFF5F7FC),
+        backgroundColor: const Color(0xFFFFFAF3),
         appBar: AppBar(
           title: Text(widget.unitTitle),
           backgroundColor: Colors.white,
