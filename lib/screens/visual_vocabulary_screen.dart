@@ -64,7 +64,7 @@ class _VisualVocabularyScreenState extends State<VisualVocabularyScreen> {
     final correct = answered && _selected == _index;
 
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       appBar: AppBar(
         title: const Text('التدريب بالصور'),
         backgroundColor: Colors.white,
