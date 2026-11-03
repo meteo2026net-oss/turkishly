@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://turkishly.example/schemas/lesson.schema.json",
+  "title": "Turkishly Lesson",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "level",
+    "unitId",
+    "order",
+    "title",
+    "goal",
+    "rule",
+    "examples",
+    "dialogue",
+    "speakingTask",
+    "questions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "level": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "unitId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ar",
+        "tr"
+      ],
+      "properties": {
+        "ar": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tr": {
+          "type": "string"
+        }
+      }
+    },
+    "goal": {
+      "type": "string"
+    },
+    "rule": {
+      "type": "string"
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "term",
+          "meaningAr"
+        ],
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "meaningAr": {
+            "type": "string"
+          },
+          "exampleTr": {
+            "type": "string"
+          },
+          "exampleAr": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "tr",
+          "ar"
+        ],
+        "properties": {
+          "tr": {
+            "type": "string"
+          },
+          "ar": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dialogue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "speaker",
+          "tr",
+          "ar"
+        ],
+        "properties": {
+          "speaker": {
+            "type": "string"
+          },
+          "tr": {
+            "type": "string"
+          },
+          "ar": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "speakingTask": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "prompt",
+          "options",
+          "answerIndex",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "answerIndex": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "explanation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "path"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "image",
+              "audio",
+              "video"
+            ]
+          },
+          "path": {
+            "type": "string"
+          },
+          "altAr": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "legacyFile": {
+          "type": "string"
+        },
+        "legacyGlobalNumber": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
