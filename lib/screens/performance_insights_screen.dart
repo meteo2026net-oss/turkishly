@@ -65,10 +65,10 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    backgroundColor: const Color(0xFFF5F7FC),
+    backgroundColor: const Color(0xFFFFFAF3),
     appBar: AppBar(
       title: const Text('تحليل الأداء', style: TextStyle(fontWeight: FontWeight.w900)),
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       foregroundColor: AppColors.darkGreen,
       elevation: 0,
     ),
@@ -125,7 +125,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
                     decoration: _surface(),
                     child: Row(children: [
                       Container(width: 48, height: 40, alignment: Alignment.center,
-                        decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(10)),
+                        decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(10)),
                         child: Text('$percent%', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
                       const SizedBox(width: 10),
                       Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
@@ -211,7 +211,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
                     child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
                       Row(children: [
                         Container(width: 29, height: 29, alignment: Alignment.center,
-                          decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(9)),
+                          decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(9)),
                           child: Text('$rank', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
                         const SizedBox(width: 9),
                         Expanded(child: Text(topic.key, textAlign: TextAlign.right,
@@ -221,7 +221,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
                       const SizedBox(height: 11),
                       ClipRRect(borderRadius: BorderRadius.circular(8),
                         child: LinearProgressIndicator(value: fraction, minHeight: 8,
-                          backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
+                          backgroundColor: const Color(0xFFE2F5F2), color: const Color(0xFF0F9D9A))),
                       const SizedBox(height: 5),
                       Text('${(fraction * 100).round()}% من سجل الأخطاء', textAlign: TextAlign.left,
                         style: const TextStyle(color: AppColors.muted, fontSize: 10)),
@@ -252,7 +252,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
                 const SizedBox(height: 10),
                 Container(
                   padding: const EdgeInsets.all(14),
-                  decoration: BoxDecoration(color: const Color(0xFFFFF6E8), borderRadius: BorderRadius.circular(15)),
+                  decoration: BoxDecoration(color: const Color(0xFFFFF7E5), borderRadius: BorderRadius.circular(15)),
                   child: Row(children: [
                     const Icon(Icons.priority_high_rounded, color: Color(0xFFB7791F)),
                     const SizedBox(width: 9),
@@ -264,7 +264,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
               ],
               const SizedBox(height: 12),
               Material(
-                color: const Color(0xFFEAF2FF),
+                color: const Color(0xFFE2F5F2),
                 borderRadius: BorderRadius.circular(15),
                 child: InkWell(
                   borderRadius: BorderRadius.circular(15),
@@ -290,7 +290,7 @@ class _PerformanceInsightsScreenState extends State<PerformanceInsightsScreen> {
               const SizedBox(height: 12),
               Container(
                 padding: const EdgeInsets.all(14),
-                decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(16)),
+                decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(16)),
                 child: const Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Icon(Icons.info_outline_rounded, color: AppColors.navy),
                   SizedBox(width: 9),
@@ -355,9 +355,9 @@ class _AttemptChartPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     if (values.isEmpty) return;
-    final grid = Paint()..color = const Color(0xFFE9EEF6)..strokeWidth = 1;
-    final line = Paint()..color = const Color(0xFF2E82C7)..strokeWidth = 2.8..style = PaintingStyle.stroke..strokeCap = StrokeCap.round;
-    final dot = Paint()..color = const Color(0xFF2E82C7);
+    final grid = Paint()..color = const Color(0xFFE2F5F2)..strokeWidth = 1;
+    final line = Paint()..color = const Color(0xFF0F9D9A)..strokeWidth = 2.8..style = PaintingStyle.stroke..strokeCap = StrokeCap.round;
+    final dot = Paint()..color = const Color(0xFF0F9D9A);
     for (var i = 0; i <= 4; i++) {
       final y = size.height * i / 4;
       canvas.drawLine(Offset(0, y), Offset(size.width, y), grid);
