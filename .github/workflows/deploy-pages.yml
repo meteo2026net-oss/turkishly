@@ -2,7 +2,7 @@ name: Deploy Sara Turkii to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, feature/json-lesson-content]
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feature/json-lesson-content'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
