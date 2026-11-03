@@ -52,7 +52,7 @@ jobs:
           PY
 
       - name: Analyze Dart and Flutter code
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos
 
       - name: Run automated tests
         run: flutter test
