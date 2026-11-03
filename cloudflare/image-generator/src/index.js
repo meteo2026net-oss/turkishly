@@ -60,7 +60,7 @@ function validateItem(item) {
 }
 
 async function generateOne(item, env) {
-  const key = `images/vocabulary/${item.category}/${item.vocabularyId}.png`;
+  const key = `images/vocabulary/${item.category}/${item.vocabularyId}.jpg`;
 
   // Idempotency: do not silently replace an existing object.
   const existing = await env.IMAGES.head(key);
@@ -72,7 +72,7 @@ async function generateOne(item, env) {
   if (!result) throw new Error("The image model returned an empty result.");
 
   await env.IMAGES.put(key, result, {
-    httpMetadata: { contentType: "image/png", cacheControl: "public, max-age=31536000, immutable" },
+    httpMetadata: { contentType: "image/jpeg", cacheControl: "public, max-age=31536000, immutable" },
     customMetadata: {
       vocabularyId: item.vocabularyId,
       category: item.category,
