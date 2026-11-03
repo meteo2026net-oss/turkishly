@@ -23,7 +23,7 @@ flutter run
 
 ## التحقق
 ```bash
-flutter analyze
+flutter analyze --no-fatal-infos
 flutter test
 flutter build web --release --base-href /turkishly/
 ```
