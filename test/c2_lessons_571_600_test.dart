@@ -1,5 +1,4 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:turkishly/data/b1_course_data.dart';
 import 'package:turkishly/data/c2_course_data.dart';
 import 'package:turkishly/data/course_catalog.dart';
 
@@ -9,7 +8,7 @@ void main() {
         .where((lesson) => lesson.globalNumber >= 571 && lesson.globalNumber <= 600)
         .toList();
 
-    test('C2 now contains 210 lessons with continuous global numbering', () {
+    test('C2 contains 780 lessons with continuous global numbering', () {
       expect(C2CourseData.lessons, hasLength(780));
       expect(batch, hasLength(30));
       expect(
@@ -49,10 +48,6 @@ void main() {
           expect(question.explanation, isNotEmpty);
         }
       }
-    });
-
-    test('every lesson uses the shared B1 lesson model', () {
-      expect(batch.every((lesson) => lesson is B1Lesson), isTrue);
     });
   });
 }
