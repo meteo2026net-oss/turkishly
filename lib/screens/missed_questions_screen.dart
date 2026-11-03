@@ -35,10 +35,10 @@ class _MissedQuestionsScreenState extends State<MissedQuestionsScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    backgroundColor: const Color(0xFFF5F7FC),
+    backgroundColor: const Color(0xFFFFFAF3),
     appBar: AppBar(
       title: const Text('مراجعة أخطائي', style: TextStyle(fontWeight: FontWeight.w900)),
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       foregroundColor: AppColors.darkGreen,
       elevation: 0,
       actions: [
@@ -85,7 +85,7 @@ class _MissedQuestionsScreenState extends State<MissedQuestionsScreen> {
                     style: const TextStyle(color: AppColors.navy, fontSize: 12, height: 1.7)),
                   const SizedBox(height: 10),
                   Container(padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(12)),
+                    decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(12)),
                     child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
                       Text('المصدر: ${item['source'] ?? 'اختبار سابق'}',
                         style: const TextStyle(color: AppColors.muted, fontSize: 10)),
