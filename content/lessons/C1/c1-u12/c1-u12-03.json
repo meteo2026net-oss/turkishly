@@ -13,18 +13,106 @@
     "titleTr": "Stratejik İletişim ve Bitirme Projesi",
     "description": "التوصيات الاستراتيجية والتواصل في الأزمات وأصحاب المصلحة والقيادة والتقييم النهائي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحليل توقعات الأطراف المتأثرة وبناء خطة تواصل مناسبة.",
+  "rule": "حدد نفوذ كل طرف واهتمامه ومخاوفه، ثم اختر مستوى المشاركة والرسالة الملائمة.",
+  "vocabulary": [
+    {
+      "term": "paydaş analizi",
+      "meaningAr": "تحليل أصحاب المصلحة",
+      "exampleTr": "Her paydaşın beklentisini ve karar üzerindeki etkisini değerlendirdik.",
+      "exampleAr": "قيّمنا توقعات كل صاحب مصلحة وتأثيره في القرار."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Her paydaşın beklentisini ve karar üzerindeki etkisini değerlendirdik.",
+      "ar": "قيّمنا توقعات كل صاحب مصلحة وتأثيره في القرار."
+    },
+    {
+      "tr": "Paydaşların önceliklerine göre iletişim planı hazırladım.",
+      "ar": "أعددت خطة تواصل وفق أولويات أصحاب المصلحة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Herkese aynı mesajı mı göndereceğiz؟",
+      "ar": "هل نرسل الرسالة نفسها للجميع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ana bilgi aynı, ayrıntı düzeyi farklı olacak.",
+      "ar": "المعلومة الأساسية واحدة لكن مستوى التفاصيل سيختلف."
+    }
+  ],
+  "speakingTask": "أنشئ خريطة أصحاب مصلحة وخطة تواصل لأربعة أطراف.",
+  "questions": [
+    {
+      "id": "c1-u12-03-q1",
+      "prompt": "ما معنى «paydaş analizi»؟",
+      "options": [
+        "طلب الإذن",
+        "تحليل أصحاب المصلحة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«paydaş analizi» تعني: تحليل أصحاب المصلحة."
+    },
+    {
+      "id": "c1-u12-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قيّمنا توقعات كل صاحب مصلحة وتأثيره في القرار.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "قيّمنا توقعات كل صاحب مصلحة وتأثيره في القرار."
+    },
+    {
+      "id": "c1-u12-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "paydaş yönetimi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «paydaş yönetimi». حدد نفوذ كل طرف واهتمامه ومخاوفه، ثم اختر مستوى المشاركة والرسالة الملائمة."
+    },
+    {
+      "id": "c1-u12-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تنظيم التواصل مع الأطراف المعنية.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تنظيم التواصل مع الأطراف المعنية."
+    },
+    {
+      "id": "c1-u12-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ خريطة أصحاب مصلحة وخطة تواصل لأربعة أطراف.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أنشئ خريطة أصحاب مصلحة وخطة تواصل لأربعة أطراف."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
     "legacyUnitId": "c1-u12",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 413
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "Resmî ve Mesleki Dil",
     "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "توجيه اجتماع نحو قرار واضح وضبط الوقت والمشاركة.",
+  "rule": "حدد النتيجة المطلوبة ووزع الوقت واطلب الآراء ثم لخّص القرار والمسؤوليات.",
+  "vocabulary": [
+    {
+      "term": "gündem maddesi",
+      "meaningAr": "بند جدول الأعمال",
+      "exampleTr": "Bu gündem maddesini karara bağlamadan önce riskleri netleştirelim.",
+      "exampleAr": "لنوضح المخاطر قبل حسم بند جدول الأعمال."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu gündem maddesini karara bağlamadan önce riskleri netleştirelim.",
+      "ar": "لنوضح المخاطر قبل حسم بند جدول الأعمال."
+    },
+    {
+      "tr": "Toplantıyı hedeflerden sapmadan yönettim.",
+      "ar": "أدرت الاجتماع دون الابتعاد عن الأهداف."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuyu bugün bitirebilir miyiz؟",
+      "ar": "هل ننهي الموضوع اليوم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce açık kalan noktaları netleştirelim.",
+      "ar": "لنوضح النقاط المتبقية أولاً."
+    }
+  ],
+  "speakingTask": "قد اجتماعاً افتراضياً وسجل القرارات والمسؤوليات.",
+  "questions": [
+    {
+      "id": "c1-u5-04-q1",
+      "prompt": "ما معنى «gündem maddesi»؟",
+      "options": [
+        "بند جدول الأعمال",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«gündem maddesi» تعني: بند جدول الأعمال."
+    },
+    {
+      "id": "c1-u5-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "لنوضح المخاطر قبل حسم بند جدول الأعمال.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "لنوضح المخاطر قبل حسم بند جدول الأعمال."
+    },
+    {
+      "id": "c1-u5-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "toplantıyı yönlendirmek",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «toplantıyı yönlendirmek». حدد النتيجة المطلوبة ووزع الوقت واطلب الآراء ثم لخّص القرار والمسؤوليات."
+    },
+    {
+      "id": "c1-u5-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إدارة النقاش للوصول إلى قرار."
+      ],
+      "answerIndex": 3,
+      "explanation": "إدارة النقاش للوصول إلى قرار."
+    },
+    {
+      "id": "c1-u5-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "قد اجتماعاً افتراضياً وسجل القرارات والمسؤوليات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "قد اجتماعاً افتراضياً وسجل القرارات والمسؤوليات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u5",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 344
   }
 }

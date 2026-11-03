@@ -13,18 +13,106 @@
     "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
     "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "نقل النبرة والإيقاع والصورة دون التضحية بالمعنى.",
+  "rule": "قارن البدائل بحسب الدلالة والإيقاع والسجل، ووضح سبب اختيارك عند تعذر التطابق الكامل.",
+  "vocabulary": [
+    {
+      "term": "edebî çeviri",
+      "meaningAr": "ترجمة أدبية",
+      "exampleTr": "Çeviride sözcük anlamının yanı sıra anlatım tonu da korunmalı.",
+      "exampleAr": "ينبغي الحفاظ في الترجمة على نبرة التعبير إلى جانب معنى الكلمات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çeviride sözcük anlamının yanı sıra anlatım tonu da korunmalı.",
+      "ar": "ينبغي الحفاظ في الترجمة على نبرة التعبير إلى جانب معنى الكلمات."
+    },
+    {
+      "tr": "Çeviri tercihlerimi gerekçeleriyle açıkladım.",
+      "ar": "شرحت اختياراتي الترجمية مع أسبابها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her sözcüğü aynı biçimde çevirdin mi؟",
+      "ar": "هل ترجمت كل كلمة بالطريقة نفسها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, anlamı ve tonu birlikte korudum.",
+      "ar": "لا، حافظت على المعنى والنبرة معاً."
+    }
+  ],
+  "speakingTask": "ترجم فقرة أدبية بطريقتين وقارن أثر كل صياغة.",
+  "questions": [
+    {
+      "id": "c1-u11-09-q1",
+      "prompt": "ما معنى «edebî çeviri»؟",
+      "options": [
+        "طلب الإذن",
+        "ترجمة أدبية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«edebî çeviri» تعني: ترجمة أدبية."
+    },
+    {
+      "id": "c1-u11-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ينبغي الحفاظ في الترجمة على نبرة التعبير إلى جانب معنى الكلمات.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ينبغي الحفاظ في الترجمة على نبرة التعبير إلى جانب معنى الكلمات."
+    },
+    {
+      "id": "c1-u11-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "çeviri tercihi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «çeviri tercihi». قارن البدائل بحسب الدلالة والإيقاع والسجل، ووضح سبب اختيارك عند تعذر التطابق الكامل."
+    },
+    {
+      "id": "c1-u11-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "اتخاذ قرار ترجمي يوازن المعنى والأسلوب.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "اتخاذ قرار ترجمي يوازن المعنى والأسلوب."
+    },
+    {
+      "id": "c1-u11-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "ترجم فقرة أدبية بطريقتين وقارن أثر كل صياغة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "ترجم فقرة أدبية بطريقتين وقارن أثر كل صياغة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
     "legacyUnitId": "c1-u11",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 409
   }
 }

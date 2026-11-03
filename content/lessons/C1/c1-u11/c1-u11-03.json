@@ -13,18 +13,106 @@
     "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
     "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تفسير الرمز وفق تكراره وسياقه وعلاقته بموضوع النص.",
+  "rule": "لا تفرض معنى ثابتاً على الرمز؛ اربطه بالصور المحيطة وتطور الحدث.",
+  "vocabulary": [
+    {
+      "term": "sembol",
+      "meaningAr": "رمز",
+      "exampleTr": "Kırık saat, öyküde kaybolan zamanı simgeliyor.",
+      "exampleAr": "ترمز الساعة المكسورة في القصة إلى الزمن الضائع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kırık saat, öyküde kaybolan zamanı simgeliyor.",
+      "ar": "ترمز الساعة المكسورة في القصة إلى الزمن الضائع."
+    },
+    {
+      "tr": "Sembolün anlamını metnin bütünüyle ilişkilendirdim.",
+      "ar": "ربطت معنى الرمز بالنص كله."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Saat yalnızca bir eşya mı؟",
+      "ar": "هل الساعة مجرد غرض؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, zaman temasını da temsil ediyor.",
+      "ar": "لا، إنها تمثل أيضاً موضوع الزمن."
+    }
+  ],
+  "speakingTask": "حلل رمزاً متكرراً في قصة وقدم قرائن لتفسيره.",
+  "questions": [
+    {
+      "id": "c1-u11-03-q1",
+      "prompt": "ما معنى «sembol»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "رمز"
+      ],
+      "answerIndex": 3,
+      "explanation": "«sembol» تعني: رمز."
+    },
+    {
+      "id": "c1-u11-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "ترمز الساعة المكسورة في القصة إلى الزمن الضائع.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ترمز الساعة المكسورة في القصة إلى الزمن الضائع."
+    },
+    {
+      "id": "c1-u11-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "sembolik anlam",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «sembolik anlam». لا تفرض معنى ثابتاً على الرمز؛ اربطه بالصور المحيطة وتطور الحدث."
+    },
+    {
+      "id": "c1-u11-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "استخلاص الدلالة الرمزية من السياق.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "استخلاص الدلالة الرمزية من السياق."
+    },
+    {
+      "id": "c1-u11-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حلل رمزاً متكرراً في قصة وقدم قرائن لتفسيره.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حلل رمزاً متكرراً في قصة وقدم قرائن لتفسيره."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
     "legacyUnitId": "c1-u11",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 403
   }
 }

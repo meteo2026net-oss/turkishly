@@ -13,18 +13,106 @@
     "titleTr": "İleri Dinleme ve Söylem Analizi",
     "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تمييز البيانات القابلة للتحقق عن تفسير المتحدث.",
+  "rule": "اسأل هل يمكن التحقق من العبارة وهل هي رقم أم تفسير وانسب الرأي لصاحبه.",
+  "vocabulary": [
+    {
+      "term": "veri ve yorum",
+      "meaningAr": "بيانات وتفسير",
+      "exampleTr": "Katılımcıların yüzde kırkı seçeneği tercih etti; konuşmacı bunu güven eksikliğine bağladı.",
+      "exampleAr": "فضّل 40 بالمئة الخيار وربط المتحدث ذلك بنقص الثقة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Katılımcıların yüzde kırkı seçeneği tercih etti; konuşmacı bunu güven eksikliğine bağladı.",
+      "ar": "فضّل 40 بالمئة الخيار وربط المتحدث ذلك بنقص الثقة."
+    },
+    {
+      "tr": "Veriyi yorumdan ayrı kaydettim.",
+      "ar": "سجلت البيانات منفصلة عن التفسير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu cümle bir gerçek mi؟",
+      "ar": "هل هذه الجملة حقيقة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "İlk bölümü veri, ikinci bölümü yorum.",
+      "ar": "الجزء الأول بيانات والثاني تفسير."
+    }
+  ],
+  "speakingTask": "استخرج من تسجيل خمس وقائع وثلاثة تفسيرات وانسبها لقائليها.",
+  "questions": [
+    {
+      "id": "c1-u4-06-q1",
+      "prompt": "ما معنى «veri ve yorum»؟",
+      "options": [
+        "بيانات وتفسير",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«veri ve yorum» تعني: بيانات وتفسير."
+    },
+    {
+      "id": "c1-u4-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "فضّل 40 بالمئة الخيار وربط المتحدث ذلك بنقص الثقة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "فضّل 40 بالمئة الخيار وربط المتحدث ذلك بنقص الثقة."
+    },
+    {
+      "id": "c1-u4-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "olgusal bilgi / yorum",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «olgusal bilgi / yorum». اسأل هل يمكن التحقق من العبارة وهل هي رقم أم تفسير وانسب الرأي لصاحبه."
+    },
+    {
+      "id": "c1-u4-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "الفصل بين المعلومة والتفسير."
+      ],
+      "answerIndex": 3,
+      "explanation": "الفصل بين المعلومة والتفسير."
+    },
+    {
+      "id": "c1-u4-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "استخرج من تسجيل خمس وقائع وثلاثة تفسيرات وانسبها لقائليها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "استخرج من تسجيل خمس وقائع وثلاثة تفسيرات وانسبها لقائليها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u4",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 336
   }
 }

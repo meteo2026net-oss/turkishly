@@ -13,18 +13,106 @@
     "titleTr": "Resmî ve Mesleki Dil",
     "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إنتاج حزمة وثائق مهنية مترابطة.",
+  "rule": "حدد الجمهور والهدف ثم اكتب وثائق متسقة مع مؤشرات متابعة واضحة.",
+  "vocabulary": [
+    {
+      "term": "kurumsal proje",
+      "meaningAr": "مشروع مؤسسي",
+      "exampleTr": "Proje planını, bütçeyi ve sorumlulukları tek belgede topladık.",
+      "exampleAr": "جمعنا خطة المشروع والميزانية والمسؤوليات في وثيقة واحدة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Proje planını, bütçeyi ve sorumlulukları tek belgede topladık.",
+      "ar": "جمعنا خطة المشروع والميزانية والمسؤوليات في وثيقة واحدة."
+    },
+    {
+      "tr": "Belgeler arasında tutarlılık sağladım.",
+      "ar": "حققت الاتساق بين الوثائق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Son raporda ne yer almalı؟",
+      "ar": "ماذا يجب أن يتضمن التقرير النهائي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Sonuçlar, riskler ve sonraki adımlar.",
+      "ar": "النتائج والمخاطر والخطوات التالية."
+    }
+  ],
+  "speakingTask": "أنشئ حزمة من مقترح ورسالة ومحضر وتقرير تنفيذي.",
+  "questions": [
+    {
+      "id": "c1-u5-10-q1",
+      "prompt": "ما معنى «kurumsal proje»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مشروع مؤسسي",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«kurumsal proje» تعني: مشروع مؤسسي."
+    },
+    {
+      "id": "c1-u5-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "جمعنا خطة المشروع والميزانية والمسؤوليات في وثيقة واحدة."
+      ],
+      "answerIndex": 3,
+      "explanation": "جمعنا خطة المشروع والميزانية والمسؤوليات في وثيقة واحدة."
+    },
+    {
+      "id": "c1-u5-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "belge bütünlüğü",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «belge bütünlüğü». حدد الجمهور والهدف ثم اكتب وثائق متسقة مع مؤشرات متابعة واضحة."
+    },
+    {
+      "id": "c1-u5-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تنسيق الوثائق في مشروع متكامل.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تنسيق الوثائق في مشروع متكامل."
+    },
+    {
+      "id": "c1-u5-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ حزمة من مقترح ورسالة ومحضر وتقرير تنفيذي."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنشئ حزمة من مقترح ورسالة ومحضر وتقرير تنفيذي."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u5",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 350
   }
 }

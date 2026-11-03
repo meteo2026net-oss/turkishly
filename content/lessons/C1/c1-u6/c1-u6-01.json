@@ -13,18 +13,106 @@
     "titleTr": "İleri Retorik ve Üslup",
     "description": "المجاز والتوكيد والسجل اللغوي والفروق الدلالية والتحرير وتحليل النصوص."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تفسير الصورة المجازية والتمييز بين الحرفي والمقصود.",
+  "rule": "حدد مجال الصورة وما تنقله من معنى أو موقف ضمن السياق.",
+  "vocabulary": [
+    {
+      "term": "mecaz",
+      "meaningAr": "مجاز",
+      "exampleTr": "Bu karar kurumun önünü açtı.",
+      "exampleAr": "هذا القرار فتح الطريق أمام المؤسسة مجازاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu karar kurumun önünü açtı.",
+      "ar": "هذا القرار فتح الطريق أمام المؤسسة مجازاً."
+    },
+    {
+      "tr": "Yazar mecazlı ifadelerle eleştirisini güçlendiriyor.",
+      "ar": "يعزز الكاتب نقده بالمجاز."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Burada kapı gerçekten mi açıldı؟",
+      "ar": "هل فتح الباب فعلاً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, yeni bir fırsat kastediliyor.",
+      "ar": "لا، المقصود فرصة جديدة."
+    }
+  ],
+  "speakingTask": "حلل ثلاثة تعبيرات مجازية واشرح أثرها.",
+  "questions": [
+    {
+      "id": "c1-u6-01-q1",
+      "prompt": "ما معنى «mecaz»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مجاز"
+      ],
+      "answerIndex": 3,
+      "explanation": "«mecaz» تعني: مجاز."
+    },
+    {
+      "id": "c1-u6-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "هذا القرار فتح الطريق أمام المؤسسة مجازاً.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "هذا القرار فتح الطريق أمام المؤسسة مجازاً."
+    },
+    {
+      "id": "c1-u6-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "mecazlı anlatım",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «mecazlı anlatım». حدد مجال الصورة وما تنقله من معنى أو موقف ضمن السياق."
+    },
+    {
+      "id": "c1-u6-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "نقل المعنى بصورة غير حرفية.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "نقل المعنى بصورة غير حرفية."
+    },
+    {
+      "id": "c1-u6-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حلل ثلاثة تعبيرات مجازية واشرح أثرها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حلل ثلاثة تعبيرات مجازية واشرح أثرها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u6",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 351
   }
 }

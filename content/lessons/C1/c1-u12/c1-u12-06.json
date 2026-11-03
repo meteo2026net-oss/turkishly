@@ -13,18 +13,106 @@
     "titleTr": "Stratejik İletişim ve Bitirme Projesi",
     "description": "التوصيات الاستراتيجية والتواصل في الأزمات وأصحاب المصلحة والقيادة والتقييم النهائي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تقديم توجيه يساعد المتعلم أو الزميل على تحسين أدائه.",
+  "rule": "حدد السلوك الملحوظ وأثره ثم اقترح خطوة قابلة للتطبيق وتابع التقدم.",
+  "vocabulary": [
+    {
+      "term": "mentorluk",
+      "meaningAr": "إرشاد مهني",
+      "exampleTr": "Geri bildirimi belirli örnekler ve uygulanabilir önerilerle verdim.",
+      "exampleAr": "قدمت التغذية الراجعة بأمثلة محددة ومقترحات قابلة للتطبيق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Geri bildirimi belirli örnekler ve uygulanabilir önerilerle verdim.",
+      "ar": "قدمت التغذية الراجعة بأمثلة محددة ومقترحات قابلة للتطبيق."
+    },
+    {
+      "tr": "Gelişim hedefini birlikte belirledik.",
+      "ar": "حددنا هدف التطور معاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Nereden başlamalıyım؟",
+      "ar": "من أين أبدأ؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce güçlü yönünü kullanıp tek bir beceriye odaklan.",
+      "ar": "استخدم نقطة قوتك وركز على مهارة واحدة."
+    }
+  ],
+  "speakingTask": "صمم جلسة إرشاد قصيرة تتضمن نقطة قوة وهدف تطوير ومتابعة.",
+  "questions": [
+    {
+      "id": "c1-u12-06-q1",
+      "prompt": "ما معنى «mentorluk»؟",
+      "options": [
+        "إرشاد مهني",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«mentorluk» تعني: إرشاد مهني."
+    },
+    {
+      "id": "c1-u12-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "قدمت التغذية الراجعة بأمثلة محددة ومقترحات قابلة للتطبيق.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "قدمت التغذية الراجعة بأمثلة محددة ومقترحات قابلة للتطبيق."
+    },
+    {
+      "id": "c1-u12-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "gelişim odaklı geri bildirim",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «gelişim odaklı geri bildirim». حدد السلوك الملحوظ وأثره ثم اقترح خطوة قابلة للتطبيق وتابع التقدم."
+    },
+    {
+      "id": "c1-u12-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "توجيه التحسين بخطوات واضحة."
+      ],
+      "answerIndex": 3,
+      "explanation": "توجيه التحسين بخطوات واضحة."
+    },
+    {
+      "id": "c1-u12-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "صمم جلسة إرشاد قصيرة تتضمن نقطة قوة وهدف تطوير ومتابعة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "صمم جلسة إرشاد قصيرة تتضمن نقطة قوة وهدف تطوير ومتابعة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
     "legacyUnitId": "c1-u12",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 416
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "İleri Akademik Sunum",
     "description": "بناء العروض والانتقالات وشرح البيانات وإدارة الأسئلة والنقاش."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تقييم استخدام السؤال البلاغي لتوجيه التفكير لا لطلب معلومة.",
+  "rule": "استخدم السؤال البلاغي باعتدال، ثم قدم تفسيراً أو دليلاً حتى لا يبقى غامضاً.",
+  "vocabulary": [
+    {
+      "term": "retorik soru",
+      "meaningAr": "سؤال بلاغي",
+      "exampleTr": "Asıl soru, bu değişimin kimler için sürdürülebilir olduğudur.",
+      "exampleAr": "السؤال الحقيقي هو: لمن يكون هذا التغيير مستداماً؟"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Asıl soru, bu değişimin kimler için sürdürülebilir olduğudur.",
+      "ar": "السؤال الحقيقي هو: لمن يكون هذا التغيير مستداماً؟"
+    },
+    {
+      "tr": "Retorik soruyla dinleyicinin dikkatini topladım.",
+      "ar": "جمعت انتباه المستمع بالسؤال البلاغي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu soru yanıt bekliyor mu؟",
+      "ar": "هل ينتظر هذا السؤال إجابة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Daha çok dinleyiciyi düşünmeye yöneltiyor.",
+      "ar": "إنه يوجه المستمع إلى التفكير أكثر."
+    }
+  ],
+  "speakingTask": "أعد صياغة فقرة وأضف سؤالاً بلاغياً يخدم حجتها.",
+  "questions": [
+    {
+      "id": "c1-u10-05-q1",
+      "prompt": "ما معنى «retorik soru»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "سؤال بلاغي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«retorik soru» تعني: سؤال بلاغي."
+    },
+    {
+      "id": "c1-u10-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "السؤال الحقيقي هو: لمن يكون هذا التغيير مستداماً؟",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "السؤال الحقيقي هو: لمن يكون هذا التغيير مستداماً؟"
+    },
+    {
+      "id": "c1-u10-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "düşünmeye yöneltmek",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «düşünmeye yöneltmek». استخدم السؤال البلاغي باعتدال، ثم قدم تفسيراً أو دليلاً حتى لا يبقى غامضاً."
+    },
+    {
+      "id": "c1-u10-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "توجيه الجمهور إلى قضية محورية.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "توجيه الجمهور إلى قضية محورية."
+    },
+    {
+      "id": "c1-u10-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "أعد صياغة فقرة وأضف سؤالاً بلاغياً يخدم حجتها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أعد صياغة فقرة وأضف سؤالاً بلاغياً يخدم حجتها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
     "legacyUnitId": "c1-u10",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 395
   }
 }

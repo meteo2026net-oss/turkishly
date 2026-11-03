@@ -13,18 +13,106 @@
     "titleTr": "İleri Dinleme ve Söylem Analizi",
     "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تلخيص الأطروحة والمحاور والنتائج دون التفاصيل الثانوية.",
+  "rule": "اكتب الفكرة المركزية ثم المحاور بالترتيب واحذف التكرار مع إبقاء الأدلة الحاسمة.",
+  "vocabulary": [
+    {
+      "term": "özetlemek",
+      "meaningAr": "يلخّص",
+      "exampleTr": "Konuşmacı önce sorunu tanımlıyor, ardından üç çözüm önerisini değerlendiriyor.",
+      "exampleAr": "يحدد المتحدث المشكلة ثم يقيّم ثلاثة مقترحات للحل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Konuşmacı önce sorunu tanımlıyor, ardından üç çözüm önerisini değerlendiriyor.",
+      "ar": "يحدد المتحدث المشكلة ثم يقيّم ثلاثة مقترحات للحل."
+    },
+    {
+      "tr": "Konuşmayı üç ana başlık altında özetledim.",
+      "ar": "لخصت الحديث تحت ثلاثة عناوين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her ayrıntıyı yazdın mı؟",
+      "ar": "هل كتبت كل تفصيل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, ana savları ve kanıtları seçtim.",
+      "ar": "لا، اخترت الحجج والأدلة الأساسية."
+    }
+  ],
+  "speakingTask": "لخّص محاضرة خمس دقائق في فقرة من مئة كلمة.",
+  "questions": [
+    {
+      "id": "c1-u4-04-q1",
+      "prompt": "ما معنى «özetlemek»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "يلخّص",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«özetlemek» تعني: يلخّص."
+    },
+    {
+      "id": "c1-u4-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يحدد المتحدث المشكلة ثم يقيّم ثلاثة مقترحات للحل."
+      ],
+      "answerIndex": 3,
+      "explanation": "يحدد المتحدث المشكلة ثم يقيّم ثلاثة مقترحات للحل."
+    },
+    {
+      "id": "c1-u4-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "ana fikir ve destekleyici noktalar",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «ana fikir ve destekleyici noktalar». اكتب الفكرة المركزية ثم المحاور بالترتيب واحذف التكرار مع إبقاء الأدلة الحاسمة."
+    },
+    {
+      "id": "c1-u4-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تمييز الفكرة الرئيسة من التفاصيل الداعمة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تمييز الفكرة الرئيسة من التفاصيل الداعمة."
+    },
+    {
+      "id": "c1-u4-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "لخّص محاضرة خمس دقائق في فقرة من مئة كلمة."
+      ],
+      "answerIndex": 3,
+      "explanation": "لخّص محاضرة خمس دقائق في فقرة من مئة كلمة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u4",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 334
   }
 }

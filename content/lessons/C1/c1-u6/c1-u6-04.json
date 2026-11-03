@@ -13,18 +13,106 @@
     "titleTr": "İleri Retorik ve Üslup",
     "description": "المجاز والتوكيد والسجل اللغوي والفروق الدلالية والتحرير وتحليل النصوص."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "اختيار المرادف وفق درجة المعنى والسياق والمصاحبة.",
+  "rule": "قارن درجة القوة والتقييم والمصاحبات فالمتقارب ليس قابلاً للاستبدال دائماً.",
+  "vocabulary": [
+    {
+      "term": "nüans",
+      "meaningAr": "فارق دلالي دقيق",
+      "exampleTr": "Eleştirmek ile kınamak arasında ton farkı vardır.",
+      "exampleAr": "هناك فرق في النبرة بين النقد والاستنكار."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Eleştirmek ile kınamak arasında ton farkı vardır.",
+      "ar": "هناك فرق في النبرة بين النقد والاستنكار."
+    },
+    {
+      "tr": "Kelimenin nüansını bağlama göre değerlendirdim.",
+      "ar": "قيّمت الفارق الدلالي وفق السياق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu iki sözcük aynı mı؟",
+      "ar": "هل الكلمتان متطابقتان؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yakın anlamlılar, ancak tonları farklı.",
+      "ar": "متقاربتان لكن نبرتهما مختلفة."
+    }
+  ],
+  "speakingTask": "قارن خمسة أزواج من المرادفات واكتب سياقاً لكل كلمة.",
+  "questions": [
+    {
+      "id": "c1-u6-04-q1",
+      "prompt": "ما معنى «nüans»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "فارق دلالي دقيق",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«nüans» تعني: فارق دلالي دقيق."
+    },
+    {
+      "id": "c1-u6-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "هناك فرق في النبرة بين النقد والاستنكار."
+      ],
+      "answerIndex": 3,
+      "explanation": "هناك فرق في النبرة بين النقد والاستنكار."
+    },
+    {
+      "id": "c1-u6-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "eş anlamlıların bağlamı",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «eş anlamlıların bağlamı». قارن درجة القوة والتقييم والمصاحبات فالمتقارب ليس قابلاً للاستبدال دائماً."
+    },
+    {
+      "id": "c1-u6-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "اختيار الكلمة وفق الفارق الدلالي.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "اختيار الكلمة وفق الفارق الدلالي."
+    },
+    {
+      "id": "c1-u6-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قارن خمسة أزواج من المرادفات واكتب سياقاً لكل كلمة."
+      ],
+      "answerIndex": 3,
+      "explanation": "قارن خمسة أزواج من المرادفات واكتب سياقاً لكل كلمة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u6",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 354
   }
 }

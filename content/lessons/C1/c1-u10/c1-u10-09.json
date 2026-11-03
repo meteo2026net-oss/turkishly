@@ -13,18 +13,106 @@
     "titleTr": "İleri Akademik Sunum",
     "description": "بناء العروض والانتقالات وشرح البيانات وإدارة الأسئلة والنقاش."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "دمج البناء والانتقالات والبيانات والإجابة عن الأسئلة والإيقاع.",
+  "rule": "راجع وضوح الهدف والأدلة والتوقيت والتفاعل، ثم عدل العرض وفق ملاحظات الجمهور.",
+  "vocabulary": [
+    {
+      "term": "sunum değerlendirmesi",
+      "meaningAr": "تقييم العرض",
+      "exampleTr": "Sunumumu içerik, süre ve dinleyici etkileşimi açısından değerlendirdim.",
+      "exampleAr": "قيّمت عرضي من حيث المحتوى والوقت وتفاعل الجمهور."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Sunumumu içerik, süre ve dinleyici etkileşimi açısından değerlendirdim.",
+      "ar": "قيّمت عرضي من حيث المحتوى والوقت وتفاعل الجمهور."
+    },
+    {
+      "tr": "Sunum performansımı ölçütlere göre geliştirdim.",
+      "ar": "طورت أداء العرض وفق معايير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "En çok hangi alanı geliştirdin؟",
+      "ar": "أي جانب طورت أكثر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Geçişleri ve soru-cevap bölümünü.",
+      "ar": "الانتقالات وفقرة الأسئلة والأجوبة."
+    }
+  ],
+  "speakingTask": "نفذ عرضاً تجريبياً واستخدم قائمة معايير لتقييمه.",
+  "questions": [
+    {
+      "id": "c1-u10-09-q1",
+      "prompt": "ما معنى «sunum değerlendirmesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تقييم العرض"
+      ],
+      "answerIndex": 3,
+      "explanation": "«sunum değerlendirmesi» تعني: تقييم العرض."
+    },
+    {
+      "id": "c1-u10-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "قيّمت عرضي من حيث المحتوى والوقت وتفاعل الجمهور.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "قيّمت عرضي من حيث المحتوى والوقت وتفاعل الجمهور."
+    },
+    {
+      "id": "c1-u10-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "sunum ölçütleri",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «sunum ölçütleri». راجع وضوح الهدف والأدلة والتوقيت والتفاعل، ثم عدل العرض وفق ملاحظات الجمهور."
+    },
+    {
+      "id": "c1-u10-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تقييم العرض بمعايير متعددة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقييم العرض بمعايير متعددة."
+    },
+    {
+      "id": "c1-u10-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نفذ عرضاً تجريبياً واستخدم قائمة معايير لتقييمه.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "نفذ عرضاً تجريبياً واستخدم قائمة معايير لتقييمه."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
     "legacyUnitId": "c1-u10",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 399
   }
 }

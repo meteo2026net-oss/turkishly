@@ -13,18 +13,106 @@
     "titleTr": "İleri Dinleme ve Söylem Analizi",
     "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "استنتاج معنى المصطلح من التعريف والأمثلة والتضاد.",
+  "rule": "استفد من إعادة الصياغة والأمثلة ثم تحقق من المعنى قبل تثبيته.",
+  "vocabulary": [
+    {
+      "term": "bağlam ipucu",
+      "meaningAr": "قرينة سياقية",
+      "exampleTr": "Araştırmacı kavramı tanımlayıp iki örnekle açıkladı.",
+      "exampleAr": "عرّف الباحث المفهوم وشرحه بمثالين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Araştırmacı kavramı tanımlayıp iki örnekle açıkladı.",
+      "ar": "عرّف الباحث المفهوم وشرحه بمثالين."
+    },
+    {
+      "tr": "Terimin anlamını bağlamdan çıkardım.",
+      "ar": "استنتجت معنى المصطلح من السياق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu terimi biliyor musun؟",
+      "ar": "هل تعرف المصطلح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tanımı ve örnekleri dinleyince anladım.",
+      "ar": "فهمته بعد سماع تعريفه وأمثلته."
+    }
+  ],
+  "speakingTask": "استخرج خمسة مصطلحات واشرحها من السياق دون ترجمة فورية.",
+  "questions": [
+    {
+      "id": "c1-u4-08-q1",
+      "prompt": "ما معنى «bağlam ipucu»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "قرينة سياقية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«bağlam ipucu» تعني: قرينة سياقية."
+    },
+    {
+      "id": "c1-u4-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "عرّف الباحث المفهوم وشرحه بمثالين."
+      ],
+      "answerIndex": 3,
+      "explanation": "عرّف الباحث المفهوم وشرحه بمثالين."
+    },
+    {
+      "id": "c1-u4-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "bağlamdan anlam çıkarma",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «bağlamdan anlam çıkarma». استفد من إعادة الصياغة والأمثلة ثم تحقق من المعنى قبل تثبيته."
+    },
+    {
+      "id": "c1-u4-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تحديد معنى مصطلح من القرائن المحيطة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحديد معنى مصطلح من القرائن المحيطة."
+    },
+    {
+      "id": "c1-u4-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "استخرج خمسة مصطلحات واشرحها من السياق دون ترجمة فورية."
+      ],
+      "answerIndex": 3,
+      "explanation": "استخرج خمسة مصطلحات واشرحها من السياق دون ترجمة فورية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u4",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 338
   }
 }

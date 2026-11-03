@@ -13,18 +13,106 @@
     "titleTr": "İleri Araştırma ve Argümantasyon",
     "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "منع تحويل تزامن متغيرين إلى ادعاء سببي دون تصميم مناسب.",
+  "rule": "الارتباط يصف تغيراً مشتركاً؛ السببية تحتاج أدلة وتصميماً يستبعد التفسيرات البديلة.",
+  "vocabulary": [
+    {
+      "term": "nedensellik",
+      "meaningAr": "علاقة سببية",
+      "exampleTr": "İki değişken arasındaki ilişki tek başına nedenselliği kanıtlamaz.",
+      "exampleAr": "العلاقة بين متغيرين لا تثبت السببية وحدها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İki değişken arasındaki ilişki tek başına nedenselliği kanıtlamaz.",
+      "ar": "العلاقة بين متغيرين لا تثبت السببية وحدها."
+    },
+    {
+      "tr": "Korelasyonu nedensellik olarak yorumlamadım.",
+      "ar": "لم أفسر الارتباط على أنه سببية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Birlikte değişmeleri neden olduklarını gösterir mi؟",
+      "ar": "هل تغيرهما معاً يثبت أن أحدهما سبب الآخر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, başka etkenler de olabilir.",
+      "ar": "لا، قد توجد عوامل أخرى."
+    }
+  ],
+  "speakingTask": "حلل ادعاءً إحصائياً واكتب تفسيرين بديلين للارتباط.",
+  "questions": [
+    {
+      "id": "c1-u7-04-q1",
+      "prompt": "ما معنى «nedensellik»؟",
+      "options": [
+        "علاقة سببية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«nedensellik» تعني: علاقة سببية."
+    },
+    {
+      "id": "c1-u7-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "العلاقة بين متغيرين لا تثبت السببية وحدها.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "العلاقة بين متغيرين لا تثبت السببية وحدها."
+    },
+    {
+      "id": "c1-u7-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "korelasyon ve nedensellik",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «korelasyon ve nedensellik». الارتباط يصف تغيراً مشتركاً؛ السببية تحتاج أدلة وتصميماً يستبعد التفسيرات البديلة."
+    },
+    {
+      "id": "c1-u7-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "التمييز بين الارتباط والسببية."
+      ],
+      "answerIndex": 3,
+      "explanation": "التمييز بين الارتباط والسببية."
+    },
+    {
+      "id": "c1-u7-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "حلل ادعاءً إحصائياً واكتب تفسيرين بديلين للارتباط.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "حلل ادعاءً إحصائياً واكتب تفسيرين بديلين للارتباط."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
     "legacyUnitId": "c1-u7",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 364
   }
 }

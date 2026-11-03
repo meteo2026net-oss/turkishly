@@ -13,18 +13,106 @@
     "titleTr": "İleri Araştırma ve Argümantasyon",
     "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "دمج سؤال البحث وتقييم المصدر والحدود والاعتراضات في مراجعة واحدة.",
+  "rule": "تحقق من اتساق السؤال والمنهج والدليل والاستنتاج، وأعد صياغة أي قفزة منطقية.",
+  "vocabulary": [
+    {
+      "term": "araştırma tutarlılığı",
+      "meaningAr": "اتساق البحث",
+      "exampleTr": "Araştırma sorusu ile kullanılan yöntem arasında tutarlılık bulunmalıdır.",
+      "exampleAr": "ينبغي أن يوجد اتساق بين سؤال البحث والمنهج المستخدم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Araştırma sorusu ile kullanılan yöntem arasında tutarlılık bulunmalıdır.",
+      "ar": "ينبغي أن يوجد اتساق بين سؤال البحث والمنهج المستخدم."
+    },
+    {
+      "tr": "Araştırmanın mantıksal bütünlüğünü gözden geçirdim.",
+      "ar": "راجعت الاتساق المنطقي للبحث."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "En önemli kontrol noktası nedir؟",
+      "ar": "ما أهم نقطة للتحقق؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yöntemin soruya gerçekten yanıt verip vermediği.",
+      "ar": "هل يجيب المنهج فعلاً عن السؤال."
+    }
+  ],
+  "speakingTask": "راجع مشروعاً بحثياً وحدد ثلاث نقاط قوة وثلاثة تحسينات.",
+  "questions": [
+    {
+      "id": "c1-u7-10-q1",
+      "prompt": "ما معنى «araştırma tutarlılığı»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "اتساق البحث",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«araştırma tutarlılığı» تعني: اتساق البحث."
+    },
+    {
+      "id": "c1-u7-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ينبغي أن يوجد اتساق بين سؤال البحث والمنهج المستخدم."
+      ],
+      "answerIndex": 3,
+      "explanation": "ينبغي أن يوجد اتساق بين سؤال البحث والمنهج المستخدم."
+    },
+    {
+      "id": "c1-u7-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yöntem ve sonuç uyumu",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «yöntem ve sonuç uyumu». تحقق من اتساق السؤال والمنهج والدليل والاستنتاج، وأعد صياغة أي قفزة منطقية."
+    },
+    {
+      "id": "c1-u7-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "التحقق من اتساق المنهج والنتيجة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "التحقق من اتساق المنهج والنتيجة."
+    },
+    {
+      "id": "c1-u7-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "راجع مشروعاً بحثياً وحدد ثلاث نقاط قوة وثلاثة تحسينات."
+      ],
+      "answerIndex": 3,
+      "explanation": "راجع مشروعاً بحثياً وحدد ثلاث نقاط قوة وثلاثة تحسينات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
     "legacyUnitId": "c1-u7",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 370
   }
 }

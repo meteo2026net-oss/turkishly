@@ -13,18 +13,106 @@
     "titleTr": "İleri Araştırma ve Argümantasyon",
     "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تقييم نوع الدليل وجودته واتساقه وصلته بالسؤال.",
+  "rule": "رتب الأدلة وفق المنهج والعينة والتكرار والاستقلال، لا وفق موافقتها لرأيك.",
+  "vocabulary": [
+    {
+      "term": "kanıt hiyerarşisi",
+      "meaningAr": "تدرج قوة الأدلة",
+      "exampleTr": "Tek bir örnek, sistematik araştırmalar kadar güçlü kanıt oluşturmaz.",
+      "exampleAr": "لا يشكل مثال واحد دليلاً بقوة الدراسات المنهجية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tek bir örnek, sistematik araştırmalar kadar güçlü kanıt oluşturmaz.",
+      "ar": "لا يشكل مثال واحد دليلاً بقوة الدراسات المنهجية."
+    },
+    {
+      "tr": "Kanıtları yöntem ve tutarlılık açısından değerlendirdim.",
+      "ar": "قيّمت الأدلة من حيث المنهج والاتساق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu örnek yeterli mi؟",
+      "ar": "هل هذا المثال كافٍ؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tek başına değil; daha kapsamlı veriler gerekli.",
+      "ar": "ليس وحده، نحتاج بيانات أوسع."
+    }
+  ],
+  "speakingTask": "رتب ستة أنواع من الأدلة وفسر معايير ترتيبك.",
+  "questions": [
+    {
+      "id": "c1-u7-08-q1",
+      "prompt": "ما معنى «kanıt hiyerarşisi»؟",
+      "options": [
+        "تدرج قوة الأدلة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«kanıt hiyerarşisi» تعني: تدرج قوة الأدلة."
+    },
+    {
+      "id": "c1-u7-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "لا يشكل مثال واحد دليلاً بقوة الدراسات المنهجية.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "لا يشكل مثال واحد دليلاً بقوة الدراسات المنهجية."
+    },
+    {
+      "id": "c1-u7-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kanıtın gücünü değerlendirmek",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «kanıtın gücünü değerlendirmek». رتب الأدلة وفق المنهج والعينة والتكرار والاستقلال، لا وفق موافقتها لرأيك."
+    },
+    {
+      "id": "c1-u7-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تقدير قوة الدليل وصلته بالادعاء."
+      ],
+      "answerIndex": 3,
+      "explanation": "تقدير قوة الدليل وصلته بالادعاء."
+    },
+    {
+      "id": "c1-u7-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "رتب ستة أنواع من الأدلة وفسر معايير ترتيبك.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "رتب ستة أنواع من الأدلة وفسر معايير ترتيبك."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
     "legacyUnitId": "c1-u7",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 368
   }
 }

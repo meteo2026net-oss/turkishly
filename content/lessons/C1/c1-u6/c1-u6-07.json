@@ -13,18 +13,106 @@
     "titleTr": "İleri Retorik ve Üslup",
     "description": "المجاز والتوكيد والسجل اللغوي والفروق الدلالية والتحرير وتحليل النصوص."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحليل صوت الراوي والاختيارات البلاغية والهدف.",
+  "rule": "حدد نوع النص وجمهوره وصوته ثم حلل الأدلة والبنية دون الخلط بين الكاتب والراوي.",
+  "vocabulary": [
+    {
+      "term": "anlatıcı",
+      "meaningAr": "راوٍ",
+      "exampleTr": "Anlatıcı olayları sınırlı bir bakış açısından aktarıyor.",
+      "exampleAr": "ينقل الراوي الأحداث من وجهة نظر محدودة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Anlatıcı olayları sınırlı bir bakış açısından aktarıyor.",
+      "ar": "ينقل الراوي الأحداث من وجهة نظر محدودة."
+    },
+    {
+      "tr": "İki metnin bakış açılarını karşılaştırdım.",
+      "ar": "قارنت وجهتي نظر النصين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Anlatıcı her şeyi biliyor mu؟",
+      "ar": "هل يعرف الراوي كل شيء؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, kendi gözlemlerini aktarıyor.",
+      "ar": "لا، ينقل ملاحظاته فقط."
+    }
+  ],
+  "speakingTask": "قارن فقرة أدبية ومقالاً صحفياً عن الحدث نفسه.",
+  "questions": [
+    {
+      "id": "c1-u6-07-q1",
+      "prompt": "ما معنى «anlatıcı»؟",
+      "options": [
+        "طلب الإذن",
+        "راوٍ",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«anlatıcı» تعني: راوٍ."
+    },
+    {
+      "id": "c1-u6-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ينقل الراوي الأحداث من وجهة نظر محدودة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ينقل الراوي الأحداث من وجهة نظر محدودة."
+    },
+    {
+      "id": "c1-u6-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "bakış açısı"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «bakış açısı». حدد نوع النص وجمهوره وصوته ثم حلل الأدلة والبنية دون الخلط بين الكاتب والراوي."
+    },
+    {
+      "id": "c1-u6-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحليل زاوية السرد أو موقف الكاتب.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل زاوية السرد أو موقف الكاتب."
+    },
+    {
+      "id": "c1-u6-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قارن فقرة أدبية ومقالاً صحفياً عن الحدث نفسه.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قارن فقرة أدبية ومقالاً صحفياً عن الحدث نفسه."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u6",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 357
   }
 }

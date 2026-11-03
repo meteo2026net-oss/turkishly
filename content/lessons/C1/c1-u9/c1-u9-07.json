@@ -13,18 +13,106 @@
     "titleTr": "C1 Yetkinliği ve Bütünleşik Değerlendirme",
     "description": "الكتابة الحجاجية والعروض والأسئلة الصعبة والمناظرة والتحرير وملف الإنجاز."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تقديم ملاحظات محددة قابلة للتنفيذ على نص زميل.",
+  "rule": "قيّم وضوح الأطروحة والبنية والأدلة والترابط والأسلوب، وقدم مثالاً لكل ملاحظة.",
+  "vocabulary": [
+    {
+      "term": "akran değerlendirmesi",
+      "meaningAr": "تقييم الأقران",
+      "exampleTr": "Metnin güçlü yönlerini ve geliştirilmesi gereken bölümlerini belirttim.",
+      "exampleAr": "حددت نقاط قوة النص والأقسام التي تحتاج إلى تطوير."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Metnin güçlü yönlerini ve geliştirilmesi gereken bölümlerini belirttim.",
+      "ar": "حددت نقاط قوة النص والأقسام التي تحتاج إلى تطوير."
+    },
+    {
+      "tr": "Akran değerlendirmesinde somut örnekler kullandım.",
+      "ar": "استخدمت أمثلة ملموسة في تقييم الأقران."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sadece hataları mı işaretledin؟",
+      "ar": "هل أشرت إلى الأخطاء فقط؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, güçlü yönleri ve çözüm önerilerini de yazdım.",
+      "ar": "لا، كتبت نقاط القوة والحلول أيضاً."
+    }
+  ],
+  "speakingTask": "راجع مقالاً وفق خمسة معايير وقدم ثلاث توصيات قابلة للتنفيذ.",
+  "questions": [
+    {
+      "id": "c1-u9-07-q1",
+      "prompt": "ما معنى «akran değerlendirmesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تقييم الأقران"
+      ],
+      "answerIndex": 3,
+      "explanation": "«akran değerlendirmesi» تعني: تقييم الأقران."
+    },
+    {
+      "id": "c1-u9-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "حددت نقاط قوة النص والأقسام التي تحتاج إلى تطوير.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "حددت نقاط قوة النص والأقسام التي تحتاج إلى تطوير."
+    },
+    {
+      "id": "c1-u9-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "yapılandırılmış geri bildirim",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «yapılandırılmış geri bildirim». قيّم وضوح الأطروحة والبنية والأدلة والترابط والأسلوب، وقدم مثالاً لكل ملاحظة."
+    },
+    {
+      "id": "c1-u9-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تقديم تغذية راجعة محددة ومحترمة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقديم تغذية راجعة محددة ومحترمة."
+    },
+    {
+      "id": "c1-u9-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "راجع مقالاً وفق خمسة معايير وقدم ثلاث توصيات قابلة للتنفيذ.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "راجع مقالاً وفق خمسة معايير وقدم ثلاث توصيات قابلة للتنفيذ."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
     "legacyUnitId": "c1-u9",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 387
   }
 }

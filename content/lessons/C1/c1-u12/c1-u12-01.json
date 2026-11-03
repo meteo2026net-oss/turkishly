@@ -13,18 +13,106 @@
     "titleTr": "Stratejik İletişim ve Bitirme Projesi",
     "description": "التوصيات الاستراتيجية والتواصل في الأزمات وأصحاب المصلحة والقيادة والتقييم النهائي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحويل تحليل معقد إلى توصية قابلة للتنفيذ لصانع القرار.",
+  "rule": "اربط التوصية بهدف واضح ودليل ومخاطر وموارد ومؤشر متابعة.",
+  "vocabulary": [
+    {
+      "term": "stratejik tavsiye",
+      "meaningAr": "توصية استراتيجية",
+      "exampleTr": "Önerilen yaklaşım, maliyetleri azaltırken uygulama riskini de sınırlandırıyor.",
+      "exampleAr": "يقلل النهج المقترح التكاليف ويحد في الوقت نفسه من مخاطر التنفيذ."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Önerilen yaklaşım, maliyetleri azaltırken uygulama riskini de sınırlandırıyor.",
+      "ar": "يقلل النهج المقترح التكاليف ويحد في الوقت نفسه من مخاطر التنفيذ."
+    },
+    {
+      "tr": "Öneriyi uygulanabilir adımlara dönüştürdüm.",
+      "ar": "حولت التوصية إلى خطوات قابلة للتنفيذ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Önerinin başarısını nasıl izleyeceğiz؟",
+      "ar": "كيف نتابع نجاح التوصية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ölçülebilir göstergeler ve düzenli raporlarla.",
+      "ar": "بمؤشرات قابلة للقياس وتقارير دورية."
+    }
+  ],
+  "speakingTask": "اكتب توصية استراتيجية من صفحة واحدة تتضمن مؤشرات قياس.",
+  "questions": [
+    {
+      "id": "c1-u12-01-q1",
+      "prompt": "ما معنى «stratejik tavsiye»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "توصية استراتيجية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«stratejik tavsiye» تعني: توصية استراتيجية."
+    },
+    {
+      "id": "c1-u12-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يقلل النهج المقترح التكاليف ويحد في الوقت نفسه من مخاطر التنفيذ.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يقلل النهج المقترح التكاليف ويحد في الوقت نفسه من مخاطر التنفيذ."
+    },
+    {
+      "id": "c1-u12-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "stratejik öneri",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «stratejik öneri». اربط التوصية بهدف واضح ودليل ومخاطر وموارد ومؤشر متابعة."
+    },
+    {
+      "id": "c1-u12-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحويل التحليل إلى قرار عملي.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحويل التحليل إلى قرار عملي."
+    },
+    {
+      "id": "c1-u12-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب توصية استراتيجية من صفحة واحدة تتضمن مؤشرات قياس.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب توصية استراتيجية من صفحة واحدة تتضمن مؤشرات قياس."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
     "legacyUnitId": "c1-u12",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 411
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "Resmî ve Mesleki Dil",
     "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "عرض المشكلة والبدائل والآثار والتوصية بتوازن.",
+  "rule": "افصل وصف الوضع عن تحليل البدائل واذكر حدود البيانات والآثار المتوقعة.",
+  "vocabulary": [
+    {
+      "term": "politika seçeneği",
+      "meaningAr": "خيار سياسة",
+      "exampleTr": "Her seçeneğin maliyeti ve toplumsal etkisi ayrı ayrı değerlendirildi.",
+      "exampleAr": "قُيّمت تكلفة كل خيار وآثاره الاجتماعية على حدة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Her seçeneğin maliyeti ve toplumsal etkisi ayrı ayrı değerlendirildi.",
+      "ar": "قُيّمت تكلفة كل خيار وآثاره الاجتماعية على حدة."
+    },
+    {
+      "tr": "Rapor seçenekleri karşılaştırma olanağı sunuyor.",
+      "ar": "يتيح التقرير مقارنة الخيارات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tek çözüm mü öneriyorsunuz؟",
+      "ar": "هل تقترح حلاً واحداً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce seçenekleri karşılaştırıyorum.",
+      "ar": "أقارن الخيارات أولاً."
+    }
+  ],
+  "speakingTask": "اكتب ملخصاً يقارن ثلاثة بدائل ويبرر التوصية.",
+  "questions": [
+    {
+      "id": "c1-u5-03-q1",
+      "prompt": "ما معنى «politika seçeneği»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "خيار سياسة"
+      ],
+      "answerIndex": 3,
+      "explanation": "«politika seçeneği» تعني: خيار سياسة."
+    },
+    {
+      "id": "c1-u5-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "قُيّمت تكلفة كل خيار وآثاره الاجتماعية على حدة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "قُيّمت تكلفة كل خيار وآثاره الاجتماعية على حدة."
+    },
+    {
+      "id": "c1-u5-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "etki analizi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «etki analizi». افصل وصف الوضع عن تحليل البدائل واذكر حدود البيانات والآثار المتوقعة."
+    },
+    {
+      "id": "c1-u5-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "مقارنة بدائل القرار وآثارها.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "مقارنة بدائل القرار وآثارها."
+    },
+    {
+      "id": "c1-u5-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب ملخصاً يقارن ثلاثة بدائل ويبرر التوصية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب ملخصاً يقارن ثلاثة بدائل ويبرر التوصية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u5",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 343
   }
 }

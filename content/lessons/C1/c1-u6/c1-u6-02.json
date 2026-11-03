@@ -13,18 +13,106 @@
     "titleTr": "İleri Retorik ve Üslup",
     "description": "المجاز والتوكيد والسجل اللغوي والفروق الدلالية والتحرير وتحليل النصوص."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "ملاحظة أثر التكرار والتوازي وترتيب الكلمات.",
+  "rule": "راقب التكرار والجمل المتوازية والوقف واشرح أثرها في توجيه الانتباه.",
+  "vocabulary": [
+    {
+      "term": "vurgu",
+      "meaningAr": "توكيد أو إبراز",
+      "exampleTr": "Önemli olan hız değil, sürdürülebilirliktir.",
+      "exampleAr": "المهم ليس السرعة بل الاستدامة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Önemli olan hız değil, sürdürülebilirliktir.",
+      "ar": "المهم ليس السرعة بل الاستدامة."
+    },
+    {
+      "tr": "Ana fikri karşıtlık yoluyla vurguladı.",
+      "ar": "أكد الفكرة بالمقابلة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden aynı yapı tekrarlandı؟",
+      "ar": "لماذا تكرر التركيب؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ana düşünceyi belirgin kılmak için.",
+      "ar": "لإبراز الفكرة."
+    }
+  ],
+  "speakingTask": "أعد صياغة فقرة لتقوية التوكيد دون تغيير المعنى.",
+  "questions": [
+    {
+      "id": "c1-u6-02-q1",
+      "prompt": "ما معنى «vurgu»؟",
+      "options": [
+        "توكيد أو إبراز",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«vurgu» تعني: توكيد أو إبراز."
+    },
+    {
+      "id": "c1-u6-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "المهم ليس السرعة بل الاستدامة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "المهم ليس السرعة بل الاستدامة."
+    },
+    {
+      "id": "c1-u6-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karşıtlıkla vurgu",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «karşıtlıkla vurgu». راقب التكرار والجمل المتوازية والوقف واشرح أثرها في توجيه الانتباه."
+    },
+    {
+      "id": "c1-u6-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إبراز الفكرة بالمقابلة والتوكيد."
+      ],
+      "answerIndex": 3,
+      "explanation": "إبراز الفكرة بالمقابلة والتوكيد."
+    },
+    {
+      "id": "c1-u6-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أعد صياغة فقرة لتقوية التوكيد دون تغيير المعنى.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أعد صياغة فقرة لتقوية التوكيد دون تغيير المعنى."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
     "legacyUnitId": "c1-u6",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 352
   }
 }
