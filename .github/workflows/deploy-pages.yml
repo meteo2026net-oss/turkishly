@@ -1,4 +1,4 @@
-name: Deploy Sara Turkii to GitHub Pages
+name: Deploy Sara Hocam to GitHub Pages
 
 on:
   push:
@@ -51,7 +51,7 @@ jobs:
           path: build/web
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feature/json-lesson-content'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
