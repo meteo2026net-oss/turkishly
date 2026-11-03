@@ -16,7 +16,7 @@ class BrandSplashScreen extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
-            colors: [AppColors.navy, Color(0xFF164D91), Color(0xFF071D43)],
+            colors: [AppColors.navy, Color(0xFF0F9D9A), Color(0xFF123B50)],
           ),
         ),
         child: SafeArea(
