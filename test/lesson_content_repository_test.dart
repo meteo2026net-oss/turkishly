@@ -14,7 +14,6 @@ void main() {
 
     for (var unitIndex = 0; unitIndex < units.length; unitIndex++) {
       final unit = Map<String, dynamic>.from(units[unitIndex] as Map);
-      final displayedUnit = displayedUnits[unitIndex];
       final unitId = unit['id'] as String;
       final lessons = unit['lessons'] as List<dynamic>;
 
