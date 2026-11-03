@@ -7,7 +7,7 @@ The JSON directory is the canonical lesson-content source. The Flutter app reads
 `lessons/<LEVEL>/<unit-id>/<lesson-id>.json`
 
 - Every one of the **1,332 lessons across 136 units** has its own JSON file.
-- The lesson JSON file is the single source of truth for its display name. Rename it by editing `title.ar` or `title.tr`; the app reads the name from that file. Keep the stable `id` and file path unchanged.
+- The lesson JSON file is the single source of truth for its display name. New records use `title.ar` and `title.tr` strings; the early A1/A2 migration records retain their original nested `title.ar.titleAr` shape for backward compatibility. The reader accepts both forms. Edit the Arabic title in the record itself; keep the stable `id` and file path unchanged. Keep the stable `id` and file path unchanged.
 - `catalog.json` stores unit ordering and references each lesson by stable ID and order; it does not duplicate lesson titles.
 - Lesson records contain goals, explanations, vocabulary where available, examples, dialogue, speaking tasks, quiz options, answer indexes and explanations.
 - `schema/lesson.schema.json` describes the record format.
