@@ -72,7 +72,7 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
     final score = lesson.questions.asMap().entries
         .where((entry) => answers[entry.key] == entry.value.answer).length;
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       appBar: AppBar(title: Text('${widget.unitId.split('-').first.toUpperCase()} • الدرس ${lesson.globalNumber}'),
         backgroundColor: Colors.white, foregroundColor: AppColors.darkGreen, elevation: 0),
       body: ListView(
@@ -81,7 +81,7 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
           Container(
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-              gradient: const LinearGradient(colors: [Color(0xFF102B52), Color(0xFF2676B8)]),
+              gradient: const LinearGradient(colors: [Color(0xFF164E63), Color(0xFF0F9D9A)]),
               borderRadius: BorderRadius.circular(22)),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Text('LESSON ${lesson.globalNumber} • B1', textDirection: TextDirection.ltr,
@@ -130,7 +130,7 @@ class _B1LessonScreenState extends State<B1LessonScreen> {
                         margin: const EdgeInsets.only(bottom: 6),
                         padding: const EdgeInsets.all(11),
                         decoration: BoxDecoration(
-                          color: isCorrect ? const Color(0xFFE8F7EF) : chosen ? const Color(0xFFEAF2FF) : const Color(0xFFF7F9FC),
+                          color: isCorrect ? const Color(0xFFE8F7EF) : chosen ? const Color(0xFFE2F5F2) : const Color(0xFFFFFAF3),
                           borderRadius: BorderRadius.circular(11),
                           border: Border.all(color: isCorrect ? const Color(0xFF279765) : chosen ? AppColors.navy : const Color(0xFFE7ECF3))),
                         child: Row(children: [
