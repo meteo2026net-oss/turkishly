@@ -17,7 +17,8 @@ void main() {
       final unitId = unit['id'] as String;
       final lessons = unit['lessons'] as List<dynamic>;
 
-      for (final rawLesson in lessons) {
+      for (var lessonIndex = 0; lessonIndex < lessons.length; lessonIndex++) {
+        final rawLesson = lessons[lessonIndex];
         final lesson = Map<String, dynamic>.from(rawLesson as Map);
         final order = (lesson['order'] as num).toInt();
         final record = await LessonContentRepository.loadLesson(unitId, order);
@@ -26,6 +27,7 @@ void main() {
         expect(record.unitId, unitId);
         expect(record.contentStatus, 'full');
         expect(record.titleArabic, isNotEmpty);
+        expect(record.titleArabic, displayedUnits[unitIndex].lessons[lessonIndex]);
         expect(record.questions, isNotEmpty);
 
         for (final question in record.questions) {
