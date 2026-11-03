@@ -1,6 +1,6 @@
 # Turkishly JSON lesson content
 
-The JSON directory is the canonical lesson-content source. The Flutter app reads the catalog and lesson records through `LessonContentRepository`; the home curriculum now opens the JSON-driven lesson screen.
+The JSON directory is the canonical lesson-content source. The Flutter app reads unit names, lesson display titles, ordering and lesson records through `LessonContentRepository`; the home curriculum opens the JSON-driven lesson screen.
 
 ## Layout
 
