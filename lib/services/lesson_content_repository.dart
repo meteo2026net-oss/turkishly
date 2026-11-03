@@ -100,6 +100,10 @@ class LessonRecord {
 
   factory LessonRecord.fromJson(Map<String, dynamic> json) {
     final title = Map<String, dynamic>.from(json['title'] as Map? ?? const {});
+    final rawArabicTitle = title['ar'];
+    final arabicTitle = rawArabicTitle is Map
+        ? rawArabicTitle['titleAr']?.toString() ?? ''
+        : rawArabicTitle?.toString() ?? '';
     return LessonRecord(
       id: json['id']?.toString() ?? '',
       level: json['level']?.toString() ?? '',
