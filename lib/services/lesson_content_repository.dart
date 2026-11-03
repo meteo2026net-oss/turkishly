@@ -105,7 +105,7 @@ class LessonRecord {
       level: json['level']?.toString() ?? '',
       unitId: json['unitId']?.toString() ?? '',
       order: (json['order'] as num?)?.toInt() ?? 0,
-      titleArabic: title['ar']?.toString() ?? '',
+      titleArabic: arabicTitle,
       titleTurkish: title['tr']?.toString() ?? '',
       contentStatus: json['contentStatus']?.toString() ?? 'metadata_only',
       goal: json['goal']?.toString() ?? '',
@@ -135,6 +135,14 @@ class LessonRecord {
 
 class LessonContentRepository {
   LessonContentRepository._();
+
+  static String _arabicLessonTitle(Map<String, dynamic> record) {
+    final title = Map<String, dynamic>.from(record['title'] as Map? ?? const {});
+    final value = title['ar'];
+    if (value is String) return value.trim();
+    if (value is Map) return value['titleAr']?.toString().trim() ?? '';
+    return '';
+  }
 
   static const _catalogAsset = 'content/catalog.json';
   static Future<Map<String, dynamic>>? _catalogCache;
@@ -168,10 +176,7 @@ class LessonContentRepository {
         final path = 'content/lessons/$level/$unitId/$lessonId.json';
         final source = await rootBundle.loadString(path);
         final record = Map<String, dynamic>.from(jsonDecode(source) as Map);
-        final lessonTitle = Map<String, dynamic>.from(
-          record['title'] as Map? ?? const {},
-        );
-        final arabicName = lessonTitle['ar']?.toString().trim() ?? '';
+        final arabicName = _arabicLessonTitle(record);
         if (arabicName.isEmpty) {
           throw FormatException('Lesson $lessonId has no Arabic display name.');
         }
