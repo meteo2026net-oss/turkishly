@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-4",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u2-04",
+      "order": 4,
+      "titleAr": "الضمائر الشخصية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام الضمائر الشخصية الأساسية.",
+  "rule": "الضمائر هي Ben أنا، Sen أنت، O هو/هي، Biz نحن، Siz أنتم أو حضرتك، Onlar هم. كثيراً ما يُحذف الضمير في التركية لأن نهاية الفعل أو الجملة قد تدل على الشخص.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ben",
+      "ar": "أنا"
+    },
+    {
+      "tr": "Biz",
+      "ar": "نحن"
+    },
+    {
+      "tr": "Onlar",
+      "ar": "هم / هن"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u2-4-q1",
+      "prompt": "ما الضمير التركي الذي يعني «نحن»؟",
+      "options": [
+        "Ben",
+        "Sen",
+        "Biz",
+        "Siz"
+      ],
+      "answerIndex": 2,
+      "explanation": "Biz تعني نحن."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 4
+  }
+}

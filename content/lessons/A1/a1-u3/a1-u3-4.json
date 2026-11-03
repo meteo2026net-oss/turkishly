@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-4",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u3-04",
+      "order": 4,
+      "titleAr": "أسماء الإشارة: هذا وهذه وهؤلاء",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام أسماء الإشارة هذا وذاك وهؤلاء.",
+  "rule": "Bu تعني هذا/هذه للقريب، Şu للإشارة إلى شيء محدد عادةً، وO تعني ذلك/تلك للبعيد. للجمع نستخدم Bunlar (هؤلاء/هذه الأشياء) وOnlar (أولئك/هم).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu bir kitap.",
+      "ar": "هذا كتاب."
+    },
+    {
+      "tr": "Şu kalem.",
+      "ar": "ذلك القلم المشار إليه."
+    },
+    {
+      "tr": "Bunlar kitaplar.",
+      "ar": "هذه كتب."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u3-4-q1",
+      "prompt": "أي كلمة تعني «هذا/هذه» للقريب؟",
+      "options": [
+        "O",
+        "Bu",
+        "Onlar",
+        "Nerede"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bu تستخدم للإشارة إلى القريب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 4
+  }
+}

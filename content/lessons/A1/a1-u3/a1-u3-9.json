@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-9",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u3-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة مفردات الأشياء والألوان والجمع والإشارة والمكان والملكية.",
+  "rule": "استخدم ما تعلمته لوصف غرفة أو حقيبة أو مكتب. اذكر اسم الشيء ولونه وحجمه ومكانه وصاحبه. كوّن خمس جمل مترابطة ثم أجب عن أسئلة المراجعة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu benim mavi çantam.",
+      "ar": "هذه حقيبتي الزرقاء."
+    },
+    {
+      "tr": "Kitap masanın üstünde.",
+      "ar": "الكتاب فوق الطاولة."
+    },
+    {
+      "tr": "Bunlar yeni kalemler.",
+      "ar": "هذه أقلام جديدة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u3-9-q1",
+      "prompt": "أي جملة تعني «هذه حقيبتي الزرقاء»؟",
+      "options": [
+        "Bu benim mavi çantam.",
+        "Bu senin kırmızı evin.",
+        "O benim kitabım.",
+        "Bunlar küçük masalar."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bu benim mavi çantam تعني هذه حقيبتي الزرقاء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 9
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u7-9",
+  "level": "A1",
+  "unitId": "a1-u7",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u7-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والغرف والأثاث والاتجاهات",
+    "titleTr": "Ev, Odalar, Mobilyalar ve Yönler",
+    "description": "أسماء المنزل والغرف والأثاث ووصف الأماكن وتحديد مواقع الأشياء والاتجاهات الأساسية."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة المنزل والغرف والأثاث والصفات والمواقع والاتجاهات.",
+  "rule": "صف منزلاً من خمس جمل: اذكر عدد الغرف، وصف غرفة واحدة، وسمّ قطعتين من الأثاث، ثم حدّد مكان شيء باستخدام üstünde أو yanında، واستخدم var أو yok في جملة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Evimiz küçük ama güzel.",
+      "ar": "منزلنا صغير لكنه جميل."
+    },
+    {
+      "tr": "Mutfakta bir masa var.",
+      "ar": "توجد طاولة في المطبخ."
+    },
+    {
+      "tr": "Koltuk pencerenin yanında.",
+      "ar": "الأريكة بجانب النافذة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u7-9-q1",
+      "prompt": "اختر الجملة التي تعني «يوجد سرير في غرفة النوم».",
+      "options": [
+        "Yatak odasında yatak var.",
+        "Mutfakta masa yok.",
+        "Ev çok büyük.",
+        "Koltuk salonda."
+      ],
+      "answerIndex": 0,
+      "explanation": "Yatak odasında تعني في غرفة النوم، وyatak var تعني يوجد سرير."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u7",
+    "legacyLessonOrder": 9
+  }
+}

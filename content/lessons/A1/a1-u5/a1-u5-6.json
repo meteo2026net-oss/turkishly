@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u5-6",
+  "level": "A1",
+  "unitId": "a1-u5",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u5-06",
+      "order": 6,
+      "titleAr": "الطلب في المقهى والمطعم",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والطلب في المطعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranda Sipariş",
+    "description": "مفردات الطعام والوجبات والمشروبات والتعبير عن الرغبات والطلب والسؤال عن الأسعار."
+  },
+  "contentStatus": "full",
+  "goal": "طلب الطعام والشراب في مقهى أو مطعم.",
+  "rule": "استخدم عبارات مهذبة عند الطلب: Bir menü alabilir miyim؟ (هل يمكنني الحصول على قائمة؟)، Bir kahve lütfen (قهوة من فضلك)، Hesap lütfen (الحساب من فضلك). كلمة lütfen تجعل الطلب أكثر تهذيباً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Menü alabilir miyim?",
+      "ar": "هل يمكنني الحصول على قائمة؟"
+    },
+    {
+      "tr": "Bir çorba lütfen.",
+      "ar": "حساء من فضلك."
+    },
+    {
+      "tr": "Hesap lütfen.",
+      "ar": "الحساب من فضلك."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u5-6-q1",
+      "prompt": "كيف تطلب الحساب؟",
+      "options": [
+        "Menü lütfen.",
+        "Hesap lütfen.",
+        "Su nerede?",
+        "Günaydın."
+      ],
+      "answerIndex": 1,
+      "explanation": "Hesap lütfen تعني الحساب من فضلك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u5",
+    "legacyLessonOrder": 6
+  }
+}

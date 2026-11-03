@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u9-1",
+  "level": "A1",
+  "unitId": "a1-u9",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u9-01",
+      "order": 1,
+      "titleAr": "أسماء الأماكن المهمة في المدينة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والأماكن العامة",
+    "titleTr": "Şehir, Ulaşım ve Kamu Alanları",
+    "description": "أماكن المدينة ووسائل النقل والاتجاهات والسؤال عن الطريق وشراء تذاكر المواصلات."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء الأماكن المهمة في المدينة.",
+  "rule": "تعلّم أسماء الأماكن التي قد تحتاج إليها أثناء التجول: şehir مدينة، sokak شارع، cadde جادة، meydan ساحة، park حديقة، hastane مستشفى، eczane صيدلية، okul مدرسة، banka بنك، market متجر، postane مكتب بريد، polis merkezi مركز شرطة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "hastane",
+      "ar": "مستشفى"
+    },
+    {
+      "tr": "eczane",
+      "ar": "صيدلية"
+    },
+    {
+      "tr": "banka",
+      "ar": "بنك"
+    },
+    {
+      "tr": "park",
+      "ar": "حديقة"
+    },
+    {
+      "tr": "meydan",
+      "ar": "ساحة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u9-1-q1",
+      "prompt": "ما معنى eczane؟",
+      "options": [
+        "مدرسة",
+        "صيدلية",
+        "بنك",
+        "مستشفى"
+      ],
+      "answerIndex": 1,
+      "explanation": "eczane تعني صيدلية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u9",
+    "legacyLessonOrder": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u9-3",
+  "level": "A1",
+  "unitId": "a1-u9",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u9-03",
+      "order": 3,
+      "titleAr": "السؤال عن موقع الأماكن",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والأماكن العامة",
+    "titleTr": "Şehir, Ulaşım ve Kamu Alanları",
+    "description": "أماكن المدينة ووسائل النقل والاتجاهات والسؤال عن الطريق وشراء تذاكر المواصلات."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن موقع الأماكن في المدينة والإجابة عنه.",
+  "rule": "السؤال الأساسي عن المكان هو Nerede؟ أي أين؟. يمكنك أن تسأل Hastane nerede؟ (أين المستشفى؟)، وتجيب Yakında (بالقرب)، Uzakta (بعيد)، أو Sağda/Solda (على اليمين/اليسار). كلمة burada تعني هنا، وorada تعني هناك.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Banka nerede?",
+      "ar": "أين البنك؟"
+    },
+    {
+      "tr": "Burada.",
+      "ar": "هنا."
+    },
+    {
+      "tr": "Eczane yakında.",
+      "ar": "الصيدلية قريبة."
+    },
+    {
+      "tr": "Okul uzakta.",
+      "ar": "المدرسة بعيدة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u9-3-q1",
+      "prompt": "ما معنى yakında؟",
+      "options": [
+        "بعيد",
+        "قريب",
+        "خلف",
+        "فوق"
+      ],
+      "answerIndex": 1,
+      "explanation": "yakında تعني قريب أو بالقرب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u9",
+    "legacyLessonOrder": 3
+  }
+}

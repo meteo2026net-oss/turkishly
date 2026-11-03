@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-7",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u20-07",
+      "order": 7,
+      "titleAr": "مراجعة الأسرة والصحة والعمل والهوايات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الأسرة والصحة والعمل والهوايات.",
+  "rule": "تدرّب على وصف أفراد الأسرة والمهن وأجزاء الجسم والعبارات الصحية والهوايات. راجع الملكية والتفضيل والقدرة: seviyorum أحب، sevmiyorum لا أحب، -ebilmek يستطيع.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bir kardeşim var.",
+      "ar": "لدي أخ أو أخت."
+    },
+    {
+      "tr": "Doktora gitmeliyim.",
+      "ar": "يجب أن أذهب إلى الطبيب."
+    },
+    {
+      "tr": "Öğretmenim.",
+      "ar": "أنا معلم/معلمة."
+    },
+    {
+      "tr": "Yüzebilirim.",
+      "ar": "أستطيع السباحة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u20-7-q1",
+      "prompt": "ما معنى Yüzebilirim؟",
+      "options": [
+        "أحب السباحة",
+        "أستطيع السباحة",
+        "أذهب للسباحة",
+        "لا أسبح"
+      ],
+      "answerIndex": 1,
+      "explanation": "Yüzebilirim تعني أستطيع السباحة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 7
+  }
+}

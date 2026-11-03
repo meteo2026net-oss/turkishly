@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-4",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u19-04",
+      "order": 4,
+      "titleAr": "المطار وإجراءات السفر",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام مفردات المطار وإجراءات السفر الأساسية.",
+  "rule": "كلمات المطار: havaalanı مطار، pasaport جواز سفر، biniş kartı بطاقة صعود، kapı بوابة، uçuş رحلة جوية، bagaj أمتعة، güvenlik أمن. عبارات: Uçuş kapısı nerede؟ (أين بوابة الرحلة؟)، Pasaportum burada (جواز سفري هنا)، Uçağım saat üçte (طائرتي الساعة الثالثة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "havaalanı",
+      "ar": "مطار"
+    },
+    {
+      "tr": "pasaport",
+      "ar": "جواز سفر"
+    },
+    {
+      "tr": "biniş kartı",
+      "ar": "بطاقة صعود"
+    },
+    {
+      "tr": "uçuş kapısı",
+      "ar": "بوابة الرحلة"
+    },
+    {
+      "tr": "bagaj",
+      "ar": "أمتعة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-4-q1",
+      "prompt": "ما معنى havaalanı؟",
+      "options": [
+        "محطة قطار",
+        "مطار",
+        "فندق",
+        "ميناء"
+      ],
+      "answerIndex": 1,
+      "explanation": "havaalanı تعني مطار."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 4
+  }
+}

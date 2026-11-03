@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-2",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u10-02",
+      "order": 2,
+      "titleAr": "الحواس والأفعال المرتبطة بالجسم",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الحواس والأفعال اليومية المرتبطة بالجسم.",
+  "rule": "من الأفعال المفيدة görmek يرى، duymak يسمع، koklamak يشم، tatmak يتذوق، dokunmak يلمس، yürümek يمشي، koşmak يركض، oturmak يجلس. يمكن تكوين جمل بسيطة مثل Gözlerimle görüyorum (أرى بعينيّ) وKulaklarımla duyuyorum (أسمع بأذنيّ).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Görmek",
+      "ar": "الرؤية"
+    },
+    {
+      "tr": "Duymak",
+      "ar": "السمع"
+    },
+    {
+      "tr": "Yürümek",
+      "ar": "المشي"
+    },
+    {
+      "tr": "Koşmak",
+      "ar": "الركض"
+    },
+    {
+      "tr": "Elimi yıkıyorum.",
+      "ar": "أغسل يدي."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-2-q1",
+      "prompt": "أي فعل يعني «يسمع»؟",
+      "options": [
+        "görmek",
+        "duymak",
+        "yürümek",
+        "oturmak"
+      ],
+      "answerIndex": 1,
+      "explanation": "duymak يعني يسمع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 2
+  }
+}

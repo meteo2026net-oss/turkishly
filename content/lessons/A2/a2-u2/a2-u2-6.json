@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u2-6",
+  "level": "A2",
+  "unitId": "a2-u2",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a2-u2-06",
+      "order": 6,
+      "titleAr": "كلمات الزمن مع المستقبل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المستقبل والخطط والقرارات",
+    "titleTr": "Gelecek Zaman ve Planlar",
+    "description": "تكوين زمن المستقبل وإثباته ونفيه والسؤال عنه، مع ضمائر الأشخاص وكلمات الزمن والتعبير عن النوايا والخطط والترتيبات."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام كلمات الزمن مع المستقبل.",
+  "rule": "من كلمات المستقبل: yarın غداً، gelecek hafta الأسبوع القادم، gelecek ay الشهر القادم، gelecek yıl السنة القادمة، birazdan بعد قليل، yakında قريباً. مثال: Gelecek hafta sınava gireceğim (سأقدم امتحاناً الأسبوع القادم).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "yarın",
+      "ar": "غداً"
+    },
+    {
+      "tr": "gelecek hafta",
+      "ar": "الأسبوع القادم"
+    },
+    {
+      "tr": "gelecek ay",
+      "ar": "الشهر القادم"
+    },
+    {
+      "tr": "birazdan",
+      "ar": "بعد قليل"
+    },
+    {
+      "tr": "Yakında taşınacağız.",
+      "ar": "سننتقل قريباً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u2-6-q1",
+      "prompt": "ما معنى gelecek hafta؟",
+      "options": [
+        "الأسبوع الماضي",
+        "الأسبوع القادم",
+        "كل أسبوع",
+        "هذا الأسبوع"
+      ],
+      "answerIndex": 1,
+      "explanation": "gelecek hafta تعني الأسبوع القادم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u2",
+    "legacyLessonOrder": 6
+  }
+}

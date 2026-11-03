@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u12-5",
+  "level": "A1",
+  "unitId": "a1-u12",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u12-05",
+      "order": 5,
+      "titleAr": "وصف الطقس ودرجة الحرارة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والتاريخ والطقس والفصول",
+    "titleTr": "Zaman, Tarih, Hava Durumu ve Mevsimler",
+    "description": "قراءة الساعة وأيام الأسبوع والأشهر والفصول ووصف الطقس وتحديد المواعيد والروتين الأسبوعي."
+  },
+  "contentStatus": "full",
+  "goal": "وصف حالة الطقس ودرجة الحرارة بجمل بسيطة.",
+  "rule": "للسؤال عن الطقس قل Bugün hava nasıl؟ (كيف الطقس اليوم؟). كلمات مفيدة: sıcak حار، soğuk بارد، serin معتدل البرودة، ılık دافئ، açık صافٍ، kapalı ملبد بالغيوم، yağmur مطر، kar ثلج، rüzgâr رياح. مثال: Bugün hava soğuk (الجو بارد اليوم)، Hava ılık ve güneşli (الجو دافئ ومشمس).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Hava nasıl?",
+      "ar": "كيف الطقس؟"
+    },
+    {
+      "tr": "Hava çok sıcak.",
+      "ar": "الجو حار جداً."
+    },
+    {
+      "tr": "Bugün yağmurlu.",
+      "ar": "الجو ممطر اليوم."
+    },
+    {
+      "tr": "Hava serin.",
+      "ar": "الجو معتدل البرودة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u12-5-q1",
+      "prompt": "ما معنى bulutlu؟",
+      "options": [
+        "مشمس",
+        "غائم",
+        "مثلج",
+        "حار"
+      ],
+      "answerIndex": 1,
+      "explanation": "bulutlu تعني غائم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u12",
+    "legacyLessonOrder": 5
+  }
+}

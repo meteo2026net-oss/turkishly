@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u7-8",
+  "level": "A1",
+  "unitId": "a1-u7",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u7-08",
+      "order": 8,
+      "titleAr": "حوار وصف المنزل والأثاث",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والغرف والأثاث والاتجاهات",
+    "titleTr": "Ev, Odalar, Mobilyalar ve Yönler",
+    "description": "أسماء المنزل والغرف والأثاث ووصف الأماكن وتحديد مواقع الأشياء والاتجاهات الأساسية."
+  },
+  "contentStatus": "full",
+  "goal": "إجراء حوار بسيط لوصف المنزل ومكان الأثاث.",
+  "rule": "في الحوار اسأل عن المنزل أو الغرفة: Evin nasıl؟ (كيف منزلك؟)، Kaç odası var؟ (كم غرفة فيه؟)، Mutfak nerede؟ (أين المطبخ؟). أجب بصفة أو عدد أو موقع، واستخدم var/yok لتذكر ما يوجد وما لا يوجد.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "A: Evin büyük mü?",
+      "ar": "أ: هل منزلك كبير؟"
+    },
+    {
+      "tr": "B: Hayır, küçük ama güzel.",
+      "ar": "ب: لا، إنه صغير لكنه جميل."
+    },
+    {
+      "tr": "A: Salonda ne var?",
+      "ar": "أ: ماذا يوجد في غرفة الجلوس؟"
+    },
+    {
+      "tr": "B: Bir koltuk ve iki sandalye var.",
+      "ar": "ب: توجد أريكة واحدة وكرسيان."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u7-8-q1",
+      "prompt": "ماذا تعني Salonda ne var؟",
+      "options": [
+        "أين غرفة الجلوس؟",
+        "ماذا يوجد في غرفة الجلوس؟",
+        "هل المنزل كبير؟",
+        "كم سعر الأريكة؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "Salonda ne var؟ تسأل عمّا يوجد في غرفة الجلوس."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u7",
+    "legacyLessonOrder": 8
+  }
+}

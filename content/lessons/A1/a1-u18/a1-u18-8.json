@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-8",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u18-08",
+      "order": 8,
+      "titleAr": "حوار لترتيب نشاط مع صديق",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار قصير لترتيب نشاط مع صديق.",
+  "rule": "A: Hafta sonu ne yapalım؟ (ماذا نفعل في عطلة نهاية الأسبوع؟) B: Sinemaya gidelim mi؟ (ما رأيك أن نذهب إلى السينما؟) A: Harika fikir! Saat kaçta؟ (فكرة رائعة! في أي ساعة؟) B: Saat beşte buluşalım. (لنلتقِ الساعة الخامسة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Hafta sonu ne yapalım?",
+      "ar": "ماذا نفعل في عطلة نهاية الأسبوع؟"
+    },
+    {
+      "tr": "Sinemaya gidelim mi?",
+      "ar": "ما رأيك أن نذهب إلى السينما؟"
+    },
+    {
+      "tr": "Harika fikir!",
+      "ar": "فكرة رائعة!"
+    },
+    {
+      "tr": "Saat kaçta?",
+      "ar": "في أي ساعة؟"
+    },
+    {
+      "tr": "Saat beşte buluşalım.",
+      "ar": "لنلتقِ الساعة الخامسة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u18-8-q1",
+      "prompt": "ما معنى Harika fikir؟",
+      "options": [
+        "فكرة رائعة",
+        "ليس لدي وقت",
+        "أين المنزل؟",
+        "أنا متعب"
+      ],
+      "answerIndex": 0,
+      "explanation": "Harika fikir تعني فكرة رائعة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 8
+  }
+}

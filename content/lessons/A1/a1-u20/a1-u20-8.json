@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-8",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u20-08",
+      "order": 8,
+      "titleAr": "محادثة متكاملة في مواقف الحياة اليومية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق محادثة متكاملة في مواقف الحياة اليومية.",
+  "rule": "اقرأ الحوار وحاول فهم المعنى العام: A: Merhaba, nasılsınız؟ (مرحباً، كيف حالك؟) B: İyiyim, teşekkür ederim. (أنا بخير، شكراً.) A: Bugün nereye gidiyorsunuz؟ (إلى أين تذهب اليوم؟) B: Markete gidiyorum. (أذهب إلى المتجر.) A: Sonra kafeye gidelim mi؟ (هل نذهب إلى المقهى بعد ذلك؟) B: Harika fikir! (فكرة رائعة!).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Nasılsınız?",
+      "ar": "كيف حالك؟ بصيغة مهذبة"
+    },
+    {
+      "tr": "İyiyim, teşekkür ederim.",
+      "ar": "أنا بخير، شكراً لك."
+    },
+    {
+      "tr": "Markete gidiyorum.",
+      "ar": "أذهب إلى المتجر."
+    },
+    {
+      "tr": "Harika fikir!",
+      "ar": "فكرة رائعة!"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u20-8-q1",
+      "prompt": "ماذا تعني Markete gidiyorum؟",
+      "options": [
+        "أذهب إلى المتجر",
+        "أعود إلى المنزل",
+        "أشرب القهوة",
+        "أتعلم التركية"
+      ],
+      "answerIndex": 0,
+      "explanation": "Markete gidiyorum تعني أذهب إلى المتجر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 8
+  }
+}

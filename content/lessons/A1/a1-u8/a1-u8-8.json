@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u8-8",
+  "level": "A1",
+  "unitId": "a1-u8",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u8-08",
+      "order": 8,
+      "titleAr": "حوار التسوق والدفع",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الملابس والتسوّق والألوان والأسعار",
+    "titleTr": "Kıyafetler, Alışveriş, Renkler ve Fiyatlar",
+    "description": "أسماء الملابس والألوان والمقاسات والسؤال عن الأسعار وتجربة الملابس والشراء من المتاجر."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار قصير عند شراء الملابس والدفع.",
+  "rule": "يجمع هذا الحوار بين السؤال عن قطعة ملابس، والمقاس والسعر، وتجربتها، ثم اتخاذ قرار الشراء. من العبارات المفيدة Kasada ödeme yapabilirsiniz (يمكنك الدفع عند الصندوق)، Nakit أو kart (نقداً أو بالبطاقة)، وFiş alabilir miyim؟ (هل يمكنني أخذ الإيصال؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Müşteri: Bu gömlek ne kadar?",
+      "ar": "الزبون: كم سعر هذا القميص؟"
+    },
+    {
+      "tr": "Satıcı: Beş yüz lira.",
+      "ar": "البائع: خمسمئة ليرة."
+    },
+    {
+      "tr": "Müşteri: Deneyebilir miyim?",
+      "ar": "الزبون: هل يمكنني تجربته؟"
+    },
+    {
+      "tr": "Satıcı: Tabii, buyurun.",
+      "ar": "البائع: بالتأكيد، تفضل."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u8-8-q1",
+      "prompt": "ماذا تعني Tabii؟",
+      "options": [
+        "مستحيل",
+        "بالتأكيد",
+        "غالي جداً",
+        "لا أعرف"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tabii تعني بالطبع أو بالتأكيد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u8",
+    "legacyLessonOrder": 8
+  }
+}

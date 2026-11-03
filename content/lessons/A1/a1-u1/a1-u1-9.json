@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-9",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u1-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الحروف والأصوات والقراءة الأساسية.",
+  "rule": "راجع الحروف المتحركة الثمانية، والحروف الخاصة، والتمييز بين c/ç وs/ş وı/i. استخدم القراءة المتدرجة: حرف، ثم مقطع، ثم كلمة، ثم جملة قصيرة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "çanta",
+      "ar": "حقيبة"
+    },
+    {
+      "tr": "öğrenci",
+      "ar": "طالب"
+    },
+    {
+      "tr": "üzüm",
+      "ar": "عنب"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-9-q1",
+      "prompt": "أي كلمة تبدأ بالحرف ş؟",
+      "options": [
+        "Çanta",
+        "Şeker",
+        "Öğrenci",
+        "Üzüm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Şeker تبدأ بالحرف ş."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 9
+  }
+}

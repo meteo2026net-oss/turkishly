@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u2-9",
+  "level": "A2",
+  "unitId": "a2-u2",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u2-09",
+      "order": 9,
+      "titleAr": "مراجعة المستقبل واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المستقبل والخطط والقرارات",
+    "titleTr": "Gelecek Zaman ve Planlar",
+    "description": "تكوين زمن المستقبل وإثباته ونفيه والسؤال عنه، مع ضمائر الأشخاص وكلمات الزمن والتعبير عن النوايا والخطط والترتيبات."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة المستقبل وإعداد خطة شخصية.",
+  "rule": "راجع الإثبات والنفي والسؤال في المستقبل، ونهايات الضمائر والتغيرات الشائعة مثل gidecek وyiyecek. اكتب خطة من أربع جمل للأسبوع القادم مستخدماً yarın وgelecek hafta وbirazdan. مثال: Yarın erken kalkacağım (سأستيقظ مبكراً غداً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Yarın erken kalkacağım.",
+      "ar": "سأستيقظ مبكراً غداً."
+    },
+    {
+      "tr": "Ders çalışmayacağım.",
+      "ar": "لن أدرس."
+    },
+    {
+      "tr": "Arkadaşım gelecek mi?",
+      "ar": "هل سيأتي صديقي؟"
+    },
+    {
+      "tr": "Gelecek hafta seyahat edeceğiz.",
+      "ar": "سنسافر الأسبوع القادم."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u2-9-q1",
+      "prompt": "اختر صيغة المستقبل المنفية الصحيحة للفعل çalışmak مع أنا.",
+      "options": [
+        "çalışacağım",
+        "çalışmadım",
+        "çalışmayacağım",
+        "çalışıyorum"
+      ],
+      "answerIndex": 2,
+      "explanation": "çalışmayacağım تعني لن أدرس/أعمل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u2",
+    "legacyLessonOrder": 9
+  }
+}

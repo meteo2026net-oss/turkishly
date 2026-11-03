@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-3",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u3-03",
+      "order": 3,
+      "titleAr": "أسماء المفرد والجمع",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "full",
+  "goal": "تكوين جمع الأسماء باستخدام -lar و-ler.",
+  "rule": "نضيف -lar أو -ler إلى الاسم بحسب آخر حركة: بعد a, ı, o, u نستخدم -lar، وبعد e, i, ö, ü نستخدم -ler. لا نضيف لاحقة الجمع عادةً إذا كان العدد مذكوراً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kitap → kitaplar",
+      "ar": "كتب"
+    },
+    {
+      "tr": "ev → evler",
+      "ar": "بيوت"
+    },
+    {
+      "tr": "kalem → kalemler",
+      "ar": "أقلام"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u3-3-q1",
+      "prompt": "ما جمع كلمة araba؟",
+      "options": [
+        "arabaler",
+        "arabalar",
+        "arabalarlar",
+        "arabas"
+      ],
+      "answerIndex": 1,
+      "explanation": "آخر حركة في araba هي a، لذلك نضيف -lar."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 3
+  }
+}

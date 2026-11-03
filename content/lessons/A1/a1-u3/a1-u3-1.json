@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-1",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u3-01",
+      "order": 1,
+      "titleAr": "أسماء الأشياء والأدوات اليومية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "full",
+  "goal": "تسمية الأشياء والأدوات الشائعة في المنزل والدراسة.",
+  "rule": "ابدأ بحفظ أسماء الأشياء مع أداة التعريف العربية ومع مثال بسيط. الأسماء التركية لا تتغير بحسب المذكر والمؤنث كما في العربية.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kitap",
+      "ar": "كتاب"
+    },
+    {
+      "tr": "kalem",
+      "ar": "قلم"
+    },
+    {
+      "tr": "masa",
+      "ar": "طاولة"
+    },
+    {
+      "tr": "kapı",
+      "ar": "باب"
+    },
+    {
+      "tr": "telefon",
+      "ar": "هاتف"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u3-1-q1",
+      "prompt": "ما معنى kalem؟",
+      "options": [
+        "كتاب",
+        "قلم",
+        "باب",
+        "كرسي"
+      ],
+      "answerIndex": 1,
+      "explanation": "kalem تعني قلم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 1
+  }
+}

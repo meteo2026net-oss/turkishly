@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-4",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a2-u6-04",
+      "order": 4,
+      "titleAr": "نفي الوجوب والتمييز بين المنع وعدم الضرورة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "نفي الوجوب والتمييز بين المنع وعدم الضرورة.",
+  "rule": "نفي -malı/-meli يكون بإدخال -ma/-me قبل علامة الوجوب: gitmemelisin لا ينبغي أن تذهب، konuşmamalıyım يجب ألا أتحدث. أما «ليس من الضروري» فيمكن التعبير عنها بـ gerek yok: Gelmene gerek yok (لا داعي لأن تأتي).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "gitmemelisin",
+      "ar": "ينبغي ألا تذهب"
+    },
+    {
+      "tr": "konuşmamalıyım",
+      "ar": "يجب ألا أتحدث"
+    },
+    {
+      "tr": "gerek yok",
+      "ar": "لا حاجة / ليس ضرورياً"
+    },
+    {
+      "tr": "Acele etmene gerek yok.",
+      "ar": "لا داعي لأن تستعجل."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-4-q1",
+      "prompt": "أي تعبير يعني «ليس من الضروري»؟",
+      "options": [
+        "gitmelisin",
+        "gerek yok",
+        "gitmemelisin",
+        "lazım"
+      ],
+      "answerIndex": 1,
+      "explanation": "gerek yok تعني لا حاجة أو ليس ضرورياً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 4
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u1-7",
+  "level": "A2",
+  "unitId": "a2-u1",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u1-07",
+      "order": 7,
+      "titleAr": "وصف عطلة أو رحلة سابقة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحدث عن الماضي والأحداث السابقة",
+    "titleTr": "Geçmiş Zaman ve Geçmiş Olaylar",
+    "description": "تعلم الماضي المحدد وإثباته ونفيه والسؤال عنه، مع كلمات الزمن وتسلسل الأحداث ووصف يوم سابق وعطلة مضت."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث عن عطلة أو رحلة سابقة.",
+  "rule": "استخدم الماضي لوصف الرحلة: Tatilde denize girdim (سبحت في البحر خلال العطلة)، Çok fotoğraf çektik (التقطنا صوراً كثيرة)، Güzel bir otelde kaldık (أقمنا في فندق جميل). يمكن إضافة الصفات مثل güzel جميل، eğlenceli ممتع، yorucu متعب لوصف التجربة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Tatil",
+      "ar": "عطلة"
+    },
+    {
+      "tr": "fotoğraf çektik",
+      "ar": "التقطنا صوراً"
+    },
+    {
+      "tr": "Otelde kaldık.",
+      "ar": "أقمنا في الفندق."
+    },
+    {
+      "tr": "Çok eğlendim.",
+      "ar": "استمتعت كثيراً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u1-7-q1",
+      "prompt": "ما معنى Çok fotoğraf çektik؟",
+      "options": [
+        "التقطنا صوراً كثيرة",
+        "اشترينا تذاكر",
+        "عدنا إلى المنزل",
+        "حجزنا غرفة"
+      ],
+      "answerIndex": 0,
+      "explanation": "تعني التقطنا صوراً كثيرة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u1",
+    "legacyLessonOrder": 7
+  }
+}

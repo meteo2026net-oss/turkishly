@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u7-4",
+  "level": "A1",
+  "unitId": "a1-u7",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u7-04",
+      "order": 4,
+      "titleAr": "التعبير عن الوجود وعدم الوجود: var وyok",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والغرف والأثاث والاتجاهات",
+    "titleTr": "Ev, Odalar, Mobilyalar ve Yönler",
+    "description": "أسماء المنزل والغرف والأثاث ووصف الأماكن وتحديد مواقع الأشياء والاتجاهات الأساسية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن وجود الأشياء أو عدم وجودها باستخدام var وyok.",
+  "rule": "تُستخدم var للتعبير عن وجود شيء، وyok للتعبير عن عدم وجوده. مثال: Evde balkon var (يوجد شرفة في المنزل)، Evde garaj yok (لا يوجد مرآب في المنزل). ضع اسم المكان في صيغة -da/-de بحسب الانسجام الصوتي.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Evde üç oda var.",
+      "ar": "يوجد في المنزل ثلاث غرف."
+    },
+    {
+      "tr": "Mutfakta masa var.",
+      "ar": "توجد طاولة في المطبخ."
+    },
+    {
+      "tr": "Bahçede havuz yok.",
+      "ar": "لا يوجد مسبح في الحديقة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u7-4-q1",
+      "prompt": "أي كلمة تعبّر عن عدم وجود شيء؟",
+      "options": [
+        "var",
+        "yok",
+        "çok",
+        "ile"
+      ],
+      "answerIndex": 1,
+      "explanation": "yok تعني غير موجود أو لا يوجد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u7",
+    "legacyLessonOrder": 4
+  }
+}

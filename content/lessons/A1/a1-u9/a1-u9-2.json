@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u9-2",
+  "level": "A1",
+  "unitId": "a1-u9",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u9-02",
+      "order": 2,
+      "titleAr": "وسائل النقل الشائعة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والأماكن العامة",
+    "titleTr": "Şehir, Ulaşım ve Kamu Alanları",
+    "description": "أماكن المدينة ووسائل النقل والاتجاهات والسؤال عن الطريق وشراء تذاكر المواصلات."
+  },
+  "contentStatus": "full",
+  "goal": "تسمية وسائل النقل الشائعة.",
+  "rule": "من وسائل النقل ulaşım مواصلات، otobüs حافلة، metro مترو، tramvay ترام، tren قطار، taksi سيارة أجرة، araba سيارة، bisiklet دراجة، vapur عبّارة، uçak طائرة. الفعل binmek يعني يركب وسيلة نقل، ويمكن أن تقول otobüse biniyorum أي أركب الحافلة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "otobüs",
+      "ar": "حافلة"
+    },
+    {
+      "tr": "metro",
+      "ar": "مترو"
+    },
+    {
+      "tr": "tren",
+      "ar": "قطار"
+    },
+    {
+      "tr": "taksi",
+      "ar": "سيارة أجرة"
+    },
+    {
+      "tr": "bisiklet",
+      "ar": "دراجة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u9-2-q1",
+      "prompt": "ما معنى tren؟",
+      "options": [
+        "طائرة",
+        "قطار",
+        "حافلة",
+        "دراجة"
+      ],
+      "answerIndex": 1,
+      "explanation": "tren تعني قطار."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u9",
+    "legacyLessonOrder": 2
+  }
+}

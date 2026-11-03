@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u16-3",
+  "level": "A1",
+  "unitId": "a1-u16",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u16-03",
+      "order": 3,
+      "titleAr": "الأعراض الشائعة والتعبير عنها",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم والحالة العامة والأعراض الشائعة ومفردات العيادة والصيدلية وطلب المواعيد والمساعدة."
+  },
+  "contentStatus": "full",
+  "goal": "الأعراض الشائعة والتعبير عنها باللغة التركية.",
+  "rule": "مفردات لغوية عامة: ağrı ألم، baş ağrısı صداع، boğaz ağrısı ألم الحلق، öksürük سعال، ateş حرارة، burun akıntısı سيلان الأنف، mide ağrısı ألم المعدة. قل Başım ağrıyor (رأسي يؤلمني)، أو Öksürüyorum (أسعل). هذه عبارات لتعلّم اللغة وليست تشخيصاً طبياً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Başım ağrıyor.",
+      "ar": "رأسي يؤلمني."
+    },
+    {
+      "tr": "Boğazım ağrıyor.",
+      "ar": "حلقي يؤلمني."
+    },
+    {
+      "tr": "Öksürüyorum.",
+      "ar": "أسعل."
+    },
+    {
+      "tr": "Ateşim var.",
+      "ar": "لديّ حرارة."
+    },
+    {
+      "tr": "Midem ağrıyor.",
+      "ar": "معدتي تؤلمني."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u16-3-q1",
+      "prompt": "ما معنى Boğazım ağrıyor؟",
+      "options": [
+        "رأسي يؤلمني",
+        "حلقي يؤلمني",
+        "أنا جائع",
+        "أنا متعب"
+      ],
+      "answerIndex": 1,
+      "explanation": "Boğazım تعني حلقي، و ağrıyor تعني يؤلمني."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u16",
+    "legacyLessonOrder": 3
+  }
+}

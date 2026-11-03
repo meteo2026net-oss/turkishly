@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-4",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a2-u3-04",
+      "order": 4,
+      "titleAr": "التعبير عن الأفضل باستخدام en",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الأفضل باستخدام en.",
+  "rule": "نضع en قبل الصفة للتعبير عن الدرجة العليا: en güzel الأجمل، en büyük الأكبر، en hızlı الأسرع. مثال: Bu, en güzel park (هذه أجمل حديقة). ويمكن إضافة في مجموعة: Sınıfın en uzun öğrencisi (أطول طالب في الصف).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "en güzel",
+      "ar": "الأجمل"
+    },
+    {
+      "tr": "en büyük",
+      "ar": "الأكبر"
+    },
+    {
+      "tr": "en hızlı",
+      "ar": "الأسرع"
+    },
+    {
+      "tr": "En sevdiğim renk mavi.",
+      "ar": "لوني المفضل هو الأزرق."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-4-q1",
+      "prompt": "ما معنى en büyük؟",
+      "options": [
+        "الأكبر",
+        "أكبر قليلاً",
+        "الأصغر",
+        "الكبير جداً"
+      ],
+      "answerIndex": 0,
+      "explanation": "en büyük تعني الأكبر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 4
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-7",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u2-07",
+      "order": 7,
+      "titleAr": "الأرقام والعمر",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "full",
+  "goal": "قراءة الأرقام والسؤال عن العمر والإجابة عنه.",
+  "rule": "الأرقام الأساسية: bir واحد، iki اثنان، üç ثلاثة، dört أربعة، beş خمسة، on عشرة، yirmi عشرون. للسؤال عن العمر نقول Kaç yaşındasın؟ والإجابة Ben ... yaşındayım.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Kaç yaşındasın?",
+      "ar": "كم عمرك؟"
+    },
+    {
+      "tr": "On sekiz yaşındayım.",
+      "ar": "عمري ثمانية عشر عاماً."
+    },
+    {
+      "tr": "Yirmi bir",
+      "ar": "واحد وعشرون"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u2-7-q1",
+      "prompt": "ما معنى üç؟",
+      "options": [
+        "اثنان",
+        "ثلاثة",
+        "أربعة",
+        "خمسة"
+      ],
+      "answerIndex": 1,
+      "explanation": "üç تعني ثلاثة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 7
+  }
+}

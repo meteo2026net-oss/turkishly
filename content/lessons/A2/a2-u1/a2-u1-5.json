@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u1-5",
+  "level": "A2",
+  "unitId": "a2-u1",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a2-u1-05",
+      "order": 5,
+      "titleAr": "ترتيب الأحداث وروايتها",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحدث عن الماضي والأحداث السابقة",
+    "titleTr": "Geçmiş Zaman ve Geçmiş Olaylar",
+    "description": "تعلم الماضي المحدد وإثباته ونفيه والسؤال عنه، مع كلمات الزمن وتسلسل الأحداث ووصف يوم سابق وعطلة مضت."
+  },
+  "contentStatus": "full",
+  "goal": "رواية أحداث يوم سابق بترتيب واضح.",
+  "rule": "لربط الأحداث استخدم önce أولاً/قبل، sonra ثم/بعد ذلك، daha sonra لاحقاً، en sonunda أخيراً. مثال: Önce kahvaltı yaptım, sonra işe gittim (تناولت الفطور أولاً، ثم ذهبت إلى العمل). حافظ على صيغة الماضي في الأفعال المتتابعة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Önce",
+      "ar": "أولاً"
+    },
+    {
+      "tr": "Sonra",
+      "ar": "ثم"
+    },
+    {
+      "tr": "Daha sonra",
+      "ar": "بعد ذلك"
+    },
+    {
+      "tr": "En sonunda",
+      "ar": "أخيراً"
+    },
+    {
+      "tr": "Önce duş aldım, sonra çıktım.",
+      "ar": "استحممت أولاً، ثم خرجت."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u1-5-q1",
+      "prompt": "أي كلمة تعني «ثم»؟",
+      "options": [
+        "Önce",
+        "Sonra",
+        "Dün",
+        "Yarın"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sonra تعني ثم أو بعد ذلك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u1",
+    "legacyLessonOrder": 5
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u13-5",
+  "level": "A1",
+  "unitId": "a1-u13",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u13-05",
+      "order": 5,
+      "titleAr": "تحديد مواقع الأشياء والأثاث",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والأثاث والحياة اليومية",
+    "titleTr": "Ev, Mobilyalar ve Günlük Yaşam",
+    "description": "غرف المنزل والأثاث وأدوات المطبخ ووصف المكان وتحديد مواقع الأشياء والأعمال المنزلية."
+  },
+  "contentStatus": "full",
+  "goal": "تحديد مواقع الأشياء والأثاث داخل المنزل.",
+  "rule": "للمكان استخدم: içinde داخل، üstünde فوق أو على، altında تحت، yanında بجانب، önünde أمام، arkasında خلف، karşısında مقابل. أمثلة: Kitap masanın üstünde (الكتاب على الطاولة)، Çanta sandalyenin yanında (الحقيبة بجانب الكرسي). السؤال Nerede؟ يعني أين؟.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "masanın üstünde",
+      "ar": "على الطاولة"
+    },
+    {
+      "tr": "yatağın altında",
+      "ar": "تحت السرير"
+    },
+    {
+      "tr": "kapının yanında",
+      "ar": "بجانب الباب"
+    },
+    {
+      "tr": "Evin önünde",
+      "ar": "أمام المنزل"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u13-5-q1",
+      "prompt": "ما معنى altında؟",
+      "options": [
+        "فوق",
+        "تحت",
+        "بجانب",
+        "أمام"
+      ],
+      "answerIndex": 1,
+      "explanation": "altında تعني تحت."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u13",
+    "legacyLessonOrder": 5
+  }
+}

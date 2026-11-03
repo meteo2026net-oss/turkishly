@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u8-3",
+  "level": "A1",
+  "unitId": "a1-u8",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u8-03",
+      "order": 3,
+      "titleAr": "المقاسات والأحجام",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الملابس والتسوّق والألوان والأسعار",
+    "titleTr": "Kıyafetler, Alışveriş, Renkler ve Fiyatlar",
+    "description": "أسماء الملابس والألوان والمقاسات والسؤال عن الأسعار وتجربة الملابس والشراء من المتاجر."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن مقاسات الملابس وفهم المقاسات الشائعة.",
+  "rule": "تُستخدم كلمة beden للمقاس. للسؤال عن المقاس قل Kaç beden؟ (أي مقاس؟)، وللسؤال عن حجم قطعة معينة قل Bu kaç beden؟. قد ترى المقاسات S وM وL وXL، كما يمكن وصف المقاس بـ küçük صغير، orta متوسط، büyük كبير.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "beden",
+      "ar": "مقاس الملابس"
+    },
+    {
+      "tr": "Kaç beden?",
+      "ar": "أي مقاس؟"
+    },
+    {
+      "tr": "orta beden",
+      "ar": "مقاس متوسط"
+    },
+    {
+      "tr": "büyük beden",
+      "ar": "مقاس كبير"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u8-3-q1",
+      "prompt": "ما معنى beden في متجر الملابس؟",
+      "options": [
+        "لون",
+        "مقاس",
+        "سعر",
+        "قماش"
+      ],
+      "answerIndex": 1,
+      "explanation": "beden تعني مقاس الملابس أو حجمها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u8",
+    "legacyLessonOrder": 3
+  }
+}

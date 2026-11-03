@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-1",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u20-01",
+      "order": 1,
+      "titleAr": "مراجعة التعارف والتحيات والمعلومات الشخصية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة التعارف والتحيات والمعلومات الشخصية.",
+  "rule": "راجع التحيات والتعريف بالاسم والجنسية واللغة والسكن. Kalıp: Benim adım ... (اسمي...)، Nerelisin؟ (من أين أنت؟)، ... yaşındayım (عمري...). انتبه إلى الضمائر وصيغ السؤال والجواب القصيرة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Merhaba, nasılsın?",
+      "ar": "مرحباً، كيف حالك؟"
+    },
+    {
+      "tr": "Benim adım Elif.",
+      "ar": "اسمي إليف."
+    },
+    {
+      "tr": "Türkçe öğreniyorum.",
+      "ar": "أتعلم التركية."
+    },
+    {
+      "tr": "Ankara'da yaşıyorum.",
+      "ar": "أعيش في أنقرة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u20-1-q1",
+      "prompt": "ما معنى Nerelisin؟",
+      "options": [
+        "ما اسمك؟",
+        "من أين أنت؟",
+        "كم عمرك؟",
+        "أين تسكن؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "Nerelisin تعني من أين أنت؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 1
+  }
+}

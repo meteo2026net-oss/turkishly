@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-6",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a2-u7-06",
+      "order": 6,
+      "titleAr": "اختيار اللاحقة والانسجام الصوتي",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "اختيار اللاحقة الصحيحة وتطبيق الانسجام الصوتي.",
+  "rule": "تتغير الحركات بحسب آخر حركة في الاسم: a/ı تأخذ غالباً a أو ı، وe/i تأخذ e أو i، وo/u تأخذ a أو u، وö/ü تأخذ e أو ü. أمثلة: araba → arabaya، ev → evde، okul → okuldan، göz → gözü. انتبه أيضاً إلى التغيرات الصوتية في بعض الكلمات مثل kitap → kitabı.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "araba → arabaya",
+      "ar": "إلى السيارة"
+    },
+    {
+      "tr": "ev → evde",
+      "ar": "في المنزل"
+    },
+    {
+      "tr": "okul → okuldan",
+      "ar": "من المدرسة"
+    },
+    {
+      "tr": "kitap → kitabı",
+      "ar": "الكتاب (مفعول محد"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-6-q1",
+      "prompt": "ما الصيغة الصحيحة لـ «إلى السيارة»؟",
+      "options": [
+        "arabada",
+        "arabadan",
+        "arabaya",
+        "arabayı"
+      ],
+      "answerIndex": 2,
+      "explanation": "arabaya هي صيغة الاتجاه من araba."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 6
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-6",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a2-u4-06",
+      "order": 6,
+      "titleAr": "التعبير عن المكان والاتجاه",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن المكان والاتجاه في الروتين.",
+  "rule": "تحدد ظروف المكان أين يقع الفعل: burada هنا، orada هناك، içeride في الداخل، dışarıda في الخارج، evde في المنزل، işte في العمل. مثال: Hafta sonları genellikle dışarıda yemek yiyoruz (نتناول الطعام عادةً خارج المنزل في عطلة نهاية الأسبوع).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "burada",
+      "ar": "هنا"
+    },
+    {
+      "tr": "orada",
+      "ar": "هناك"
+    },
+    {
+      "tr": "içeride",
+      "ar": "في الداخل"
+    },
+    {
+      "tr": "dışarıda",
+      "ar": "في الخارج"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-6-q1",
+      "prompt": "أي كلمة تعني «في الخارج»؟",
+      "options": [
+        "içeride",
+        "burada",
+        "dışarıda",
+        "evde"
+      ],
+      "answerIndex": 2,
+      "explanation": "dışarıda تعني في الخارج."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 6
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-1",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u11-01",
+      "order": 1,
+      "titleAr": "أسماء الأطعمة الأساسية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء الأطعمة الأساسية باللغة التركية.",
+  "rule": "ابدأ بمفردات الطعام الشائعة: ekmek خبز، peynir جبن، zeytin زيتون، yumurta بيضة، et لحم، tavuk دجاج، balık سمك، pilav أرز مطبوخ، çorba حساء، salata سلطة، sebze خضار، meyve فاكهة. كلمة yemek تعني طعاماً أو وجبة بحسب السياق.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "ekmek",
+      "ar": "خبز"
+    },
+    {
+      "tr": "peynir",
+      "ar": "جبن"
+    },
+    {
+      "tr": "yumurta",
+      "ar": "بيضة"
+    },
+    {
+      "tr": "çorba",
+      "ar": "حساء"
+    },
+    {
+      "tr": "meyve",
+      "ar": "فاكهة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-1-q1",
+      "prompt": "ما معنى peynir؟",
+      "options": [
+        "خبز",
+        "جبن",
+        "سمك",
+        "أرز"
+      ],
+      "answerIndex": 1,
+      "explanation": "peynir تعني جبن."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-7",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u6-07",
+      "order": 7,
+      "titleAr": "التحدث عن القواعد والالتزامات اليومية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث عن القواعد والالتزامات اليومية.",
+  "rule": "نستخدم هذه التراكيب في القواعد: Burada sigara içmemelisin (ينبغي ألا تدخن هنا)، Öğrenciler zamanında gelmeli (يجب أن يأتي الطلاب في الوقت المحدد)، Emniyet kemeri takmak gerek (يجب وضع حزام الأمان).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "zamanında",
+      "ar": "في الوقت المحدد"
+    },
+    {
+      "tr": "kural",
+      "ar": "قاعدة"
+    },
+    {
+      "tr": "emniyet kemeri",
+      "ar": "حزام الأمان"
+    },
+    {
+      "tr": "Burada sessiz olmalısınız.",
+      "ar": "يجب أن تلتزموا الهدوء هنا."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-7-q1",
+      "prompt": "ما معنى zamanında gelmelisin؟",
+      "options": [
+        "يجب أن تأتي في الوقت المحدد",
+        "يمكنك المغادرة",
+        "أتيت متأخراً",
+        "لا تحتاج إلى المجيء"
+      ],
+      "answerIndex": 0,
+      "explanation": "zamanında gelmelisin تعني يجب أن تأتي في الوقت المحدد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 7
+  }
+}

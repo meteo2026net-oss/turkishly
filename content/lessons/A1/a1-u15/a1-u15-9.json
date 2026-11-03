@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-9",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u15-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الملابس والألوان والمقاسات والأسعار والشراء والدفع.",
+  "rule": "راجع أسماء عشر قطع ملابس وثمانية ألوان، ثم تدرب على السؤال عن السعر والمقاس والتخفيض. اكتب حواراً من ست جمل في متجر: ابدأ بالتحية، اذكر ما تبحث عنه، اسأل عن السعر، اطلب مقاساً أو لوناً آخر، ثم اختر طريقة الدفع واشكر البائع.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Siyah bir ceket istiyorum.",
+      "ar": "أريد سترة سوداء."
+    },
+    {
+      "tr": "Bu ne kadar?",
+      "ar": "كم سعر هذا؟"
+    },
+    {
+      "tr": "Kartla ödeyeceğim.",
+      "ar": "سأدفع بالبطاقة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-9-q1",
+      "prompt": "اختر العبارة التي تعني «هل يوجد تخفيض؟».",
+      "options": [
+        "Başka beden var mı?",
+        "İndirim var mı?",
+        "Deneyebilir miyim?",
+        "Fiyatı ne kadar?"
+      ],
+      "answerIndex": 1,
+      "explanation": "İndirim var mı؟ تعني هل يوجد تخفيض؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 9
+  }
+}

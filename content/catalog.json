@@ -9077,8 +9077,8 @@
   "migration": {
     "strategy": "additive",
     "legacyDataRetained": true,
-    "fullLessonBodiesExported": 181,
-    "metadataOnlyLessonFiles": 1091,
+    "fullLessonBodiesExported": 433,
+    "metadataOnlyLessonFiles": 839,
     "remaining": "Fill teaching content and assessments from their legacy authored sources; do not treat metadata-only records as complete lessons."
   }
 }

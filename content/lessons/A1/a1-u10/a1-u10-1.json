@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-1",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u10-01",
+      "order": 1,
+      "titleAr": "أجزاء الجسم الأساسية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء أجزاء الجسم الأساسية باللغة التركية.",
+  "rule": "تعلّم المفردات الأساسية: baş رأس، saç شعر، göz عين، kulak أذن، burun أنف، ağız فم، diş سن، boyun رقبة، omuz كتف، kol ذراع، el يد، parmak إصبع، bacak ساق، ayak قدم، sırt ظهر، karın بطن. استخدم هذه الكلمات في جمل قصيرة لوصف الجسم.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "baş",
+      "ar": "رأس"
+    },
+    {
+      "tr": "göz",
+      "ar": "عين"
+    },
+    {
+      "tr": "kulak",
+      "ar": "أذن"
+    },
+    {
+      "tr": "el",
+      "ar": "يد"
+    },
+    {
+      "tr": "ayak",
+      "ar": "قدم"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-1-q1",
+      "prompt": "ما معنى burun؟",
+      "options": [
+        "أذن",
+        "أنف",
+        "عين",
+        "فم"
+      ],
+      "answerIndex": 1,
+      "explanation": "burun تعني أنف."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 1
+  }
+}

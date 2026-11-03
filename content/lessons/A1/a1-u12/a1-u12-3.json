@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u12-3",
+  "level": "A1",
+  "unitId": "a1-u12",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u12-03",
+      "order": 3,
+      "titleAr": "الأشهر والتاريخ",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والتاريخ والطقس والفصول",
+    "titleTr": "Zaman, Tarih, Hava Durumu ve Mevsimler",
+    "description": "قراءة الساعة وأيام الأسبوع والأشهر والفصول ووصف الطقس وتحديد المواعيد والروتين الأسبوعي."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء الأشهر والتعبير عن التاريخ.",
+  "rule": "الأشهر: ocak يناير، şubat فبراير، mart مارس، nisan أبريل، mayıs مايو، haziran يونيو، temmuz يوليو، ağustos أغسطس، eylül سبتمبر، ekim أكتوبر، kasım نوفمبر، aralık ديسمبر. للسؤال عن التاريخ قل Bugün ayın kaçı؟ (ما تاريخ اليوم؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "ocak",
+      "ar": "يناير"
+    },
+    {
+      "tr": "nisan",
+      "ar": "أبريل"
+    },
+    {
+      "tr": "ağustos",
+      "ar": "أغسطس"
+    },
+    {
+      "tr": "ekim",
+      "ar": "أكتوبر"
+    },
+    {
+      "tr": "Bugün ayın kaçı?",
+      "ar": "ما تاريخ اليوم؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u12-3-q1",
+      "prompt": "أي شهر يعني eylül؟",
+      "options": [
+        "يونيو",
+        "سبتمبر",
+        "أكتوبر",
+        "ديسمبر"
+      ],
+      "answerIndex": 1,
+      "explanation": "eylül تعني سبتمبر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u12",
+    "legacyLessonOrder": 3
+  }
+}

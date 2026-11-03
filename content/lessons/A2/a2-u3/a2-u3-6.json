@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-6",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a2-u3-06",
+      "order": 6,
+      "titleAr": "وصف الأشخاص بالمقارنة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "وصف الأشخاص بمقارنة الصفات.",
+  "rule": "يمكن مقارنة الطول والعمر والسرعة والهدوء والود: daha uzun أطول، daha genç أصغر سناً، daha sakin أهدأ، daha arkadaş canlısı أكثر ودّاً. مثال: Kardeşim benden daha genç (أخي أصغر مني).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "uzun",
+      "ar": "طويل"
+    },
+    {
+      "tr": "genç",
+      "ar": "شاب / صغير السن"
+    },
+    {
+      "tr": "sakin",
+      "ar": "هادئ"
+    },
+    {
+      "tr": "Kardeşim benden daha genç.",
+      "ar": "أخي أصغر مني."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-6-q1",
+      "prompt": "ما معنى daha sakin؟",
+      "options": [
+        "أكثر هدوءاً",
+        "أكثر سرعة",
+        "أكثر طولاً",
+        "أكثر عمراً"
+      ],
+      "answerIndex": 0,
+      "explanation": "daha sakin تعني أكثر هدوءاً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 6
+  }
+}

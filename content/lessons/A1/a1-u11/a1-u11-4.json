@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-4",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u11-04",
+      "order": 4,
+      "titleAr": "التعبير عن الرغبة والتفضيل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الرغبة والتفضيل في الطعام والشراب.",
+  "rule": "للتعبير عن الرغبة استخدم istiyorum (أريد)، وللتفضيل أحب قل seviyorum، ولا أحب sevmiyorum. أمثلة: Çay istiyorum (أريد شايًا)، Balık seviyorum (أحب السمك)، Soğan sevmiyorum (لا أحب البصل). ويمكنك السؤال Ne tercih edersiniz؟ (ماذا تفضّل؟ بصيغة مهذبة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Su istiyorum.",
+      "ar": "أريد ماءً."
+    },
+    {
+      "tr": "Kahve seviyorum.",
+      "ar": "أحب القهوة."
+    },
+    {
+      "tr": "Balık sevmiyorum.",
+      "ar": "لا أحب السمك."
+    },
+    {
+      "tr": "Ne tercih edersiniz?",
+      "ar": "ماذا تفضّل؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-4-q1",
+      "prompt": "ما معنى istiyorum؟",
+      "options": [
+        "لا أريد",
+        "أريد",
+        "أحب",
+        "أشرب"
+      ],
+      "answerIndex": 1,
+      "explanation": "istiyorum تعني أريد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 4
+  }
+}

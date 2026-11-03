@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u5-1",
+  "level": "A1",
+  "unitId": "a1-u5",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u5-01",
+      "order": 1,
+      "titleAr": "أسماء الأطعمة والمكوّنات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والطلب في المطعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranda Sipariş",
+    "description": "مفردات الطعام والوجبات والمشروبات والتعبير عن الرغبات والطلب والسؤال عن الأسعار."
+  },
+  "contentStatus": "full",
+  "goal": "تعلّم أسماء الأطعمة والمكوّنات الشائعة.",
+  "rule": "ابدأ بأسماء الطعام الأساسية. احفظ الاسم مع مثال أو صورة ذهنية، وانتبه إلى أن بعض الكلمات تُستخدم كاسم عام للطعام وبعضها لوجبة أو مكوّن محدد.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "ekmek",
+      "ar": "خبز"
+    },
+    {
+      "tr": "peynir",
+      "ar": "جبن"
+    },
+    {
+      "tr": "yumurta",
+      "ar": "بيضة"
+    },
+    {
+      "tr": "et",
+      "ar": "لحم"
+    },
+    {
+      "tr": "sebze",
+      "ar": "خضروات"
+    },
+    {
+      "tr": "meyve",
+      "ar": "فاكهة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u5-1-q1",
+      "prompt": "ما معنى peynir؟",
+      "options": [
+        "خبز",
+        "جبن",
+        "حليب",
+        "بيض"
+      ],
+      "answerIndex": 1,
+      "explanation": "peynir تعني جبن."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u5",
+    "legacyLessonOrder": 1
+  }
+}

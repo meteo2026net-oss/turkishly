@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u17-5",
+  "level": "A1",
+  "unitId": "a1-u17",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u17-05",
+      "order": 5,
+      "titleAr": "أوقات الدوام والجدول اليومي",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمل والمهن والحياة المهنية",
+    "titleTr": "İşler, Meslekler ve İş Hayatı",
+    "description": "أسماء المهن وأماكن العمل والمهام والمسؤوليات وأوقات الدوام والمهارات والتعريف بالحياة المهنية."
+  },
+  "contentStatus": "full",
+  "goal": "الحديث عن أوقات العمل وأيام الدوام.",
+  "rule": "كلمات مهمة: iş saati ساعات العمل، çalışma günü يوم العمل، sabah صباحاً، öğleden sonra بعد الظهر، akşam مساءً، izin إجازة، hafta sonu عطلة نهاية الأسبوع. أمثلة: Saat dokuzda başlıyorum (أبدأ الساعة التاسعة)، Saat beşte bitiriyorum (أنتهي الساعة الخامسة)، Hafta sonu izinliyim (أنا في إجازة نهاية الأسبوع).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Saat dokuzda başlıyorum.",
+      "ar": "أبدأ الساعة التاسعة."
+    },
+    {
+      "tr": "Saat beşte bitiriyorum.",
+      "ar": "أنتهي الساعة الخامسة."
+    },
+    {
+      "tr": "Hafta sonu",
+      "ar": "عطلة نهاية الأسبوع"
+    },
+    {
+      "tr": "izinliyim",
+      "ar": "أنا في إجازة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u17-5-q1",
+      "prompt": "ما معنى Hafta sonu؟",
+      "options": [
+        "صباحاً",
+        "عطلة نهاية الأسبوع",
+        "مكان العمل",
+        "المهنة"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hafta sonu تعني عطلة نهاية الأسبوع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u17",
+    "legacyLessonOrder": 5
+  }
+}

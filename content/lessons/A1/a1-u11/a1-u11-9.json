@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-9",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u11-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الأطعمة والمشروبات والوجبات والطلب في المطعم.",
+  "rule": "راجع أسماء خمسة أطعمة وثلاثة مشروبات، وميّز بين kahvaltı وöğle yemeği وakşam yemeği. ثم اكتب حواراً قصيراً في مطعم تستخدم فيه menü وsipariş وhesap، وعبّر عن طعام تحبه وآخر لا تفضله.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bir çay ve bir tost lütfen.",
+      "ar": "شاي وشطيرة توست من فضلك."
+    },
+    {
+      "tr": "Balık seviyorum.",
+      "ar": "أحب السمك."
+    },
+    {
+      "tr": "Hesap lütfen.",
+      "ar": "الفاتورة من فضلك."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-9-q1",
+      "prompt": "اختر العبارة الصحيحة لمعنى «أريد ماءً».",
+      "options": [
+        "Su istiyorum.",
+        "Su nerede?",
+        "Su sevmiyorum.",
+        "Hesap istiyorum."
+      ],
+      "answerIndex": 0,
+      "explanation": "Su istiyorum تعني أريد ماءً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 9
+  }
+}

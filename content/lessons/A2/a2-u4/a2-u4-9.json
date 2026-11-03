@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-9",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u4-09",
+      "order": 9,
+      "titleAr": "مراجعة الظروف واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الظروف والتكرار والروتين.",
+  "rule": "راجع أنواع الظروف: التكرار مثل genellikle، والطريقة مثل dikkatlice، والزمن مثل bugün وsonra، والمكان مثل burada وdışarıda. اكتب وصفاً قصيراً ليومك مستخدماً ثلاثة ظروف مختلفة على الأقل.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "genellikle",
+      "ar": "عادةً"
+    },
+    {
+      "tr": "dikkatlice",
+      "ar": "بعناية"
+    },
+    {
+      "tr": "sonra",
+      "ar": "بعد ذلك"
+    },
+    {
+      "tr": "burada",
+      "ar": "هنا"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-9-q1",
+      "prompt": "اختر الجملة التي تعني «أقرأ عادةً في المساء».",
+      "options": [
+        "Akşam genellikle okurum.",
+        "Akşam hiç okumam.",
+        "Sabah hızlı koşarım.",
+        "Burada kitap var."
+      ],
+      "answerIndex": 0,
+      "explanation": "Akşam genellikle okurum تعني أقرأ عادةً في المساء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 9
+  }
+}

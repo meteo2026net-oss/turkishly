@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-7",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u11-07",
+      "order": 7,
+      "titleAr": "السؤال عن المكونات والكميات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن مكونات الطعام والتعبير عن الكمية.",
+  "rule": "كلمات مفيدة: içinde داخل أو يحتوي على، tuz ملح، şeker سكر، süt حليب، et لحم، biraz قليلاً، çok كثيراً، az قليل. يمكنك السؤال İçinde ne var؟ (ماذا يوجد بداخله؟)، أو Şekersiz olabilir mi؟ (هل يمكن أن يكون من دون سكر؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "İçinde ne var?",
+      "ar": "ماذا يوجد بداخله؟"
+    },
+    {
+      "tr": "Biraz tuz.",
+      "ar": "قليل من الملح."
+    },
+    {
+      "tr": "Şekersiz kahve.",
+      "ar": "قهوة من دون سكر."
+    },
+    {
+      "tr": "Az şeker lütfen.",
+      "ar": "قليل من السكر من فضلك."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-7-q1",
+      "prompt": "ما معنى içinde؟",
+      "options": [
+        "بجانب",
+        "داخل",
+        "فوق",
+        "بعيد"
+      ],
+      "answerIndex": 1,
+      "explanation": "içinde تعني داخل أو يحتوي على بحسب الجملة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 7
+  }
+}

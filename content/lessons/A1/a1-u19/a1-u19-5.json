@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-5",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u19-05",
+      "order": 5,
+      "titleAr": "الاتجاهات والتنقل في مكان جديد",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن الاتجاهات والتنقل في مكان جديد.",
+  "rule": "عبارات نافعة: ... nerede؟ (أين ...؟)، Nasıl gidebilirim؟ (كيف يمكنني الذهاب؟)، sağ يمين، sol يسار، düz devam edin تابع إلى الأمام، yakın قريب، uzak بعيد. مثال: Otobüs durağı nerede؟ (أين موقف الحافلة؟)، Otele nasıl gidebilirim؟ (كيف أصل إلى الفندق؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "sağ",
+      "ar": "يمين"
+    },
+    {
+      "tr": "sol",
+      "ar": "يسار"
+    },
+    {
+      "tr": "düz devam edin",
+      "ar": "تابع إلى الأمام"
+    },
+    {
+      "tr": "yakın",
+      "ar": "قريب"
+    },
+    {
+      "tr": "Otele nasıl gidebilirim?",
+      "ar": "كيف أصل إلى الفندق؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-5-q1",
+      "prompt": "ما معنى sol؟",
+      "options": [
+        "يمين",
+        "يسار",
+        "قريب",
+        "بعيد"
+      ],
+      "answerIndex": 1,
+      "explanation": "sol تعني يسار."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 5
+  }
+}

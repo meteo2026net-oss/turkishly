@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u9-4",
+  "level": "A1",
+  "unitId": "a1-u9",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u9-04",
+      "order": 4,
+      "titleAr": "الاتجاهات الأساسية وإعطاء التعليمات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والأماكن العامة",
+    "titleTr": "Şehir, Ulaşım ve Kamu Alanları",
+    "description": "أماكن المدينة ووسائل النقل والاتجاهات والسؤال عن الطريق وشراء تذاكر المواصلات."
+  },
+  "contentStatus": "full",
+  "goal": "فهم الاتجاهات الأساسية وإعطاء تعليمات بسيطة.",
+  "rule": "اتجاهات مهمة: sağ يمين، sol يسار، düz مستقيم، geri إلى الخلف، kuzey شمال، güney جنوب، doğu شرق، batı غرب. عبارات مفيدة: Sağa dön (انعطف يميناً)، Sola dön (انعطف يساراً)، Düz git (تابع مستقيماً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Sağa dön.",
+      "ar": "انعطف يميناً."
+    },
+    {
+      "tr": "Sola dön.",
+      "ar": "انعطف يساراً."
+    },
+    {
+      "tr": "Düz git.",
+      "ar": "تابع مستقيماً."
+    },
+    {
+      "tr": "İleri git.",
+      "ar": "تقدم إلى الأمام."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u9-4-q1",
+      "prompt": "ما معنى Düz git؟",
+      "options": [
+        "انعطف يساراً",
+        "تابع مستقيماً",
+        "ارجع للخلف",
+        "توقف هنا"
+      ],
+      "answerIndex": 1,
+      "explanation": "Düz git تعني تابع السير مستقيماً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u9",
+    "legacyLessonOrder": 4
+  }
+}

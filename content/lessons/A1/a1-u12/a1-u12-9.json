@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u12-9",
+  "level": "A1",
+  "unitId": "a1-u12",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u12-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والتاريخ والطقس والفصول",
+    "titleTr": "Zaman, Tarih, Hava Durumu ve Mevsimler",
+    "description": "قراءة الساعة وأيام الأسبوع والأشهر والفصول ووصف الطقس وتحديد المواعيد والروتين الأسبوعي."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الوقت وأيام الأسبوع والأشهر والفصول والطقس والمواعيد.",
+  "rule": "راجع أيام الأسبوع وأشهر السنة، ثم صف الطقس في فصلين مختلفين. اكتب ثلاث جمل عن برنامجك: ماذا تفعل اليوم، وماذا ستفعل غداً، وفي أي ساعة لديك موعد. استخدم bugün وyarın وsaat kaçta وhava nasıl.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bugün salı.",
+      "ar": "اليوم الثلاثاء."
+    },
+    {
+      "tr": "Kışın hava soğuk.",
+      "ar": "الجو بارد في الشتاء."
+    },
+    {
+      "tr": "Yarın saat beşte görüşelim.",
+      "ar": "لنلتقِ غداً الساعة الخامسة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u12-9-q1",
+      "prompt": "اختر العبارة التي تعني «غداً الساعة الخامسة».",
+      "options": [
+        "Dün saat beşte.",
+        "Yarın saat beşte.",
+        "Bugün hava soğuk.",
+        "Her hafta cuma."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yarın saat beşte تعني غداً الساعة الخامسة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u12",
+    "legacyLessonOrder": 9
+  }
+}

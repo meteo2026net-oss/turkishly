@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-1",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a2-u5-01",
+      "order": 1,
+      "titleAr": "فهم التعبير عن القدرة والإمكانية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "فهم التعبير عن القدرة والإمكانية.",
+  "rule": "نستخدم اللاحقة -(y)Abil مع الفعل للتعبير عن القدرة أو الإمكانية. تتغير الحركة وفق الانسجام الصوتي: yapabilmek أن يستطيع أن يفعل، gelebilmek أن يستطيع أن يأتي، okuyabilmek أن يستطيع أن يقرأ. مثال: Türkçe konuşabilirim (أستطيع التحدث بالتركية).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "yapabilmek",
+      "ar": "القدرة على الفعل"
+    },
+    {
+      "tr": "gelebilmek",
+      "ar": "القدرة على المجيء"
+    },
+    {
+      "tr": "okuyabilmek",
+      "ar": "القدرة على القراءة"
+    },
+    {
+      "tr": "Yüzebilirim.",
+      "ar": "أستطيع السباحة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-1-q1",
+      "prompt": "ما معنى Türkçe konuşabilirim؟",
+      "options": [
+        "لا أتحدث التركية",
+        "أستطيع التحدث بالتركية",
+        "أريد تعلم التركية",
+        "أتحدث التركية أمس"
+      ],
+      "answerIndex": 1,
+      "explanation": "konuşabilirim تعني أستطيع التحدث."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 1
+  }
+}

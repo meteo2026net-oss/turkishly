@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-3",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a2-u4-03",
+      "order": 3,
+      "titleAr": "السؤال عن عدد مرات حدوث الفعل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن عدد مرات حدوث الفعل.",
+  "rule": "نسأل عن التكرار باستخدام Ne sıklıkla؟ أي «كم مرة؟» ويمكن الإجابة بـ haftada iki kez مرتين في الأسبوع، ayda bir مرة في الشهر، her sabah كل صباح. مثال: Ne sıklıkla spor yapıyorsun? (كم مرة تمارس الرياضة؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ne sıklıkla?",
+      "ar": "كم مرة؟"
+    },
+    {
+      "tr": "haftada iki kez",
+      "ar": "مرتين في الأسبوع"
+    },
+    {
+      "tr": "ayda bir",
+      "ar": "مرة في الشهر"
+    },
+    {
+      "tr": "her sabah",
+      "ar": "كل صباح"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-3-q1",
+      "prompt": "كيف تقول «مرتين في الأسبوع»؟",
+      "options": [
+        "haftada iki kez",
+        "her gün",
+        "ayda bir",
+        "hafta sonu"
+      ],
+      "answerIndex": 0,
+      "explanation": "haftada iki kez تعني مرتين في الأسبوع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 3
+  }
+}

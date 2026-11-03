@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u1-6",
+  "level": "A2",
+  "unitId": "a2-u1",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a2-u1-06",
+      "order": 6,
+      "titleAr": "السؤال عما فعله الآخرون",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحدث عن الماضي والأحداث السابقة",
+    "titleTr": "Geçmiş Zaman ve Geçmiş Olaylar",
+    "description": "تعلم الماضي المحدد وإثباته ونفيه والسؤال عنه، مع كلمات الزمن وتسلسل الأحداث ووصف يوم سابق وعطلة مضت."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن تجربة شخص وما فعله.",
+  "rule": "يمكن السؤال عن الماضي باستخدام Ne yaptın؟ (ماذا فعلت؟)، Nereye gittin؟ (إلى أين ذهبت؟)، Kiminle gittin؟ (مع من ذهبت؟)، Nasıl geçti؟ (كيف مرّ/كان؟). أجب بجمل قصيرة في الماضي: Ailemle gittim (ذهبت مع عائلتي).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ne yaptın?",
+      "ar": "ماذا فعلت؟"
+    },
+    {
+      "tr": "Nereye gittin?",
+      "ar": "إلى أين ذهبت؟"
+    },
+    {
+      "tr": "Kiminle gittin?",
+      "ar": "مع من ذهبت؟"
+    },
+    {
+      "tr": "Nasıl geçti?",
+      "ar": "كيف كان؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u1-6-q1",
+      "prompt": "ما السؤال التركي «إلى أين ذهبت؟»؟",
+      "options": [
+        "Nereye gittin?",
+        "Nereye gidiyorsun?",
+        "Nerede yaşıyorsun?",
+        "Ne istiyorsun?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nereye gittin؟ تعني إلى أين ذهبت؟."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u1",
+    "legacyLessonOrder": 6
+  }
+}

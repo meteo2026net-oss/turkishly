@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-4",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a2-u7-04",
+      "order": 4,
+      "titleAr": "حالة المكان",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "حالة المكان -(d)a/-(t)e.",
+  "rule": "تجيب عن سؤال Nerede؟ (أين؟) وتدل على الموقع: evde في المنزل، okulda في المدرسة، parkta في الحديقة. نستخدم d أو t بحسب قاعدة التوافق الصوتي والصوت الأخير في الاسم؛ بعد الأصوات المهموسة مثل p وç وt وk تأتي t غالباً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "evde",
+      "ar": "في المنزل"
+    },
+    {
+      "tr": "okulda",
+      "ar": "في المدرسة"
+    },
+    {
+      "tr": "parkta",
+      "ar": "في الحديقة"
+    },
+    {
+      "tr": "İstanbul'da",
+      "ar": "في إسطنبول"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-4-q1",
+      "prompt": "كيف تقول «في الحديقة»؟",
+      "options": [
+        "parka",
+        "parkta",
+        "parktan",
+        "parkı"
+      ],
+      "answerIndex": 1,
+      "explanation": "parkta تعني في الحديقة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 4
+  }
+}

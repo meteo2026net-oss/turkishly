@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-1",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a2-u8-01",
+      "order": 1,
+      "titleAr": "ضمائر الملكية واستخدامها مع الأسماء",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "ضمائر الملكية واستخدامها.",
+  "rule": "تأتي ضمائر الملكية قبل الاسم: benim لي، senin لك، onun له/لها، bizim لنا، sizin لكم، onların لهم. وغالباً نضيف لاحقة الملكية إلى الاسم أيضاً: benim kitabım، senin çantan، bizim evimiz.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Benim kitabım.",
+      "ar": "كتابي."
+    },
+    {
+      "tr": "Senin çantan.",
+      "ar": "حقيبتك."
+    },
+    {
+      "tr": "Bizim evimiz.",
+      "ar": "منزلنا."
+    },
+    {
+      "tr": "Sizin arabanız.",
+      "ar": "سيارتكم."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-1-q1",
+      "prompt": "كيف تقول «كتابنا»؟",
+      "options": [
+        "Bizim kitabımız.",
+        "Bizim kitabınız.",
+        "Sizin kitabımız.",
+        "Onun kitabım."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bizim kitabımız تعني كتابنا."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-5",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a2-u3-05",
+      "order": 5,
+      "titleAr": "التعبير عن التساوي باستخدام kadar",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن التساوي باستخدام kadar.",
+  "rule": "نستخدم kadar للتعبير عن المساواة: benim kadar طويل مثلي، senin kadar hızlı سريع مثلك. مثال: Ali, Mehmet kadar uzun (علي بطول محمد)، Bu oda diğer oda kadar büyük değil (هذه الغرفة ليست بحجم الغرفة الأخرى).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "benim kadar",
+      "ar": "بقدري / مثلي"
+    },
+    {
+      "tr": "senin kadar",
+      "ar": "بقدرك / مثلك"
+    },
+    {
+      "tr": "onun kadar hızlı",
+      "ar": "سريع مثله"
+    },
+    {
+      "tr": "Benim kadar çalışıyor.",
+      "ar": "يعمل بقدري."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-5-q1",
+      "prompt": "ما معنى senin kadar؟",
+      "options": [
+        "أكثر منك",
+        "أقل منك",
+        "مثلك / بقدرك",
+        "بدلاً منك"
+      ],
+      "answerIndex": 2,
+      "explanation": "senin kadar تعني مثلك أو بقدرك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 5
+  }
+}

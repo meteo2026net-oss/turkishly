@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-2",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a2-u7-02",
+      "order": 2,
+      "titleAr": "حالة المفعول به المحدد",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "حالة المفعول به المحدد -(y)ı/-(y)i/-(y)u/-(y)ü.",
+  "rule": "تُستخدم لاحقة المفعول المحدد عندما يكون الشيء المقصود معروفاً أو محدداً: kitabı okuyorum (أقرأ الكتاب)، kapıyı aç (افتح الباب). بعد حرف علة نضيف y فاصلة مثل arabayı. تتغير الحركة وفق آخر حركة في الكلمة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kitap → kitabı",
+      "ar": "الكتاب (مفعول محد"
+    },
+    {
+      "tr": "kapı → kapıyı",
+      "ar": "الباب (مفعول محد"
+    },
+    {
+      "tr": "arabayı",
+      "ar": "السيارة (مفعول محد"
+    },
+    {
+      "tr": "Filmi izliyorum.",
+      "ar": "أشاهد الفيلم."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-2-q1",
+      "prompt": "اختر الصيغة الصحيحة: «أقرأ الكتاب».",
+      "options": [
+        "Kitap okuyorum.",
+        "Kitabı okuyorum.",
+        "Kitaba okuyorum.",
+        "Kitapta okuyorum."
+      ],
+      "answerIndex": 1,
+      "explanation": "Kitabı هي صيغة المفعول به المحدد من kitap."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 2
+  }
+}

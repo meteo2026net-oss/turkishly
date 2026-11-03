@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u5-8",
+  "level": "A1",
+  "unitId": "a1-u5",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u5-08",
+      "order": 8,
+      "titleAr": "حوار الزبون والعامل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والطلب في المطعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranda Sipariş",
+    "description": "مفردات الطعام والوجبات والمشروبات والتعبير عن الرغبات والطلب والسؤال عن الأسعار."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار قصير بين الزبون والعامل في المطعم.",
+  "rule": "استمع أو اقرأ الحوار وحدد من يطلب ومن يجيب. لاحظ كلمات القائمة والطلب والتفضيل والحساب. في المطعم قد يقول العامل Buyurun (تفضل)، ويجيب الزبون بطلبه مع lütfen.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Garson: Buyurun, ne istersiniz?",
+      "ar": "النادل: تفضل، ماذا ترغب؟"
+    },
+    {
+      "tr": "Müşteri: Bir çorba ve su lütfen.",
+      "ar": "الزبون: حساء وماء من فضلك."
+    },
+    {
+      "tr": "Garson: Başka bir şey?",
+      "ar": "النادل: شيء آخر؟"
+    },
+    {
+      "tr": "Müşteri: Hayır, teşekkürler.",
+      "ar": "الزبون: لا، شكراً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u5-8-q1",
+      "prompt": "ماذا تعني Başka bir şey؟",
+      "options": [
+        "شيء آخر؟",
+        "كم السعر؟",
+        "القائمة هنا",
+        "أنا جائع"
+      ],
+      "answerIndex": 0,
+      "explanation": "Başka bir şey؟ تعني هل تريد شيئاً آخر؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u5",
+    "legacyLessonOrder": 8
+  }
+}

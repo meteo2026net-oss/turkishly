@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-4",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a2-u5-04",
+      "order": 4,
+      "titleAr": "السؤال عن القدرة والإمكانية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن القدرة والإمكانية.",
+  "rule": "نحوّل الجملة إلى سؤال بإضافة أداة السؤال mı/mi/mu/mü بعد الفعل المصرف: Gelebilir misin? هل تستطيع المجيء؟ Yardım edebilir misiniz? هل يمكنكم المساعدة؟ تفصل أداة السؤال وتُكتب مستقلة، ثم تأخذ لاحقة الشخص.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Gelebilir misin?",
+      "ar": "هل تستطيع المجيء؟"
+    },
+    {
+      "tr": "Yapabilir miyim?",
+      "ar": "هل أستطيع أن أفعل؟"
+    },
+    {
+      "tr": "Anlayabilir misiniz?",
+      "ar": "هل يمكنكم الفهم؟"
+    },
+    {
+      "tr": "Açabilir misin?",
+      "ar": "هل تستطيع الفتح؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-4-q1",
+      "prompt": "كيف تسأل «هل تستطيع المجيء؟»؟",
+      "options": [
+        "Gelemem.",
+        "Gelebilir misin?",
+        "Geldim.",
+        "Geliyorum."
+      ],
+      "answerIndex": 1,
+      "explanation": "Gelebilir misin? سؤال عن القدرة على المجيء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 4
+  }
+}

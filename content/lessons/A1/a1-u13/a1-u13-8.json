@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u13-8",
+  "level": "A1",
+  "unitId": "a1-u13",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u13-08",
+      "order": 8,
+      "titleAr": "حوار عن المنزل والغرف",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والأثاث والحياة اليومية",
+    "titleTr": "Ev, Mobilyalar ve Günlük Yaşam",
+    "description": "غرف المنزل والأثاث وأدوات المطبخ ووصف المكان وتحديد مواقع الأشياء والأعمال المنزلية."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار بسيط عن المنزل ووصف غرفة ومكان الأثاث.",
+  "rule": "في هذا الحوار يصف شخص منزله ويشرح مكان الأثاث. انتبه إلى أسماء الغرف والأثاث وحروف المكان: üstünde على، yanında بجانب، içinde داخل. حاول بعد القراءة أن تصف غرفتك بثلاث جمل قصيرة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "A: Evin nasıl?",
+      "ar": "أ: كيف منزلك؟"
+    },
+    {
+      "tr": "B: Küçük ama güzel.",
+      "ar": "ب: صغير لكنه جميل."
+    },
+    {
+      "tr": "A: Oturma odasında ne var?",
+      "ar": "أ: ماذا يوجد في غرفة الجلوس؟"
+    },
+    {
+      "tr": "B: Bir koltuk ve bir masa var.",
+      "ar": "ب: توجد أريكة وطاولة."
+    },
+    {
+      "tr": "A: Kitaplar nerede?",
+      "ar": "أ: أين الكتب؟"
+    },
+    {
+      "tr": "B: Kitaplar rafta.",
+      "ar": "ب: الكتب على الرف."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u13-8-q1",
+      "prompt": "ما معنى Oturma odasında ne var؟",
+      "options": [
+        "كم سعر المنزل؟",
+        "ماذا يوجد في غرفة الجلوس؟",
+        "أين المطبخ؟",
+        "هل المنزل جديد؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "السؤال يعني ماذا يوجد في غرفة الجلوس؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u13",
+    "legacyLessonOrder": 8
+  }
+}

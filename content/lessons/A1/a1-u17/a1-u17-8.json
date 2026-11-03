@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u17-8",
+  "level": "A1",
+  "unitId": "a1-u17",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u17-08",
+      "order": 8,
+      "titleAr": "حوار عن المهنة ومكان العمل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمل والمهن والحياة المهنية",
+    "titleTr": "İşler, Meslekler ve İş Hayatı",
+    "description": "أسماء المهن وأماكن العمل والمهام والمسؤوليات وأوقات الدوام والمهارات والتعريف بالحياة المهنية."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار قصير عن المهنة ومكان العمل.",
+  "rule": "A: Ne iş yapıyorsun؟ (ما عملك؟) B: Öğretmenim. (أنا معلّم.) A: Nerede çalışıyorsun؟ (أين تعمل؟) B: Bir okulda çalışıyorum. (أعمل في مدرسة.) A: İşini seviyor musun؟ (هل تحب عملك؟) B: Evet, seviyorum. (نعم، أحبه.)",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ne iş yapıyorsun?",
+      "ar": "ما عملك؟"
+    },
+    {
+      "tr": "Öğretmenim.",
+      "ar": "أنا معلّم."
+    },
+    {
+      "tr": "Nerede çalışıyorsun?",
+      "ar": "أين تعمل؟"
+    },
+    {
+      "tr": "Bir okulda çalışıyorum.",
+      "ar": "أعمل في مدرسة."
+    },
+    {
+      "tr": "İşini seviyor musun?",
+      "ar": "هل تحب عملك؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u17-8-q1",
+      "prompt": "ما معنى Nerede çalışıyorsun؟",
+      "options": [
+        "أين تعمل؟",
+        "ما اسمك؟",
+        "كم عمرك؟",
+        "متى تبدأ؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nerede تعني أين، وçalışıyorsun تعني تعمل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u17",
+    "legacyLessonOrder": 8
+  }
+}

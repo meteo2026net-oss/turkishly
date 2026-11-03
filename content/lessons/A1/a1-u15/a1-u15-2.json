@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-2",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u15-02",
+      "order": 2,
+      "titleAr": "الألوان والصفات والمقاسات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "وصف الملابس باستخدام الألوان والصفات والمقاسات.",
+  "rule": "الألوان: kırmızı أحمر، mavi أزرق، yeşil أخضر، siyah أسود، beyaz أبيض، sarı أصفر، pembe وردي، gri رمادي. صفات ومقاسات: büyük كبير، küçük صغير، uzun طويل، kısa قصير، dar ضيق، bol واسع، pahalı غالٍ، ucuz رخيص. غالباً تأتي الصفة قبل الاسم: kırmızı elbise (فستان أحمر).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kırmızı elbise",
+      "ar": "فستان أحمر"
+    },
+    {
+      "tr": "mavi gömlek",
+      "ar": "قميص أزرق"
+    },
+    {
+      "tr": "siyah ayakkabı",
+      "ar": "حذاء أسود"
+    },
+    {
+      "tr": "çok büyük",
+      "ar": "كبير جداً"
+    },
+    {
+      "tr": "küçük beden",
+      "ar": "مقاس صغير"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-2-q1",
+      "prompt": "ما معنى ucuz؟",
+      "options": [
+        "غالٍ",
+        "رخيص",
+        "طويل",
+        "أحمر"
+      ],
+      "answerIndex": 1,
+      "explanation": "ucuz تعني رخيص."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 2
+  }
+}

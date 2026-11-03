@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u2-3",
+  "level": "A2",
+  "unitId": "a2-u2",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a2-u2-03",
+      "order": 3,
+      "titleAr": "التغيرات الصوتية في أفعال المستقبل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المستقبل والخطط والقرارات",
+    "titleTr": "Gelecek Zaman ve Planlar",
+    "description": "تكوين زمن المستقبل وإثباته ونفيه والسؤال عنه، مع ضمائر الأشخاص وكلمات الزمن والتعبير عن النوايا والخطط والترتيبات."
+  },
+  "contentStatus": "full",
+  "goal": "ملاحظة التغيرات الصوتية في بعض أفعال المستقبل.",
+  "rule": "عند اتصال اللاحقة ببعض الأفعال قد يحدث تغير في شكل الفعل. gitmek يصبح gidecek (سيذهب)، yemek يصبح yiyecek (سيأكل)، demek يصبح diyecek (سيقول). احفظ هذه الصيغ الشائعة وتدرّب عليها ضمن جمل.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "gitmek → gidecek",
+      "ar": "يذهب ← سيذهب"
+    },
+    {
+      "tr": "yemek → yiyecek",
+      "ar": "يأكل ← سيأكل"
+    },
+    {
+      "tr": "demek → diyecek",
+      "ar": "يقول ← سيقول"
+    },
+    {
+      "tr": "O yarın gelecek.",
+      "ar": "سيأتي غداً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u2-3-q1",
+      "prompt": "ما صيغة المستقبل من gitmek؟",
+      "options": [
+        "giticek",
+        "gidecek",
+        "gitacak",
+        "gitmek"
+      ],
+      "answerIndex": 1,
+      "explanation": "gidecek هي صيغة المستقبل الصحيحة من gitmek."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u2",
+    "legacyLessonOrder": 3
+  }
+}

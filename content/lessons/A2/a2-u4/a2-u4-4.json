@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-4",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a2-u4-04",
+      "order": 4,
+      "titleAr": "التعبير عن طريقة أداء الفعل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن طريقة أداء الفعل.",
+  "rule": "تجيب ظروف الطريقة عن سؤال Nasıl؟ أي «كيف؟». أمثلة: yavaş ببطء، hızlı بسرعة، dikkatlice بعناية، sessizce بهدوء. ويمكن استخدام اللاحقة -ca/-ce في كلمات مثل yavaşça وsessizce. مثال: Lütfen yavaş konuş (من فضلك تحدث ببطء).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Nasıl?",
+      "ar": "كيف؟"
+    },
+    {
+      "tr": "dikkatlice",
+      "ar": "بعناية"
+    },
+    {
+      "tr": "sessizce",
+      "ar": "بهدوء"
+    },
+    {
+      "tr": "hızlı konuşmak",
+      "ar": "التحدث بسرعة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-4-q1",
+      "prompt": "ما معنى dikkatlice؟",
+      "options": [
+        "بسرعة",
+        "بعناية",
+        "نادراً",
+        "غداً"
+      ],
+      "answerIndex": 1,
+      "explanation": "dikkatlice تعني بعناية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 4
+  }
+}

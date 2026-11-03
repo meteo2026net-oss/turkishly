@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-9",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u5-09",
+      "order": 9,
+      "titleAr": "مراجعة القدرة والطلب والإذن",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة القدرة والطلب والإذن.",
+  "rule": "تذكّر: -(y)Abil للقدرة والإمكانية، و-ama/-eme للنفي مثل yapamam، والسؤال يتكوّن بأداة mı/mi مستقلة مثل Yapabilir miyim? لطلب الإذن. أما الطلب المهذب فيمكن أن يأتي بصيغة Yardım edebilir misiniz? اكتب ثلاثة أمثلة من حياتك اليومية.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "yapabilirim",
+      "ar": "أستطيع أن أفعل"
+    },
+    {
+      "tr": "gelemem",
+      "ar": "لا أستطيع المجيء"
+    },
+    {
+      "tr": "Yapabilir miyim?",
+      "ar": "هل يمكنني أن أفعل؟"
+    },
+    {
+      "tr": "Lütfen yardım eder misiniz?",
+      "ar": "هل تساعدونني من فضلكم؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-9-q1",
+      "prompt": "اختر السؤال الصحيح لطلب الإذن: «هل يمكنني الدخول؟»",
+      "options": [
+        "İçeri giremem.",
+        "İçeri girdim.",
+        "İçeri girebilir miyim?",
+        "İçeri giriyorum."
+      ],
+      "answerIndex": 2,
+      "explanation": "Içeri girebilir miyim? هي الصيغة الصحيحة لطلب الإذن بالدخول."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 9
+  }
+}

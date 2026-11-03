@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u7-5",
+  "level": "A1",
+  "unitId": "a1-u7",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u7-05",
+      "order": 5,
+      "titleAr": "تحديد مكان الأشياء داخل المنزل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والغرف والأثاث والاتجاهات",
+    "titleTr": "Ev, Odalar, Mobilyalar ve Yönler",
+    "description": "أسماء المنزل والغرف والأثاث ووصف الأماكن وتحديد مواقع الأشياء والاتجاهات الأساسية."
+  },
+  "contentStatus": "full",
+  "goal": "تحديد مكان الأشياء داخل المنزل.",
+  "rule": "استخدم كلمات المكان لوصف موقع الأثاث: içinde داخل، üstünde فوق، altında تحت، yanında بجانب، önünde أمام، arkasında خلف، arasında بين. أمثلة: kitap masanın üstünde (الكتاب فوق الطاولة)، koltuk pencerenin yanında (الأريكة بجانب النافذة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Kitap masanın üstünde.",
+      "ar": "الكتاب فوق الطاولة."
+    },
+    {
+      "tr": "Kedi koltuğun altında.",
+      "ar": "القطة تحت الأريكة."
+    },
+    {
+      "tr": "Lamba yatağın yanında.",
+      "ar": "المصباح بجانب السرير."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u7-5-q1",
+      "prompt": "ما معنى yanında؟",
+      "options": [
+        "داخل",
+        "خلف",
+        "بجانب",
+        "تحت"
+      ],
+      "answerIndex": 2,
+      "explanation": "yanında تعني بجانب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u7",
+    "legacyLessonOrder": 5
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-8",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u19-08",
+      "order": 8,
+      "titleAr": "حوار في الفندق وتسجيل الوصول",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار بسيط في الفندق أثناء تسجيل الوصول.",
+  "rule": "Misafir: Merhaba, rezervasyonum var (النزيل: مرحباً، لدي حجز). Görevli: Pasaportunuzu alabilir miyim؟ (الموظف: هل يمكنني أخذ جواز سفرك؟). Misafir: Tabii, buyurun (بالطبع، تفضل). Görevli: İşte oda anahtarınız (هذا مفتاح غرفتك). Misafir: Teşekkür ederim (شكراً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Rezervasyonum var.",
+      "ar": "لدي حجز."
+    },
+    {
+      "tr": "Pasaportunuzu alabilir miyim?",
+      "ar": "هل يمكنني أخذ جواز سفرك؟"
+    },
+    {
+      "tr": "Tabii, buyurun.",
+      "ar": "بالطبع، تفضل."
+    },
+    {
+      "tr": "Oda anahtarınız.",
+      "ar": "مفتاح غرفتك."
+    },
+    {
+      "tr": "Teşekkür ederim.",
+      "ar": "شكراً لك."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-8-q1",
+      "prompt": "ما معنى Rezervasyonum var؟",
+      "options": [
+        "لدي حجز",
+        "ليس لدي حقيبة",
+        "أين المطار؟",
+        "أريد تذكرة"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rezervasyonum var تعني لدي حجز."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 8
+  }
+}

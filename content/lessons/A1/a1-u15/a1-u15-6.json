@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-6",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u15-06",
+      "order": 6,
+      "titleAr": "التحدث مع البائع وطلب المساعدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث مع البائع وطلب المساعدة بطريقة مهذبة.",
+  "rule": "يمكنك بدء الحديث بقول Merhaba, yardımcı olur musunuz؟ (مرحباً، هل تساعدني؟). ولطلب منتج قل Şu gömleği alabilir miyim؟ (هل يمكنني أخذ ذلك القميص؟). كلمات مفيدة: arıyorum أبحث عن، istiyorum أريد، beğendim أعجبني، uygun مناسب. استخدم lütfen بمعنى من فضلك وteşekkür ederim بمعنى شكراً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Yardımcı olur musunuz?",
+      "ar": "هل يمكنكم مساعدتي؟"
+    },
+    {
+      "tr": "Bir ceket arıyorum.",
+      "ar": "أبحث عن سترة."
+    },
+    {
+      "tr": "Bunu beğendim.",
+      "ar": "أعجبني هذا."
+    },
+    {
+      "tr": "Teşekkür ederim.",
+      "ar": "شكراً لك."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-6-q1",
+      "prompt": "ما معنى yardımcı olur musunuz؟",
+      "options": [
+        "هل يمكنكم مساعدتي؟",
+        "كم الساعة؟",
+        "هل هو بعيد؟",
+        "أين المحطة؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "العبارة طلب مهذب للمساعدة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 6
+  }
+}

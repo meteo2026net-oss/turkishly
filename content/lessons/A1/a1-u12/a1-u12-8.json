@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u12-8",
+  "level": "A1",
+  "unitId": "a1-u12",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u12-08",
+      "order": 8,
+      "titleAr": "حوار عن الوقت والطقس والمواعيد",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والتاريخ والطقس والفصول",
+    "titleTr": "Zaman, Tarih, Hava Durumu ve Mevsimler",
+    "description": "قراءة الساعة وأيام الأسبوع والأشهر والفصول ووصف الطقس وتحديد المواعيد والروتين الأسبوعي."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار قصير يجمع الوقت والتاريخ والطقس والموعد.",
+  "rule": "لاحظ كيف يسأل المتحدث عن الطقس ثم يحدد موعداً. ركّز على yarın (غداً)، saat üçte (في الساعة الثالثة)، güneşli (مشمس)، وbuluşalım (لنلتقِ). يمكنك اقتراح موعد بقول Saat üçte buluşalım mı؟ (هل نلتقي الساعة الثالثة؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "A: Yarın hava nasıl?",
+      "ar": "أ: كيف سيكون الطقس غداً؟"
+    },
+    {
+      "tr": "B: Güneşli olacak.",
+      "ar": "ب: سيكون مشمساً."
+    },
+    {
+      "tr": "A: Saat üçte buluşalım mı?",
+      "ar": "أ: هل نلتقي الساعة الثالثة؟"
+    },
+    {
+      "tr": "B: Evet, görüşürüz.",
+      "ar": "ب: نعم، أراك لاحقاً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u12-8-q1",
+      "prompt": "ما معنى Saat üçte buluşalım mı؟",
+      "options": [
+        "هل نلتقي الساعة الثالثة؟",
+        "كم الساعة الآن؟",
+        "هل الجو بارد؟",
+        "ما تاريخ اليوم؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "العبارة تقترح اللقاء في الساعة الثالثة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u12",
+    "legacyLessonOrder": 8
+  }
+}

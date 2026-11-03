@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u9-8",
+  "level": "A1",
+  "unitId": "a1-u9",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u9-08",
+      "order": 8,
+      "titleAr": "حوار طلب الاتجاهات والمواصلات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والأماكن العامة",
+    "titleTr": "Şehir, Ulaşım ve Kamu Alanları",
+    "description": "أماكن المدينة ووسائل النقل والاتجاهات والسؤال عن الطريق وشراء تذاكر المواصلات."
+  },
+  "contentStatus": "full",
+  "goal": "إجراء حوار قصير لطلب الاتجاهات واستخدام المواصلات.",
+  "rule": "في الحوار ابدأ بالتحية ثم اسأل عن المكان أو وسيلة النقل المناسبة. استمع إلى كلمات الاتجاه مثل sağ وsol وdüz، وانتبه إلى أسماء المحطات والمواقف. عند عدم الفهم يمكنك قول Tekrar eder misiniz؟ (هل يمكنكم الإعادة؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "A: Affedersiniz, metro nerede?",
+      "ar": "أ: عذراً، أين المترو؟"
+    },
+    {
+      "tr": "B: Düz gidin, sonra sola dönün.",
+      "ar": "ب: تابعوا مستقيماً ثم انعطفوا يساراً."
+    },
+    {
+      "tr": "A: Çok teşekkür ederim.",
+      "ar": "أ: شكراً جزيلاً."
+    },
+    {
+      "tr": "B: Rica ederim.",
+      "ar": "ب: على الرحب والسعة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u9-8-q1",
+      "prompt": "ما معنى Tekrar eder misiniz؟",
+      "options": [
+        "هل يمكنكم الإعادة؟",
+        "كم ثمنها؟",
+        "أين تسكن؟",
+        "هل أنت جائع؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tekrar eder misiniz؟ طلب مهذب لإعادة الكلام."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u9",
+    "legacyLessonOrder": 8
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-8",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u7-08",
+      "order": 8,
+      "titleAr": "التمييز بين اللواحق في الحياة اليومية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "التمييز بين اللواحق في مواقف الحياة اليومية.",
+  "rule": "قارن بين الحالات في جمل متقاربة: Eve gidiyorum أذهب إلى المنزل، Evdeyim أنا في المنزل، Evden geliyorum آتي من المنزل، Evi görüyorum أرى المنزل. اسأل نفسك: إلى أين؟ أين؟ من أين؟ أم ماذا؟ لتختار اللاحقة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Eve gidiyorum.",
+      "ar": "أذهب إلى المنزل."
+    },
+    {
+      "tr": "Evdeyim.",
+      "ar": "أنا في المنزل."
+    },
+    {
+      "tr": "Evden geliyorum.",
+      "ar": "آتي من المنزل."
+    },
+    {
+      "tr": "Evi görüyorum.",
+      "ar": "أرى المنزل."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-8-q1",
+      "prompt": "أي جملة تعني «أنا في المنزل»؟",
+      "options": [
+        "Eve gidiyorum.",
+        "Evden geliyorum.",
+        "Evdeyim.",
+        "Evi görüyorum."
+      ],
+      "answerIndex": 2,
+      "explanation": "Evdeyim تعني أنا في المنزل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 8
+  }
+}

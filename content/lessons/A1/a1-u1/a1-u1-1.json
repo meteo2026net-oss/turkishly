@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-1",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u1-01",
+      "order": 1,
+      "titleAr": "الحروف التركية وطريقة نطقها",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى الحروف التركية وقراءة الأبجدية كاملة.",
+  "rule": "تتكوّن الأبجدية التركية الحديثة من 29 حرفاً. تُكتب من اليسار إلى اليمين، ولكل حرف صوت ثابت غالباً. انتبه إلى الحروف الخاصة: Ç ç، Ğ ğ، I ı، İ i، Ö ö، Ş ş، Ü ü.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "A a – Araba",
+      "ar": "أ – سيارة"
+    },
+    {
+      "tr": "Ç ç – Çay",
+      "ar": "تش – شاي"
+    },
+    {
+      "tr": "Ş ş – Şeker",
+      "ar": "ش – سكر"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-1-q1",
+      "prompt": "كم حرفاً في الأبجدية التركية؟",
+      "options": [
+        "26",
+        "28",
+        "29",
+        "30"
+      ],
+      "answerIndex": 2,
+      "explanation": "الأبجدية التركية تتكوّن من 29 حرفاً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 1
+  }
+}

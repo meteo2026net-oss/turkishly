@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-6",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u1-06",
+      "order": 6,
+      "titleAr": "التدرب على نطق الكلمات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق النطق على كلمات يومية قصيرة.",
+  "rule": "اقرأ الكلمة كاملة ثم قسّمها إلى مقاطع، وانتبه إلى الحروف المنقوطة وغير المنقوطة. لا تعتمد على شكل الحرف وحده؛ استمع إلى نطقه وكرره.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "merhaba",
+      "ar": "مرحباً"
+    },
+    {
+      "tr": "teşekkür",
+      "ar": "شكراً"
+    },
+    {
+      "tr": "lütfen",
+      "ar": "من فضلك"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-6-q1",
+      "prompt": "أي كلمة تعني «من فضلك»؟",
+      "options": [
+        "Merhaba",
+        "Lütfen",
+        "Teşekkür",
+        "Günaydın"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lütfen تعني من فضلك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 6
+  }
+}

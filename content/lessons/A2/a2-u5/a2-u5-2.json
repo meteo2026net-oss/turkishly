@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-2",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a2-u5-02",
+      "order": 2,
+      "titleAr": "تكوين صيغة القدرة مع الضمائر",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "تكوين صيغة القدرة مع الضمائر.",
+  "rule": "نضيف -(y)Abil إلى جذر الفعل ثم نصرّفه بحسب الزمن والضمير: Ben yapabilirim أستطيع أن أفعل، Sen yapabilirsin تستطيع، O yapabilir يستطيع/تستطيع، Biz yapabiliriz نستطيع. مثال: Siz gelebilirsiniz (يمكنكم المجيء).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "yapabilirim",
+      "ar": "أستطيع أن أفعل"
+    },
+    {
+      "tr": "yapabilirsin",
+      "ar": "تستطيع أن تفعل"
+    },
+    {
+      "tr": "yapabilir",
+      "ar": "يستطيع أن يفعل"
+    },
+    {
+      "tr": "yapabiliriz",
+      "ar": "نستطيع أن نفعل"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-2-q1",
+      "prompt": "ما معنى yapabiliriz؟",
+      "options": [
+        "أستطيع أن أفعل",
+        "تستطيع أن تفعل",
+        "نستطيع أن نفعل",
+        "لا نستطيع أن نفعل"
+      ],
+      "answerIndex": 2,
+      "explanation": "yapabiliriz تعني نستطيع أن نفعل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 2
+  }
+}

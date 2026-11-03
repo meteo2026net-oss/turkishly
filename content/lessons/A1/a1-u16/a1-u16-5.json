@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u16-5",
+  "level": "A1",
+  "unitId": "a1-u16",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u16-05",
+      "order": 5,
+      "titleAr": "حجز موعد وتحديد الوقت",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم والحالة العامة والأعراض الشائعة ومفردات العيادة والصيدلية وطلب المواعيد والمساعدة."
+  },
+  "contentStatus": "full",
+  "goal": "حجز موعد وتحديد الوقت باللغة التركية.",
+  "rule": "للسؤال عن الموعد: Randevu alabilir miyim؟ (هل يمكنني حجز موعد؟). لتحديد الوقت: Saat kaçta؟ (في أي ساعة؟)، Bugün müsait misiniz؟ (هل أنتم متاحون اليوم؟). قل Yarın saat onda (غداً الساعة العاشرة)، Pazartesi günü (يوم الاثنين).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Randevu alabilir miyim?",
+      "ar": "هل يمكنني حجز موعد؟"
+    },
+    {
+      "tr": "Saat kaçta?",
+      "ar": "في أي ساعة؟"
+    },
+    {
+      "tr": "Yarın saat onda.",
+      "ar": "غداً الساعة العاشرة."
+    },
+    {
+      "tr": "Pazartesi günü.",
+      "ar": "يوم الاثنين."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u16-5-q1",
+      "prompt": "ما معنى Randevu alabilir miyim؟",
+      "options": [
+        "هل يمكنني حجز موعد؟",
+        "أين الصيدلية؟",
+        "كيف حالك؟",
+        "كم السعر؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "هذه العبارة تُستخدم لطلب حجز موعد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u16",
+    "legacyLessonOrder": 5
+  }
+}

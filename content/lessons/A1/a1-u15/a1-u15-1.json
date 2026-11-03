@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-1",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u15-01",
+      "order": 1,
+      "titleAr": "أسماء الملابس الأساسية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء الملابس الأساسية باللغة التركية.",
+  "rule": "كلمة giysi تعني لباساً أو قطعة ملابس. من المفردات: gömlek قميص، tişört قميص قصير، pantolon بنطال، etek تنورة، elbise فستان، ceket سترة، mont معطف، ayakkabı حذاء، çorap جوارب، şapka قبعة. مثال: Bir gömlek arıyorum (أبحث عن قميص).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "gömlek",
+      "ar": "قميص"
+    },
+    {
+      "tr": "pantolon",
+      "ar": "بنطال"
+    },
+    {
+      "tr": "elbise",
+      "ar": "فستان"
+    },
+    {
+      "tr": "ceket",
+      "ar": "سترة"
+    },
+    {
+      "tr": "ayakkabı",
+      "ar": "حذاء"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-1-q1",
+      "prompt": "ما معنى ayakkabı؟",
+      "options": [
+        "قبعة",
+        "حذاء",
+        "قميص",
+        "جوارب"
+      ],
+      "answerIndex": 1,
+      "explanation": "ayakkabı تعني حذاء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 1
+  }
+}

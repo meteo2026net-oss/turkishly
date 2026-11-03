@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u8-5",
+  "level": "A1",
+  "unitId": "a1-u8",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u8-05",
+      "order": 5,
+      "titleAr": "طلب المساعدة في متجر الملابس",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الملابس والتسوّق والألوان والأسعار",
+    "titleTr": "Kıyafetler, Alışveriş, Renkler ve Fiyatlar",
+    "description": "أسماء الملابس والألوان والمقاسات والسؤال عن الأسعار وتجربة الملابس والشراء من المتاجر."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام عبارات مهذبة لطلب المساعدة في متجر الملابس.",
+  "rule": "عند دخول المتجر قد تسمع Hoş geldiniz (أهلاً وسهلاً). يمكنك قول Yardım eder misiniz؟ (هل تساعدني؟) أو Şu gömleği arıyorum (أبحث عن ذلك القميص). كلمة lütfen تضيف التهذيب إلى الطلب، وteşekkür ederim تعني شكراً لك.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Yardım eder misiniz?",
+      "ar": "هل يمكنكم مساعدتي؟"
+    },
+    {
+      "tr": "Bir ceket arıyorum.",
+      "ar": "أبحث عن سترة."
+    },
+    {
+      "tr": "Teşekkür ederim.",
+      "ar": "شكراً لك."
+    },
+    {
+      "tr": "Rica ederim.",
+      "ar": "على الرحب والسعة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u8-5-q1",
+      "prompt": "أي عبارة تعني «هل يمكنكم مساعدتي؟»",
+      "options": [
+        "Yardım eder misiniz?",
+        "Kaç yaşındasın?",
+        "Saat kaç?",
+        "Nerede oturuyorsun?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Yardım eder misiniz؟ صيغة مهذبة لطلب المساعدة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u8",
+    "legacyLessonOrder": 5
+  }
+}

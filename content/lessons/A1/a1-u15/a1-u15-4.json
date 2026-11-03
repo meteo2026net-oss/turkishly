@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-4",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u15-04",
+      "order": 4,
+      "titleAr": "السؤال عن الأسعار والأرقام",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن السعر وفهم الأرقام والعملة عند الشراء.",
+  "rule": "للسؤال عن السعر قل Bu ne kadar؟ (كم سعر هذا؟) أو Fiyatı ne kadar؟ (كم سعره؟). العملة التركية lira وتعني ليرة، وkuruş قرش. أرقام مفيدة: on عشرة، yirmi عشرون، elli خمسون، yüz مئة، bin ألف. مثال: Elli lira (خمسون ليرة)، Çok pahalı (غالي جداً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu ne kadar?",
+      "ar": "كم سعر هذا؟"
+    },
+    {
+      "tr": "Fiyatı ne kadar?",
+      "ar": "كم سعره؟"
+    },
+    {
+      "tr": "elli lira",
+      "ar": "خمسون ليرة"
+    },
+    {
+      "tr": "çok pahalı",
+      "ar": "غالي جداً"
+    },
+    {
+      "tr": "çok ucuz",
+      "ar": "رخيص جداً"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-4-q1",
+      "prompt": "كيف تسأل «كم سعر هذا؟»؟",
+      "options": [
+        "Bu nerede?",
+        "Bu ne kadar?",
+        "Saat kaç?",
+        "Ne zaman?"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bu ne kadar؟ تعني كم سعر هذا؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 4
+  }
+}

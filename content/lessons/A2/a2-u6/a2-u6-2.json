@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-2",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a2-u6-02",
+      "order": 2,
+      "titleAr": "تكوين صيغة الوجوب باستخدام -malı/-meli",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "تكوين صيغة الوجوب باستخدام -malı/-meli.",
+  "rule": "تُضاف اللاحقة -malı أو -meli إلى جذر الفعل وفق الانسجام الصوتي للتعبير عن الوجوب: yapmalıyım يجب أن أفعل، gitmelisin يجب أن تذهب، çalışmalı يجب أن يعمل/تعمل. مثال: Erken yatmalıyım (يجب أن أنام مبكراً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "yapmalıyım",
+      "ar": "يجب أن أفعل"
+    },
+    {
+      "tr": "gitmelisin",
+      "ar": "يجب أن تذهب"
+    },
+    {
+      "tr": "çalışmalı",
+      "ar": "يجب أن يعمل"
+    },
+    {
+      "tr": "beklemeliyiz",
+      "ar": "يجب أن ننتظر"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-2-q1",
+      "prompt": "ما معنى gitmelisin؟",
+      "options": [
+        "يجب أن تذهب",
+        "ذهبت",
+        "تستطيع الذهاب",
+        "لا تذهب"
+      ],
+      "answerIndex": 0,
+      "explanation": "gitmelisin تعني يجب عليك الذهاب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 2
+  }
+}

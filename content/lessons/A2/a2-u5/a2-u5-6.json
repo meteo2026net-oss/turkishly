@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-6",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a2-u5-06",
+      "order": 6,
+      "titleAr": "طلب الإذن والتعبير عن السماح",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "طلب الإذن والتعبير عن السماح.",
+  "rule": "لطلب الإذن نستخدم: ...abilir miyim؟ مثل İçeri girebilir miyim? هل يمكنني الدخول؟ Fotoğraf çekebilir miyim? هل يمكنني التقاط صورة؟ وللسماح يمكن الإجابة: Tabii, girebilirsiniz (بالطبع، يمكنكم الدخول) أو Olur (حسناً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "İçeri girebilir miyim?",
+      "ar": "هل يمكنني الدخول؟"
+    },
+    {
+      "tr": "Fotoğraf çekebilir miyim?",
+      "ar": "هل يمكنني التقاط صورة؟"
+    },
+    {
+      "tr": "Tabii.",
+      "ar": "بالطبع."
+    },
+    {
+      "tr": "Olur.",
+      "ar": "حسناً / ممكن."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-6-q1",
+      "prompt": "كيف تقول «هل يمكنني التقاط صورة؟»؟",
+      "options": [
+        "Fotoğraf çekebilir miyim?",
+        "Fotoğraf çekemem.",
+        "Fotoğraf çektim.",
+        "Fotoğraf çekiyorum."
+      ],
+      "answerIndex": 0,
+      "explanation": "Fotoğraf çekebilir miyim? طلب إذن لالتقاط صورة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 6
+  }
+}

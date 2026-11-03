@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-5",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a2-u5-05",
+      "order": 5,
+      "titleAr": "تقديم طلب مهذب باستخدام صيغة القدرة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "تقديم طلب مهذب باستخدام صيغة القدرة.",
+  "rule": "تُستخدم صيغة القدرة مع سؤال الشخص لتقديم طلب لطيف: Kapıyı açabilir misiniz? هل يمكنكم فتح الباب؟ Bana yardım edebilir misin? هل تستطيع مساعدتي؟ إضافة lütfen بمعنى «من فضلك» تجعل الطلب أكثر تهذيباً: Lütfen tekrar edebilir misiniz? (هل يمكنكم التكرار من فضلكم؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "yardım etmek",
+      "ar": "يساعد"
+    },
+    {
+      "tr": "tekrar etmek",
+      "ar": "يكرر"
+    },
+    {
+      "tr": "açabilir misiniz?",
+      "ar": "هل يمكنكم الفتح؟"
+    },
+    {
+      "tr": "Lütfen bekleyebilir misiniz?",
+      "ar": "هل يمكنكم الانتظار من فضلكم؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-5-q1",
+      "prompt": "أي جملة طلب مهذب؟",
+      "options": [
+        "Kapıyı aç!",
+        "Kapıyı açabilir misiniz?",
+        "Kapıyı açtım.",
+        "Kapı açık."
+      ],
+      "answerIndex": 1,
+      "explanation": "استخدام صيغة السؤال مع misiniz يجعل الطلب ألطف."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 5
+  }
+}

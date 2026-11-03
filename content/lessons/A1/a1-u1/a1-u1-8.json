@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-8",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u1-08",
+      "order": 8,
+      "titleAr": "قراءة كلمات وجمل قصيرة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "قراءة عبارات قصيرة تجمع الحروف التي تعلمتها.",
+  "rule": "ابدأ بقراءة الكلمات منفردة، ثم اقرأ العبارة كاملة. لاحظ أن التركية تستخدم علامات مثل ş وç وğ، وأن الحرف ğ غالباً يطيل الحركة السابقة أو يسهّل الانتقال بين الحركات.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Güzel bir gün.",
+      "ar": "إنه يوم جميل."
+    },
+    {
+      "tr": "Çay çok sıcak.",
+      "ar": "الشاي ساخن جداً."
+    },
+    {
+      "tr": "Üç küçük kuş.",
+      "ar": "ثلاثة طيور صغيرة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-8-q1",
+      "prompt": "ما معنى Güzel؟",
+      "options": [
+        "كبير",
+        "جميل",
+        "بارد",
+        "سريع"
+      ],
+      "answerIndex": 1,
+      "explanation": "Güzel تعني جميل أو جميلة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 8
+  }
+}

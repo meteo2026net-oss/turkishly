@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-9",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u3-09",
+      "order": 9,
+      "titleAr": "مراجعة المقارنة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة المقارنة والتفضيل واختبار الوحدة.",
+  "rule": "راجع الفرق بين daha للمقارنة وen للدرجة العليا وkadar للتساوي. كوّن ثلاث جمل: مقارنة بين شخصين، ومقارنة بين مكانين، وجملة تفضيل. مثال: Bu şehir en güzel şehir değil, ama daha sakin (هذه المدينة ليست الأجمل لكنها أهدأ).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "daha büyük",
+      "ar": "أكبر"
+    },
+    {
+      "tr": "en büyük",
+      "ar": "الأكبر"
+    },
+    {
+      "tr": "benim kadar",
+      "ar": "مثلي"
+    },
+    {
+      "tr": "Bu yol daha kısa.",
+      "ar": "هذا الطريق أقصر."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-9-q1",
+      "prompt": "اختر التعبير الذي يعني «الأجمل».",
+      "options": [
+        "daha güzel",
+        "en güzel",
+        "güzel kadar",
+        "güzelden"
+      ],
+      "answerIndex": 1,
+      "explanation": "en güzel تعني الأجمل، بينما daha güzel تعني أجمل من شيء آخر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 9
+  }
+}

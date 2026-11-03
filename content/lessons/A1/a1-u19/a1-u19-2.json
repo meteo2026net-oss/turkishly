@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-2",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u19-02",
+      "order": 2,
+      "titleAr": "الوجهة وخطة الرحلة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث عن الوجهة وخطة الرحلة.",
+  "rule": "للسؤال عن الوجهة: Nereye gidiyorsun؟ (إلى أين تذهب؟)، Nereden geliyorsun؟ (من أين أتيت؟). للتعبير عن الوجهة: İstanbul'a gidiyorum (أذهب إلى إسطنبول)، Tatile çıkıyorum (أنطلق في عطلة)، Yazın Antalya'ya gideceğiz (سنذهب إلى أنطاليا في الصيف).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Nereye gidiyorsun?",
+      "ar": "إلى أين تذهب؟"
+    },
+    {
+      "tr": "İstanbul'a gidiyorum.",
+      "ar": "أذهب إلى إسطنبول."
+    },
+    {
+      "tr": "Nereden geliyorsun?",
+      "ar": "من أين أتيت؟"
+    },
+    {
+      "tr": "Tatile çıkıyorum.",
+      "ar": "أنطلق في عطلة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-2-q1",
+      "prompt": "ما معنى Nereye gidiyorsun؟",
+      "options": [
+        "من أين أتيت؟",
+        "إلى أين تذهب؟",
+        "متى تعود؟",
+        "أين الفندق؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "Nereye gidiyorsun تعني إلى أين تذهب؟."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 2
+  }
+}

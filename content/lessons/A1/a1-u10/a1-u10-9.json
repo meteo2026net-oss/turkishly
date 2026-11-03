@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-9",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u10-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة أجزاء الجسم ومفردات الصحة والعيادة والصيدلية.",
+  "rule": "راجع أسماء خمسة أجزاء من الجسم، وثلاث عبارات لوصف الشعور أو الألم، وأسماء ثلاثة أماكن أو أشخاص في المجال الطبي. ثم اكتب حواراً قصيراً من أربعة أسطر تستخدم فيه randevu وdoktor وBaşım ağrıyor.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Gözüm ağrıyor.",
+      "ar": "عيني تؤلمني."
+    },
+    {
+      "tr": "Doktordan randevum var.",
+      "ar": "لدي موعد مع الطبيب."
+    },
+    {
+      "tr": "Eczane nerede?",
+      "ar": "أين الصيدلية؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-9-q1",
+      "prompt": "اختر العبارة التي تعني «لدي موعد».",
+      "options": [
+        "Randevum var.",
+        "Başım ağrıyor.",
+        "Eczane nerede?",
+        "İyiyim."
+      ],
+      "answerIndex": 0,
+      "explanation": "Randevum var تعني لدي موعد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 9
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-1",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u19-01",
+      "order": 1,
+      "titleAr": "مفردات السفر ووسائل النقل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى مفردات السفر ووسائل النقل.",
+  "rule": "كلمات أساسية: seyahat سفر، tatil عطلة، yolculuk رحلة، uçak طائرة، tren قطار، otobüs حافلة، araba سيارة، gemi سفينة، bilet تذكرة، valiz حقيبة سفر. أمثلة: Uçakla seyahat ediyorum (أسافر بالطائرة)، Tren bileti aldım (اشتريت تذكرة قطار).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "seyahat",
+      "ar": "سفر"
+    },
+    {
+      "tr": "tatil",
+      "ar": "عطلة"
+    },
+    {
+      "tr": "uçak",
+      "ar": "طائرة"
+    },
+    {
+      "tr": "tren",
+      "ar": "قطار"
+    },
+    {
+      "tr": "valiz",
+      "ar": "حقيبة سفر"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-1-q1",
+      "prompt": "ما معنى bilet؟",
+      "options": [
+        "حقيبة",
+        "تذكرة",
+        "فندق",
+        "مطار"
+      ],
+      "answerIndex": 1,
+      "explanation": "bilet تعني تذكرة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u6-9",
+  "level": "A1",
+  "unitId": "a1-u6",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u6-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والأيام والتاريخ والروتين اليومي",
+    "titleTr": "Zaman, Günler, Tarihler ve Günlük Rutinler",
+    "description": "أيام الأسبوع وأشهر السنة وقراءة التاريخ والساعة ووصف العادات والأنشطة اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الأيام والأشهر والتاريخ والساعة والروتين اليومي.",
+  "rule": "كوّن وصفاً ليومك من خمس جمل: اذكر اليوم، ووقت الاستيقاظ، ووجبة الإفطار، وموعد الذهاب إلى المدرسة أو العمل، ووقت النوم. أضف كلمة تكرار مثل her gün أو bazen.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bugün cuma.",
+      "ar": "اليوم الجمعة."
+    },
+    {
+      "tr": "Saat yedide kalkıyorum.",
+      "ar": "أنهض في السابعة."
+    },
+    {
+      "tr": "Akşam saat onda uyuyorum.",
+      "ar": "أنام مساءً في الساعة العاشرة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u6-9-q1",
+      "prompt": "اختر العبارة الصحيحة لمعنى «أستيقظ كل يوم في السابعة».",
+      "options": [
+        "Her gün saat yedide uyanıyorum.",
+        "Yarın cuma.",
+        "Saat kaç?",
+        "Pazar günü dinleniyorum."
+      ],
+      "answerIndex": 0,
+      "explanation": "Her gün تعني كل يوم، وsaat yedide تعني في السابعة، وuyanıyorum تعني أستيقظ."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u6",
+    "legacyLessonOrder": 9
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u14-5",
+  "level": "A1",
+  "unitId": "a1-u14",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u14-05",
+      "order": 5,
+      "titleAr": "محطات النقل والتذاكر",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والاتجاهات",
+    "titleTr": "Şehir, Ulaşım ve Yönler",
+    "description": "الأماكن العامة ووسائل النقل والاتجاهات والسؤال عن الطريق ومحطات النقل وشراء التذاكر."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى محطات النقل وأماكن شراء التذاكر.",
+  "rule": "مفردات مهمة: durak موقف، otogar محطة حافلات بين المدن، istasyon محطة قطار، havaalanı مطار، bilet تذكرة، gişe شباك التذاكر، peron رصيف أو منصة، sefer رحلة أو خدمة، kalkış مغادرة، varış وصول. للسؤال عن التذكرة قل Bir bilet lütfen (تذكرة واحدة من فضلك).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "durak",
+      "ar": "موقف"
+    },
+    {
+      "tr": "istasyon",
+      "ar": "محطة"
+    },
+    {
+      "tr": "havaalanı",
+      "ar": "مطار"
+    },
+    {
+      "tr": "bilet",
+      "ar": "تذكرة"
+    },
+    {
+      "tr": "gişe",
+      "ar": "شباك التذاكر"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u14-5-q1",
+      "prompt": "ما معنى bilet؟",
+      "options": [
+        "موقف",
+        "تذكرة",
+        "مطار",
+        "رصيف"
+      ],
+      "answerIndex": 1,
+      "explanation": "bilet تعني تذكرة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u14",
+    "legacyLessonOrder": 5
+  }
+}

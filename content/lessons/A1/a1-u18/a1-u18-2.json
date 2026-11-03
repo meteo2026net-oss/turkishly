@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-2",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u18-02",
+      "order": 2,
+      "titleAr": "الرياضات والأدوات الرياضية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء الرياضات والأدوات الرياضية.",
+  "rule": "رياضات: futbol كرة القدم، basketbol كرة السلة، tenis التنس، voleybol الكرة الطائرة، koşu الجري، bisiklet sürmek ركوب الدراجة. أدوات: top كرة، bisiklet دراجة، raket مضرب، spor ayakkabısı حذاء رياضي.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "futbol",
+      "ar": "كرة القدم"
+    },
+    {
+      "tr": "basketbol",
+      "ar": "كرة السلة"
+    },
+    {
+      "tr": "tenis",
+      "ar": "التنس"
+    },
+    {
+      "tr": "koşu",
+      "ar": "الجري"
+    },
+    {
+      "tr": "bisiklet sürmek",
+      "ar": "ركوب الدراجة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u18-2-q1",
+      "prompt": "ما معنى tenis؟",
+      "options": [
+        "كرة السلة",
+        "التنس",
+        "الجري",
+        "السباحة"
+      ],
+      "answerIndex": 1,
+      "explanation": "tenis تعني التنس."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 2
+  }
+}

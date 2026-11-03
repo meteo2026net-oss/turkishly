@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u14-6",
+  "level": "A1",
+  "unitId": "a1-u14",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u14-06",
+      "order": 6,
+      "titleAr": "شراء تذكرة والسؤال عن الرحلات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والاتجاهات",
+    "titleTr": "Şehir, Ulaşım ve Yönler",
+    "description": "الأماكن العامة ووسائل النقل والاتجاهات والسؤال عن الطريق ومحطات النقل وشراء التذاكر."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن الأسعار وشراء تذكرة مواصلات.",
+  "rule": "عبارات نافعة: Bilet ne kadar؟ (كم سعر التذكرة؟)، Bir öğrenci bileti lütfen (تذكرة طالب من فضلك)، Gidiş dönüş bilet istiyorum (أريد تذكرة ذهاب وعودة)، Saat kaçta kalkıyor؟ (متى تنطلق؟)، Hangi peron؟ (أي رصيف؟). كلمة ücret تعني الأجرة أو الرسوم، وtek yön تعني اتجاه واحد.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bilet ne kadar?",
+      "ar": "كم سعر التذكرة؟"
+    },
+    {
+      "tr": "Bir bilet lütfen.",
+      "ar": "تذكرة واحدة من فضلك."
+    },
+    {
+      "tr": "Saat kaçta kalkıyor?",
+      "ar": "متى تنطلق؟"
+    },
+    {
+      "tr": "Hangi peron?",
+      "ar": "أي رصيف؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u14-6-q1",
+      "prompt": "كيف تسأل عن سعر التذكرة؟",
+      "options": [
+        "Bilet ne kadar?",
+        "Nerede yaşıyorsun?",
+        "Saat kaç?",
+        "Hava nasıl?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilet ne kadar؟ تعني كم سعر التذكرة؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u14",
+    "legacyLessonOrder": 6
+  }
+}

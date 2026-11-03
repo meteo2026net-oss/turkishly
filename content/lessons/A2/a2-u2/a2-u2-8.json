@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u2-8",
+  "level": "A2",
+  "unitId": "a2-u2",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u2-08",
+      "order": 8,
+      "titleAr": "حوار حول خطط نهاية الأسبوع",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المستقبل والخطط والقرارات",
+    "titleTr": "Gelecek Zaman ve Planlar",
+    "description": "تكوين زمن المستقبل وإثباته ونفيه والسؤال عنه، مع ضمائر الأشخاص وكلمات الزمن والتعبير عن النوايا والخطط والترتيبات."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار حول خطط نهاية الأسبوع.",
+  "rule": "A: Hafta sonu ne yapacaksın؟ (ماذا ستفعل في نهاية الأسبوع؟) B: Cumartesi ailemi ziyaret edeceğim (سأزور عائلتي السبت). A: Pazar günü bizimle gelecek misin؟ (هل ستأتي معنا يوم الأحد؟) B: Evet, geleceğim (نعم، سآتي). A: Saat kaçta buluşacağız؟ (في أي ساعة سنلتقي؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ne yapacaksın?",
+      "ar": "ماذا ستفعل؟"
+    },
+    {
+      "tr": "ailemi ziyaret edeceğim",
+      "ar": "سأزور عائلتي"
+    },
+    {
+      "tr": "Bizimle gelecek misin?",
+      "ar": "هل ستأتي معنا؟"
+    },
+    {
+      "tr": "Saat kaçta buluşacağız?",
+      "ar": "في أي ساعة سنلتقي؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u2-8-q1",
+      "prompt": "متى سيزور المتحدث عائلته؟",
+      "options": [
+        "يوم الجمعة",
+        "يوم السبت",
+        "يوم الأحد",
+        "الأسبوع القادم"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cumartesi تعني يوم السبت."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u2",
+    "legacyLessonOrder": 8
+  }
+}

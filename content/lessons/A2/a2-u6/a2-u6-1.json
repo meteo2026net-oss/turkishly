@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-1",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a2-u6-01",
+      "order": 1,
+      "titleAr": "التعبير عن الضرورة باستخدام gerek و lazım",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الضرورة باستخدام gerek و lazım.",
+  "rule": "نستخدم gerek أو lazım للتعبير عن الحاجة والضرورة. مثال: Dinlenmem gerek (يجب أن أرتاح)، Su içmek lazım (من الضروري شرب الماء). ويمكن أن يأتي المصدر المنتهي بـ -mak/-mek قبل lazım أو gerek.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "dinlenmek",
+      "ar": "يرتاح"
+    },
+    {
+      "tr": "Dinlenmem gerek.",
+      "ar": "يجب أن أرتاح."
+    },
+    {
+      "tr": "Su içmek lazım.",
+      "ar": "من الضروري شرب الماء."
+    },
+    {
+      "tr": "Çalışmam gerek.",
+      "ar": "يجب أن أدرس / أعمل."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-1-q1",
+      "prompt": "ما معنى Dinlenmem gerek؟",
+      "options": [
+        "أريد أن أرتاح",
+        "يجب أن أرتاح",
+        "استرحت أمس",
+        "لا أستطيع الراحة"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dinlenmem gerek تعني يجب أن أرتاح."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 1
+  }
+}

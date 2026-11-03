@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u16-1",
+  "level": "A1",
+  "unitId": "a1-u16",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u16-01",
+      "order": 1,
+      "titleAr": "أجزاء الجسم الأساسية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم والحالة العامة والأعراض الشائعة ومفردات العيادة والصيدلية وطلب المواعيد والمساعدة."
+  },
+  "contentStatus": "full",
+  "goal": "أجزاء الجسم الأساسية باللغة التركية.",
+  "rule": "كلمة vücut تعني الجسم. مفردات: baş الرأس، saç الشعر، yüz الوجه، göz العين، kulak الأذن، burun الأنف، ağız الفم، diş السن، boyun الرقبة، omuz الكتف، kol الذراع، el اليد، parmak الإصبع، bacak الساق، ayak القدم.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "baş",
+      "ar": "رأس"
+    },
+    {
+      "tr": "göz",
+      "ar": "عين"
+    },
+    {
+      "tr": "kulak",
+      "ar": "أذن"
+    },
+    {
+      "tr": "el",
+      "ar": "يد"
+    },
+    {
+      "tr": "ayak",
+      "ar": "قدم"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u16-1-q1",
+      "prompt": "ما معنى göz؟",
+      "options": [
+        "أذن",
+        "عين",
+        "يد",
+        "قدم"
+      ],
+      "answerIndex": 1,
+      "explanation": "göz تعني عين."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u16",
+    "legacyLessonOrder": 1
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-1",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u18-01",
+      "order": 1,
+      "titleAr": "أسماء الهوايات والأنشطة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء الهوايات والأنشطة في التركية.",
+  "rule": "كلمات شائعة: hobi هواية، kitap okumak قراءة الكتب، müzik dinlemek الاستماع إلى الموسيقى، resim yapmak الرسم، yemek yapmak الطبخ، fotoğraf çekmek التصوير، dans etmek الرقص، yüzmek السباحة. المصدر -mak/-mek يحوّل الفعل إلى صيغة المصدر.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kitap okumak",
+      "ar": "قراءة الكتب"
+    },
+    {
+      "tr": "müzik dinlemek",
+      "ar": "الاستماع إلى الموسيقى"
+    },
+    {
+      "tr": "resim yapmak",
+      "ar": "الرسم"
+    },
+    {
+      "tr": "yüzmek",
+      "ar": "السباحة"
+    },
+    {
+      "tr": "dans etmek",
+      "ar": "الرقص"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u18-1-q1",
+      "prompt": "ما معنى kitap okumak؟",
+      "options": [
+        "قراءة الكتب",
+        "السباحة",
+        "الطبخ",
+        "التصوير"
+      ],
+      "answerIndex": 0,
+      "explanation": "kitap okumak تعني قراءة الكتب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 1
+  }
+}

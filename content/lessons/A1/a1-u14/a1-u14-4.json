@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u14-4",
+  "level": "A1",
+  "unitId": "a1-u14",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u14-04",
+      "order": 4,
+      "titleAr": "السؤال عن الطريق وإرشاد الآخرين",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والاتجاهات",
+    "titleTr": "Şehir, Ulaşım ve Yönler",
+    "description": "الأماكن العامة ووسائل النقل والاتجاهات والسؤال عن الطريق ومحطات النقل وشراء التذاكر."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن الطريق وشرح مسار بسيط للوصول إلى مكان.",
+  "rule": "للسؤال قل ... nasıl gidebilirim؟ أي كيف أصل إلى ...؟ مثل Hastaneye nasıl gidebilirim؟ (كيف أصل إلى المستشفى؟). للإرشاد استخدم: Sağa dönün انعطف يميناً، Sola dönün انعطف يساراً، Düz gidin تابع إلى الأمام، İlk sokaktan dönün انعطف من أول شارع. كلمة sokak تعني شارعاً صغيراً، وcadde تعني شارعاً رئيسياً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Buraya nasıl gidebilirim?",
+      "ar": "كيف أصل إلى هنا؟"
+    },
+    {
+      "tr": "Sağa dönün.",
+      "ar": "انعطف يميناً."
+    },
+    {
+      "tr": "Düz gidin.",
+      "ar": "تابع إلى الأمام."
+    },
+    {
+      "tr": "İlk sokaktan dönün.",
+      "ar": "انعطف من أول شارع."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u14-4-q1",
+      "prompt": "ما معنى Düz gidin؟",
+      "options": [
+        "انعطف يميناً",
+        "تابع إلى الأمام",
+        "ارجع للخلف",
+        "توقف هنا"
+      ],
+      "answerIndex": 1,
+      "explanation": "Düz gidin تعني تابع إلى الأمام."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u14",
+    "legacyLessonOrder": 4
+  }
+}

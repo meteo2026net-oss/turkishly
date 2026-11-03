@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-8",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u5-08",
+      "order": 8,
+      "titleAr": "حوار لطلب المساعدة والخدمة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "إجراء حوار لطلب المساعدة والخدمة.",
+  "rule": "A: Bu formu doldurabilir misiniz? (هل يمكنكم ملء هذه الاستمارة؟) B: Tabii, yardımcı olabilirim (بالطبع، أستطيع المساعدة). A: Teşekkür ederim. B: Rica ederim. استخدم هذه العبارات في المتجر أو المدرسة أو مكان العمل.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "doldurmak",
+      "ar": "يملأ"
+    },
+    {
+      "tr": "yardımcı olmak",
+      "ar": "يقدم المساعدة"
+    },
+    {
+      "tr": "Teşekkür ederim.",
+      "ar": "شكراً لك."
+    },
+    {
+      "tr": "Rica ederim.",
+      "ar": "على الرحب والسعة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-8-q1",
+      "prompt": "ما معنى yardımcı olabilirim؟",
+      "options": [
+        "لا أستطيع المساعدة",
+        "أستطيع المساعدة",
+        "أحتاج إلى استمارة",
+        "شكراً لك"
+      ],
+      "answerIndex": 1,
+      "explanation": "yardımcı olabilirim تعني أستطيع المساعدة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 8
+  }
+}

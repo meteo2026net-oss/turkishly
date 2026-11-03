@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u9-5",
+  "level": "A1",
+  "unitId": "a1-u9",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u9-05",
+      "order": 5,
+      "titleAr": "السؤال عن الطريق وكيفية الوصول",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والأماكن العامة",
+    "titleTr": "Şehir, Ulaşım ve Kamu Alanları",
+    "description": "أماكن المدينة ووسائل النقل والاتجاهات والسؤال عن الطريق وشراء تذاكر المواصلات."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن الطريق إلى مكان معين.",
+  "rule": "للسؤال بأدب استخدم ... nasıl gidebilirim؟ أي كيف يمكنني الذهاب إلى ...؟. مثال: Hastaneye nasıl gidebilirim؟ (كيف أصل إلى المستشفى؟). كلمة yakın قريب، uzak بعيد، karşısında مقابل، yanında بجانب، köşede عند الزاوية.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "İstasyona nasıl gidebilirim?",
+      "ar": "كيف أصل إلى المحطة؟"
+    },
+    {
+      "tr": "Düz gidin.",
+      "ar": "تابعوا مستقيماً بصيغة مهذبة."
+    },
+    {
+      "tr": "Sağda, köşede.",
+      "ar": "على اليمين عند الزاوية."
+    },
+    {
+      "tr": "Çok uzak mı?",
+      "ar": "هل هو بعيد جداً؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u9-5-q1",
+      "prompt": "أي سؤال يعني «كيف أصل إلى المستشفى؟»",
+      "options": [
+        "Hastaneye nasıl gidebilirim?",
+        "Saat kaç?",
+        "Bu ne kadar?",
+        "Nerelisin?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hastaneye nasıl gidebilirim؟ هو السؤال عن كيفية الوصول إلى المستشفى."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u9",
+    "legacyLessonOrder": 5
+  }
+}

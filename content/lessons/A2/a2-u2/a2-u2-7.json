@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u2-7",
+  "level": "A2",
+  "unitId": "a2-u2",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u2-07",
+      "order": 7,
+      "titleAr": "التعبير عن النوايا والترتيبات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المستقبل والخطط والقرارات",
+    "titleTr": "Gelecek Zaman ve Planlar",
+    "description": "تكوين زمن المستقبل وإثباته ونفيه والسؤال عنه، مع ضمائر الأشخاص وكلمات الزمن والتعبير عن النوايا والخطط والترتيبات."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن النوايا والترتيبات المستقبلية.",
+  "rule": "يمكن التعبير عن الخطة باستخدام فعل المستقبل مع وقت أو مكان محدد: Akşam ders çalışacağım (سأدرس مساءً)، Pazar günü ailemi ziyaret edeceğim (سأزور عائلتي يوم الأحد). ولذكر النية: Tatilde dinleneceğim (سأرتاح في العطلة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Akşam ders çalışacağım.",
+      "ar": "سأدرس مساءً."
+    },
+    {
+      "tr": "Ailemi ziyaret edeceğim.",
+      "ar": "سأزور عائلتي."
+    },
+    {
+      "tr": "Pazar günü buluşacağız.",
+      "ar": "سنلتقي يوم الأحد."
+    },
+    {
+      "tr": "Tatilde dinleneceğim.",
+      "ar": "سأرتاح في العطلة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u2-7-q1",
+      "prompt": "ما معنى Ailemi ziyaret edeceğim؟",
+      "options": [
+        "زرت عائلتي",
+        "سأزور عائلتي",
+        "أزور عائلتي الآن",
+        "لن أزور عائلتي"
+      ],
+      "answerIndex": 1,
+      "explanation": "تعني سأزور عائلتي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u2",
+    "legacyLessonOrder": 7
+  }
+}

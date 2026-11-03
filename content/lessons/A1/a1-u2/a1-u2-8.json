@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-8",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u2-08",
+      "order": 8,
+      "titleAr": "حوار تعارف متكامل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "full",
+  "goal": "إجراء حوار تعارف قصير من التحية حتى الوداع.",
+  "rule": "اجمع ما تعلمته في حوار مرتب: التحية، السؤال عن الحال، الاسم، البلد أو المهنة، ثم عبارة المجاملة والوداع. استخدم Sen عند الحديث غير الرسمي وSiz في السياق الرسمي أو الاحترام.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "A: Merhaba, nasılsın?",
+      "ar": "أ: مرحباً، كيف حالك؟"
+    },
+    {
+      "tr": "B: İyiyim, teşekkürler. Ya sen?",
+      "ar": "ب: أنا بخير، شكراً. وأنت؟"
+    },
+    {
+      "tr": "A: Ben de iyiyim.",
+      "ar": "أ: أنا أيضاً بخير."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u2-8-q1",
+      "prompt": "ما الرد الشائع على Nasılsın؟",
+      "options": [
+        "İyiyim, teşekkürler.",
+        "Benim adım.",
+        "Güle güle.",
+        "Nerelisin?"
+      ],
+      "answerIndex": 0,
+      "explanation": "İyiyim, teşekkürler تعني أنا بخير، شكراً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 8
+  }
+}

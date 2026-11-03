@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u12-4",
+  "level": "A1",
+  "unitId": "a1-u12",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u12-04",
+      "order": 4,
+      "titleAr": "الفصول الأربعة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والتاريخ والطقس والفصول",
+    "titleTr": "Zaman, Tarih, Hava Durumu ve Mevsimler",
+    "description": "قراءة الساعة وأيام الأسبوع والأشهر والفصول ووصف الطقس وتحديد المواعيد والروتين الأسبوعي."
+  },
+  "contentStatus": "full",
+  "goal": "تسمية الفصول ووصف الطقس بصورة أولية.",
+  "rule": "الفصول: ilkbahar الربيع، yaz الصيف، sonbahar الخريف، kış الشتاء. من مفردات الطقس hava durumu حالة الطقس، güneşli مشمس، bulutlu غائم، yağmurlu ممطر، karlı مثلج، rüzgârlı كثير الرياح. مثال: Yazın hava sıcak (الجو حار في الصيف).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "ilkbahar",
+      "ar": "الربيع"
+    },
+    {
+      "tr": "yaz",
+      "ar": "الصيف"
+    },
+    {
+      "tr": "sonbahar",
+      "ar": "الخريف"
+    },
+    {
+      "tr": "kış",
+      "ar": "الشتاء"
+    },
+    {
+      "tr": "Bugün hava güneşli.",
+      "ar": "الجو مشمس اليوم."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u12-4-q1",
+      "prompt": "ما معنى kış؟",
+      "options": [
+        "الربيع",
+        "الصيف",
+        "الخريف",
+        "الشتاء"
+      ],
+      "answerIndex": 3,
+      "explanation": "kış تعني الشتاء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u12",
+    "legacyLessonOrder": 4
+  }
+}

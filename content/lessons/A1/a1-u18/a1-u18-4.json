@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-4",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u18-04",
+      "order": 4,
+      "titleAr": "كلمات التكرار والوقت",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام كلمات التكرار والوقت للحديث عن الأنشطة.",
+  "rule": "ظروف التكرار: her gün كل يوم، sık sık كثيراً، bazen أحياناً، nadiren نادراً، hiç أبداً/مطلقاً بحسب السياق. أمثلة: Her gün yürüyüş yapıyorum (أتمشى كل يوم)، Bazen tenis oynarım (ألعب التنس أحياناً)، Hafta sonları yüzerim (أسبح في عطلات نهاية الأسبوع).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "her gün",
+      "ar": "كل يوم"
+    },
+    {
+      "tr": "sık sık",
+      "ar": "كثيراً"
+    },
+    {
+      "tr": "bazen",
+      "ar": "أحياناً"
+    },
+    {
+      "tr": "nadiren",
+      "ar": "نادراً"
+    },
+    {
+      "tr": "Hafta sonları",
+      "ar": "في عطلات نهاية الأسبوع"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u18-4-q1",
+      "prompt": "ما معنى bazen؟",
+      "options": [
+        "دائماً",
+        "أحياناً",
+        "نادراً",
+        "غداً"
+      ],
+      "answerIndex": 1,
+      "explanation": "bazen تعني أحياناً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 4
+  }
+}

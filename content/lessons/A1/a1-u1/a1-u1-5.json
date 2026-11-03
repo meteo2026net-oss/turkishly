@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-5",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u1-05",
+      "order": 5,
+      "titleAr": "قراءة المقاطع والكلمات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "تقسيم الكلمات إلى مقاطع وقراءتها بوضوح.",
+  "rule": "في التركية تحتوي كل مقطعية عادةً على حركة واحدة، ويمكن استخدام عدد الحركات لتقدير عدد المقاطع. اقرأ ببطء، ولا تحذف الحركات، وحافظ على وضوح كل مقطع.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "a-ra-ba",
+      "ar": "سيارة – ثلاثة مقاطع"
+    },
+    {
+      "tr": "ki-tap",
+      "ar": "كتاب – مقطعان"
+    },
+    {
+      "tr": "o-kul",
+      "ar": "مدرسة – مقطعان"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-5-q1",
+      "prompt": "كم مقطعاً في كلمة araba؟",
+      "options": [
+        "مقطع واحد",
+        "مقطعان",
+        "ثلاثة مقاطع",
+        "أربعة مقاطع"
+      ],
+      "answerIndex": 2,
+      "explanation": "a-ra-ba تتكوّن من ثلاثة مقاطع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 5
+  }
+}

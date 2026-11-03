@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-6",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u11-06",
+      "order": 6,
+      "titleAr": "طلب الطعام والشراب بأدب",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "طلب الطعام والشراب بأدب في المطعم.",
+  "rule": "يمكنك بدء الطلب بقول Bir çorba istiyorum (أريد حساءً)، أو Şundan alabilir miyim؟ (هل يمكنني أخذ هذا؟). كلمة lütfen تعني من فضلك، وbir porsiyon تعني حصة واحدة. ولطلب الماء قل Bir şişe su lütfen (زجاجة ماء واحدة من فضلك).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Menüyü alabilir miyim?",
+      "ar": "هل يمكنني الحصول على قائمة الطعام؟"
+    },
+    {
+      "tr": "Bir çorba lütfen.",
+      "ar": "حساء واحد من فضلك."
+    },
+    {
+      "tr": "Bir porsiyon pilav istiyorum.",
+      "ar": "أريد حصة من الأرز."
+    },
+    {
+      "tr": "Su alabilir miyim?",
+      "ar": "هل يمكنني الحصول على ماء؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-6-q1",
+      "prompt": "أي عبارة تعني «الفاتورة من فضلك»؟",
+      "options": [
+        "Hesap lütfen.",
+        "Menü lütfen.",
+        "Su lütfen.",
+        "Günaydın."
+      ],
+      "answerIndex": 0,
+      "explanation": "Hesap lütfen تعني الفاتورة من فضلك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 6
+  }
+}

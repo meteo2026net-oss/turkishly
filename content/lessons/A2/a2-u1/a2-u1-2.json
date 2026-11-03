@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u1-2",
+  "level": "A2",
+  "unitId": "a2-u1",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a2-u1-02",
+      "order": 2,
+      "titleAr": "تكوين الماضي المحدد مع الأفعال",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحدث عن الماضي والأحداث السابقة",
+    "titleTr": "Geçmiş Zaman ve Geçmiş Olaylar",
+    "description": "تعلم الماضي المحدد وإثباته ونفيه والسؤال عنه، مع كلمات الزمن وتسلسل الأحداث ووصف يوم سابق وعطلة مضت."
+  },
+  "contentStatus": "full",
+  "goal": "تكوين الماضي المحدد مع الأفعال المنتظمة.",
+  "rule": "تُضاف لاحقة الماضي -dı/-di/-du/-dü أو -tı/-ti/-tu/-tü بحسب آخر صوت في الفعل. أمثلة: çalışmak ← çalıştım (عملت/درست)، dinlemek ← dinledim (استمعت)، başlamak ← başladım (بدأت). ضمير المتكلم المفرد يظهر في النهاية بصيغة -m.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "çalıştım",
+      "ar": "عملت/درست"
+    },
+    {
+      "tr": "dinledim",
+      "ar": "استمعت"
+    },
+    {
+      "tr": "başladım",
+      "ar": "بدأت"
+    },
+    {
+      "tr": "Dün erken uyudum.",
+      "ar": "نمت مبكراً أمس."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u1-2-q1",
+      "prompt": "ما صيغة «استمعت» من dinlemek؟",
+      "options": [
+        "dinledim",
+        "dinliyorum",
+        "dinleyeceğim",
+        "dinlerim"
+      ],
+      "answerIndex": 0,
+      "explanation": "dinledim هي صيغة الماضي للمتكلم: استمعت."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u1",
+    "legacyLessonOrder": 2
+  }
+}

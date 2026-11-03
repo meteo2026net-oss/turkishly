@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-7",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u5-07",
+      "order": 7,
+      "titleAr": "اختيار درجة مناسبة من التهذيب",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "اختيار درجة مناسبة من التهذيب.",
+  "rule": "تختلف الصياغة بحسب الموقف: Yardım et. أمر مباشر غير رسمي؛ Yardım eder misin? طلب ألطف لشخص تعرفه؛ Yardım edebilir misiniz? صيغة أكثر تهذيباً أو رسمية. يمكن إضافة lütfen، ومن الأفضل استخدام نبرة محترمة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Yardım et.",
+      "ar": "ساعد."
+    },
+    {
+      "tr": "Yardım eder misin?",
+      "ar": "هل تساعدني؟"
+    },
+    {
+      "tr": "Yardım edebilir misiniz?",
+      "ar": "هل يمكنكم مساعدتي؟"
+    },
+    {
+      "tr": "lütfen",
+      "ar": "من فضلك"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-7-q1",
+      "prompt": "أي صيغة أنسب لطلب مهذب ورسمي؟",
+      "options": [
+        "Yardım et!",
+        "Yardım edebilir misiniz?",
+        "Yardım!",
+        "Yardım ettim."
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة الثالثة أكثر تهذيباً ورسمية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 7
+  }
+}

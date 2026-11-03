@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-1",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a2-u3-01",
+      "order": 1,
+      "titleAr": "استخدام الصفات في الوصف",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام الصفة لوصف الأشخاص والأماكن والأشياء.",
+  "rule": "تأتي الصفة غالباً قبل الاسم في التركية: güzel şehir مدينة جميلة، büyük ev منزل كبير، yeni araba سيارة جديدة. ويمكن استخدامها خبراً مع olmak المحذوف: Ev büyük (المنزل كبير)، Hava güzel (الطقس جميل).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "güzel şehir",
+      "ar": "مدينة جميلة"
+    },
+    {
+      "tr": "büyük ev",
+      "ar": "منزل كبير"
+    },
+    {
+      "tr": "yeni araba",
+      "ar": "سيارة جديدة"
+    },
+    {
+      "tr": "Hava güzel.",
+      "ar": "الطقس جميل."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-1-q1",
+      "prompt": "ما معنى büyük ev؟",
+      "options": [
+        "منزل صغير",
+        "منزل كبير",
+        "منزل جديد",
+        "منزل جميل"
+      ],
+      "answerIndex": 1,
+      "explanation": "büyük تعني كبير وev تعني منزل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 1
+  }
+}

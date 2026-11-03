@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u13-3",
+  "level": "A1",
+  "unitId": "a1-u13",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u13-03",
+      "order": 3,
+      "titleAr": "الأدوات المنزلية وأغراض المطبخ",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والأثاث والحياة اليومية",
+    "titleTr": "Ev, Mobilyalar ve Günlük Yaşam",
+    "description": "غرف المنزل والأثاث وأدوات المطبخ ووصف المكان وتحديد مواقع الأشياء والأعمال المنزلية."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى الأدوات المنزلية وأغراض المطبخ.",
+  "rule": "من أدوات المطبخ: tabak طبق، bardak كأس، fincan فنجان، kaşık ملعقة، çatal شوكة، bıçak سكين مائدة، tencere قدر، tava مقلاة، buzdolabı ثلاجة، fırın فرن. كلمة mutfak eşyaları تعني أدوات المطبخ. اربط كل كلمة باستخدامها اليومي لتسهيل حفظها.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "tabak",
+      "ar": "طبق"
+    },
+    {
+      "tr": "bardak",
+      "ar": "كأس"
+    },
+    {
+      "tr": "kaşık",
+      "ar": "ملعقة"
+    },
+    {
+      "tr": "çatal",
+      "ar": "شوكة"
+    },
+    {
+      "tr": "buzdolabı",
+      "ar": "ثلاجة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u13-3-q1",
+      "prompt": "ما معنى buzdolabı؟",
+      "options": [
+        "فرن",
+        "ثلاجة",
+        "مقلاة",
+        "قدر"
+      ],
+      "answerIndex": 1,
+      "explanation": "buzdolabı تعني ثلاجة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u13",
+    "legacyLessonOrder": 3
+  }
+}
