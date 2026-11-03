@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u6-06",
+  "level": "C2",
+  "unitId": "c2-u6",
+  "order": 6,
+  "title": {
+    "ar": "التعامل مع النقد العام والإعلامي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والوساطة الاستراتيجية المتقدمة",
+    "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
+    "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u6",
+    "legacyLessonOrder": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u12-03",
+  "level": "C1",
+  "unitId": "c1-u12",
+  "order": 3,
+  "title": {
+    "ar": "إدارة أصحاب المصلحة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الاستراتيجي والمشروع الختامي",
+    "titleTr": "Stratejik İletişim ve Bitirme Projesi",
+    "description": "التوصيات الاستراتيجية والتواصل في الأزمات وأصحاب المصلحة والقيادة والتقييم النهائي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u12",
+    "legacyLessonOrder": 3
+  }
+}

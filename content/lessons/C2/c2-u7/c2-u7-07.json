@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u7-07",
+  "level": "C2",
+  "unitId": "c2-u7",
+  "order": 7,
+  "title": {
+    "ar": "المناظرة القائمة على النماذج التفسيرية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب الشفهي والمناظرة المتقدمة",
+    "titleTr": "İleri Sözlü Söylem ve Münazara",
+    "description": "تحليل المداخلات والشرح الفوري وإدارة الاختلاف والنقاش متعدد اللغات."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u7",
+    "legacyLessonOrder": 7
+  }
+}

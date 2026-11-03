@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u10-01",
+  "level": "C2",
+  "unitId": "c2-u10",
+  "order": 1,
+  "title": {
+    "ar": "تحليل الخطاب السياسي المقارن",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "تحليل الخطاب والنقد المقارن",
+    "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
+    "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u10",
+    "legacyLessonOrder": 1
+  }
+}

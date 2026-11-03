@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u41-10",
+  "level": "C2",
+  "unitId": "c2-u41",
+  "order": 10,
+  "title": {
+    "ar": "خارطة طريق رقمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحول الرقمي وهندسة الخدمات",
+    "titleTr": "Dijital Dönüşüm ve Hizmet Tasarımı",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u41",
+    "legacyLessonOrder": 10
+  }
+}

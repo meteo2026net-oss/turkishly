@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u3-09",
+  "level": "B2",
+  "unitId": "b2-u3",
+  "order": 9,
+  "title": {
+    "ar": "التفاوض والتوصل إلى اتفاق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
+    "titleTr": "İleri Akademik ve Mesleki İletişim",
+    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b2-u3",
+    "legacyLessonOrder": 9
+  }
+}

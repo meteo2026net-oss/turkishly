@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u13-06",
+  "level": "A1",
+  "unitId": "a1-u13",
+  "order": 6,
+  "title": {
+    "ar": "الأعمال المنزلية والروتين",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والأثاث والحياة اليومية",
+    "titleTr": "Ev, Mobilyalar ve Günlük Yaşam",
+    "description": "غرف المنزل والأثاث وأدوات المطبخ ووصف المكان وتحديد مواقع الأشياء والأعمال المنزلية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u13",
+    "legacyLessonOrder": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u18-04",
+  "level": "C2",
+  "unitId": "c2-u18",
+  "order": 4,
+  "title": {
+    "ar": "تحليل تأطير المعلومات المضللة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب العام والتحقق من الأدلة",
+    "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
+    "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u18",
+    "legacyLessonOrder": 4
+  }
+}

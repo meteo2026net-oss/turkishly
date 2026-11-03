@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u37-04",
+  "level": "C2",
+  "unitId": "c2-u37",
+  "order": 4,
+  "title": {
+    "ar": "التحول الحكومي الرقمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الإدارة العامة والخدمات الحكومية",
+    "titleTr": "Kamu Yönetimi ve Kamu Hizmetleri",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u37",
+    "legacyLessonOrder": 4
+  }
+}

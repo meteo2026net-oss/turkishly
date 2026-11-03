@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u28-02",
+  "level": "C2",
+  "unitId": "c2-u28",
+  "order": 2,
+  "title": {
+    "ar": "تقييم مخاطر المناخ",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التخطيط الحضري والبيئة والمناخ",
+    "titleTr": "Kentsel Planlama, Çevre ve İklim",
+    "description": "التخطيط الحضري والتكيف المناخي وإدارة الموارد والمخاطر البيئية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u28",
+    "legacyLessonOrder": 2
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-05",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 5,
+  "title": {
+    "ar": "قراءة المقاطع والكلمات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 5
+  }
+}

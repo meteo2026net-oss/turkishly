@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u48-09",
+  "level": "C2",
+  "unitId": "c2-u48",
+  "order": 9,
+  "title": {
+    "ar": "الاستدامة اللوجستية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "النقل واللوجستيات وسلاسل الإمداد",
+    "titleTr": "Ulaştırma, Lojistik ve Tedarik Zinciri",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u48",
+    "legacyLessonOrder": 9
+  }
+}

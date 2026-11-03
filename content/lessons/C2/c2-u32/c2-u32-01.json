@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u32-01",
+  "level": "C2",
+  "unitId": "c2-u32",
+  "order": 1,
+  "title": {
+    "ar": "تصنيف المخاطر الاستراتيجية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المخاطر والمرونة المؤسسية",
+    "titleTr": "Kurumsal Risk ve Dayanıklılık Yönetimi",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u32",
+    "legacyLessonOrder": 1
+  }
+}

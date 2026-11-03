@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u70-02",
+  "level": "C2",
+  "unitId": "c2-u70",
+  "order": 2,
+  "title": {
+    "ar": "تحليل الطب الحيوي والصحة الرقمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطب الحيوي والصحة الرقمية",
+    "titleTr": "Biyomedikal Bilimler ve Dijital Sağlık",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u70",
+    "legacyLessonOrder": 2
+  }
+}

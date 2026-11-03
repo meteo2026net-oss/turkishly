@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u7-10",
+  "level": "C1",
+  "unitId": "c1-u7",
+  "order": 10,
+  "title": {
+    "ar": "مراجعة منهجية البحث والحجاج",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "منهجية البحث والحجاج المتقدم",
+    "titleTr": "İleri Araştırma ve Argümantasyon",
+    "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u7",
+    "legacyLessonOrder": 10
+  }
+}

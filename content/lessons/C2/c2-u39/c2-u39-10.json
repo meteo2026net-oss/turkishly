@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u39-10",
+  "level": "C2",
+  "unitId": "c2-u39",
+  "order": 10,
+  "title": {
+    "ar": "خطة انتقال طاقي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطاقة والموارد والتحول الأخضر",
+    "titleTr": "Enerji, Kaynaklar ve Yeşil Dönüşüm",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u39",
+    "legacyLessonOrder": 10
+  }
+}

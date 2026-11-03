@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-09",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 9,
+  "title": {
+    "ar": "مراجعة القدرة والطلب والإذن",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 9
+  }
+}

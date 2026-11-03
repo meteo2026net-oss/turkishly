@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u74-01",
+  "level": "C2",
+  "unitId": "c2-u74",
+  "order": 1,
+  "title": {
+    "ar": "القيادة الأخلاقية والمسؤولية الاجتماعية: المفاهيم الأساسية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة الأخلاقية والمسؤولية الاجتماعية",
+    "titleTr": "Etik Liderlik ve Sosyal Sorumluluk",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u74",
+    "legacyLessonOrder": 1
+  }
+}

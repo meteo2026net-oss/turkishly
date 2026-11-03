@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u15-10",
+  "level": "C2",
+  "unitId": "c2-u15",
+  "order": 10,
+  "title": {
+    "ar": "مشروع الترجمة الشفوية المتكامل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+    "titleTr": "İleri Sözlü Çeviri ve Dilsel Arabuluculuk",
+    "description": "الاستماع المتقدم والتدوين والترجمة التتابعية وإدارة المصطلحات ومراجعة الأداء."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u15",
+    "legacyLessonOrder": 10
+  }
+}

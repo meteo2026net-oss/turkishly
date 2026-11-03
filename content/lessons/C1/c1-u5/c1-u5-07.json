@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u5-07",
+  "level": "C1",
+  "unitId": "c1-u5",
+  "order": 7,
+  "title": {
+    "ar": "تقديم توصيات مدعومة بالأدلة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة الرسمية والمهنية",
+    "titleTr": "Resmî ve Mesleki Dil",
+    "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u5",
+    "legacyLessonOrder": 7
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-06",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 6,
+  "title": {
+    "ar": "تحديد المكان والزمان للنشاط",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 6
+  }
+}

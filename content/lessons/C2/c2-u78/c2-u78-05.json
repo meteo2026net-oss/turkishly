@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u78-05",
+  "level": "C2",
+  "unitId": "c2-u78",
+  "order": 5,
+  "title": {
+    "ar": "التحديات في المهارات المتقدمة والمشروع الختامي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المهارات المتقدمة والمشروع الختامي",
+    "titleTr": "İleri Yetkinlikler ve Kapsamlı Bitirme Projesi",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u78",
+    "legacyLessonOrder": 5
+  }
+}

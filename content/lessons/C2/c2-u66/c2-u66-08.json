@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u66-08",
+  "level": "C2",
+  "unitId": "c2-u66",
+  "order": 8,
+  "title": {
+    "ar": "قياس أثر التصميم والابتكار الاجتماعي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التصميم والابتكار الاجتماعي",
+    "titleTr": "Tasarım ve Sosyal İnovasyon",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u66",
+    "legacyLessonOrder": 8
+  }
+}

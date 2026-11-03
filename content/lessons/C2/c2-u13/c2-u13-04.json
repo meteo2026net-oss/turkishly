@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u13-04",
+  "level": "C2",
+  "unitId": "c2-u13",
+  "order": 4,
+  "title": {
+    "ar": "التمييز بين الالتزام والإذن والمنع",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة القانونية وصياغة الوثائق الرسمية",
+    "titleTr": "Hukuk Dili ve Resmî Belge Yazımı",
+    "description": "قراءة النصوص القانونية وتحليل الأحكام وصياغة العقود والمذكرات والوثائق الرسمية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u13",
+    "legacyLessonOrder": 4
+  }
+}

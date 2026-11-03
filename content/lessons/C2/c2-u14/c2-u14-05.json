@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u14-05",
+  "level": "C2",
+  "unitId": "c2-u14",
+  "order": 5,
+  "title": {
+    "ar": "تبسيط النتائج لغير المتخصصين",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاتصال العلمي والتقني المتقدم",
+    "titleTr": "İleri Bilimsel ve Teknik İletişim",
+    "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u14",
+    "legacyLessonOrder": 5
+  }
+}

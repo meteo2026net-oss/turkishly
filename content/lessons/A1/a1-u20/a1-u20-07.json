@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-07",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 7,
+  "title": {
+    "ar": "مراجعة الأسرة والصحة والعمل والهوايات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 7
+  }
+}

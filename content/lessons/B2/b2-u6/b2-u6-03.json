@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u6-03",
+  "level": "B2",
+  "unitId": "b2-u6",
+  "order": 3,
+  "title": {
+    "ar": "المدن والتحضر والتخطيط",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المجتمع والثقافة والقضايا المعاصرة",
+    "titleTr": "Toplum, Kültür ve Güncel Konular",
+    "description": "المشاركة المدنية والبيئة والإعلام والثقافة والصحة وكتابة الرأي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b2-u6",
+    "legacyLessonOrder": 3
+  }
+}

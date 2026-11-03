@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u68-07",
+  "level": "C2",
+  "unitId": "c2-u68",
+  "order": 7,
+  "title": {
+    "ar": "دراسة حالة في العلوم السياسية والحكم المقارن",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلوم السياسية والحكم المقارن",
+    "titleTr": "Siyaset Bilimi ve Karşılaştırmalı Yönetim",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u68",
+    "legacyLessonOrder": 7
+  }
+}

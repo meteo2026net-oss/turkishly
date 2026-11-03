@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-06",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 6,
+  "title": {
+    "ar": "وصف الغرف والأماكن وتحديد مواقع الأشياء",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 6
+  }
+}

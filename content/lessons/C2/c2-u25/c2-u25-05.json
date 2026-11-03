@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u25-05",
+  "level": "C2",
+  "unitId": "c2-u25",
+  "order": 5,
+  "title": {
+    "ar": "المسؤولية الدولية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القانون الدولي والمؤسسات متعددة الأطراف",
+    "titleTr": "Uluslararası Hukuk ve Çok Taraflı Kurumlar",
+    "description": "المعاهدات والمؤسسات الدولية وآليات الامتثال وتسوية النزاعات."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u25",
+    "legacyLessonOrder": 5
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u11-08",
+  "level": "C1",
+  "unitId": "c1-u11",
+  "order": 8,
+  "title": {
+    "ar": "الإحالات والتناص بين النصوص",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل الأدبي والأسلوبي المتقدم",
+    "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
+    "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u11",
+    "legacyLessonOrder": 8
+  }
+}

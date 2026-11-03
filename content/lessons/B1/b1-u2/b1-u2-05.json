@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u2-05",
+  "level": "B1",
+  "unitId": "b1-u2",
+  "order": 5,
+  "title": {
+    "ar": "الشرط الافتراضي في الماضي -seydi/-saydı",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
+    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
+    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b1-u2",
+    "legacyLessonOrder": 5
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u20-02",
+  "level": "C2",
+  "unitId": "c2-u20",
+  "order": 2,
+  "title": {
+    "ar": "إدارة الغموض الدلالي في الترجمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "هندسة المصطلحات والتحرير والترجمة المتقدمة",
+    "titleTr": "İleri Terim Mühendisliği, Editörlük ve Çeviri",
+    "description": "إدارة المصطلحات والغموض والتكافؤ التداولي والتحرير متعدد المؤلفين والترجمة القانونية والتوطين."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u20",
+    "legacyLessonOrder": 2
+  }
+}

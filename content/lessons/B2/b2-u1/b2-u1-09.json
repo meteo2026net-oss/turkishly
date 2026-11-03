@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u1-09",
+  "level": "B2",
+  "unitId": "b2-u1",
+  "order": 9,
+  "title": {
+    "ar": "التنازل رغم وجود عائق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التراكيب النحوية المتقدمة",
+    "titleTr": "İleri Dilbilgisi Yapıları",
+    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b2-u1",
+    "legacyLessonOrder": 9
+  }
+}

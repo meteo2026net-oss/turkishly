@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u1-02",
+  "level": "C1",
+  "unitId": "c1-u1",
+  "order": 2,
+  "title": {
+    "ar": "التمييز بين الحقيقة والرأي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القراءة الأكاديمية وتحليل النصوص",
+    "titleTr": "Akademik Okuma ve Metin Çözümleme",
+    "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u1",
+    "legacyLessonOrder": 2
+  }
+}

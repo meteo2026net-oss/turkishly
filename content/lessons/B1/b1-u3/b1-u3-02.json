@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u3-02",
+  "level": "B1",
+  "unitId": "b1-u3",
+  "order": 2,
+  "title": {
+    "ar": "وصف مشكلة وتقديم حل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل المتقدم وبناء الخطاب",
+    "titleTr": "İleri İletişim ve Söylem Kurma",
+    "description": "تنظيم العروض الشفهية وحل المشكلات والتخطيط وسرد الخبرات واستخدام المبني للمجهول والروابط المركبة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b1-u3",
+    "legacyLessonOrder": 2
+  }
+}

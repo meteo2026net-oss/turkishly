@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u24-06",
+  "level": "C2",
+  "unitId": "c2-u24",
+  "order": 6,
+  "title": {
+    "ar": "خصوصية البيانات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البيانات والذكاء الاصطناعي والمجتمع",
+    "titleTr": "Veri, Yapay Zekâ ve Toplum",
+    "description": "حوكمة البيانات والذكاء الاصطناعي والأخلاقيات والتحليل الرقمي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u24",
+    "legacyLessonOrder": 6
+  }
+}

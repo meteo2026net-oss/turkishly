@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u31-05",
+  "level": "C2",
+  "unitId": "c2-u31",
+  "order": 5,
+  "title": {
+    "ar": "تقييم الأداء المؤسسي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاستدامة المؤسسية والحوكمة الرشيدة",
+    "titleTr": "Kurumsal Sürdürülebilirlik ve İyi Yönetişim",
+    "description": "الشفافية والمساءلة وإدارة الأداء والاستدامة المؤسسية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u31",
+    "legacyLessonOrder": 5
+  }
+}

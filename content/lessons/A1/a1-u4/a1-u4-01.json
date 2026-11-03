@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u4-01",
+  "level": "A1",
+  "unitId": "a1-u4",
+  "order": 1,
+  "title": {
+    "ar": "أفراد العائلة الأساسية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العائلة والأشخاص",
+    "titleTr": "Aile ve İnsanlar",
+    "description": "أفراد الأسرة والصفات الشخصية والعمر والمهن والتعريف بالعائلة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u4",
+    "legacyLessonOrder": 1
+  }
+}

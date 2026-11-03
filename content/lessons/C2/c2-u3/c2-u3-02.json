@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-02",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 2,
+  "title": {
+    "ar": "التفاوض على المصالح المعقدة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyLessonOrder": 2
+  }
+}

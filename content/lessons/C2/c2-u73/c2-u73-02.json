@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u73-02",
+  "level": "C2",
+  "unitId": "c2-u73",
+  "order": 2,
+  "title": {
+    "ar": "تحليل إدارة البيانات الجغرافية والاستشعار عن بعد",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة البيانات الجغرافية والاستشعار عن بعد",
+    "titleTr": "Coğrafi Veri ve Uzaktan Algılama Yönetimi",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u73",
+    "legacyLessonOrder": 2
+  }
+}

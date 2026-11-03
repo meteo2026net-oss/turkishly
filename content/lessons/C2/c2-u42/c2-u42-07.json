@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u42-07",
+  "level": "C2",
+  "unitId": "c2-u42",
+  "order": 7,
+  "title": {
+    "ar": "اقتصاديات الصحة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة العامة وإدارة الأنظمة الصحية",
+    "titleTr": "Halk Sağlığı ve Sağlık Sistemleri Yönetimi",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u42",
+    "legacyLessonOrder": 7
+  }
+}

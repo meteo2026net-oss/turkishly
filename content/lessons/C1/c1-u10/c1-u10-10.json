@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u10-10",
+  "level": "C1",
+  "unitId": "c1-u10",
+  "order": 10,
+  "title": {
+    "ar": "مشروع العرض الأكاديمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العرض الأكاديمي المتقدم",
+    "titleTr": "İleri Akademik Sunum",
+    "description": "بناء العروض والانتقالات وشرح البيانات وإدارة الأسئلة والنقاش."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u10",
+    "legacyLessonOrder": 10
+  }
+}

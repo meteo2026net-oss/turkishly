@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u5-09",
+  "level": "C2",
+  "unitId": "c2-u5",
+  "order": 9,
+  "title": {
+    "ar": "إعداد ملف النشر النهائي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحرير والنشر الأكاديمي المتخصص",
+    "titleTr": "Uzman Akademik Editörlük ve Yayın",
+    "description": "التحرير البنيوي وإدارة المصطلحات والتوثيق والتحرير متعدد التخصصات والنشر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u5",
+    "legacyLessonOrder": 9
+  }
+}

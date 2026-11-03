@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-09",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 9,
+  "title": {
+    "ar": "مراجعة المقارنة واختبار الوحدة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 9
+  }
+}

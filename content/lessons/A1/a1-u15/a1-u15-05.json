@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-05",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 5,
+  "title": {
+    "ar": "طلب مقاس أو لون وتجربة الملابس",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 5
+  }
+}

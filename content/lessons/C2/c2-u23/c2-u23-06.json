@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u23-06",
+  "level": "C2",
+  "unitId": "c2-u23",
+  "order": 6,
+  "title": {
+    "ar": "تمويل التنمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاقتصاد والسياسات والتنمية المستدامة",
+    "titleTr": "Ekonomi, Politikalar ve Sürdürülebilir Kalkınma",
+    "description": "تحليل السياسات الاقتصادية والتنمية المستدامة والعدالة والتنافسية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u23",
+    "legacyLessonOrder": 6
+  }
+}

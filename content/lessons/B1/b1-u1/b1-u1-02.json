@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u1-02",
+  "level": "B1",
+  "unitId": "b1-u1",
+  "order": 2,
+  "title": {
+    "ar": "الجمل الاسمية التابعة باستخدام -DIK",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الجمل التابعة والروابط الزمنية والسببية",
+    "titleTr": "Yan Cümleler ve Zaman-Bağlaç Yapıları",
+    "description": "ربط الجمل ووصف الأسماء ونقل الكلام والتعبير عن السبب والغاية والتزامن والتتابع الزمني."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b1-u1",
+    "legacyLessonOrder": 2
+  }
+}

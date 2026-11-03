@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u9-03",
+  "level": "C2",
+  "unitId": "c2-u9",
+  "order": 3,
+  "title": {
+    "ar": "صياغة مذكرات القرار الاستراتيجي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحوكمة والقيادة الاستراتيجية المتقدمة",
+    "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
+    "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u9",
+    "legacyLessonOrder": 3
+  }
+}

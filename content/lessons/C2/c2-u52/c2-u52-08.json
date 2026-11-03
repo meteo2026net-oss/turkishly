@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u52-08",
+  "level": "C2",
+  "unitId": "c2-u52",
+  "order": 8,
+  "title": {
+    "ar": "قياس أثر التحليل الاستراتيجي وصناعة القرار",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل الاستراتيجي وصناعة القرار",
+    "titleTr": "Stratejik Analiz ve Karar Verme",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u52",
+    "legacyLessonOrder": 8
+  }
+}

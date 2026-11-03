@@ -1,7 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://turkishly.example/schemas/lesson.schema.json",
-  "title": "Turkishly Lesson",
+  "title": "Turkishly lesson record",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -11,12 +10,9 @@
     "unitId",
     "order",
     "title",
-    "goal",
-    "rule",
-    "examples",
-    "dialogue",
-    "speakingTask",
-    "questions"
+    "contentStatus",
+    "unit",
+    "source"
   ],
   "properties": {
     "schemaVersion": {
@@ -37,8 +33,7 @@
       ]
     },
     "unitId": {
-      "type": "string",
-      "pattern": "^[a-z0-9-]+$"
+      "type": "string"
     },
     "order": {
       "type": "integer",
@@ -46,7 +41,6 @@
     },
     "title": {
       "type": "object",
-      "additionalProperties": false,
       "required": [
         "ar",
         "tr"
@@ -61,6 +55,31 @@
         }
       }
     },
+    "unit": {
+      "type": "object",
+      "required": [
+        "titleAr",
+        "titleTr",
+        "description"
+      ],
+      "properties": {
+        "titleAr": {
+          "type": "string"
+        },
+        "titleTr": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "contentStatus": {
+      "enum": [
+        "metadata_only",
+        "full"
+      ]
+    },
     "goal": {
       "type": "string"
     },
@@ -68,68 +87,13 @@
       "type": "string"
     },
     "vocabulary": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "term",
-          "meaningAr"
-        ],
-        "properties": {
-          "term": {
-            "type": "string"
-          },
-          "meaningAr": {
-            "type": "string"
-          },
-          "exampleTr": {
-            "type": "string"
-          },
-          "exampleAr": {
-            "type": "string"
-          }
-        }
-      }
+      "type": "array"
     },
     "examples": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "tr",
-          "ar"
-        ],
-        "properties": {
-          "tr": {
-            "type": "string"
-          },
-          "ar": {
-            "type": "string"
-          }
-        }
-      }
+      "type": "array"
     },
     "dialogue": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "speaker",
-          "tr",
-          "ar"
-        ],
-        "properties": {
-          "speaker": {
-            "type": "string"
-          },
-          "tr": {
-            "type": "string"
-          },
-          "ar": {
-            "type": "string"
-          }
-        }
-      }
+      "type": "array"
     },
     "speakingTask": {
       "type": "string"
@@ -170,35 +134,19 @@
       }
     },
     "media": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "type",
-          "path"
-        ],
-        "properties": {
-          "type": {
-            "enum": [
-              "image",
-              "audio",
-              "video"
-            ]
-          },
-          "path": {
-            "type": "string"
-          },
-          "altAr": {
-            "type": "string"
-          }
-        }
-      }
+      "type": "array"
     },
     "source": {
       "type": "object",
       "properties": {
         "legacyFile": {
           "type": "string"
+        },
+        "legacyUnitId": {
+          "type": "string"
+        },
+        "legacyLessonOrder": {
+          "type": "integer"
         },
         "legacyGlobalNumber": {
           "type": "integer"

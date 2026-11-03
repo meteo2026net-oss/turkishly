@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u43-07",
+  "level": "C2",
+  "unitId": "c2-u43",
+  "order": 7,
+  "title": {
+    "ar": "اقتصاديات المحاصيل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الزراعة والأمن الغذائي",
+    "titleTr": "Tarım ve Gıda Güvenliği",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u43",
+    "legacyLessonOrder": 7
+  }
+}

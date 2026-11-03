@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u2-06",
+  "level": "A2",
+  "unitId": "a2-u2",
+  "order": 6,
+  "title": {
+    "ar": "كلمات الزمن مع المستقبل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المستقبل والخطط والقرارات",
+    "titleTr": "Gelecek Zaman ve Planlar",
+    "description": "تكوين زمن المستقبل وإثباته ونفيه والسؤال عنه، مع ضمائر الأشخاص وكلمات الزمن والتعبير عن النوايا والخطط والترتيبات."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a2-u2",
+    "legacyLessonOrder": 6
+  }
+}

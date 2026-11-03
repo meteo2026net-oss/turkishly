@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u35-10",
+  "level": "C2",
+  "unitId": "c2-u35",
+  "order": 10,
+  "title": {
+    "ar": "استراتيجية الموارد البشرية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة الموارد البشرية والتطوير",
+    "titleTr": "İnsan Kaynakları ve Gelişim",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u35",
+    "legacyLessonOrder": 10
+  }
+}

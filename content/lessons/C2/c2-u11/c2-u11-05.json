@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u11-05",
+  "level": "C2",
+  "unitId": "c2-u11",
+  "order": 5,
+  "title": {
+    "ar": "توثيق المصادر والنزاهة الأكاديمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث اللغوي والمنهجية الأكاديمية",
+    "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
+    "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u11",
+    "legacyLessonOrder": 5
+  }
+}

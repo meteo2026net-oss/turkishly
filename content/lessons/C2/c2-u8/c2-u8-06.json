@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u8-06",
+  "level": "C2",
+  "unitId": "c2-u8",
+  "order": 6,
+  "title": {
+    "ar": "التحرير الأسلوبي للنصوص متعددة المؤلفين",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة والتحرير متعدد الطبقات",
+    "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
+    "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u8",
+    "legacyLessonOrder": 6
+  }
+}

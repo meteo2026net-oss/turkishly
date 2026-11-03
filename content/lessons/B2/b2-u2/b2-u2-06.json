@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u2-06",
+  "level": "B2",
+  "unitId": "b2-u2",
+  "order": 6,
+  "title": {
+    "ar": "التعبير عن السبب الرسمي والتعليل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
+    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
+    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b2-u2",
+    "legacyLessonOrder": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u12-01",
+  "level": "A1",
+  "unitId": "a1-u12",
+  "order": 1,
+  "title": {
+    "ar": "السؤال عن الوقت وقراءة الساعة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والتاريخ والطقس والفصول",
+    "titleTr": "Zaman, Tarih, Hava Durumu ve Mevsimler",
+    "description": "قراءة الساعة وأيام الأسبوع والأشهر والفصول ووصف الطقس وتحديد المواعيد والروتين الأسبوعي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u12",
+    "legacyLessonOrder": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u22-08",
+  "level": "C2",
+  "unitId": "c2-u22",
+  "order": 8,
+  "title": {
+    "ar": "قيادة فرق متعددة التخصصات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة الاستراتيجية وإدارة التحول",
+    "titleTr": "Stratejik Liderlik ve Dönüşüm Yönetimi",
+    "description": "قيادة التغيير المؤسسي وبناء الرؤية وإدارة التحول والحوكمة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u22",
+    "legacyLessonOrder": 8
+  }
+}

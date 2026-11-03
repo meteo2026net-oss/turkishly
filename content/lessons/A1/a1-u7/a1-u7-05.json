@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u7-05",
+  "level": "A1",
+  "unitId": "a1-u7",
+  "order": 5,
+  "title": {
+    "ar": "تحديد مكان الأشياء داخل المنزل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والغرف والأثاث والاتجاهات",
+    "titleTr": "Ev, Odalar, Mobilyalar ve Yönler",
+    "description": "أسماء المنزل والغرف والأثاث ووصف الأماكن وتحديد مواقع الأشياء والاتجاهات الأساسية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u7",
+    "legacyLessonOrder": 5
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u17-09",
+  "level": "C2",
+  "unitId": "c2-u17",
+  "order": 9,
+  "title": {
+    "ar": "مراجعة الترجمة الأدبية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الأدبية والتحليل الأسلوبي",
+    "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
+    "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u17",
+    "legacyLessonOrder": 9
+  }
+}

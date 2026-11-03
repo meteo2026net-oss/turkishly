@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u26-10",
+  "level": "C2",
+  "unitId": "c2-u26",
+  "order": 10,
+  "title": {
+    "ar": "ملف صحفي علمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاتصال العلمي والصحافة المتخصصة",
+    "titleTr": "Bilimsel İletişim ve Uzmanlık Gazeteciliği",
+    "description": "تحويل المعرفة المتخصصة إلى محتوى دقيق ومفهوم للجمهور."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u26",
+    "legacyLessonOrder": 10
+  }
+}

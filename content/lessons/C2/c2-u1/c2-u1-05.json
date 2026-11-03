@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u1-05",
+  "level": "C2",
+  "unitId": "c2-u1",
+  "order": 5,
+  "title": {
+    "ar": "التحليل النقدي للمصادر الأولية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل النقدي والخطاب المعقد",
+    "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
+    "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u1",
+    "legacyLessonOrder": 5
+  }
+}

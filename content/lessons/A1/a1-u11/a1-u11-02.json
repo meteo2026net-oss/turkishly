@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-02",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 2,
+  "title": {
+    "ar": "المشروبات وطلبها",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 2
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u58-01",
+  "level": "C2",
+  "unitId": "c2-u58",
+  "order": 1,
+  "title": {
+    "ar": "إدارة المؤسسات والتميز القيادي: المفاهيم الأساسية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المؤسسات والتميز القيادي",
+    "titleTr": "Kurumsal Yönetim ve Liderlik Mükemmelliği",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u58",
+    "legacyLessonOrder": 1
+  }
+}

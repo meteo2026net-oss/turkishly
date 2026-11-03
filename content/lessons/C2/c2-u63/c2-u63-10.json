@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u63-10",
+  "level": "C2",
+  "unitId": "c2-u63",
+  "order": 10,
+  "title": {
+    "ar": "مشروع المحاسبة والتدقيق والامتثال",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المحاسبة والتدقيق والامتثال",
+    "titleTr": "Muhasebe, Denetim ve Uyum",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u63",
+    "legacyLessonOrder": 10
+  }
+}

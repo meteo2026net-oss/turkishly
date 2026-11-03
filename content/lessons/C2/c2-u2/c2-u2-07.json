@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u2-07",
+  "level": "C2",
+  "unitId": "c2-u2",
+  "order": 7,
+  "title": {
+    "ar": "المراجعة النقدية للترجمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحرير والترجمة والنشر المتقدم",
+    "titleTr": "İleri Editörlük, Çeviri ve Yayın",
+    "description": "الدقة الدلالية والترجمة المفاهيمية والثقافية والتحرير والكتابة للنشر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u2",
+    "legacyLessonOrder": 7
+  }
+}

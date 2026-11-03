@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u21-04",
+  "level": "C2",
+  "unitId": "c2-u21",
+  "order": 4,
+  "title": {
+    "ar": "صياغة مذكرة قرار للقيادة العليا",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السياسات والحوكمة والتواصل الاستراتيجي الدولي",
+    "titleTr": "Politika, Yönetişim ve Uluslararası Stratejik İletişim",
+    "description": "تصميم السياسات وتقييم الأثر وإدارة أصحاب المصلحة والأزمات والاتفاقات والمؤشرات والمخاطر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u21",
+    "legacyLessonOrder": 4
+  }
+}

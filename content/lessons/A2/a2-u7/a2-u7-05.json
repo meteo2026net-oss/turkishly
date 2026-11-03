@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-05",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 5,
+  "title": {
+    "ar": "حالة الابتعاد والمصدر",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 5
+  }
+}

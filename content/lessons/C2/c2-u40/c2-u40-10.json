@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u40-10",
+  "level": "C2",
+  "unitId": "c2-u40",
+  "order": 10,
+  "title": {
+    "ar": "مذكرة سياسة خارجية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلاقات الدولية والدبلوماسية",
+    "titleTr": "Uluslararası İlişkiler ve Diplomasi",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u40",
+    "legacyLessonOrder": 10
+  }
+}

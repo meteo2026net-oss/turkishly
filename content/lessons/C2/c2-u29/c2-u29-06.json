@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u29-06",
+  "level": "C2",
+  "unitId": "c2-u29",
+  "order": 6,
+  "title": {
+    "ar": "إدارة الجودة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المشاريع والبرامج الدولية",
+    "titleTr": "Uluslararası Proje ve Program Yönetimi",
+    "description": "تصميم البرامج وإدارة النطاق والميزانية والنتائج والمخاطر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u29",
+    "legacyLessonOrder": 6
+  }
+}

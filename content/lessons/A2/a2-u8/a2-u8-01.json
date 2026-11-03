@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-01",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 1,
+  "title": {
+    "ar": "ضمائر الملكية واستخدامها مع الأسماء",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 1
+  }
+}

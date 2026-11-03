@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u27-02",
+  "level": "C2",
+  "unitId": "c2-u27",
+  "order": 2,
+  "title": {
+    "ar": "تحديد منطقة الاتفاق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التفاوض المتقدم وحل النزاعات",
+    "titleTr": "İleri Müzakere ve Çatışma Çözümü",
+    "description": "استراتيجيات التفاوض والوساطة وإدارة المصالح والتوافق."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u27",
+    "legacyLessonOrder": 2
+  }
+}

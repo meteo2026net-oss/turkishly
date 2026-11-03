@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u49-09",
+  "level": "C2",
+  "unitId": "c2-u49",
+  "order": 9,
+  "title": {
+    "ar": "مؤشرات المكان",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمارة والتخطيط المكاني",
+    "titleTr": "Mimarlık ve Mekânsal Planlama",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u49",
+    "legacyLessonOrder": 9
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u12-10",
+  "level": "C2",
+  "unitId": "c2-u12",
+  "order": 10,
+  "title": {
+    "ar": "المشروع الختامي المتقدم لمستوى C2",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الدبلوماسية والقيادة الدولية والمشروع الختامي",
+    "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
+    "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u12",
+    "legacyLessonOrder": 10
+  }
+}

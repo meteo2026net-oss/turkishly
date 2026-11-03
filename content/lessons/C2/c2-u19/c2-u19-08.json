@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u19-08",
+  "level": "C2",
+  "unitId": "c2-u19",
+  "order": 8,
+  "title": {
+    "ar": "تركيب الأدلة المتعارضة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث التطبيقي وتصميم الدراسات المتقدمة",
+    "titleTr": "İleri Uygulamalı Araştırma ve Araştırma Tasarımı",
+    "description": "تصميم المناهج المختلطة والقياس والاستدلال السببي وتحليل الحساسية وكتابة تقارير قابلة لإعادة الإنتاج."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u19",
+    "legacyLessonOrder": 8
+  }
+}

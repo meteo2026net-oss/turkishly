@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u17-03",
+  "level": "A1",
+  "unitId": "a1-u17",
+  "order": 3,
+  "title": {
+    "ar": "السؤال عن المهنة والتعريف بالعمل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمل والمهن والحياة المهنية",
+    "titleTr": "İşler, Meslekler ve İş Hayatı",
+    "description": "أسماء المهن وأماكن العمل والمهام والمسؤوليات وأوقات الدوام والمهارات والتعريف بالحياة المهنية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u17",
+    "legacyLessonOrder": 3
+  }
+}

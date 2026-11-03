@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u3-04",
+  "level": "C1",
+  "unitId": "c1-u3",
+  "order": 4,
+  "title": {
+    "ar": "إدارة الاختلاف في الحوار",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "النقاش المتقدم والعرض المتخصص",
+    "titleTr": "İleri Tartışma ve Uzman Sunumu",
+    "description": "المناظرة والاعتراضات والتحفظ والتفاوض والعروض وفهم الدلالات الضمنية."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u3",
+    "legacyLessonOrder": 4
+  }
+}

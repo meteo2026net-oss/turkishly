@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u36-08",
+  "level": "C2",
+  "unitId": "c2-u36",
+  "order": 8,
+  "title": {
+    "ar": "إدارة السمعة الرقمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسويق الاستراتيجي وسلوك المستهلك",
+    "titleTr": "Stratejik Pazarlama ve Tüketici Davranışı",
+    "description": "دراسة متقدمة وتطبيقات مهنية ضمن هذا المجال التخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u36",
+    "legacyLessonOrder": 8
+  }
+}

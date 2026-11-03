@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u9-10",
+  "level": "C1",
+  "unitId": "c1-u9",
+  "order": 10,
+  "title": {
+    "ar": "ملف الإنجاز النهائي لمستوى C1",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الإتقان والتقييم المتكامل لمستوى C1",
+    "titleTr": "C1 Yetkinliği ve Bütünleşik Değerlendirme",
+    "description": "الكتابة الحجاجية والعروض والأسئلة الصعبة والمناظرة والتحرير وملف الإنجاز."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c1-u9",
+    "legacyLessonOrder": 10
+  }
+}

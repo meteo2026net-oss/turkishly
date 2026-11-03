@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-04",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 4,
+  "title": {
+    "ar": "الضمائر الشخصية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 4
+  }
+}

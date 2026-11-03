@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u65-06",
+  "level": "C2",
+  "unitId": "c2-u65",
+  "order": 6,
+  "title": {
+    "ar": "أفضل الممارسات في إدارة المعرفة والبحث المؤسسي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المعرفة والبحث المؤسسي",
+    "titleTr": "Bilgi Yönetimi ve Kurumsal Araştırma",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u65",
+    "legacyLessonOrder": 6
+  }
+}

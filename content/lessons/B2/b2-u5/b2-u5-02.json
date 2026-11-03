@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u5-02",
+  "level": "B2",
+  "unitId": "b2-u5",
+  "order": 2,
+  "title": {
+    "ar": "التعليم الرسمي والتدريب العملي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التعليم والتعلم والبحث",
+    "titleTr": "Eğitim, Öğrenme ve Araştırma",
+    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "b2-u5",
+    "legacyLessonOrder": 2
+  }
+}

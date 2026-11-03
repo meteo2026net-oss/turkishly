@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u16-03",
+  "level": "C2",
+  "unitId": "c2-u16",
+  "order": 3,
+  "title": {
+    "ar": "التمييز بين المواقف والمصالح",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التفاوض متعدد الأطراف والوساطة المتقدمة",
+    "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
+    "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u16",
+    "legacyLessonOrder": 3
+  }
+}

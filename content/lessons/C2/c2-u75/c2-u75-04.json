@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u75-04",
+  "level": "C2",
+  "unitId": "c2-u75",
+  "order": 4,
+  "title": {
+    "ar": "معايير تقييم الاقتصاد الرقمي والتجارة الإلكترونية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاقتصاد الرقمي والتجارة الإلكترونية",
+    "titleTr": "Dijital Ekonomi ve E-Ticaret",
+    "description": "موضوعات متقدمة وتطبيقات عملية ومشروع تخصصي."
+  },
+  "contentStatus": "metadata_only",
+  "goal": "",
+  "rule": "",
+  "vocabulary": [],
+  "examples": [],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyUnitId": "c2-u75",
+    "legacyLessonOrder": 4
+  }
+}
