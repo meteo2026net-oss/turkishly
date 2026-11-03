@@ -13,18 +13,106 @@
     "titleTr": "İleri Bilimsel ve Teknik İletişim",
     "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "sistem dokümantasyonu",
+      "meaningAr": "توثيق الأنظمة",
+      "exampleTr": "Mimari belge bileşenleri, veri akışını ve bağımlılıkları açıklar.",
+      "exampleAr": "تشرح الوثيقة المعمارية المكونات وتدفق البيانات والاعتماديات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Mimari belge bileşenleri, veri akışını ve bağımlılıkları açıklar.",
+      "ar": "تشرح الوثيقة المعمارية المكونات وتدفق البيانات والاعتماديات."
+    },
+    {
+      "tr": "Mimari belge bileşenleri, veri akışını ve bağımlılıkları açıklar.",
+      "ar": "تشرح الوثيقة المعمارية المكونات وتدفق البيانات والاعتماديات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "sistem dokümantasyonu konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في توثيق الأنظمة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول توثيق الأنظمة المعقدة، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-02-q1",
+      "prompt": "ما معنى «sistem dokümantasyonu»؟",
+      "options": [
+        "توثيق الأنظمة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«sistem dokümantasyonu» تعني: توثيق الأنظمة."
+    },
+    {
+      "id": "c2-u14-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "تشرح الوثيقة المعمارية المكونات وتدفق البيانات والاعتماديات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "تشرح الوثيقة المعمارية المكونات وتدفق البيانات والاعتماديات."
+    },
+    {
+      "id": "c2-u14-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "sistem dokümantasyonu",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «sistem dokümantasyonu». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان توثيق الأنظمة في سياق تخصصي متقدم"
+      ],
+      "answerIndex": 3,
+      "explanation": "إتقان توثيق الأنظمة في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أنشئ مخرجاً تقنياً حول توثيق الأنظمة المعقدة، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أنشئ مخرجاً تقنياً حول توثيق الأنظمة المعقدة، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u14",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 552
   }
 }

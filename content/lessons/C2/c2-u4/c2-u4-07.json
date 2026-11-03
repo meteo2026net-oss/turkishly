@@ -13,18 +13,106 @@
     "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
     "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تكوين حكم متوازن عندما تشير الأدلة إلى اتجاهات مختلفة.",
+  "rule": "افصل جودة كل دليل وسياقه، وابحث عن اختلاف العينة أو التعريف أو الزمن قبل الترجيح.",
+  "vocabulary": [
+    {
+      "term": "çelişen kanıt",
+      "meaningAr": "دليل متعارض",
+      "exampleTr": "Çelişen bulgular, ölçüm yöntemlerinin yeniden incelenmesini gerektiriyor.",
+      "exampleAr": "تتطلب النتائج المتعارضة إعادة فحص أساليب القياس."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çelişen bulgular, ölçüm yöntemlerinin yeniden incelenmesini gerektiriyor.",
+      "ar": "تتطلب النتائج المتعارضة إعادة فحص أساليب القياس."
+    },
+    {
+      "tr": "Çelişen verileri tek bir sonuca zorlamadım.",
+      "ar": "لم أجبر البيانات المتعارضة على نتيجة واحدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi bulguya güvenelim؟",
+      "ar": "أي نتيجة نثق بها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce yöntem ve örneklem farklarını karşılaştıralım.",
+      "ar": "لنقارن أولاً اختلافات المنهج والعينة."
+    }
+  ],
+  "speakingTask": "قارن ثلاث نتائج متعارضة واقترح تفسيراً منهجياً.",
+  "questions": [
+    {
+      "id": "c2-u4-07-q1",
+      "prompt": "ما معنى «çelişen kanıt»؟",
+      "options": [
+        "طلب الإذن",
+        "دليل متعارض",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«çelişen kanıt» تعني: دليل متعارض."
+    },
+    {
+      "id": "c2-u4-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تتطلب النتائج المتعارضة إعادة فحص أساليب القياس.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تتطلب النتائج المتعارضة إعادة فحص أساليب القياس."
+    },
+    {
+      "id": "c2-u4-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kanıtları uzlaştırmak"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «kanıtları uzlaştırmak». افصل جودة كل دليل وسياقه، وابحث عن اختلاف العينة أو التعريف أو الزمن قبل الترجيح."
+    },
+    {
+      "id": "c2-u4-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تفسير التعارض بين الأدلة قبل الاستنتاج.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تفسير التعارض بين الأدلة قبل الاستنتاج."
+    },
+    {
+      "id": "c2-u4-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قارن ثلاث نتائج متعارضة واقترح تفسيراً منهجياً.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قارن ثلاث نتائج متعارضة واقترح تفسيراً منهجياً."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u4",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 457
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
     "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تفسير كيفية بناء الهوية والعلاقات الاجتماعية من خلال الاختيارات اللغوية.",
+  "rule": "راقب الضمائر والتسميات والألقاب ومن يملك حق الكلام وكيف توزع المسؤولية.",
+  "vocabulary": [
+    {
+      "term": "kimlik inşası",
+      "meaningAr": "بناء الهوية",
+      "exampleTr": "Kullanılan adlandırmalar, grupların kamusal kimliğini etkiliyor.",
+      "exampleAr": "تؤثر التسميات المستخدمة في الهوية العامة للمجموعات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kullanılan adlandırmalar, grupların kamusal kimliğini etkiliyor.",
+      "ar": "تؤثر التسميات المستخدمة في الهوية العامة للمجموعات."
+    },
+    {
+      "tr": "Dilsel tercihlerin kimlik algısını nasıl şekillendirdiğini inceledim.",
+      "ar": "درست كيف تشكل الاختيارات اللغوية إدراك الهوية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sözcük seçimi tarafsız mı؟",
+      "ar": "هل اختيار الكلمات محايد؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Her zaman değil; bazı adlandırmalar güç ilişkilerini yansıtıyor.",
+      "ar": "ليس دائماً؛ بعض التسميات تعكس علاقات القوة."
+    }
+  ],
+  "speakingTask": "قارن خطابين في وصف المجموعة نفسها وحدد أثر التسمية.",
+  "questions": [
+    {
+      "id": "c2-u4-02-q1",
+      "prompt": "ما معنى «kimlik inşası»؟",
+      "options": [
+        "بناء الهوية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«kimlik inşası» تعني: بناء الهوية."
+    },
+    {
+      "id": "c2-u4-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "تؤثر التسميات المستخدمة في الهوية العامة للمجموعات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "تؤثر التسميات المستخدمة في الهوية العامة للمجموعات."
+    },
+    {
+      "id": "c2-u4-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "dil ve güç ilişkisi",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «dil ve güç ilişkisi». راقب الضمائر والتسميات والألقاب ومن يملك حق الكلام وكيف توزع المسؤولية."
+    },
+    {
+      "id": "c2-u4-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحليل علاقة اللغة بالسلطة والهوية."
+      ],
+      "answerIndex": 3,
+      "explanation": "تحليل علاقة اللغة بالسلطة والهوية."
+    },
+    {
+      "id": "c2-u4-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "قارن خطابين في وصف المجموعة نفسها وحدد أثر التسمية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "قارن خطابين في وصف المجموعة نفسها وحدد أثر التسمية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u4",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 452
   }
 }

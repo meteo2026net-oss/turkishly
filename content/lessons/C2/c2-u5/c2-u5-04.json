@@ -13,18 +13,106 @@
     "titleTr": "Uzman Akademik Editörlük ve Yayın",
     "description": "التحرير البنيوي وإدارة المصطلحات والتوثيق والتحرير متعدد التخصصات والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "صياغة ملخص مفهوم للخبراء من مجالات مختلفة.",
+  "rule": "عرف المصطلحات الضرورية، واحذف التفاصيل الخاصة بتخصص واحد، وأبرز النتائج العابرة للتخصصات.",
+  "vocabulary": [
+    {
+      "term": "disiplinlerarası özet",
+      "meaningAr": "ملخص متعدد التخصصات",
+      "exampleTr": "Özeti farklı alanlardan araştırmacıların anlayabileceği biçimde yeniden yazdım.",
+      "exampleAr": "أعدت كتابة الملخص بطريقة يفهمها باحثون من مجالات مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Özeti farklı alanlardan araştırmacıların anlayabileceği biçimde yeniden yazdım.",
+      "ar": "أعدت كتابة الملخص بطريقة يفهمها باحثون من مجالات مختلفة."
+    },
+    {
+      "tr": "Özette ortak kavramları ve temel sonucu öne çıkardım.",
+      "ar": "أبرزت المفاهيم المشتركة والنتيجة الأساسية في الملخص."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Teknik ayrıntıları tamamen çıkaralım mı؟",
+      "ar": "هل نحذف التفاصيل التقنية كلها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yalnızca farklı alanlar için gerekli olmayanları.",
+      "ar": "فقط ما لا يلزم للمجالات الأخرى."
+    }
+  ],
+  "speakingTask": "اكتب ملخصاً من 200 كلمة موجهاً لخبراء من ثلاثة تخصصات.",
+  "questions": [
+    {
+      "id": "c2-u5-04-q1",
+      "prompt": "ما معنى «disiplinlerarası özet»؟",
+      "options": [
+        "ملخص متعدد التخصصات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«disiplinlerarası özet» تعني: ملخص متعدد التخصصات."
+    },
+    {
+      "id": "c2-u5-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "أعدت كتابة الملخص بطريقة يفهمها باحثون من مجالات مختلفة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "أعدت كتابة الملخص بطريقة يفهمها باحثون من مجالات مختلفة."
+    },
+    {
+      "id": "c2-u5-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "disiplinlerarası anlatım",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «disiplinlerarası anlatım». عرف المصطلحات الضرورية، واحذف التفاصيل الخاصة بتخصص واحد، وأبرز النتائج العابرة للتخصصات."
+    },
+    {
+      "id": "c2-u5-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تكييف الملخص لجمهور متعدد التخصصات."
+      ],
+      "answerIndex": 3,
+      "explanation": "تكييف الملخص لجمهور متعدد التخصصات."
+    },
+    {
+      "id": "c2-u5-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "اكتب ملخصاً من 200 كلمة موجهاً لخبراء من ثلاثة تخصصات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "اكتب ملخصاً من 200 كلمة موجهاً لخبراء من ثلاثة تخصصات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u5",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 464
   }
 }

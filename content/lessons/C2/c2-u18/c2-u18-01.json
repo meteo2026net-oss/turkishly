@@ -13,18 +13,106 @@
     "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
     "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "قارن الادعاء بين مصادر مستقلة، وافحص أصل البيانات وتاريخها ومصالح الجهة الناشرة.",
+  "rule": "قارن الادعاء بين مصادر مستقلة، وافحص أصل البيانات وتاريخها ومصالح الجهة الناشرة.",
+  "vocabulary": [
+    {
+      "term": "çapraz doğrulama",
+      "meaningAr": "التحقق المتقاطع",
+      "exampleTr": "İddiayı birbirinden bağımsız üç kaynakla doğruladık.",
+      "exampleAr": "تحققنا من الادعاء بثلاثة مصادر مستقلة عن بعضها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İddiayı birbirinden bağımsız üç kaynakla doğruladık.",
+      "ar": "تحققنا من الادعاء بثلاثة مصادر مستقلة عن بعضها."
+    },
+    {
+      "tr": "Kaynak sayısından çok bağımsızlık ve yöntem önemlidir.",
+      "ar": "الاستقلالية والمنهج أهم من عدد المصادر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Birden fazla site aynı haberi veriyor.",
+      "ar": "عدة مواقع تنشر الخبر نفسه.\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kaynakların bağımsız olup olmadığını kontrol edelim.",
+      "ar": "لنتحقق مما إذا كانت المصادر مستقلة."
+    }
+  ],
+  "speakingTask": "افحص ادعاءً عاماً وحدد مصادر مستقلة تؤيده أو تنقضه.",
+  "questions": [
+    {
+      "id": "c2-u18-01-q1",
+      "prompt": "ما معنى «çapraz doğrulama»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "التحقق المتقاطع"
+      ],
+      "answerIndex": 3,
+      "explanation": "«çapraz doğrulama» تعني: التحقق المتقاطع."
+    },
+    {
+      "id": "c2-u18-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "تحققنا من الادعاء بثلاثة مصادر مستقلة عن بعضها.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "تحققنا من الادعاء بثلاثة مصادر مستقلة عن بعضها."
+    },
+    {
+      "id": "c2-u18-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "kaynak güvenilirliği",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «kaynak güvenilirliği». قارن الادعاء بين مصادر مستقلة، وافحص أصل البيانات وتاريخها ومصالح الجهة الناشرة."
+    },
+    {
+      "id": "c2-u18-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "موثوقية المصدر",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "موثوقية المصدر"
+    },
+    {
+      "id": "c2-u18-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "افحص ادعاءً عاماً وحدد مصادر مستقلة تؤيده أو تنقضه.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "افحص ادعاءً عاماً وحدد مصادر مستقلة تؤيده أو تنقضه."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u18",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 591
   }
 }

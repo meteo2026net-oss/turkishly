@@ -13,18 +13,106 @@
     "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
     "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "لا تتوقف عند الطلب المعلن؛ استكشف الحاجة أو المصلحة التي تفسر الموقف وابحث عن بدائل تلبيها.",
+  "rule": "لا تتوقف عند الطلب المعلن؛ استكشف الحاجة أو المصلحة التي تفسر الموقف وابحث عن بدائل تلبيها.",
+  "vocabulary": [
+    {
+      "term": "temel çıkar",
+      "meaningAr": "المصلحة الأساسية",
+      "exampleTr": "Görünürdeki talebin arkasındaki temel çıkarı anlamaya çalıştık.",
+      "exampleAr": "حاولنا فهم المصلحة الأساسية وراء الطلب الظاهر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Görünürdeki talebin arkasındaki temel çıkarı anlamaya çalıştık.",
+      "ar": "حاولنا فهم المصلحة الأساسية وراء الطلب الظاهر."
+    },
+    {
+      "tr": "Pozisyonlar çatışsa bile çıkarlar kısmen örtüşebilir.",
+      "ar": "حتى إن تعارضت المواقف فقد تتداخل المصالح جزئياً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Karşı taraf yalnızca bu seçeneği istiyor.",
+      "ar": "الطرف الآخر يريد هذا الخيار وحده.\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hangi ihtiyacı karşıladığını soralım.",
+      "ar": "لنسأل عن الحاجة التي يلبيها."
+    }
+  ],
+  "speakingTask": "حلل موقفين تفاوضيين واستخرج المصالح التي يمكن أن تكون مشتركة.",
+  "questions": [
+    {
+      "id": "c2-u16-03-q1",
+      "prompt": "ما معنى «temel çıkar»؟",
+      "options": [
+        "طلب الإذن",
+        "المصلحة الأساسية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«temel çıkar» تعني: المصلحة الأساسية."
+    },
+    {
+      "id": "c2-u16-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حاولنا فهم المصلحة الأساسية وراء الطلب الظاهر.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "حاولنا فهم المصلحة الأساسية وراء الطلب الظاهر."
+    },
+    {
+      "id": "c2-u16-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "ihtiyaç analizi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «ihtiyaç analizi». لا تتوقف عند الطلب المعلن؛ استكشف الحاجة أو المصلحة التي تفسر الموقف وابحث عن بدائل تلبيها."
+    },
+    {
+      "id": "c2-u16-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحليل الاحتياجات",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل الاحتياجات"
+    },
+    {
+      "id": "c2-u16-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل موقفين تفاوضيين واستخرج المصالح التي يمكن أن تكون مشتركة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل موقفين تفاوضيين واستخرج المصالح التي يمكن أن تكون مشتركة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u16",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 573
   }
 }

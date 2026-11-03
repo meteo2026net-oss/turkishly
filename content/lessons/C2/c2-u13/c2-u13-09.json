@@ -13,18 +13,106 @@
     "titleTr": "Hukuk Dili ve Resmî Belge Yazımı",
     "description": "قراءة النصوص القانونية وتحليل الأحكام وصياغة العقود والمذكرات والوثائق الرسمية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "اللغة القانونية وصياغة الوثائق الرسمية",
+  "rule": "حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة.",
+  "vocabulary": [
+    {
+      "term": "sözleşme müzakeresi",
+      "meaningAr": "التفاوض التعاقدي",
+      "exampleTr": "Taraflar tartışmalı hükümleri ele alarak ortak bir metin geliştirdi.",
+      "exampleAr": "طورت الأطراف نصاً مشتركاً عبر مناقشة البنود الخلافية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Taraflar tartışmalı hükümleri ele alarak ortak bir metin geliştirdi.",
+      "ar": "طورت الأطراف نصاً مشتركاً عبر مناقشة البنود الخلافية."
+    },
+    {
+      "tr": "Taraflar tartışmalı hükümleri ele alarak ortak bir metin geliştirdi.",
+      "ar": "طورت الأطراف نصاً مشتركاً عبر مناقشة البنود الخلافية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "sözleşme müzakeresi konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في التفاوض التعاقدي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "حلل نموذجاً افتراضياً متعلقاً بموضوع التفاوض حول البنود، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u13-09-q1",
+      "prompt": "ما معنى «sözleşme müzakeresi»؟",
+      "options": [
+        "طلب الإذن",
+        "التفاوض التعاقدي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«sözleşme müzakeresi» تعني: التفاوض التعاقدي."
+    },
+    {
+      "id": "c2-u13-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "طورت الأطراف نصاً مشتركاً عبر مناقشة البنود الخلافية.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "طورت الأطراف نصاً مشتركاً عبر مناقشة البنود الخلافية."
+    },
+    {
+      "id": "c2-u13-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "sözleşme müzakeresi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «sözleşme müzakeresi». حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة."
+    },
+    {
+      "id": "c2-u13-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إتقان التفاوض التعاقدي في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إتقان التفاوض التعاقدي في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u13-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل نموذجاً افتراضياً متعلقاً بموضوع التفاوض حول البنود، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل نموذجاً افتراضياً متعلقاً بموضوع التفاوض حول البنود، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u13",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 549
   }
 }

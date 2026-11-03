@@ -13,18 +13,106 @@
     "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
     "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "راجع الدقة والصوت والإيقاع والاتساق، ثم اقرأ النص الهدف مستقلاً لاكتشاف الصياغات المتكلفة.",
+  "rule": "راجع الدقة والصوت والإيقاع والاتساق، ثم اقرأ النص الهدف مستقلاً لاكتشاف الصياغات المتكلفة.",
+  "vocabulary": [
+    {
+      "term": "edebî redaksiyon",
+      "meaningAr": "تحرير أدبي",
+      "exampleTr": "Son okumada anlamı ve anlatım akışını birlikte değerlendirdim.",
+      "exampleAr": "في القراءة النهائية قيّمت المعنى وانسياب التعبير معاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Son okumada anlamı ve anlatım akışını birlikte değerlendirdim.",
+      "ar": "في القراءة النهائية قيّمت المعنى وانسياب التعبير معاً."
+    },
+    {
+      "tr": "İyi redaksiyon, görünür hataları düzeltirken metnin sesini korur.",
+      "ar": "يصحح التحرير الجيد الأخطاء مع الحفاظ على صوت النص."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yalnızca yazım hatalarını mı arayalım?",
+      "ar": "هل نبحث عن الأخطاء الإملائية فقط؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Akıcılığı ve anlatıcı sesini de inceleyelim.",
+      "ar": "لنراجع الانسياب وصوت الراوي أيضاً."
+    }
+  ],
+  "speakingTask": "حرر ترجمة قصيرة عبر جولات منفصلة للدقة والأسلوب والإيقاع.",
+  "questions": [
+    {
+      "id": "c2-u17-09-q1",
+      "prompt": "ما معنى «edebî redaksiyon»؟",
+      "options": [
+        "طلب الإذن",
+        "تحرير أدبي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«edebî redaksiyon» تعني: تحرير أدبي."
+    },
+    {
+      "id": "c2-u17-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "في القراءة النهائية قيّمت المعنى وانسياب التعبير معاً.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "في القراءة النهائية قيّمت المعنى وانسياب التعبير معاً."
+    },
+    {
+      "id": "c2-u17-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "son okuma"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «son okuma». راجع الدقة والصوت والإيقاع والاتساق، ثم اقرأ النص الهدف مستقلاً لاكتشاف الصياغات المتكلفة."
+    },
+    {
+      "id": "c2-u17-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "القراءة النهائية",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "القراءة النهائية"
+    },
+    {
+      "id": "c2-u17-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حرر ترجمة قصيرة عبر جولات منفصلة للدقة والأسلوب والإيقاع.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حرر ترجمة قصيرة عبر جولات منفصلة للدقة والأسلوب والإيقاع."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u17",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 589
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "İleri Liderlik ve Stratejik İletişim",
     "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إنتاج عمل أصيل يدمج البحث والكتابة والتحرير والقيادة والتواصل.",
+  "rule": "اختر قضية معقدة، وقدم بحثاً أصيلاً، ودافع عن نتائجه، ثم حرر مخرجاته لجمهورين مختلفين.",
+  "vocabulary": [
+    {
+      "term": "C2 bitirme çalışması",
+      "meaningAr": "مشروع ختامي لمستوى C2",
+      "exampleTr": "Çalışmamı iki farklı uzmanlık düzeyindeki kitleye uyarlayarak sundum.",
+      "exampleAr": "قدمت عملي بعد تكييفه لجمهورين بمستويين مختلفين من التخصص."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çalışmamı iki farklı uzmanlık düzeyindeki kitleye uyarlayarak sundum.",
+      "ar": "قدمت عملي بعد تكييفه لجمهورين بمستويين مختلفين من التخصص."
+    },
+    {
+      "tr": "C2 projemde dilsel ve düşünsel yetkinliğimi birleştirdim.",
+      "ar": "جمعت كفاءتي اللغوية والفكرية في مشروع C2."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Proje neyi kanıtlıyor؟",
+      "ar": "ماذا يثبت المشروع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Karmaşık konularda bağımsız ve tutarlı iletişim kurabildiğimi.",
+      "ar": "أنني أستطيع التواصل المستقل والمتماسك في القضايا المعقدة."
+    }
+  ],
+  "speakingTask": "أنجز مشروعاً نهائياً يتضمن بحثاً وتقريراً وعرضاً ومراجعة نقدية.",
+  "questions": [
+    {
+      "id": "c2-u3-10-q1",
+      "prompt": "ما معنى «C2 bitirme çalışması»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مشروع ختامي لمستوى C2",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«C2 bitirme çalışması» تعني: مشروع ختامي لمستوى C2."
+    },
+    {
+      "id": "c2-u3-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قدمت عملي بعد تكييفه لجمهورين بمستويين مختلفين من التخصص."
+      ],
+      "answerIndex": 3,
+      "explanation": "قدمت عملي بعد تكييفه لجمهورين بمستويين مختلفين من التخصص."
+    },
+    {
+      "id": "c2-u3-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "özgün uzmanlık projesi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «özgün uzmanlık projesi». اختر قضية معقدة، وقدم بحثاً أصيلاً، ودافع عن نتائجه، ثم حرر مخرجاته لجمهورين مختلفين."
+    },
+    {
+      "id": "c2-u3-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إثبات الإتقان المتقدم عبر مشروع أصيل.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إثبات الإتقان المتقدم عبر مشروع أصيل."
+    },
+    {
+      "id": "c2-u3-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنجز مشروعاً نهائياً يتضمن بحثاً وتقريراً وعرضاً ومراجعة نقدية."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنجز مشروعاً نهائياً يتضمن بحثاً وتقريراً وعرضاً ومراجعة نقدية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_course_data.dart",
     "legacyUnitId": "c2-u3",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 450
   }
 }

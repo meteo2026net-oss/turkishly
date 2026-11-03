@@ -13,18 +13,106 @@
     "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
     "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "صياغة نقد يحدد القيمة والحدود ويقترح تحسيناً منهجياً.",
+  "rule": "اعترف بما ينجزه العمل، ثم حدد قصوره بدقة واقترح تعديلاً قابلاً للاختبار.",
+  "vocabulary": [
+    {
+      "term": "yöntem eleştirisi",
+      "meaningAr": "نقد المنهج",
+      "exampleTr": "Çalışma önemli bir katkı sunuyor, ancak örneklem seçimi tartışmalı.",
+      "exampleAr": "تقدم الدراسة إسهاماً مهماً، لكن اختيار العينة قابل للنقاش."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çalışma önemli bir katkı sunuyor, ancak örneklem seçimi tartışmalı.",
+      "ar": "تقدم الدراسة إسهاماً مهماً، لكن اختيار العينة قابل للنقاش."
+    },
+    {
+      "tr": "Eleştirimi yöntemsel gerekçelerle temellendirdim.",
+      "ar": "أسست نقدي على مبررات منهجية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Çalışmayı tamamen reddediyor musun؟",
+      "ar": "هل ترفض الدراسة بالكامل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, katkısını kabul edip sınırlarını gösteriyorum.",
+      "ar": "لا، أقر بإسهامها وأوضح حدودها."
+    }
+  ],
+  "speakingTask": "اكتب مراجعة منهجية لبحث تتضمن ثلاث نقاط قوة وثلاثة قيود.",
+  "questions": [
+    {
+      "id": "c2-u1-08-q1",
+      "prompt": "ما معنى «yöntem eleştirisi»؟",
+      "options": [
+        "نقد المنهج",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«yöntem eleştirisi» تعني: نقد المنهج."
+    },
+    {
+      "id": "c2-u1-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "تقدم الدراسة إسهاماً مهماً، لكن اختيار العينة قابل للنقاش.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "تقدم الدراسة إسهاماً مهماً، لكن اختيار العينة قابل للنقاش."
+    },
+    {
+      "id": "c2-u1-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "ölçülü eleştiri",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «ölçülü eleştiri». اعترف بما ينجزه العمل، ثم حدد قصوره بدقة واقترح تعديلاً قابلاً للاختبار."
+    },
+    {
+      "id": "c2-u1-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "نقد المنهج مع تقدير الإسهام وحدود الاستدلال."
+      ],
+      "answerIndex": 3,
+      "explanation": "نقد المنهج مع تقدير الإسهام وحدود الاستدلال."
+    },
+    {
+      "id": "c2-u1-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "اكتب مراجعة منهجية لبحث تتضمن ثلاث نقاط قوة وثلاثة قيود.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "اكتب مراجعة منهجية لبحث تتضمن ثلاث نقاط قوة وثلاثة قيود."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_course_data.dart",
     "legacyUnitId": "c2-u1",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 428
   }
 }

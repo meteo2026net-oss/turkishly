@@ -13,18 +13,106 @@
     "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
     "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "دمج الأرقام والأنماط النوعية دون تجاوز ما تسمح به البيانات.",
+  "rule": "اعرض النتيجة ومجالها وحدودها، وقارن الشواهد ولا تخلط الارتباط بالسببية.",
+  "vocabulary": [
+    {
+      "term": "karma yöntem",
+      "meaningAr": "منهج مختلط",
+      "exampleTr": "Nicel bulguları görüşme verileriyle birlikte yorumladık.",
+      "exampleAr": "فسرنا النتائج الكمية مع بيانات المقابلات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Nicel bulguları görüşme verileriyle birlikte yorumladık.",
+      "ar": "فسرنا النتائج الكمية مع بيانات المقابلات."
+    },
+    {
+      "tr": "Bulguların kapsamını verinin sınırlarına göre belirledim.",
+      "ar": "حددت نطاق النتائج وفق حدود البيانات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İki değişken birlikte artıyorsa biri diğerine neden mi olur؟",
+      "ar": "إذا زاد متغيران معاً فهل يسبب أحدهما الآخر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Korelasyon tek başına nedensellik göstermez.",
+      "ar": "الارتباط وحده لا يثبت السببية."
+    }
+  ],
+  "speakingTask": "حلل مجموعة بيانات صغيرة مع مقابلات وقدم تفسيراً حذراً.",
+  "questions": [
+    {
+      "id": "c2-u11-04-q1",
+      "prompt": "ما معنى «karma yöntem»؟",
+      "options": [
+        "منهج مختلط",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«karma yöntem» تعني: منهج مختلط."
+    },
+    {
+      "id": "c2-u11-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "فسرنا النتائج الكمية مع بيانات المقابلات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "فسرنا النتائج الكمية مع بيانات المقابلات."
+    },
+    {
+      "id": "c2-u11-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karma veri analizi",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «karma veri analizi». اعرض النتيجة ومجالها وحدودها، وقارن الشواهد ولا تخلط الارتباط بالسببية."
+    },
+    {
+      "id": "c2-u11-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "دمج البيانات الكمية والنوعية."
+      ],
+      "answerIndex": 3,
+      "explanation": "دمج البيانات الكمية والنوعية."
+    },
+    {
+      "id": "c2-u11-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "حلل مجموعة بيانات صغيرة مع مقابلات وقدم تفسيراً حذراً.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "حلل مجموعة بيانات صغيرة مع مقابلات وقدم تفسيراً حذراً."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u11",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 524
   }
 }

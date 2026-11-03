@@ -13,18 +13,106 @@
     "titleTr": "Politika, Yönetişim ve Uluslararası Stratejik İletişim",
     "description": "تصميم السياسات وتقييم الأثر وإدارة أصحاب المصلحة والأزمات والاتفاقات والمؤشرات والمخاطر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم التواصل المؤسسي أثناء الأزمات في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "kriz döneminde kurumsal iletişim",
+      "meaningAr": "التواصل المؤسسي في الأزمات",
+      "exampleTr": "Kriz mesajlarını doğrulanmış bilgi ve açık sorumluluk temelinde yayımladık.",
+      "exampleAr": "نشرنا رسائل الأزمة استناداً إلى معلومات موثقة ومسؤوليات واضحة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kriz mesajlarını doğrulanmış bilgi ve açık sorumluluk temelinde yayımladık.",
+      "ar": "نشرنا رسائل الأزمة استناداً إلى معلومات موثقة ومسؤوليات واضحة."
+    },
+    {
+      "tr": "Tutarlı kriz iletişimi belirsizliği yönetmeye yardımcı olur.",
+      "ar": "يساعد التواصل المتسق أثناء الأزمات على إدارة الغموض."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Henüz tüm bilgiler doğrulanmadı.",
+      "ar": "لم يتم التحقق من جميع المعلومات بعد."
+    },
+    {
+      "speaker": "B",
+      "tr": "Bildiklerimizi ve bilmediklerimizi açıkça ayıralım.",
+      "ar": "لنفصل بوضوح بين ما نعرفه وما لا نعرفه."
+    }
+  ],
+  "speakingTask": "اكتب بياناً أولياً يحدد ما هو معروف وما يزال قيد التحقق وموعد التحديث.",
+  "questions": [
+    {
+      "id": "c2-u21-05-q1",
+      "prompt": "ما المقصود بالمصطلح «kriz döneminde kurumsal iletişim»؟",
+      "options": [
+        "طلب الإذن",
+        "التواصل المؤسسي في الأزمات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«kriz döneminde kurumsal iletişim» يعني: التواصل المؤسسي في الأزمات."
+    },
+    {
+      "id": "c2-u21-05-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "نشرنا رسائل الأزمة استناداً إلى معلومات موثقة ومسؤوليات واضحة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "نشرنا رسائل الأزمة استناداً إلى معلومات موثقة ومسؤوليات واضحة."
+    },
+    {
+      "id": "c2-u21-05-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "doğrulanmış açıklama"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة: doğrulanmış açıklama. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u21-05-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تقديم معلومات دقيقة وتحديثها دون مبالغة أو تكهن",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تقديم معلومات دقيقة وتحديثها دون مبالغة أو تكهن"
+    },
+    {
+      "id": "c2-u21-05-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب بياناً أولياً يحدد ما هو معروف وما يزال قيد التحقق وموعد التحديث.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب بياناً أولياً يحدد ما هو معروف وما يزال قيد التحقق وموعد التحديث."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_global_course_data.dart",
     "legacyUnitId": "c2-u21",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 625
   }
 }

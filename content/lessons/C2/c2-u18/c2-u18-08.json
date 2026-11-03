@@ -13,18 +13,106 @@
     "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
     "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "قدم الأدلة بلغة مفهومة، واذكر القيود، وافصل التفسير عن الرأي، وصحح المعلومات بشفافية.",
+  "rule": "قدم الأدلة بلغة مفهومة، واذكر القيود، وافصل التفسير عن الرأي، وصحح المعلومات بشفافية.",
+  "vocabulary": [
+    {
+      "term": "kanıta dayalı iletişim",
+      "meaningAr": "تواصل قائم على الأدلة",
+      "exampleTr": "Kamuya açık açıklamada bulguları ve sınırlılıkları birlikte sunduk.",
+      "exampleAr": "عرضنا النتائج والقيود معاً في البيان العام."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kamuya açık açıklamada bulguları ve sınırlılıkları birlikte sunduk.",
+      "ar": "عرضنا النتائج والقيود معاً في البيان العام."
+    },
+    {
+      "tr": "Şeffaflık, güvenilir iletişimin temelidir.",
+      "ar": "الشفافية أساس التواصل الموثوق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sınırlılıkları belirtmek güveni azaltır mı?",
+      "ar": "هل يقلل ذكر القيود الثقة؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Aksine, değerlendirmeyi daha güvenilir kılar.",
+      "ar": "على العكس، يجعل التقييم أكثر موثوقية."
+    }
+  ],
+  "speakingTask": "اكتب بياناً عاماً يشرح نتيجة مع حدودها وما لا يمكن استنتاجه منها.",
+  "questions": [
+    {
+      "id": "c2-u18-08-q1",
+      "prompt": "ما معنى «kanıta dayalı iletişim»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تواصل قائم على الأدلة",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«kanıta dayalı iletişim» تعني: تواصل قائم على الأدلة."
+    },
+    {
+      "id": "c2-u18-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "عرضنا النتائج والقيود معاً في البيان العام."
+      ],
+      "answerIndex": 3,
+      "explanation": "عرضنا النتائج والقيود معاً في البيان العام."
+    },
+    {
+      "id": "c2-u18-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "şeffaf açıklama",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «şeffaf açıklama». قدم الأدلة بلغة مفهومة، واذكر القيود، وافصل التفسير عن الرأي، وصحح المعلومات بشفافية."
+    },
+    {
+      "id": "c2-u18-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "توضيح شفاف",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "توضيح شفاف"
+    },
+    {
+      "id": "c2-u18-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب بياناً عاماً يشرح نتيجة مع حدودها وما لا يمكن استنتاجه منها."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب بياناً عاماً يشرح نتيجة مع حدودها وما لا يمكن استنتاجه منها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u18",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 598
   }
 }

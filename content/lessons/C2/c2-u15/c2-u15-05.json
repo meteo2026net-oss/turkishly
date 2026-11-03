@@ -13,18 +13,106 @@
     "titleTr": "İleri Sözlü Çeviri ve Dilsel Arabuluculuk",
     "description": "الاستماع المتقدم والتدوين والترجمة التتابعية وإدارة المصطلحات ومراجعة الأداء."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+  "rule": "استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف.",
+  "vocabulary": [
+    {
+      "term": "ardıl çeviri",
+      "meaningAr": "ترجمة تتابعية",
+      "exampleTr": "Konuşmacı durduğunda notlarımdaki ana ilişkileri kullanarak mesajı aktardım.",
+      "exampleAr": "عندما توقف المتحدث نقلت الرسالة مستعيناً بالعلاقات الأساسية في ملاحظاتي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Konuşmacı durduğunda notlarımdaki ana ilişkileri kullanarak mesajı aktardım.",
+      "ar": "عندما توقف المتحدث نقلت الرسالة مستعيناً بالعلاقات الأساسية في ملاحظاتي."
+    },
+    {
+      "tr": "Konuşmacı durduğunda notlarımdaki ana ilişkileri kullanarak mesajı aktardım.",
+      "ar": "عندما توقف المتحدث نقلت الرسالة مستعيناً بالعلاقات الأساسية في ملاحظاتي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "ardıl çeviri konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في ترجمة تتابعية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "نفذ تمريناً شفهياً حول الترجمة التتابعية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u15-05-q1",
+      "prompt": "ما معنى «ardıl çeviri»؟",
+      "options": [
+        "طلب الإذن",
+        "ترجمة تتابعية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«ardıl çeviri» تعني: ترجمة تتابعية."
+    },
+    {
+      "id": "c2-u15-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "عندما توقف المتحدث نقلت الرسالة مستعيناً بالعلاقات الأساسية في ملاحظاتي.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "عندما توقف المتحدث نقلت الرسالة مستعيناً بالعلاقات الأساسية في ملاحظاتي."
+    },
+    {
+      "id": "c2-u15-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "ardıl çeviri"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «ardıl çeviri». استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف."
+    },
+    {
+      "id": "c2-u15-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إتقان ترجمة تتابعية في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إتقان ترجمة تتابعية في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u15-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "نفذ تمريناً شفهياً حول الترجمة التتابعية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "نفذ تمريناً شفهياً حول الترجمة التتابعية، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u15",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 565
   }
 }

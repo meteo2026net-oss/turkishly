@@ -13,18 +13,106 @@
     "titleTr": "Hukuk Dili ve Resmî Belge Yazımı",
     "description": "قراءة النصوص القانونية وتحليل الأحكام وصياغة العقود والمذكرات والوثائق الرسمية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "اللغة القانونية وصياغة الوثائق الرسمية",
+  "rule": "حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة.",
+  "vocabulary": [
+    {
+      "term": "sözleşme hükmü",
+      "meaningAr": "بند تعاقدي",
+      "exampleTr": "Tarafların yükümlülükleri açık ve ölçülebilir biçimde belirtilmiştir.",
+      "exampleAr": "ذُكرت التزامات الأطراف بصورة واضحة وقابلة للقياس."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tarafların yükümlülükleri açık ve ölçülebilir biçimde belirtilmiştir.",
+      "ar": "ذُكرت التزامات الأطراف بصورة واضحة وقابلة للقياس."
+    },
+    {
+      "tr": "Tarafların yükümlülükleri açık ve ölçülebilir biçimde belirtilmiştir.",
+      "ar": "ذُكرت التزامات الأطراف بصورة واضحة وقابلة للقياس."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "sözleşme hükmü konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في بند تعاقدي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "حلل نموذجاً افتراضياً متعلقاً بموضوع صياغة بنود العقود، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u13-03-q1",
+      "prompt": "ما معنى «sözleşme hükmü»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "بند تعاقدي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«sözleşme hükmü» تعني: بند تعاقدي."
+    },
+    {
+      "id": "c2-u13-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "ذُكرت التزامات الأطراف بصورة واضحة وقابلة للقياس.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ذُكرت التزامات الأطراف بصورة واضحة وقابلة للقياس."
+    },
+    {
+      "id": "c2-u13-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "sözleşme hükmü",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «sözleşme hükmü». حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة."
+    },
+    {
+      "id": "c2-u13-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان بند تعاقدي في سياق تخصصي متقدم",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إتقان بند تعاقدي في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u13-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حلل نموذجاً افتراضياً متعلقاً بموضوع صياغة بنود العقود، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حلل نموذجاً افتراضياً متعلقاً بموضوع صياغة بنود العقود، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u13",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 543
   }
 }

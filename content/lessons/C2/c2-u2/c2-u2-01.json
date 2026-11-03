@@ -13,18 +13,106 @@
     "titleTr": "İleri Editörlük, Çeviri ve Yayın",
     "description": "الدقة الدلالية والترجمة المفاهيمية والثقافية والتحرير والكتابة للنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحسين النص عبر اختيار ألفاظ تضبط المعنى ودرجة التقييم.",
+  "rule": "راجع الكلمات المحورية بحسب السياق والتلازم والنبرة، وتجنب المرادفات غير المتكافئة.",
+  "vocabulary": [
+    {
+      "term": "anlam inceliği",
+      "meaningAr": "دقة دلالية",
+      "exampleTr": "Bu iki terim yakın görünse de aynı kavramsal alanı karşılamıyor.",
+      "exampleAr": "يبدو المصطلحان متقاربين لكنهما لا يغطيان المجال المفاهيمي نفسه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu iki terim yakın görünse de aynı kavramsal alanı karşılamıyor.",
+      "ar": "يبدو المصطلحان متقاربين لكنهما لا يغطيان المجال المفاهيمي نفسه."
+    },
+    {
+      "tr": "Sözcük seçimindeki anlam farklarını gözden geçirdim.",
+      "ar": "راجعت الفروق الدلالية في اختيار الكلمات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu sözcük yeterince kesin mi؟",
+      "ar": "هل هذه الكلمة دقيقة بما يكفي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlama göre daha belirgin bir terim seçelim.",
+      "ar": "لنختر مصطلحاً أوضح بحسب السياق."
+    }
+  ],
+  "speakingTask": "حرر فقرة واستبدل خمسة ألفاظ عامة بتعبيرات أدق مع تبريرك.",
+  "questions": [
+    {
+      "id": "c2-u2-01-q1",
+      "prompt": "ما معنى «anlam inceliği»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "دقة دلالية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«anlam inceliği» تعني: دقة دلالية."
+    },
+    {
+      "id": "c2-u2-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يبدو المصطلحان متقاربين لكنهما لا يغطيان المجال المفاهيمي نفسه.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يبدو المصطلحان متقاربين لكنهما لا يغطيان المجال المفاهيمي نفسه."
+    },
+    {
+      "id": "c2-u2-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "anlamsal hassasiyet",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «anlamsal hassasiyet». راجع الكلمات المحورية بحسب السياق والتلازم والنبرة، وتجنب المرادفات غير المتكافئة."
+    },
+    {
+      "id": "c2-u2-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "اختيار لفظ يطابق المعنى بدقة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "اختيار لفظ يطابق المعنى بدقة."
+    },
+    {
+      "id": "c2-u2-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حرر فقرة واستبدل خمسة ألفاظ عامة بتعبيرات أدق مع تبريرك.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حرر فقرة واستبدل خمسة ألفاظ عامة بتعبيرات أدق مع تبريرك."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_course_data.dart",
     "legacyUnitId": "c2-u2",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 431
   }
 }

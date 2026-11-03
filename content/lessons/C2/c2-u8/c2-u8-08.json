@@ -13,18 +13,106 @@
     "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
     "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الحفاظ على الدقة والاتساق والمسؤولية في الوثائق الرسمية.",
+  "rule": "ثبت التعريفات، وراجع المصطلحات القانونية، وميز الترجمة من التفسير.",
+  "vocabulary": [
+    {
+      "term": "resmî belge çevirisi",
+      "meaningAr": "ترجمة وثيقة رسمية",
+      "exampleTr": "Belgedeki yükümlülükleri ve istisnaları anlam kaybı olmadan aktardım.",
+      "exampleAr": "نقلت الالتزامات والاستثناءات في الوثيقة دون فقدان المعنى."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Belgedeki yükümlülükleri ve istisnaları anlam kaybı olmadan aktardım.",
+      "ar": "نقلت الالتزامات والاستثناءات في الوثيقة دون فقدان المعنى."
+    },
+    {
+      "tr": "Resmî terminolojiyi tutarlı biçimde kullandım.",
+      "ar": "استخدمت المصطلحات الرسمية باتساق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu terimi sadeleştirebilir miyiz؟",
+      "ar": "هل يمكن تبسيط هذا المصطلح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hukuki kapsamını değiştirmeden açıklayabiliriz.",
+      "ar": "يمكن شرحه دون تغيير نطاقه القانوني."
+    }
+  ],
+  "speakingTask": "ترجم مقطعاً مؤسسياً مع مسرد وملاحظات عن المصطلحات الحساسة.",
+  "questions": [
+    {
+      "id": "c2-u8-08-q1",
+      "prompt": "ما معنى «resmî belge çevirisi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "ترجمة وثيقة رسمية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«resmî belge çevirisi» تعني: ترجمة وثيقة رسمية."
+    },
+    {
+      "id": "c2-u8-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "نقلت الالتزامات والاستثناءات في الوثيقة دون فقدان المعنى."
+      ],
+      "answerIndex": 3,
+      "explanation": "نقلت الالتزامات والاستثناءات في الوثيقة دون فقدان المعنى."
+    },
+    {
+      "id": "c2-u8-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "hukuki terminoloji",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «hukuki terminoloji». ثبت التعريفات، وراجع المصطلحات القانونية، وميز الترجمة من التفسير."
+    },
+    {
+      "id": "c2-u8-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "ترجمة الوثائق الرسمية بمصطلحات دقيقة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجمة الوثائق الرسمية بمصطلحات دقيقة."
+    },
+    {
+      "id": "c2-u8-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "ترجم مقطعاً مؤسسياً مع مسرد وملاحظات عن المصطلحات الحساسة."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجم مقطعاً مؤسسياً مع مسرد وملاحظات عن المصطلحات الحساسة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u8",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 498
   }
 }

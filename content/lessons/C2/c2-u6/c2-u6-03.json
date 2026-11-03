@@ -13,18 +13,106 @@
     "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
     "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إدارة لغة الحوار عندما تكون المصالح أو الهويات موضع خلاف.",
+  "rule": "استخدم لغة غير اتهامية، وميز الوقائع عن التقييم، واطلب التحقق من الفهم.",
+  "vocabulary": [
+    {
+      "term": "gerilimi azaltmak",
+      "meaningAr": "خفض التوتر",
+      "exampleTr": "Önce ortak kaygıları belirleyerek görüşmenin tonunu yumuşattık.",
+      "exampleAr": "خففنا نبرة الاجتماع بتحديد المخاوف المشتركة أولاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Önce ortak kaygıları belirleyerek görüşmenin tonunu yumuşattık.",
+      "ar": "خففنا نبرة الاجتماع بتحديد المخاوف المشتركة أولاً."
+    },
+    {
+      "tr": "Gerginliği artırmadan temel sorunu tanımladım.",
+      "ar": "حددت المشكلة الأساسية دون زيادة التوتر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu suçlama mı؟",
+      "ar": "هل هذا اتهام؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, durumu birlikte netleştirmeye çalışıyorum.",
+      "ar": "لا، أحاول توضيح الوضع معاً."
+    }
+  ],
+  "speakingTask": "اكتب حواراً يعيد توجيه نقاش متوتر إلى نقاط قابلة للحل.",
+  "questions": [
+    {
+      "id": "c2-u6-03-q1",
+      "prompt": "ما معنى «gerilimi azaltmak»؟",
+      "options": [
+        "طلب الإذن",
+        "خفض التوتر",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«gerilimi azaltmak» تعني: خفض التوتر."
+    },
+    {
+      "id": "c2-u6-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "خففنا نبرة الاجتماع بتحديد المخاوف المشتركة أولاً.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "خففنا نبرة الاجتماع بتحديد المخاوف المشتركة أولاً."
+    },
+    {
+      "id": "c2-u6-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "çatışma iletişimi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «çatışma iletişimi». استخدم لغة غير اتهامية، وميز الوقائع عن التقييم، واطلب التحقق من الفهم."
+    },
+    {
+      "id": "c2-u6-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "خفض التصعيد مع الحفاظ على وضوح الموقف.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "خفض التصعيد مع الحفاظ على وضوح الموقف."
+    },
+    {
+      "id": "c2-u6-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب حواراً يعيد توجيه نقاش متوتر إلى نقاط قابلة للحل.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب حواراً يعيد توجيه نقاش متوتر إلى نقاط قابلة للحل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u6",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 473
   }
 }

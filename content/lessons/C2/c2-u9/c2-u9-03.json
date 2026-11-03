@@ -13,18 +13,106 @@
     "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
     "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحويل معلومات متعددة إلى مذكرة تدعم اختياراً محدداً.",
+  "rule": "حدد القرار والسياق والخيارات ومعايير المفاضلة والتوصية والمخاطر المتبقية.",
+  "vocabulary": [
+    {
+      "term": "karar notu",
+      "meaningAr": "مذكرة قرار",
+      "exampleTr": "Karar notunda seçenekleri aynı ölçütlerle karşılaştırdım.",
+      "exampleAr": "قارنت الخيارات في مذكرة القرار وفق المعايير نفسها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karar notunda seçenekleri aynı ölçütlerle karşılaştırdım.",
+      "ar": "قارنت الخيارات في مذكرة القرار وفق المعايير نفسها."
+    },
+    {
+      "tr": "Karar notunu açık ve karşılaştırılabilir verilerle hazırladım.",
+      "ar": "أعددت مذكرة القرار ببيانات واضحة قابلة للمقارنة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi seçenek daha düşük riskli؟",
+      "ar": "أي خيار أقل خطراً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ölçütleri karşılaştırınca ikinci seçenek öne çıkıyor.",
+      "ar": "عند مقارنة المعايير يبرز الخيار الثاني."
+    }
+  ],
+  "speakingTask": "اكتب مذكرة قرار من صفحتين تتضمن ثلاثة خيارات وتوصية.",
+  "questions": [
+    {
+      "id": "c2-u9-03-q1",
+      "prompt": "ما معنى «karar notu»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مذكرة قرار"
+      ],
+      "answerIndex": 3,
+      "explanation": "«karar notu» تعني: مذكرة قرار."
+    },
+    {
+      "id": "c2-u9-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "قارنت الخيارات في مذكرة القرار وفق المعايير نفسها.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "قارنت الخيارات في مذكرة القرار وفق المعايير نفسها."
+    },
+    {
+      "id": "c2-u9-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "stratejik karar notu",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «stratejik karar notu». حدد القرار والسياق والخيارات ومعايير المفاضلة والتوصية والمخاطر المتبقية."
+    },
+    {
+      "id": "c2-u9-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إعداد مذكرة قرار موجزة ومدعومة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إعداد مذكرة قرار موجزة ومدعومة."
+    },
+    {
+      "id": "c2-u9-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب مذكرة قرار من صفحتين تتضمن ثلاثة خيارات وتوصية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب مذكرة قرار من صفحتين تتضمن ثلاثة خيارات وتوصية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u9",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 503
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
     "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحويل سؤال لغوي واسع إلى سؤال بحث قابل للفحص.",
+  "rule": "حدد المتغيرات والمجتمع والبيانات وحدود الدراسة وأسئلة قابلة للإجابة.",
+  "vocabulary": [
+    {
+      "term": "araştırma sorusu",
+      "meaningAr": "سؤال بحثي",
+      "exampleTr": "Araştırma sorusunu ölçülebilir ve sınırları belirli hâle getirdim.",
+      "exampleAr": "جعلت سؤال البحث قابلاً للقياس ومحدد الحدود."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Araştırma sorusunu ölçülebilir ve sınırları belirli hâle getirdim.",
+      "ar": "جعلت سؤال البحث قابلاً للقياس ومحدد الحدود."
+    },
+    {
+      "tr": "Araştırma kapsamını uygulanabilir biçimde sınırlandırdım.",
+      "ar": "حددت نطاق البحث بصورة قابلة للتنفيذ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Konu çok geniş değil mi؟",
+      "ar": "أليس الموضوع واسعاً جداً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Soruyu daraltıp belirli bir veri kümesine odaklanalım.",
+      "ar": "لنضيق السؤال ونركز على مجموعة بيانات محددة."
+    }
+  ],
+  "speakingTask": "حوّل موضوعاً عاماً إلى سؤال بحث وحدد البيانات اللازمة.",
+  "questions": [
+    {
+      "id": "c2-u11-01-q1",
+      "prompt": "ما معنى «araştırma sorusu»؟",
+      "options": [
+        "طلب الإذن",
+        "سؤال بحثي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«araştırma sorusu» تعني: سؤال بحثي."
+    },
+    {
+      "id": "c2-u11-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "جعلت سؤال البحث قابلاً للقياس ومحدد الحدود.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "جعلت سؤال البحث قابلاً للقياس ومحدد الحدود."
+    },
+    {
+      "id": "c2-u11-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "araştırma tasarımı"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «araştırma tasarımı». حدد المتغيرات والمجتمع والبيانات وحدود الدراسة وأسئلة قابلة للإجابة."
+    },
+    {
+      "id": "c2-u11-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تصميم سؤال ومنهج بحثي.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تصميم سؤال ومنهج بحثي."
+    },
+    {
+      "id": "c2-u11-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حوّل موضوعاً عاماً إلى سؤال بحث وحدد البيانات اللازمة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حوّل موضوعاً عاماً إلى سؤال بحث وحدد البيانات اللازمة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u11",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 521
   }
 }

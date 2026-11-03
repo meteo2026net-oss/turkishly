@@ -13,18 +13,106 @@
     "titleTr": "İleri Editörlük, Çeviri ve Yayın",
     "description": "الدقة الدلالية والترجمة المفاهيمية والثقافية والتحرير والكتابة للنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تكييف الإشارات الثقافية مع الحفاظ على أثرها في النص.",
+  "rule": "اختر بين الإبقاء والشرح والاستبدال وفق الجمهور وغرض النص، واذكر خسارة كل خيار.",
+  "vocabulary": [
+    {
+      "term": "kültürel uyarlama",
+      "meaningAr": "تكييف ثقافي",
+      "exampleTr": "Kültürel göndermeyi açıklayarak okurun bağlamı anlamasını sağladık.",
+      "exampleAr": "شرحنا الإحالة الثقافية لمساعدة القارئ على فهم السياق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kültürel göndermeyi açıklayarak okurun bağlamı anlamasını sağladık.",
+      "ar": "شرحنا الإحالة الثقافية لمساعدة القارئ على فهم السياق."
+    },
+    {
+      "tr": "Kültürel unsurları hedef okura göre aktardım.",
+      "ar": "نقلت العناصر الثقافية وفق القارئ المستهدف."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yerel ifadeyi değiştirelim mi؟",
+      "ar": "هل نغير التعبير المحلي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce açıklama eklemenin yeterli olup olmadığını değerlendirelim.",
+      "ar": "لنقيّم أولاً إن كان الشرح كافياً."
+    }
+  ],
+  "speakingTask": "ترجم فقرة ثقافية بثلاث استراتيجيات وقارن أثرها.",
+  "questions": [
+    {
+      "id": "c2-u2-03-q1",
+      "prompt": "ما معنى «kültürel uyarlama»؟",
+      "options": [
+        "طلب الإذن",
+        "تكييف ثقافي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«kültürel uyarlama» تعني: تكييف ثقافي."
+    },
+    {
+      "id": "c2-u2-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "شرحنا الإحالة الثقافية لمساعدة القارئ على فهم السياق.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "شرحنا الإحالة الثقافية لمساعدة القارئ على فهم السياق."
+    },
+    {
+      "id": "c2-u2-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kültürel aktarım"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «kültürel aktarım». اختر بين الإبقاء والشرح والاستبدال وفق الجمهور وغرض النص، واذكر خسارة كل خيار."
+    },
+    {
+      "id": "c2-u2-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "نقل الدلالة الثقافية دون إرباك القارئ.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "نقل الدلالة الثقافية دون إرباك القارئ."
+    },
+    {
+      "id": "c2-u2-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "ترجم فقرة ثقافية بثلاث استراتيجيات وقارن أثرها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "ترجم فقرة ثقافية بثلاث استراتيجيات وقارن أثرها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_course_data.dart",
     "legacyUnitId": "c2-u2",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 433
   }
 }

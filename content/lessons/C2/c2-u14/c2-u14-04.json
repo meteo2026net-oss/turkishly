@@ -13,18 +13,106 @@
     "titleTr": "İleri Bilimsel ve Teknik İletişim",
     "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "uzman sunumu",
+      "meaningAr": "عرض متخصص",
+      "exampleTr": "Uzman sunumunda yöntem, kanıt ve sınırlılıklar açıkça gösterilir.",
+      "exampleAr": "في العرض المتخصص تُعرض المنهجية والأدلة والقيود بوضوح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Uzman sunumunda yöntem, kanıt ve sınırlılıklar açıkça gösterilir.",
+      "ar": "في العرض المتخصص تُعرض المنهجية والأدلة والقيود بوضوح."
+    },
+    {
+      "tr": "Uzman sunumunda yöntem, kanıt ve sınırlılıklar açıkça gösterilir.",
+      "ar": "في العرض المتخصص تُعرض المنهجية والأدلة والقيود بوضوح."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "uzman sunumu konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في عرض متخصص؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول عرض النتائج للمتخصصين، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-04-q1",
+      "prompt": "ما معنى «uzman sunumu»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "عرض متخصص",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«uzman sunumu» تعني: عرض متخصص."
+    },
+    {
+      "id": "c2-u14-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "في العرض المتخصص تُعرض المنهجية والأدلة والقيود بوضوح."
+      ],
+      "answerIndex": 3,
+      "explanation": "في العرض المتخصص تُعرض المنهجية والأدلة والقيود بوضوح."
+    },
+    {
+      "id": "c2-u14-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "uzman sunumu",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «uzman sunumu». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إتقان عرض متخصص في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إتقان عرض متخصص في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ مخرجاً تقنياً حول عرض النتائج للمتخصصين، ثم وثق خطواتك والنتائج ومعايير الجودة."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنشئ مخرجاً تقنياً حول عرض النتائج للمتخصصين، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u14",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 554
   }
 }

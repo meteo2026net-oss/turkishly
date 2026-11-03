@@ -13,18 +13,106 @@
     "titleTr": "İleri Bilimsel ve Teknik İletişim",
     "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "yönetici özeti",
+      "meaningAr": "ملخص تنفيذي",
+      "exampleTr": "Yönetici özeti amaç, bulgu, risk ve öneriyi kısa biçimde birleştirir.",
+      "exampleAr": "يجمع الملخص التنفيذي الهدف والنتيجة والمخاطر والتوصية بإيجاز."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yönetici özeti amaç, bulgu, risk ve öneriyi kısa biçimde birleştirir.",
+      "ar": "يجمع الملخص التنفيذي الهدف والنتيجة والمخاطر والتوصية بإيجاز."
+    },
+    {
+      "tr": "Yönetici özeti amaç, bulgu, risk ve öneriyi kısa biçimde birleştirir.",
+      "ar": "يجمع الملخص التنفيذي الهدف والنتيجة والمخاطر والتوصية بإيجاز."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "yönetici özeti konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في ملخص تنفيذي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول كتابة الملخص التنفيذي، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-08-q1",
+      "prompt": "ما معنى «yönetici özeti»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "ملخص تنفيذي",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«yönetici özeti» تعني: ملخص تنفيذي."
+    },
+    {
+      "id": "c2-u14-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يجمع الملخص التنفيذي الهدف والنتيجة والمخاطر والتوصية بإيجاز."
+      ],
+      "answerIndex": 3,
+      "explanation": "يجمع الملخص التنفيذي الهدف والنتيجة والمخاطر والتوصية بإيجاز."
+    },
+    {
+      "id": "c2-u14-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yönetici özeti",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «yönetici özeti». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إتقان ملخص تنفيذي في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إتقان ملخص تنفيذي في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ مخرجاً تقنياً حول كتابة الملخص التنفيذي، ثم وثق خطواتك والنتائج ومعايير الجودة."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنشئ مخرجاً تقنياً حول كتابة الملخص التنفيذي، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u14",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 558
   }
 }

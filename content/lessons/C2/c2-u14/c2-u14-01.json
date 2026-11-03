@@ -13,18 +13,106 @@
     "titleTr": "İleri Bilimsel ve Teknik İletişim",
     "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "teknik şartname",
+      "meaningAr": "مواصفات تقنية",
+      "exampleTr": "Teknik şartname gereksinimleri ölçülebilir ve doğrulanabilir tanımlar.",
+      "exampleAr": "تحدد المواصفات التقنية المتطلبات بصورة قابلة للقياس والتحقق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Teknik şartname gereksinimleri ölçülebilir ve doğrulanabilir tanımlar.",
+      "ar": "تحدد المواصفات التقنية المتطلبات بصورة قابلة للقياس والتحقق."
+    },
+    {
+      "tr": "Teknik şartname gereksinimleri ölçülebilir ve doğrulanabilir tanımlar.",
+      "ar": "تحدد المواصفات التقنية المتطلبات بصورة قابلة للقياس والتحقق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "teknik şartname konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في مواصفات تقنية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول كتابة المواصفات التقنية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-01-q1",
+      "prompt": "ما معنى «teknik şartname»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مواصفات تقنية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«teknik şartname» تعني: مواصفات تقنية."
+    },
+    {
+      "id": "c2-u14-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "تحدد المواصفات التقنية المتطلبات بصورة قابلة للقياس والتحقق.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "تحدد المواصفات التقنية المتطلبات بصورة قابلة للقياس والتحقق."
+    },
+    {
+      "id": "c2-u14-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "teknik şartname",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «teknik şartname». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان مواصفات تقنية في سياق تخصصي متقدم",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إتقان مواصفات تقنية في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "أنشئ مخرجاً تقنياً حول كتابة المواصفات التقنية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أنشئ مخرجاً تقنياً حول كتابة المواصفات التقنية، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u14",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 551
   }
 }

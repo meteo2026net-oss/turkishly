@@ -13,18 +13,106 @@
     "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
     "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "وازن طول الجمل وترتيبها والوقفات بما يحافظ على إيقاع النص ووظيفته.",
+  "rule": "وازن طول الجمل وترتيبها والوقفات بما يحافظ على إيقاع النص ووظيفته.",
+  "vocabulary": [
+    {
+      "term": "cümle ritmi",
+      "meaningAr": "إيقاع الجملة",
+      "exampleTr": "Uzun ve kısa cümleleri dengeleyerek anlatımın ritmini korudum.",
+      "exampleAr": "حافظت على إيقاع السرد بموازنة الجمل الطويلة والقصيرة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Uzun ve kısa cümleleri dengeleyerek anlatımın ritmini korudum.",
+      "ar": "حافظت على إيقاع السرد بموازنة الجمل الطويلة والقصيرة."
+    },
+    {
+      "tr": "Sözdizimi, metnin temposunu ve vurgusunu etkiler.",
+      "ar": "يؤثر التركيب في سرعة النص ومواضع توكيده."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Cümleyi neden böldün?",
+      "ar": "لماذا قسمت الجملة؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Vurguyu ve okuma temposunu daha doğal kılmak için.",
+      "ar": "لجعل التوكيد وإيقاع القراءة أكثر طبيعية."
+    }
+  ],
+  "speakingTask": "أعد كتابة فقرة مع الحفاظ على الإيقاع والتأثير لا ترتيب الكلمات فقط.",
+  "questions": [
+    {
+      "id": "c2-u17-05-q1",
+      "prompt": "ما معنى «cümle ritmi»؟",
+      "options": [
+        "طلب الإذن",
+        "إيقاع الجملة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«cümle ritmi» تعني: إيقاع الجملة."
+    },
+    {
+      "id": "c2-u17-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حافظت على إيقاع السرد بموازنة الجمل الطويلة والقصيرة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "حافظت على إيقاع السرد بموازنة الجمل الطويلة والقصيرة."
+    },
+    {
+      "id": "c2-u17-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "sözdizimsel ritim"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «sözdizimsel ritim». وازن طول الجمل وترتيبها والوقفات بما يحافظ على إيقاع النص ووظيفته."
+    },
+    {
+      "id": "c2-u17-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "الإيقاع التركيبي",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "الإيقاع التركيبي"
+    },
+    {
+      "id": "c2-u17-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أعد كتابة فقرة مع الحفاظ على الإيقاع والتأثير لا ترتيب الكلمات فقط.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أعد كتابة فقرة مع الحفاظ على الإيقاع والتأثير لا ترتيب الكلمات فقط."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u17",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 585
   }
 }

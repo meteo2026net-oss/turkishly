@@ -13,18 +13,106 @@
     "titleTr": "İleri Sözlü Çeviri ve Dilsel Arabuluculuk",
     "description": "الاستماع المتقدم والتدوين والترجمة التتابعية وإدارة المصطلحات ومراجعة الأداء."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+  "rule": "استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف.",
+  "vocabulary": [
+    {
+      "term": "sayı ve özel ad aktarımı",
+      "meaningAr": "نقل الأرقام والأسماء",
+      "exampleTr": "Özel adları, tarihleri ve sayıları aktardıktan sonra kaynakla karşılaştırmalıyız.",
+      "exampleAr": "بعد نقل الأسماء والتواريخ والأرقام ينبغي مقارنتها بالمصدر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Özel adları, tarihleri ve sayıları aktardıktan sonra kaynakla karşılaştırmalıyız.",
+      "ar": "بعد نقل الأسماء والتواريخ والأرقام ينبغي مقارنتها بالمصدر."
+    },
+    {
+      "tr": "Özel adları, tarihleri ve sayıları aktardıktan sonra kaynakla karşılaştırmalıyız.",
+      "ar": "بعد نقل الأسماء والتواريخ والأرقام ينبغي مقارنتها بالمصدر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "sayı ve özel ad aktarımı konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في نقل الأرقام والأسماء؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "نفذ تمريناً شفهياً حول نقل الأرقام والأسماء بدقة، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u15-04-q1",
+      "prompt": "ما معنى «sayı ve özel ad aktarımı»؟",
+      "options": [
+        "نقل الأرقام والأسماء",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«sayı ve özel ad aktarımı» تعني: نقل الأرقام والأسماء."
+    },
+    {
+      "id": "c2-u15-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "بعد نقل الأسماء والتواريخ والأرقام ينبغي مقارنتها بالمصدر.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "بعد نقل الأسماء والتواريخ والأرقام ينبغي مقارنتها بالمصدر."
+    },
+    {
+      "id": "c2-u15-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "sayı ve özel ad aktarımı",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «sayı ve özel ad aktarımı». استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف."
+    },
+    {
+      "id": "c2-u15-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان نقل الأرقام والأسماء في سياق تخصصي متقدم"
+      ],
+      "answerIndex": 3,
+      "explanation": "إتقان نقل الأرقام والأسماء في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u15-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "نفذ تمريناً شفهياً حول نقل الأرقام والأسماء بدقة، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "نفذ تمريناً شفهياً حول نقل الأرقام والأسماء بدقة، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u15",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 564
   }
 }

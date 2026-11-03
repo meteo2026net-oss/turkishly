@@ -13,18 +13,106 @@
     "titleTr": "Uzman Akademik Editörlük ve Yayın",
     "description": "التحرير البنيوي وإدارة المصطلحات والتوثيق والتحرير متعدد التخصصات والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تجهيز المخطوط والملخص والمراجع والملفات وفق متطلبات جهة النشر.",
+  "rule": "استخدم قائمة المتطلبات، وتحقق من التنسيق والبيانات الوصفية والمرفقات وحقوق الاستخدام.",
+  "vocabulary": [
+    {
+      "term": "yayın dosyası",
+      "meaningAr": "ملف النشر",
+      "exampleTr": "Gönderim dosyasındaki tüm belgeleri yayın yönergesine göre kontrol ettim.",
+      "exampleAr": "تحققت من جميع وثائق ملف الإرسال وفق إرشادات النشر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Gönderim dosyasındaki tüm belgeleri yayın yönergesine göre kontrol ettim.",
+      "ar": "تحققت من جميع وثائق ملف الإرسال وفق إرشادات النشر."
+    },
+    {
+      "tr": "Yayın dosyasını eksiksiz biçimde hazırladım.",
+      "ar": "جهزت ملف النشر بصورة كاملة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Son kontrol listesinde neler var؟",
+      "ar": "ماذا تتضمن قائمة التحقق الأخيرة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Biçim, kaynakça, ekler ve yazar bilgileri.",
+      "ar": "التنسيق والمراجع والمرفقات ومعلومات المؤلف."
+    }
+  ],
+  "speakingTask": "جهز حزمة تقديم لمجلة تشمل المقال والملخص والمراجع والبيانات المطلوبة.",
+  "questions": [
+    {
+      "id": "c2-u5-09-q1",
+      "prompt": "ما معنى «yayın dosyası»؟",
+      "options": [
+        "طلب الإذن",
+        "ملف النشر",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«yayın dosyası» تعني: ملف النشر."
+    },
+    {
+      "id": "c2-u5-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تحققت من جميع وثائق ملف الإرسال وفق إرشادات النشر.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تحققت من جميع وثائق ملف الإرسال وفق إرشادات النشر."
+    },
+    {
+      "id": "c2-u5-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "gönderim hazırlığı"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «gönderim hazırlığı». استخدم قائمة المتطلبات، وتحقق من التنسيق والبيانات الوصفية والمرفقات وحقوق الاستخدام."
+    },
+    {
+      "id": "c2-u5-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تجهيز وثائق النشر ومرفقاته.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تجهيز وثائق النشر ومرفقاته."
+    },
+    {
+      "id": "c2-u5-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "جهز حزمة تقديم لمجلة تشمل المقال والملخص والمراجع والبيانات المطلوبة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "جهز حزمة تقديم لمجلة تشمل المقال والملخص والمراجع والبيانات المطلوبة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u5",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 469
   }
 }

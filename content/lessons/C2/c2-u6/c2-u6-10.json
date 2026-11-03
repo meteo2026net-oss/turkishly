@@ -13,18 +13,106 @@
     "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
     "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إنتاج مشروع يبرهن على التحليل والكتابة والترجمة والقيادة والتواصل.",
+  "rule": "ادمج مصادر متعددة ومخرجات مكتوبة وشفهية، وقدم تقييماً ذاتياً قائماً على الأدلة.",
+  "vocabulary": [
+    {
+      "term": "C2 bütünleşik proje",
+      "meaningAr": "مشروع متكامل لمستوى C2",
+      "exampleTr": "Projemde araştırma, editörlük ve stratejik iletişim becerilerini birleştirdim.",
+      "exampleAr": "جمعت في مشروعي مهارات البحث والتحرير والتواصل الاستراتيجي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Projemde araştırma, editörlük ve stratejik iletişim becerilerini birleştirdim.",
+      "ar": "جمعت في مشروعي مهارات البحث والتحرير والتواصل الاستراتيجي."
+    },
+    {
+      "tr": "C2 yetkinliğimi farklı görevlerle kanıtladım.",
+      "ar": "أثبت كفاءتي في C2 بمهام متنوعة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Projenin kapsamı neden geniş؟",
+      "ar": "لماذا نطاق المشروع واسع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Farklı becerileri tek bir gerçekçi görevde birleştiriyor.",
+      "ar": "لأنه يجمع مهارات مختلفة في مهمة واقعية واحدة."
+    }
+  ],
+  "speakingTask": "أنجز مشروعاً من تقرير وعرض وترجمة وخطة تواصل ومراجعة نقدية.",
+  "questions": [
+    {
+      "id": "c2-u6-10-q1",
+      "prompt": "ما معنى «C2 bütünleşik proje»؟",
+      "options": [
+        "مشروع متكامل لمستوى C2",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«C2 bütünleşik proje» تعني: مشروع متكامل لمستوى C2."
+    },
+    {
+      "id": "c2-u6-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "جمعت في مشروعي مهارات البحث والتحرير والتواصل الاستراتيجي.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "جمعت في مشروعي مهارات البحث والتحرير والتواصل الاستراتيجي."
+    },
+    {
+      "id": "c2-u6-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "ileri uzmanlık projesi",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «ileri uzmanlık projesi». ادمج مصادر متعددة ومخرجات مكتوبة وشفهية، وقدم تقييماً ذاتياً قائماً على الأدلة."
+    },
+    {
+      "id": "c2-u6-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إثبات الكفاءة المتقدمة بمشروع أصيل."
+      ],
+      "answerIndex": 3,
+      "explanation": "إثبات الكفاءة المتقدمة بمشروع أصيل."
+    },
+    {
+      "id": "c2-u6-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أنجز مشروعاً من تقرير وعرض وترجمة وخطة تواصل ومراجعة نقدية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أنجز مشروعاً من تقرير وعرض وترجمة وخطة تواصل ومراجعة نقدية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u6",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 480
   }
 }

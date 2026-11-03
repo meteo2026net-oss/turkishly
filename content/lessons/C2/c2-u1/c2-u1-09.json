@@ -13,18 +13,106 @@
     "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
     "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "دمج منظورات متعارضة في تحليل واحد مع الحفاظ على الفروق.",
+  "rule": "اعرض المنظورات بإنصاف ثم حدد مستوى المقارنة وما الذي يفسر اختلاف النتائج.",
+  "vocabulary": [
+    {
+      "term": "çok yönlü analiz",
+      "meaningAr": "تحليل متعدد المنظورات",
+      "exampleTr": "Farklı bakış açılarını aynı analitik çerçevede değerlendirdim.",
+      "exampleAr": "قيّمت وجهات نظر مختلفة ضمن إطار تحليلي واحد."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Farklı bakış açılarını aynı analitik çerçevede değerlendirdim.",
+      "ar": "قيّمت وجهات نظر مختلفة ضمن إطار تحليلي واحد."
+    },
+    {
+      "tr": "Farklı perspektifleri ortak sorular üzerinden karşılaştırdım.",
+      "ar": "قارنت المنظورات عبر أسئلة مشتركة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Çelişkili görüşleri nasıl birleştirdin؟",
+      "ar": "كيف جمعت الآراء المتعارضة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ortak soruyu koruyup ayrıştıkları noktaları açıkladım.",
+      "ar": "حافظت على السؤال المشترك وشرحت مواضع الاختلاف."
+    }
+  ],
+  "speakingTask": "اكتب تحليلاً يقارن ثلاثة مواقف حول قضية معقدة.",
+  "questions": [
+    {
+      "id": "c2-u1-09-q1",
+      "prompt": "ما معنى «çok yönlü analiz»؟",
+      "options": [
+        "طلب الإذن",
+        "تحليل متعدد المنظورات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«çok yönlü analiz» تعني: تحليل متعدد المنظورات."
+    },
+    {
+      "id": "c2-u1-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قيّمت وجهات نظر مختلفة ضمن إطار تحليلي واحد.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "قيّمت وجهات نظر مختلفة ضمن إطار تحليلي واحد."
+    },
+    {
+      "id": "c2-u1-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "perspektifleri bütünleştirmek"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «perspektifleri bütünleştirmek». اعرض المنظورات بإنصاف ثم حدد مستوى المقارنة وما الذي يفسر اختلاف النتائج."
+    },
+    {
+      "id": "c2-u1-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "دمج وجهات نظر متعددة دون طمس اختلافها.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "دمج وجهات نظر متعددة دون طمس اختلافها."
+    },
+    {
+      "id": "c2-u1-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب تحليلاً يقارن ثلاثة مواقف حول قضية معقدة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب تحليلاً يقارن ثلاثة مواقف حول قضية معقدة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_course_data.dart",
     "legacyUnitId": "c2-u1",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 429
   }
 }

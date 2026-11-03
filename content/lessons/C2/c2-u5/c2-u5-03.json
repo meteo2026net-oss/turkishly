@@ -13,18 +13,106 @@
     "titleTr": "Uzman Akademik Editörlük ve Yayın",
     "description": "التحرير البنيوي وإدارة المصطلحات والتوثيق والتحرير متعدد التخصصات والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التحقق من نسبة الأفكار والاقتباسات والبيانات إلى مصادرها.",
+  "rule": "راجع كل اقتباس وإعادة صياغة وبيانات، وميز المعرفة العامة عن المساهمة الأصلية.",
+  "vocabulary": [
+    {
+      "term": "akademik dürüstlük",
+      "meaningAr": "الأمانة الأكاديمية",
+      "exampleTr": "Her iddia ve alıntı için uygun kaynak gösterdim.",
+      "exampleAr": "أشرت إلى مصدر مناسب لكل ادعاء واقتباس."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Her iddia ve alıntı için uygun kaynak gösterdim.",
+      "ar": "أشرت إلى مصدر مناسب لكل ادعاء واقتباس."
+    },
+    {
+      "tr": "Atıfları kaynaklarla tek tek karşılaştırdım.",
+      "ar": "قارنت الإحالات بالمصادر واحدة تلو الأخرى."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yeniden ifade edilen fikir de kaynak ister mi؟",
+      "ar": "هل تحتاج الفكرة المعاد صياغتها إلى مصدر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, fikir başkasına aitse belirtilmeli.",
+      "ar": "نعم، إذا كانت الفكرة لشخص آخر فيجب الإشارة إليه."
+    }
+  ],
+  "speakingTask": "دقق مقالاً بحثياً وابحث عن خمسة مواضع تحتاج إلى توثيق.",
+  "questions": [
+    {
+      "id": "c2-u5-03-q1",
+      "prompt": "ما معنى «akademik dürüstlük»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "الأمانة الأكاديمية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«akademik dürüstlük» تعني: الأمانة الأكاديمية."
+    },
+    {
+      "id": "c2-u5-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "أشرت إلى مصدر مناسب لكل ادعاء واقتباس.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "أشرت إلى مصدر مناسب لكل ادعاء واقتباس."
+    },
+    {
+      "id": "c2-u5-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "atıf denetimi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «atıf denetimi». راجع كل اقتباس وإعادة صياغة وبيانات، وميز المعرفة العامة عن المساهمة الأصلية."
+    },
+    {
+      "id": "c2-u5-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "ضمان دقة الإسناد والتوثيق.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "ضمان دقة الإسناد والتوثيق."
+    },
+    {
+      "id": "c2-u5-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "دقق مقالاً بحثياً وابحث عن خمسة مواضع تحتاج إلى توثيق.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "دقق مقالاً بحثياً وابحث عن خمسة مواضع تحتاج إلى توثيق."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u5",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 463
   }
 }

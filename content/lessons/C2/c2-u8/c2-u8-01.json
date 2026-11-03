@@ -13,18 +13,106 @@
     "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
     "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "نقل المصطلحات النظرية مع الحفاظ على دقتها وحدودها.",
+  "rule": "قارن تعريفات المصطلح في التخصصين، وحدد المقابل مع شرح عند غياب التطابق.",
+  "vocabulary": [
+    {
+      "term": "kuramsal terim",
+      "meaningAr": "مصطلح نظري",
+      "exampleTr": "Kavramın disiplinler arasındaki anlam farkını çeviride belirttim.",
+      "exampleAr": "أوضحت في الترجمة اختلاف معنى المفهوم بين التخصصات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kavramın disiplinler arasındaki anlam farkını çeviride belirttim.",
+      "ar": "أوضحت في الترجمة اختلاف معنى المفهوم بين التخصصات."
+    },
+    {
+      "tr": "Terimlerin kuramsal kapsamını karşılaştırdım.",
+      "ar": "قارنت النطاق النظري للمصطلحات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tek bir karşılık kullanabilir miyiz؟",
+      "ar": "هل يمكننا استخدام مقابل واحد؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Alanın tanımına göre değişebilir.",
+      "ar": "قد يختلف بحسب تعريف المجال."
+    }
+  ],
+  "speakingTask": "أنشئ مسرداً ثنائياً لعشرين مصطلحاً نظرياً مع تعريفات.",
+  "questions": [
+    {
+      "id": "c2-u8-01-q1",
+      "prompt": "ما معنى «kuramsal terim»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مصطلح نظري"
+      ],
+      "answerIndex": 3,
+      "explanation": "«kuramsal terim» تعني: مصطلح نظري."
+    },
+    {
+      "id": "c2-u8-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "أوضحت في الترجمة اختلاف معنى المفهوم بين التخصصات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "أوضحت في الترجمة اختلاف معنى المفهوم بين التخصصات."
+    },
+    {
+      "id": "c2-u8-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "uzmanlık çevirisi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «uzmanlık çevirisi». قارن تعريفات المصطلح في التخصصين، وحدد المقابل مع شرح عند غياب التطابق."
+    },
+    {
+      "id": "c2-u8-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "ترجمة المفاهيم النظرية بدقة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "ترجمة المفاهيم النظرية بدقة."
+    },
+    {
+      "id": "c2-u8-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "أنشئ مسرداً ثنائياً لعشرين مصطلحاً نظرياً مع تعريفات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أنشئ مسرداً ثنائياً لعشرين مصطلحاً نظرياً مع تعريفات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u8",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 491
   }
 }

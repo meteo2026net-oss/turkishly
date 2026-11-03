@@ -13,18 +13,106 @@
     "titleTr": "Politika, Yönetişim ve Uluslararası Stratejik İletişim",
     "description": "تصميم السياسات وتقييم الأثر وإدارة أصحاب المصلحة والأزمات والاتفاقات والمؤشرات والمخاطر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم التفاوض على اتفاقات متعددة الأطراف في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "çok taraflı anlaşma müzakeresi",
+      "meaningAr": "التفاوض على اتفاق متعدد الأطراف",
+      "exampleTr": "Ortak metni tarafların çekincelerini kaydederek aşamalı biçimde oluşturduk.",
+      "exampleAr": "صغنا النص المشترك تدريجياً مع تسجيل تحفظات الأطراف."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ortak metni tarafların çekincelerini kaydederek aşamalı biçimde oluşturduk.",
+      "ar": "صغنا النص المشترك تدريجياً مع تسجيل تحفظات الأطراف."
+    },
+    {
+      "tr": "Aşamalı uzlaşma karmaşık müzakerelerde ilerleme sağlar.",
+      "ar": "يتيح التوافق المرحلي إحراز تقدم في المفاوضات المعقدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tüm maddelerde uzlaştık mı?",
+      "ar": "هل اتفقنا على جميع البنود؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Açık kalan çekinceleri tutanakta gösterelim.",
+      "ar": "لنسجل التحفظات المتبقية في المحضر."
+    }
+  ],
+  "speakingTask": "أنشئ جدولاً للبنود المتفق عليها والمعلقة والتحفظات والمسؤوليات.",
+  "questions": [
+    {
+      "id": "c2-u21-06-q1",
+      "prompt": "ما المقصود بالمصطلح «çok taraflı anlaşma müzakeresi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "التفاوض على اتفاق متعدد الأطراف",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«çok taraflı anlaşma müzakeresi» يعني: التفاوض على اتفاق متعدد الأطراف."
+    },
+    {
+      "id": "c2-u21-06-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "صغنا النص المشترك تدريجياً مع تسجيل تحفظات الأطراف."
+      ],
+      "answerIndex": 3,
+      "explanation": "صغنا النص المشترك تدريجياً مع تسجيل تحفظات الأطراف."
+    },
+    {
+      "id": "c2-u21-06-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "çekince kaydı",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة: çekince kaydı. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u21-06-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "السؤال عن السعر",
+        "إدارة نقاط الاتفاق والتحفظ في نص مشترك",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إدارة نقاط الاتفاق والتحفظ في نص مشترك"
+    },
+    {
+      "id": "c2-u21-06-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ جدولاً للبنود المتفق عليها والمعلقة والتحفظات والمسؤوليات."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنشئ جدولاً للبنود المتفق عليها والمعلقة والتحفظات والمسؤوليات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_global_course_data.dart",
     "legacyUnitId": "c2-u21",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 626
   }
 }

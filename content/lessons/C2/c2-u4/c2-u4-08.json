@@ -13,18 +13,106 @@
     "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
     "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إنتاج أطروحة تضيف تفسيراً أو تركيباً جديداً بدلاً من إعادة عرض المصادر.",
+  "rule": "حدد الفجوة، وصغ دعوى قابلة للنقاش، ثم وضح ما تضيفه إلى النقاش القائم.",
+  "vocabulary": [
+    {
+      "term": "özgün tez",
+      "meaningAr": "أطروحة أصيلة",
+      "exampleTr": "Bu çalışma, mevcut yaklaşımları birleştiren yeni bir açıklama öneriyor.",
+      "exampleAr": "يقترح هذا العمل تفسيراً جديداً يجمع المقاربات الحالية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu çalışma, mevcut yaklaşımları birleştiren yeni bir açıklama öneriyor.",
+      "ar": "يقترح هذا العمل تفسيراً جديداً يجمع المقاربات الحالية."
+    },
+    {
+      "tr": "Özgün katkımı önceki çalışmalarla karşılaştırdım.",
+      "ar": "قارنت إسهامي الأصيل بالدراسات السابقة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu görüş daha önce savunulmuş mu؟",
+      "ar": "هل سبق الدفاع عن هذا الرأي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Benzer yönleri var, ancak sentez biçimi farklı.",
+      "ar": "توجد جوانب مشابهة لكن طريقة التركيب مختلفة."
+    }
+  ],
+  "speakingTask": "اكتب أطروحة أصلية وبيّن اختلافها عن ثلاثة مواقف منشورة.",
+  "questions": [
+    {
+      "id": "c2-u4-08-q1",
+      "prompt": "ما معنى «özgün tez»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "أطروحة أصيلة",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«özgün tez» تعني: أطروحة أصيلة."
+    },
+    {
+      "id": "c2-u4-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يقترح هذا العمل تفسيراً جديداً يجمع المقاربات الحالية."
+      ],
+      "answerIndex": 3,
+      "explanation": "يقترح هذا العمل تفسيراً جديداً يجمع المقاربات الحالية."
+    },
+    {
+      "id": "c2-u4-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "özgün katkı",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «özgün katkı». حدد الفجوة، وصغ دعوى قابلة للنقاش، ثم وضح ما تضيفه إلى النقاش القائم."
+    },
+    {
+      "id": "c2-u4-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "صياغة مساهمة فكرية جديدة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "صياغة مساهمة فكرية جديدة."
+    },
+    {
+      "id": "c2-u4-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب أطروحة أصلية وبيّن اختلافها عن ثلاثة مواقف منشورة."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب أطروحة أصلية وبيّن اختلافها عن ثلاثة مواقف منشورة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u4",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 458
   }
 }

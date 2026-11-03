@@ -13,18 +13,106 @@
     "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
     "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "توحيد عمل خبراء من مجالات مختلفة حول سؤال مشترك.",
+  "rule": "وضح المصطلحات والأدوار ومعايير الأدلة، وخصص مساحة للاختلاف المنهجي.",
+  "vocabulary": [
+    {
+      "term": "disiplinlerarası ekip",
+      "meaningAr": "فريق متعدد التخصصات",
+      "exampleTr": "Her uzmanlık alanının katkısını ortak araştırma hedefiyle ilişkilendirdik.",
+      "exampleAr": "ربطنا إسهام كل تخصص بهدف البحث المشترك."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Her uzmanlık alanının katkısını ortak araştırma hedefiyle ilişkilendirdik.",
+      "ar": "ربطنا إسهام كل تخصص بهدف البحث المشترك."
+    },
+    {
+      "tr": "Disiplinler arası iletişimi ortak hedeflerle güçlendirdim.",
+      "ar": "عززت التواصل بين التخصصات بأهداف مشتركة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Terimleri herkes aynı mı kullanıyor؟",
+      "ar": "هل يستخدم الجميع المصطلحات نفسها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce ortak bir kavram listesi oluşturalım.",
+      "ar": "لننشئ قائمة مفاهيم مشتركة أولاً."
+    }
+  ],
+  "speakingTask": "صمم خطة قيادة لفريق من أربعة تخصصات مع مخرجات مشتركة.",
+  "questions": [
+    {
+      "id": "c2-u6-05-q1",
+      "prompt": "ما معنى «disiplinlerarası ekip»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "فريق متعدد التخصصات"
+      ],
+      "answerIndex": 3,
+      "explanation": "«disiplinlerarası ekip» تعني: فريق متعدد التخصصات."
+    },
+    {
+      "id": "c2-u6-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "ربطنا إسهام كل تخصص بهدف البحث المشترك.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ربطنا إسهام كل تخصص بهدف البحث المشترك."
+    },
+    {
+      "id": "c2-u6-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "ortak çalışma çerçevesi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «ortak çalışma çerçevesi». وضح المصطلحات والأدوار ومعايير الأدلة، وخصص مساحة للاختلاف المنهجي."
+    },
+    {
+      "id": "c2-u6-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تنسيق خبرات مختلفة ضمن مشروع واحد.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تنسيق خبرات مختلفة ضمن مشروع واحد."
+    },
+    {
+      "id": "c2-u6-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "صمم خطة قيادة لفريق من أربعة تخصصات مع مخرجات مشتركة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "صمم خطة قيادة لفريق من أربعة تخصصات مع مخرجات مشتركة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u6",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 475
   }
 }

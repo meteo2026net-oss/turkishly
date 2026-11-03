@@ -13,18 +13,106 @@
     "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
     "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تنظيم ندوة تعرض مواقف متعددة وتدير النقاش وتوثق نتائجه.",
+  "rule": "حدد سؤالاً محورياً ومتحدثين متنوعين ومحاور زمنية وأسئلة نقدية وخلاصة متوازنة.",
+  "vocabulary": [
+    {
+      "term": "akademik panel",
+      "meaningAr": "ندوة أكاديمية",
+      "exampleTr": "Panelin sonunda ortak noktaları ve açık kalan soruları özetledik.",
+      "exampleAr": "لخصنا في نهاية الندوة نقاط الاتفاق والأسئلة التي بقيت مفتوحة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Panelin sonunda ortak noktaları ve açık kalan soruları özetledik.",
+      "ar": "لخصنا في نهاية الندوة نقاط الاتفاق والأسئلة التي بقيت مفتوحة."
+    },
+    {
+      "tr": "Tartışmanın farklı seslerini dengeli biçimde yansıttım.",
+      "ar": "عكست الأصوات المختلفة في النقاش بصورة متوازنة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sonuçta tek bir görüş mü sunalım؟",
+      "ar": "هل نقدم رأياً واحداً في النهاية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Uzlaşılan ve tartışmalı noktaları ayıralım.",
+      "ar": "لنفصل بين النقاط المتفق عليها والمختلف عليها."
+    }
+  ],
+  "speakingTask": "خطط ندوة من ثلاثة متحدثين وأدر جلسة الأسئلة واكتب خلاصة.",
+  "questions": [
+    {
+      "id": "c2-u10-09-q1",
+      "prompt": "ما معنى «akademik panel»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "ندوة أكاديمية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«akademik panel» تعني: ندوة أكاديمية."
+    },
+    {
+      "id": "c2-u10-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لخصنا في نهاية الندوة نقاط الاتفاق والأسئلة التي بقيت مفتوحة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "لخصنا في نهاية الندوة نقاط الاتفاق والأسئلة التي بقيت مفتوحة."
+    },
+    {
+      "id": "c2-u10-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "eleştirel tartışma",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «eleştirel tartışma». حدد سؤالاً محورياً ومتحدثين متنوعين ومحاور زمنية وأسئلة نقدية وخلاصة متوازنة."
+    },
+    {
+      "id": "c2-u10-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إدارة ندوة أكاديمية متوازنة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إدارة ندوة أكاديمية متوازنة."
+    },
+    {
+      "id": "c2-u10-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "خطط ندوة من ثلاثة متحدثين وأدر جلسة الأسئلة واكتب خلاصة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "خطط ندوة من ثلاثة متحدثين وأدر جلسة الأسئلة واكتب خلاصة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u10",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 519
   }
 }

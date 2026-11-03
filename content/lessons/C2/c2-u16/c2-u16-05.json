@@ -13,18 +13,106 @@
     "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
     "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "عند الجمود، أعد تعريف المشكلة أو جزّئها أو اطلب معياراً محايداً بدلاً من تكرار المواقف.",
+  "rule": "عند الجمود، أعد تعريف المشكلة أو جزّئها أو اطلب معياراً محايداً بدلاً من تكرار المواقف.",
+  "vocabulary": [
+    {
+      "term": "müzakere tıkanıklığı",
+      "meaningAr": "الجمود التفاوضي",
+      "exampleTr": "Bağımsız bir ölçüt kullanarak görüşmeleri yeniden başlattık.",
+      "exampleAr": "استأنفنا المباحثات باستخدام معيار مستقل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bağımsız bir ölçüt kullanarak görüşmeleri yeniden başlattık.",
+      "ar": "استأنفنا المباحثات باستخدام معيار مستقل."
+    },
+    {
+      "tr": "Sorunu yeniden çerçevelemek yeni seçenekler açabilir.",
+      "ar": "قد تفتح إعادة تأطير المشكلة خيارات جديدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Aynı noktada dönüp duruyoruz.",
+      "ar": "نكرر النقطة نفسها باستمرار.\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Konuyu ölçülebilir ölçütlere ayıralım.",
+      "ar": "لنقسم الموضوع إلى معايير قابلة للقياس."
+    }
+  ],
+  "speakingTask": "اقترح ثلاث وسائل لكسر الجمود في حالة تفاوضية افتراضية.",
+  "questions": [
+    {
+      "id": "c2-u16-05-q1",
+      "prompt": "ما معنى «müzakere tıkanıklığı»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "الجمود التفاوضي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«müzakere tıkanıklığı» تعني: الجمود التفاوضي."
+    },
+    {
+      "id": "c2-u16-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "استأنفنا المباحثات باستخدام معيار مستقل.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "استأنفنا المباحثات باستخدام معيار مستقل."
+    },
+    {
+      "id": "c2-u16-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "nesnel ölçüt",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «nesnel ölçüt». عند الجمود، أعد تعريف المشكلة أو جزّئها أو اطلب معياراً محايداً بدلاً من تكرار المواقف."
+    },
+    {
+      "id": "c2-u16-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "معيار موضوعي",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "معيار موضوعي"
+    },
+    {
+      "id": "c2-u16-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اقترح ثلاث وسائل لكسر الجمود في حالة تفاوضية افتراضية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اقترح ثلاث وسائل لكسر الجمود في حالة تفاوضية افتراضية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u16",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 575
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
     "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تنسيق فريق متعدد التخصصات والمواقع مع اختلاف المصطلحات والأولويات.",
+  "rule": "حدد المسؤوليات وواجهات العمل، ووحد تعريفات المخرجات، وأنشئ آلية قرار وتوثيق.",
+  "vocabulary": [
+    {
+      "term": "uluslararası uzman ekibi",
+      "meaningAr": "فريق خبراء دولي",
+      "exampleTr": "Ekipte ortak terminoloji ve açık görev dağılımı oluşturduk.",
+      "exampleAr": "أنشأنا في الفريق مصطلحات مشتركة وتوزيعاً واضحاً للمهام."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ekipte ortak terminoloji ve açık görev dağılımı oluşturduk.",
+      "ar": "أنشأنا في الفريق مصطلحات مشتركة وتوزيعاً واضحاً للمهام."
+    },
+    {
+      "tr": "Uzmanların katkılarını ortak hedeflerle ilişkilendirdim.",
+      "ar": "ربطت مساهمات الخبراء بالأهداف المشتركة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Herkes aynı yöntemi mi kullanmalı؟",
+      "ar": "هل يجب أن يستخدم الجميع المنهج نفسه؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ortak standartlar ve uzmanlık alanları dengelenmeli.",
+      "ar": "ينبغي الموازنة بين المعايير المشتركة ومجالات الخبرة."
+    }
+  ],
+  "speakingTask": "صمم ميثاق فريق دولي يحدد الأدوار والقرارات وآليات التواصل.",
+  "questions": [
+    {
+      "id": "c2-u12-06-q1",
+      "prompt": "ما معنى «uluslararası uzman ekibi»؟",
+      "options": [
+        "فريق خبراء دولي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«uluslararası uzman ekibi» تعني: فريق خبراء دولي."
+    },
+    {
+      "id": "c2-u12-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "أنشأنا في الفريق مصطلحات مشتركة وتوزيعاً واضحاً للمهام.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "أنشأنا في الفريق مصطلحات مشتركة وتوزيعاً واضحاً للمهام."
+    },
+    {
+      "id": "c2-u12-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "uzman koordinasyonu",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «uzman koordinasyonu». حدد المسؤوليات وواجهات العمل، ووحد تعريفات المخرجات، وأنشئ آلية قرار وتوثيق."
+    },
+    {
+      "id": "c2-u12-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تنسيق الخبراء عبر التخصصات."
+      ],
+      "answerIndex": 3,
+      "explanation": "تنسيق الخبراء عبر التخصصات."
+    },
+    {
+      "id": "c2-u12-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "صمم ميثاق فريق دولي يحدد الأدوار والقرارات وآليات التواصل.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "صمم ميثاق فريق دولي يحدد الأدوار والقرارات وآليات التواصل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u12",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 536
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "İleri Sözlü Söylem ve Münazara",
     "description": "تحليل المداخلات والشرح الفوري وإدارة الاختلاف والنقاش متعدد اللغات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "شرح المفهوم المعقد أثناء الاستماع مع الحفاظ على الدقة.",
+  "rule": "حدد المفهوم المحوري، واستخدم تعريفاً وظيفياً ومثالاً موجزاً، وتجنب التبسيط المخل.",
+  "vocabulary": [
+    {
+      "term": "eşzamanlı açıklama",
+      "meaningAr": "شرح متزامن",
+      "exampleTr": "Karmaşık terimi kısa bir tanım ve örnekle açıkladım.",
+      "exampleAr": "شرحت المصطلح المعقد بتعريف قصير ومثال."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karmaşık terimi kısa bir tanım ve örnekle açıkladım.",
+      "ar": "شرحت المصطلح المعقد بتعريف قصير ومثال."
+    },
+    {
+      "tr": "Terimi bağlamı bozmadan açıkladım.",
+      "ar": "شرحت المصطلح دون الإخلال بالسياق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tanımı şimdi verebilir misin؟",
+      "ar": "هل تستطيع تقديم التعريف الآن؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, önce işlevini sonra örneğini belirteyim.",
+      "ar": "نعم، سأذكر وظيفته أولاً ثم مثاله."
+    }
+  ],
+  "speakingTask": "اشرح خمسة مصطلحات متخصصة فور سماعها مع مثال لكل منها.",
+  "questions": [
+    {
+      "id": "c2-u7-03-q1",
+      "prompt": "ما معنى «eşzamanlı açıklama»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "شرح متزامن"
+      ],
+      "answerIndex": 3,
+      "explanation": "«eşzamanlı açıklama» تعني: شرح متزامن."
+    },
+    {
+      "id": "c2-u7-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "شرحت المصطلح المعقد بتعريف قصير ومثال.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "شرحت المصطلح المعقد بتعريف قصير ومثال."
+    },
+    {
+      "id": "c2-u7-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "anlık kavramsal açıklama",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «anlık kavramsal açıklama». حدد المفهوم المحوري، واستخدم تعريفاً وظيفياً ومثالاً موجزاً، وتجنب التبسيط المخل."
+    },
+    {
+      "id": "c2-u7-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "شرح المفاهيم أثناء تدفق الحوار.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "شرح المفاهيم أثناء تدفق الحوار."
+    },
+    {
+      "id": "c2-u7-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اشرح خمسة مصطلحات متخصصة فور سماعها مع مثال لكل منها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اشرح خمسة مصطلحات متخصصة فور سماعها مع مثال لكل منها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u7",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 483
   }
 }

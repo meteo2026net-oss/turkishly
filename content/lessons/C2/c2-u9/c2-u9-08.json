@@ -13,18 +13,106 @@
     "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
     "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "توجيه انتقال مؤسسي مع إدارة المقاومة والتواصل والتعلم.",
+  "rule": "وضح سبب التغيير ومراحله، واستمع للمخاوف، وحدد الدعم ومؤشرات التبني.",
+  "vocabulary": [
+    {
+      "term": "kurumsal dönüşüm",
+      "meaningAr": "تحول مؤسسي",
+      "exampleTr": "Değişim sürecinde çalışanların kaygılarını dinleyip destek mekanizmaları kurduk.",
+      "exampleAr": "استمعنا إلى مخاوف الموظفين وأنشأنا آليات دعم خلال التغيير."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Değişim sürecinde çalışanların kaygılarını dinleyip destek mekanizmaları kurduk.",
+      "ar": "استمعنا إلى مخاوف الموظفين وأنشأنا آليات دعم خلال التغيير."
+    },
+    {
+      "tr": "Değişimi yalnızca duyurmakla kalmayıp uygulamayı da izledim.",
+      "ar": "لم أكتف بإعلان التغيير بل تابعت تطبيقه أيضاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Dirençle nasıl başa çıkacağız؟",
+      "ar": "كيف سنتعامل مع المقاومة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kaygıları anlayıp sürece katılım sağlayarak.",
+      "ar": "بفهم المخاوف وإشراكهم في العملية."
+    }
+  ],
+  "speakingTask": "ضع خطة تغيير تشمل مراحل ومخاطر وتواصل وتقييم.",
+  "questions": [
+    {
+      "id": "c2-u9-08-q1",
+      "prompt": "ما معنى «kurumsal dönüşüm»؟",
+      "options": [
+        "تحول مؤسسي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«kurumsal dönüşüm» تعني: تحول مؤسسي."
+    },
+    {
+      "id": "c2-u9-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "استمعنا إلى مخاوف الموظفين وأنشأنا آليات دعم خلال التغيير.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "استمعنا إلى مخاوف الموظفين وأنشأنا آليات دعم خلال التغيير."
+    },
+    {
+      "id": "c2-u9-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "değişim yönetimi",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «değişim yönetimi». وضح سبب التغيير ومراحله، واستمع للمخاوف، وحدد الدعم ومؤشرات التبني."
+    },
+    {
+      "id": "c2-u9-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إدارة التغيير بصورة تشاركية."
+      ],
+      "answerIndex": 3,
+      "explanation": "إدارة التغيير بصورة تشاركية."
+    },
+    {
+      "id": "c2-u9-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "ضع خطة تغيير تشمل مراحل ومخاطر وتواصل وتقييم.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "ضع خطة تغيير تشمل مراحل ومخاطر وتواصل وتقييم."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u9",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 508
   }
 }

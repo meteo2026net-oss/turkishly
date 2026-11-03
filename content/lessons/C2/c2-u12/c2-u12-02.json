@@ -13,18 +13,106 @@
     "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
     "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "فهم اختلاف قواعد التواصل والتفاوض بين الثقافات.",
+  "rule": "لا تعمم الصور النمطية، واسأل عن تفضيلات الطرف، وراقب المباشرة والوقت وآليات القرار.",
+  "vocabulary": [
+    {
+      "term": "kültürlerarası müzakere",
+      "meaningAr": "تفاوض بين الثقافات",
+      "exampleTr": "Karar alma biçimini anlamak için karşı tarafın beklentilerini sorduk.",
+      "exampleAr": "سألنا عن توقعات الطرف الآخر لفهم طريقة اتخاذ القرار."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karar alma biçimini anlamak için karşı tarafın beklentilerini sorduk.",
+      "ar": "سألنا عن توقعات الطرف الآخر لفهم طريقة اتخاذ القرار."
+    },
+    {
+      "tr": "Varsayımlar yerine doğrudan açıklama istedim.",
+      "ar": "طلبت توضيحاً مباشراً بدلاً من الاعتماد على الافتراضات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sessizlik ne anlama geliyor؟",
+      "ar": "ماذا يعني الصمت؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlama göre değişir; varsayımda bulunmayalım.",
+      "ar": "يختلف بحسب السياق؛ لا نفترض."
+    }
+  ],
+  "speakingTask": "صمم محاكاة تفاوض بين مؤسستين مختلفتين في أسلوب التواصل.",
+  "questions": [
+    {
+      "id": "c2-u12-02-q1",
+      "prompt": "ما معنى «kültürlerarası müzakere»؟",
+      "options": [
+        "تفاوض بين الثقافات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«kültürlerarası müzakere» تعني: تفاوض بين الثقافات."
+    },
+    {
+      "id": "c2-u12-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "سألنا عن توقعات الطرف الآخر لفهم طريقة اتخاذ القرار.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "سألنا عن توقعات الطرف الآخر لفهم طريقة اتخاذ القرار."
+    },
+    {
+      "id": "c2-u12-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kültürlerarası yetkinlik",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «kültürlerarası yetkinlik». لا تعمم الصور النمطية، واسأل عن تفضيلات الطرف، وراقب المباشرة والوقت وآليات القرار."
+    },
+    {
+      "id": "c2-u12-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "التفاوض مع مراعاة الاختلاف الثقافي."
+      ],
+      "answerIndex": 3,
+      "explanation": "التفاوض مع مراعاة الاختلاف الثقافي."
+    },
+    {
+      "id": "c2-u12-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "صمم محاكاة تفاوض بين مؤسستين مختلفتين في أسلوب التواصل.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "صمم محاكاة تفاوض بين مؤسستين مختلفتين في أسلوب التواصل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u12",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 532
   }
 }

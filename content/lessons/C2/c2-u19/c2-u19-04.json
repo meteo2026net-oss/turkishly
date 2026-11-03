@@ -13,18 +13,106 @@
     "titleTr": "İleri Uygulamalı Araştırma ve Araştırma Tasarımı",
     "description": "تصميم المناهج المختلطة والقياس والاستدلال السببي وتحليل الحساسية وكتابة تقارير قابلة لإعادة الإنتاج."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم تحليل البيانات المفقودة في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "eksik veri analizi",
+      "meaningAr": "تحليل البيانات المفقودة",
+      "exampleTr": "Eksik gözlemlerin dağılımını inceleyip uygun yöntemi seçtik.",
+      "exampleAr": "درسنا توزيع المشاهدات المفقودة واخترنا الطريقة المناسبة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Eksik gözlemlerin dağılımını inceleyip uygun yöntemi seçtik.",
+      "ar": "درسنا توزيع المشاهدات المفقودة واخترنا الطريقة المناسبة."
+    },
+    {
+      "tr": "Kayıp verinin nedeni sonuçları sistematik biçimde etkileyebilir.",
+      "ar": "قد يؤثر سبب فقد البيانات في النتائج بصورة منهجية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Boş değerleri silelim mi?",
+      "ar": "هل نحذف القيم الفارغة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce neden eksik olduklarını inceleyelim.",
+      "ar": "لنفحص سبب فقدها أولاً."
+    }
+  ],
+  "speakingTask": "حلل مجموعة بيانات وحدد كيف يؤثر نمط الفقد في النتائج.",
+  "questions": [
+    {
+      "id": "c2-u19-04-q1",
+      "prompt": "ما المقصود بالمصطلح «eksik veri analizi»؟",
+      "options": [
+        "تحليل البيانات المفقودة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«eksik veri analizi» يعني: تحليل البيانات المفقودة."
+    },
+    {
+      "id": "c2-u19-04-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "درسنا توزيع المشاهدات المفقودة واخترنا الطريقة المناسبة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "درسنا توزيع المشاهدات المفقودة واخترنا الطريقة المناسبة."
+    },
+    {
+      "id": "c2-u19-04-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kayıp veri mekanizması",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة: kayıp veri mekanizması. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u19-04-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "تمييز نمط فقد البيانات قبل اختيار المعالجة"
+      ],
+      "answerIndex": 3,
+      "explanation": "تمييز نمط فقد البيانات قبل اختيار المعالجة"
+    },
+    {
+      "id": "c2-u19-04-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "حلل مجموعة بيانات وحدد كيف يؤثر نمط الفقد في النتائج.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "حلل مجموعة بيانات وحدد كيف يؤثر نمط الفقد في النتائج."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_global_course_data.dart",
     "legacyUnitId": "c2-u19",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 604
   }
 }

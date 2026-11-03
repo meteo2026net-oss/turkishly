@@ -13,18 +13,106 @@
     "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
     "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تتبع النصوص والإشارات السابقة التي يستدعيها خطاب جديد.",
+  "rule": "حدد الاقتباس أو التلميح أو المحاكاة، وفسر وظيفة الإحالة لدى الجمهور المقصود.",
+  "vocabulary": [
+    {
+      "term": "metinlerarasılık",
+      "meaningAr": "تناص",
+      "exampleTr": "Yazar, eski bir anlatıya gönderme yaparak yeni metne ikinci bir katman ekliyor.",
+      "exampleAr": "يضيف الكاتب طبقة ثانية للنص الجديد عبر الإحالة إلى سرد قديم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yazar, eski bir anlatıya gönderme yaparak yeni metne ikinci bir katman ekliyor.",
+      "ar": "يضيف الكاتب طبقة ثانية للنص الجديد عبر الإحالة إلى سرد قديم."
+    },
+    {
+      "tr": "Göndermelerin hedef okur için ne ifade ettiğini değerlendirdim.",
+      "ar": "قيّمت ما تعنيه الإحالات للقارئ المستهدف."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her okur bu göndermeyi anlar mı؟",
+      "ar": "هل يفهم كل قارئ هذه الإحالة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kültürel birikime bağlı olarak değişebilir.",
+      "ar": "قد يختلف ذلك بحسب الخلفية الثقافية."
+    }
+  ],
+  "speakingTask": "اجمع إحالات ثقافية من مقال واشرح كيف تغير فهمه.",
+  "questions": [
+    {
+      "id": "c2-u10-05-q1",
+      "prompt": "ما معنى «metinlerarasılık»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تناص"
+      ],
+      "answerIndex": 3,
+      "explanation": "«metinlerarasılık» تعني: تناص."
+    },
+    {
+      "id": "c2-u10-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يضيف الكاتب طبقة ثانية للنص الجديد عبر الإحالة إلى سرد قديم.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يضيف الكاتب طبقة ثانية للنص الجديد عبر الإحالة إلى سرد قديم."
+    },
+    {
+      "id": "c2-u10-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "kültürel gönderme",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «kültürel gönderme». حدد الاقتباس أو التلميح أو المحاكاة، وفسر وظيفة الإحالة لدى الجمهور المقصود."
+    },
+    {
+      "id": "c2-u10-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحليل الإحالات والتناص الثقافي.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحليل الإحالات والتناص الثقافي."
+    },
+    {
+      "id": "c2-u10-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اجمع إحالات ثقافية من مقال واشرح كيف تغير فهمه.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اجمع إحالات ثقافية من مقال واشرح كيف تغير فهمه."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u10",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 515
   }
 }

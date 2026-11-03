@@ -13,18 +13,106 @@
     "titleTr": "İleri Terim Mühendisliği, Editörlük ve Çeviri",
     "description": "إدارة المصطلحات والغموض والتكافؤ التداولي والتحرير متعدد المؤلفين والترجمة القانونية والتوطين."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم توطين المحتوى الرقمي متعدد الثقافات في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "çok kültürlü içerik yerelleştirmesi",
+      "meaningAr": "توطين المحتوى متعدد الثقافات",
+      "exampleTr": "Arayüz metinlerini yerel kullanım alışkanlıklarına göre uyarladık.",
+      "exampleAr": "كيفنا نصوص الواجهة وفق عادات الاستخدام المحلية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Arayüz metinlerini yerel kullanım alışkanlıklarına göre uyarladık.",
+      "ar": "كيفنا نصوص الواجهة وفق عادات الاستخدام المحلية."
+    },
+    {
+      "tr": "Yerelleştirme yalnızca sözcükleri çevirmek değildir.",
+      "ar": "لا يقتصر التوطين على ترجمة الكلمات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tarih biçimini değiştirmeli miyiz?",
+      "ar": "هل ينبغي تغيير تنسيق التاريخ؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yerel standarda ve kullanıcı beklentisine uyalım.",
+      "ar": "لنتبع المعيار المحلي وتوقعات المستخدم."
+    }
+  ],
+  "speakingTask": "راجع واجهة افتراضية وحدد عناصر تحتاج إلى توطين لغوي أو ثقافي.",
+  "questions": [
+    {
+      "id": "c2-u20-07-q1",
+      "prompt": "ما المقصود بالمصطلح «çok kültürlü içerik yerelleştirmesi»؟",
+      "options": [
+        "طلب الإذن",
+        "توطين المحتوى متعدد الثقافات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«çok kültürlü içerik yerelleştirmesi» يعني: توطين المحتوى متعدد الثقافات."
+    },
+    {
+      "id": "c2-u20-07-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "كيفنا نصوص الواجهة وفق عادات الاستخدام المحلية.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "كيفنا نصوص الواجهة وفق عادات الاستخدام المحلية."
+    },
+    {
+      "id": "c2-u20-07-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "yerelleştirme"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة: yerelleştirme. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u20-07-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تكييف المحتوى الرقمي لغوياً وثقافياً وتقنياً",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تكييف المحتوى الرقمي لغوياً وثقافياً وتقنياً"
+    },
+    {
+      "id": "c2-u20-07-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "راجع واجهة افتراضية وحدد عناصر تحتاج إلى توطين لغوي أو ثقافي.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "راجع واجهة افتراضية وحدد عناصر تحتاج إلى توطين لغوي أو ثقافي."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_global_course_data.dart",
     "legacyUnitId": "c2-u20",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 617
   }
 }

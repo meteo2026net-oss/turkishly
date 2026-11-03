@@ -13,18 +13,106 @@
     "titleTr": "İleri Bilimsel ve Teknik İletişim",
     "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "sadeleştirilmiş anlatım",
+      "meaningAr": "شرح مبسط",
+      "exampleTr": "Teknik sonucu sadeleştirirken temel anlamı korumalıyız.",
+      "exampleAr": "ينبغي الحفاظ على المعنى الأساسي عند تبسيط النتيجة التقنية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Teknik sonucu sadeleştirirken temel anlamı korumalıyız.",
+      "ar": "ينبغي الحفاظ على المعنى الأساسي عند تبسيط النتيجة التقنية."
+    },
+    {
+      "tr": "Teknik sonucu sadeleştirirken temel anlamı korumalıyız.",
+      "ar": "ينبغي الحفاظ على المعنى الأساسي عند تبسيط النتيجة التقنية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "sadeleştirilmiş anlatım konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في شرح مبسط؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول تبسيط النتائج لغير المتخصصين، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-05-q1",
+      "prompt": "ما معنى «sadeleştirilmiş anlatım»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "شرح مبسط"
+      ],
+      "answerIndex": 3,
+      "explanation": "«sadeleştirilmiş anlatım» تعني: شرح مبسط."
+    },
+    {
+      "id": "c2-u14-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "ينبغي الحفاظ على المعنى الأساسي عند تبسيط النتيجة التقنية.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ينبغي الحفاظ على المعنى الأساسي عند تبسيط النتيجة التقنية."
+    },
+    {
+      "id": "c2-u14-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "sadeleştirilmiş anlatım",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «sadeleştirilmiş anlatım». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان شرح مبسط في سياق تخصصي متقدم",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إتقان شرح مبسط في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "أنشئ مخرجاً تقنياً حول تبسيط النتائج لغير المتخصصين، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أنشئ مخرجاً تقنياً حول تبسيط النتائج لغير المتخصصين، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u14",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 555
   }
 }

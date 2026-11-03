@@ -13,18 +13,106 @@
     "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
     "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تسهيل اتفاق دون فرض حل على الأطراف.",
+  "rule": "حدد القضايا المشتركة، واطلب خيارات، واختبر قابلية التنفيذ، وصغ اتفاقاً واضحاً.",
+  "vocabulary": [
+    {
+      "term": "uzlaşma arabuluculuğu",
+      "meaningAr": "وساطة توافقية",
+      "exampleTr": "Tarafların kabul edebileceği seçenekleri birlikte geliştirdik.",
+      "exampleAr": "طورنا معاً خيارات يمكن للأطراف قبولها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tarafların kabul edebileceği seçenekleri birlikte geliştirdik.",
+      "ar": "طورنا معاً خيارات يمكن للأطراف قبولها."
+    },
+    {
+      "tr": "Ortak zemini tarafların kendi ifadeleriyle tanımladım.",
+      "ar": "حددت الأرضية المشتركة بتعبيرات الأطراف نفسها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Çözümü biz mi sunacağız؟",
+      "ar": "هل نقدم الحل نحن؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Seçenekleri tarafların geliştirmesini kolaylaştıralım.",
+      "ar": "لنسهل على الأطراف تطوير الخيارات."
+    }
+  ],
+  "speakingTask": "نفذ محاكاة وساطة واكتب اتفاقاً يتضمن مسؤوليات ومواعيد.",
+  "questions": [
+    {
+      "id": "c2-u12-05-q1",
+      "prompt": "ما معنى «uzlaşma arabuluculuğu»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "وساطة توافقية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«uzlaşma arabuluculuğu» تعني: وساطة توافقية."
+    },
+    {
+      "id": "c2-u12-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "طورنا معاً خيارات يمكن للأطراف قبولها.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "طورنا معاً خيارات يمكن للأطراف قبولها."
+    },
+    {
+      "id": "c2-u12-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "arabuluculuk",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «arabuluculuk». حدد القضايا المشتركة، واطلب خيارات، واختبر قابلية التنفيذ، وصغ اتفاقاً واضحاً."
+    },
+    {
+      "id": "c2-u12-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "بناء التوافق بين أطراف مختلفة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "بناء التوافق بين أطراف مختلفة."
+    },
+    {
+      "id": "c2-u12-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نفذ محاكاة وساطة واكتب اتفاقاً يتضمن مسؤوليات ومواعيد.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "نفذ محاكاة وساطة واكتب اتفاقاً يتضمن مسؤوليات ومواعيد."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u12",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 535
   }
 }

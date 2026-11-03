@@ -13,18 +13,106 @@
     "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
     "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تنفيذ مشروع بحث من السؤال حتى التقرير والعرض والدفاع.",
+  "rule": "اجمع التصميم والبيانات والتحليل والكتابة والتوثيق والعرض في مسار متسق.",
+  "vocabulary": [
+    {
+      "term": "bütünleşik dil araştırması",
+      "meaningAr": "بحث لغوي متكامل",
+      "exampleTr": "Araştırmayı tasarımdan sunuma kadar tutarlı bir yöntemle tamamladım.",
+      "exampleAr": "أكملت البحث بمنهج متسق من التصميم حتى العرض."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Araştırmayı tasarımdan sunuma kadar tutarlı bir yöntemle tamamladım.",
+      "ar": "أكملت البحث بمنهج متسق من التصميم حتى العرض."
+    },
+    {
+      "tr": "Her aşamayı araştırma sorusuyla ilişkilendirdim.",
+      "ar": "ربطت كل مرحلة بسؤال البحث."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Projenin son kontrolünde neye bakacağız؟",
+      "ar": "ما الذي نراجعه أخيراً في المشروع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tutarlılık, kaynaklar ve bulguların dayanağı.",
+      "ar": "الاتساق والمصادر وأساس النتائج."
+    }
+  ],
+  "speakingTask": "أنجز بحثاً قصيراً مع ملخص ومنهج ونتائج ومناقشة ومراجع وعرض.",
+  "questions": [
+    {
+      "id": "c2-u11-10-q1",
+      "prompt": "ما معنى «bütünleşik dil araştırması»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "بحث لغوي متكامل",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«bütünleşik dil araştırması» تعني: بحث لغوي متكامل."
+    },
+    {
+      "id": "c2-u11-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أكملت البحث بمنهج متسق من التصميم حتى العرض."
+      ],
+      "answerIndex": 3,
+      "explanation": "أكملت البحث بمنهج متسق من التصميم حتى العرض."
+    },
+    {
+      "id": "c2-u11-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "araştırma projesi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «araştırma projesi». اجمع التصميم والبيانات والتحليل والكتابة والتوثيق والعرض في مسار متسق."
+    },
+    {
+      "id": "c2-u11-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إنجاز مشروع بحث لغوي كامل.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إنجاز مشروع بحث لغوي كامل."
+    },
+    {
+      "id": "c2-u11-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنجز بحثاً قصيراً مع ملخص ومنهج ونتائج ومناقشة ومراجع وعرض."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنجز بحثاً قصيراً مع ملخص ومنهج ونتائج ومناقشة ومراجع وعرض."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u11",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 530
   }
 }

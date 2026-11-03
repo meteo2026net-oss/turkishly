@@ -13,18 +13,106 @@
     "titleTr": "İleri Liderlik ve Stratejik İletişim",
     "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحويل التحليل إلى سياسة مكتوبة تحدد المبادئ والأدوار والمراجعة.",
+  "rule": "حدد الغرض والنطاق والتعاريف والمسؤوليات والإجراءات والاستثناءات وآلية التحديث.",
+  "vocabulary": [
+    {
+      "term": "kurumsal politika",
+      "meaningAr": "سياسة مؤسسية",
+      "exampleTr": "Politika belgesi, sorumlulukları ve uygulama ilkelerini açıkça tanımlıyor.",
+      "exampleAr": "تحدد وثيقة السياسة المسؤوليات ومبادئ التنفيذ بوضوح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Politika belgesi, sorumlulukları ve uygulama ilkelerini açıkça tanımlıyor.",
+      "ar": "تحدد وثيقة السياسة المسؤوليات ومبادئ التنفيذ بوضوح."
+    },
+    {
+      "tr": "Politika metnini uygulanabilir hükümlerle yapılandırdım.",
+      "ar": "نظمت وثيقة السياسة بأحكام قابلة للتطبيق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İlke yeterince açık mı؟",
+      "ar": "هل المبدأ واضح بما يكفي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Uygulama ve sorumluluk maddeleriyle desteklenmeli.",
+      "ar": "ينبغي دعمه ببنود التنفيذ والمسؤولية."
+    }
+  ],
+  "speakingTask": "اكتب مسودة سياسة من صفحة واحدة مع الأدوار والاستثناءات.",
+  "questions": [
+    {
+      "id": "c2-u3-03-q1",
+      "prompt": "ما معنى «kurumsal politika»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "سياسة مؤسسية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«kurumsal politika» تعني: سياسة مؤسسية."
+    },
+    {
+      "id": "c2-u3-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "تحدد وثيقة السياسة المسؤوليات ومبادئ التنفيذ بوضوح.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "تحدد وثيقة السياسة المسؤوليات ومبادئ التنفيذ بوضوح."
+    },
+    {
+      "id": "c2-u3-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "politika metni",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «politika metni». حدد الغرض والنطاق والتعاريف والمسؤوليات والإجراءات والاستثناءات وآلية التحديث."
+    },
+    {
+      "id": "c2-u3-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "صياغة قواعد مؤسسية قابلة للتطبيق.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "صياغة قواعد مؤسسية قابلة للتطبيق."
+    },
+    {
+      "id": "c2-u3-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب مسودة سياسة من صفحة واحدة مع الأدوار والاستثناءات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب مسودة سياسة من صفحة واحدة مع الأدوار والاستثناءات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_course_data.dart",
     "legacyUnitId": "c2-u3",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 443
   }
 }

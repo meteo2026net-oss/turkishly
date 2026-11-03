@@ -13,18 +13,106 @@
     "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
     "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحليل الأطر والافتراضات واللغة الإقناعية في الخطاب السياسي.",
+  "rule": "افصل مضمون الادعاء عن طريقة تأطيره، وحدد الجمهور والمصلحة والافتراضات.",
+  "vocabulary": [
+    {
+      "term": "siyasal çerçeveleme",
+      "meaningAr": "تأطير سياسي",
+      "exampleTr": "Konuşma, aynı politikayı güvenlik ve özgürlük kavramlarıyla farklı biçimde sunuyor.",
+      "exampleAr": "يعرض الخطاب السياسة نفسها بصورتين مختلفتين عبر مفهومي الأمن والحرية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Konuşma, aynı politikayı güvenlik ve özgürlük kavramlarıyla farklı biçimde sunuyor.",
+      "ar": "يعرض الخطاب السياسة نفسها بصورتين مختلفتين عبر مفهومي الأمن والحرية."
+    },
+    {
+      "tr": "Söylemin çerçevesini ve varsayımlarını ayırdım.",
+      "ar": "فصلت إطار الخطاب وافتراضاته."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi kavram öne çıkarılıyor؟",
+      "ar": "أي مفهوم يجري إبرازه؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Güvenlik vurgusu, diğer boyutları geri plana itiyor.",
+      "ar": "يضع التركيز على الأمن الأبعاد الأخرى في الخلفية."
+    }
+  ],
+  "speakingTask": "حلل خطاباً سياسياً وحدد ثلاثة أطر ونتائجها على المتلقي.",
+  "questions": [
+    {
+      "id": "c2-u4-01-q1",
+      "prompt": "ما معنى «siyasal çerçeveleme»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تأطير سياسي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«siyasal çerçeveleme» تعني: تأطير سياسي."
+    },
+    {
+      "id": "c2-u4-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يعرض الخطاب السياسة نفسها بصورتين مختلفتين عبر مفهومي الأمن والحرية.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يعرض الخطاب السياسة نفسها بصورتين مختلفتين عبر مفهومي الأمن والحرية."
+    },
+    {
+      "id": "c2-u4-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "siyasal söylem çözümlemesi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «siyasal söylem çözümlemesi». افصل مضمون الادعاء عن طريقة تأطيره، وحدد الجمهور والمصلحة والافتراضات."
+    },
+    {
+      "id": "c2-u4-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحليل التأطير واللغة السياسية.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحليل التأطير واللغة السياسية."
+    },
+    {
+      "id": "c2-u4-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حلل خطاباً سياسياً وحدد ثلاثة أطر ونتائجها على المتلقي.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حلل خطاباً سياسياً وحدد ثلاثة أطر ونتائجها على المتلقي."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u4",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 451
   }
 }

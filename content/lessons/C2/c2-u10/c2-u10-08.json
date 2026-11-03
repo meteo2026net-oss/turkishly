@@ -13,18 +13,106 @@
     "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
     "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تركيب أطروحة تجمع مصادر متعارضة دون تسطيح اختلافها.",
+  "rule": "حدد الادعاء المركزي، وصنف المصادر، ووازن الأدلة، وبيّن حدود الاستنتاج.",
+  "vocabulary": [
+    {
+      "term": "çok kaynaklı sav",
+      "meaningAr": "أطروحة متعددة المصادر",
+      "exampleTr": "Farklı kaynakları karşılaştırarak daha sınırlı ama savunulabilir bir sonuç geliştirdim.",
+      "exampleAr": "طورت نتيجة أكثر تحديداً لكنها قابلة للدفاع عبر مقارنة مصادر مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Farklı kaynakları karşılaştırarak daha sınırlı ama savunulabilir bir sonuç geliştirdim.",
+      "ar": "طورت نتيجة أكثر تحديداً لكنها قابلة للدفاع عبر مقارنة مصادر مختلفة."
+    },
+    {
+      "tr": "Kaynaklar arasındaki uyuşmazlıkları görünür kıldım.",
+      "ar": "أظهرت أوجه التعارض بين المصادر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Çelişen kaynakları dışlayalım mı؟",
+      "ar": "هل نستبعد المصادر المتعارضة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce farklılıkların nedenini inceleyelim.",
+      "ar": "لنبحث أولاً سبب الاختلافات."
+    }
+  ],
+  "speakingTask": "اكتب أطروحة مدعومة بأربعة مصادر متباينة وناقش حدودها.",
+  "questions": [
+    {
+      "id": "c2-u10-08-q1",
+      "prompt": "ما معنى «çok kaynaklı sav»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "أطروحة متعددة المصادر",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«çok kaynaklı sav» تعني: أطروحة متعددة المصادر."
+    },
+    {
+      "id": "c2-u10-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "طورت نتيجة أكثر تحديداً لكنها قابلة للدفاع عبر مقارنة مصادر مختلفة."
+      ],
+      "answerIndex": 3,
+      "explanation": "طورت نتيجة أكثر تحديداً لكنها قابلة للدفاع عبر مقارنة مصادر مختلفة."
+    },
+    {
+      "id": "c2-u10-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "eleştirel sentez",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «eleştirel sentez». حدد الادعاء المركزي، وصنف المصادر، ووازن الأدلة، وبيّن حدود الاستنتاج."
+    },
+    {
+      "id": "c2-u10-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تركيب نقدي للأدلة والمواقف.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تركيب نقدي للأدلة والمواقف."
+    },
+    {
+      "id": "c2-u10-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب أطروحة مدعومة بأربعة مصادر متباينة وناقش حدودها."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب أطروحة مدعومة بأربعة مصادر متباينة وناقش حدودها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u10",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 518
   }
 }

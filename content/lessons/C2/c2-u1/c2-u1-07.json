@@ -13,18 +13,106 @@
     "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
     "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحليل الاستنتاجات عندما تكون البيانات ناقصة أو متعارضة.",
+  "rule": "صرح بدرجة عدم اليقين، وحدد نطاق الاستنتاج والسيناريوهات البديلة.",
+  "vocabulary": [
+    {
+      "term": "belirsizlik payı",
+      "meaningAr": "هامش عدم اليقين",
+      "exampleTr": "Veriler kesin bir sonuca izin vermediği için olasılıkları ayrı değerlendirdik.",
+      "exampleAr": "لأن البيانات لا تسمح بنتيجة قطعية، قيّمنا الاحتمالات بصورة منفصلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Veriler kesin bir sonuca izin vermediği için olasılıkları ayrı değerlendirdik.",
+      "ar": "لأن البيانات لا تسمح بنتيجة قطعية، قيّمنا الاحتمالات بصورة منفصلة."
+    },
+    {
+      "tr": "Belirsizlik düzeyini açıkça ifade ettim.",
+      "ar": "عبرت عن مستوى عدم اليقين بوضوح."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Kesin konuşabilir miyiz؟",
+      "ar": "هل يمكننا التحدث بيقين؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kanıtların sınırını aşmamalıyız.",
+      "ar": "لا ينبغي تجاوز حدود الأدلة."
+    }
+  ],
+  "speakingTask": "اكتب تحليلاً يميز ما نعرفه وما نرجحه وما لا نعرفه.",
+  "questions": [
+    {
+      "id": "c2-u1-07-q1",
+      "prompt": "ما معنى «belirsizlik payı»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "هامش عدم اليقين"
+      ],
+      "answerIndex": 3,
+      "explanation": "«belirsizlik payı» تعني: هامش عدم اليقين."
+    },
+    {
+      "id": "c2-u1-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لأن البيانات لا تسمح بنتيجة قطعية، قيّمنا الاحتمالات بصورة منفصلة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "لأن البيانات لا تسمح بنتيجة قطعية، قيّمنا الاحتمالات بصورة منفصلة."
+    },
+    {
+      "id": "c2-u1-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "belirsizlik altında değerlendirme",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «belirsizlik altında değerlendirme». صرح بدرجة عدم اليقين، وحدد نطاق الاستنتاج والسيناريوهات البديلة."
+    },
+    {
+      "id": "c2-u1-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تقدير النتائج مع الاعتراف بعدم اليقين.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقدير النتائج مع الاعتراف بعدم اليقين."
+    },
+    {
+      "id": "c2-u1-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب تحليلاً يميز ما نعرفه وما نرجحه وما لا نعرفه.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب تحليلاً يميز ما نعرفه وما نرجحه وما لا نعرفه."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_course_data.dart",
     "legacyUnitId": "c2-u1",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 427
   }
 }

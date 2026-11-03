@@ -13,18 +13,106 @@
     "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
     "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "كتابة اتفاق يحدد الالتزامات والشروط والاستثناءات وآلية المتابعة.",
+  "rule": "استخدم مصطلحات محددة، وحدد المسؤول والموعد ومؤشر التنفيذ وإجراء معالجة الخلاف.",
+  "vocabulary": [
+    {
+      "term": "mutabakat metni",
+      "meaningAr": "وثيقة تفاهم",
+      "exampleTr": "Anlaşmada sorumluluklar ve uygulama takvimi açıkça belirtildi.",
+      "exampleAr": "وُضحت المسؤوليات والجدول التنفيذي في الاتفاق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Anlaşmada sorumluluklar ve uygulama takvimi açıkça belirtildi.",
+      "ar": "وُضحت المسؤوليات والجدول التنفيذي في الاتفاق."
+    },
+    {
+      "tr": "Anlaşma maddelerini belirsizliğe yer bırakmadan yazdım.",
+      "ar": "كتبت بنود الاتفاق دون ترك مجال للغموض."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu madde yoruma açık mı؟",
+      "ar": "هل هذا البند قابل لتفسيرات متعددة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Sorumlu ve süreyi açıkça belirtmeliyiz.",
+      "ar": "ينبغي تحديد المسؤول والمدة بوضوح."
+    }
+  ],
+  "speakingTask": "اكتب مسودة اتفاق بين مؤسستين تتضمن ستة بنود واضحة.",
+  "questions": [
+    {
+      "id": "c2-u6-02-q1",
+      "prompt": "ما معنى «mutabakat metni»؟",
+      "options": [
+        "وثيقة تفاهم",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«mutabakat metni» تعني: وثيقة تفاهم."
+    },
+    {
+      "id": "c2-u6-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "وُضحت المسؤوليات والجدول التنفيذي في الاتفاق.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "وُضحت المسؤوليات والجدول التنفيذي في الاتفاق."
+    },
+    {
+      "id": "c2-u6-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "anlaşma hükümleri",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «anlaşma hükümleri». استخدم مصطلحات محددة، وحدد المسؤول والموعد ومؤشر التنفيذ وإجراء معالجة الخلاف."
+    },
+    {
+      "id": "c2-u6-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "صياغة التزامات قابلة للفهم والمتابعة."
+      ],
+      "answerIndex": 3,
+      "explanation": "صياغة التزامات قابلة للفهم والمتابعة."
+    },
+    {
+      "id": "c2-u6-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "اكتب مسودة اتفاق بين مؤسستين تتضمن ستة بنود واضحة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "اكتب مسودة اتفاق بين مؤسستين تتضمن ستة بنود واضحة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u6",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 472
   }
 }

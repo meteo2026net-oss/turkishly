@@ -13,18 +13,106 @@
     "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
     "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحليل القيم والمبادئ التي تقوم عليها حجة أخلاقية.",
+  "rule": "حدد المبدأ الأخلاقي والجهات المتأثرة والتعارض بين القيم ثم ناقش الموازنة.",
+  "vocabulary": [
+    {
+      "term": "etik gerekçe",
+      "meaningAr": "مبرر أخلاقي",
+      "exampleTr": "Kararın adil olup olmadığı, yalnızca sonucuna değil ilkesine de bağlıdır.",
+      "exampleAr": "لا يتوقف عدل القرار على نتيجته فحسب بل على مبدئه أيضاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kararın adil olup olmadığı, yalnızca sonucuna değil ilkesine de bağlıdır.",
+      "ar": "لا يتوقف عدل القرار على نتيجته فحسب بل على مبدئه أيضاً."
+    },
+    {
+      "tr": "Etik ilkeleri ve olası sonuçları birlikte değerlendirdim.",
+      "ar": "قيّمت المبادئ الأخلاقية والنتائج المحتملة معاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "En önemli ölçüt sonuç mu؟",
+      "ar": "هل النتيجة هي المعيار الأهم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "İlke, haklar ve sonuç birlikte ele alınmalı.",
+      "ar": "ينبغي تناول المبدأ والحقوق والنتيجة معاً."
+    }
+  ],
+  "speakingTask": "حلل قضية أخلاقية وحدد قيمتين متعارضتين وحجة لكل منهما.",
+  "questions": [
+    {
+      "id": "c2-u4-04-q1",
+      "prompt": "ما معنى «etik gerekçe»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مبرر أخلاقي",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«etik gerekçe» تعني: مبرر أخلاقي."
+    },
+    {
+      "id": "c2-u4-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "لا يتوقف عدل القرار على نتيجته فحسب بل على مبدئه أيضاً."
+      ],
+      "answerIndex": 3,
+      "explanation": "لا يتوقف عدل القرار على نتيجته فحسب بل على مبدئه أيضاً."
+    },
+    {
+      "id": "c2-u4-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "etik argümantasyon",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «etik argümantasyon». حدد المبدأ الأخلاقي والجهات المتأثرة والتعارض بين القيم ثم ناقش الموازنة."
+    },
+    {
+      "id": "c2-u4-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تحليل المبررات والقيم الأخلاقية.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحليل المبررات والقيم الأخلاقية."
+    },
+    {
+      "id": "c2-u4-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل قضية أخلاقية وحدد قيمتين متعارضتين وحجة لكل منهما."
+      ],
+      "answerIndex": 3,
+      "explanation": "حلل قضية أخلاقية وحدد قيمتين متعارضتين وحجة لكل منهما."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u4",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 454
   }
 }

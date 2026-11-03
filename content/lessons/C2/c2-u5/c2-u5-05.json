@@ -13,18 +13,106 @@
     "titleTr": "Uzman Akademik Editörlük ve Yayın",
     "description": "التحرير البنيوي وإدارة المصطلحات والتوثيق والتحرير متعدد التخصصات والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تطبيق قواعد موحدة للنبرة والمصطلحات والترقيم والإحالات.",
+  "rule": "حوّل دليل الأسلوب إلى قائمة تحقق وطبقها آلياً وبشرياً على كامل النص.",
+  "vocabulary": [
+    {
+      "term": "stil kılavuzu",
+      "meaningAr": "دليل أسلوبي",
+      "exampleTr": "Tüm yazarlar aynı stil kılavuzuna göre metni düzenledi.",
+      "exampleAr": "حرر جميع الكتّاب النص وفق دليل الأسلوب نفسه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tüm yazarlar aynı stil kılavuzuna göre metni düzenledi.",
+      "ar": "حرر جميع الكتّاب النص وفق دليل الأسلوب نفسه."
+    },
+    {
+      "tr": "Stil birliğini belge boyunca korudum.",
+      "ar": "حافظت على وحدة الأسلوب في الوثيقة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Küçük biçim farkları önemli mi؟",
+      "ar": "هل الفروق الشكلية الصغيرة مهمة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yayın bütünlüğü için tutarlılık gerekir.",
+      "ar": "الاتساق ضروري لوحدة النشر."
+    }
+  ],
+  "speakingTask": "أنشئ صفحة دليل أسلوب وطبقها على مقالين مختلفين.",
+  "questions": [
+    {
+      "id": "c2-u5-05-q1",
+      "prompt": "ما معنى «stil kılavuzu»؟",
+      "options": [
+        "طلب الإذن",
+        "دليل أسلوبي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«stil kılavuzu» تعني: دليل أسلوبي."
+    },
+    {
+      "id": "c2-u5-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حرر جميع الكتّاب النص وفق دليل الأسلوب نفسه.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "حرر جميع الكتّاب النص وفق دليل الأسلوب نفسه."
+    },
+    {
+      "id": "c2-u5-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "editoryal standart"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «editoryal standart». حوّل دليل الأسلوب إلى قائمة تحقق وطبقها آلياً وبشرياً على كامل النص."
+    },
+    {
+      "id": "c2-u5-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "توحيد معايير التحرير.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "توحيد معايير التحرير."
+    },
+    {
+      "id": "c2-u5-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ صفحة دليل أسلوب وطبقها على مقالين مختلفين.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أنشئ صفحة دليل أسلوب وطبقها على مقالين مختلفين."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u5",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 465
   }
 }

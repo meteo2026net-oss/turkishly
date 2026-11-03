@@ -13,18 +13,106 @@
     "titleTr": "Hukuk Dili ve Resmî Belge Yazımı",
     "description": "قراءة النصوص القانونية وتحليل الأحكام وصياغة العقود والمذكرات والوثائق الرسمية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "اللغة القانونية وصياغة الوثائق الرسمية",
+  "rule": "حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة.",
+  "vocabulary": [
+    {
+      "term": "hukuki belge paketi",
+      "meaningAr": "حزمة وثائق قانونية",
+      "exampleTr": "Belgeler arasında terim ve yükümlülük tutarlılığı sağlanmalıdır.",
+      "exampleAr": "ينبغي ضمان الاتساق في المصطلحات والالتزامات بين الوثائق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Belgeler arasında terim ve yükümlülük tutarlılığı sağlanmalıdır.",
+      "ar": "ينبغي ضمان الاتساق في المصطلحات والالتزامات بين الوثائق."
+    },
+    {
+      "tr": "Belgeler arasında terim ve yükümlülük tutarlılığı sağlanmalıdır.",
+      "ar": "ينبغي ضمان الاتساق في المصطلحات والالتزامات بين الوثائق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "hukuki belge paketi konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في حزمة وثائق قانونية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "حلل نموذجاً افتراضياً متعلقاً بموضوع مشروع الوثائق القانونية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u13-10-q1",
+      "prompt": "ما معنى «hukuki belge paketi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "حزمة وثائق قانونية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«hukuki belge paketi» تعني: حزمة وثائق قانونية."
+    },
+    {
+      "id": "c2-u13-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ينبغي ضمان الاتساق في المصطلحات والالتزامات بين الوثائق."
+      ],
+      "answerIndex": 3,
+      "explanation": "ينبغي ضمان الاتساق في المصطلحات والالتزامات بين الوثائق."
+    },
+    {
+      "id": "c2-u13-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "hukuki belge paketi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «hukuki belge paketi». حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة."
+    },
+    {
+      "id": "c2-u13-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إتقان حزمة وثائق قانونية في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إتقان حزمة وثائق قانونية في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u13-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل نموذجاً افتراضياً متعلقاً بموضوع مشروع الوثائق القانونية، ثم وثق خطواتك والنتائج ومعايير الجودة."
+      ],
+      "answerIndex": 3,
+      "explanation": "حلل نموذجاً افتراضياً متعلقاً بموضوع مشروع الوثائق القانونية، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u13",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 550
   }
 }

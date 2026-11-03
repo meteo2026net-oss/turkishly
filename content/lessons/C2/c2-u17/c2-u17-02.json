@@ -13,18 +13,106 @@
     "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
     "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "طابق درجة الرسمية والمسافة الاجتماعية ونبرة النص الأصلي مع سياق اللغة الهدف.",
+  "rule": "طابق درجة الرسمية والمسافة الاجتماعية ونبرة النص الأصلي مع سياق اللغة الهدف.",
+  "vocabulary": [
+    {
+      "term": "dil düzeyi",
+      "meaningAr": "السجل اللغوي",
+      "exampleTr": "Resmî hitabı hedef metinde de tutarlı biçimde koruduk.",
+      "exampleAr": "حافظنا على أسلوب المخاطبة الرسمي باتساق في النص الهدف."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Resmî hitabı hedef metinde de tutarlı biçimde koruduk.",
+      "ar": "حافظنا على أسلوب المخاطبة الرسمي باتساق في النص الهدف."
+    },
+    {
+      "tr": "Dil düzeyi, konuşanlar arasındaki ilişkiyi yansıtır.",
+      "ar": "يعكس السجل اللغوي العلاقة بين المتحدثين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Burada samimi bir ifade uygun mu?",
+      "ar": "هل تناسب هنا عبارة ودية؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kurumsal bağlam nedeniyle resmî dil daha doğru.",
+      "ar": "بسبب السياق المؤسسي فاللغة الرسمية أنسب."
+    }
+  ],
+  "speakingTask": "ترجم العبارة نفسها بثلاث درجات: رسمية ومحايدة وودية، واشرح الاختلاف.",
+  "questions": [
+    {
+      "id": "c2-u17-02-q1",
+      "prompt": "ما معنى «dil düzeyi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "السجل اللغوي",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«dil düzeyi» تعني: السجل اللغوي."
+    },
+    {
+      "id": "c2-u17-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حافظنا على أسلوب المخاطبة الرسمي باتساق في النص الهدف."
+      ],
+      "answerIndex": 3,
+      "explanation": "حافظنا على أسلوب المخاطبة الرسمي باتساق في النص الهدف."
+    },
+    {
+      "id": "c2-u17-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "resmiyet derecesi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «resmiyet derecesi». طابق درجة الرسمية والمسافة الاجتماعية ونبرة النص الأصلي مع سياق اللغة الهدف."
+    },
+    {
+      "id": "c2-u17-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "درجة الرسمية",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "درجة الرسمية"
+    },
+    {
+      "id": "c2-u17-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "ترجم العبارة نفسها بثلاث درجات: رسمية ومحايدة وودية، واشرح الاختلاف."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجم العبارة نفسها بثلاث درجات: رسمية ومحايدة وودية، واشرح الاختلاف."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u17",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 582
   }
 }

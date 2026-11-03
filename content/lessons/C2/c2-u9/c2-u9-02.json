@@ -13,18 +13,106 @@
     "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
     "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحديد المخاطر التعاقدية والتشغيلية وتوزيع مسؤوليتها.",
+  "rule": "حدد احتمال الخطر وأثره وإجراء التخفيف والمسؤول عن المتابعة.",
+  "vocabulary": [
+    {
+      "term": "risk paylaşımı",
+      "meaningAr": "تقاسم المخاطر",
+      "exampleTr": "Risklerin hangi tarafça yönetileceğini sözleşmede açıkça belirledik.",
+      "exampleAr": "حددنا بوضوح في العقد الطرف المسؤول عن إدارة المخاطر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Risklerin hangi tarafça yönetileceğini sözleşmede açıkça belirledik.",
+      "ar": "حددنا بوضوح في العقد الطرف المسؤول عن إدارة المخاطر."
+    },
+    {
+      "tr": "Riskleri olasılık ve etki bakımından sınıflandırdım.",
+      "ar": "صنفت المخاطر بحسب الاحتمال والأثر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tüm riski tek taraf mı üstlenmeli؟",
+      "ar": "هل يتحمل طرف واحد كل المخاطر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kontrol gücüne göre dengeli paylaşım yapılmalı.",
+      "ar": "ينبغي توزيعها بتوازن وفق القدرة على التحكم."
+    }
+  ],
+  "speakingTask": "أعد جدول مخاطر لاتفاق بين مؤسستين مع خطة تخفيف.",
+  "questions": [
+    {
+      "id": "c2-u9-02-q1",
+      "prompt": "ما معنى «risk paylaşımı»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تقاسم المخاطر",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«risk paylaşımı» تعني: تقاسم المخاطر."
+    },
+    {
+      "id": "c2-u9-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حددنا بوضوح في العقد الطرف المسؤول عن إدارة المخاطر."
+      ],
+      "answerIndex": 3,
+      "explanation": "حددنا بوضوح في العقد الطرف المسؤول عن إدارة المخاطر."
+    },
+    {
+      "id": "c2-u9-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "risk yönetimi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «risk yönetimi». حدد احتمال الخطر وأثره وإجراء التخفيف والمسؤول عن المتابعة."
+    },
+    {
+      "id": "c2-u9-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "توزيع مسؤوليات المخاطر ومتابعتها.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "توزيع مسؤوليات المخاطر ومتابعتها."
+    },
+    {
+      "id": "c2-u9-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أعد جدول مخاطر لاتفاق بين مؤسستين مع خطة تخفيف."
+      ],
+      "answerIndex": 3,
+      "explanation": "أعد جدول مخاطر لاتفاق بين مؤسستين مع خطة تخفيف."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u9",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 502
   }
 }

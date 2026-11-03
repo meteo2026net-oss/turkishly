@@ -13,18 +13,106 @@
     "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
     "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تصميم تفاوض متعدد المراحل مع أهداف ومراجعات متتابعة.",
+  "rule": "حدد النتائج المرحلية والبدائل ونقاط إعادة التفاوض وآلية فض الخلاف.",
+  "vocabulary": [
+    {
+      "term": "uzun vadeli müzakere",
+      "meaningAr": "تفاوض طويل المدى",
+      "exampleTr": "Aşamalı hedefler belirleyerek uzun vadeli anlaşmanın çerçevesini kurduk.",
+      "exampleAr": "وضعنا إطار الاتفاق طويل المدى عبر تحديد أهداف مرحلية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Aşamalı hedefler belirleyerek uzun vadeli anlaşmanın çerçevesini kurduk.",
+      "ar": "وضعنا إطار الاتفاق طويل المدى عبر تحديد أهداف مرحلية."
+    },
+    {
+      "tr": "Müzakere hedeflerini aşamalara ayırdım.",
+      "ar": "قسمت أهداف التفاوض إلى مراحل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her aşamada anlaşma kesin mi؟",
+      "ar": "هل الاتفاق مؤكد في كل مرحلة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Sonuçlar ara değerlendirmelere bağlı olacak.",
+      "ar": "ستعتمد النتائج على التقييمات المرحلية."
+    }
+  ],
+  "speakingTask": "صمم استراتيجية تفاوض من ثلاث مراحل مع بدائل ومؤشرات نجاح.",
+  "questions": [
+    {
+      "id": "c2-u9-01-q1",
+      "prompt": "ما معنى «uzun vadeli müzakere»؟",
+      "options": [
+        "طلب الإذن",
+        "تفاوض طويل المدى",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«uzun vadeli müzakere» تعني: تفاوض طويل المدى."
+    },
+    {
+      "id": "c2-u9-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "وضعنا إطار الاتفاق طويل المدى عبر تحديد أهداف مرحلية.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "وضعنا إطار الاتفاق طويل المدى عبر تحديد أهداف مرحلية."
+    },
+    {
+      "id": "c2-u9-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "müzakere stratejisi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «müzakere stratejisi». حدد النتائج المرحلية والبدائل ونقاط إعادة التفاوض وآلية فض الخلاف."
+    },
+    {
+      "id": "c2-u9-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تخطيط تفاوض متعدد المراحل.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تخطيط تفاوض متعدد المراحل."
+    },
+    {
+      "id": "c2-u9-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "صمم استراتيجية تفاوض من ثلاث مراحل مع بدائل ومؤشرات نجاح.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "صمم استراتيجية تفاوض من ثلاث مراحل مع بدائل ومؤشرات نجاح."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u9",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 501
   }
 }

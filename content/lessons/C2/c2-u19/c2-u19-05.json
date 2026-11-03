@@ -13,18 +13,106 @@
     "titleTr": "İleri Uygulamalı Araştırma ve Araştırma Tasarımı",
     "description": "تصميم المناهج المختلطة والقياس والاستدلال السببي وتحليل الحساسية وكتابة تقارير قابلة لإعادة الإنتاج."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم الاستدلال السببي وحدود الارتباط في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "nedensel çıkarım",
+      "meaningAr": "الاستدلال السببي",
+      "exampleTr": "Gözlenen ilişki tek başına nedensel bir etkiyi kanıtlamaz.",
+      "exampleAr": "العلاقة الملحوظة وحدها لا تثبت وجود تأثير سببي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Gözlenen ilişki tek başına nedensel bir etkiyi kanıtlamaz.",
+      "ar": "العلاقة الملحوظة وحدها لا تثبت وجود تأثير سببي."
+    },
+    {
+      "tr": "Nedensel iddialar uygun araştırma tasarımı gerektirir.",
+      "ar": "تتطلب الادعاءات السببية تصميماً بحثياً مناسباً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İki değişken birlikte artıyor.",
+      "ar": "متغيران يزدادان معاً."
+    },
+    {
+      "speaker": "B",
+      "tr": "Bu durum neden-sonuç ilişkisini kanıtlamaz.",
+      "ar": "هذا لا يثبت علاقة السبب والنتيجة."
+    }
+  ],
+  "speakingTask": "اكتب تفسيرين بديلين لعلاقة إحصائية وحدد بيانات التمييز بينهما.",
+  "questions": [
+    {
+      "id": "c2-u19-05-q1",
+      "prompt": "ما المقصود بالمصطلح «nedensel çıkarım»؟",
+      "options": [
+        "طلب الإذن",
+        "الاستدلال السببي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«nedensel çıkarım» يعني: الاستدلال السببي."
+    },
+    {
+      "id": "c2-u19-05-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "العلاقة الملحوظة وحدها لا تثبت وجود تأثير سببي.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "العلاقة الملحوظة وحدها لا تثبت وجود تأثير سببي."
+    },
+    {
+      "id": "c2-u19-05-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karıştırıcı değişken"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة: karıştırıcı değişken. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u19-05-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تمييز الارتباط عن السببية وفحص العوامل المربكة",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تمييز الارتباط عن السببية وفحص العوامل المربكة"
+    },
+    {
+      "id": "c2-u19-05-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب تفسيرين بديلين لعلاقة إحصائية وحدد بيانات التمييز بينهما.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب تفسيرين بديلين لعلاقة إحصائية وحدد بيانات التمييز بينهما."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_global_course_data.dart",
     "legacyUnitId": "c2-u19",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 605
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
     "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "دمج التفاوض والاتفاقات والتواصل المؤسسي وإدارة الأزمات.",
+  "rule": "حدد أصحاب المصلحة، وصغ الاتفاق، وأدر الرسائل، ثم قيّم الأثر والنتائج.",
+  "vocabulary": [
+    {
+      "term": "stratejik liderlik projesi",
+      "meaningAr": "مشروع قيادة استراتيجية",
+      "exampleTr": "Proje boyunca müzakere, kriz iletişimi ve etki değerlendirmesini birleştirdik.",
+      "exampleAr": "جمعنا طوال المشروع بين التفاوض والتواصل في الأزمات وتقييم الأثر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Proje boyunca müzakere, kriz iletişimi ve etki değerlendirmesini birleştirdik.",
+      "ar": "جمعنا طوال المشروع بين التفاوض والتواصل في الأزمات وتقييم الأثر."
+    },
+    {
+      "tr": "Liderlik kararlarını ölçülebilir sonuçlarla değerlendirdim.",
+      "ar": "قيّمت قرارات القيادة بنتائج قابلة للقياس."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Projenin başarısını ne belirliyor؟",
+      "ar": "ما الذي يحدد نجاح المشروع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tutarlı kararlar, açık iletişim ve izlenebilir sonuçlar.",
+      "ar": "قرارات متسقة وتواصل واضح ونتائج قابلة للمتابعة."
+    }
+  ],
+  "speakingTask": "نفذ محاكاة مؤسسية كاملة مع تقرير ختامي وتقييم ذاتي.",
+  "questions": [
+    {
+      "id": "c2-u9-10-q1",
+      "prompt": "ما معنى «stratejik liderlik projesi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مشروع قيادة استراتيجية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«stratejik liderlik projesi» تعني: مشروع قيادة استراتيجية."
+    },
+    {
+      "id": "c2-u9-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "جمعنا طوال المشروع بين التفاوض والتواصل في الأزمات وتقييم الأثر."
+      ],
+      "answerIndex": 3,
+      "explanation": "جمعنا طوال المشروع بين التفاوض والتواصل في الأزمات وتقييم الأثر."
+    },
+    {
+      "id": "c2-u9-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "bütünleşik liderlik",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «bütünleşik liderlik». حدد أصحاب المصلحة، وصغ الاتفاق، وأدر الرسائل، ثم قيّم الأثر والنتائج."
+    },
+    {
+      "id": "c2-u9-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إدارة مشروع استراتيجي متعدد الأبعاد.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إدارة مشروع استراتيجي متعدد الأبعاد."
+    },
+    {
+      "id": "c2-u9-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "نفذ محاكاة مؤسسية كاملة مع تقرير ختامي وتقييم ذاتي."
+      ],
+      "answerIndex": 3,
+      "explanation": "نفذ محاكاة مؤسسية كاملة مع تقرير ختامي وتقييم ذاتي."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u9",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 510
   }
 }

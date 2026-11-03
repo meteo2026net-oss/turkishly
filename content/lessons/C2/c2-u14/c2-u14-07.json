@@ -13,18 +13,106 @@
     "titleTr": "İleri Bilimsel ve Teknik İletişim",
     "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "yazılım yerelleştirmesi",
+      "meaningAr": "توطين البرمجيات",
+      "exampleTr": "Yerelleştirme tarih, sayı, arayüz ve kültürel uyarlamayı kapsar.",
+      "exampleAr": "يشمل التوطين تكييف التاريخ والأرقام والواجهة والثقافة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yerelleştirme tarih, sayı, arayüz ve kültürel uyarlamayı kapsar.",
+      "ar": "يشمل التوطين تكييف التاريخ والأرقام والواجهة والثقافة."
+    },
+    {
+      "tr": "Yerelleştirme tarih, sayı, arayüz ve kültürel uyarlamayı kapsar.",
+      "ar": "يشمل التوطين تكييف التاريخ والأرقام والواجهة والثقافة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "yazılım yerelleştirmesi konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في توطين البرمجيات؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول توطين البرمجيات، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-07-q1",
+      "prompt": "ما معنى «yazılım yerelleştirmesi»؟",
+      "options": [
+        "طلب الإذن",
+        "توطين البرمجيات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«yazılım yerelleştirmesi» تعني: توطين البرمجيات."
+    },
+    {
+      "id": "c2-u14-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يشمل التوطين تكييف التاريخ والأرقام والواجهة والثقافة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "يشمل التوطين تكييف التاريخ والأرقام والواجهة والثقافة."
+    },
+    {
+      "id": "c2-u14-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "yazılım yerelleştirmesi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «yazılım yerelleştirmesi». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إتقان توطين البرمجيات في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إتقان توطين البرمجيات في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ مخرجاً تقنياً حول توطين البرمجيات، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أنشئ مخرجاً تقنياً حول توطين البرمجيات، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u14",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 557
   }
 }

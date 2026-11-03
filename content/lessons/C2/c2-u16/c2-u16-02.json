@@ -13,18 +13,106 @@
     "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
     "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "رتب القضايا بحسب الأولوية والاعتماد المتبادل، وافصل المسائل الإجرائية عن الموضوعية.",
+  "rule": "رتب القضايا بحسب الأولوية والاعتماد المتبادل، وافصل المسائل الإجرائية عن الموضوعية.",
+  "vocabulary": [
+    {
+      "term": "müzakere gündemi",
+      "meaningAr": "جدول أعمال التفاوض",
+      "exampleTr": "Gündemi ortak önceliklere göre yeniden düzenledik.",
+      "exampleAr": "أعدنا ترتيب جدول الأعمال وفق الأولويات المشتركة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Gündemi ortak önceliklere göre yeniden düzenledik.",
+      "ar": "أعدنا ترتيب جدول الأعمال وفق الأولويات المشتركة."
+    },
+    {
+      "tr": "Gündem, tartışmanın kapsamını ve sırasını netleştirir.",
+      "ar": "يوضح جدول الأعمال نطاق النقاش وترتيبه."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Önce hangi konuyu ele alalım?",
+      "ar": "أي موضوع نتناول أولاً؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Diğer kararları etkileyen konudan başlamalıyız.",
+      "ar": "ينبغي أن نبدأ بالموضوع الذي يؤثر في القرارات الأخرى."
+    }
+  ],
+  "speakingTask": "صمم جدول أعمال يحدد البنود والوقت والمسؤول عن كل بند.",
+  "questions": [
+    {
+      "id": "c2-u16-02-q1",
+      "prompt": "ما معنى «müzakere gündemi»؟",
+      "options": [
+        "جدول أعمال التفاوض",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«müzakere gündemi» تعني: جدول أعمال التفاوض."
+    },
+    {
+      "id": "c2-u16-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "أعدنا ترتيب جدول الأعمال وفق الأولويات المشتركة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "أعدنا ترتيب جدول الأعمال وفق الأولويات المشتركة."
+    },
+    {
+      "id": "c2-u16-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "öncelik sıralaması",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «öncelik sıralaması». رتب القضايا بحسب الأولوية والاعتماد المتبادل، وافصل المسائل الإجرائية عن الموضوعية."
+    },
+    {
+      "id": "c2-u16-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "ترتيب الأولويات"
+      ],
+      "answerIndex": 3,
+      "explanation": "ترتيب الأولويات"
+    },
+    {
+      "id": "c2-u16-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "صمم جدول أعمال يحدد البنود والوقت والمسؤول عن كل بند.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "صمم جدول أعمال يحدد البنود والوقت والمسؤول عن كل بند."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u16",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 572
   }
 }

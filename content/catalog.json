@@ -3548,61 +3548,61 @@
           "id": "c2-u1-01",
           "order": 1,
           "titleAr": "تحليل الخطاب متعدد الطبقات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-02",
           "order": 2,
           "titleAr": "تحليل الافتراضات المسبقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-03",
           "order": 3,
           "titleAr": "تفكيك الاستدلال المركب",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-04",
           "order": 4,
           "titleAr": "تحليل التحيز الخطابي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-05",
           "order": 5,
           "titleAr": "التحليل النقدي للمصادر الأولية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-06",
           "order": 6,
           "titleAr": "تركيب النظريات المتنافسة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-07",
           "order": 7,
           "titleAr": "تقييم الحجة تحت عدم اليقين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-08",
           "order": 8,
           "titleAr": "بناء نقد منهجي متوازن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-09",
           "order": 9,
           "titleAr": "الكتابة التحليلية متعددة المنظورات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u1-10",
           "order": 10,
           "titleAr": "مراجعة التحليل النقدي المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -3619,61 +3619,61 @@
           "id": "c2-u2-01",
           "order": 1,
           "titleAr": "التحرير الدلالي الدقيق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-02",
           "order": 2,
           "titleAr": "الترجمة المفاهيمية بين اللغتين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-03",
           "order": 3,
           "titleAr": "الترجمة والتحرير الثقافي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-04",
           "order": 4,
           "titleAr": "الكتابة بأسلوب مقتصد وعميق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-05",
           "order": 5,
           "titleAr": "التناص والتحويل الإبداعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-06",
           "order": 6,
           "titleAr": "تحليل الأسلوب الفردي للكاتب",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-07",
           "order": 7,
           "titleAr": "المراجعة النقدية للترجمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-08",
           "order": 8,
           "titleAr": "الكتابة للنشر الأكاديمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-09",
           "order": 9,
           "titleAr": "مراجعة التحرير والترجمة المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u2-10",
           "order": 10,
           "titleAr": "مشروع الترجمة والتحرير المتكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -3690,61 +3690,61 @@
           "id": "c2-u3-01",
           "order": 1,
           "titleAr": "قيادة نقاشات الخبراء",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-02",
           "order": 2,
           "titleAr": "التفاوض على المصالح المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-03",
           "order": 3,
           "titleAr": "صياغة سياسات مؤسسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-04",
           "order": 4,
           "titleAr": "التواصل الدبلوماسي وصياغة المواقف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-05",
           "order": 5,
           "titleAr": "إدارة جلسات الوساطة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-06",
           "order": 6,
           "titleAr": "تقديم إحاطة لصناع القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-07",
           "order": 7,
           "titleAr": "القيادة الفكرية والتوجيه",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-08",
           "order": 8,
           "titleAr": "إدارة النشر والمراجعة العلمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-09",
           "order": 9,
           "titleAr": "مشروع تواصل مؤسسي متقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u3-10",
           "order": 10,
           "titleAr": "المشروع الختامي المتكامل لمستوى C2",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -3761,61 +3761,61 @@
           "id": "c2-u4-01",
           "order": 1,
           "titleAr": "تفكيك الخطاب السياسي المعقد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-02",
           "order": 2,
           "titleAr": "تحليل السلطة والهوية في اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-03",
           "order": 3,
           "titleAr": "تحليل الاستعارة المفاهيمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-04",
           "order": 4,
           "titleAr": "تقييم الحجج الأخلاقية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-05",
           "order": 5,
           "titleAr": "التمييز بين الخطأ المنطقي والمغالطة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-06",
           "order": 6,
           "titleAr": "التحليل المقارن للخطاب الإعلامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-07",
           "order": 7,
           "titleAr": "الاستدلال من الأدلة المتعارضة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-08",
           "order": 8,
           "titleAr": "صياغة أطروحة أصلية متقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-09",
           "order": 9,
           "titleAr": "كتابة نقد خطابي متخصص",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u4-10",
           "order": 10,
           "titleAr": "مشروع التحليل النقدي للخطاب",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -3832,61 +3832,61 @@
           "id": "c2-u5-01",
           "order": 1,
           "titleAr": "التحرير البنيوي للنصوص الطويلة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-02",
           "order": 2,
           "titleAr": "إدارة المصطلحات في مشروع ترجمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-03",
           "order": 3,
           "titleAr": "مراجعة الأمانة العلمية والتوثيق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-04",
           "order": 4,
           "titleAr": "تحرير الملخصات متعددة التخصصات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-05",
           "order": 5,
           "titleAr": "التحرير وفق دليل أسلوبي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-06",
           "order": 6,
           "titleAr": "إدارة دورة مراجعة المخطوط",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-07",
           "order": 7,
           "titleAr": "كتابة مقدمة بحثية متقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-08",
           "order": 8,
           "titleAr": "كتابة خاتمة تركيبية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-09",
           "order": 9,
           "titleAr": "إعداد ملف النشر النهائي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u5-10",
           "order": 10,
           "titleAr": "مشروع التحرير والنشر المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -3903,61 +3903,61 @@
           "id": "c2-u6-01",
           "order": 1,
           "titleAr": "إدارة مفاوضات متعددة الأطراف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-02",
           "order": 2,
           "titleAr": "صياغة اتفاقات دقيقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-03",
           "order": 3,
           "titleAr": "التواصل في النزاعات الحساسة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-04",
           "order": 4,
           "titleAr": "التواصل بين الثقافات في المؤسسات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-05",
           "order": 5,
           "titleAr": "قيادة فريق بحثي متعدد التخصصات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-06",
           "order": 6,
           "titleAr": "التعامل مع النقد العام والإعلامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-07",
           "order": 7,
           "titleAr": "تصميم استراتيجية تواصل طويلة المدى",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-08",
           "order": 8,
           "titleAr": "تقديم عرض استراتيجي لمجلس الإدارة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-09",
           "order": 9,
           "titleAr": "تقييم أثر القيادة والتواصل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u6-10",
           "order": 10,
           "titleAr": "المشروع الختامي المتقدم لمستوى C2",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -3974,61 +3974,61 @@
           "id": "c2-u7-01",
           "order": 1,
           "titleAr": "تحليل الأداء الشفهي عالي التعقيد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-02",
           "order": 2,
           "titleAr": "التحليل الفوري للمداخلات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-03",
           "order": 3,
           "titleAr": "التفسير المتزامن للمفاهيم المتخصصة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-04",
           "order": 4,
           "titleAr": "إدارة الاختلاف الفكري الحاد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-05",
           "order": 5,
           "titleAr": "توظيف الصمت والوقفات في الإقناع",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-06",
           "order": 6,
           "titleAr": "الرد على الأسئلة المركبة والمتعددة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-07",
           "order": 7,
           "titleAr": "المناظرة القائمة على النماذج التفسيرية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-08",
           "order": 8,
           "titleAr": "إدارة الحوار متعدد اللغات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-09",
           "order": 9,
           "titleAr": "تقييم أثر الخطاب الشفهي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u7-10",
           "order": 10,
           "titleAr": "مشروع الخطاب الشفهي المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4045,61 +4045,61 @@
           "id": "c2-u8-01",
           "order": 1,
           "titleAr": "الترجمة المتخصصة للمفاهيم النظرية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-02",
           "order": 2,
           "titleAr": "تحرير الترجمة الأدبية متعددة الطبقات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-03",
           "order": 3,
           "titleAr": "التوطين اللغوي والثقافي المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-04",
           "order": 4,
           "titleAr": "إدارة الغموض في الترجمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-05",
           "order": 5,
           "titleAr": "المراجعة المقارنة بين الترجمات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-06",
           "order": 6,
           "titleAr": "التحرير الأسلوبي للنصوص متعددة المؤلفين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-07",
           "order": 7,
           "titleAr": "تقييم الجودة الترجمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-08",
           "order": 8,
           "titleAr": "الترجمة في السياق المؤسسي والقانوني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-09",
           "order": 9,
           "titleAr": "مشروع الترجمة المتخصصة والنشر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u8-10",
           "order": 10,
           "titleAr": "مراجعة الترجمة والتحرير المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4116,61 +4116,61 @@
           "id": "c2-u9-01",
           "order": 1,
           "titleAr": "بناء استراتيجية تفاوض طويلة المدى",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-02",
           "order": 2,
           "titleAr": "إدارة المخاطر في الاتفاقات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-03",
           "order": 3,
           "titleAr": "صياغة مذكرات القرار الاستراتيجي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-04",
           "order": 4,
           "titleAr": "التواصل مع الجهات التنظيمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-05",
           "order": 5,
           "titleAr": "إدارة السمعة والثقة المؤسسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-06",
           "order": 6,
           "titleAr": "التخطيط لسيناريوهات الأزمات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-07",
           "order": 7,
           "titleAr": "تقييم أثر السياسات والقرارات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-08",
           "order": 8,
           "titleAr": "قيادة التغيير المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-09",
           "order": 9,
           "titleAr": "تقديم تقرير استراتيجي شامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u9-10",
           "order": 10,
           "titleAr": "مشروع القيادة والتواصل المتكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4187,61 +4187,61 @@
           "id": "c2-u10-01",
           "order": 1,
           "titleAr": "تحليل الخطاب السياسي المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-02",
           "order": 2,
           "titleAr": "تحليل الاستعارة المفاهيمية في الخطاب العام",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-03",
           "order": 3,
           "titleAr": "التعرف إلى المغالطات الحجاجية المركبة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-04",
           "order": 4,
           "titleAr": "تحليل الصمت والحذف في النصوص",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-05",
           "order": 5,
           "titleAr": "تحليل التناص والإحالات الثقافية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-06",
           "order": 6,
           "titleAr": "تحليل خطاب الأزمات والمعلومات المضللة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-07",
           "order": 7,
           "titleAr": "مقارنة الخطاب الإعلامي والعلمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-08",
           "order": 8,
           "titleAr": "بناء أطروحة نقدية متعددة المصادر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-09",
           "order": 9,
           "titleAr": "إعداد ندوة أكاديمية نقدية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u10-10",
           "order": 10,
           "titleAr": "مشروع تحليل الخطاب المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4258,61 +4258,61 @@
           "id": "c2-u11-01",
           "order": 1,
           "titleAr": "تصميم بحث لغوي متقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-02",
           "order": 2,
           "titleAr": "اختيار المنهج وأدوات جمع البيانات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-03",
           "order": 3,
           "titleAr": "تحليل المدونات اللغوية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-04",
           "order": 4,
           "titleAr": "تفسير النتائج الكمية والنوعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-05",
           "order": 5,
           "titleAr": "توثيق المصادر والنزاهة الأكاديمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-06",
           "order": 6,
           "titleAr": "كتابة قسم المنهجية والنتائج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-07",
           "order": 7,
           "titleAr": "مناقشة النتائج والقيود",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-08",
           "order": 8,
           "titleAr": "التحكيم العلمي والرد على المراجعين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-09",
           "order": 9,
           "titleAr": "العرض العلمي والدفاع عن البحث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u11-10",
           "order": 10,
           "titleAr": "مشروع البحث اللغوي المتكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4329,61 +4329,61 @@
           "id": "c2-u12-01",
           "order": 1,
           "titleAr": "التواصل الدبلوماسي الدقيق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-02",
           "order": 2,
           "titleAr": "إدارة التفاوض متعدد الثقافات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-03",
           "order": 3,
           "titleAr": "صياغة البروتوكولات والبيانات الرسمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-04",
           "order": 4,
           "titleAr": "التواصل أثناء المفاوضات الحساسة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-05",
           "order": 5,
           "titleAr": "الوساطة وصناعة التوافق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-06",
           "order": 6,
           "titleAr": "إدارة فرق الخبراء الدولية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-07",
           "order": 7,
           "titleAr": "صياغة اتفاقات متعددة الأطراف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-08",
           "order": 8,
           "titleAr": "التواصل الاستراتيجي في المؤسسات الدولية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-09",
           "order": 9,
           "titleAr": "إدارة الخلافات المؤسسية العابرة للحدود",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u12-10",
           "order": 10,
           "titleAr": "المشروع الختامي المتقدم لمستوى C2",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4400,61 +4400,61 @@
           "id": "c2-u13-01",
           "order": 1,
           "titleAr": "تفسير النصوص القانونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-02",
           "order": 2,
           "titleAr": "المصطلحات القانونية التركية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-03",
           "order": 3,
           "titleAr": "صياغة بنود العقود",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-04",
           "order": 4,
           "titleAr": "التمييز بين الالتزام والإذن والمنع",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-05",
           "order": 5,
           "titleAr": "ترجمة الوثائق الرسمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-06",
           "order": 6,
           "titleAr": "التحفظات والغموض القانوني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-07",
           "order": 7,
           "titleAr": "تحليل الأحكام والقرارات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-08",
           "order": 8,
           "titleAr": "كتابة مذكرة قانونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-09",
           "order": 9,
           "titleAr": "التفاوض حول البنود",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u13-10",
           "order": 10,
           "titleAr": "مشروع الوثائق القانونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4471,61 +4471,61 @@
           "id": "c2-u14-01",
           "order": 1,
           "titleAr": "كتابة المواصفات التقنية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-02",
           "order": 2,
           "titleAr": "توثيق الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-03",
           "order": 3,
           "titleAr": "تحليل المخاطر التقنية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-04",
           "order": 4,
           "titleAr": "عرض النتائج للمتخصصين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-05",
           "order": 5,
           "titleAr": "تبسيط النتائج لغير المتخصصين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-06",
           "order": 6,
           "titleAr": "إدارة المصطلحات المتخصصة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-07",
           "order": 7,
           "titleAr": "توطين البرمجيات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-08",
           "order": 8,
           "titleAr": "كتابة الملخص التنفيذي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-09",
           "order": 9,
           "titleAr": "مشروع التوثيق التقني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u14-10",
           "order": 10,
           "titleAr": "التقرير التقني المتكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4542,61 +4542,61 @@
           "id": "c2-u15-01",
           "order": 1,
           "titleAr": "الاستماع تحت ضغط",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-02",
           "order": 2,
           "titleAr": "تقسيم الرسالة وإعادة بنائها",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-03",
           "order": 3,
           "titleAr": "تدوين الرموز والملاحظات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-04",
           "order": 4,
           "titleAr": "نقل الأرقام والأسماء بدقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-05",
           "order": 5,
           "titleAr": "الترجمة التتابعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-06",
           "order": 6,
           "titleAr": "إدارة المصطلحات الحية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-07",
           "order": 7,
           "titleAr": "معالجة الالتباس أثناء الترجمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-08",
           "order": 8,
           "titleAr": "مراجعة الأداء الشفهي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-09",
           "order": 9,
           "titleAr": "إدارة جلسة متعددة المتحدثين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u15-10",
           "order": 10,
           "titleAr": "مشروع الترجمة الشفوية المتكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4613,61 +4613,61 @@
           "id": "c2-u16-01",
           "order": 1,
           "titleAr": "التحضير للتفاوض متعدد الأطراف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-02",
           "order": 2,
           "titleAr": "صياغة جدول أعمال تفاوضي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-03",
           "order": 3,
           "titleAr": "التمييز بين المواقف والمصالح",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-04",
           "order": 4,
           "titleAr": "تقديم مقترحات مشروطة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-05",
           "order": 5,
           "titleAr": "معالجة الجمود التفاوضي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-06",
           "order": 6,
           "titleAr": "إعادة الصياغة لبناء التوافق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-07",
           "order": 7,
           "titleAr": "إدارة التنازلات المتبادلة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-08",
           "order": 8,
           "titleAr": "صياغة بنود الاتفاق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-09",
           "order": 9,
           "titleAr": "متابعة تنفيذ الاتفاق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u16-10",
           "order": 10,
           "titleAr": "مشروع تفاوض ووساطة متكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4684,61 +4684,61 @@
           "id": "c2-u17-01",
           "order": 1,
           "titleAr": "تحليل صوت الكاتب وأسلوبه",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-02",
           "order": 2,
           "titleAr": "اختيار السجل اللغوي في الترجمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-03",
           "order": 3,
           "titleAr": "ترجمة التعبيرات الاصطلاحية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-04",
           "order": 4,
           "titleAr": "نقل الاستعارة والصورة البلاغية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-05",
           "order": 5,
           "titleAr": "إيقاع الجملة وبنيتها",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-06",
           "order": 6,
           "titleAr": "إدارة الغموض المقصود",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-07",
           "order": 7,
           "titleAr": "نقل الإحالات الثقافية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-08",
           "order": 8,
           "titleAr": "ترجمة الحوار والشخصيات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-09",
           "order": 9,
           "titleAr": "مراجعة الترجمة الأدبية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u17-10",
           "order": 10,
           "titleAr": "ملف إنجاز الترجمة الأدبية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4755,61 +4755,61 @@
           "id": "c2-u18-01",
           "order": 1,
           "titleAr": "التحقق المتقاطع من المصادر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-02",
           "order": 2,
           "titleAr": "تفسير الادعاءات الإحصائية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-03",
           "order": 3,
           "titleAr": "التعبير عن عدم اليقين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-04",
           "order": 4,
           "titleAr": "تحليل تأطير المعلومات المضللة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-05",
           "order": 5,
           "titleAr": "تحليل صياغة العناوين الصحفية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-06",
           "order": 6,
           "titleAr": "إجراء مقابلة متعمقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-07",
           "order": 7,
           "titleAr": "كتابة موجز سياساتي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-08",
           "order": 8,
           "titleAr": "التواصل العام المبني على الأدلة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-09",
           "order": 9,
           "titleAr": "مراجعة متكاملة للخطاب العام",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u18-10",
           "order": 10,
           "titleAr": "المشروع الختامي المتقدم لمستوى C2",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4826,61 +4826,61 @@
           "id": "c2-u19-01",
           "order": 1,
           "titleAr": "التخطيط البحثي متعدد المناهج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-02",
           "order": 2,
           "titleAr": "بناء إطار مفاهيمي قابل للاختبار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-03",
           "order": 3,
           "titleAr": "تقويم صلاحية أدوات القياس",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-04",
           "order": 4,
           "titleAr": "تحليل البيانات المفقودة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-05",
           "order": 5,
           "titleAr": "الاستدلال السببي وحدود الارتباط",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-06",
           "order": 6,
           "titleAr": "تفسير فواصل الثقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-07",
           "order": 7,
           "titleAr": "تحليل الحساسية والمتانة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-08",
           "order": 8,
           "titleAr": "تركيب الأدلة المتعارضة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-09",
           "order": 9,
           "titleAr": "كتابة مناقشة علمية متوازنة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u19-10",
           "order": 10,
           "titleAr": "إعداد تقرير بحثي قابل لإعادة الإنتاج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4897,61 +4897,61 @@
           "id": "c2-u20-01",
           "order": 1,
           "titleAr": "هندسة المصطلحات في المجالات المتخصصة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-02",
           "order": 2,
           "titleAr": "إدارة الغموض الدلالي في الترجمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-03",
           "order": 3,
           "titleAr": "التكافؤ التداولي والثقافي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-04",
           "order": 4,
           "titleAr": "تحرير النصوص متعددة المؤلفين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-05",
           "order": 5,
           "titleAr": "ترجمة الاستعارات المفاهيمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-06",
           "order": 6,
           "titleAr": "مراجعة الترجمة بمقاييس الجودة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-07",
           "order": 7,
           "titleAr": "توطين المحتوى الرقمي متعدد الثقافات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-08",
           "order": 8,
           "titleAr": "التحرير القانوني المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-09",
           "order": 9,
           "titleAr": "صياغة ملخص تنفيذي متعدد الجماهير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u20-10",
           "order": 10,
           "titleAr": "مشروع تحرير وترجمة متكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -4968,61 +4968,61 @@
           "id": "c2-u21-01",
           "order": 1,
           "titleAr": "تصميم سياسة عامة قائمة على الأدلة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-02",
           "order": 2,
           "titleAr": "تقييم الأثر التنظيمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-03",
           "order": 3,
           "titleAr": "إدارة أصحاب المصلحة في البرامج الدولية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-04",
           "order": 4,
           "titleAr": "صياغة مذكرة قرار للقيادة العليا",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-05",
           "order": 5,
           "titleAr": "التواصل المؤسسي أثناء الأزمات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-06",
           "order": 6,
           "titleAr": "التفاوض على اتفاقات متعددة الأطراف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-07",
           "order": 7,
           "titleAr": "قياس مؤشرات الأداء والأثر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-08",
           "order": 8,
           "titleAr": "إدارة المخاطر والافتراضات البرنامجية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-09",
           "order": 9,
           "titleAr": "تقديم إحاطة استراتيجية متعددة المستويات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u21-10",
           "order": 10,
           "titleAr": "المشروع الختامي المتقدم لمستوى C2",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5039,61 +5039,61 @@
           "id": "c2-u22-01",
           "order": 1,
           "titleAr": "صياغة رؤية استراتيجية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-02",
           "order": 2,
           "titleAr": "تحليل جاهزية المؤسسة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-03",
           "order": 3,
           "titleAr": "إدارة مقاومة التغيير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-04",
           "order": 4,
           "titleAr": "بناء تحالفات التغيير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-05",
           "order": 5,
           "titleAr": "تحديد مؤشرات التحول",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-06",
           "order": 6,
           "titleAr": "تطوير ثقافة التعلم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-07",
           "order": 7,
           "titleAr": "إدارة المعرفة المؤسسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-08",
           "order": 8,
           "titleAr": "قيادة فرق متعددة التخصصات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-09",
           "order": 9,
           "titleAr": "تقييم نضج المؤسسة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u22-10",
           "order": 10,
           "titleAr": "مشروع قيادة التحول",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5110,61 +5110,61 @@
           "id": "c2-u23-01",
           "order": 1,
           "titleAr": "تحليل سلاسل القيمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-02",
           "order": 2,
           "titleAr": "اقتصاديات الابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-03",
           "order": 3,
           "titleAr": "سياسات سوق العمل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-04",
           "order": 4,
           "titleAr": "تحليل الإنتاجية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-05",
           "order": 5,
           "titleAr": "الاقتصاد الدائري",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-06",
           "order": 6,
           "titleAr": "تمويل التنمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-07",
           "order": 7,
           "titleAr": "قياس اللامساواة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-08",
           "order": 8,
           "titleAr": "مرونة الاقتصاد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-09",
           "order": 9,
           "titleAr": "تقييم الأثر البيئي الاقتصادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u23-10",
           "order": 10,
           "titleAr": "مذكرة تنمية مستدامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5181,61 +5181,61 @@
           "id": "c2-u24-01",
           "order": 1,
           "titleAr": "حوكمة البيانات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-02",
           "order": 2,
           "titleAr": "جودة مجموعات البيانات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-03",
           "order": 3,
           "titleAr": "التحيز الخوارزمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-04",
           "order": 4,
           "titleAr": "قابلية تفسير النماذج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-05",
           "order": 5,
           "titleAr": "تقييم أثر الذكاء الاصطناعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-06",
           "order": 6,
           "titleAr": "خصوصية البيانات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-07",
           "order": 7,
           "titleAr": "إدارة دورة حياة البيانات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-08",
           "order": 8,
           "titleAr": "التواصل بشأن النتائج الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-09",
           "order": 9,
           "titleAr": "أخلاقيات الأتمتة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u24-10",
           "order": 10,
           "titleAr": "مشروع حوكمة رقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5252,61 +5252,61 @@
           "id": "c2-u25-01",
           "order": 1,
           "titleAr": "تفسير نصوص المعاهدات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-02",
           "order": 2,
           "titleAr": "الاختصاص القضائي الدولي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-03",
           "order": 3,
           "titleAr": "آليات الامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-04",
           "order": 4,
           "titleAr": "تسوية النزاعات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-05",
           "order": 5,
           "titleAr": "المسؤولية الدولية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-06",
           "order": 6,
           "titleAr": "التعاون المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-07",
           "order": 7,
           "titleAr": "صياغة المواقف القانونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-08",
           "order": 8,
           "titleAr": "تحليل السوابق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-09",
           "order": 9,
           "titleAr": "التفاوض على البروتوكولات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u25-10",
           "order": 10,
           "titleAr": "مذكرة قانونية دولية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5323,61 +5323,61 @@
           "id": "c2-u26-01",
           "order": 1,
           "titleAr": "تبسيط المفاهيم العلمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-02",
           "order": 2,
           "titleAr": "تفسير الرسوم البيانية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-03",
           "order": 3,
           "titleAr": "التحقق من الادعاءات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-04",
           "order": 4,
           "titleAr": "مقابلة الخبراء",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-05",
           "order": 5,
           "titleAr": "كتابة تقرير علمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-06",
           "order": 6,
           "titleAr": "إدارة عدم اليقين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-07",
           "order": 7,
           "titleAr": "التواصل أثناء المخاطر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-08",
           "order": 8,
           "titleAr": "السرد القائم على البيانات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-09",
           "order": 9,
           "titleAr": "مراجعة الدقة التحريرية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u26-10",
           "order": 10,
           "titleAr": "ملف صحفي علمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5394,61 +5394,61 @@
           "id": "c2-u27-01",
           "order": 1,
           "titleAr": "تحليل خريطة المصالح",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-02",
           "order": 2,
           "titleAr": "تحديد منطقة الاتفاق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-03",
           "order": 3,
           "titleAr": "التفاوض المبدئي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-04",
           "order": 4,
           "titleAr": "إدارة المواقف الصعبة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-05",
           "order": 5,
           "titleAr": "الوساطة متعددة الأطراف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-06",
           "order": 6,
           "titleAr": "صياغة حلول تبادلية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-07",
           "order": 7,
           "titleAr": "التعامل مع الجمود",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-08",
           "order": 8,
           "titleAr": "إدارة التنازلات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-09",
           "order": 9,
           "titleAr": "توثيق الاتفاق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u27-10",
           "order": 10,
           "titleAr": "محاكاة تفاوض شاملة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5465,61 +5465,61 @@
           "id": "c2-u28-01",
           "order": 1,
           "titleAr": "مرونة المدن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-02",
           "order": 2,
           "titleAr": "تقييم مخاطر المناخ",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-03",
           "order": 3,
           "titleAr": "إدارة الموارد المائية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-04",
           "order": 4,
           "titleAr": "التخطيط لاستخدام الأرض",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-05",
           "order": 5,
           "titleAr": "النقل المستدام",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-06",
           "order": 6,
           "titleAr": "العدالة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-07",
           "order": 7,
           "titleAr": "حلول الطبيعة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-08",
           "order": 8,
           "titleAr": "إدارة النفايات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-09",
           "order": 9,
           "titleAr": "مؤشرات جودة الحياة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u28-10",
           "order": 10,
           "titleAr": "خطة مدينة متكيفة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5536,61 +5536,61 @@
           "id": "c2-u29-01",
           "order": 1,
           "titleAr": "نظرية التغيير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-02",
           "order": 2,
           "titleAr": "إدارة النطاق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-03",
           "order": 3,
           "titleAr": "تخطيط الموارد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-04",
           "order": 4,
           "titleAr": "إدارة التكاليف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-05",
           "order": 5,
           "titleAr": "المشتريات والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-06",
           "order": 6,
           "titleAr": "إدارة الجودة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-07",
           "order": 7,
           "titleAr": "التقييم المرحلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-08",
           "order": 8,
           "titleAr": "إدارة الشراكات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-09",
           "order": 9,
           "titleAr": "إغلاق البرامج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u29-10",
           "order": 10,
           "titleAr": "خطة برنامج دولي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5607,61 +5607,61 @@
           "id": "c2-u30-01",
           "order": 1,
           "titleAr": "المراجعة المنهجية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-02",
           "order": 2,
           "titleAr": "تحليل المحتوى النوعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-03",
           "order": 3,
           "titleAr": "الترميز الموضوعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-04",
           "order": 4,
           "titleAr": "تصميم المقابلات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-05",
           "order": 5,
           "titleAr": "أخلاقيات البحث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-06",
           "order": 6,
           "titleAr": "الكتابة الأكاديمية المحكمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-07",
           "order": 7,
           "titleAr": "إدارة المراجع",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-08",
           "order": 8,
           "titleAr": "الرد على المحكمين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-09",
           "order": 9,
           "titleAr": "النشر المفتوح",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u30-10",
           "order": 10,
           "titleAr": "مقالة علمية متكاملة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5678,61 +5678,61 @@
           "id": "c2-u31-01",
           "order": 1,
           "titleAr": "مبادئ الحوكمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-02",
           "order": 2,
           "titleAr": "الشفافية المؤسسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-03",
           "order": 3,
           "titleAr": "المساءلة العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-04",
           "order": 4,
           "titleAr": "إدارة تضارب المصالح",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-05",
           "order": 5,
           "titleAr": "تقييم الأداء المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-06",
           "order": 6,
           "titleAr": "الاستدامة التشغيلية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-07",
           "order": 7,
           "titleAr": "إدارة أصحاب المصلحة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-08",
           "order": 8,
           "titleAr": "التدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-09",
           "order": 9,
           "titleAr": "إعداد تقرير الاستدامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u31-10",
           "order": 10,
           "titleAr": "مشروع حوكمة واستدامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5749,61 +5749,61 @@
           "id": "c2-u32-01",
           "order": 1,
           "titleAr": "تصنيف المخاطر الاستراتيجية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-02",
           "order": 2,
           "titleAr": "تحليل الاحتمال والأثر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-03",
           "order": 3,
           "titleAr": "سجل المخاطر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-04",
           "order": 4,
           "titleAr": "استمرارية الأعمال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-05",
           "order": 5,
           "titleAr": "التخطيط للسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-06",
           "order": 6,
           "titleAr": "إدارة الأزمات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-07",
           "order": 7,
           "titleAr": "مرونة سلاسل الإمداد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-08",
           "order": 8,
           "titleAr": "مخاطر السمعة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-09",
           "order": 9,
           "titleAr": "اختبارات الضغط",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u32-10",
           "order": 10,
           "titleAr": "خطة المرونة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5820,61 +5820,61 @@
           "id": "c2-u33-01",
           "order": 1,
           "titleAr": "قراءة القوائم المالية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-02",
           "order": 2,
           "titleAr": "تحليل التدفقات النقدية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-03",
           "order": 3,
           "titleAr": "تقييم الاستثمار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-04",
           "order": 4,
           "titleAr": "تكلفة رأس المال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-05",
           "order": 5,
           "titleAr": "تحليل الحساسية المالي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-06",
           "order": 6,
           "titleAr": "الموازنات التنبؤية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-07",
           "order": 7,
           "titleAr": "مؤشرات السيولة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-08",
           "order": 8,
           "titleAr": "إدارة المحافظ",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-09",
           "order": 9,
           "titleAr": "حوكمة الاستثمار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u33-10",
           "order": 10,
           "titleAr": "تقرير مالي تنفيذي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5891,61 +5891,61 @@
           "id": "c2-u34-01",
           "order": 1,
           "titleAr": "اكتشاف الفرص",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-02",
           "order": 2,
           "titleAr": "التحقق من المشكلة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-03",
           "order": 3,
           "titleAr": "تصميم نموذج الأعمال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-04",
           "order": 4,
           "titleAr": "تحليل السوق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-05",
           "order": 5,
           "titleAr": "استراتيجية المنتج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-06",
           "order": 6,
           "titleAr": "إدارة الابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-07",
           "order": 7,
           "titleAr": "تمويل المشاريع الناشئة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-08",
           "order": 8,
           "titleAr": "قياس ملاءمة المنتج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-09",
           "order": 9,
           "titleAr": "توسيع العمليات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u34-10",
           "order": 10,
           "titleAr": "خطة مشروع ريادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -5962,61 +5962,61 @@
           "id": "c2-u35-01",
           "order": 1,
           "titleAr": "تخطيط القوى العاملة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-02",
           "order": 2,
           "titleAr": "تحليل الكفاءات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-03",
           "order": 3,
           "titleAr": "إدارة المواهب",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-04",
           "order": 4,
           "titleAr": "التعلم المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-05",
           "order": 5,
           "titleAr": "تقييم الأداء",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-06",
           "order": 6,
           "titleAr": "التعاقب الوظيفي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-07",
           "order": 7,
           "titleAr": "التنوع والشمول",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-08",
           "order": 8,
           "titleAr": "تصميم الحوافز",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-09",
           "order": 9,
           "titleAr": "إدارة التغيير الثقافي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u35-10",
           "order": 10,
           "titleAr": "استراتيجية الموارد البشرية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6033,61 +6033,61 @@
           "id": "c2-u36-01",
           "order": 1,
           "titleAr": "تقسيم السوق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-02",
           "order": 2,
           "titleAr": "تحديد الجمهور المستهدف",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-03",
           "order": 3,
           "titleAr": "تموضع العلامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-04",
           "order": 4,
           "titleAr": "رحلة العميل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-05",
           "order": 5,
           "titleAr": "تحليل السلوك",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-06",
           "order": 6,
           "titleAr": "قياس قيمة العميل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-07",
           "order": 7,
           "titleAr": "استراتيجية القنوات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-08",
           "order": 8,
           "titleAr": "إدارة السمعة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-09",
           "order": 9,
           "titleAr": "تحليل الحملات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u36-10",
           "order": 10,
           "titleAr": "خطة تسويق متكاملة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6104,61 +6104,61 @@
           "id": "c2-u37-01",
           "order": 1,
           "titleAr": "تصميم الخدمات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-02",
           "order": 2,
           "titleAr": "تبسيط الإجراءات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-03",
           "order": 3,
           "titleAr": "قياس رضا المستفيدين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-04",
           "order": 4,
           "titleAr": "التحول الحكومي الرقمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-05",
           "order": 5,
           "titleAr": "إدارة المرافق",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-06",
           "order": 6,
           "titleAr": "المساءلة الإدارية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-07",
           "order": 7,
           "titleAr": "المشتريات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-08",
           "order": 8,
           "titleAr": "تقييم البرامج الحكومية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-09",
           "order": 9,
           "titleAr": "الابتكار في القطاع العام",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u37-10",
           "order": 10,
           "titleAr": "خطة تحسين الخدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6175,61 +6175,61 @@
           "id": "c2-u38-01",
           "order": 1,
           "titleAr": "تحليل الاحتياجات التعليمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-02",
           "order": 2,
           "titleAr": "صياغة نواتج التعلم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-03",
           "order": 3,
           "titleAr": "تصميم الوحدات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-04",
           "order": 4,
           "titleAr": "التقويم التكويني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-05",
           "order": 5,
           "titleAr": "التعلم القائم على المشاريع",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-06",
           "order": 6,
           "titleAr": "التعلم المدمج",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-07",
           "order": 7,
           "titleAr": "تحليل نتائج الاختبارات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-08",
           "order": 8,
           "titleAr": "التعليم الشامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-09",
           "order": 9,
           "titleAr": "تطوير المعلمين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u38-10",
           "order": 10,
           "titleAr": "تصميم منهج متكامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6246,61 +6246,61 @@
           "id": "c2-u39-01",
           "order": 1,
           "titleAr": "تحليل مزيج الطاقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-02",
           "order": 2,
           "titleAr": "كفاءة الطاقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-03",
           "order": 3,
           "titleAr": "اقتصاديات الطاقة المتجددة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-04",
           "order": 4,
           "titleAr": "تخزين الطاقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-05",
           "order": 5,
           "titleAr": "شبكات الكهرباء الذكية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-06",
           "order": 6,
           "titleAr": "سياسات خفض الانبعاثات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-07",
           "order": 7,
           "titleAr": "البصمة الكربونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-08",
           "order": 8,
           "titleAr": "تمويل التحول الأخضر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-09",
           "order": 9,
           "titleAr": "أمن الموارد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u39-10",
           "order": 10,
           "titleAr": "خطة انتقال طاقي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6317,61 +6317,61 @@
           "id": "c2-u40-01",
           "order": 1,
           "titleAr": "تحليل النظام الدولي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-02",
           "order": 2,
           "titleAr": "القوة الناعمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-03",
           "order": 3,
           "titleAr": "الدبلوماسية العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-04",
           "order": 4,
           "titleAr": "التعاون الإقليمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-05",
           "order": 5,
           "titleAr": "تحليل النزاعات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-06",
           "order": 6,
           "titleAr": "بناء الثقة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-07",
           "order": 7,
           "titleAr": "الاتفاقات الثنائية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-08",
           "order": 8,
           "titleAr": "المؤسسات الدولية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-09",
           "order": 9,
           "titleAr": "التواصل متعدد الثقافات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u40-10",
           "order": 10,
           "titleAr": "مذكرة سياسة خارجية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6388,61 +6388,61 @@
           "id": "c2-u41-01",
           "order": 1,
           "titleAr": "استراتيجية التحول الرقمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-02",
           "order": 2,
           "titleAr": "هندسة العمليات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-03",
           "order": 3,
           "titleAr": "تصميم تجربة المستخدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-04",
           "order": 4,
           "titleAr": "تكامل الأنظمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-05",
           "order": 5,
           "titleAr": "إدارة المنتجات الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-06",
           "order": 6,
           "titleAr": "حوكمة التقنية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-07",
           "order": 7,
           "titleAr": "قياس نضج التحول",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-08",
           "order": 8,
           "titleAr": "إدارة التغيير الرقمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-09",
           "order": 9,
           "titleAr": "الخدمات السحابية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u41-10",
           "order": 10,
           "titleAr": "خارطة طريق رقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6459,61 +6459,61 @@
           "id": "c2-u42-01",
           "order": 1,
           "titleAr": "تقييم الاحتياجات الصحية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-02",
           "order": 2,
           "titleAr": "مؤشرات الصحة العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-03",
           "order": 3,
           "titleAr": "تخطيط الخدمات الصحية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-04",
           "order": 4,
           "titleAr": "إدارة الجودة السريرية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-05",
           "order": 5,
           "titleAr": "الإنصاف الصحي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-06",
           "order": 6,
           "titleAr": "التواصل بشأن المخاطر الصحية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-07",
           "order": 7,
           "titleAr": "اقتصاديات الصحة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-08",
           "order": 8,
           "titleAr": "حوكمة البيانات الصحية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-09",
           "order": 9,
           "titleAr": "تقييم البرامج الوقائية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u42-10",
           "order": 10,
           "titleAr": "خطة تحسين النظام الصحي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6530,61 +6530,61 @@
           "id": "c2-u43-01",
           "order": 1,
           "titleAr": "تحليل سلاسل الغذاء",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-02",
           "order": 2,
           "titleAr": "استدامة الزراعة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-03",
           "order": 3,
           "titleAr": "إدارة الموارد الزراعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-04",
           "order": 4,
           "titleAr": "سلامة الغذاء",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-05",
           "order": 5,
           "titleAr": "مرونة الإمدادات الغذائية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-06",
           "order": 6,
           "titleAr": "تقنيات الزراعة الذكية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-07",
           "order": 7,
           "titleAr": "اقتصاديات المحاصيل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-08",
           "order": 8,
           "titleAr": "سياسات الأمن الغذائي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-09",
           "order": 9,
           "titleAr": "تقليل الفاقد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u43-10",
           "order": 10,
           "titleAr": "استراتيجية غذائية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6601,61 +6601,61 @@
           "id": "c2-u44-01",
           "order": 1,
           "titleAr": "تصميم خطة التحليل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-02",
           "order": 2,
           "titleAr": "اختيار الاختبار الإحصائي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-03",
           "order": 3,
           "titleAr": "تحليل الانحدار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-04",
           "order": 4,
           "titleAr": "النماذج متعددة المتغيرات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-05",
           "order": 5,
           "titleAr": "التحقق من الافتراضات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-06",
           "order": 6,
           "titleAr": "تحليل السلاسل الزمنية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-07",
           "order": 7,
           "titleAr": "تفسير الارتباط",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-08",
           "order": 8,
           "titleAr": "عرض عدم اليقين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-09",
           "order": 9,
           "titleAr": "إعادة إنتاج التحليل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u44-10",
           "order": 10,
           "titleAr": "تقرير إحصائي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6672,61 +6672,61 @@
           "id": "c2-u45-01",
           "order": 1,
           "titleAr": "خرائط العمليات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-02",
           "order": 2,
           "titleAr": "تحليل أسباب القصور",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-03",
           "order": 3,
           "titleAr": "مؤشرات الجودة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-04",
           "order": 4,
           "titleAr": "التحسين المستمر",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-05",
           "order": 5,
           "titleAr": "إدارة الانحرافات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-06",
           "order": 6,
           "titleAr": "التدقيق الداخلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-07",
           "order": 7,
           "titleAr": "تحليل رضا العملاء",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-08",
           "order": 8,
           "titleAr": "إدارة المعرفة التشغيلية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-09",
           "order": 9,
           "titleAr": "قياس الكفاءة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u45-10",
           "order": 10,
           "titleAr": "نموذج التميز",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6743,61 +6743,61 @@
           "id": "c2-u46-01",
           "order": 1,
           "titleAr": "إدارة المؤسسات الثقافية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-02",
           "order": 2,
           "titleAr": "صون التراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-03",
           "order": 3,
           "titleAr": "تفسير المجموعات المتحفية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-04",
           "order": 4,
           "titleAr": "السياسات الثقافية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-05",
           "order": 5,
           "titleAr": "اقتصاديات الإبداع",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-06",
           "order": 6,
           "titleAr": "التوثيق الرقمي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-07",
           "order": 7,
           "titleAr": "إشراك المجتمع",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-08",
           "order": 8,
           "titleAr": "إدارة الفعاليات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-09",
           "order": 9,
           "titleAr": "تقييم الأثر الثقافي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u46-10",
           "order": 10,
           "titleAr": "خطة ثقافية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6814,61 +6814,61 @@
           "id": "c2-u47-01",
           "order": 1,
           "titleAr": "استراتيجية المحتوى",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-02",
           "order": 2,
           "titleAr": "تحليل الجمهور",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-03",
           "order": 3,
           "titleAr": "إدارة المجتمعات الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-04",
           "order": 4,
           "titleAr": "التحقق من المعلومات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-05",
           "order": 5,
           "titleAr": "أخلاقيات الإعلام",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-06",
           "order": 6,
           "titleAr": "إدارة السمعة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-07",
           "order": 7,
           "titleAr": "اتصال الأزمات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-08",
           "order": 8,
           "titleAr": "تحليل التفاعل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-09",
           "order": 9,
           "titleAr": "السرد متعدد الوسائط",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u47-10",
           "order": 10,
           "titleAr": "خطة اتصال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6885,61 +6885,61 @@
           "id": "c2-u48-01",
           "order": 1,
           "titleAr": "تصميم الشبكات اللوجستية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-02",
           "order": 2,
           "titleAr": "تخطيط المخزون",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-03",
           "order": 3,
           "titleAr": "إدارة النقل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-04",
           "order": 4,
           "titleAr": "تحليل الطلب",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-05",
           "order": 5,
           "titleAr": "مخاطر الموردين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-06",
           "order": 6,
           "titleAr": "تحسين المسارات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-07",
           "order": 7,
           "titleAr": "التخليص والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-08",
           "order": 8,
           "titleAr": "قياس أداء الإمداد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-09",
           "order": 9,
           "titleAr": "الاستدامة اللوجستية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u48-10",
           "order": 10,
           "titleAr": "خطة سلسلة إمداد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -6956,61 +6956,61 @@
           "id": "c2-u49-01",
           "order": 1,
           "titleAr": "تحليل استعمالات الأرض",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-02",
           "order": 2,
           "titleAr": "التصميم الحضري",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-03",
           "order": 3,
           "titleAr": "التجديد العمراني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-04",
           "order": 4,
           "titleAr": "إدارة المساحات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-05",
           "order": 5,
           "titleAr": "التراث العمراني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-06",
           "order": 6,
           "titleAr": "التصميم الشامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-07",
           "order": 7,
           "titleAr": "كفاءة المباني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-08",
           "order": 8,
           "titleAr": "التخطيط التشاركي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-09",
           "order": 9,
           "titleAr": "مؤشرات المكان",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u49-10",
           "order": 10,
           "titleAr": "مخطط تطوير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7027,61 +7027,61 @@
           "id": "c2-u50-01",
           "order": 1,
           "titleAr": "إدارة أصول المعلومات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-02",
           "order": 2,
           "titleAr": "تقييم مخاطر المعلومات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-03",
           "order": 3,
           "titleAr": "حوكمة الوصول",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-04",
           "order": 4,
           "titleAr": "الاستجابة للحوادث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-05",
           "order": 5,
           "titleAr": "استمرارية الخدمات الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-06",
           "order": 6,
           "titleAr": "الامتثال المعلوماتي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-07",
           "order": 7,
           "titleAr": "إدارة الموردين التقنيين",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-08",
           "order": 8,
           "titleAr": "التوعية الأمنية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-09",
           "order": 9,
           "titleAr": "تقييم الضوابط",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u50-10",
           "order": 10,
           "titleAr": "إطار حوكمة معلومات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7098,61 +7098,61 @@
           "id": "c2-u51-01",
           "order": 1,
           "titleAr": "تحليل قضية مركبة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-02",
           "order": 2,
           "titleAr": "بناء حجة تخصصية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-03",
           "order": 3,
           "titleAr": "إعداد تقرير تنفيذي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-04",
           "order": 4,
           "titleAr": "تقديم عرض احترافي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-05",
           "order": 5,
           "titleAr": "إدارة جلسة نقاش",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-06",
           "order": 6,
           "titleAr": "صياغة توصية قابلة للتنفيذ",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-07",
           "order": 7,
           "titleAr": "مراجعة نقدية ذاتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-08",
           "order": 8,
           "titleAr": "تقييم أثر المشروع",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-09",
           "order": 9,
           "titleAr": "ملف إنجاز مهني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u51-10",
           "order": 10,
           "titleAr": "مشروع التخرج الشامل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7169,61 +7169,61 @@
           "id": "c2-u52-01",
           "order": 1,
           "titleAr": "التحليل الاستراتيجي وصناعة القرار: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-02",
           "order": 2,
           "titleAr": "تحليل التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-03",
           "order": 3,
           "titleAr": "تطبيقات التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-04",
           "order": 4,
           "titleAr": "معايير تقييم التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-05",
           "order": 5,
           "titleAr": "التحديات في التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-07",
           "order": 7,
           "titleAr": "دراسة حالة في التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-08",
           "order": 8,
           "titleAr": "قياس أثر التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u52-10",
           "order": 10,
           "titleAr": "مشروع التحليل الاستراتيجي وصناعة القرار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7240,61 +7240,61 @@
           "id": "c2-u53-01",
           "order": 1,
           "titleAr": "الاستشراف المستقبلي والسيناريوهات: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-02",
           "order": 2,
           "titleAr": "تحليل الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-03",
           "order": 3,
           "titleAr": "تطبيقات الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-04",
           "order": 4,
           "titleAr": "معايير تقييم الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-05",
           "order": 5,
           "titleAr": "التحديات في الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-07",
           "order": 7,
           "titleAr": "دراسة حالة في الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-08",
           "order": 8,
           "titleAr": "قياس أثر الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u53-10",
           "order": 10,
           "titleAr": "مشروع الاستشراف المستقبلي والسيناريوهات",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7311,61 +7311,61 @@
           "id": "c2-u54-01",
           "order": 1,
           "titleAr": "التواصل الأكاديمي والخطاب المتقدم: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-02",
           "order": 2,
           "titleAr": "تحليل التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-03",
           "order": 3,
           "titleAr": "تطبيقات التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-04",
           "order": 4,
           "titleAr": "معايير تقييم التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-05",
           "order": 5,
           "titleAr": "التحديات في التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-07",
           "order": 7,
           "titleAr": "دراسة حالة في التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-08",
           "order": 8,
           "titleAr": "قياس أثر التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u54-10",
           "order": 10,
           "titleAr": "مشروع التواصل الأكاديمي والخطاب المتقدم",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7382,61 +7382,61 @@
           "id": "c2-u55-01",
           "order": 1,
           "titleAr": "الترجمة المتخصصة والتحرير: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-02",
           "order": 2,
           "titleAr": "تحليل الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-03",
           "order": 3,
           "titleAr": "تطبيقات الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-04",
           "order": 4,
           "titleAr": "معايير تقييم الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-05",
           "order": 5,
           "titleAr": "التحديات في الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-07",
           "order": 7,
           "titleAr": "دراسة حالة في الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-08",
           "order": 8,
           "titleAr": "قياس أثر الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u55-10",
           "order": 10,
           "titleAr": "مشروع الترجمة المتخصصة والتحرير",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7453,61 +7453,61 @@
           "id": "c2-u56-01",
           "order": 1,
           "titleAr": "علم الاجتماع والسياسات المجتمعية: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-02",
           "order": 2,
           "titleAr": "تحليل علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-03",
           "order": 3,
           "titleAr": "تطبيقات علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-04",
           "order": 4,
           "titleAr": "معايير تقييم علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-05",
           "order": 5,
           "titleAr": "التحديات في علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-07",
           "order": 7,
           "titleAr": "دراسة حالة في علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-08",
           "order": 8,
           "titleAr": "قياس أثر علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u56-10",
           "order": 10,
           "titleAr": "مشروع علم الاجتماع والسياسات المجتمعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7524,61 +7524,61 @@
           "id": "c2-u57-01",
           "order": 1,
           "titleAr": "المياه والمناخ والأنظمة البيئية: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-02",
           "order": 2,
           "titleAr": "تحليل المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-03",
           "order": 3,
           "titleAr": "تطبيقات المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-04",
           "order": 4,
           "titleAr": "معايير تقييم المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-05",
           "order": 5,
           "titleAr": "التحديات في المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-07",
           "order": 7,
           "titleAr": "دراسة حالة في المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-08",
           "order": 8,
           "titleAr": "قياس أثر المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u57-10",
           "order": 10,
           "titleAr": "مشروع المياه والمناخ والأنظمة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7595,61 +7595,61 @@
           "id": "c2-u58-01",
           "order": 1,
           "titleAr": "إدارة المؤسسات والتميز القيادي: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-02",
           "order": 2,
           "titleAr": "تحليل إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-03",
           "order": 3,
           "titleAr": "تطبيقات إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-04",
           "order": 4,
           "titleAr": "معايير تقييم إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-05",
           "order": 5,
           "titleAr": "التحديات في إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-07",
           "order": 7,
           "titleAr": "دراسة حالة في إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-08",
           "order": 8,
           "titleAr": "قياس أثر إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u58-10",
           "order": 10,
           "titleAr": "مشروع إدارة المؤسسات والتميز القيادي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7666,61 +7666,61 @@
           "id": "c2-u59-01",
           "order": 1,
           "titleAr": "العلوم والتقنيات المتقدمة: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-02",
           "order": 2,
           "titleAr": "تحليل العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-03",
           "order": 3,
           "titleAr": "تطبيقات العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-04",
           "order": 4,
           "titleAr": "معايير تقييم العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-05",
           "order": 5,
           "titleAr": "التحديات في العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-07",
           "order": 7,
           "titleAr": "دراسة حالة في العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-08",
           "order": 8,
           "titleAr": "قياس أثر العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u59-10",
           "order": 10,
           "titleAr": "مشروع العلوم والتقنيات المتقدمة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7737,61 +7737,61 @@
           "id": "c2-u60-01",
           "order": 1,
           "titleAr": "التخطيط المالي والاقتصاد الكلي: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-02",
           "order": 2,
           "titleAr": "تحليل التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-03",
           "order": 3,
           "titleAr": "تطبيقات التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-04",
           "order": 4,
           "titleAr": "معايير تقييم التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-05",
           "order": 5,
           "titleAr": "التحديات في التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-07",
           "order": 7,
           "titleAr": "دراسة حالة في التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-08",
           "order": 8,
           "titleAr": "قياس أثر التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u60-10",
           "order": 10,
           "titleAr": "مشروع التخطيط المالي والاقتصاد الكلي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7808,61 +7808,61 @@
           "id": "c2-u61-01",
           "order": 1,
           "titleAr": "إدارة المدن الذكية والبنية التحتية: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-02",
           "order": 2,
           "titleAr": "تحليل إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-03",
           "order": 3,
           "titleAr": "تطبيقات إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-04",
           "order": 4,
           "titleAr": "معايير تقييم إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-05",
           "order": 5,
           "titleAr": "التحديات في إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-07",
           "order": 7,
           "titleAr": "دراسة حالة في إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-08",
           "order": 8,
           "titleAr": "قياس أثر إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u61-10",
           "order": 10,
           "titleAr": "مشروع إدارة المدن الذكية والبنية التحتية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7879,61 +7879,61 @@
           "id": "c2-u62-01",
           "order": 1,
           "titleAr": "التنمية الدولية والتعاون الإنساني: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-02",
           "order": 2,
           "titleAr": "تحليل التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-03",
           "order": 3,
           "titleAr": "تطبيقات التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-04",
           "order": 4,
           "titleAr": "معايير تقييم التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-05",
           "order": 5,
           "titleAr": "التحديات في التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-07",
           "order": 7,
           "titleAr": "دراسة حالة في التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-08",
           "order": 8,
           "titleAr": "قياس أثر التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u62-10",
           "order": 10,
           "titleAr": "مشروع التنمية الدولية والتعاون الإنساني",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -7950,61 +7950,61 @@
           "id": "c2-u63-01",
           "order": 1,
           "titleAr": "المحاسبة والتدقيق والامتثال: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-02",
           "order": 2,
           "titleAr": "تحليل المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-03",
           "order": 3,
           "titleAr": "تطبيقات المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-04",
           "order": 4,
           "titleAr": "معايير تقييم المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-05",
           "order": 5,
           "titleAr": "التحديات في المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-07",
           "order": 7,
           "titleAr": "دراسة حالة في المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-08",
           "order": 8,
           "titleAr": "قياس أثر المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u63-10",
           "order": 10,
           "titleAr": "مشروع المحاسبة والتدقيق والامتثال",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8021,61 +8021,61 @@
           "id": "c2-u64-01",
           "order": 1,
           "titleAr": "القانون والسياسات العامة: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-02",
           "order": 2,
           "titleAr": "تحليل القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-03",
           "order": 3,
           "titleAr": "تطبيقات القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-04",
           "order": 4,
           "titleAr": "معايير تقييم القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-05",
           "order": 5,
           "titleAr": "التحديات في القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-07",
           "order": 7,
           "titleAr": "دراسة حالة في القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-08",
           "order": 8,
           "titleAr": "قياس أثر القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u64-10",
           "order": 10,
           "titleAr": "مشروع القانون والسياسات العامة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8092,61 +8092,61 @@
           "id": "c2-u65-01",
           "order": 1,
           "titleAr": "إدارة المعرفة والبحث المؤسسي: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-02",
           "order": 2,
           "titleAr": "تحليل إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-03",
           "order": 3,
           "titleAr": "تطبيقات إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-04",
           "order": 4,
           "titleAr": "معايير تقييم إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-05",
           "order": 5,
           "titleAr": "التحديات في إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-07",
           "order": 7,
           "titleAr": "دراسة حالة في إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-08",
           "order": 8,
           "titleAr": "قياس أثر إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u65-10",
           "order": 10,
           "titleAr": "مشروع إدارة المعرفة والبحث المؤسسي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8163,61 +8163,61 @@
           "id": "c2-u66-01",
           "order": 1,
           "titleAr": "التصميم والابتكار الاجتماعي: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-02",
           "order": 2,
           "titleAr": "تحليل التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-03",
           "order": 3,
           "titleAr": "تطبيقات التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-04",
           "order": 4,
           "titleAr": "معايير تقييم التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-05",
           "order": 5,
           "titleAr": "التحديات في التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-07",
           "order": 7,
           "titleAr": "دراسة حالة في التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-08",
           "order": 8,
           "titleAr": "قياس أثر التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u66-10",
           "order": 10,
           "titleAr": "مشروع التصميم والابتكار الاجتماعي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8234,61 +8234,61 @@
           "id": "c2-u67-01",
           "order": 1,
           "titleAr": "إدارة السياحة والتراث: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-02",
           "order": 2,
           "titleAr": "تحليل إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-03",
           "order": 3,
           "titleAr": "تطبيقات إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-04",
           "order": 4,
           "titleAr": "معايير تقييم إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-05",
           "order": 5,
           "titleAr": "التحديات في إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-07",
           "order": 7,
           "titleAr": "دراسة حالة في إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-08",
           "order": 8,
           "titleAr": "قياس أثر إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u67-10",
           "order": 10,
           "titleAr": "مشروع إدارة السياحة والتراث",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8305,61 +8305,61 @@
           "id": "c2-u68-01",
           "order": 1,
           "titleAr": "العلوم السياسية والحكم المقارن: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-02",
           "order": 2,
           "titleAr": "تحليل العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-03",
           "order": 3,
           "titleAr": "تطبيقات العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-04",
           "order": 4,
           "titleAr": "معايير تقييم العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-05",
           "order": 5,
           "titleAr": "التحديات في العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-07",
           "order": 7,
           "titleAr": "دراسة حالة في العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-08",
           "order": 8,
           "titleAr": "قياس أثر العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u68-10",
           "order": 10,
           "titleAr": "مشروع العلوم السياسية والحكم المقارن",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8376,61 +8376,61 @@
           "id": "c2-u69-01",
           "order": 1,
           "titleAr": "اللغويات التطبيقية واكتساب اللغة: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-02",
           "order": 2,
           "titleAr": "تحليل اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-03",
           "order": 3,
           "titleAr": "تطبيقات اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-04",
           "order": 4,
           "titleAr": "معايير تقييم اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-05",
           "order": 5,
           "titleAr": "التحديات في اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-07",
           "order": 7,
           "titleAr": "دراسة حالة في اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-08",
           "order": 8,
           "titleAr": "قياس أثر اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u69-10",
           "order": 10,
           "titleAr": "مشروع اللغويات التطبيقية واكتساب اللغة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8447,61 +8447,61 @@
           "id": "c2-u70-01",
           "order": 1,
           "titleAr": "الطب الحيوي والصحة الرقمية: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-02",
           "order": 2,
           "titleAr": "تحليل الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-03",
           "order": 3,
           "titleAr": "تطبيقات الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-04",
           "order": 4,
           "titleAr": "معايير تقييم الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-05",
           "order": 5,
           "titleAr": "التحديات في الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-07",
           "order": 7,
           "titleAr": "دراسة حالة في الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-08",
           "order": 8,
           "titleAr": "قياس أثر الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u70-10",
           "order": 10,
           "titleAr": "مشروع الطب الحيوي والصحة الرقمية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8518,61 +8518,61 @@
           "id": "c2-u71-01",
           "order": 1,
           "titleAr": "الهندسة وإدارة الأنظمة المعقدة: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-02",
           "order": 2,
           "titleAr": "تحليل الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-03",
           "order": 3,
           "titleAr": "تطبيقات الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-04",
           "order": 4,
           "titleAr": "معايير تقييم الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-05",
           "order": 5,
           "titleAr": "التحديات في الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-07",
           "order": 7,
           "titleAr": "دراسة حالة في الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-08",
           "order": 8,
           "titleAr": "قياس أثر الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u71-10",
           "order": 10,
           "titleAr": "مشروع الهندسة وإدارة الأنظمة المعقدة",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8589,61 +8589,61 @@
           "id": "c2-u72-01",
           "order": 1,
           "titleAr": "البيئة البحرية والسواحل: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-02",
           "order": 2,
           "titleAr": "تحليل البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-03",
           "order": 3,
           "titleAr": "تطبيقات البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-04",
           "order": 4,
           "titleAr": "معايير تقييم البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-05",
           "order": 5,
           "titleAr": "التحديات في البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-07",
           "order": 7,
           "titleAr": "دراسة حالة في البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-08",
           "order": 8,
           "titleAr": "قياس أثر البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u72-10",
           "order": 10,
           "titleAr": "مشروع البيئة البحرية والسواحل",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8660,61 +8660,61 @@
           "id": "c2-u73-01",
           "order": 1,
           "titleAr": "إدارة البيانات الجغرافية والاستشعار عن بعد: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-02",
           "order": 2,
           "titleAr": "تحليل إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-03",
           "order": 3,
           "titleAr": "تطبيقات إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-04",
           "order": 4,
           "titleAr": "معايير تقييم إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-05",
           "order": 5,
           "titleAr": "التحديات في إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-07",
           "order": 7,
           "titleAr": "دراسة حالة في إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-08",
           "order": 8,
           "titleAr": "قياس أثر إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u73-10",
           "order": 10,
           "titleAr": "مشروع إدارة البيانات الجغرافية والاستشعار عن بعد",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8731,61 +8731,61 @@
           "id": "c2-u74-01",
           "order": 1,
           "titleAr": "القيادة الأخلاقية والمسؤولية الاجتماعية: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-02",
           "order": 2,
           "titleAr": "تحليل القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-03",
           "order": 3,
           "titleAr": "تطبيقات القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-04",
           "order": 4,
           "titleAr": "معايير تقييم القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-05",
           "order": 5,
           "titleAr": "التحديات في القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-07",
           "order": 7,
           "titleAr": "دراسة حالة في القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-08",
           "order": 8,
           "titleAr": "قياس أثر القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u74-10",
           "order": 10,
           "titleAr": "مشروع القيادة الأخلاقية والمسؤولية الاجتماعية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8802,61 +8802,61 @@
           "id": "c2-u75-01",
           "order": 1,
           "titleAr": "الاقتصاد الرقمي والتجارة الإلكترونية: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-02",
           "order": 2,
           "titleAr": "تحليل الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-03",
           "order": 3,
           "titleAr": "تطبيقات الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-04",
           "order": 4,
           "titleAr": "معايير تقييم الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-05",
           "order": 5,
           "titleAr": "التحديات في الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-07",
           "order": 7,
           "titleAr": "دراسة حالة في الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-08",
           "order": 8,
           "titleAr": "قياس أثر الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u75-10",
           "order": 10,
           "titleAr": "مشروع الاقتصاد الرقمي والتجارة الإلكترونية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8873,61 +8873,61 @@
           "id": "c2-u76-01",
           "order": 1,
           "titleAr": "الأمن الغذائي والصحة البيئية: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-02",
           "order": 2,
           "titleAr": "تحليل الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-03",
           "order": 3,
           "titleAr": "تطبيقات الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-04",
           "order": 4,
           "titleAr": "معايير تقييم الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-05",
           "order": 5,
           "titleAr": "التحديات في الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-07",
           "order": 7,
           "titleAr": "دراسة حالة في الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-08",
           "order": 8,
           "titleAr": "قياس أثر الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u76-10",
           "order": 10,
           "titleAr": "مشروع الأمن الغذائي والصحة البيئية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -8944,61 +8944,61 @@
           "id": "c2-u77-01",
           "order": 1,
           "titleAr": "إدارة البحث والتطوير والابتكار: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-02",
           "order": 2,
           "titleAr": "تحليل إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-03",
           "order": 3,
           "titleAr": "تطبيقات إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-04",
           "order": 4,
           "titleAr": "معايير تقييم إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-05",
           "order": 5,
           "titleAr": "التحديات في إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-07",
           "order": 7,
           "titleAr": "دراسة حالة في إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-08",
           "order": 8,
           "titleAr": "قياس أثر إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u77-10",
           "order": 10,
           "titleAr": "مشروع إدارة البحث والتطوير والابتكار",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     },
@@ -9015,61 +9015,61 @@
           "id": "c2-u78-01",
           "order": 1,
           "titleAr": "المهارات المتقدمة والمشروع الختامي: المفاهيم الأساسية",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-02",
           "order": 2,
           "titleAr": "تحليل المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-03",
           "order": 3,
           "titleAr": "تطبيقات المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-04",
           "order": 4,
           "titleAr": "معايير تقييم المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-05",
           "order": 5,
           "titleAr": "التحديات في المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-06",
           "order": 6,
           "titleAr": "أفضل الممارسات في المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-07",
           "order": 7,
           "titleAr": "دراسة حالة في المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-08",
           "order": 8,
           "titleAr": "قياس أثر المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-09",
           "order": 9,
           "titleAr": "استراتيجية تطوير المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         },
         {
           "id": "c2-u78-10",
           "order": 10,
           "titleAr": "مشروع المهارات المتقدمة والمشروع الختامي",
-          "contentStatus": "metadata_only"
+          "contentStatus": "full"
         }
       ]
     }
@@ -9077,8 +9077,10 @@
   "migration": {
     "strategy": "additive",
     "legacyDataRetained": true,
-    "fullLessonBodiesExported": 553,
-    "metadataOnlyLessonFiles": 719,
-    "remaining": "Fill teaching content and assessments from their legacy authored sources; do not treat metadata-only records as complete lessons."
+    "fullLessonBodiesExported": 1272,
+    "metadataOnlyLessonFiles": 0,
+    "remaining": "Fill teaching content and assessments from their legacy authored sources; do not treat metadata-only records as complete lessons.",
+    "c2Exported": 780,
+    "note": "All 1,272 catalog entries have individual JSON records. Existing legacy Dart sources remain unchanged. Additional B2 records outside the 60 B2 lessons in the canonical catalog remain unlinked exports and are not counted."
   }
 }

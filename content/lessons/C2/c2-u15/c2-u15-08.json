@@ -13,18 +13,106 @@
     "titleTr": "İleri Sözlü Çeviri ve Dilsel Arabuluculuk",
     "description": "الاستماع المتقدم والتدوين والترجمة التتابعية وإدارة المصطلحات ومراجعة الأداء."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+  "rule": "استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف.",
+  "vocabulary": [
+    {
+      "term": "sözlü performans değerlendirmesi",
+      "meaningAr": "تقييم الأداء الشفهي",
+      "exampleTr": "Kayıt üzerinden doğruluk, akıcılık ve terminoloji tutarlılığını değerlendirdim.",
+      "exampleAr": "قيّمت عبر التسجيل الدقة والطلاقة واتساق المصطلحات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kayıt üzerinden doğruluk, akıcılık ve terminoloji tutarlılığını değerlendirdim.",
+      "ar": "قيّمت عبر التسجيل الدقة والطلاقة واتساق المصطلحات."
+    },
+    {
+      "tr": "Kayıt üzerinden doğruluk, akıcılık ve terminoloji tutarlılığını değerlendirdim.",
+      "ar": "قيّمت عبر التسجيل الدقة والطلاقة واتساق المصطلحات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "sözlü performans değerlendirmesi konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في تقييم الأداء الشفهي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "نفذ تمريناً شفهياً حول مراجعة الأداء الشفهي، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u15-08-q1",
+      "prompt": "ما معنى «sözlü performans değerlendirmesi»؟",
+      "options": [
+        "تقييم الأداء الشفهي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«sözlü performans değerlendirmesi» تعني: تقييم الأداء الشفهي."
+    },
+    {
+      "id": "c2-u15-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "قيّمت عبر التسجيل الدقة والطلاقة واتساق المصطلحات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "قيّمت عبر التسجيل الدقة والطلاقة واتساق المصطلحات."
+    },
+    {
+      "id": "c2-u15-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "sözlü performans değerlendirmesi",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «sözlü performans değerlendirmesi». استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف."
+    },
+    {
+      "id": "c2-u15-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان تقييم الأداء الشفهي في سياق تخصصي متقدم"
+      ],
+      "answerIndex": 3,
+      "explanation": "إتقان تقييم الأداء الشفهي في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u15-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "نفذ تمريناً شفهياً حول مراجعة الأداء الشفهي، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "نفذ تمريناً شفهياً حول مراجعة الأداء الشفهي، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u15",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 568
   }
 }

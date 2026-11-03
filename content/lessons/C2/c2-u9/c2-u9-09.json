@@ -13,18 +13,106 @@
     "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
     "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "عرض تحليل ومخاطر وخيارات وتوصية وقياس أثر في تقرير واحد.",
+  "rule": "اجعل الملخص التنفيذي متسقاً مع التفاصيل، واربط كل توصية بدليل ومؤشر متابعة.",
+  "vocabulary": [
+    {
+      "term": "stratejik rapor",
+      "meaningAr": "تقرير استراتيجي",
+      "exampleTr": "Rapor, bulguları seçenekler ve uygulanabilir önerilerle birleştiriyor.",
+      "exampleAr": "يجمع التقرير النتائج بالخيارات والتوصيات القابلة للتنفيذ."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Rapor, bulguları seçenekler ve uygulanabilir önerilerle birleştiriyor.",
+      "ar": "يجمع التقرير النتائج بالخيارات والتوصيات القابلة للتنفيذ."
+    },
+    {
+      "tr": "Raporun her önerisini kanıt ve sorumluyla ilişkilendirdim.",
+      "ar": "ربطت كل توصية في التقرير بدليل ومسؤول."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Rapor yalnızca analiz mi sunuyor؟",
+      "ar": "هل يقدم التقرير تحليلاً فقط؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, uygulama ve izleme planı da içeriyor.",
+      "ar": "لا، يتضمن أيضاً خطة التنفيذ والمتابعة."
+    }
+  ],
+  "speakingTask": "أعد تقريراً من خمس صفحات مع ملخص تنفيذي وخطة تنفيذ.",
+  "questions": [
+    {
+      "id": "c2-u9-09-q1",
+      "prompt": "ما معنى «stratejik rapor»؟",
+      "options": [
+        "طلب الإذن",
+        "تقرير استراتيجي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«stratejik rapor» تعني: تقرير استراتيجي."
+    },
+    {
+      "id": "c2-u9-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يجمع التقرير النتائج بالخيارات والتوصيات القابلة للتنفيذ.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "يجمع التقرير النتائج بالخيارات والتوصيات القابلة للتنفيذ."
+    },
+    {
+      "id": "c2-u9-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "bütünleşik raporlama"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «bütünleşik raporlama». اجعل الملخص التنفيذي متسقاً مع التفاصيل، واربط كل توصية بدليل ومؤشر متابعة."
+    },
+    {
+      "id": "c2-u9-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إنتاج تقرير يدعم القرارات الاستراتيجية.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إنتاج تقرير يدعم القرارات الاستراتيجية."
+    },
+    {
+      "id": "c2-u9-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أعد تقريراً من خمس صفحات مع ملخص تنفيذي وخطة تنفيذ.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أعد تقريراً من خمس صفحات مع ملخص تنفيذي وخطة تنفيذ."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u9",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 509
   }
 }

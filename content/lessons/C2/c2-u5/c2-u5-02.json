@@ -13,18 +13,106 @@
     "titleTr": "Uzman Akademik Editörlük ve Yayın",
     "description": "التحرير البنيوي وإدارة المصطلحات والتوثيق والتحرير متعدد التخصصات والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "بناء قاعدة مصطلحات موحدة لمشروع طويل متعدد المشاركين.",
+  "rule": "حدد التعريف والمقابل والسياق والبدائل المرفوضة، وراجع الاتساق عبر جميع الملفات.",
+  "vocabulary": [
+    {
+      "term": "terim yönetimi",
+      "meaningAr": "إدارة المصطلحات",
+      "exampleTr": "Terim tabanını ekipçe güncelleyip bütün bölümlerde aynı karşılıkları kullandık.",
+      "exampleAr": "حدثنا قاعدة المصطلحات جماعياً واستخدمنا المقابلات نفسها في جميع الأقسام."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Terim tabanını ekipçe güncelleyip bütün bölümlerde aynı karşılıkları kullandık.",
+      "ar": "حدثنا قاعدة المصطلحات جماعياً واستخدمنا المقابلات نفسها في جميع الأقسام."
+    },
+    {
+      "tr": "Terim tercihlerini ortak bir sözlükte topladım.",
+      "ar": "جمعت اختيارات المصطلحات في معجم مشترك."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her çevirmen kendi karşılığını seçebilir mi؟",
+      "ar": "هل يختار كل مترجم مقابله؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önceden belirlenen terim politikasına uymalı.",
+      "ar": "ينبغي الالتزام بسياسة المصطلحات المحددة مسبقاً."
+    }
+  ],
+  "speakingTask": "أنشئ مسرداً من 30 مصطلحاً مع تعريف وسياق ومقابل تركي عربي.",
+  "questions": [
+    {
+      "id": "c2-u5-02-q1",
+      "prompt": "ما معنى «terim yönetimi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "إدارة المصطلحات",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«terim yönetimi» تعني: إدارة المصطلحات."
+    },
+    {
+      "id": "c2-u5-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حدثنا قاعدة المصطلحات جماعياً واستخدمنا المقابلات نفسها في جميع الأقسام."
+      ],
+      "answerIndex": 3,
+      "explanation": "حدثنا قاعدة المصطلحات جماعياً واستخدمنا المقابلات نفسها في جميع الأقسام."
+    },
+    {
+      "id": "c2-u5-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "terim birliği",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «terim birliği». حدد التعريف والمقابل والسياق والبدائل المرفوضة، وراجع الاتساق عبر جميع الملفات."
+    },
+    {
+      "id": "c2-u5-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "ضمان اتساق المصطلحات في المشروع.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "ضمان اتساق المصطلحات في المشروع."
+    },
+    {
+      "id": "c2-u5-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ مسرداً من 30 مصطلحاً مع تعريف وسياق ومقابل تركي عربي."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنشئ مسرداً من 30 مصطلحاً مع تعريف وسياق ومقابل تركي عربي."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
     "legacyUnitId": "c2-u5",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 462
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "Hukuk Dili ve Resmî Belge Yazımı",
     "description": "قراءة النصوص القانونية وتحليل الأحكام وصياغة العقود والمذكرات والوثائق الرسمية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "اللغة القانونية وصياغة الوثائق الرسمية",
+  "rule": "حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة.",
+  "vocabulary": [
+    {
+      "term": "mahkeme kararı",
+      "meaningAr": "حكم قضائي",
+      "exampleTr": "Kararın gerekçesi, dayandığı olgular ve sonucu ayrı incelenmelidir.",
+      "exampleAr": "ينبغي تحليل أسباب القرار والوقائع والنتيجة كلٌّ على حدة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kararın gerekçesi, dayandığı olgular ve sonucu ayrı incelenmelidir.",
+      "ar": "ينبغي تحليل أسباب القرار والوقائع والنتيجة كلٌّ على حدة."
+    },
+    {
+      "tr": "Kararın gerekçesi, dayandığı olgular ve sonucu ayrı incelenmelidir.",
+      "ar": "ينبغي تحليل أسباب القرار والوقائع والنتيجة كلٌّ على حدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "mahkeme kararı konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في حكم قضائي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "حلل نموذجاً افتراضياً متعلقاً بموضوع تحليل الأحكام والقرارات، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u13-07-q1",
+      "prompt": "ما معنى «mahkeme kararı»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "حكم قضائي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«mahkeme kararı» تعني: حكم قضائي."
+    },
+    {
+      "id": "c2-u13-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "ينبغي تحليل أسباب القرار والوقائع والنتيجة كلٌّ على حدة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ينبغي تحليل أسباب القرار والوقائع والنتيجة كلٌّ على حدة."
+    },
+    {
+      "id": "c2-u13-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "mahkeme kararı",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «mahkeme kararı». حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة."
+    },
+    {
+      "id": "c2-u13-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان حكم قضائي في سياق تخصصي متقدم",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إتقان حكم قضائي في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u13-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حلل نموذجاً افتراضياً متعلقاً بموضوع تحليل الأحكام والقرارات، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حلل نموذجاً افتراضياً متعلقاً بموضوع تحليل الأحكام والقرارات، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
     "legacyUnitId": "c2-u13",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 547
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
     "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إنجاز دراسة مقارنة تجمع التأطير والحجاج والتناص ومصداقية المصدر.",
+  "rule": "اختر corpus محدوداً، وضع أسئلة تحليلية، ووثق الأمثلة، ثم قدم استنتاجات مقيدة بالأدلة.",
+  "vocabulary": [
+    {
+      "term": "söylem araştırması",
+      "meaningAr": "بحث في الخطاب",
+      "exampleTr": "Çalışmada iki metnin dilsel tercihlerini ve toplumsal bağlamını birlikte inceledim.",
+      "exampleAr": "درست في البحث الاختيارات اللغوية والسياق الاجتماعي لنصين معاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çalışmada iki metnin dilsel tercihlerini ve toplumsal bağlamını birlikte inceledim.",
+      "ar": "درست في البحث الاختيارات اللغوية والسياق الاجتماعي لنصين معاً."
+    },
+    {
+      "tr": "Analizimi örnekler ve açık ölçütlerle destekledim.",
+      "ar": "دعمت تحليلي بأمثلة ومعايير واضحة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi metinleri seçtin؟",
+      "ar": "أي نصوص اخترت؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Aynı konuyu farklı çerçevelerle ele alan iki metni.",
+      "ar": "نصين يتناولان الموضوع نفسه بإطارين مختلفين."
+    }
+  ],
+  "speakingTask": "أعد دراسة قصيرة من نصين مع جدول أدلة واستنتاجات ومراجع.",
+  "questions": [
+    {
+      "id": "c2-u10-10-q1",
+      "prompt": "ما معنى «söylem araştırması»؟",
+      "options": [
+        "بحث في الخطاب",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«söylem araştırması» تعني: بحث في الخطاب."
+    },
+    {
+      "id": "c2-u10-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "درست في البحث الاختيارات اللغوية والسياق الاجتماعي لنصين معاً.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "درست في البحث الاختيارات اللغوية والسياق الاجتماعي لنصين معاً."
+    },
+    {
+      "id": "c2-u10-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karşılaştırmalı araştırma",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «karşılaştırmalı araştırma». اختر corpus محدوداً، وضع أسئلة تحليلية، ووثق الأمثلة، ثم قدم استنتاجات مقيدة بالأدلة."
+    },
+    {
+      "id": "c2-u10-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تنفيذ مشروع بحثي في تحليل الخطاب."
+      ],
+      "answerIndex": 3,
+      "explanation": "تنفيذ مشروع بحثي في تحليل الخطاب."
+    },
+    {
+      "id": "c2-u10-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أعد دراسة قصيرة من نصين مع جدول أدلة واستنتاجات ومراجع.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أعد دراسة قصيرة من نصين مع جدول أدلة واستنتاجات ومراجع."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
     "legacyUnitId": "c2-u10",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 520
   }
 }

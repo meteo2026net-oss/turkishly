@@ -13,18 +13,106 @@
     "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
     "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الحفاظ على الصوت والصورة والإيحاء في نص أدبي معقد.",
+  "rule": "راجع المعنى الحرفي والصورة والنبرة والإيقاع، وحدد ما يحتاج إلى تعويض أسلوبي.",
+  "vocabulary": [
+    {
+      "term": "çok katmanlı çeviri",
+      "meaningAr": "ترجمة متعددة الطبقات",
+      "exampleTr": "Çeviride anlatıcının mesafesini ve ironik tonunu korumaya çalıştım.",
+      "exampleAr": "حاولت الحفاظ في الترجمة على مسافة الراوي ونبرته الساخرة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çeviride anlatıcının mesafesini ve ironik tonunu korumaya çalıştım.",
+      "ar": "حاولت الحفاظ في الترجمة على مسافة الراوي ونبرته الساخرة."
+    },
+    {
+      "tr": "Metnin sesini ve imgesel yapısını korudum.",
+      "ar": "حافظت على صوت النص وبنيته التصويرية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İroniyi doğrudan çevirebilir miyiz؟",
+      "ar": "هل يمكن ترجمة السخرية مباشرة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlama göre yeniden kurmak gerekebilir.",
+      "ar": "قد نحتاج إلى إعادة بنائها وفق السياق."
+    }
+  ],
+  "speakingTask": "حرر ترجمة مقطع أدبي مع شرح ثلاثة قرارات أسلوبية.",
+  "questions": [
+    {
+      "id": "c2-u8-02-q1",
+      "prompt": "ما معنى «çok katmanlı çeviri»؟",
+      "options": [
+        "ترجمة متعددة الطبقات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«çok katmanlı çeviri» تعني: ترجمة متعددة الطبقات."
+    },
+    {
+      "id": "c2-u8-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "حاولت الحفاظ في الترجمة على مسافة الراوي ونبرته الساخرة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "حاولت الحفاظ في الترجمة على مسافة الراوي ونبرته الساخرة."
+    },
+    {
+      "id": "c2-u8-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "edebî aktarım",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «edebî aktarım». راجع المعنى الحرفي والصورة والنبرة والإيقاع، وحدد ما يحتاج إلى تعويض أسلوبي."
+    },
+    {
+      "id": "c2-u8-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "نقل طبقات المعنى والأسلوب الأدبي."
+      ],
+      "answerIndex": 3,
+      "explanation": "نقل طبقات المعنى والأسلوب الأدبي."
+    },
+    {
+      "id": "c2-u8-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "حرر ترجمة مقطع أدبي مع شرح ثلاثة قرارات أسلوبية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "حرر ترجمة مقطع أدبي مع شرح ثلاثة قرارات أسلوبية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
     "legacyUnitId": "c2-u8",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 492
   }
 }

@@ -13,18 +13,106 @@
     "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
     "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "حدد الصورة البلاغية ووظيفتها، ثم قرر الحفاظ عليها أو تكييفها أو شرحها بحسب الجمهور.",
+  "rule": "حدد الصورة البلاغية ووظيفتها، ثم قرر الحفاظ عليها أو تكييفها أو شرحها بحسب الجمهور.",
+  "vocabulary": [
+    {
+      "term": "metafor aktarımı",
+      "meaningAr": "نقل الاستعارة",
+      "exampleTr": "Metaforun çağrışımını hedef dilde korumaya çalıştım.",
+      "exampleAr": "حاولت الحفاظ على إيحاء الاستعارة في اللغة الهدف."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Metaforun çağrışımını hedef dilde korumaya çalıştım.",
+      "ar": "حاولت الحفاظ على إيحاء الاستعارة في اللغة الهدف."
+    },
+    {
+      "tr": "İmgeyi korumak anlam ve üslup dengesini gerektirir.",
+      "ar": "يتطلب الحفاظ على الصورة توازناً بين المعنى والأسلوب."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İmgeyi değiştirmek zorunda mıyız?",
+      "ar": "هل علينا تغيير الصورة البلاغية؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hedef okurda aynı işlevi görüyorsa uyarlayabiliriz.",
+      "ar": "يمكننا تكييفها إذا أدت الوظيفة نفسها لدى القارئ المستهدف."
+    }
+  ],
+  "speakingTask": "قارن ثلاث ترجمات لاستعارة واحدة وقيّم أثر كل منها.",
+  "questions": [
+    {
+      "id": "c2-u17-04-q1",
+      "prompt": "ما معنى «metafor aktarımı»؟",
+      "options": [
+        "نقل الاستعارة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«metafor aktarımı» تعني: نقل الاستعارة."
+    },
+    {
+      "id": "c2-u17-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "حاولت الحفاظ على إيحاء الاستعارة في اللغة الهدف.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "حاولت الحفاظ على إيحاء الاستعارة في اللغة الهدف."
+    },
+    {
+      "id": "c2-u17-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "imge değeri",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «imge değeri». حدد الصورة البلاغية ووظيفتها، ثم قرر الحفاظ عليها أو تكييفها أو شرحها بحسب الجمهور."
+    },
+    {
+      "id": "c2-u17-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "القيمة التصويرية"
+      ],
+      "answerIndex": 3,
+      "explanation": "القيمة التصويرية"
+    },
+    {
+      "id": "c2-u17-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "قارن ثلاث ترجمات لاستعارة واحدة وقيّم أثر كل منها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "قارن ثلاث ترجمات لاستعارة واحدة وقيّم أثر كل منها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
     "legacyUnitId": "c2-u17",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 584
   }
 }

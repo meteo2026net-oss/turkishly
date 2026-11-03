@@ -13,18 +13,106 @@
     "titleTr": "Politika, Yönetişim ve Uluslararası Stratejik İletişim",
     "description": "تصميم السياسات وتقييم الأثر وإدارة أصحاب المصلحة والأزمات والاتفاقات والمؤشرات والمخاطر."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم صياغة مذكرة قرار للقيادة العليا في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "üst düzey karar notu",
+      "meaningAr": "مذكرة قرار للقيادة العليا",
+      "exampleTr": "Karar notunda seçenekleri, riskleri ve öneriyi tek sayfada özetledik.",
+      "exampleAr": "لخصنا الخيارات والمخاطر والتوصية في صفحة واحدة ضمن مذكرة القرار."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karar notunda seçenekleri, riskleri ve öneriyi tek sayfada özetledik.",
+      "ar": "لخصنا الخيارات والمخاطر والتوصية في صفحة واحدة ضمن مذكرة القرار."
+    },
+    {
+      "tr": "Karar notu bilgi yükünü azaltırken kritik ayrıntıları korur.",
+      "ar": "تقلل مذكرة القرار عبء المعلومات مع الحفاظ على التفاصيل الحاسمة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Rapor çok uzun.",
+      "ar": "التقرير طويل جداً."
+    },
+    {
+      "speaker": "B",
+      "tr": "Yönetim için kısa bir karar notu hazırlayalım.",
+      "ar": "لنعد مذكرة قرار موجزة للإدارة."
+    }
+  ],
+  "speakingTask": "اكتب مذكرة من صفحة واحدة تتضمن القرار والبدائل والمخاطر والتوصية.",
+  "questions": [
+    {
+      "id": "c2-u21-04-q1",
+      "prompt": "ما المقصود بالمصطلح «üst düzey karar notu»؟",
+      "options": [
+        "مذكرة قرار للقيادة العليا",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«üst düzey karar notu» يعني: مذكرة قرار للقيادة العليا."
+    },
+    {
+      "id": "c2-u21-04-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "لخصنا الخيارات والمخاطر والتوصية في صفحة واحدة ضمن مذكرة القرار.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "لخصنا الخيارات والمخاطر والتوصية في صفحة واحدة ضمن مذكرة القرار."
+    },
+    {
+      "id": "c2-u21-04-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karar özeti",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة: karar özeti. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u21-04-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "عرض القرار المطلوب وأسبابه ومخاطره بإيجاز"
+      ],
+      "answerIndex": 3,
+      "explanation": "عرض القرار المطلوب وأسبابه ومخاطره بإيجاز"
+    },
+    {
+      "id": "c2-u21-04-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "اكتب مذكرة من صفحة واحدة تتضمن القرار والبدائل والمخاطر والتوصية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "اكتب مذكرة من صفحة واحدة تتضمن القرار والبدائل والمخاطر والتوصية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c2_global_course_data.dart",
     "legacyUnitId": "c2-u21",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 624
   }
 }
