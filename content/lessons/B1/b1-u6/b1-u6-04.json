@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الوصف والمواقف والتواصل المتكامل",
-    "titleTr": "Betimleme, Durumlar ve Bütünleşik İletişim",
-    "description": "وصف الأشخاص والأماكن والمشاعر، وتقديم الشكاوى والطلبات والحلول وبناء المحادثة والفقرة."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "شرح مشكلة أو خدمة غير مرضية وطلب حل مهذب.",
+  "rule": "ابدأ الشكوى بـ Bir sorun var أو Şikâyet etmek istiyorum، واشرح المشكلة بالماضي أو الحاضر، ثم اطلب الحل: Bu konuda yardımcı olabilir misiniz?",
+  "vocabulary": [
+    {
+      "term": "şikâyet etmek",
+      "meaningAr": "يشتكي / يقدم شكوى",
+      "exampleTr": "Aldığım ürün hakkında şikâyet etmek istiyorum.",
+      "exampleAr": "أريد تقديم شكوى بشأن المنتج الذي استلمته."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Odamız henüz temizlenmedi.",
+      "ar": "لم يتم تنظيف غرفتنا بعد."
+    },
+    {
+      "tr": "Bu sorunun çözülmesini rica ediyorum.",
+      "ar": "أرجو حل هذه المشكلة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Size nasıl yardımcı olabilirim?",
+      "ar": "كيف يمكنني مساعدتك؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Siparişim gelmedi. Kontrol edebilir misiniz?",
+      "ar": "لم يصل طلبي. هل يمكنكم التحقق؟"
+    }
+  ],
+  "speakingTask": "مثّل موقف شكوى في فندق أو متجر مع طلب حل مهذب.",
+  "questions": [
+    {
+      "id": "b1-u6-04-q1",
+      "prompt": "ما معنى «şikâyet etmek»؟",
+      "options": [
+        "الاحتمال",
+        "المقارنة",
+        "يشتكي / يقدم شكوى",
+        "السبب / النتيجة"
+      ],
+      "answerIndex": 2,
+      "explanation": "şikâyet etmek تعني يشتكي / يقدم شكوى."
+    },
+    {
+      "id": "b1-u6-04-q2",
+      "prompt": "ما ترجمة الجملة: «Aldığım ürün hakkında şikâyet etmek istiyorum.»؟",
+      "options": [
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "أريد تقديم شكوى بشأن المنتج الذي استلمته."
+      ],
+      "answerIndex": 3,
+      "explanation": "Aldığım ürün hakkında şikâyet etmek istiyorum. تعني أريد تقديم شكوى بشأن المنتج الذي استلمته.."
+    },
+    {
+      "id": "b1-u6-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "... hakkında şikâyet etmek",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "ذكر موضوع الشكوى باستخدام hakkında."
+    },
+    {
+      "id": "b1-u6-04-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «... hakkında şikâyet etmek»؟",
+      "options": [
+        "النفي المطلق",
+        "تحديد موضوع الشكوى وطلب المعالجة.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحديد موضوع الشكوى وطلب المعالجة."
+    },
+    {
+      "id": "b1-u6-04-q5",
+      "prompt": "أكمل التركيب: Aldığım ürün hakkında şikâyet etmek istiyorum.",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "... hakkında şikâyet etmek"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي ... hakkında şikâyet etmek؛ ذكر موضوع الشكوى باستخدام hakkında."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u6",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 174
   }
 }

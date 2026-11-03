@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-07",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 7,
+  "title": {
+    "ar": "التفاوض التجاري",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "uzlaşma",
+  "rule": "Karşılıklı yarar sağlayan bir anlaşma arıyoruz.",
+  "vocabulary": [
+    {
+      "term": "تسوية / توافق",
+      "meaningAr": "müzakere",
+      "exampleTr": "Karşılıklı yarar sağlayan bir anlaşma arıyoruz.",
+      "exampleAr": "نبحث عن اتفاق يحقق منفعة متبادلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "توضيح هدف التفاوض",
+      "ar": ""
+    },
+    {
+      "tr": "Karşılıklı yarar sağlayan bir anlaşma arıyoruz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Teklifin koşullarını yeniden görüştük.|ناقشنا شروط العرض مجدداً.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Fiyat üzerinde anlaşabilir miyiz? — هل يمكننا الاتفاق على السعر؟\nB: Teslim koşullarını da netleştirelim. — لِنوضح شروط التسليم أيضاً.",
+  "questions": [
+    {
+      "id": "b2-u7-07-q1",
+      "prompt": "ما معنى «تسوية / توافق»؟",
+      "options": [
+        "karşılıklı yarar",
+        "منفعة متبادلة",
+        "تعبير غير مناسب",
+        "مفاوضة"
+      ],
+      "answerIndex": 3,
+      "explanation": "تسوية / توافق تعني müzakere."
+    },
+    {
+      "id": "b2-u7-07-q2",
+      "prompt": "ما ترجمة الجملة: «Karşılıklı yarar sağlayan bir anlaşma arıyoruz.»؟",
+      "options": [
+        "نبحث عن اتفاق يحقق منفعة متبادلة.|نبحث عن اتفاق يحقق منفعة متبادلة.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Karşılıklı yarar sağlayan bir anlaşma arıyoruz. تعني نبحث عن اتفاق يحقق منفعة متبادلة.."
+    },
+    {
+      "id": "b2-u7-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "التفاوض على اتفاق",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "-anlaşma aramak."
+    },
+    {
+      "id": "b2-u7-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «التفاوض على اتفاق»؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "البحث عن اتفاق",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "البحث عن اتفاق"
+    },
+    {
+      "id": "b2-u7-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "البحث عن اتفاق",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "البحث عن اتفاق"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 247
+  }
+}

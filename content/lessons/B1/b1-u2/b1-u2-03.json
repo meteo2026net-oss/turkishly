@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
-    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
-    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التحدث عما كان ينبغي فعله في الماضي.",
+  "rule": "نضيف -ydı/-ydi إلى صيغة -malı/-meli: gitmeliydim = كان ينبغي أن أذهب. وقد تعبّر عن نصيحة لم تُنفذ أو واجب في الماضي.",
+  "vocabulary": [
+    {
+      "term": "gitmeliydim",
+      "meaningAr": "كان ينبغي أن أذهب",
+      "exampleTr": "Daha erken başlamalıydım.",
+      "exampleAr": "كان ينبغي أن أبدأ أبكر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Daha dikkatli olmalıydın.",
+      "ar": "كان ينبغي أن تكون أكثر انتباهاً."
+    },
+    {
+      "tr": "Bize haber vermeliydiniz.",
+      "ar": "كان ينبغي أن تخبرونا."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sınava hazır mısın?",
+      "ar": "هل أنت مستعد للامتحان؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Daha çok çalışmalıydım.",
+      "ar": "كان ينبغي أن أدرس أكثر."
+    }
+  ],
+  "speakingTask": "تحدث عن أمر كان ينبغي أن تفعله في الأسبوع الماضي.",
+  "questions": [
+    {
+      "id": "b1-u2-03-q1",
+      "prompt": "ما معنى «gitmeliydim»؟",
+      "options": [
+        "ذهبت بالفعل",
+        "كان ينبغي أن أذهب",
+        "يجب أن أذهب الآن",
+        "سأذهب لاحقاً"
+      ],
+      "answerIndex": 1,
+      "explanation": "gitmeliydim تعني كان ينبغي أن أذهب."
+    },
+    {
+      "id": "b1-u2-03-q2",
+      "prompt": "ما ترجمة الجملة: «Daha erken başlamalıydım.»؟",
+      "options": [
+        "سأبدأ غداً.",
+        "بدأت قبل قليل.",
+        "كان ينبغي أن أبدأ أبكر.",
+        "يجب أن أبدأ الآن."
+      ],
+      "answerIndex": 2,
+      "explanation": "Daha erken başlamalıydım. تعني كان ينبغي أن أبدأ أبكر.."
+    },
+    {
+      "id": "b1-u2-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "başlamalıyım",
+        "başlayacağım",
+        "başladım",
+        "başlamalıydım"
+      ],
+      "answerIndex": 3,
+      "explanation": "كان ينبغي عليّ أن أبدأ."
+    },
+    {
+      "id": "b1-u2-03-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «başlamalıydım»؟",
+      "options": [
+        "ضرورة أو نصيحة ماضية",
+        "ضرورة حاضرة",
+        "مستقبل",
+        "ماضٍ محدد"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير عن واجب أو نصيحة في الماضي."
+    },
+    {
+      "id": "b1-u2-03-q5",
+      "prompt": "أكمل التركيب: Daha erken başlamalıydım.",
+      "options": [
+        "başlayacağım",
+        "başladım",
+        "başlamalıydım",
+        "başlamalıyım"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي başlamalıydım؛ كان ينبغي عليّ أن أبدأ."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u2",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 133
   }
 }

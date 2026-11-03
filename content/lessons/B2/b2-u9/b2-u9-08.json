@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-08",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 8,
+  "title": {
+    "ar": "الكتابة العلمية المنظمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "bölüm",
+  "rule": "Akademik bir metin giriş, yöntem, bulgular ve sonuç bölümlerinden oluşabilir.",
+  "vocabulary": [
+    {
+      "term": "قسم",
+      "meaningAr": "yöntem",
+      "exampleTr": "Akademik bir metin giriş, yöntem, bulgular ve sonuç bölümlerinden oluşabilir.",
+      "exampleAr": "قد يتكون النص الأكاديمي من مقدمة ومنهج ونتائج وخاتمة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "وصف بنية متكاملة",
+      "ar": ""
+    },
+    {
+      "tr": "Akademik bir metin giriş, yöntem, bulgular ve sonuç bölümlerinden oluşabilir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Başlıklar metnin izlenmesini kolaylaştırır.|تسهل العناوين متابعة النص.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Yöntem bölümünde ne yazılır? — ماذا نكتب في قسم المنهج؟\nB: Araştırmanın nasıl yapıldığını. — كيف أُجري البحث.",
+  "questions": [
+    {
+      "id": "b2-u9-08-q1",
+      "prompt": "ما معنى «قسم»؟",
+      "options": [
+        "منهج",
+        "bölümlerden oluşmak",
+        "يتكون من أقسام",
+        "تعبير غير مناسب"
+      ],
+      "answerIndex": 0,
+      "explanation": "قسم تعني yöntem."
+    },
+    {
+      "id": "b2-u9-08-q2",
+      "prompt": "ما ترجمة الجملة: «Akademik bir metin giriş, yöntem, bulgular ve sonuç bölümlerinden oluşabilir.»؟",
+      "options": [
+        "هذا التعبير لا يناسب السياق.",
+        "قد يتكون النص الأكاديمي من مقدمة ومنهج ونتائج وخاتمة.|قد يتكون النص الأكاديمي من مقدمة ومنهج ونتائج وخاتمة.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق."
+      ],
+      "answerIndex": 1,
+      "explanation": "Akademik bir metin giriş, yöntem, bulgular ve sonuç bölümlerinden oluşabilir. تعني قد يتكون النص الأكاديمي من مقدمة ومنهج ونتائج وخاتمة.."
+    },
+    {
+      "id": "b2-u9-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "تنظيم المقال أو التقرير",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "-den oluşmak."
+    },
+    {
+      "id": "b2-u9-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تنظيم المقال أو التقرير»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "يتكون من"
+      ],
+      "answerIndex": 3,
+      "explanation": "يتكون من"
+    },
+    {
+      "id": "b2-u9-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "يتكون من",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "يتكون من"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 268
+  }
+}

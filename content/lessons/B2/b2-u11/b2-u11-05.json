@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-05",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 5,
+  "title": {
+    "ar": "الابتكار العلمي والتقني",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "yenilik",
+  "rule": "Teknolojik yenilikler günlük yaşamı dönüştürebilir.",
+  "vocabulary": [
+    {
+      "term": "ابتكار",
+      "meaningAr": "teknolojik gelişme",
+      "exampleTr": "Teknolojik yenilikler günlük yaşamı dönüştürebilir.",
+      "exampleAr": "يمكن للابتكارات التقنية أن تحول الحياة اليومية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "dönüştürmek",
+      "ar": ""
+    },
+    {
+      "tr": "Teknolojik yenilikler günlük yaşamı dönüştürebilir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "يحوّل",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "التعبير عن التغيير",
+  "questions": [
+    {
+      "id": "b2-u11-05-q1",
+      "prompt": "ما معنى «ابتكار»؟",
+      "options": [
+        "تعبير غير ملائم",
+        "تطور تقني",
+        "تكرار",
+        "تأخير"
+      ],
+      "answerIndex": 1,
+      "explanation": "ابتكار تعني teknolojik gelişme."
+    },
+    {
+      "id": "b2-u11-05-q2",
+      "prompt": "ما ترجمة الجملة: «Teknolojik yenilikler günlük yaşamı dönüştürebilir.»؟",
+      "options": [
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Teknolojik yenilikler günlük yaşamı dönüştürebilir.|يمكن للابتكارات التقنية أن تحول الحياة اليومية.",
+        "سأذهب إلى السوق بعد الدرس."
+      ],
+      "answerIndex": 2,
+      "explanation": "Teknolojik yenilikler günlük yaşamı dönüştürebilir. تعني يمكن للابتكارات التقنية أن تحول الحياة اليومية.."
+    },
+    {
+      "id": "b2-u11-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "yenilikçi çözüm"
+      ],
+      "answerIndex": 3,
+      "explanation": "حل مبتكر."
+    },
+    {
+      "id": "b2-u11-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «yenilikçi çözüm»؟",
+      "options": [
+        "وصف أثر الابتكار",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "وصف أثر الابتكار"
+    },
+    {
+      "id": "b2-u11-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "وصف أثر الابتكار",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "وصف أثر الابتكار"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 285
+  }
+}

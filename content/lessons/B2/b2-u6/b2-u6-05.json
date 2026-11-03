@@ -9,22 +9,105 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "المجتمع والثقافة والقضايا المعاصرة",
-    "titleTr": "Toplum, Kültür ve Güncel Konular",
-    "description": "المشاركة المدنية والبيئة والإعلام والثقافة والصحة وكتابة الرأي."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التحدث عن التنوع الثقافي واحترام الاختلاف.",
+  "rule": "Kültürel çeşitlilik toplumları zenginleştirir.",
+  "vocabulary": [
+    {
+      "term": "çeşitlilik",
+      "meaningAr": "تنوع",
+      "exampleTr": "يثري التنوع الثقافي المجتمعات.",
+      "exampleAr": "تنوع"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "النفي",
+      "ar": ""
+    },
+    {
+      "tr": "Farklı gelenekler birbirimizi tanımamıza yardımcı olur.",
+      "ar": "تساعدنا التقاليد المختلفة على التعرف إلى بعضنا."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Kültürel miras korunmalıdır.|ينبغي الحفاظ على التراث الثقافي.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Farklılıklar neden önemli? — لماذا الاختلافات مهمة؟\nB: Yeni bakış açıları kazandırır. — تمنحنا وجهات نظر جديدة.",
+  "questions": [
+    {
+      "id": "b2-u6-05-q1",
+      "prompt": "ما معنى «çeşitlilik»؟",
+      "options": [
+        "تجانس كامل",
+        "عزلة",
+        "تكرار",
+        "kültürel çeşitlilik|التنوع الثقافي"
+      ],
+      "answerIndex": 3,
+      "explanation": "çeşitlilik تعني تنوع."
+    },
+    {
+      "id": "b2-u6-05-q2",
+      "prompt": "ما ترجمة الجملة: «يثري التنوع الثقافي المجتمعات.»؟",
+      "options": [
+        "يثري التنوع الثقافي المجتمعات.|تنوع",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "يثري التنوع الثقافي المجتمعات. تعني تنوع."
+    },
+    {
+      "id": "b2-u6-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "الشرط",
+        "تضاد",
+        "وصف التنوع الثقافي",
+        "الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "sıfat tamlaması."
+    },
+    {
+      "id": "b2-u6-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تضاد»؟",
+      "options": [
+        "الماضي",
+        "الشرط",
+        "تركيب وصفي",
+        "وصف التنوع الثقافي"
+      ],
+      "answerIndex": 2,
+      "explanation": "تركيب وصفي"
+    },
+    {
+      "id": "b2-u6-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تركيب وصفي",
+        "وصف التنوع الثقافي",
+        "الماضي",
+        "الشرط"
+      ],
+      "answerIndex": 0,
+      "explanation": "تركيب وصفي"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u6",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 235
   }
 }

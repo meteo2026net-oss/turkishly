@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الزمن والمدة والتجارب والتوقعات",
-    "titleTr": "Zaman, Süre, Deneyim ve Beklenti",
-    "description": "التعبير عن التكرار والمدة والمواعيد وتسلسل الأحداث والتجارب والتحذير والتوقعات."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحديد عدد مرات حدوث النشاط وكميته.",
+  "rule": "استخدم çoğu zaman (غالباً)، ara sıra (من حين لآخر)، nadiren (نادراً)، hemen hemen (تقريباً)، birkaç kez (بضع مرات).",
+  "vocabulary": [
+    {
+      "term": "ara sıra",
+      "meaningAr": "من حين إلى آخر",
+      "exampleTr": "Ara sıra arkadaşlarımla Türkçe konuşurum.",
+      "exampleAr": "أتحدث بالتركية مع أصدقائي من حين إلى آخر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çoğu zaman evde yemek yaparım.",
+      "ar": "غالباً أعد الطعام في المنزل."
+    },
+    {
+      "tr": "Bu filmi birkaç kez izledim.",
+      "ar": "شاهدت هذا الفيلم بضع مرات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ne sıklıkla spor yaparsın?",
+      "ar": "كم مرة تمارس الرياضة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Haftada üç kez, bazen de ara sıra yürüyüş yaparım.",
+      "ar": "ثلاث مرات أسبوعياً، وأحياناً أتمشى من حين لآخر."
+    }
+  ],
+  "speakingTask": "صف تكرار خمس أنشطة في أسبوعك.",
+  "questions": [
+    {
+      "id": "b1-u5-01-q1",
+      "prompt": "ما معنى «ara sıra»؟",
+      "options": [
+        "المقارنة",
+        "من حين إلى آخر",
+        "السبب / النتيجة",
+        "الاحتمال"
+      ],
+      "answerIndex": 1,
+      "explanation": "ara sıra تعني من حين إلى آخر."
+    },
+    {
+      "id": "b1-u5-01-q2",
+      "prompt": "ما ترجمة الجملة: «Ara sıra arkadaşlarımla Türkçe konuşurum.»؟",
+      "options": [
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "أتحدث بالتركية مع أصدقائي من حين إلى آخر.",
+        "سأفعل ذلك في وقت آخر."
+      ],
+      "answerIndex": 2,
+      "explanation": "Ara sıra arkadaşlarımla Türkçe konuşurum. تعني أتحدث بالتركية مع أصدقائي من حين إلى آخر.."
+    },
+    {
+      "id": "b1-u5-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "sıklık zarfı + fiil"
+      ],
+      "answerIndex": 3,
+      "explanation": "ظرف تكرار يحدد عدد مرات الفعل."
+    },
+    {
+      "id": "b1-u5-01-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «sıklık zarfı + fiil»؟",
+      "options": [
+        "وصف مدى تكرار النشاط.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "وصف مدى تكرار النشاط."
+    },
+    {
+      "id": "b1-u5-01-q5",
+      "prompt": "أكمل التركيب: Ara sıra arkadaşlarımla Türkçe konuşurum.",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "sıklık zarfı + fiil",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي sıklık zarfı + fiil؛ ظرف تكرار يحدد عدد مرات الفعل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u5",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 161
   }
 }

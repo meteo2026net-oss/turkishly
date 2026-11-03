@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التراكيب النحوية المتقدمة",
-    "titleTr": "İleri Dilbilgisi Yapıları",
-    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التعبير عن الأفعال التي يقوم بها طرفان أو أكثر تجاه بعضهم.",
+  "rule": "تدل لاحقة -ış/-iş/-uş/-üş في بعض الأفعال على التبادل، مثل görüşmek (يلتقي/يتحدث مع) وyardımlaşmak (يتعاون). المعنى يعتمد على الفعل والسياق.",
+  "vocabulary": [
+    {
+      "term": "yardımlaşmak",
+      "meaningAr": "يتعاون / يساعد بعضهم بعضاً",
+      "exampleTr": "Komşular zor günlerde birbirleriyle yardımlaşıyor.",
+      "exampleAr": "يتعاون الجيران مع بعضهم في الأيام الصعبة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "حدث مستقبلي",
+      "ar": ""
+    },
+    {
+      "tr": "Toplantıdan sonra görüştüler.",
+      "ar": "التقوا بعد الاجتماع."
+    },
+    {
+      "tr": "Birbirimize destek oluyoruz.",
+      "ar": "نحن ندعم بعضنا بعضاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Projeyi nasıl bitirdiniz?",
+      "ar": "كيف أنهيتم المشروع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Birbirimize yardım ederek.",
+      "ar": "بمساعدة بعضنا بعضاً."
+    }
+  ],
+  "speakingTask": "اكتب حواراً يصف تعاون فريق في إنجاز مشروع.",
+  "questions": [
+    {
+      "id": "b2-u1-06-q1",
+      "prompt": "ما معنى «yardımlaşmak»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "يتعاون / يساعد بعضهم بعضاً",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "yardımlaşmak تعني يتعاون / يساعد بعضهم بعضاً."
+    },
+    {
+      "id": "b2-u1-06-q2",
+      "prompt": "ما ترجمة الجملة: «Komşular zor günlerde birbirleriyle yardımlaşıyor.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "يتعاون الجيران مع بعضهم في الأيام الصعبة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Komşular zor günlerde birbirleriyle yardımlaşıyor. تعني يتعاون الجيران مع بعضهم في الأيام الصعبة.."
+    },
+    {
+      "id": "b2-u1-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "birbirleriyle + karşılıklı eylem",
+        "karşılıklı eylem",
+        "edilgen eylem",
+        "tek taraflı eylem"
+      ],
+      "answerIndex": 0,
+      "explanation": "بعضهم مع بعض مع فعل متبادل."
+    },
+    {
+      "id": "b2-u1-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «birbirleriyle + karşılıklı eylem»؟",
+      "options": [
+        "النفي المطلق",
+        "إظهار المشاركة المتبادلة بين الأطراف.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إظهار المشاركة المتبادلة بين الأطراف."
+    },
+    {
+      "id": "b2-u1-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إظهار المشاركة المتبادلة بين الأطراف."
+      ],
+      "answerIndex": 3,
+      "explanation": "إظهار المشاركة المتبادلة بين الأطراف."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u1",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 186
   }
 }

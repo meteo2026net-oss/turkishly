@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u10-09",
+  "level": "B2",
+  "unitId": "b2-u10",
+  "order": 9,
+  "title": {
+    "ar": "حل المشكلات المعقدة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "çözüm",
+  "rule": "Karmaşık bir sorunu küçük parçalara ayırarak inceleyebiliriz.",
+  "vocabulary": [
+    {
+      "term": "حل",
+      "meaningAr": "karmaşık",
+      "exampleTr": "Karmaşık bir sorunu küçük parçalara ayırarak inceleyebiliriz.",
+      "exampleAr": "يمكننا دراسة المشكلة المعقدة بتقسيمها إلى أجزاء صغيرة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-arak",
+      "ar": ""
+    },
+    {
+      "tr": "Karmaşık bir sorunu küçük parçalara ayırarak inceleyebiliriz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "عن طريق",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "شرح طريقة الحل",
+  "questions": [
+    {
+      "id": "b2-u10-09-q1",
+      "prompt": "ما معنى «حل»؟",
+      "options": [
+        "فوري",
+        "سطحي",
+        "تعبير غير ملائم",
+        "معقد"
+      ],
+      "answerIndex": 3,
+      "explanation": "حل تعني karmaşık."
+    },
+    {
+      "id": "b2-u10-09-q2",
+      "prompt": "ما ترجمة الجملة: «Karmaşık bir sorunu küçük parçalara ayırarak inceleyebiliriz.»؟",
+      "options": [
+        "Karmaşık bir sorunu küçük parçalara ayırarak inceleyebiliriz.|يمكننا دراسة المشكلة المعقدة بتقسيمها إلى أجزاء صغيرة.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Karmaşık bir sorunu küçük parçalara ayırarak inceleyebiliriz. تعني يمكننا دراسة المشكلة المعقدة بتقسيمها إلى أجزاء صغيرة.."
+    },
+    {
+      "id": "b2-u10-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "sorunu parçalara ayırmak",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "يقسم المشكلة."
+    },
+    {
+      "id": "b2-u10-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «sorunu parçalara ayırmak»؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "تحليل المشكلة منهجياً",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحليل المشكلة منهجياً"
+    },
+    {
+      "id": "b2-u10-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تحليل المشكلة منهجياً",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل المشكلة منهجياً"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u10",
+    "legacyGlobalNumber": 279
+  }
+}

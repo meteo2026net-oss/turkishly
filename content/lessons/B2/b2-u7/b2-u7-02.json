@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-02",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 2,
+  "title": {
+    "ar": "نموذج العمل والقيمة المقدمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "değer önerisi",
+  "rule": "Başarılı bir iş modeli müşteriye açık bir değer sunar.",
+  "vocabulary": [
+    {
+      "term": "القيمة المقترحة",
+      "meaningAr": "iş modeli",
+      "exampleTr": "Başarılı bir iş modeli müşteriye açık bir değer sunar.",
+      "exampleAr": "يقدم نموذج العمل الناجح قيمة واضحة للعميل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "وصف نموذج العمل",
+      "ar": ""
+    },
+    {
+      "tr": "Başarılı bir iş modeli müşteriye açık bir değer sunar.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Müşterinin hangi sorunu çözdüğümüzü açıklamalıyız.|ينبغي أن نشرح المشكلة التي نحلها للعميل.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Ürünün farkı ne? — ما الذي يميز المنتج؟\nB: Zaman kazandırması. — أنه يوفر الوقت.",
+  "questions": [
+    {
+      "id": "b2-u7-02-q1",
+      "prompt": "ما معنى «القيمة المقترحة»؟",
+      "options": [
+        "يقدم قيمة",
+        "تعبير غير مناسب",
+        "نموذج العمل",
+        "değer sunmak"
+      ],
+      "answerIndex": 2,
+      "explanation": "القيمة المقترحة تعني iş modeli."
+    },
+    {
+      "id": "b2-u7-02-q2",
+      "prompt": "ما ترجمة الجملة: «Başarılı bir iş modeli müşteriye açık bir değer sunar.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "يقدم نموذج العمل الناجح قيمة واضحة للعميل.|يقدم نموذج العمل الناجح قيمة واضحة للعميل."
+      ],
+      "answerIndex": 3,
+      "explanation": "Başarılı bir iş modeli müşteriye açık bir değer sunar. تعني يقدم نموذج العمل الناجح قيمة واضحة للعميل.."
+    },
+    {
+      "id": "b2-u7-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "شرح ميزة المنتج أو الخدمة",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "sıfat + isim."
+    },
+    {
+      "id": "b2-u7-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «شرح ميزة المنتج أو الخدمة»؟",
+      "options": [
+        "طلب الإذن",
+        "صفة واسم",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "صفة واسم"
+    },
+    {
+      "id": "b2-u7-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "صفة واسم"
+      ],
+      "answerIndex": 3,
+      "explanation": "صفة واسم"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 242
+  }
+}

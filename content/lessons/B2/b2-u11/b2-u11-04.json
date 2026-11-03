@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-04",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 4,
+  "title": {
+    "ar": "العمل والبطالة والمهارات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "istihdam",
+  "rule": "Yeni beceriler edinmek istihdam olanaklarını genişletebilir.",
+  "vocabulary": [
+    {
+      "term": "توظيف",
+      "meaningAr": "iş gücü",
+      "exampleTr": "Yeni beceriler edinmek istihdam olanaklarını genişletebilir.",
+      "exampleAr": "قد يؤدي اكتساب مهارات جديدة إلى توسيع فرص التوظيف."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-mek",
+      "ar": ""
+    },
+    {
+      "tr": "Yeni beceriler edinmek istihdam olanaklarını genişletebilir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "مصدر الفعل",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "التعبير عن نشاط عام",
+  "questions": [
+    {
+      "id": "b2-u11-04-q1",
+      "prompt": "ما معنى «توظيف»؟",
+      "options": [
+        "قوى عاملة",
+        "تذكرة",
+        "مطبخ",
+        "تعبير غير ملائم"
+      ],
+      "answerIndex": 0,
+      "explanation": "توظيف تعني iş gücü."
+    },
+    {
+      "id": "b2-u11-04-q2",
+      "prompt": "ما ترجمة الجملة: «Yeni beceriler edinmek istihdam olanaklarını genişletebilir.»؟",
+      "options": [
+        "لا تناسب هذه الجملة السياق.",
+        "Yeni beceriler edinmek istihdam olanaklarını genişletebilir.|قد يؤدي اكتساب مهارات جديدة إلى توسيع فرص التوظيف.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yeni beceriler edinmek istihdam olanaklarını genişletebilir. تعني قد يؤدي اكتساب مهارات جديدة إلى توسيع فرص التوظيف.."
+    },
+    {
+      "id": "b2-u11-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "istihdam olanağı",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "فرصة توظيف."
+    },
+    {
+      "id": "b2-u11-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «istihdam olanağı»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "ربط المهارة بالعمل"
+      ],
+      "answerIndex": 3,
+      "explanation": "ربط المهارة بالعمل"
+    },
+    {
+      "id": "b2-u11-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "ربط المهارة بالعمل",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "ربط المهارة بالعمل"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 284
+  }
+}

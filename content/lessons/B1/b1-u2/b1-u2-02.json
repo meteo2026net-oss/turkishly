@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
-    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
-    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "استخدام صيغة الوجوب للتعبير عن استنتاج مرجّح من قرائن.",
+  "rule": "قد تدل -malı/-meli على الاستنتاج «لا بد أن»: Çok yorgun olmalı = لا بد أنه متعب جداً. يحدد السياق هل المعنى نصيحة أم استنتاج.",
+  "vocabulary": [
+    {
+      "term": "olmalı",
+      "meaningAr": "لا بد أنه يكون / يبدو أنه",
+      "exampleTr": "Saat geç oldu; evde olmalı.",
+      "exampleAr": "تأخر الوقت؛ لا بد أنه في المنزل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çok sessiz; uyuyor olmalı.",
+      "ar": "إنه هادئ جداً؛ لا بد أنه نائم."
+    },
+    {
+      "tr": "Anahtar burada; evde olmalılar.",
+      "ar": "المفتاح هنا؛ لا بد أنهم في المنزل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ali neden cevap vermiyor?",
+      "ar": "لماذا لا يجيب علي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Meşgul olmalı.",
+      "ar": "لا بد أنه مشغول."
+    }
+  ],
+  "speakingTask": "استنتج ثلاثة أمور من قرائن بسيطة مستخدماً olmalı.",
+  "questions": [
+    {
+      "id": "b1-u2-02-q1",
+      "prompt": "ما معنى «olmalı»؟",
+      "options": [
+        "لا بد أنه يكون",
+        "لن يكون",
+        "كان سابقاً",
+        "ربما لن يكون"
+      ],
+      "answerIndex": 0,
+      "explanation": "olmalı تعني لا بد أنه يكون / يبدو أنه."
+    },
+    {
+      "id": "b1-u2-02-q2",
+      "prompt": "ما ترجمة الجملة: «Saat geç oldu; evde olmalı.»؟",
+      "options": [
+        "يجب أن أذهب إلى المنزل.",
+        "تأخر الوقت؛ لا بد أنه في المنزل.",
+        "تأخر الوقت؛ كان في المنزل أمس.",
+        "ربما لن يعود إلى المنزل."
+      ],
+      "answerIndex": 1,
+      "explanation": "Saat geç oldu; evde olmalı. تعني تأخر الوقت؛ لا بد أنه في المنزل.."
+    },
+    {
+      "id": "b1-u2-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "evdeydi",
+        "eve gitmeli",
+        "evde olmalı",
+        "evde olabilir"
+      ],
+      "answerIndex": 2,
+      "explanation": "استنتاج مرجح عن مكان الشخص."
+    },
+    {
+      "id": "b1-u2-02-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «evde olmalı»؟",
+      "options": [
+        "احتمال ضعيف فقط",
+        "الماضي",
+        "أمر مباشر",
+        "استنتاج قوي"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير عن تخمين قوي مبني على قرائن."
+    },
+    {
+      "id": "b1-u2-02-q5",
+      "prompt": "أكمل التركيب: Saat geç oldu; evde olmalı.",
+      "options": [
+        "eve gitmeli",
+        "evde olmalı",
+        "evde olabilir",
+        "evdeydi"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي evde olmalı؛ استنتاج مرجح عن مكان الشخص."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u2",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 132
   }
 }

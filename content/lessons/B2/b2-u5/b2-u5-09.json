@@ -9,22 +9,105 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعليم والتعلم والبحث",
-    "titleTr": "Eğitim, Öğrenme ve Araştırma",
-    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "مناقشة الوصول العادل إلى التعليم.",
+  "rule": "Eğitime erişim fırsatlarının herkes için eşit olması önemlidir.",
+  "vocabulary": [
+    {
+      "term": "erişim",
+      "meaningAr": "وصول",
+      "exampleTr": "من المهم أن تكون فرص الوصول إلى التعليم متساوية للجميع.",
+      "exampleAr": "وصول"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تفضيل شخصي",
+      "ar": ""
+    },
+    {
+      "tr": "Uzaktan eğitim bazı engelleri azaltabilir.",
+      "ar": "قد يقلل التعليم عن بعد بعض العوائق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Destek programları fırsat eşitliğini güçlendirir.|تعزز برامج الدعم تكافؤ الفرص.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Herkes aynı imkânlara sahip mi? — هل يمتلك الجميع الفرص نفسها؟\nB: Her zaman değil; destek gerekli. — ليس دائماً؛ الدعم ضروري.",
+  "questions": [
+    {
+      "id": "b2-u5-09-q1",
+      "prompt": "ما معنى «erişim»؟",
+      "options": [
+        "اختيار",
+        "eğitime erişim|الوصول إلى التعليم",
+        "منافسة",
+        "تأخير"
+      ],
+      "answerIndex": 1,
+      "explanation": "erişim تعني وصول."
+    },
+    {
+      "id": "b2-u5-09-q2",
+      "prompt": "ما ترجمة الجملة: «من المهم أن تكون فرص الوصول إلى التعليم متساوية للجميع.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "من المهم أن تكون فرص الوصول إلى التعليم متساوية للجميع.|وصول",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "من المهم أن تكون فرص الوصول إلى التعليم متساوية للجميع. تعني وصول."
+    },
+    {
+      "id": "b2-u5-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "مناقشة تكافؤ الفرص",
+        "تعبير عن الماضي",
+        "أمر",
+        "تسلية"
+      ],
+      "answerIndex": 3,
+      "explanation": "isim + -e erişim."
+    },
+    {
+      "id": "b2-u5-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تسلية»؟",
+      "options": [
+        "الوصول إلى شيء",
+        "مناقشة تكافؤ الفرص",
+        "تعبير عن الماضي",
+        "أمر"
+      ],
+      "answerIndex": 0,
+      "explanation": "الوصول إلى شيء"
+    },
+    {
+      "id": "b2-u5-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تعبير عن الماضي",
+        "أمر",
+        "الوصول إلى شيء",
+        "مناقشة تكافؤ الفرص"
+      ],
+      "answerIndex": 2,
+      "explanation": "الوصول إلى شيء"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u5",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 229
   }
 }

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-07",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 7,
+  "title": {
+    "ar": "اللغة الاصطلاحية والتلازمات المتقدمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "deyim",
+  "rule": "Deyimleri bağlam içinde öğrenmek doğru kullanımı kolaylaştırır.",
+  "vocabulary": [
+    {
+      "term": "تعبير اصطلاحي",
+      "meaningAr": "kalıplaşmış ifade",
+      "exampleTr": "Deyimleri bağlam içinde öğrenmek doğru kullanımı kolaylaştırır.",
+      "exampleAr": "يسهل تعلم التعبيرات الاصطلاحية في السياق استخدامها الصحيح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "bağlam içinde",
+      "ar": ""
+    },
+    {
+      "tr": "Deyimleri bağlam içinde öğrenmek doğru kullanımı kolaylaştırır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "في السياق",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تحديد سياق الاستخدام",
+  "questions": [
+    {
+      "id": "b2-u12-07-q1",
+      "prompt": "ما معنى «تعبير اصطلاحي»؟",
+      "options": [
+        "تعبير غير ملائم",
+        "تعبير ثابت",
+        "اسم علم",
+        "رقم"
+      ],
+      "answerIndex": 1,
+      "explanation": "تعبير اصطلاحي تعني kalıplaşmış ifade."
+    },
+    {
+      "id": "b2-u12-07-q2",
+      "prompt": "ما ترجمة الجملة: «Deyimleri bağlam içinde öğrenmek doğru kullanımı kolaylaştırır.»؟",
+      "options": [
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Deyimleri bağlam içinde öğrenmek doğru kullanımı kolaylaştırır.|يسهل تعلم التعبيرات الاصطلاحية في السياق استخدامها الصحيح.",
+        "سأذهب إلى السوق بعد الدرس."
+      ],
+      "answerIndex": 2,
+      "explanation": "Deyimleri bağlam içinde öğrenmek doğru kullanımı kolaylaştırır. تعني يسهل تعلم التعبيرات الاصطلاحية في السياق استخدامها الصحيح.."
+    },
+    {
+      "id": "b2-u12-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "deyim kullanmak"
+      ],
+      "answerIndex": 3,
+      "explanation": "يستخدم تعبيراً اصطلاحياً."
+    },
+    {
+      "id": "b2-u12-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «deyim kullanmak»؟",
+      "options": [
+        "فهم التعبير في سياقه",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "فهم التعبير في سياقه"
+    },
+    {
+      "id": "b2-u12-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "فهم التعبير في سياقه",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "فهم التعبير في سياقه"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 297
+  }
+}

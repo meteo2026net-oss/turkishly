@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعبير عن الرأي والتفضيل والتفاعل",
-    "titleTr": "Görüş, Tercih ve Etkileşim",
-    "description": "إبداء الرأي والموافقة والاعتراض والتفضيل والندم والسبب والغاية والتغيير."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "ربط الحدث بسببه ونتيجته بوضوح.",
+  "rule": "لأن: çünkü؛ بسبب: nedeniyle / yüzünden؛ لذلك: bu yüzden / bu nedenle. انتبه إلى أن yüzünden كثيراً ما تأتي مع نتيجة سلبية، بينما nedeniyle أكثر حياداً.",
+  "vocabulary": [
+    {
+      "term": "bu nedenle",
+      "meaningAr": "لهذا السبب / لذلك",
+      "exampleTr": "Yollar kapalıydı, bu nedenle geç kaldık.",
+      "exampleAr": "كانت الطرق مغلقة، لذلك تأخرنا."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Hastalandığı için işe gitmedi.",
+      "ar": "لم يذهب إلى العمل لأنه مرض."
+    },
+    {
+      "tr": "Yoğun trafik yüzünden geç kaldım.",
+      "ar": "تأخرت بسبب الازدحام الشديد."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden toplantıya katılmadın?",
+      "ar": "لماذا لم تحضر الاجتماع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hastaydım, bu yüzden evde kaldım.",
+      "ar": "كنت مريضاً، لذلك بقيت في المنزل."
+    }
+  ],
+  "speakingTask": "اشرح سبب مشكلة يومية والنتيجة التي ترتبت عليها.",
+  "questions": [
+    {
+      "id": "b1-u4-06-q1",
+      "prompt": "ما معنى «bu nedenle»؟",
+      "options": [
+        "لهذا السبب / لذلك",
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة"
+      ],
+      "answerIndex": 0,
+      "explanation": "bu nedenle تعني لهذا السبب / لذلك."
+    },
+    {
+      "id": "b1-u4-06-q2",
+      "prompt": "ما ترجمة الجملة: «Yollar kapalıydı, bu nedenle geç kaldık.»؟",
+      "options": [
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "كانت الطرق مغلقة، لذلك تأخرنا.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yollar kapalıydı, bu nedenle geç kaldık. تعني كانت الطرق مغلقة، لذلك تأخرنا.."
+    },
+    {
+      "id": "b1-u4-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "neden + sonuç / bu nedenle",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "ذكر السبب ثم النتيجة أو العكس."
+    },
+    {
+      "id": "b1-u4-06-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «neden + sonuç / bu nedenle»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تنظيم العلاقة المنطقية بين السبب والنتيجة."
+      ],
+      "answerIndex": 3,
+      "explanation": "تنظيم العلاقة المنطقية بين السبب والنتيجة."
+    },
+    {
+      "id": "b1-u4-06-q5",
+      "prompt": "أكمل التركيب: Yollar kapalıydı, bu nedenle geç kaldık.",
+      "options": [
+        "-seydi",
+        "neden + sonuç / bu nedenle",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي neden + sonuç / bu nedenle؛ ذكر السبب ثم النتيجة أو العكس."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u4",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 156
   }
 }

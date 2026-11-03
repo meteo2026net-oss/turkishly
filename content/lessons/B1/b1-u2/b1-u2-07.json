@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
-    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
-    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "اختيار أداة التشبيه أو المساواة أو المقارنة بحسب المعنى.",
+  "rule": "gibi تعني مثل/كـ، kadar تعني بقدر/مثل في الدرجة، وdaha تعني أكثر للمقارنة. أمثلة: senin gibi مثلك، senin kadar سريع مثلك، senden daha hızlı أسرع منك.",
+  "vocabulary": [
+    {
+      "term": "senin gibi",
+      "meaningAr": "مثلك / على غرارك",
+      "exampleTr": "O da senin gibi düşünüyor.",
+      "exampleAr": "هو أيضاً يفكر مثلك."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kardeşim benim kadar uzun.",
+      "ar": "أخي بطولي."
+    },
+    {
+      "tr": "Bu yol diğerinden daha kısa.",
+      "ar": "هذا الطريق أقصر من الآخر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu film kitap gibi mi?",
+      "ar": "هل هذا الفيلم مثل الكتاب؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, film kitaptan daha kısa.",
+      "ar": "لا، الفيلم أقصر من الكتاب."
+    }
+  ],
+  "speakingTask": "كوّن ثلاث جمل: تشبيه بـ gibi، ومساواة بـ kadar، ومقارنة بـ daha.",
+  "questions": [
+    {
+      "id": "b1-u2-07-q1",
+      "prompt": "ما معنى «senin gibi»؟",
+      "options": [
+        "بدلاً منك",
+        "مثلك",
+        "أسرع منك",
+        "بقدر ما"
+      ],
+      "answerIndex": 1,
+      "explanation": "senin gibi تعني مثلك / على غرارك."
+    },
+    {
+      "id": "b1-u2-07-q2",
+      "prompt": "ما ترجمة الجملة: «O da senin gibi düşünüyor.»؟",
+      "options": [
+        "هو لا يفكر مثلك.",
+        "هو يفكر بسببك.",
+        "هو أيضاً يفكر مثلك.",
+        "هو يفكر أسرع منك."
+      ],
+      "answerIndex": 2,
+      "explanation": "O da senin gibi düşünüyor. تعني هو أيضاً يفكر مثلك.."
+    },
+    {
+      "id": "b1-u2-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "senin kadar hızlı",
+        "senin gibi hızlı",
+        "senden hızlılık",
+        "senden daha hızlı"
+      ],
+      "answerIndex": 3,
+      "explanation": "أسرع منك؛ مقارنة تفاضلية."
+    },
+    {
+      "id": "b1-u2-07-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «senden daha hızlı»؟",
+      "options": [
+        "مقارنة تفاضلية",
+        "تعبير عن مساواة",
+        "تشبيه مباشر",
+        "صيغة غير صحيحة"
+      ],
+      "answerIndex": 0,
+      "explanation": "التمييز بين التشبيه والمساواة والمفاضلة."
+    },
+    {
+      "id": "b1-u2-07-q5",
+      "prompt": "أكمل التركيب: O da senin gibi düşünüyor.",
+      "options": [
+        "senin gibi hızlı",
+        "senden hızlılık",
+        "senden daha hızlı",
+        "senin kadar hızlı"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي senden daha hızlı؛ أسرع منك؛ مقارنة تفاضلية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u2",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 137
   }
 }

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-04",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 4,
+  "title": {
+    "ar": "التراث والفنون",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "sanat",
+  "rule": "Sanat eserleri yaşadıkları dönemin değerlerini yansıtabilir.",
+  "vocabulary": [
+    {
+      "term": "فن",
+      "meaningAr": "miras",
+      "exampleTr": "Sanat eserleri yaşadıkları dönemin değerlerini yansıtabilir.",
+      "exampleAr": "قد تعكس الأعمال الفنية قيم العصر الذي ظهرت فيه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "yansıtmak",
+      "ar": ""
+    },
+    {
+      "tr": "Sanat eserleri yaşadıkları dönemin değerlerini yansıtabilir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "يعكس",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "شرح دلالة العمل",
+  "questions": [
+    {
+      "id": "b2-u12-04-q1",
+      "prompt": "ما معنى «فن»؟",
+      "options": [
+        "إجراء",
+        "تعبير غير ملائم",
+        "تراث",
+        "خوارزمية"
+      ],
+      "answerIndex": 2,
+      "explanation": "فن تعني miras."
+    },
+    {
+      "id": "b2-u12-04-q2",
+      "prompt": "ما ترجمة الجملة: «Sanat eserleri yaşadıkları dönemin değerlerini yansıtabilir.»؟",
+      "options": [
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Sanat eserleri yaşadıkları dönemin değerlerini yansıtabilir.|قد تعكس الأعمال الفنية قيم العصر الذي ظهرت فيه."
+      ],
+      "answerIndex": 3,
+      "explanation": "Sanat eserleri yaşadıkları dönemin değerlerini yansıtabilir. تعني قد تعكس الأعمال الفنية قيم العصر الذي ظهرت فيه.."
+    },
+    {
+      "id": "b2-u12-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "kültürel miras",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "تراث ثقافي."
+    },
+    {
+      "id": "b2-u12-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «kültürel miras»؟",
+      "options": [
+        "طلب الإذن",
+        "ربط الفن بالسياق",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "ربط الفن بالسياق"
+    },
+    {
+      "id": "b2-u12-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "ربط الفن بالسياق"
+      ],
+      "answerIndex": 3,
+      "explanation": "ربط الفن بالسياق"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 294
+  }
+}

@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
-    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
-    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحديد مدى احتمال الحدث مع تجنب الجزم.",
+  "rule": "تستخدم muhtemelen وbüyük ihtimalle للتوقع، ويستخدم -miş olabilir للاستنتاج الاحتمالي، وolsa gerek للتخمين الراجح.",
+  "vocabulary": [
+    {
+      "term": "olsa gerek",
+      "meaningAr": "يُحتمل أنه / لا بد أنه على الأرجح",
+      "exampleTr": "Dosyayı yanlış adrese göndermiş olsa gerek.",
+      "exampleAr": "لا بد أنه أرسل الملف إلى عنوان خاطئ على الأرجح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "أمر",
+      "ar": ""
+    },
+    {
+      "tr": "Anahtarını evde unutmuş olabilir.",
+      "ar": "ربما نسي مفتاحه في المنزل."
+    },
+    {
+      "tr": "Yol kapalı olsa gerek.",
+      "ar": "لا بد أن الطريق مغلق على الأرجح."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden henüz gelmedi?",
+      "ar": "لماذا لم يصل بعد؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Trafikte kalmış olabilir.",
+      "ar": "ربما علق في الازدحام."
+    }
+  ],
+  "speakingTask": "رتّب أربعة توقعات من احتمال ضعيف إلى قوي مع تبريرها.",
+  "questions": [
+    {
+      "id": "b2-u2-02-q1",
+      "prompt": "ما معنى «olsa gerek»؟",
+      "options": [
+        "يُحتمل أنه / لا بد أنه على الأرجح",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي"
+      ],
+      "answerIndex": 0,
+      "explanation": "olsa gerek تعني يُحتمل أنه / لا بد أنه على الأرجح."
+    },
+    {
+      "id": "b2-u2-02-q2",
+      "prompt": "ما ترجمة الجملة: «Dosyayı yanlış adrese göndermiş olsa gerek.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "لا بد أنه أرسل الملف إلى عنوان خاطئ على الأرجح.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "Dosyayı yanlış adrese göndermiş olsa gerek. تعني لا بد أنه أرسل الملف إلى عنوان خاطئ على الأرجح.."
+    },
+    {
+      "id": "b2-u2-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "zorunluluk kesinliği",
+        "geçmiş alışkanlık",
+        "-miş olabilir / olsa gerek",
+        "olasılık"
+      ],
+      "answerIndex": 2,
+      "explanation": "صيغة استنتاج احتمالي."
+    },
+    {
+      "id": "b2-u2-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «-miş olabilir / olsa gerek»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "عرض احتمال مستنتج دون تأكيد قاطع."
+      ],
+      "answerIndex": 3,
+      "explanation": "عرض احتمال مستنتج دون تأكيد قاطع."
+    },
+    {
+      "id": "b2-u2-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النفي المطلق",
+        "عرض احتمال مستنتج دون تأكيد قاطع.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "عرض احتمال مستنتج دون تأكيد قاطع."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u2",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 192
   }
 }

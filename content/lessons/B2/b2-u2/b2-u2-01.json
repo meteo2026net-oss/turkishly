@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
-    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
-    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "استنتاج نتيجة من قرائن ومعلومات متاحة.",
+  "rule": "يمكن استخدام anlaşılan o ki (يبدو أن)، demek ki (إذن)، belli ki (من الواضح أن)، ويُستخدم -miş غالباً للاستنتاج أو نقل ما يبدو أنه حدث.",
+  "vocabulary": [
+    {
+      "term": "anlaşılan",
+      "meaningAr": "يبدو / يتضح",
+      "exampleTr": "Anlaşılan toplantı beklediğimizden uzun sürecek.",
+      "exampleAr": "يبدو أن الاجتماع سيستغرق وقتاً أطول مما توقعنا."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "مقارنة",
+      "ar": ""
+    },
+    {
+      "tr": "Belli ki konuyu iyi araştırmış.",
+      "ar": "من الواضح أنه بحث الموضوع جيداً."
+    },
+    {
+      "tr": "Demek ki yanlış anlamışız.",
+      "ar": "إذن لقد فهمنا خطأ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Herkes dışarı çıkıyor.",
+      "ar": "الجميع يخرج إلى الخارج."
+    },
+    {
+      "speaker": "B",
+      "tr": "Demek ki toplantı bitti.",
+      "ar": "إذن انتهى الاجتماع."
+    }
+  ],
+  "speakingTask": "استنتج خمس نتائج من قرائن يومية واذكر الدليل.",
+  "questions": [
+    {
+      "id": "b2-u2-01-q1",
+      "prompt": "ما معنى «anlaşılan»؟",
+      "options": [
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "يبدو / يتضح"
+      ],
+      "answerIndex": 3,
+      "explanation": "anlaşılan تعني يبدو / يتضح."
+    },
+    {
+      "id": "b2-u2-01-q2",
+      "prompt": "ما ترجمة الجملة: «Anlaşılan toplantı beklediğimizden uzun sürecek.»؟",
+      "options": [
+        "يبدو أن الاجتماع سيستغرق وقتاً أطول مما توقعنا.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "Anlaşılan toplantı beklediğimizden uzun sürecek. تعني يبدو أن الاجتماع سيستغرق وقتاً أطول مما توقعنا.."
+    },
+    {
+      "id": "b2-u2-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "doğrudan soru",
+        "anlaşılan o ki / belli ki",
+        "çıkarım",
+        "kesin emir"
+      ],
+      "answerIndex": 1,
+      "explanation": "تعبيرات للاستنتاج من القرائن."
+    },
+    {
+      "id": "b2-u2-01-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «anlaşılan o ki / belli ki»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إظهار نتيجة استدلالية لا معلومة مباشرة فقط.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إظهار نتيجة استدلالية لا معلومة مباشرة فقط."
+    },
+    {
+      "id": "b2-u2-01-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "إظهار نتيجة استدلالية لا معلومة مباشرة فقط.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "إظهار نتيجة استدلالية لا معلومة مباشرة فقط."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u2",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 191
   }
 }

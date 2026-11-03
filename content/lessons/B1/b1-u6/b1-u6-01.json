@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الوصف والمواقف والتواصل المتكامل",
-    "titleTr": "Betimleme, Durumlar ve Bütünleşik İletişim",
-    "description": "وصف الأشخاص والأماكن والمشاعر، وتقديم الشكاوى والطلبات والحلول وبناء المحادثة والفقرة."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "وصف شخصية شخص وسلوكه باستخدام صفات دقيقة.",
+  "rule": "استخدم sıfat + bir insan مثل sabırlı bir insan، والفرق بين sakin (هادئ) وsessiz (قليل الكلام/صامت). يمكن دعم الوصف بأمثلة سلوكية.",
+  "vocabulary": [
+    {
+      "term": "sabırlı",
+      "meaningAr": "صبور",
+      "exampleTr": "Sabırlı insanlar sorunları daha kolay çözebilir.",
+      "exampleAr": "يمكن للأشخاص الصبورين حل المشكلات بسهولة أكبر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "O çok yardımsever bir insan.",
+      "ar": "إنه شخص محب للمساعدة."
+    },
+    {
+      "tr": "Arkadaşım oldukça dürüst ve çalışkan.",
+      "ar": "صديقي صادق ومجتهد إلى حد كبير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yeni müdür nasıl biri?",
+      "ar": "كيف شخصية المدير الجديد؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Sabırlı, adil ve yardımsever.",
+      "ar": "صبور وعادل ومحب للمساعدة."
+    }
+  ],
+  "speakingTask": "صف شخصيتين مختلفتين مع مثال يوضح كل صفة.",
+  "questions": [
+    {
+      "id": "b1-u6-01-q1",
+      "prompt": "ما معنى «sabırlı»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "صبور"
+      ],
+      "answerIndex": 3,
+      "explanation": "sabırlı تعني صبور."
+    },
+    {
+      "id": "b1-u6-01-q2",
+      "prompt": "ما ترجمة الجملة: «Sabırlı insanlar sorunları daha kolay çözebilir.»؟",
+      "options": [
+        "يمكن للأشخاص الصبورين حل المشكلات بسهولة أكبر.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Sabırlı insanlar sorunları daha kolay çözebilir. تعني يمكن للأشخاص الصبورين حل المشكلات بسهولة أكبر.."
+    },
+    {
+      "id": "b1-u6-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "sıfat + bir kişi/insan",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "صفة تتبعها bir ثم الاسم."
+    },
+    {
+      "id": "b1-u6-01-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «sıfat + bir kişi/insan»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "وصف سمات الشخصية والسلوك.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "وصف سمات الشخصية والسلوك."
+    },
+    {
+      "id": "b1-u6-01-q5",
+      "prompt": "أكمل التركيب: Sabırlı insanlar sorunları daha kolay çözebilir.",
+      "options": [
+        "sıfat + bir kişi/insan",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي sıfat + bir kişi/insan؛ صفة تتبعها bir ثم الاسم."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u6",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 171
   }
 }

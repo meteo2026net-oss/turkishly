@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u10-04",
+  "level": "B2",
+  "unitId": "b2-u10",
+  "order": 4,
+  "title": {
+    "ar": "إدارة الاجتماعات المتقدمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "gündem",
+  "rule": "Toplantı gündemini önceden paylaşmak zamanı verimli kullanmamızı sağlar.",
+  "vocabulary": [
+    {
+      "term": "جدول أعمال",
+      "meaningAr": "gündem maddesi",
+      "exampleTr": "Toplantı gündemini önceden paylaşmak zamanı verimli kullanmamızı sağlar.",
+      "exampleAr": "يساعدنا مشاركة جدول الاجتماع مسبقاً على استخدام الوقت بكفاءة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "önceden",
+      "ar": ""
+    },
+    {
+      "tr": "Toplantı gündemini önceden paylaşmak zamanı verimli kullanmamızı sağlar.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "مسبقاً",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تحديد وقت الإجراء",
+  "questions": [
+    {
+      "id": "b2-u10-04-q1",
+      "prompt": "ما معنى «جدول أعمال»؟",
+      "options": [
+        "تأجيل",
+        "تعبير غير ملائم",
+        "بند جدول الأعمال",
+        "استطراد"
+      ],
+      "answerIndex": 2,
+      "explanation": "جدول أعمال تعني gündem maddesi."
+    },
+    {
+      "id": "b2-u10-04-q2",
+      "prompt": "ما ترجمة الجملة: «Toplantı gündemini önceden paylaşmak zamanı verimli kullanmamızı sağlar.»؟",
+      "options": [
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Toplantı gündemini önceden paylaşmak zamanı verimli kullanmamızı sağlar.|يساعدنا مشاركة جدول الاجتماع مسبقاً على استخدام الوقت بكفاءة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Toplantı gündemini önceden paylaşmak zamanı verimli kullanmamızı sağlar. تعني يساعدنا مشاركة جدول الاجتماع مسبقاً على استخدام الوقت بكفاءة.."
+    },
+    {
+      "id": "b2-u10-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "gündemi paylaşmak",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "يشارك جدول الأعمال."
+    },
+    {
+      "id": "b2-u10-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «gündemi paylaşmak»؟",
+      "options": [
+        "طلب الإذن",
+        "تنظيم الاجتماع",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "تنظيم الاجتماع"
+    },
+    {
+      "id": "b2-u10-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "تنظيم الاجتماع"
+      ],
+      "answerIndex": 3,
+      "explanation": "تنظيم الاجتماع"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u10",
+    "legacyGlobalNumber": 274
+  }
+}

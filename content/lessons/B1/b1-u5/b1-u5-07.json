@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الزمن والمدة والتجارب والتوقعات",
-    "titleTr": "Zaman, Süre, Deneyim ve Beklenti",
-    "description": "التعبير عن التكرار والمدة والمواعيد وتسلسل الأحداث والتجارب والتحذير والتوقعات."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الحديث عن تجارب مررت بها دون تحديد وقتها.",
+  "rule": "يستخدم الماضي الشهودي -DI لحدث محدد، بينما يمكن استعمال -miş لتقديم خبر أو تجربة غير محددة السياق. للتجربة قل daha önce ... yaptım أو hiç ... yapmadım.",
+  "vocabulary": [
+    {
+      "term": "daha önce",
+      "meaningAr": "من قبل / سابقاً",
+      "exampleTr": "Daha önce hiç Kapadokya'ya gittin mi?",
+      "exampleAr": "هل سبق أن ذهبت إلى كابادوكيا؟"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Daha önce bu kitabı okudum.",
+      "ar": "قرأت هذا الكتاب من قبل."
+    },
+    {
+      "tr": "Hiç yurt dışında yaşamadım.",
+      "ar": "لم أعش في الخارج قط."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Daha önce Türk yemeği yaptın mı?",
+      "ar": "هل سبق أن أعددت طعاماً تركياً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, birkaç kez yaptım.",
+      "ar": "نعم، أعددته بضع مرات."
+    }
+  ],
+  "speakingTask": "تحدث عن خمس تجارب قمت بها وتجربتين لم تقم بهما بعد.",
+  "questions": [
+    {
+      "id": "b1-u5-07-q1",
+      "prompt": "ما معنى «daha önce»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "من قبل / سابقاً"
+      ],
+      "answerIndex": 3,
+      "explanation": "daha önce تعني من قبل / سابقاً."
+    },
+    {
+      "id": "b1-u5-07-q2",
+      "prompt": "ما ترجمة الجملة: «Daha önce hiç Kapadokya'ya gittin mi?»؟",
+      "options": [
+        "هل سبق أن ذهبت إلى كابادوكيا؟",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Daha önce hiç Kapadokya'ya gittin mi? تعني هل سبق أن ذهبت إلى كابادوكيا؟."
+    },
+    {
+      "id": "b1-u5-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "Daha önce + görülen geçmiş zaman",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "السؤال عن تجربة سابقة أو ذكرها."
+    },
+    {
+      "id": "b1-u5-07-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «Daha önce + görülen geçmiş zaman»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "الحديث عن خبرة سابقة دون التركيز على توقيتها.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "الحديث عن خبرة سابقة دون التركيز على توقيتها."
+    },
+    {
+      "id": "b1-u5-07-q5",
+      "prompt": "أكمل التركيب: Daha önce hiç Kapadokya'ya gittin mi?",
+      "options": [
+        "Daha önce + görülen geçmiş zaman",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي Daha önce + görülen geçmiş zaman؛ السؤال عن تجربة سابقة أو ذكرها."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u5",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 167
   }
 }

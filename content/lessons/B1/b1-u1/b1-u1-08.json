@@ -5,26 +5,114 @@
   "unitId": "b1-u1",
   "order": 8,
   "title": {
-    "ar": "التعبير عن قبل أن باستخدام -madan önce",
+    "ar": "التعبير عن «قبل أن» باستخدام -madan önce",
     "tr": ""
   },
   "unit": {
-    "titleAr": "الجمل التابعة والروابط الزمنية والسببية",
-    "titleTr": "Yan Cümleler ve Zaman-Bağlaç Yapıları",
-    "description": "ربط الجمل ووصف الأسماء ونقل الكلام والتعبير عن السبب والغاية والتزامن والتتابع الزمني."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "ذكر الفعل الذي ينبغي أن يسبق حدثاً آخر.",
+  "rule": "نضيف -madan/-meden إلى الفعل ثم önce: çıkmadan önce = قبل أن أخرج، uyumadan önce = قبل أن أنام. لا نستخدم لاحقة الماضي هنا.",
+  "vocabulary": [
+    {
+      "term": "uyumadan önce",
+      "meaningAr": "قبل أن أنام",
+      "exampleTr": "Yatmadan önce kitap okuyorum.",
+      "exampleAr": "أقرأ كتاباً قبل أن أنام."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Evden çıkmadan önce kapıyı kilitle.",
+      "ar": "أقفل الباب قبل الخروج."
+    },
+    {
+      "tr": "Yemek yemeden önce ellerimi yıkarım.",
+      "ar": "أغسل يدي قبل الأكل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ne yaparsın yatmadan önce?",
+      "ar": "ماذا تفعل قبل النوم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Genellikle biraz okurum.",
+      "ar": "أقرأ قليلاً عادةً."
+    }
+  ],
+  "speakingTask": "اذكر ثلاث عادات تقوم بها قبل النوم أو قبل الخروج.",
+  "questions": [
+    {
+      "id": "b1-u1-08-q1",
+      "prompt": "ما معنى «uyumadan önce»؟",
+      "options": [
+        "قبل أن أنام",
+        "بعد أن أنام",
+        "أثناء النوم",
+        "لكي أنام"
+      ],
+      "answerIndex": 0,
+      "explanation": "uyumadan önce تعني قبل أن أنام."
+    },
+    {
+      "id": "b1-u1-08-q2",
+      "prompt": "ما ترجمة الجملة: «Yatmadan önce kitap okuyorum.»؟",
+      "options": [
+        "لا أقرأ في المساء.",
+        "أقرأ كتاباً قبل أن أنام.",
+        "أقرأ كتاباً بعد أن أنام.",
+        "أقرأ لأنني نمت."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yatmadan önce kitap okuyorum. تعني أقرأ كتاباً قبل أن أنام.."
+    },
+    {
+      "id": "b1-u1-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "yatarken",
+        "yatmak için",
+        "yatmadan önce",
+        "yattıktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "قبل حدوث الفعل المذكور."
+    },
+    {
+      "id": "b1-u1-08-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «yatmadan önce»؟",
+      "options": [
+        "تحديد التوقيت اللاحق",
+        "التزامن",
+        "الغاية",
+        "تحديد التوقيت السابق"
+      ],
+      "answerIndex": 3,
+      "explanation": "تحديد الحدث الذي يجب أن يقع أولاً."
+    },
+    {
+      "id": "b1-u1-08-q5",
+      "prompt": "أكمل التركيب: Yatmadan önce kitap okuyorum.",
+      "options": [
+        "yatmak için",
+        "yatmadan önce",
+        "yattıktan sonra",
+        "yatarken"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي yatmadan önce؛ قبل حدوث الفعل المذكور."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u1",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 128
   }
 }

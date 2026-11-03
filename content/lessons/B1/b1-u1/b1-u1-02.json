@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الجمل التابعة والروابط الزمنية والسببية",
-    "titleTr": "Yan Cümleler ve Zaman-Bağlaç Yapıları",
-    "description": "ربط الجمل ووصف الأسماء ونقل الكلام والتعبير عن السبب والغاية والتزامن والتتابع الزمني."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التعبير عن فكرة أو معلومة بوصفها مفعولاً به مثل onun geldiğini biliyorum.",
+  "rule": "تُستخدم صيغة -DIK مع لاحقة الملكية، ثم حالة المفعول المحدد عند الحاجة: geldiğini = أنه جاء، bildiğimi = أنني أعرف. تتغير الحروف والحركات وفق الانسجام الصوتي وقاعدة d/t.",
+  "vocabulary": [
+    {
+      "term": "onun geldiğini biliyorum",
+      "meaningAr": "أعرف أنه جاء",
+      "exampleTr": "Onun geldiğini biliyorum.",
+      "exampleAr": "أعرف أنه جاء."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ne istediğini anladım.",
+      "ar": "فهمت ما الذي يريده."
+    },
+    {
+      "tr": "Sınavı kazandığını duydum.",
+      "ar": "سمعت أنه نجح في الامتحان."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Toplantıya geldi mi?",
+      "ar": "هل جاء إلى الاجتماع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, geldiğini biliyorum.",
+      "ar": "نعم، أعرف أنه جاء."
+    }
+  ],
+  "speakingTask": "قل بالتركية: أعتقد أنه يعرف الحقيقة، وفهمت ما الذي تريده.",
+  "questions": [
+    {
+      "id": "b1-u1-02-q1",
+      "prompt": "ما معنى «onun geldiğini biliyorum»؟",
+      "options": [
+        "أعرف أين ذهب",
+        "أعرف أنه لا يأتي",
+        "أعرف أنه جاء",
+        "أعرف أنه سيأتي"
+      ],
+      "answerIndex": 2,
+      "explanation": "onun geldiğini biliyorum تعني أعرف أنه جاء."
+    },
+    {
+      "id": "b1-u1-02-q2",
+      "prompt": "ما ترجمة الجملة: «Onun geldiğini biliyorum.»؟",
+      "options": [
+        "أظن أنه سيأتي.",
+        "لا أعرفه.",
+        "أعرف المكان الذي جاء منه.",
+        "أعرف أنه جاء."
+      ],
+      "answerIndex": 3,
+      "explanation": "Onun geldiğini biliyorum. تعني أعرف أنه جاء.."
+    },
+    {
+      "id": "b1-u1-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "geldiğini",
+        "geleceğini",
+        "gelmediğini",
+        "geliyor"
+      ],
+      "answerIndex": 0,
+      "explanation": "اسم فعل تابع بمعنى «أنه جاء» في موقع المفعول به."
+    },
+    {
+      "id": "b1-u1-02-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «geldiğini»؟",
+      "options": [
+        "التعبير عن المقارنة",
+        "جعل الحدث مفعولاً به",
+        "تكوين أمر مباشر",
+        "وصف المكان"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحويل حدث كامل إلى فكرة أو معلومة تقع موقع المفعول به."
+    },
+    {
+      "id": "b1-u1-02-q5",
+      "prompt": "أكمل التركيب: Onun geldiğini biliyorum.",
+      "options": [
+        "geleceğini",
+        "gelmediğini",
+        "geliyor",
+        "geldiğini"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي geldiğini؛ اسم فعل تابع بمعنى «أنه جاء» في موقع المفعول به."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u1",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 122
   }
 }

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u10-07",
+  "level": "B2",
+  "unitId": "b2-u10",
+  "order": 7,
+  "title": {
+    "ar": "العمل عن بعد والتعاون الرقمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "uzaktan",
+  "rule": "Uzaktan çalışırken görevleri ve iletişim kanallarını netleştirmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "عن بعد",
+      "meaningAr": "eş zamanlı",
+      "exampleTr": "Uzaktan çalışırken görevleri ve iletişim kanallarını netleştirmeliyiz.",
+      "exampleAr": "أثناء العمل عن بعد ينبغي توضيح المهام وقنوات التواصل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-ken",
+      "ar": ""
+    },
+    {
+      "tr": "Uzaktan çalışırken görevleri ve iletişim kanallarını netleştirmeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "أثناء",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "ربط الفعل بظرفه",
+  "questions": [
+    {
+      "id": "b2-u10-07-q1",
+      "prompt": "ما معنى «عن بعد»؟",
+      "options": [
+        "تعبير غير ملائم",
+        "متزامن",
+        "منفرد",
+        "ورقي"
+      ],
+      "answerIndex": 1,
+      "explanation": "عن بعد تعني eş zamanlı."
+    },
+    {
+      "id": "b2-u10-07-q2",
+      "prompt": "ما ترجمة الجملة: «Uzaktan çalışırken görevleri ve iletişim kanallarını netleştirmeliyiz.»؟",
+      "options": [
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Uzaktan çalışırken görevleri ve iletişim kanallarını netleştirmeliyiz.|أثناء العمل عن بعد ينبغي توضيح المهام وقنوات التواصل.",
+        "سأذهب إلى السوق بعد الدرس."
+      ],
+      "answerIndex": 2,
+      "explanation": "Uzaktan çalışırken görevleri ve iletişim kanallarını netleştirmeliyiz. تعني أثناء العمل عن بعد ينبغي توضيح المهام وقنوات التواصل.."
+    },
+    {
+      "id": "b2-u10-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "uzaktan iş birliği"
+      ],
+      "answerIndex": 3,
+      "explanation": "تعاون عن بعد."
+    },
+    {
+      "id": "b2-u10-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «uzaktan iş birliği»؟",
+      "options": [
+        "تنسيق الفريق رقمياً",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "تنسيق الفريق رقمياً"
+    },
+    {
+      "id": "b2-u10-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "تنسيق الفريق رقمياً",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "تنسيق الفريق رقمياً"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u10",
+    "legacyGlobalNumber": 277
+  }
+}

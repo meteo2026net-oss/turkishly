@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
-    "titleTr": "İleri Akademik ve Mesleki İletişim",
-    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "عرض موقفك والرد على الاعتراضات باحترام.",
+  "rule": "استخدم itirazı anlıyorum (أتفهم الاعتراض)، ancak (لكن)، buna katılmıyorum çünkü (لا أتفق لأن)، görüşünüzü anlıyorum (أفهم وجهة نظرك). افصل نقد الفكرة عن نقد الشخص.",
+  "vocabulary": [
+    {
+      "term": "itiraz",
+      "meaningAr": "اعتراض",
+      "exampleTr": "İtirazınızı anlıyorum; ancak veriler farklı bir sonuca işaret ediyor.",
+      "exampleAr": "أتفهم اعتراضكم؛ لكن البيانات تشير إلى نتيجة مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "إصدار أمر",
+      "ar": ""
+    },
+    {
+      "tr": "Bu noktada sizinle aynı fikirde değilim.",
+      "ar": "في هذه النقطة لا أتفق معكم."
+    },
+    {
+      "tr": "Önerinizi değerlendirelim, ardından karar verelim.",
+      "ar": "لنقيّم اقتراحكم ثم نتخذ القرار."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu plan çok pahalı.",
+      "ar": "هذه الخطة مكلفة جداً."
+    },
+    {
+      "speaker": "B",
+      "tr": "Kaygınızı anlıyorum; alternatifleri de değerlendirebiliriz.",
+      "ar": "أتفهم قلقك؛ ويمكننا تقييم البدائل أيضاً."
+    }
+  ],
+  "speakingTask": "اكتب حوار مناظرة من 12 سطراً يتضمن اعتراضاً ورداً ودليلاً.",
+  "questions": [
+    {
+      "id": "b2-u3-04-q1",
+      "prompt": "ما معنى «itiraz»؟",
+      "options": [
+        "اعتراض",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي"
+      ],
+      "answerIndex": 0,
+      "explanation": "itiraz تعني اعتراض."
+    },
+    {
+      "id": "b2-u3-04-q2",
+      "prompt": "ما ترجمة الجملة: «İtirazınızı anlıyorum; ancak veriler farklı bir sonuca işaret ediyor.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "أتفهم اعتراضكم؛ لكن البيانات تشير إلى نتيجة مختلفة.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "İtirazınızı anlıyorum; ancak veriler farklı bir sonuca işaret ediyor. تعني أتفهم اعتراضكم؛ لكن البيانات تشير إلى نتيجة مختلفة.."
+    },
+    {
+      "id": "b2-u3-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "kişiyi eleştirme",
+        "konuyu değiştirme",
+        "itirazı kabul etme + gerekçe + karşı görüş",
+        "karşı görüş sunma"
+      ],
+      "answerIndex": 2,
+      "explanation": "الإقرار بالاعتراض ثم التعليل وعرض الرأي المقابل."
+    },
+    {
+      "id": "b2-u3-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «itirazı kabul etme + gerekçe + karşı görüş»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إدارة حوار حجاجي محترم."
+      ],
+      "answerIndex": 3,
+      "explanation": "إدارة حوار حجاجي محترم."
+    },
+    {
+      "id": "b2-u3-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النفي المطلق",
+        "إدارة حوار حجاجي محترم.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إدارة حوار حجاجي محترم."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u3",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 204
   }
 }

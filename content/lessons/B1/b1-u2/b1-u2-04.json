@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
-    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
-    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "طرح موقف افتراضي لتفسير احتمال أو مناقشة حل.",
+  "rule": "تُستخدم diyelim ki وfarz edelim ki بمعنى «لنفترض أن». يليهما وصف الحالة، ثم نناقش النتائج: Diyelim ki yarın tatil. = لنفترض أن غداً عطلة.",
+  "vocabulary": [
+    {
+      "term": "diyelim ki",
+      "meaningAr": "لنفترض أن",
+      "exampleTr": "Diyelim ki yarın tatil.",
+      "exampleAr": "لنفترض أن غداً عطلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Farz edelim ki hiç paran yok.",
+      "ar": "لنفترض أنه ليس لديك مال."
+    },
+    {
+      "tr": "Diyelim ki tren gecikti.",
+      "ar": "لنفترض أن القطار تأخر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Diyelim ki uçuş iptal oldu. Ne yaparız?",
+      "ar": "لنفترض أن الرحلة أُلغيت، ماذا نفعل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Başka bir uçuş ararız.",
+      "ar": "نبحث عن رحلة أخرى."
+    }
+  ],
+  "speakingTask": "ابتكر موقفين افتراضيين وناقش ما الذي ستفعله.",
+  "questions": [
+    {
+      "id": "b1-u2-04-q1",
+      "prompt": "ما معنى «diyelim ki»؟",
+      "options": [
+        "بعد أن",
+        "على الرغم من",
+        "لنفترض أن",
+        "لأن"
+      ],
+      "answerIndex": 2,
+      "explanation": "diyelim ki تعني لنفترض أن."
+    },
+    {
+      "id": "b1-u2-04-q2",
+      "prompt": "ما ترجمة الجملة: «Diyelim ki yarın tatil.»؟",
+      "options": [
+        "لأن غداً عطلة.",
+        "بعد أن تنتهي العطلة.",
+        "رغم أن اليوم عطلة.",
+        "لنفترض أن غداً عطلة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Diyelim ki yarın tatil. تعني لنفترض أن غداً عطلة.."
+    },
+    {
+      "id": "b1-u2-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "farz edelim ki",
+        "çünkü",
+        "-dikten sonra",
+        "rağmen"
+      ],
+      "answerIndex": 0,
+      "explanation": "تعبير افتتاحي لتقديم افتراض."
+    },
+    {
+      "id": "b1-u2-04-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «farz edelim ki»؟",
+      "options": [
+        "تقديم تنازل",
+        "تقديم افتراض",
+        "تقديم سبب",
+        "ترتيب زمني"
+      ],
+      "answerIndex": 1,
+      "explanation": "تقديم سيناريو افتراضي للنقاش."
+    },
+    {
+      "id": "b1-u2-04-q5",
+      "prompt": "أكمل التركيب: Diyelim ki yarın tatil.",
+      "options": [
+        "çünkü",
+        "-dikten sonra",
+        "rağmen",
+        "farz edelim ki"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي farz edelim ki؛ تعبير افتتاحي لتقديم افتراض."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u2",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 134
   }
 }

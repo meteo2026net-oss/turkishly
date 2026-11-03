@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الجمل التابعة والروابط الزمنية والسببية",
-    "titleTr": "Yan Cümleler ve Zaman-Bağlaç Yapıları",
-    "description": "ربط الجمل ووصف الأسماء ونقل الكلام والتعبير عن السبب والغاية والتزامن والتتابع الزمني."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التمييز بين السبب والغاية والتزامن والتتابع الزمني والحد الزمني.",
+  "rule": "قارن بين: -DIğI için للسبب، -mek için للغرض، -ken للتزامن، -DIktan sonra لما بعد الحدث، -madan önce لما قبله، و-kadar حتى حد معين.",
+  "vocabulary": [
+    {
+      "term": "-DIğI için",
+      "meaningAr": "لأن / بسبب أن",
+      "exampleTr": "Yağmur yağdığı için evde kaldık.",
+      "exampleAr": "بقينا في المنزل لأن المطر هطل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ders bittikten sonra eve gittim.",
+      "ar": "ذهبت إلى المنزل بعد انتهاء الدرس."
+    },
+    {
+      "tr": "Uyumadan önce dişlerimi fırçalarım.",
+      "ar": "أنظف أسناني قبل النوم."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden erken çıktın?",
+      "ar": "لماذا خرجت مبكراً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "İşim bittiği için.",
+      "ar": "لأن عملي انتهى."
+    }
+  ],
+  "speakingTask": "اكتب فقرة قصيرة تستخدم فيها أربعة روابط مختلفة من الوحدة.",
+  "questions": [
+    {
+      "id": "b1-u1-10-q1",
+      "prompt": "ما معنى «-DIğI için»؟",
+      "options": [
+        "بينما",
+        "حتى",
+        "لأن / بسبب أن",
+        "لكي / من أجل"
+      ],
+      "answerIndex": 2,
+      "explanation": "-DIğI için تعني لأن / بسبب أن."
+    },
+    {
+      "id": "b1-u1-10-q2",
+      "prompt": "ما ترجمة الجملة: «Yağmur yağdığı için evde kaldık.»؟",
+      "options": [
+        "بقينا حتى توقف المطر.",
+        "خرجنا لكي نرى المطر.",
+        "خرجنا بينما كان المطر يهطل.",
+        "بقينا في المنزل لأن المطر هطل."
+      ],
+      "answerIndex": 3,
+      "explanation": "Yağmur yağdığı için evde kaldık. تعني بقينا في المنزل لأن المطر هطل.."
+    },
+    {
+      "id": "b1-u1-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "yağdığı için",
+        "yağmak için",
+        "yağarken",
+        "yağana kadar"
+      ],
+      "answerIndex": 0,
+      "explanation": "صيغة السبب وليست الغاية أو الزمن."
+    },
+    {
+      "id": "b1-u1-10-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «yağdığı için»؟",
+      "options": [
+        "تحديد الحد النهائي",
+        "ذكر السبب",
+        "ذكر الهدف",
+        "وصف التزامن"
+      ],
+      "answerIndex": 1,
+      "explanation": "تمييز الرابط بحسب العلاقة المنطقية أو الزمنية بين الجمل."
+    },
+    {
+      "id": "b1-u1-10-q5",
+      "prompt": "أكمل التركيب: Yağmur yağdığı için evde kaldık.",
+      "options": [
+        "yağmak için",
+        "yağarken",
+        "yağana kadar",
+        "yağdığı için"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي yağdığı için؛ صيغة السبب وليست الغاية أو الزمن."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u1",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 130
   }
 }

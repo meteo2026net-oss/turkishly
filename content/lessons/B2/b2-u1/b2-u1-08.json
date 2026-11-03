@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التراكيب النحوية المتقدمة",
-    "titleTr": "İleri Dilbilgisi Yapıları",
-    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التعبير عن شروط مركبة ونتائجها المحتملة.",
+  "rule": "يمكن الجمع بين -se/-sa وتراكيب الزمن أو الاحتمال، مثل zamanında başvurursan değerlendirilirsin. وللافتراض غير الواقعي استخدم -seydi/-saydı.",
+  "vocabulary": [
+    {
+      "term": "değerlendirilirsin",
+      "meaningAr": "سيتم تقييمك",
+      "exampleTr": "Belgeleri zamanında gönderirsen başvurun değerlendirilecek.",
+      "exampleAr": "إذا أرسلت الوثائق في الوقت المحدد فسيتم تقييم طلبك."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "التزامن",
+      "ar": ""
+    },
+    {
+      "tr": "Vaktin olursa bizi ara.",
+      "ar": "اتصل بنا إن كان لديك وقت."
+    },
+    {
+      "tr": "Daha erken başlasaydık yetişebilirdik.",
+      "ar": "لو بدأنا أبكر لتمكنا من اللحاق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yetişebilir miyiz?",
+      "ar": "هل يمكننا اللحاق؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hemen başlarsak evet.",
+      "ar": "نعم إذا بدأنا فوراً."
+    }
+  ],
+  "speakingTask": "أنشئ أربع جمل شرطية واقعية وجملتين افتراضيتين.",
+  "questions": [
+    {
+      "id": "b2-u1-08-q1",
+      "prompt": "ما معنى «değerlendirilirsin»؟",
+      "options": [
+        "سيتم تقييمك",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي"
+      ],
+      "answerIndex": 0,
+      "explanation": "değerlendirilirsin تعني سيتم تقييمك."
+    },
+    {
+      "id": "b2-u1-08-q2",
+      "prompt": "ما ترجمة الجملة: «Belgeleri zamanında gönderirsen başvurun değerlendirilecek.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "إذا أرسلت الوثائق في الوقت المحدد فسيتم تقييم طلبك.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "Belgeleri zamanında gönderirsen başvurun değerlendirilecek. تعني إذا أرسلت الوثائق في الوقت المحدد فسيتم تقييم طلبك.."
+    },
+    {
+      "id": "b2-u1-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi/-saydı",
+        "-miş",
+        "şart kipi + gelecek sonuç",
+        "-se/-sa + gelecek"
+      ],
+      "answerIndex": 2,
+      "explanation": "شرط يتبعه مستقبل أو نتيجة متوقعة."
+    },
+    {
+      "id": "b2-u1-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «şart kipi + gelecek sonuç»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "ربط تحقق الشرط بنتيجة لاحقة."
+      ],
+      "answerIndex": 3,
+      "explanation": "ربط تحقق الشرط بنتيجة لاحقة."
+    },
+    {
+      "id": "b2-u1-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النفي المطلق",
+        "ربط تحقق الشرط بنتيجة لاحقة.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "ربط تحقق الشرط بنتيجة لاحقة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u1",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 188
   }
 }

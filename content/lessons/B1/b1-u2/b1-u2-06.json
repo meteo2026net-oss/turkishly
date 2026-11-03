@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
-    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
-    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التعبير عن حدوث نتيجة رغم وجود عائق أو ظرف معاكس.",
+  "rule": "تأتي rağmen بعد الاسم في حالة الاتجاه: yağmura rağmen = رغم المطر. ومع الفعل نستخدم -mesine/-masına rağmen: hasta olmasına rağmen = رغم أنه مريض.",
+  "vocabulary": [
+    {
+      "term": "yağmura rağmen",
+      "meaningAr": "على الرغم من المطر",
+      "exampleTr": "Yağmura rağmen dışarı çıktık.",
+      "exampleAr": "خرجنا رغم المطر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yorgun olmasına rağmen çalıştı.",
+      "ar": "عمل رغم تعبه."
+    },
+    {
+      "tr": "Zorluklara rağmen başardık.",
+      "ar": "نجحنا رغم الصعوبات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Çok soğuk, neden yürüyorsun?",
+      "ar": "الجو بارد جداً، لماذا تمشي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Soğuğa rağmen yürüyüş yapıyorum.",
+      "ar": "أتمشى رغم البرد."
+    }
+  ],
+  "speakingTask": "صف إنجازاً حدث رغم صعوبة ما مستخدماً rağmen.",
+  "questions": [
+    {
+      "id": "b1-u2-06-q1",
+      "prompt": "ما معنى «yağmura rağmen»؟",
+      "options": [
+        "على الرغم من المطر",
+        "بسبب المطر",
+        "بعد المطر",
+        "قبل المطر"
+      ],
+      "answerIndex": 0,
+      "explanation": "yağmura rağmen تعني على الرغم من المطر."
+    },
+    {
+      "id": "b1-u2-06-q2",
+      "prompt": "ما ترجمة الجملة: «Yağmura rağmen dışarı çıktık.»؟",
+      "options": [
+        "خرجنا لكي نرى المطر.",
+        "خرجنا رغم المطر.",
+        "بقينا في المنزل بسبب المطر.",
+        "خرجنا بعد المطر."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yağmura rağmen dışarı çıktık. تعني خرجنا رغم المطر.."
+    },
+    {
+      "id": "b1-u2-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "olmak için",
+        "olduktan sonra",
+        "olmasına rağmen",
+        "olduğu için"
+      ],
+      "answerIndex": 2,
+      "explanation": "رغم كونه / رغم حدوثه."
+    },
+    {
+      "id": "b1-u2-06-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «olmasına rağmen»؟",
+      "options": [
+        "السبب",
+        "الغاية",
+        "التتابع الزمني",
+        "التنازل والتعارض"
+      ],
+      "answerIndex": 3,
+      "explanation": "إظهار التناقض بين عائق والنتيجة التي حدثت."
+    },
+    {
+      "id": "b1-u2-06-q5",
+      "prompt": "أكمل التركيب: Yağmura rağmen dışarı çıktık.",
+      "options": [
+        "olduktan sonra",
+        "olmasına rağmen",
+        "olduğu için",
+        "olmak için"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي olmasına rağmen؛ رغم كونه / رغم حدوثه."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u2",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 136
   }
 }

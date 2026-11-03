@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الجمل التابعة والروابط الزمنية والسببية",
-    "titleTr": "Yan Cümleler ve Zaman-Bağlaç Yapıları",
-    "description": "ربط الجمل ووصف الأسماء ونقل الكلام والتعبير عن السبب والغاية والتزامن والتتابع الزمني."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "وصف حدث يقع أثناء حدوث حدث آخر أو أثناء حالة معينة.",
+  "rule": "تأتي -ken بمعنى «بينما/عندما»: çalışırken = أثناء العمل، çocukken = عندما كنت طفلاً. مع الأسماء قد تأتي بعد صيغة مختصرة، ومع الأفعال تلحق بالجذر أو الصيغة المناسبة.",
+  "vocabulary": [
+    {
+      "term": "çalışırken",
+      "meaningAr": "أثناء العمل",
+      "exampleTr": "Müzik dinlerken çalışıyorum.",
+      "exampleAr": "أعمل بينما أستمع إلى الموسيقى."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yemek yaparken telefon çaldı.",
+      "ar": "رن الهاتف أثناء إعداد الطعام."
+    },
+    {
+      "tr": "Çocukken çok kitap okurdum.",
+      "ar": "كنت أقرأ كثيراً عندما كنت طفلاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ne yapıyordun?",
+      "ar": "ماذا كنت تفعل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kitap okurken kahve içiyordum.",
+      "ar": "كنت أشرب القهوة أثناء قراءة كتاب."
+    }
+  ],
+  "speakingTask": "صف نشاطين تقوم بهما في الوقت نفسه مستخدماً -ken.",
+  "questions": [
+    {
+      "id": "b1-u1-06-q1",
+      "prompt": "ما معنى «çalışırken»؟",
+      "options": [
+        "قبل العمل",
+        "من أجل العمل",
+        "أثناء العمل",
+        "بعد العمل"
+      ],
+      "answerIndex": 2,
+      "explanation": "çalışırken تعني أثناء العمل."
+    },
+    {
+      "id": "b1-u1-06-q2",
+      "prompt": "ما ترجمة الجملة: «Müzik dinlerken çalışıyorum.»؟",
+      "options": [
+        "أعمل بعد أن أستمع للموسيقى.",
+        "أعمل لكي أسمع الموسيقى.",
+        "لا أعمل بسبب الموسيقى.",
+        "أعمل بينما أستمع إلى الموسيقى."
+      ],
+      "answerIndex": 3,
+      "explanation": "Müzik dinlerken çalışıyorum. تعني أعمل بينما أستمع إلى الموسيقى.."
+    },
+    {
+      "id": "b1-u1-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "dinlerken",
+        "dinledikten sonra",
+        "dinlemeden önce",
+        "dinlemek için"
+      ],
+      "answerIndex": 0,
+      "explanation": "أثناء الاستماع، وتدل على التزامن."
+    },
+    {
+      "id": "b1-u1-06-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «dinlerken»؟",
+      "options": [
+        "تحديد الغاية",
+        "التزامن بين حدثين",
+        "ترتيب حدث بعد آخر",
+        "ذكر السبب"
+      ],
+      "answerIndex": 1,
+      "explanation": "ربط فعلين يحدثان في الوقت نفسه."
+    },
+    {
+      "id": "b1-u1-06-q5",
+      "prompt": "أكمل التركيب: Müzik dinlerken çalışıyorum.",
+      "options": [
+        "dinledikten sonra",
+        "dinlemeden önce",
+        "dinlemek için",
+        "dinlerken"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي dinlerken؛ أثناء الاستماع، وتدل على التزامن."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u1",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 126
   }
 }

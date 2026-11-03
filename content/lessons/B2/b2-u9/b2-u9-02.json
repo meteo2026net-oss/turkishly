@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-02",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 2,
+  "title": {
+    "ar": "الاحتمال والارتباط والسببية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "ilişki",
+  "rule": "İki değişken arasında ilişki bulunması tek başına nedensellik göstermez.",
+  "vocabulary": [
+    {
+      "term": "علاقة",
+      "meaningAr": "değişken",
+      "exampleTr": "İki değişken arasında ilişki bulunması tek başına nedensellik göstermez.",
+      "exampleAr": "وجود علاقة بين متغيرين لا يثبت السببية وحده."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تحديد حدود الدليل",
+      "ar": ""
+    },
+    {
+      "tr": "İki değişken arasında ilişki bulunması tek başına nedensellik göstermez.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Bu sonuç başka etkenlerden kaynaklanabilir.|قد تنتج هذه النتيجة عن عوامل أخرى.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Birlikte değişmeleri yeterli mi? — هل تغيرهما معاً كافٍ؟\nB: Hayır, ek kanıt gerekir. — لا، نحتاج إلى دليل إضافي.",
+  "questions": [
+    {
+      "id": "b2-u9-02-q1",
+      "prompt": "ما معنى «علاقة»؟",
+      "options": [
+        "سببية",
+        "تعبير غير مناسب",
+        "متغير",
+        "nedensellik"
+      ],
+      "answerIndex": 2,
+      "explanation": "علاقة تعني değişken."
+    },
+    {
+      "id": "b2-u9-02-q2",
+      "prompt": "ما ترجمة الجملة: «İki değişken arasında ilişki bulunması tek başına nedensellik göstermez.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "وجود علاقة بين متغيرين لا يثبت السببية وحده.|وجود علاقة بين متغيرين لا يثبت السببية وحده."
+      ],
+      "answerIndex": 3,
+      "explanation": "İki değişken arasında ilişki bulunması tek başına nedensellik göstermez. تعني وجود علاقة بين متغيرين لا يثبت السببية وحده.."
+    },
+    {
+      "id": "b2-u9-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تجنب الاستنتاج المتسرع",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "tek başına."
+    },
+    {
+      "id": "b2-u9-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تجنب الاستنتاج المتسرع»؟",
+      "options": [
+        "طلب الإذن",
+        "بمفرده",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "بمفرده"
+    },
+    {
+      "id": "b2-u9-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "بمفرده"
+      ],
+      "answerIndex": 3,
+      "explanation": "بمفرده"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 262
+  }
+}

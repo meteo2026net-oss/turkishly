@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u10-03",
+  "level": "B2",
+  "unitId": "b2-u10",
+  "order": 3,
+  "title": {
+    "ar": "القيادة والتأثير",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "liderlik",
+  "rule": "Etkili liderler kararlarını açık gerekçelerle paylaşır.",
+  "vocabulary": [
+    {
+      "term": "قيادة",
+      "meaningAr": "liderlik becerisi",
+      "exampleTr": "Etkili liderler kararlarını açık gerekçelerle paylaşır.",
+      "exampleAr": "يشارك القادة الفاعلون قراراتهم مع مبررات واضحة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "etkili + isim",
+      "ar": ""
+    },
+    {
+      "tr": "Etkili liderler kararlarını açık gerekçelerle paylaşır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "صفة واسم",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "وصف القيادة الفاعلة",
+  "questions": [
+    {
+      "id": "b2-u10-03-q1",
+      "prompt": "ما معنى «قيادة»؟",
+      "options": [
+        "تعبير غير ملائم",
+        "مهارة قيادية",
+        "إهمال",
+        "تسلط"
+      ],
+      "answerIndex": 1,
+      "explanation": "قيادة تعني liderlik becerisi."
+    },
+    {
+      "id": "b2-u10-03-q2",
+      "prompt": "ما ترجمة الجملة: «Etkili liderler kararlarını açık gerekçelerle paylaşır.»؟",
+      "options": [
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Etkili liderler kararlarını açık gerekçelerle paylaşır.|يشارك القادة الفاعلون قراراتهم مع مبررات واضحة.",
+        "سأذهب إلى السوق بعد الدرس."
+      ],
+      "answerIndex": 2,
+      "explanation": "Etkili liderler kararlarını açık gerekçelerle paylaşır. تعني يشارك القادة الفاعلون قراراتهم مع مبررات واضحة.."
+    },
+    {
+      "id": "b2-u10-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "karar paylaşmak"
+      ],
+      "answerIndex": 3,
+      "explanation": "يشارك القرار."
+    },
+    {
+      "id": "b2-u10-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «karar paylaşmak»؟",
+      "options": [
+        "توضيح أسلوب القيادة",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "توضيح أسلوب القيادة"
+    },
+    {
+      "id": "b2-u10-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "توضيح أسلوب القيادة",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "توضيح أسلوب القيادة"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u10",
+    "legacyGlobalNumber": 273
+  }
+}

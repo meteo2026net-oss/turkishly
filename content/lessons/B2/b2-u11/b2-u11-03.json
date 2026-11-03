@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-03",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 3,
+  "title": {
+    "ar": "الاقتصاد العالمي والتجارة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "ticaret",
+  "rule": "Küresel ticaret ülkeler arasındaki ekonomik ilişkileri etkiler.",
+  "vocabulary": [
+    {
+      "term": "تجارة",
+      "meaningAr": "tedarik zinciri",
+      "exampleTr": "Küresel ticaret ülkeler arasındaki ekonomik ilişkileri etkiler.",
+      "exampleAr": "تؤثر التجارة العالمية في العلاقات الاقتصادية بين الدول."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "arasındaki",
+      "ar": ""
+    },
+    {
+      "tr": "Küresel ticaret ülkeler arasındaki ekonomik ilişkileri etkiler.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "بين",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تحديد العلاقة",
+  "questions": [
+    {
+      "id": "b2-u11-03-q1",
+      "prompt": "ما معنى «تجارة»؟",
+      "options": [
+        "حوار",
+        "موعد",
+        "تعبير غير ملائم",
+        "سلسلة إمداد"
+      ],
+      "answerIndex": 3,
+      "explanation": "تجارة تعني tedarik zinciri."
+    },
+    {
+      "id": "b2-u11-03-q2",
+      "prompt": "ما ترجمة الجملة: «Küresel ticaret ülkeler arasındaki ekonomik ilişkileri etkiler.»؟",
+      "options": [
+        "Küresel ticaret ülkeler arasındaki ekonomik ilişkileri etkiler.|تؤثر التجارة العالمية في العلاقات الاقتصادية بين الدول.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Küresel ticaret ülkeler arasındaki ekonomik ilişkileri etkiler. تعني تؤثر التجارة العالمية في العلاقات الاقتصادية بين الدول.."
+    },
+    {
+      "id": "b2-u11-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "uluslararası ticaret",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "تجارة دولية."
+    },
+    {
+      "id": "b2-u11-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «uluslararası ticaret»؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "وصف الترابط الاقتصادي",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "وصف الترابط الاقتصادي"
+    },
+    {
+      "id": "b2-u11-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف الترابط الاقتصادي",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "وصف الترابط الاقتصادي"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 283
+  }
+}

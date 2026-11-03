@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الوصف والمواقف والتواصل المتكامل",
-    "titleTr": "Betimleme, Durumlar ve Bütünleşik İletişim",
-    "description": "وصف الأشخاص والأماكن والمشاعر، وتقديم الشكاوى والطلبات والحلول وبناء المحادثة والفقرة."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إدارة محادثة تشمل بدء الحديث والاستيضاح وإنهاء الحوار.",
+  "rule": "ابدأ بـ Merhaba, nasılsınız? واطلب التوضيح بـ Biraz daha açıklar mısınız?، وتحقق من الفهم بـ Yani ... demek istiyorsunuz, doğru mu?، واختم بـ Görüşmek üzere.",
+  "vocabulary": [
+    {
+      "term": "Biraz daha açıklar mısınız?",
+      "meaningAr": "هل يمكنكم التوضيح أكثر قليلاً؟",
+      "exampleTr": "Söylediğinizi biraz daha açıklar mısınız?",
+      "exampleAr": "هل يمكنك توضيح ما قلته أكثر قليلاً؟"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yani yarın saat onda buluşacağız, doğru mu?",
+      "ar": "إذن سنلتقي غداً الساعة العاشرة، صحيح؟"
+    },
+    {
+      "tr": "Anladım, çok teşekkür ederim.",
+      "ar": "فهمت، شكراً جزيلاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Toplantı saat kaçta?",
+      "ar": "في أي ساعة الاجتماع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Saat onda. Biraz erken gelir misiniz?",
+      "ar": "الساعة العاشرة. هل يمكنك الحضور مبكراً قليلاً؟"
+    }
+  ],
+  "speakingTask": "أنشئ حواراً من 10 أسطر يتضمن استيضاحاً وتأكيداً وختاماً.",
+  "questions": [
+    {
+      "id": "b1-u6-08-q1",
+      "prompt": "ما معنى «Biraz daha açıklar mısınız?»؟",
+      "options": [
+        "الاحتمال",
+        "المقارنة",
+        "هل يمكنكم التوضيح أكثر قليلاً؟",
+        "السبب / النتيجة"
+      ],
+      "answerIndex": 2,
+      "explanation": "Biraz daha açıklar mısınız? تعني هل يمكنكم التوضيح أكثر قليلاً؟."
+    },
+    {
+      "id": "b1-u6-08-q2",
+      "prompt": "ما ترجمة الجملة: «Söylediğinizi biraz daha açıklar mısınız?»؟",
+      "options": [
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "هل يمكنك توضيح ما قلته أكثر قليلاً؟"
+      ],
+      "answerIndex": 3,
+      "explanation": "Söylediğinizi biraz daha açıklar mısınız? تعني هل يمكنك توضيح ما قلته أكثر قليلاً؟."
+    },
+    {
+      "id": "b1-u6-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "başlatma + açıklama isteme + teyit + bitirme",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "مراحل إدارة المحادثة."
+    },
+    {
+      "id": "b1-u6-08-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «başlatma + açıklama isteme + teyit + bitirme»؟",
+      "options": [
+        "النفي المطلق",
+        "المحافظة على حوار مفهوم ومهذب.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "المحافظة على حوار مفهوم ومهذب."
+    },
+    {
+      "id": "b1-u6-08-q5",
+      "prompt": "أكمل التركيب: Söylediğinizi biraz daha açıklar mısınız?",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "başlatma + açıklama isteme + teyit + bitirme"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي başlatma + açıklama isteme + teyit + bitirme؛ مراحل إدارة المحادثة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u6",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 178
   }
 }

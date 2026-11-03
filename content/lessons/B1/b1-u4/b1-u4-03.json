@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعبير عن الرأي والتفضيل والتفاعل",
-    "titleTr": "Görüş, Tercih ve Etkileşim",
-    "description": "إبداء الرأي والموافقة والاعتراض والتفضيل والندم والسبب والغاية والتغيير."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "المقارنة بين خيارين وشرح الأفضل بالنسبة إليك.",
+  "rule": "استخدم tercih etmek بمعنى يفضّل، و... yerine بمعنى بدلاً من، و... daha çok بمعنى أكثر. مثال: Evde kalmak yerine dışarı çıkmayı tercih ederim.",
+  "vocabulary": [
+    {
+      "term": "tercih etmek",
+      "meaningAr": "يفضّل / يختار",
+      "exampleTr": "Kalabalık yerler yerine sakin kafeleri tercih ederim.",
+      "exampleAr": "أفضل المقاهي الهادئة بدلاً من الأماكن المزدحمة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çay yerine kahve tercih ederim.",
+      "ar": "أفضل القهوة بدلاً من الشاي."
+    },
+    {
+      "tr": "Otobüs yerine trene binmeyi tercih ettik.",
+      "ar": "فضلنا ركوب القطار بدلاً من الحافلة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tatilde denize mi gidersin, dağa mı?",
+      "ar": "هل تذهب إلى البحر أم الجبل في العطلة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Dağa gitmeyi tercih ederim.",
+      "ar": "أفضل الذهاب إلى الجبل."
+    }
+  ],
+  "speakingTask": "قارن بين الدراسة صباحاً ومساءً واذكر تفضيلك.",
+  "questions": [
+    {
+      "id": "b1-u4-03-q1",
+      "prompt": "ما معنى «tercih etmek»؟",
+      "options": [
+        "المقارنة",
+        "يفضّل / يختار",
+        "السبب / النتيجة",
+        "الاحتمال"
+      ],
+      "answerIndex": 1,
+      "explanation": "tercih etmek تعني يفضّل / يختار."
+    },
+    {
+      "id": "b1-u4-03-q2",
+      "prompt": "ما ترجمة الجملة: «Kalabalık yerler yerine sakin kafeleri tercih ederim.»؟",
+      "options": [
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "أفضل المقاهي الهادئة بدلاً من الأماكن المزدحمة.",
+        "سأفعل ذلك في وقت آخر."
+      ],
+      "answerIndex": 2,
+      "explanation": "Kalabalık yerler yerine sakin kafeleri tercih ederim. تعني أفضل المقاهي الهادئة بدلاً من الأماكن المزدحمة.."
+    },
+    {
+      "id": "b1-u4-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "A yerine B'yi tercih etmek"
+      ],
+      "answerIndex": 3,
+      "explanation": "اختيار B بدلاً من A."
+    },
+    {
+      "id": "b1-u4-03-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «A yerine B'yi tercih etmek»؟",
+      "options": [
+        "توضيح التفضيل بين بديلين.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "توضيح التفضيل بين بديلين."
+    },
+    {
+      "id": "b1-u4-03-q5",
+      "prompt": "أكمل التركيب: Kalabalık yerler yerine sakin kafeleri tercih ederim.",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "A yerine B'yi tercih etmek",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي A yerine B'yi tercih etmek؛ اختيار B بدلاً من A."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u4",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 153
   }
 }

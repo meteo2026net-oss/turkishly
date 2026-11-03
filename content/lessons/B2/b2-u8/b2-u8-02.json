@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-02",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 2,
+  "title": {
+    "ar": "القواعد والإجراءات الرسمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "başvuru",
+  "rule": "Başvurunun geçerli sayılması için belgelerin eksiksiz sunulması gerekir.",
+  "vocabulary": [
+    {
+      "term": "طلب رسمي",
+      "meaningAr": "geçerli",
+      "exampleTr": "Başvurunun geçerli sayılması için belgelerin eksiksiz sunulması gerekir.",
+      "exampleAr": "لكي يعد الطلب صالحاً يجب تقديم الوثائق كاملة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "التعبير عن الإلزام",
+      "ar": ""
+    },
+    {
+      "tr": "Başvurunun geçerli sayılması için belgelerin eksiksiz sunulması gerekir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Başvuru süreci çevrim içi yürütülüyor.|تُدار عملية التقديم إلكترونياً.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Hangi belgeler gerekli? — ما الوثائق المطلوبة؟\nB: Kimlik ve başvuru formu. — الهوية واستمارة الطلب.",
+  "questions": [
+    {
+      "id": "b2-u8-02-q1",
+      "prompt": "ما معنى «طلب رسمي»؟",
+      "options": [
+        "صالح",
+        "eksiksiz sunmak",
+        "يقدم دون نقص",
+        "تعبير غير مناسب"
+      ],
+      "answerIndex": 0,
+      "explanation": "طلب رسمي تعني geçerli."
+    },
+    {
+      "id": "b2-u8-02-q2",
+      "prompt": "ما ترجمة الجملة: «Başvurunun geçerli sayılması için belgelerin eksiksiz sunulması gerekir.»؟",
+      "options": [
+        "هذا التعبير لا يناسب السياق.",
+        "لكي يعد الطلب صالحاً يجب تقديم الوثائق كاملة.|لكي يعد الطلب صالحاً يجب تقديم الوثائق كاملة.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق."
+      ],
+      "answerIndex": 1,
+      "explanation": "Başvurunun geçerli sayılması için belgelerin eksiksiz sunulması gerekir. تعني لكي يعد الطلب صالحاً يجب تقديم الوثائق كاملة.."
+    },
+    {
+      "id": "b2-u8-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "توضيح شرط قبول الطلب",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "-ması gerekir."
+    },
+    {
+      "id": "b2-u8-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «توضيح شرط قبول الطلب»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "يجب أن"
+      ],
+      "answerIndex": 3,
+      "explanation": "يجب أن"
+    },
+    {
+      "id": "b2-u8-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "يجب أن",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "يجب أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 252
+  }
+}

@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التواصل المتقدم وبناء الخطاب",
-    "titleTr": "İleri İletişim ve Söylem Kurma",
-    "description": "تنظيم العروض الشفهية وحل المشكلات والتخطيط وسرد الخبرات واستخدام المبني للمجهول والروابط المركبة."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تركيز الجملة على الفعل أو النتيجة دون ذكر الفاعل.",
+  "rule": "يُبنى المجهول غالباً بإضافة -ıl/-il/-ul/-ül أو -n بحسب بنية الفعل: açmak → açılmak، yapmak → yapılmak، görmek → görülmek. يتغير التصريف الزمني بعد ذلك.",
+  "vocabulary": [
+    {
+      "term": "yapıldı",
+      "meaningAr": "تم إنجازه / صُنع",
+      "exampleTr": "Köprü geçen yıl yapıldı.",
+      "exampleAr": "بُني الجسر العام الماضي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kapı açıldı.",
+      "ar": "فُتح الباب."
+    },
+    {
+      "tr": "Yeni kurallar açıklandı.",
+      "ar": "أُعلنت القواعد الجديدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bina ne zaman yapıldı?",
+      "ar": "متى بُني المبنى؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "2018 yılında yapıldı.",
+      "ar": "بُني عام 2018."
+    }
+  ],
+  "speakingTask": "حوّل ثلاث جمل معلومة بسيطة إلى مبني للمجهول.",
+  "questions": [
+    {
+      "id": "b1-u3-05-q1",
+      "prompt": "ما معنى «yapıldı»؟",
+      "options": [
+        "ينبغي أن يبني",
+        "تم إنجازه / بُني",
+        "سيُبنى",
+        "يبني"
+      ],
+      "answerIndex": 1,
+      "explanation": "yapıldı تعني تم إنجازه / صُنع."
+    },
+    {
+      "id": "b1-u3-05-q2",
+      "prompt": "ما ترجمة الجملة: «Köprü geçen yıl yapıldı.»؟",
+      "options": [
+        "يبني العمال الجسر الآن.",
+        "كان ينبغي بناء الجسر.",
+        "بُني الجسر العام الماضي.",
+        "سيُبنى الجسر العام القادم."
+      ],
+      "answerIndex": 2,
+      "explanation": "Köprü geçen yıl yapıldı. تعني بُني الجسر العام الماضي.."
+    },
+    {
+      "id": "b1-u3-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "yapacak",
+        "yapıyor",
+        "yapmalı",
+        "yapıldı"
+      ],
+      "answerIndex": 3,
+      "explanation": "ماضٍ مبني للمجهول من yapmak."
+    },
+    {
+      "id": "b1-u3-05-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «yapıldı»؟",
+      "options": [
+        "مبني للمجهول في الماضي",
+        "مبني للمعلوم في المستقبل",
+        "مضارع مستمر",
+        "ضرورة"
+      ],
+      "answerIndex": 0,
+      "explanation": "التركيز على الحدث أو المفعول دون تحديد الفاعل."
+    },
+    {
+      "id": "b1-u3-05-q5",
+      "prompt": "أكمل التركيب: Köprü geçen yıl yapıldı.",
+      "options": [
+        "yapıyor",
+        "yapmalı",
+        "yapıldı",
+        "yapacak"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي yapıldı؛ ماضٍ مبني للمجهول من yapmak."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u3",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 145
   }
 }

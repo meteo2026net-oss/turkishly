@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
-    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
-    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "استخدام ظروف الدرجة لوصف مقدار الصفة أو الفعل بدقة.",
+  "rule": "oldukça تعني إلى حد كبير/نوعاً ما بحسب السياق، son derece تعني للغاية، yeterince تعني بما يكفي، fazla تعني أكثر من اللازم. يوضع الظرف غالباً قبل الصفة أو الفعل.",
+  "vocabulary": [
+    {
+      "term": "son derece",
+      "meaningAr": "للغاية / بدرجة كبيرة جداً",
+      "exampleTr": "Bu konu son derece önemli.",
+      "exampleAr": "هذا الموضوع مهم للغاية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yeterince dinlenmedim.",
+      "ar": "لم أرتح بما يكفي."
+    },
+    {
+      "tr": "Oldukça zor bir sınavdı.",
+      "ar": "كان امتحاناً صعباً إلى حد كبير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hazır mısın?",
+      "ar": "هل أنت مستعد؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yeterince hazır olduğumu düşünüyorum.",
+      "ar": "أعتقد أنني مستعد بما يكفي."
+    }
+  ],
+  "speakingTask": "صف ثلاثة أشياء باستخدام oldukça وson derece وyeterince.",
+  "questions": [
+    {
+      "id": "b1-u2-08-q1",
+      "prompt": "ما معنى «son derece»؟",
+      "options": [
+        "مبكراً",
+        "ببطء",
+        "للغاية",
+        "نادراً"
+      ],
+      "answerIndex": 2,
+      "explanation": "son derece تعني للغاية / بدرجة كبيرة جداً."
+    },
+    {
+      "id": "b1-u2-08-q2",
+      "prompt": "ما ترجمة الجملة: «Bu konu son derece önemli.»؟",
+      "options": [
+        "هذا الموضوع غير مهم.",
+        "هذا الموضوع سهل جداً.",
+        "هذا الموضوع قديم.",
+        "هذا الموضوع مهم للغاية."
+      ],
+      "answerIndex": 3,
+      "explanation": "Bu konu son derece önemli. تعني هذا الموضوع مهم للغاية.."
+    },
+    {
+      "id": "b1-u2-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "yeterince",
+        "hiçbir zaman",
+        "önce",
+        "rağmen"
+      ],
+      "answerIndex": 0,
+      "explanation": "بما يكفي أو بالقدر الكافي."
+    },
+    {
+      "id": "b1-u2-08-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «yeterince»؟",
+      "options": [
+        "التعبير عن الشرط",
+        "تحديد الدرجة أو الكفاية",
+        "تحديد الزمن الماضي",
+        "التعبير عن السبب"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحديد درجة الصفة أو مقدار الفعل."
+    },
+    {
+      "id": "b1-u2-08-q5",
+      "prompt": "أكمل التركيب: Bu konu son derece önemli.",
+      "options": [
+        "hiçbir zaman",
+        "önce",
+        "rağmen",
+        "yeterince"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي yeterince؛ بما يكفي أو بالقدر الكافي."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u2",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 138
   }
 }

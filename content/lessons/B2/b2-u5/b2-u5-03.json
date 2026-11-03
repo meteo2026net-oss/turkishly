@@ -9,22 +9,105 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعليم والتعلم والبحث",
-    "titleTr": "Eğitim, Öğrenme ve Araştırma",
-    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "شرح فوائد الأدوات الرقمية وحدودها.",
+  "rule": "Dijital araçlar öğrenmeyi kolaylaştırabilir; ancak tek başına yeterli değildir.",
+  "vocabulary": [
+    {
+      "term": "dijital araç",
+      "meaningAr": "أداة رقمية",
+      "exampleTr": "قد تسهل الأدوات الرقمية التعلم؛ لكنها ليست كافية وحدها.",
+      "exampleAr": "أداة رقمية"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "أمر",
+      "ar": ""
+    },
+    {
+      "tr": "Çevrim içi kaynaklara her yerden ulaşılabilir.",
+      "ar": "يمكن الوصول إلى المصادر الإلكترونية من أي مكان."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Ekran süresini dengeli yönetmek gerekir.|ينبغي إدارة وقت الشاشة بتوازن.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Uygulama faydalı mı? — هل التطبيق مفيد؟\nB: Evet, ama düzenli çalışmanın yerini tutmaz. — نعم، لكنه لا يحل محل الدراسة المنتظمة.",
+  "questions": [
+    {
+      "id": "b2-u5-03-q1",
+      "prompt": "ما معنى «dijital araç»؟",
+      "options": [
+        "أداة يدوية",
+        "قاعة",
+        "كتاب ورقي فقط",
+        "öğrenme platformu|منصة تعلم"
+      ],
+      "answerIndex": 3,
+      "explanation": "dijital araç تعني أداة رقمية."
+    },
+    {
+      "id": "b2-u5-03-q2",
+      "prompt": "ما ترجمة الجملة: «قد تسهل الأدوات الرقمية التعلم؛ لكنها ليست كافية وحدها.»؟",
+      "options": [
+        "قد تسهل الأدوات الرقمية التعلم؛ لكنها ليست كافية وحدها.|أداة رقمية",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "قد تسهل الأدوات الرقمية التعلم؛ لكنها ليست كافية وحدها. تعني أداة رقمية."
+    },
+    {
+      "id": "b2-u5-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تسلسل زمني",
+        "امتحان شفهي",
+        "عرض فائدة وحد",
+        "سبب قطعي"
+      ],
+      "answerIndex": 1,
+      "explanation": "ancak."
+    },
+    {
+      "id": "b2-u5-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «امتحان شفهي»؟",
+      "options": [
+        "سبب قطعي",
+        "تسلسل زمني",
+        "لكن",
+        "عرض فائدة وحد"
+      ],
+      "answerIndex": 2,
+      "explanation": "لكن"
+    },
+    {
+      "id": "b2-u5-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "لكن",
+        "عرض فائدة وحد",
+        "سبب قطعي",
+        "تسلسل زمني"
+      ],
+      "answerIndex": 0,
+      "explanation": "لكن"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u5",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 223
   }
 }

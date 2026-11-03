@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعبير عن الرأي والتفضيل والتفاعل",
-    "titleTr": "Görüş, Tercih ve Etkileşim",
-    "description": "إبداء الرأي والموافقة والاعتراض والتفضيل والندم والسبب والغاية والتغيير."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "الموافقة أو الاختلاف دون لهجة حادة.",
+  "rule": "للموافقة قل katılıyorum أو kesinlikle؛ وللاختلاف المهذب قل tam olarak katılmıyorum أو farklı düşünüyorum. أضف gerekçe لتوضيح موقفك.",
+  "vocabulary": [
+    {
+      "term": "farklı düşünüyorum",
+      "meaningAr": "أفكر بطريقة مختلفة / أختلف في الرأي",
+      "exampleTr": "Sana katılıyorum ama küçük bir ekleme yapmak istiyorum.",
+      "exampleAr": "أتفق معك، لكن أريد إضافة ملاحظة صغيرة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu fikre tamamen katılıyorum.",
+      "ar": "أتفق تماماً مع هذه الفكرة."
+    },
+    {
+      "tr": "Farklı düşünüyorum, çünkü başka bir çözüm var.",
+      "ar": "أختلف في الرأي لأن هناك حلاً آخر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu plan daha hızlı.",
+      "ar": "هذه الخطة أسرع."
+    },
+    {
+      "speaker": "B",
+      "tr": "Kısmen katılıyorum, ama biraz pahalı.",
+      "ar": "أتفق جزئياً، لكنها مكلفة قليلاً."
+    }
+  ],
+  "speakingTask": "اكتب حواراً توافق فيه جزئياً مع اقتراح صديق.",
+  "questions": [
+    {
+      "id": "b1-u4-02-q1",
+      "prompt": "ما معنى «farklı düşünüyorum»؟",
+      "options": [
+        "أفكر بطريقة مختلفة / أختلف في الرأي",
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة"
+      ],
+      "answerIndex": 0,
+      "explanation": "farklı düşünüyorum تعني أفكر بطريقة مختلفة / أختلف في الرأي."
+    },
+    {
+      "id": "b1-u4-02-q2",
+      "prompt": "ما ترجمة الجملة: «Sana katılıyorum ama küçük bir ekleme yapmak istiyorum.»؟",
+      "options": [
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "أتفق معك، لكن أريد إضافة ملاحظة صغيرة.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً."
+      ],
+      "answerIndex": 1,
+      "explanation": "Sana katılıyorum ama küçük bir ekleme yapmak istiyorum. تعني أتفق معك، لكن أريد إضافة ملاحظة صغيرة.."
+    },
+    {
+      "id": "b1-u4-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "Sana katılıyorum ama...",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "الموافقة ثم تقديم استدراك."
+    },
+    {
+      "id": "b1-u4-02-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «Sana katılıyorum ama...»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إظهار الاتفاق الجزئي مع إضافة أو تحفظ."
+      ],
+      "answerIndex": 3,
+      "explanation": "إظهار الاتفاق الجزئي مع إضافة أو تحفظ."
+    },
+    {
+      "id": "b1-u4-02-q5",
+      "prompt": "أكمل التركيب: Sana katılıyorum ama küçük bir ekleme yapmak istiyorum.",
+      "options": [
+        "-seydi",
+        "Sana katılıyorum ama...",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي Sana katılıyorum ama...؛ الموافقة ثم تقديم استدراك."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u4",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 152
   }
 }

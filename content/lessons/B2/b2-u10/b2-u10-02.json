@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u10-02",
+  "level": "B2",
+  "unitId": "b2-u10",
+  "order": 2,
+  "title": {
+    "ar": "الذكاء العاطفي والتعاطف",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "empati",
+  "rule": "Karşımızdakini anlamak için dikkatle dinlemeliyiz.",
+  "vocabulary": [
+    {
+      "term": "تعاطف",
+      "meaningAr": "empati kurmak",
+      "exampleTr": "Karşımızdakini anlamak için dikkatle dinlemeliyiz.",
+      "exampleAr": "ينبغي أن نصغي بعناية لفهم الطرف الآخر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-mek için",
+      "ar": ""
+    },
+    {
+      "tr": "Karşımızdakini anlamak için dikkatle dinlemeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "لكي",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "Duyguları adlandırmak iletişimi kolaylaştırır.|تسمية المشاعر تسهل التواصل.",
+  "questions": [
+    {
+      "id": "b2-u10-02-q1",
+      "prompt": "ما معنى «تعاطف»؟",
+      "options": [
+        "يتعاطف",
+        "مقاطعة",
+        "إدانة",
+        "تعبير غير ملائم"
+      ],
+      "answerIndex": 0,
+      "explanation": "تعاطف تعني empati kurmak."
+    },
+    {
+      "id": "b2-u10-02-q2",
+      "prompt": "ما ترجمة الجملة: «Karşımızdakini anlamak için dikkatle dinlemeliyiz.»؟",
+      "options": [
+        "لا تناسب هذه الجملة السياق.",
+        "Karşımızdakini anlamak için dikkatle dinlemeliyiz.|ينبغي أن نصغي بعناية لفهم الطرف الآخر.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد."
+      ],
+      "answerIndex": 1,
+      "explanation": "Karşımızdakini anlamak için dikkatle dinlemeliyiz. تعني ينبغي أن نصغي بعناية لفهم الطرف الآخر.."
+    },
+    {
+      "id": "b2-u10-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "duygusal farkındalık",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "وعي عاطفي."
+    },
+    {
+      "id": "b2-u10-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «duygusal farkındalık»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "إظهار التفهم"
+      ],
+      "answerIndex": 3,
+      "explanation": "إظهار التفهم"
+    },
+    {
+      "id": "b2-u10-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "إظهار التفهم",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "إظهار التفهم"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u10",
+    "legacyGlobalNumber": 272
+  }
+}

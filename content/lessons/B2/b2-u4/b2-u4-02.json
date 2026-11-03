@@ -9,22 +9,105 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "إدارة المشاريع والقيادة المهنية",
-    "titleTr": "Proje Yönetimi ve Mesleki Liderlik",
-    "description": "تخطيط المشاريع وتوزيع المسؤوليات وإدارة المخاطر والعمل مع العملاء."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تحديد المسؤوليات وتوضيح من يتولى كل مهمة.",
+  "rule": "Her ekip üyesi kendi sorumluluğunu üstlenmeli.",
+  "vocabulary": [
+    {
+      "term": "sorumluluk",
+      "meaningAr": "المسؤولية",
+      "exampleTr": "ينبغي لكل عضو في الفريق أن يتحمل مسؤوليته.",
+      "exampleAr": "المسؤولية"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "المكان",
+      "ar": ""
+    },
+    {
+      "tr": "Görev dağılımını yazılı hâle getirdik.",
+      "ar": "وثقنا توزيع المهام كتابةً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Yetki ve sorumluluklar açık olmalı.|ينبغي أن تكون الصلاحيات والمسؤوليات واضحة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Kim raporu hazırlayacak? — من سيعد التقرير؟\nB: Bu görev Ayşe'ye verildi. — أُسندت هذه المهمة إلى آيشه.",
+  "questions": [
+    {
+      "id": "b2-u4-02-q1",
+      "prompt": "ما معنى «sorumluluk»؟",
+      "options": [
+        "sorumluluk almak|يتحمل المسؤولية",
+        "يسند",
+        "يستقيل",
+        "ينسى"
+      ],
+      "answerIndex": 0,
+      "explanation": "sorumluluk تعني المسؤولية."
+    },
+    {
+      "id": "b2-u4-02-q2",
+      "prompt": "ما ترجمة الجملة: «ينبغي لكل عضو في الفريق أن يتحمل مسؤوليته.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "ينبغي لكل عضو في الفريق أن يتحمل مسؤوليته.|المسؤولية",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "ينبغي لكل عضو في الفريق أن يتحمل مسؤوليته. تعني المسؤولية."
+    },
+    {
+      "id": "b2-u4-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "الشرط",
+        "الزمن",
+        "يتعطل",
+        "توزيع المسؤوليات"
+      ],
+      "answerIndex": 2,
+      "explanation": "isim + fiil eşdizimi."
+    },
+    {
+      "id": "b2-u4-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يتعطل»؟",
+      "options": [
+        "توزيع المسؤوليات",
+        "الشرط",
+        "الزمن",
+        "تلازم اسم وفعل"
+      ],
+      "answerIndex": 3,
+      "explanation": "تلازم اسم وفعل"
+    },
+    {
+      "id": "b2-u4-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "الزمن",
+        "تلازم اسم وفعل",
+        "توزيع المسؤوليات",
+        "الشرط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تلازم اسم وفعل"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u4",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 212
   }
 }

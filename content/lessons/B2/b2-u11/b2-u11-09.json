@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-09",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 9,
+  "title": {
+    "ar": "الزراعة والغذاء والاستدامة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "tarım",
+  "rule": "Sürdürülebilir tarım toprak ve su kaynaklarını korumayı amaçlar.",
+  "vocabulary": [
+    {
+      "term": "زراعة",
+      "meaningAr": "verimli",
+      "exampleTr": "Sürdürülebilir tarım toprak ve su kaynaklarını korumayı amaçlar.",
+      "exampleAr": "تهدف الزراعة المستدامة إلى حماية التربة والمياه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-mayı amaçlamak",
+      "ar": ""
+    },
+    {
+      "tr": "Sürdürülebilir tarım toprak ve su kaynaklarını korumayı amaçlar.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "يهدف إلى",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "توضيح هدف",
+  "questions": [
+    {
+      "id": "b2-u11-09-q1",
+      "prompt": "ما معنى «زراعة»؟",
+      "options": [
+        "تعبير غير ملائم",
+        "فعّال / خصب",
+        "عشوائي",
+        "مكلف"
+      ],
+      "answerIndex": 1,
+      "explanation": "زراعة تعني verimli."
+    },
+    {
+      "id": "b2-u11-09-q2",
+      "prompt": "ما ترجمة الجملة: «Sürdürülebilir tarım toprak ve su kaynaklarını korumayı amaçlar.»؟",
+      "options": [
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Sürdürülebilir tarım toprak ve su kaynaklarını korumayı amaçlar.|تهدف الزراعة المستدامة إلى حماية التربة والمياه.",
+        "سأذهب إلى السوق بعد الدرس."
+      ],
+      "answerIndex": 2,
+      "explanation": "Sürdürülebilir tarım toprak ve su kaynaklarını korumayı amaçlar. تعني تهدف الزراعة المستدامة إلى حماية التربة والمياه.."
+    },
+    {
+      "id": "b2-u11-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "su kaynakları"
+      ],
+      "answerIndex": 3,
+      "explanation": "موارد المياه."
+    },
+    {
+      "id": "b2-u11-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «su kaynakları»؟",
+      "options": [
+        "التحدث عن الموارد الزراعية",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "التحدث عن الموارد الزراعية"
+    },
+    {
+      "id": "b2-u11-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "التحدث عن الموارد الزراعية",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "التحدث عن الموارد الزراعية"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 289
+  }
+}

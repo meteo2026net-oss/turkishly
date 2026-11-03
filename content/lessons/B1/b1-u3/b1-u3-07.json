@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التواصل المتقدم وبناء الخطاب",
-    "titleTr": "İleri İletişim ve Söylem Kurma",
-    "description": "تنظيم العروض الشفهية وحل المشكلات والتخطيط وسرد الخبرات واستخدام المبني للمجهول والروابط المركبة."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "إظهار التعارض بين فكرتين أو نتيجة مخالفة للتوقع.",
+  "rule": "oysa وhalbuki بمعنى «بينما/في حين أن»، وbuna rağmen بمعنى «على الرغم من ذلك»، وaksine بمعنى «على العكس». اختر الرابط وفق نوع التقابل.",
+  "vocabulary": [
+    {
+      "term": "buna rağmen",
+      "meaningAr": "على الرغم من ذلك",
+      "exampleTr": "Çok yorgundum; buna rağmen çalıştım.",
+      "exampleAr": "كنت متعباً جداً؛ ومع ذلك عملت."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Hava soğuktu, buna rağmen dışarı çıktık.",
+      "ar": "كان الجو بارداً، ومع ذلك خرجنا."
+    },
+    {
+      "tr": "Ben kahveyi severim, oysa kardeşim çayı tercih eder.",
+      "ar": "أحب القهوة، بينما يفضل أخي الشاي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sınav kolay mıydı?",
+      "ar": "هل كان الامتحان سهلاً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Herkes kolay dedi, halbuki bana zor geldi.",
+      "ar": "قال الجميع إنه سهل، بينما بدا لي صعباً."
+    }
+  ],
+  "speakingTask": "اربط بين فكرتين متعارضتين باستخدام رابطين مختلفين.",
+  "questions": [
+    {
+      "id": "b1-u3-07-q1",
+      "prompt": "ما معنى «buna rağmen»؟",
+      "options": [
+        "لذلك",
+        "أولاً",
+        "ربما",
+        "على الرغم من ذلك"
+      ],
+      "answerIndex": 3,
+      "explanation": "buna rağmen تعني على الرغم من ذلك."
+    },
+    {
+      "id": "b1-u3-07-q2",
+      "prompt": "ما ترجمة الجملة: «Çok yorgundum; buna rağmen çalıştım.»؟",
+      "options": [
+        "كنت متعباً جداً؛ ومع ذلك عملت.",
+        "كنت متعباً لذلك نمت.",
+        "أولاً عملت ثم نمت.",
+        "ربما أعمل غداً."
+      ],
+      "answerIndex": 0,
+      "explanation": "Çok yorgundum; buna rağmen çalıştım. تعني كنت متعباً جداً؛ ومع ذلك عملت.."
+    },
+    {
+      "id": "b1-u3-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "belki",
+        "oysa",
+        "çünkü",
+        "sonra"
+      ],
+      "answerIndex": 1,
+      "explanation": "رابط يقدم فكرة مخالفة أو مقارنة متناقضة."
+    },
+    {
+      "id": "b1-u3-07-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «oysa»؟",
+      "options": [
+        "ترتيب الزمن",
+        "التعبير عن الاحتمال",
+        "إظهار التقابل أو التعارض",
+        "ذكر السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "ربط فكرتين متعارضتين أو إظهار نتيجة غير متوقعة."
+    },
+    {
+      "id": "b1-u3-07-q5",
+      "prompt": "أكمل التركيب: Çok yorgundum; buna rağmen çalıştım.",
+      "options": [
+        "oysa",
+        "çünkü",
+        "sonra",
+        "belki"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي oysa؛ رابط يقدم فكرة مخالفة أو مقارنة متناقضة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u3",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 147
   }
 }

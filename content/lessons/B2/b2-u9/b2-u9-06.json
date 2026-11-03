@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-06",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 6,
+  "title": {
+    "ar": "التلخيص وإعادة الصياغة الأكاديمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "özet",
+  "rule": "Ana fikri koruyarak metni kendi sözlerimizle yeniden ifade etmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "ملخص",
+      "meaningAr": "yeniden ifade",
+      "exampleTr": "Ana fikri koruyarak metni kendi sözlerimizle yeniden ifade etmeliyiz.",
+      "exampleAr": "ينبغي إعادة التعبير عن النص بكلماتنا مع الحفاظ على الفكرة الأساسية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "بيان الوسيلة",
+      "ar": ""
+    },
+    {
+      "tr": "Ana fikri koruyarak metni kendi sözlerimizle yeniden ifade etmeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Metnin temel savını iki cümlede özetledim.|لخصت حجة النص الأساسية في جملتين.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Doğrudan alıntı gerekli mi? — هل الاقتباس المباشر ضروري؟\nB: Yalnızca gerektiğinde. — فقط عند الحاجة.",
+  "questions": [
+    {
+      "id": "b2-u9-06-q1",
+      "prompt": "ما معنى «ملخص»؟",
+      "options": [
+        "بكلماته الخاصة",
+        "تعبير غير مناسب",
+        "إعادة صياغة",
+        "kendi sözleriyle"
+      ],
+      "answerIndex": 2,
+      "explanation": "ملخص تعني yeniden ifade."
+    },
+    {
+      "id": "b2-u9-06-q2",
+      "prompt": "ما ترجمة الجملة: «Ana fikri koruyarak metni kendi sözlerimizle yeniden ifade etmeliyiz.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي إعادة التعبير عن النص بكلماتنا مع الحفاظ على الفكرة الأساسية.|ينبغي إعادة التعبير عن النص بكلماتنا مع الحفاظ على الفكرة الأساسية."
+      ],
+      "answerIndex": 3,
+      "explanation": "Ana fikri koruyarak metni kendi sözlerimizle yeniden ifade etmeliyiz. تعني ينبغي إعادة التعبير عن النص بكلماتنا مع الحفاظ على الفكرة الأساسية.."
+    },
+    {
+      "id": "b2-u9-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "إعادة الصياغة",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "-arak/-erek."
+    },
+    {
+      "id": "b2-u9-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «إعادة الصياغة»؟",
+      "options": [
+        "طلب الإذن",
+        "عن طريق",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "عن طريق"
+    },
+    {
+      "id": "b2-u9-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "عن طريق"
+      ],
+      "answerIndex": 3,
+      "explanation": "عن طريق"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 266
+  }
+}

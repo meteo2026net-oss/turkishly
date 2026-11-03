@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-10",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 10,
+  "title": {
+    "ar": "مراجعة القضايا العالمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "küresel",
+  "rule": "Küresel sorunlar farklı ülkelerin iş birliğini gerektirir.",
+  "vocabulary": [
+    {
+      "term": "عالمي",
+      "meaningAr": "iş birliği",
+      "exampleTr": "Küresel sorunlar farklı ülkelerin iş birliğini gerektirir.",
+      "exampleAr": "تتطلب المشكلات العالمية تعاون دول مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "gerektirmek",
+      "ar": ""
+    },
+    {
+      "tr": "Küresel sorunlar farklı ülkelerin iş birliğini gerektirir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "يتطلب",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "التعبير عن ضرورة",
+  "questions": [
+    {
+      "id": "b2-u11-10-q1",
+      "prompt": "ما معنى «عالمي»؟",
+      "options": [
+        "تجاهل",
+        "تعبير غير ملائم",
+        "تعاون",
+        "تنافس فردي"
+      ],
+      "answerIndex": 2,
+      "explanation": "عالمي تعني iş birliği."
+    },
+    {
+      "id": "b2-u11-10-q2",
+      "prompt": "ما ترجمة الجملة: «Küresel sorunlar farklı ülkelerin iş birliğini gerektirir.»؟",
+      "options": [
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Küresel sorunlar farklı ülkelerin iş birliğini gerektirir.|تتطلب المشكلات العالمية تعاون دول مختلفة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Küresel sorunlar farklı ülkelerin iş birliğini gerektirir. تعني تتطلب المشكلات العالمية تعاون دول مختلفة.."
+    },
+    {
+      "id": "b2-u11-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "küresel sorun",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشكلة عالمية."
+    },
+    {
+      "id": "b2-u11-10-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «küresel sorun»؟",
+      "options": [
+        "طلب الإذن",
+        "تلخيص القضايا الدولية",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "تلخيص القضايا الدولية"
+    },
+    {
+      "id": "b2-u11-10-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "تلخيص القضايا الدولية"
+      ],
+      "answerIndex": 3,
+      "explanation": "تلخيص القضايا الدولية"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 290
+  }
+}

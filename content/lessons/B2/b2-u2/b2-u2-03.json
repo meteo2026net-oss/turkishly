@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
-    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
-    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "مناقشة ما كان سيحدث لو تغير شرط أو قرار.",
+  "rule": "استخدم -seydi/-saydı مع -ardı/-erdi لنتيجة افتراضية في الماضي أو الحاضر: Daha erken haber verseydin yardımcı olurdum.",
+  "vocabulary": [
+    {
+      "term": "yardımcı olurdum",
+      "meaningAr": "كنت سأساعد",
+      "exampleTr": "Bütçemiz daha yüksek olsaydı projeyi genişletirdik.",
+      "exampleAr": "لو كانت ميزانيتنا أعلى لوسعنا المشروع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ضرورة",
+      "ar": ""
+    },
+    {
+      "tr": "Daha dikkatli olsaydım hata yapmazdım.",
+      "ar": "لو كنت أكثر انتباهاً لما ارتكبت الخطأ."
+    },
+    {
+      "tr": "Zamanımız olsaydı müzeyi de gezerdik.",
+      "ar": "لو كان لدينا وقت لزرنا المتحف أيضاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden başvurmadın?",
+      "ar": "لماذا لم تقدم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Şartları bilseydim başvururdum.",
+      "ar": "لو كنت أعرف الشروط لتقدمت."
+    }
+  ],
+  "speakingTask": "اكتب ست جمل عن قرارات مختلفة ونتائجها الافتراضية.",
+  "questions": [
+    {
+      "id": "b2-u2-03-q1",
+      "prompt": "ما معنى «yardımcı olurdum»؟",
+      "options": [
+        "يشير إلى شرط افتراضي",
+        "كنت سأساعد",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن"
+      ],
+      "answerIndex": 1,
+      "explanation": "yardımcı olurdum تعني كنت سأساعد."
+    },
+    {
+      "id": "b2-u2-03-q2",
+      "prompt": "ما ترجمة الجملة: «Bütçemiz daha yüksek olsaydı projeyi genişletirdik.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "لو كانت ميزانيتنا أعلى لوسعنا المشروع.",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "Bütçemiz daha yüksek olsaydı projeyi genişletirdik. تعني لو كانت ميزانيتنا أعلى لوسعنا المشروع.."
+    },
+    {
+      "id": "b2-u2-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "gerçek dışı koşul",
+        "gerçek koşul",
+        "gelecek plan",
+        "-seydi/-saydı + -ardı/-erdi"
+      ],
+      "answerIndex": 3,
+      "explanation": "شرط غير واقعي ونتيجته الافتراضية."
+    },
+    {
+      "id": "b2-u2-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «-seydi/-saydı + -ardı/-erdi»؟",
+      "options": [
+        "التحدث عن نتائج لم تتحقق بسبب عدم تحقق الشرط.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "التحدث عن نتائج لم تتحقق بسبب عدم تحقق الشرط."
+    },
+    {
+      "id": "b2-u2-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "التحدث عن نتائج لم تتحقق بسبب عدم تحقق الشرط.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "التحدث عن نتائج لم تتحقق بسبب عدم تحقق الشرط."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u2",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 193
   }
 }

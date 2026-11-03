@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-06",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 6,
+  "title": {
+    "ar": "خدمة العملاء وقياس الرضا",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "memnuniyet",
+  "rule": "Müşteri memnuniyetini ölçmek hizmeti geliştirmemize yardımcı olur.",
+  "vocabulary": [
+    {
+      "term": "رضا",
+      "meaningAr": "şikâyet",
+      "exampleTr": "Müşteri memnuniyetini ölçmek hizmeti geliştirmemize yardımcı olur.",
+      "exampleAr": "يساعدنا قياس رضا العملاء على تطوير الخدمة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "شرح فائدة إجراء",
+      "ar": ""
+    },
+    {
+      "tr": "Müşteri memnuniyetini ölçmek hizmeti geliştirmemize yardımcı olur.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Şikâyetleri sınıflandırıp çözüm süresini izliyoruz.|نصنف الشكاوى ونتابع مدة حلها.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Geri bildirimi nasıl kullanıyorsunuz? — كيف تستخدمون الملاحظات؟\nB: Hizmeti geliştirmek için. — لتطوير الخدمة.",
+  "questions": [
+    {
+      "id": "b2-u7-06-q1",
+      "prompt": "ما معنى «رضا»؟",
+      "options": [
+        "يقيس الرضا",
+        "تعبير غير مناسب",
+        "شكوى",
+        "memnuniyeti ölçmek"
+      ],
+      "answerIndex": 2,
+      "explanation": "رضا تعني şikâyet."
+    },
+    {
+      "id": "b2-u7-06-q2",
+      "prompt": "ما ترجمة الجملة: «Müşteri memnuniyetini ölçmek hizmeti geliştirmemize yardımcı olur.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "يساعدنا قياس رضا العملاء على تطوير الخدمة.|يساعدنا قياس رضا العملاء على تطوير الخدمة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Müşteri memnuniyetini ölçmek hizmeti geliştirmemize yardımcı olur. تعني يساعدنا قياس رضا العملاء على تطوير الخدمة.."
+    },
+    {
+      "id": "b2-u7-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "جمع الملاحظات وتحسين الخدمة",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "-memize yardımcı olur."
+    },
+    {
+      "id": "b2-u7-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «جمع الملاحظات وتحسين الخدمة»؟",
+      "options": [
+        "طلب الإذن",
+        "يساعدنا على",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "يساعدنا على"
+    },
+    {
+      "id": "b2-u7-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "يساعدنا على"
+      ],
+      "answerIndex": 3,
+      "explanation": "يساعدنا على"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 246
+  }
+}

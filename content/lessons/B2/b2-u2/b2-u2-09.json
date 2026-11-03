@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
-    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
-    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "اختصار فكرة طويلة مع الحفاظ على معناها الأساسي.",
+  "rule": "للتلخيص استخدم özetle وkısacası وgenel olarak؛ ولإعادة الصياغة başka bir ifadeyle وdiğer bir deyişle. لا تضف معنى غير موجود في النص الأصلي.",
+  "vocabulary": [
+    {
+      "term": "başka bir ifadeyle",
+      "meaningAr": "بعبارة أخرى",
+      "exampleTr": "Başka bir ifadeyle, kararın temel amacı kaynakları verimli kullanmaktır.",
+      "exampleAr": "بعبارة أخرى، الهدف الأساسي من القرار هو استخدام الموارد بكفاءة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "أمر",
+      "ar": ""
+    },
+    {
+      "tr": "Kısacası proje beklenenden başarılı oldu.",
+      "ar": "باختصار، كان المشروع أنجح من المتوقع."
+    },
+    {
+      "tr": "Genel olarak sonuçlar olumlu.",
+      "ar": "بوجه عام، النتائج إيجابية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Raporun ana fikri ne?",
+      "ar": "ما الفكرة الأساسية للتقرير؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Özetle, verimliliği artırmamız gerekiyor.",
+      "ar": "باختصار، علينا زيادة الكفاءة."
+    }
+  ],
+  "speakingTask": "لخّص نصاً قصيراً من خمس جمل في جملتين دون فقد الفكرة الأساسية.",
+  "questions": [
+    {
+      "id": "b2-u2-09-q1",
+      "prompt": "ما معنى «başka bir ifadeyle»؟",
+      "options": [
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "بعبارة أخرى"
+      ],
+      "answerIndex": 3,
+      "explanation": "başka bir ifadeyle تعني بعبارة أخرى."
+    },
+    {
+      "id": "b2-u2-09-q2",
+      "prompt": "ما ترجمة الجملة: «Başka bir ifadeyle, kararın temel amacı kaynakları verimli kullanmaktır.»؟",
+      "options": [
+        "بعبارة أخرى، الهدف الأساسي من القرار هو استخدام الموارد بكفاءة.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "Başka bir ifadeyle, kararın temel amacı kaynakları verimli kullanmaktır. تعني بعبارة أخرى، الهدف الأساسي من القرار هو استخدام الموارد بكفاءة.."
+    },
+    {
+      "id": "b2-u2-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "abartma",
+        "özetle / başka bir ifadeyle",
+        "özetleme ve yeniden ifade",
+        "doğrudan alıntı"
+      ],
+      "answerIndex": 1,
+      "explanation": "تعبيرات للتلخيص وإعادة الصياغة."
+    },
+    {
+      "id": "b2-u2-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «özetle / başka bir ifadeyle»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إعادة عرض المعنى بإيجاز ودقة.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إعادة عرض المعنى بإيجاز ودقة."
+    },
+    {
+      "id": "b2-u2-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "إعادة عرض المعنى بإيجاز ودقة.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "إعادة عرض المعنى بإيجاز ودقة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u2",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 199
   }
 }

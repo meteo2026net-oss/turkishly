@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-03",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 3,
+  "title": {
+    "ar": "تحليل السوق والمنافسة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "rekabet",
+  "rule": "Rakiplerin güçlü yönlerini inceleyerek farklılaşabiliriz.",
+  "vocabulary": [
+    {
+      "term": "منافسة",
+      "meaningAr": "rakip",
+      "exampleTr": "Rakiplerin güçlü yönlerini inceleyerek farklılaşabiliriz.",
+      "exampleAr": "يمكننا التميز من خلال دراسة نقاط قوة المنافسين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "بيان وسيلة تحقيق النتيجة",
+      "ar": ""
+    },
+    {
+      "tr": "Rakiplerin güçlü yönlerini inceleyerek farklılaşabiliriz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Rakip ürünlerin fiyatlarını karşılaştırdık.|قارنّا أسعار المنتجات المنافسة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Nasıl farklılaşacağız? — كيف سنتميز؟\nB: Hizmet kalitesini artırarak. — برفع جودة الخدمة.",
+  "questions": [
+    {
+      "id": "b2-u7-03-q1",
+      "prompt": "ما معنى «منافسة»؟",
+      "options": [
+        "rekabet analizi",
+        "تحليل المنافسة",
+        "تعبير غير مناسب",
+        "منافس"
+      ],
+      "answerIndex": 3,
+      "explanation": "منافسة تعني rakip."
+    },
+    {
+      "id": "b2-u7-03-q2",
+      "prompt": "ما ترجمة الجملة: «Rakiplerin güçlü yönlerini inceleyerek farklılaşabiliriz.»؟",
+      "options": [
+        "يمكننا التميز من خلال دراسة نقاط قوة المنافسين.|يمكننا التميز من خلال دراسة نقاط قوة المنافسين.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Rakiplerin güçlü yönlerini inceleyerek farklılaşabiliriz. تعني يمكننا التميز من خلال دراسة نقاط قوة المنافسين.."
+    },
+    {
+      "id": "b2-u7-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "مقارنة البدائل",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "-erek/-arak."
+    },
+    {
+      "id": "b2-u7-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «مقارنة البدائل»؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "عن طريق",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "عن طريق"
+    },
+    {
+      "id": "b2-u7-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "عن طريق",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "عن طريق"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 243
+  }
+}

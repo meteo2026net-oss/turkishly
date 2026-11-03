@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الزمن والمدة والتجارب والتوقعات",
-    "titleTr": "Zaman, Süre, Deneyim ve Beklenti",
-    "description": "التعبير عن التكرار والمدة والمواعيد وتسلسل الأحداث والتجارب والتحذير والتوقعات."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "وصف فعل حدث أثناء فعل آخر أو استمر رغم ظرف معين.",
+  "rule": "استخدم tam ... -ken بمعنى بينما/في اللحظة التي، وdevam etmek بمعنى يستمر، وsürdürmek لمواصلة نشاط. مثال: Ben konuşurken telefon çaldı.",
+  "vocabulary": [
+    {
+      "term": "devam etmek",
+      "meaningAr": "يستمر / يواصل",
+      "exampleTr": "Yağmur yağarken yürüyüşe devam ettik.",
+      "exampleAr": "واصلنا المشي بينما كانت السماء تمطر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ben çalışırken müzik dinlerim.",
+      "ar": "أستمع إلى الموسيقى أثناء العمل."
+    },
+    {
+      "tr": "Zorluklara rağmen devam etti.",
+      "ar": "واصل رغم الصعوبات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Elektrik kesilince ne yaptınız?",
+      "ar": "ماذا فعلتم عندما انقطعت الكهرباء؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Çalışmaya devam ettik.",
+      "ar": "واصلنا العمل."
+    }
+  ],
+  "speakingTask": "اكتب خمس جمل عن أنشطة متزامنة أو استمرت رغم الصعوبات.",
+  "questions": [
+    {
+      "id": "b1-u5-06-q1",
+      "prompt": "ما معنى «devam etmek»؟",
+      "options": [
+        "الاحتمال",
+        "المقارنة",
+        "يستمر / يواصل",
+        "السبب / النتيجة"
+      ],
+      "answerIndex": 2,
+      "explanation": "devam etmek تعني يستمر / يواصل."
+    },
+    {
+      "id": "b1-u5-06-q2",
+      "prompt": "ما ترجمة الجملة: «Yağmur yağarken yürüyüşe devam ettik.»؟",
+      "options": [
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "واصلنا المشي بينما كانت السماء تمطر."
+      ],
+      "answerIndex": 3,
+      "explanation": "Yağmur yağarken yürüyüşe devam ettik. تعني واصلنا المشي بينما كانت السماء تمطر.."
+    },
+    {
+      "id": "b1-u5-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "fiil + -ken / devam etmek",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "ربط حدثين متزامنين أو التعبير عن مواصلة الفعل."
+    },
+    {
+      "id": "b1-u5-06-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «fiil + -ken / devam etmek»؟",
+      "options": [
+        "النفي المطلق",
+        "بيان أن النشاط استمر أثناء ظرف آخر.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "بيان أن النشاط استمر أثناء ظرف آخر."
+    },
+    {
+      "id": "b1-u5-06-q5",
+      "prompt": "أكمل التركيب: Yağmur yağarken yürüyüşe devam ettik.",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "fiil + -ken / devam etmek"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي fiil + -ken / devam etmek؛ ربط حدثين متزامنين أو التعبير عن مواصلة الفعل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u5",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 166
   }
 }

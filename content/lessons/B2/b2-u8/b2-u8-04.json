@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-04",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 4,
+  "title": {
+    "ar": "المؤسسات والخدمات العامة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "kurum",
+  "rule": "Kamu kurumlarının sunduğu hizmetlere erişim kolaylaştırılmalıdır.",
+  "vocabulary": [
+    {
+      "term": "مؤسسة",
+      "meaningAr": "hizmet",
+      "exampleTr": "Kamu kurumlarının sunduğu hizmetlere erişim kolaylaştırılmalıdır.",
+      "exampleAr": "ينبغي تسهيل الوصول إلى الخدمات التي تقدمها المؤسسات العامة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تحديد وظيفة المؤسسة",
+      "ar": ""
+    },
+    {
+      "tr": "Kamu kurumlarının sunduğu hizmetlere erişim kolaylaştırılmalıdır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Belediye yeni bir danışma merkezi açtı.|افتتحت البلدية مركز استعلامات جديداً.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu işlem nerede yapılır? — أين تُجرى هذه المعاملة؟\nB: İlgili kamu kurumunda. — في المؤسسة العامة المختصة.",
+  "questions": [
+    {
+      "id": "b2-u8-04-q1",
+      "prompt": "ما معنى «مؤسسة»؟",
+      "options": [
+        "خدمة عامة",
+        "تعبير غير مناسب",
+        "خدمة",
+        "kamu hizmeti"
+      ],
+      "answerIndex": 2,
+      "explanation": "مؤسسة تعني hizmet."
+    },
+    {
+      "id": "b2-u8-04-q2",
+      "prompt": "ما ترجمة الجملة: «Kamu kurumlarının sunduğu hizmetlere erişim kolaylaştırılmalıdır.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي تسهيل الوصول إلى الخدمات التي تقدمها المؤسسات العامة.|ينبغي تسهيل الوصول إلى الخدمات التي تقدمها المؤسسات العامة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Kamu kurumlarının sunduğu hizmetlere erişim kolaylaştırılmalıdır. تعني ينبغي تسهيل الوصول إلى الخدمات التي تقدمها المؤسسات العامة.."
+    },
+    {
+      "id": "b2-u8-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "التعريف بخدمة ومتلقيها",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "-dığı hizmet."
+    },
+    {
+      "id": "b2-u8-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «التعريف بخدمة ومتلقيها»؟",
+      "options": [
+        "طلب الإذن",
+        "الخدمة التي",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "الخدمة التي"
+    },
+    {
+      "id": "b2-u8-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "الخدمة التي"
+      ],
+      "answerIndex": 3,
+      "explanation": "الخدمة التي"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 254
+  }
+}

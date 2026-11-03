@@ -9,22 +9,105 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "المجتمع والثقافة والقضايا المعاصرة",
-    "titleTr": "Toplum, Kültür ve Güncel Konular",
-    "description": "المشاركة المدنية والبيئة والإعلام والثقافة والصحة وكتابة الرأي."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "بناء مقال يتضمن أطروحة وأدلة ورداً على اعتراض.",
+  "rule": "Bir görüşü savunurken kanıt ve tutarlı gerekçeler sunmalıyız.",
+  "vocabulary": [
+    {
+      "term": "savunmak",
+      "meaningAr": "يدافع عن",
+      "exampleTr": "عند الدفاع عن رأي ينبغي تقديم أدلة ومبررات متسقة.",
+      "exampleAr": "يدافع عن"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "طلب إذن",
+      "ar": ""
+    },
+    {
+      "tr": "Öncelikle sorunun nedenlerini ele alacağım.",
+      "ar": "سأتناول أسباب المشكلة أولاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Sonuç olarak ortak çözümler geliştirmeliyiz.|في الختام ينبغي تطوير حلول مشتركة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Makalene nasıl başlayacaksın? — كيف ستبدأ مقالك؟\nB: Görüşümü açıkça belirterek. — بتحديد رأيي بوضوح.",
+  "questions": [
+    {
+      "id": "b2-u6-09-q1",
+      "prompt": "ما معنى «savunmak»؟",
+      "options": [
+        "ينسخ",
+        "يتجاهل",
+        "يؤجل",
+        "görüşünü savunmak|يدافع عن رأيه"
+      ],
+      "answerIndex": 3,
+      "explanation": "savunmak تعني يدافع عن."
+    },
+    {
+      "id": "b2-u6-09-q2",
+      "prompt": "ما ترجمة الجملة: «عند الدفاع عن رأي ينبغي تقديم أدلة ومبررات متسقة.»؟",
+      "options": [
+        "عند الدفاع عن رأي ينبغي تقديم أدلة ومبررات متسقة.|يدافع عن",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "عند الدفاع عن رأي ينبغي تقديم أدلة ومبررات متسقة. تعني يدافع عن."
+    },
+    {
+      "id": "b2-u6-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "سرد يومي",
+        "يترجم",
+        "كتابة مقال حجاجي",
+        "وصف مكان"
+      ],
+      "answerIndex": 1,
+      "explanation": "tez + kanıt + karşı görüş."
+    },
+    {
+      "id": "b2-u6-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يترجم»؟",
+      "options": [
+        "وصف مكان",
+        "سرد يومي",
+        "أطروحة ودليل ورأي مقابل",
+        "كتابة مقال حجاجي"
+      ],
+      "answerIndex": 2,
+      "explanation": "أطروحة ودليل ورأي مقابل"
+    },
+    {
+      "id": "b2-u6-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "أطروحة ودليل ورأي مقابل",
+        "كتابة مقال حجاجي",
+        "وصف مكان",
+        "سرد يومي"
+      ],
+      "answerIndex": 0,
+      "explanation": "أطروحة ودليل ورأي مقابل"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u6",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 239
   }
 }

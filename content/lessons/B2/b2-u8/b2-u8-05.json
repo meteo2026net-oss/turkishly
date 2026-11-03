@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-05",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 5,
+  "title": {
+    "ar": "التعبير عن الشكاوى الرسمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "itiraz",
+  "rule": "Karara itiraz ederken gerekçelerinizi belgelerle destekleyin.",
+  "vocabulary": [
+    {
+      "term": "اعتراض",
+      "meaningAr": "gerekçe",
+      "exampleTr": "Karara itiraz ederken gerekçelerinizi belgelerle destekleyin.",
+      "exampleAr": "عند الاعتراض على القرار ادعم مبرراتك بالوثائق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تحديد زمن وقوع الفعل",
+      "ar": ""
+    },
+    {
+      "tr": "Karara itiraz ederken gerekçelerinizi belgelerle destekleyin.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Kararın yeniden incelenmesini talep ediyorum.|أطلب إعادة النظر في القرار.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: İtirazınızı nasıl sunacaksınız? — كيف ستقدم اعتراضك؟\nB: Yazılı ve belgeli olarak. — كتابةً مع الوثائق.",
+  "questions": [
+    {
+      "id": "b2-u8-05-q1",
+      "prompt": "ما معنى «اعتراض»؟",
+      "options": [
+        "itiraz etmek",
+        "يعترض",
+        "تعبير غير مناسب",
+        "مبرر"
+      ],
+      "answerIndex": 3,
+      "explanation": "اعتراض تعني gerekçe."
+    },
+    {
+      "id": "b2-u8-05-q2",
+      "prompt": "ما ترجمة الجملة: «Karara itiraz ederken gerekçelerinizi belgelerle destekleyin.»؟",
+      "options": [
+        "عند الاعتراض على القرار ادعم مبرراتك بالوثائق.|عند الاعتراض على القرار ادعم مبرراتك بالوثائق.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Karara itiraz ederken gerekçelerinizi belgelerle destekleyin. تعني عند الاعتراض على القرار ادعم مبرراتك بالوثائق.."
+    },
+    {
+      "id": "b2-u8-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "تقديم اعتراض معلل",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "-erken/-arken."
+    },
+    {
+      "id": "b2-u8-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تقديم اعتراض معلل»؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "أثناء",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "أثناء"
+    },
+    {
+      "id": "b2-u8-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "أثناء",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "أثناء"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 255
+  }
+}

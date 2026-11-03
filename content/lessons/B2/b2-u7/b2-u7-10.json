@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-10",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 10,
+  "title": {
+    "ar": "مراجعة ريادة الأعمال والاقتصاد",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "sürdürülebilir",
+  "rule": "Uzun vadeli başarı için müşteri değeri ve mali denge birlikte düşünülmelidir.",
+  "vocabulary": [
+    {
+      "term": "مستدام",
+      "meaningAr": "uzun vadeli",
+      "exampleTr": "Uzun vadeli başarı için müşteri değeri ve mali denge birlikte düşünülmelidir.",
+      "exampleAr": "ينبغي التفكير في قيمة العميل والتوازن المالي معاً لتحقيق نجاح طويل الأمد."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ربط عاملين في استنتاج",
+      "ar": ""
+    },
+    {
+      "tr": "Uzun vadeli başarı için müşteri değeri ve mali denge birlikte düşünülmelidir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Maliyetleri izlerken kaliteyi de korumalıyız.|ينبغي الحفاظ على الجودة أثناء متابعة التكاليف.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Başarıyı nasıl ölçeriz? — كيف نقيس النجاح؟\nB: Etkiyi, kaliteyi ve sürdürülebilirliği izleyerek. — بمتابعة الأثر والجودة والاستدامة.",
+  "questions": [
+    {
+      "id": "b2-u7-10-q1",
+      "prompt": "ما معنى «مستدام»؟",
+      "options": [
+        "نجاح طويل الأمد",
+        "تعبير غير مناسب",
+        "طويل الأمد",
+        "uzun vadeli başarı"
+      ],
+      "answerIndex": 2,
+      "explanation": "مستدام تعني uzun vadeli."
+    },
+    {
+      "id": "b2-u7-10-q2",
+      "prompt": "ما ترجمة الجملة: «Uzun vadeli başarı için müşteri değeri ve mali denge birlikte düşünülmelidir.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي التفكير في قيمة العميل والتوازن المالي معاً لتحقيق نجاح طويل الأمد.|ينبغي التفكير في قيمة العميل والتوازن المالي معاً لتحقيق نجاح طويل الأمد."
+      ],
+      "answerIndex": 3,
+      "explanation": "Uzun vadeli başarı için müşteri değeri ve mali denge birlikte düşünülmelidir. تعني ينبغي التفكير في قيمة العميل والتوازن المالي معاً لتحقيق نجاح طويل الأمد.."
+    },
+    {
+      "id": "b2-u7-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تقييم الاستدامة",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "birlikte düşünmek."
+    },
+    {
+      "id": "b2-u7-10-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تقييم الاستدامة»؟",
+      "options": [
+        "طلب الإذن",
+        "التفكير معاً",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "التفكير معاً"
+    },
+    {
+      "id": "b2-u7-10-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "التفكير معاً"
+      ],
+      "answerIndex": 3,
+      "explanation": "التفكير معاً"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 250
+  }
+}

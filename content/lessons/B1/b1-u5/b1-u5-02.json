@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الزمن والمدة والتجارب والتوقعات",
-    "titleTr": "Zaman, Süre, Deneyim ve Beklenti",
-    "description": "التعبير عن التكرار والمدة والمواعيد وتسلسل الأحداث والتجارب والتحذير والتوقعات."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "السؤال عن المدة التي استمر فيها نشاط أو حالة.",
+  "rule": "منذ: -den beri، منذ متى: ne zamandan beri. مثال: İki yıldan beri burada yaşıyorum. ويمكن استخدام -dır/-dir مع مدة مستمرة: İki yıldır burada yaşıyorum.",
+  "vocabulary": [
+    {
+      "term": "-den beri",
+      "meaningAr": "منذ / طوال الفترة ابتداءً من",
+      "exampleTr": "Üç yıldır Türkçe öğreniyorum.",
+      "exampleAr": "أتعلم التركية منذ ثلاث سنوات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Sabahdan beri seni bekliyorum.",
+      "ar": "أنتظرك منذ الصباح."
+    },
+    {
+      "tr": "2019'dan beri bu şehirde yaşıyor.",
+      "ar": "يعيش في هذه المدينة منذ عام 2019."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ne zamandan beri İngilizce öğreniyorsun?",
+      "ar": "منذ متى تتعلم الإنجليزية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "İki yıldır öğreniyorum.",
+      "ar": "أتعلمها منذ سنتين."
+    }
+  ],
+  "speakingTask": "أجب عن خمسة أسئلة حول مدة تعلمك وعملك وسكنك.",
+  "questions": [
+    {
+      "id": "b1-u5-02-q1",
+      "prompt": "ما معنى «-den beri»؟",
+      "options": [
+        "الاحتمال",
+        "المقارنة",
+        "منذ / طوال الفترة ابتداءً من",
+        "السبب / النتيجة"
+      ],
+      "answerIndex": 2,
+      "explanation": "-den beri تعني منذ / طوال الفترة ابتداءً من."
+    },
+    {
+      "id": "b1-u5-02-q2",
+      "prompt": "ما ترجمة الجملة: «Üç yıldır Türkçe öğreniyorum.»؟",
+      "options": [
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "أتعلم التركية منذ ثلاث سنوات."
+      ],
+      "answerIndex": 3,
+      "explanation": "Üç yıldır Türkçe öğreniyorum. تعني أتعلم التركية منذ ثلاث سنوات.."
+    },
+    {
+      "id": "b1-u5-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "başlangıç zamanı + -den beri",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحديد نقطة بداية حالة مستمرة."
+    },
+    {
+      "id": "b1-u5-02-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «başlangıç zamanı + -den beri»؟",
+      "options": [
+        "النفي المطلق",
+        "التعبير عن مدة بدأت في الماضي وما زالت مستمرة.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير عن مدة بدأت في الماضي وما زالت مستمرة."
+    },
+    {
+      "id": "b1-u5-02-q5",
+      "prompt": "أكمل التركيب: Üç yıldır Türkçe öğreniyorum.",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "başlangıç zamanı + -den beri"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي başlangıç zamanı + -den beri؛ تحديد نقطة بداية حالة مستمرة."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u5",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 162
   }
 }

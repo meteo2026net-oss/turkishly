@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
-    "titleTr": "İleri Akademik ve Mesleki İletişim",
-    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "استخدام تعبيرات طبيعية شائعة في التركية الرسمية واليومية.",
+  "rule": "تعلم الكلمات ضمن تلازماتها: karar almak (يتخذ قراراً)، sorumluluk üstlenmek (يتحمل مسؤولية)، katkı sağlamak (يساهم)، göz ardı etmek (يتجاهل). لا تترجم حرفياً من العربية.",
+  "vocabulary": [
+    {
+      "term": "sorumluluk üstlenmek",
+      "meaningAr": "يتحمل المسؤولية",
+      "exampleTr": "Bu projede önemli bir sorumluluk üstlendim.",
+      "exampleAr": "تحملت مسؤولية مهمة في هذا المشروع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "لاحقة زمن",
+      "ar": ""
+    },
+    {
+      "tr": "Yeni bir adım atmalıyız.",
+      "ar": "ينبغي أن نتخذ خطوة جديدة."
+    },
+    {
+      "tr": "Bu çalışma önemli katkı sağladı.",
+      "ar": "قدم هذا العمل مساهمة مهمة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Projede hangi görevi üstlendin?",
+      "ar": "ما المهمة التي توليتها في المشروع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Veri analizinden sorumluluk üstlendim.",
+      "ar": "تحملت مسؤولية تحليل البيانات."
+    }
+  ],
+  "speakingTask": "اكتب عشر جمل مستخدماً خمسة تلازمات لفظية تركية.",
+  "questions": [
+    {
+      "id": "b2-u3-06-q1",
+      "prompt": "ما معنى «sorumluluk üstlenmek»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "يتحمل المسؤولية",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "sorumluluk üstlenmek تعني يتحمل المسؤولية."
+    },
+    {
+      "id": "b2-u3-06-q2",
+      "prompt": "ما ترجمة الجملة: «Bu projede önemli bir sorumluluk üstlendim.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "تحملت مسؤولية مهمة في هذا المشروع."
+      ],
+      "answerIndex": 3,
+      "explanation": "Bu projede önemli bir sorumluluk üstlendim. تعني تحملت مسؤولية مهمة في هذا المشروع.."
+    },
+    {
+      "id": "b2-u3-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "isim + uygun fiil eşdizimi",
+        "eşdizim",
+        "kelime kelime çeviri",
+        "rastgele ekleme"
+      ],
+      "answerIndex": 0,
+      "explanation": "اسم مع فعل متلازم معه."
+    },
+    {
+      "id": "b2-u3-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «isim + uygun fiil eşdizimi»؟",
+      "options": [
+        "النفي المطلق",
+        "استخدام تعبيرات طبيعية شائعة بدلاً من الترجمة الحرفية.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "استخدام تعبيرات طبيعية شائعة بدلاً من الترجمة الحرفية."
+    },
+    {
+      "id": "b2-u3-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "استخدام تعبيرات طبيعية شائعة بدلاً من الترجمة الحرفية."
+      ],
+      "answerIndex": 3,
+      "explanation": "استخدام تعبيرات طبيعية شائعة بدلاً من الترجمة الحرفية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u3",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 206
   }
 }

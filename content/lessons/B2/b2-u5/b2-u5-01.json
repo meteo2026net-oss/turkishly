@@ -9,22 +9,105 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعليم والتعلم والبحث",
-    "titleTr": "Eğitim, Öğrenme ve Araştırma",
-    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التحدث عن تطوير المهارات والتعلم المستمر.",
+  "rule": "Yeni beceriler edinmek kariyer gelişimini destekler.",
+  "vocabulary": [
+    {
+      "term": "edinmek",
+      "meaningAr": "يكتسب",
+      "exampleTr": "اكتساب مهارات جديدة يدعم التطور المهني.",
+      "exampleAr": "يكتسب"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الاستثناء",
+      "ar": ""
+    },
+    {
+      "tr": "Düzenli okumak kelime dağarcığını geliştirir.",
+      "ar": "القراءة المنتظمة تطور المفردات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Öğrenme süreci yaşam boyu devam eder.|تستمر عملية التعلم مدى الحياة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Hangi beceriyi geliştirmek istiyorsun? — أي مهارة تريد تطويرها؟\nB: Akademik yazma becerimi. — مهارة الكتابة الأكاديمية.",
+  "questions": [
+    {
+      "id": "b2-u5-01-q1",
+      "prompt": "ما معنى «edinmek»؟",
+      "options": [
+        "ينسى",
+        "beceri edinmek|يكتسب مهارة",
+        "يفقد",
+        "يرفض"
+      ],
+      "answerIndex": 1,
+      "explanation": "edinmek تعني يكتسب."
+    },
+    {
+      "id": "b2-u5-01-q2",
+      "prompt": "ما ترجمة الجملة: «اكتساب مهارات جديدة يدعم التطور المهني.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "اكتساب مهارات جديدة يدعم التطور المهني.|يكتسب",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتساب مهارات جديدة يدعم التطور المهني. تعني يكتسب."
+    },
+    {
+      "id": "b2-u5-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "التعلم وتطوير الذات",
+        "النفي",
+        "الشرط",
+        "يؤجل"
+      ],
+      "answerIndex": 3,
+      "explanation": "isim + edinmek."
+    },
+    {
+      "id": "b2-u5-01-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يؤجل»؟",
+      "options": [
+        "اسم مع فعل الاكتساب",
+        "التعلم وتطوير الذات",
+        "النفي",
+        "الشرط"
+      ],
+      "answerIndex": 0,
+      "explanation": "اسم مع فعل الاكتساب"
+    },
+    {
+      "id": "b2-u5-01-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النفي",
+        "الشرط",
+        "اسم مع فعل الاكتساب",
+        "التعلم وتطوير الذات"
+      ],
+      "answerIndex": 2,
+      "explanation": "اسم مع فعل الاكتساب"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u5",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 221
   }
 }

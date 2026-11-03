@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-03",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 3,
+  "title": {
+    "ar": "الخصوصية وحماية المعلومات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "gizlilik",
+  "rule": "Kişisel bilgileri paylaşmadan önce izin ve güvenlik koşullarını kontrol edin.",
+  "vocabulary": [
+    {
+      "term": "خصوصية",
+      "meaningAr": "kişisel veri",
+      "exampleTr": "Kişisel bilgileri paylaşmadan önce izin ve güvenlik koşullarını kontrol edin.",
+      "exampleAr": "تحقق من الإذن وشروط الأمان قبل مشاركة المعلومات الشخصية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "التنبيه إلى إجراء سابق",
+      "ar": ""
+    },
+    {
+      "tr": "Kişisel bilgileri paylaşmadan önce izin ve güvenlik koşullarını kontrol edin.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Gereksiz verileri toplamaktan kaçınıyoruz.|نتجنب جمع البيانات غير الضرورية.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bilgilerim kimlerle paylaşılır? — مع من ستشارك معلوماتي؟\nB: Yalnızca izin verilen taraflarla. — فقط مع الجهات المصرح لها.",
+  "questions": [
+    {
+      "id": "b2-u8-03-q1",
+      "prompt": "ما معنى «خصوصية»؟",
+      "options": [
+        "تعبير غير مناسب",
+        "بيانات شخصية",
+        "veri güvenliği",
+        "أمن البيانات"
+      ],
+      "answerIndex": 1,
+      "explanation": "خصوصية تعني kişisel veri."
+    },
+    {
+      "id": "b2-u8-03-q2",
+      "prompt": "ما ترجمة الجملة: «Kişisel bilgileri paylaşmadan önce izin ve güvenlik koşullarını kontrol edin.»؟",
+      "options": [
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "تحقق من الإذن وشروط الأمان قبل مشاركة المعلومات الشخصية.|تحقق من الإذن وشروط الأمان قبل مشاركة المعلومات الشخصية.",
+        "سأزور المكتبة غداً."
+      ],
+      "answerIndex": 2,
+      "explanation": "Kişisel bilgileri paylaşmadan önce izin ve güvenlik koşullarını kontrol edin. تعني تحقق من الإذن وشروط الأمان قبل مشاركة المعلومات الشخصية.."
+    },
+    {
+      "id": "b2-u8-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "شرح الاحتياط الرقمي"
+      ],
+      "answerIndex": 3,
+      "explanation": "-madan önce."
+    },
+    {
+      "id": "b2-u8-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «شرح الاحتياط الرقمي»؟",
+      "options": [
+        "قبل أن",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "قبل أن"
+    },
+    {
+      "id": "b2-u8-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "قبل أن",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "قبل أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 253
+  }
+}

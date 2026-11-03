@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعبير عن الرأي والتفضيل والتفاعل",
-    "titleTr": "Görüş, Tercih ve Etkileşim",
-    "description": "إبداء الرأي والموافقة والاعتراض والتفضيل والندم والسبب والغاية والتغيير."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "مقارنة ما اعتدت فعله سابقاً بما تفعله الآن.",
+  "rule": "استخدم eskiden ... yapardım لوصف عادة ماضية، وartık ... بمعنى لم يعد/أصبح الآن، وönceden بمعنى سابقاً.",
+  "vocabulary": [
+    {
+      "term": "artık",
+      "meaningAr": "الآن / لم يعد، بحسب سياق النفي",
+      "exampleTr": "Eskiden geç yatardım, artık erken uyuyorum.",
+      "exampleAr": "كنت أنام متأخراً سابقاً، أما الآن فأنام مبكراً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çocukken çok kitap okurdum.",
+      "ar": "كنت أقرأ كثيراً عندما كنت طفلاً."
+    },
+    {
+      "tr": "Artık kahve içmiyorum.",
+      "ar": "لم أعد أشرب القهوة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hâlâ aynı yerde mi çalışıyorsun?",
+      "ar": "هل ما زلت تعمل في المكان نفسه؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, artık başka bir şirkette çalışıyorum.",
+      "ar": "لا، أعمل الآن في شركة أخرى."
+    }
+  ],
+  "speakingTask": "قارن بين روتينك السابق وروتينك الحالي بخمس جمل.",
+  "questions": [
+    {
+      "id": "b1-u4-09-q1",
+      "prompt": "ما معنى «artık»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "الآن / لم يعد، بحسب سياق النفي"
+      ],
+      "answerIndex": 3,
+      "explanation": "artık تعني الآن / لم يعد، بحسب سياق النفي."
+    },
+    {
+      "id": "b1-u4-09-q2",
+      "prompt": "ما ترجمة الجملة: «Eskiden geç yatardım, artık erken uyuyorum.»؟",
+      "options": [
+        "كنت أنام متأخراً سابقاً، أما الآن فأنام مبكراً.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Eskiden geç yatardım, artık erken uyuyorum. تعني كنت أنام متأخراً سابقاً، أما الآن فأنام مبكراً.."
+    },
+    {
+      "id": "b1-u4-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "Eskiden + geniş zaman hikâyesi",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "صيغة العادة الماضية مثل yapardım."
+    },
+    {
+      "id": "b1-u4-09-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «Eskiden + geniş zaman hikâyesi»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "وصف عادة متكررة في الماضي لم تعد بالضرورة مستمرة.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "وصف عادة متكررة في الماضي لم تعد بالضرورة مستمرة."
+    },
+    {
+      "id": "b1-u4-09-q5",
+      "prompt": "أكمل التركيب: Eskiden geç yatardım, artık erken uyuyorum.",
+      "options": [
+        "Eskiden + geniş zaman hikâyesi",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي Eskiden + geniş zaman hikâyesi؛ صيغة العادة الماضية مثل yapardım."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u4",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 159
   }
 }

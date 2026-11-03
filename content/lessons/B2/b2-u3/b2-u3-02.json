@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
-    "titleTr": "İleri Akademik ve Mesleki İletişim",
-    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "عرض معلومات ونتائج وتوصيات في تقرير.",
+  "rule": "يتكون التقرير من başlık (عنوان)، amaç (هدف)، yöntem (منهج)، bulgular (نتائج/ملاحظات)، değerlendirme (تقييم)، öneriler (توصيات). ميّز بين الوقائع والرأي.",
+  "vocabulary": [
+    {
+      "term": "bulgular",
+      "meaningAr": "النتائج / المعطيات",
+      "exampleTr": "Araştırmanın bulguları üç temel noktaya işaret ediyor.",
+      "exampleAr": "تشير نتائج البحث إلى ثلاث نقاط أساسية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "حوار",
+      "ar": ""
+    },
+    {
+      "tr": "Veriler iki grupta incelendi.",
+      "ar": "دُرست البيانات ضمن مجموعتين."
+    },
+    {
+      "tr": "Sonuçlara göre ek çalışma gerekiyor.",
+      "ar": "وفقاً للنتائج، هناك حاجة إلى عمل إضافي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Raporun en önemli bölümü hangisi?",
+      "ar": "ما أهم جزء في التقرير؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bulgular ve bunların değerlendirilmesi.",
+      "ar": "النتائج وتقييمها."
+    }
+  ],
+  "speakingTask": "أعد مخطط تقرير يتضمن الهدف والمنهج والنتائج وثلاث توصيات.",
+  "questions": [
+    {
+      "id": "b2-u3-02-q1",
+      "prompt": "ما معنى «bulgular»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "النتائج / المعطيات",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "bulgular تعني النتائج / المعطيات."
+    },
+    {
+      "id": "b2-u3-02-q2",
+      "prompt": "ما ترجمة الجملة: «Araştırmanın bulguları üç temel noktaya işaret ediyor.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "تشير نتائج البحث إلى ثلاث نقاط أساسية."
+      ],
+      "answerIndex": 3,
+      "explanation": "Araştırmanın bulguları üç temel noktaya işaret ediyor. تعني تشير نتائج البحث إلى ثلاث نقاط أساسية.."
+    },
+    {
+      "id": "b2-u3-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "amaç + yöntem + bulgular + değerlendirme",
+        "rapor yapısı",
+        "kişisel günlük",
+        "reklam metni"
+      ],
+      "answerIndex": 0,
+      "explanation": "أقسام التقرير المنظم."
+    },
+    {
+      "id": "b2-u3-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «amaç + yöntem + bulgular + değerlendirme»؟",
+      "options": [
+        "النفي المطلق",
+        "تقديم معلومات قابلة للمراجعة مع توصيات.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تقديم معلومات قابلة للمراجعة مع توصيات."
+    },
+    {
+      "id": "b2-u3-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تقديم معلومات قابلة للمراجعة مع توصيات."
+      ],
+      "answerIndex": 3,
+      "explanation": "تقديم معلومات قابلة للمراجعة مع توصيات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u3",
-    "legacyLessonOrder": 2
+    "legacyGlobalNumber": 202
   }
 }

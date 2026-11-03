@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التراكيب النحوية المتقدمة",
-    "titleTr": "İleri Dilbilgisi Yapıları",
-    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التعبير عن جعل شخص آخر يقوم بفعل.",
+  "rule": "تُستخدم صيغ التسبب -DIr/-t/-ır وغيرها بحسب بنية الفعل: yaptırmak (يجعل شخصاً يفعل/يطلب منه أن يفعل)، temizletmek (يطلب تنظيفه).",
+  "vocabulary": [
+    {
+      "term": "yaptırmak",
+      "meaningAr": "يجعل شخصاً يقوم بالعمل / يطلب تنفيذ العمل",
+      "exampleTr": "Arabayı serviste tamir ettirdim.",
+      "exampleAr": "طلبت إصلاح السيارة في مركز الصيانة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "القيام بالفعل بصورة متبادلة",
+      "ar": ""
+    },
+    {
+      "tr": "Saçımı kestirdim.",
+      "ar": "قصصت شعري لدى الحلاق (جعلت الحلاق يقصه)."
+    },
+    {
+      "tr": "Belgeleri sekreterime hazırlattım.",
+      "ar": "طلبت من سكرتيرتي إعداد الوثائق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu işi kendin mi yaptın?",
+      "ar": "هل قمت بهذا العمل بنفسك؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, uzmana yaptırdım.",
+      "ar": "لا، طلبت من المختص تنفيذه."
+    }
+  ],
+  "speakingTask": "صف ثلاث خدمات تطلب من الآخرين تنفيذها.",
+  "questions": [
+    {
+      "id": "b2-u1-05-q1",
+      "prompt": "ما معنى «yaptırmak»؟",
+      "options": [
+        "يشير إلى شرط افتراضي",
+        "يجعل شخصاً يقوم بالعمل / يطلب تنفيذ العمل",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن"
+      ],
+      "answerIndex": 1,
+      "explanation": "yaptırmak تعني يجعل شخصاً يقوم بالعمل / يطلب تنفيذ العمل."
+    },
+    {
+      "id": "b2-u1-05-q2",
+      "prompt": "ما ترجمة الجملة: «Arabayı serviste tamir ettirdim.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "طلبت إصلاح السيارة في مركز الصيانة.",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "Arabayı serviste tamir ettirdim. تعني طلبت إصلاح السيارة في مركز الصيانة.."
+    },
+    {
+      "id": "b2-u1-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "ettirgen çatı",
+        "edilgen çatı",
+        "dönüşlü çatı",
+        "fiil + ettirgenlik eki"
+      ],
+      "answerIndex": 3,
+      "explanation": "إضافة لاحقة التسبب إلى الفعل."
+    },
+    {
+      "id": "b2-u1-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «fiil + ettirgenlik eki»؟",
+      "options": [
+        "بيان أن الفاعل تسبب في قيام غيره بالفعل.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "بيان أن الفاعل تسبب في قيام غيره بالفعل."
+    },
+    {
+      "id": "b2-u1-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "بيان أن الفاعل تسبب في قيام غيره بالفعل.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "بيان أن الفاعل تسبب في قيام غيره بالفعل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u1",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 185
   }
 }

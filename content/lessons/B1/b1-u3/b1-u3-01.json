@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التواصل المتقدم وبناء الخطاب",
-    "titleTr": "İleri İletişim ve Söylem Kurma",
-    "description": "تنظيم العروض الشفهية وحل المشكلات والتخطيط وسرد الخبرات واستخدام المبني للمجهول والروابط المركبة."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "تقديم موضوع قصير بمقدمة ونقاط رئيسية وخاتمة واضحة.",
+  "rule": "ابدأ بـ Bugün ... hakkında konuşacağım (سأتحدث اليوم عن...)، ثم رتّب النقاط بـ öncelikle وikinci olarak، واختم بـ sonuç olarak أو kısacası.",
+  "vocabulary": [
+    {
+      "term": "hakkında konuşacağım",
+      "meaningAr": "سأتحدث عن",
+      "exampleTr": "Bugün eğitim hakkında konuşacağım.",
+      "exampleAr": "سأتحدث اليوم عن التعليم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İlk olarak üç noktayı ele alacağım.",
+      "ar": "أولاً سأناقش ثلاث نقاط."
+    },
+    {
+      "tr": "Kısacası bu yöntem daha etkili.",
+      "ar": "باختصار هذه الطريقة أكثر فاعلية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sunumunun konusu ne?",
+      "ar": "ما موضوع عرضك؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bugün çevre sorunları hakkında konuşacağım.",
+      "ar": "سأتحدث اليوم عن مشكلات البيئة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً من دقيقة واحدة عن موضوع تعرفه.",
+  "questions": [
+    {
+      "id": "b1-u3-01-q1",
+      "prompt": "ما معنى «hakkında konuşacağım»؟",
+      "options": [
+        "أتحدث بسبب",
+        "سأتحدث عن",
+        "سأتوقف عن",
+        "سأتحدث بعد"
+      ],
+      "answerIndex": 1,
+      "explanation": "hakkında konuşacağım تعني سأتحدث عن."
+    },
+    {
+      "id": "b1-u3-01-q2",
+      "prompt": "ما ترجمة الجملة: «Bugün eğitim hakkında konuşacağım.»؟",
+      "options": [
+        "لا أريد الحديث عن التعليم.",
+        "سأتحدث رغم التعليم.",
+        "سأتحدث اليوم عن التعليم.",
+        "سأتحدث أمس عن التعليم."
+      ],
+      "answerIndex": 2,
+      "explanation": "Bugün eğitim hakkında konuşacağım. تعني سأتحدث اليوم عن التعليم.."
+    },
+    {
+      "id": "b1-u3-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "çünkü",
+        "rağmen",
+        "belki",
+        "sonuç olarak"
+      ],
+      "answerIndex": 3,
+      "explanation": "رابط لتقديم الخلاصة النهائية."
+    },
+    {
+      "id": "b1-u3-01-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «sonuç olarak»؟",
+      "options": [
+        "تقديم الخلاصة",
+        "تقديم السبب",
+        "تقديم التنازل",
+        "تقديم الاحتمال"
+      ],
+      "answerIndex": 0,
+      "explanation": "بناء خطاب منظم بمقدمة وتفاصيل وخاتمة."
+    },
+    {
+      "id": "b1-u3-01-q5",
+      "prompt": "أكمل التركيب: Bugün eğitim hakkında konuşacağım.",
+      "options": [
+        "rağmen",
+        "belki",
+        "sonuç olarak",
+        "çünkü"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي sonuç olarak؛ رابط لتقديم الخلاصة النهائية."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u3",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 141
   }
 }

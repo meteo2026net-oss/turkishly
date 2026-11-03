@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الزمن والمدة والتجارب والتوقعات",
-    "titleTr": "Zaman, Süre, Deneyim ve Beklenti",
-    "description": "التعبير عن التكرار والمدة والمواعيد وتسلسل الأحداث والتجارب والتحذير والتوقعات."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "استخدام تراكيب المدة والتكرار والتجربة والمواعيد في سرد عملي.",
+  "rule": "ميّز بين -den beri للحالة المستمرة، sürmek للمدة المستغرقة، önce/ardından للترتيب، daha önce للتجربة، en geç للموعد النهائي.",
+  "vocabulary": [
+    {
+      "term": "-den beri",
+      "meaningAr": "منذ / ابتداءً من وقت سابق",
+      "exampleTr": "Sabahdan beri çalışıyorum ve işi bitirmek iki saat daha sürecek.",
+      "exampleAr": "أعمل منذ الصباح وسيستغرق إنهاء العمل ساعتين إضافيتين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İki saattir buradayım.",
+      "ar": "أنا هنا منذ ساعتين."
+    },
+    {
+      "tr": "Önce başvurdum, ardından belgeleri gönderdim.",
+      "ar": "قدمت الطلب أولاً، ثم أرسلت المستندات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ne zamandan beri buradasın?",
+      "ar": "منذ متى أنت هنا؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Saat dokuzdan beri. İşim biraz daha sürecek.",
+      "ar": "منذ الساعة التاسعة. سيستغرق عملي وقتاً إضافياً."
+    }
+  ],
+  "speakingTask": "صف مشروعاً: متى بدأ، كم استغرق، وما مراحله وموعد انتهائه.",
+  "questions": [
+    {
+      "id": "b1-u5-10-q1",
+      "prompt": "ما معنى «-den beri»؟",
+      "options": [
+        "الاحتمال",
+        "المقارنة",
+        "منذ / ابتداءً من وقت سابق",
+        "السبب / النتيجة"
+      ],
+      "answerIndex": 2,
+      "explanation": "-den beri تعني منذ / ابتداءً من وقت سابق."
+    },
+    {
+      "id": "b1-u5-10-q2",
+      "prompt": "ما ترجمة الجملة: «Sabahdan beri çalışıyorum ve işi bitirmek iki saat daha sürecek.»؟",
+      "options": [
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "أعمل منذ الصباح وسيستغرق إنهاء العمل ساعتين إضافيتين."
+      ],
+      "answerIndex": 3,
+      "explanation": "Sabahdan beri çalışıyorum ve işi bitirmek iki saat daha sürecek. تعني أعمل منذ الصباح وسيستغرق إنهاء العمل ساعتين إضافيتين.."
+    },
+    {
+      "id": "b1-u5-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-den beri / sürmek / ardından",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "تراكيب الزمن والمدة والتسلسل."
+    },
+    {
+      "id": "b1-u5-10-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «-den beri / sürmek / ardından»؟",
+      "options": [
+        "النفي المطلق",
+        "سرد نشاط مع بيان بدايته ومدته وترتيب مراحله.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "سرد نشاط مع بيان بدايته ومدته وترتيب مراحله."
+    },
+    {
+      "id": "b1-u5-10-q5",
+      "prompt": "أكمل التركيب: Sabahdan beri çalışıyorum ve işi bitirmek iki saat daha sürecek.",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "-den beri / sürmek / ardından"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي -den beri / sürmek / ardından؛ تراكيب الزمن والمدة والتسلسل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u5",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 170
   }
 }

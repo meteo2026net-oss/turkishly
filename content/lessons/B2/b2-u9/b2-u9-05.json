@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-05",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 5,
+  "title": {
+    "ar": "الاستنتاج والتحفظ العلمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "olasılık",
+  "rule": "Bu bulgular kesin bir sonuçtan çok güçlü bir olasılığa işaret ediyor.",
+  "vocabulary": [
+    {
+      "term": "احتمال",
+      "meaningAr": "kesin",
+      "exampleTr": "Bu bulgular kesin bir sonuçtan çok güçlü bir olasılığa işaret ediyor.",
+      "exampleAr": "تشير هذه النتائج إلى احتمال قوي أكثر من نتيجة قطعية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "المقارنة الدقيقة",
+      "ar": ""
+    },
+    {
+      "tr": "Bu bulgular kesin bir sonuçtan çok güçlü bir olasılığa işaret ediyor.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Veriler bu açıklamayı destekliyor olabilir.|قد تدعم البيانات هذا التفسير.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Sonuç kesin mi? — هل النتيجة قطعية؟\nB: Şimdilik bunu söylemek zor. — من الصعب قول ذلك حالياً.",
+  "questions": [
+    {
+      "id": "b2-u9-05-q1",
+      "prompt": "ما معنى «احتمال»؟",
+      "options": [
+        "تعبير غير مناسب",
+        "قطعي",
+        "işaret etmek",
+        "يشير إلى"
+      ],
+      "answerIndex": 1,
+      "explanation": "احتمال تعني kesin."
+    },
+    {
+      "id": "b2-u9-05-q2",
+      "prompt": "ما ترجمة الجملة: «Bu bulgular kesin bir sonuçtan çok güçlü bir olasılığa işaret ediyor.»؟",
+      "options": [
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "تشير هذه النتائج إلى احتمال قوي أكثر من نتيجة قطعية.|تشير هذه النتائج إلى احتمال قوي أكثر من نتيجة قطعية.",
+        "سأزور المكتبة غداً."
+      ],
+      "answerIndex": 2,
+      "explanation": "Bu bulgular kesin bir sonuçtan çok güçlü bir olasılığa işaret ediyor. تعني تشير هذه النتائج إلى احتمال قوي أكثر من نتيجة قطعية.."
+    },
+    {
+      "id": "b2-u9-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "التعبير عن درجة اليقين"
+      ],
+      "answerIndex": 3,
+      "explanation": "-dan çok."
+    },
+    {
+      "id": "b2-u9-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «التعبير عن درجة اليقين»؟",
+      "options": [
+        "أكثر من / بدلاً من",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "أكثر من / بدلاً من"
+    },
+    {
+      "id": "b2-u9-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "أكثر من / بدلاً من",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "أكثر من / بدلاً من"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 265
+  }
+}

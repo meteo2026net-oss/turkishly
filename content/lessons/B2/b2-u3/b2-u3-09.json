@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
-    "titleTr": "İleri Akademik ve Mesleki İletişim",
-    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التعبير عن المصالح والبدائل وصياغة تسوية.",
+  "rule": "استخدم uzlaşmak (يتوصل إلى اتفاق)، ortak nokta (نقطة مشتركة)، karşılıklı taviz (تنازل متبادل)، teklif etmek (يعرض)، koşul (شرط). ركز على المصالح لا المواقف وحدها.",
+  "vocabulary": [
+    {
+      "term": "uzlaşmak",
+      "meaningAr": "يتوصل إلى اتفاق / يتوافق",
+      "exampleTr": "Taraflar uzun görüşmelerden sonra uzlaşmayı başardı.",
+      "exampleAr": "تمكنت الأطراف من التوصل إلى اتفاق بعد مفاوضات طويلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "اتهام",
+      "ar": ""
+    },
+    {
+      "tr": "Bu koşullarda orta yolu bulabiliriz.",
+      "ar": "يمكننا إيجاد حل وسط في هذه الظروف."
+    },
+    {
+      "tr": "Teklifinizi değerlendirmek için zamana ihtiyacımız var.",
+      "ar": "نحتاج إلى وقت لتقييم عرضكم."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu fiyatı kabul edemeyiz.",
+      "ar": "لا يمكننا قبول هذا السعر."
+    },
+    {
+      "speaker": "B",
+      "tr": "O hâlde ödeme koşullarında uzlaşalım.",
+      "ar": "إذن لنتوصل إلى اتفاق بشأن شروط الدفع."
+    }
+  ],
+  "speakingTask": "اكتب حوار تفاوض حول موعد أو ميزانية أو تقسيم مهام.",
+  "questions": [
+    {
+      "id": "b2-u3-09-q1",
+      "prompt": "ما معنى «uzlaşmak»؟",
+      "options": [
+        "يشير إلى شرط افتراضي",
+        "يتوصل إلى اتفاق / يتوافق",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن"
+      ],
+      "answerIndex": 1,
+      "explanation": "uzlaşmak تعني يتوصل إلى اتفاق / يتوافق."
+    },
+    {
+      "id": "b2-u3-09-q2",
+      "prompt": "ما ترجمة الجملة: «Taraflar uzun görüşmelerden sonra uzlaşmayı başardı.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "تمكنت الأطراف من التوصل إلى اتفاق بعد مفاوضات طويلة.",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "Taraflar uzun görüşmelerden sonra uzlaşmayı başardı. تعني تمكنت الأطراف من التوصل إلى اتفاق بعد مفاوضات طويلة.."
+    },
+    {
+      "id": "b2-u3-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "uzlaşma",
+        "tek taraflı dayatma",
+        "konuyu kapatma",
+        "teklif + karşı teklif + ortak çözüm"
+      ],
+      "answerIndex": 3,
+      "explanation": "عرض ثم عرض مقابل ثم حل مشترك."
+    },
+    {
+      "id": "b2-u3-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «teklif + karşı teklif + ortak çözüm»؟",
+      "options": [
+        "إدارة التفاوض للوصول إلى حل مقبول.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "إدارة التفاوض للوصول إلى حل مقبول."
+    },
+    {
+      "id": "b2-u3-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إدارة التفاوض للوصول إلى حل مقبول.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إدارة التفاوض للوصول إلى حل مقبول."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u3",
-    "legacyLessonOrder": 9
+    "legacyGlobalNumber": 209
   }
 }

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-10",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 10,
+  "title": {
+    "ar": "مراجعة القانون والحقوق والمؤسسات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "mevzuat",
+  "rule": "Bir işlemi yapmadan önce ilgili mevzuatı incelemek önemlidir.",
+  "vocabulary": [
+    {
+      "term": "تشريع / لوائح",
+      "meaningAr": "uygulama",
+      "exampleTr": "Bir işlemi yapmadan önce ilgili mevzuatı incelemek önemlidir.",
+      "exampleAr": "من المهم مراجعة اللوائح ذات الصلة قبل تنفيذ إجراء."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ترتيب الخطوات",
+      "ar": ""
+    },
+    {
+      "tr": "Bir işlemi yapmadan önce ilgili mevzuatı incelemek önemlidir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Kurallar açık biçimde duyuruldu.|أُعلنت القواعد بوضوح.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Önce neyi kontrol etmeliyiz? — ما الذي ينبغي التحقق منه أولاً؟\nB: İlgili kural ve belgeleri. — القاعدة والوثائق ذات الصلة.",
+  "questions": [
+    {
+      "id": "b2-u8-10-q1",
+      "prompt": "ما معنى «تشريع / لوائح»؟",
+      "options": [
+        "تطبيق",
+        "ilgili mevzuat",
+        "التشريعات ذات الصلة",
+        "تعبير غير مناسب"
+      ],
+      "answerIndex": 0,
+      "explanation": "تشريع / لوائح تعني uygulama."
+    },
+    {
+      "id": "b2-u8-10-q2",
+      "prompt": "ما ترجمة الجملة: «Bir işlemi yapmadan önce ilgili mevzuatı incelemek önemlidir.»؟",
+      "options": [
+        "هذا التعبير لا يناسب السياق.",
+        "من المهم مراجعة اللوائح ذات الصلة قبل تنفيذ إجراء.|من المهم مراجعة اللوائح ذات الصلة قبل تنفيذ إجراء.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق."
+      ],
+      "answerIndex": 1,
+      "explanation": "Bir işlemi yapmadan önce ilgili mevzuatı incelemek önemlidir. تعني من المهم مراجعة اللوائح ذات الصلة قبل تنفيذ إجراء.."
+    },
+    {
+      "id": "b2-u8-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "التحقق من القواعد قبل التصرف",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "-madan önce."
+    },
+    {
+      "id": "b2-u8-10-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «التحقق من القواعد قبل التصرف»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "قبل أن"
+      ],
+      "answerIndex": 3,
+      "explanation": "قبل أن"
+    },
+    {
+      "id": "b2-u8-10-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "قبل أن",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "قبل أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 260
+  }
+}

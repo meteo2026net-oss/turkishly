@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التراكيب النحوية المتقدمة",
-    "titleTr": "İleri Dilbilgisi Yapıları",
-    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "عرض الحدث دون التركيز على الفاعل.",
+  "rule": "تُشكّل صيغة المبني للمجهول غالباً بإضافة -ıl/-il/-ul/-ül أو -n بحسب بنية الفعل، ثم تُصرّف في الزمن المطلوب: hazırlanıyor، hazırlandı، hazırlanacak.",
+  "vocabulary": [
+    {
+      "term": "hazırlanacak",
+      "meaningAr": "سيتم تحضيره",
+      "exampleTr": "Yeni yönetmelik gelecek ay yayımlanacak.",
+      "exampleAr": "سيتم نشر اللائحة الجديدة الشهر القادم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "فعل متبادل",
+      "ar": ""
+    },
+    {
+      "tr": "Belgeler dün kontrol edildi.",
+      "ar": "تم فحص الوثائق أمس."
+    },
+    {
+      "tr": "Yeni bina burada inşa ediliyor.",
+      "ar": "يتم بناء مبنى جديد هنا."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Raporu kim yazdı?",
+      "ar": "من كتب التقرير؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Rapor dün hazırlandı.",
+      "ar": "أُعد التقرير أمس."
+    }
+  ],
+  "speakingTask": "حوّل ست جمل معلومة إلى المبني للمجهول.",
+  "questions": [
+    {
+      "id": "b2-u1-04-q1",
+      "prompt": "ما معنى «hazırlanacak»؟",
+      "options": [
+        "سيتم تحضيره",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي"
+      ],
+      "answerIndex": 0,
+      "explanation": "hazırlanacak تعني سيتم تحضيره."
+    },
+    {
+      "id": "b2-u1-04-q2",
+      "prompt": "ما ترجمة الجملة: «Yeni yönetmelik gelecek ay yayımlanacak.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "سيتم نشر اللائحة الجديدة الشهر القادم.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yeni yönetmelik gelecek ay yayımlanacak. تعني سيتم نشر اللائحة الجديدة الشهر القادم.."
+    },
+    {
+      "id": "b2-u1-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "ettirgen fiil",
+        "dönüşlü fiil",
+        "fiil + edilgenlik eki + zaman",
+        "edilgen fiil"
+      ],
+      "answerIndex": 2,
+      "explanation": "لاحقة المبني للمجهول مع علامة الزمن."
+    },
+    {
+      "id": "b2-u1-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «fiil + edilgenlik eki + zaman»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "التركيز على الحدث أو النتيجة لا الفاعل."
+      ],
+      "answerIndex": 3,
+      "explanation": "التركيز على الحدث أو النتيجة لا الفاعل."
+    },
+    {
+      "id": "b2-u1-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النفي المطلق",
+        "التركيز على الحدث أو النتيجة لا الفاعل.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "التركيز على الحدث أو النتيجة لا الفاعل."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u1",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 184
   }
 }

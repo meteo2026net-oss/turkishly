@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "الاحتمال والافتراض والشرط والتقابل",
-    "titleTr": "Olasılık, Varsayım, Koşul ve Karşıtlık",
-    "description": "التعبير عن الاحتمال والاستنتاج والواجب الماضي والافتراض والشرط غير الحقيقي والتنازل والمقارنة وتنظيم الأفكار."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "التحدث عن نتائج متخيلة لشرط لم يتحقق في الماضي.",
+  "rule": "نستخدم -seydi/-saydı في جملة الشرط، وغالباً يأتي في النتيجة زمن مناسب: Param olsaydı seyahat ederdim = لو كان لدي مال لسافرت. تتغير الحركة بحسب الانسجام.",
+  "vocabulary": [
+    {
+      "term": "Param olsaydı",
+      "meaningAr": "لو كان لدي مال",
+      "exampleTr": "Param olsaydı seyahat ederdim.",
+      "exampleAr": "لو كان لدي مال لسافرت."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Daha erken kalksaydım otobüsü kaçırmazdım.",
+      "ar": "لو استيقظت أبكر لما فاتتني الحافلة."
+    },
+    {
+      "tr": "Beni arasaydın sana yardım ederdim.",
+      "ar": "لو اتصلت بي لساعدتك."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden başvurmadın?",
+      "ar": "لماذا لم تتقدم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Zamanım olsaydı başvururdum.",
+      "ar": "لو كان لدي وقت لتقدمت."
+    }
+  ],
+  "speakingTask": "اكتب ثلاث جمل تبدأ بـ لو كان لدي... مستخدماً -seydi/-saydı.",
+  "questions": [
+    {
+      "id": "b1-u2-05-q1",
+      "prompt": "ما معنى «Param olsaydı»؟",
+      "options": [
+        "لدي مال الآن",
+        "سأحصل على المال",
+        "لأن لدي مالاً",
+        "لو كان لدي مال"
+      ],
+      "answerIndex": 3,
+      "explanation": "Param olsaydı تعني لو كان لدي مال."
+    },
+    {
+      "id": "b1-u2-05-q2",
+      "prompt": "ما ترجمة الجملة: «Param olsaydı seyahat ederdim.»؟",
+      "options": [
+        "لو كان لدي مال لسافرت.",
+        "سأسافر لأن لدي مالاً.",
+        "أسافر كل أسبوع.",
+        "سافرت عندما حصلت على المال."
+      ],
+      "answerIndex": 0,
+      "explanation": "Param olsaydı seyahat ederdim. تعني لو كان لدي مال لسافرت.."
+    },
+    {
+      "id": "b1-u2-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "olmalı",
+        "olsaydı",
+        "olursa",
+        "oldu"
+      ],
+      "answerIndex": 1,
+      "explanation": "شرط افتراضي في الماضي بمعنى «لو كان»."
+    },
+    {
+      "id": "b1-u2-05-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «olsaydı»؟",
+      "options": [
+        "ماضٍ محدد",
+        "ضرورة",
+        "شرط افتراضي ماضٍ",
+        "شرط محتمل مستقبلاً"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير عن شرط غير متحقق ونتيجته المتخيلة."
+    },
+    {
+      "id": "b1-u2-05-q5",
+      "prompt": "أكمل التركيب: Param olsaydı seyahat ederdim.",
+      "options": [
+        "olsaydı",
+        "olursa",
+        "oldu",
+        "olmalı"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي olsaydı؛ شرط افتراضي في الماضي بمعنى «لو كان»."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u2",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 135
   }
 }

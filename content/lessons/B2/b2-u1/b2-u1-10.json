@@ -9,22 +9,114 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التراكيب النحوية المتقدمة",
-    "titleTr": "İleri Dilbilgisi Yapıları",
-    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "دمج الجمل الموصولة والمبني للمجهول والتسبب والنقل والشرط.",
+  "rule": "راجع الفرق بين -DIK و-AcAK الموصولة، والمبني للمجهول، والتسبب، والكلام المنقول، والشرط والتنازل. اختر الصيغة بحسب دور الفاعل والزمن والعلاقة المنطقية.",
+  "vocabulary": [
+    {
+      "term": "edilgen çatı",
+      "meaningAr": "المبني للمجهول",
+      "exampleTr": "Hazırlanan raporun yarın sunulacağını söyledi.",
+      "exampleAr": "قال إن التقرير الذي يتم إعداده سيُعرض غداً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "أمر مباشر",
+      "ar": ""
+    },
+    {
+      "tr": "Onaylanan proje uygulanmaya başladı.",
+      "ar": "بدأ تنفيذ المشروع الذي تمت الموافقة عليه."
+    },
+    {
+      "tr": "Müdür, belgelerin incelendiğini söyledi.",
+      "ar": "قال المدير إن الوثائق قد فُحصت."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Proje ne zaman başlayacak?",
+      "ar": "متى سيبدأ المشروع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Onaylanan planın gelecek hafta uygulanacağı açıklandı.",
+      "ar": "أُعلن أن الخطة التي تمت الموافقة عليها ستُنفذ الأسبوع القادم."
+    }
+  ],
+  "speakingTask": "اكتب فقرة تجمع المبني للمجهول والشرط والكلام غير المباشر.",
+  "questions": [
+    {
+      "id": "b2-u1-10-q1",
+      "prompt": "ما معنى «edilgen çatı»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "المبني للمجهول",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "edilgen çatı تعني المبني للمجهول."
+    },
+    {
+      "id": "b2-u1-10-q2",
+      "prompt": "ما ترجمة الجملة: «Hazırlanan raporun yarın sunulacağını söyledi.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "قال إن التقرير الذي يتم إعداده سيُعرض غداً."
+      ],
+      "answerIndex": 3,
+      "explanation": "Hazırlanan raporun yarın sunulacağını söyledi. تعني قال إن التقرير الذي يتم إعداده سيُعرض غداً.."
+    },
+    {
+      "id": "b2-u1-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "relative + passive + indirect speech",
+        "relative + passive",
+        "causative + passive",
+        "direct speech"
+      ],
+      "answerIndex": 0,
+      "explanation": "دمج الجملة الموصولة والمبني للمجهول والنقل."
+    },
+    {
+      "id": "b2-u1-10-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «relative + passive + indirect speech»؟",
+      "options": [
+        "النفي المطلق",
+        "إنتاج جملة مركبة دقيقة متعددة العلاقات.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إنتاج جملة مركبة دقيقة متعددة العلاقات."
+    },
+    {
+      "id": "b2-u1-10-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إنتاج جملة مركبة دقيقة متعددة العلاقات."
+      ],
+      "answerIndex": 3,
+      "explanation": "إنتاج جملة مركبة دقيقة متعددة العلاقات."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b2_course_data.dart",
     "legacyUnitId": "b2-u1",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 190
   }
 }

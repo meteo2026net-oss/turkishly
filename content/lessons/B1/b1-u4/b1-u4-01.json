@@ -9,22 +9,110 @@
     "tr": ""
   },
   "unit": {
-    "titleAr": "التعبير عن الرأي والتفضيل والتفاعل",
-    "titleTr": "Görüş, Tercih ve Etkileşim",
-    "description": "إبداء الرأي والموافقة والاعتراض والتفضيل والندم والسبب والغاية والتغيير."
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
-  "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "contentStatus": "full",
+  "goal": "عرض رأيك وتوضيح موقفك مع أسباب وأمثلة.",
+  "rule": "لإبداء الرأي استخدم bence (برأيي)، bana göre (من وجهة نظري)، kanımca (في اعتقادي). يليها غالباً جملة تامة، ويمكن دعم الرأي بـ çünkü أو bu nedenle.",
+  "vocabulary": [
+    {
+      "term": "bana göre",
+      "meaningAr": "من وجهة نظري",
+      "exampleTr": "Bana göre toplu taşıma daha kullanışlı.",
+      "exampleAr": "من وجهة نظري، النقل العام أكثر فائدة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bence bu film çok etkileyici.",
+      "ar": "برأيي هذا الفيلم مؤثر جداً."
+    },
+    {
+      "tr": "Bana göre erken başlamak daha iyi.",
+      "ar": "من وجهة نظري البدء مبكراً أفضل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsun?",
+      "ar": "ما رأيك في هذا الموضوع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bana göre iyi bir fikir, çünkü zaman kazandırıyor.",
+      "ar": "من وجهة نظري إنها فكرة جيدة لأنها توفر الوقت."
+    }
+  ],
+  "speakingTask": "قدّم رأيك في التعلم عبر الإنترنت مع سببين ومثال.",
+  "questions": [
+    {
+      "id": "b1-u4-01-q1",
+      "prompt": "ما معنى «bana göre»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "من وجهة نظري"
+      ],
+      "answerIndex": 3,
+      "explanation": "bana göre تعني من وجهة نظري."
+    },
+    {
+      "id": "b1-u4-01-q2",
+      "prompt": "ما ترجمة الجملة: «Bana göre toplu taşıma daha kullanışlı.»؟",
+      "options": [
+        "من وجهة نظري، النقل العام أكثر فائدة.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bana göre toplu taşıma daha kullanışlı. تعني من وجهة نظري، النقل العام أكثر فائدة.."
+    },
+    {
+      "id": "b1-u4-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "bence / bana göre",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "تعبيران لتقديم الرأي الشخصي."
+    },
+    {
+      "id": "b1-u4-01-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «bence / bana göre»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تحديد أن العبارة التالية رأي المتحدث.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحديد أن العبارة التالية رأي المتحدث."
+    },
+    {
+      "id": "b1-u4-01-q5",
+      "prompt": "أكمل التركيب: Bana göre toplu taşıma daha kullanışlı.",
+      "options": [
+        "bence / bana göre",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي bence / bana göre؛ تعبيران لتقديم الرأي الشخصي."
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/b1_course_data.dart",
     "legacyUnitId": "b1-u4",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 151
   }
 }

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-02",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 2,
+  "title": {
+    "ar": "الاستعارة واللغة المجازية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "mecaz",
+  "rule": "Mecazlı ifadeler metne farklı çağrışımlar kazandırır.",
+  "vocabulary": [
+    {
+      "term": "مجاز",
+      "meaningAr": "benzetme",
+      "exampleTr": "Mecazlı ifadeler metne farklı çağrışımlar kazandırır.",
+      "exampleAr": "تمنح التعبيرات المجازية النص إيحاءات مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "çağrışım",
+      "ar": ""
+    },
+    {
+      "tr": "Mecazlı ifadeler metne farklı çağrışımlar kazandırır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "إيحاء",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تفسير الدلالة",
+  "questions": [
+    {
+      "id": "b2-u12-02-q1",
+      "prompt": "ما معنى «مجاز»؟",
+      "options": [
+        "تشبيه",
+        "تعليمات",
+        "تاريخ",
+        "تعبير غير ملائم"
+      ],
+      "answerIndex": 0,
+      "explanation": "مجاز تعني benzetme."
+    },
+    {
+      "id": "b2-u12-02-q2",
+      "prompt": "ما ترجمة الجملة: «Mecazlı ifadeler metne farklı çağrışımlar kazandırır.»؟",
+      "options": [
+        "لا تناسب هذه الجملة السياق.",
+        "Mecazlı ifadeler metne farklı çağrışımlar kazandırır.|تمنح التعبيرات المجازية النص إيحاءات مختلفة.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد."
+      ],
+      "answerIndex": 1,
+      "explanation": "Mecazlı ifadeler metne farklı çağrışımlar kazandırır. تعني تمنح التعبيرات المجازية النص إيحاءات مختلفة.."
+    },
+    {
+      "id": "b2-u12-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "mecazlı anlatım",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "تعبير مجازي."
+    },
+    {
+      "id": "b2-u12-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «mecazlı anlatım»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "فهم المعنى غير الحرفي"
+      ],
+      "answerIndex": 3,
+      "explanation": "فهم المعنى غير الحرفي"
+    },
+    {
+      "id": "b2-u12-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "فهم المعنى غير الحرفي",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "فهم المعنى غير الحرفي"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 292
+  }
+}
