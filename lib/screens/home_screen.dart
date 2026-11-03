@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../data/course_catalog.dart';
 import '../models/course_unit.dart';
 import '../services/learning_progress.dart';
+import '../services/lesson_content_repository.dart';
 import '../theme/app_theme.dart';
 import '../widgets/brand_mark.dart';
 import 'json_lesson_screen.dart';
@@ -23,17 +24,24 @@ class _HomeScreenState extends State<HomeScreen> {
   int tab = 0;
   String query = '';
   Set<String> completedLessonIds = <String>{};
+  List<CourseUnit> units = CourseCatalog.units;
   int learnedWordCount = 0;
   int bestQuiz = 0;
   int latestQuiz = 0;
   int quizAttempts = 0;
   Map<String, int> levelBestScores = <String, int>{};
-  List<CourseUnit> get units => CourseCatalog.units;
 
   @override
   void initState() {
     super.initState();
+    _loadCatalog();
     _loadProgress();
+  }
+
+  Future<void> _loadCatalog() async {
+    final loadedUnits = await LessonContentRepository.loadUnits();
+    if (!mounted) return;
+    setState(() => units = loadedUnits);
   }
 
   Future<void> _loadProgress() async {

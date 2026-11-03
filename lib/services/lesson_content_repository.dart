@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
+import '../models/course_unit.dart';
+
 class LessonQuestionRecord {
   const LessonQuestionRecord({
     required this.id,
@@ -144,6 +146,31 @@ class LessonContentRepository {
   static Future<Map<String, dynamic>> _readCatalog() async {
     final source = await rootBundle.loadString(_catalogAsset);
     return Map<String, dynamic>.from(jsonDecode(source) as Map);
+  }
+
+
+  static Future<List<CourseUnit>> loadUnits() async {
+    final catalog = await loadCatalog();
+    final units = catalog['units'] as List<dynamic>? ?? const [];
+    return units.whereType<Map>().map((rawUnit) {
+      final unit = Map<String, dynamic>.from(rawUnit);
+      final title = Map<String, dynamic>.from(unit['title'] as Map? ?? const {});
+      final lessons = (unit['lessons'] as List<dynamic>? ?? const [])
+          .whereType<Map>()
+          .map((rawLesson) {
+            final lesson = Map<String, dynamic>.from(rawLesson);
+            return lesson['titleAr']?.toString() ?? '';
+          })
+          .toList(growable: false);
+      return CourseUnit(
+        id: unit['id']?.toString() ?? '',
+        level: unit['level']?.toString() ?? '',
+        titleArabic: title['ar']?.toString() ?? '',
+        titleTurkish: title['tr']?.toString() ?? '',
+        description: unit['description']?.toString() ?? '',
+        lessons: lessons,
+      );
+    }).toList(growable: false);
   }
 
   static Future<LessonRecord> loadLesson(String unitId, int lessonOrder) async {

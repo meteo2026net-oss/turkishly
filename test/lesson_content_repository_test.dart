@@ -8,6 +8,8 @@ void main() {
   test('every catalog lesson loads from its own JSON file', () async {
     final catalog = await LessonContentRepository.loadCatalog();
     final units = catalog['units'] as List<dynamic>;
+    final displayedUnits = await LessonContentRepository.loadUnits();
+    expect(displayedUnits.length, units.length);
     var loaded = 0;
 
     for (final rawUnit in units) {
