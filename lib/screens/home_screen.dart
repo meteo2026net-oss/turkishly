@@ -92,9 +92,9 @@ class _HomeScreenState extends State<HomeScreen> {
       const BrandMark(size: 45),
       const SizedBox(width: 11),
       const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text('ساره تركيي', style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900, color: AppColors.darkGreen)),
+        Text('تعلم مع الانسة ساره', style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900, color: AppColors.darkGreen)),
         SizedBox(height: 2),
-        Text('SARA TURKII  •  تعلم التركية', textDirection: TextDirection.ltr,
+        Text('SARA HOCAM  •  TÜRKÇE ÖĞREN', textDirection: TextDirection.ltr,
           style: TextStyle(fontSize: 9, letterSpacing: 1, color: AppColors.muted, fontWeight: FontWeight.w800)),
       ])),
       _circleButton(Icons.notifications_none_rounded, () {}),
