@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
 abstract final class AppColors {
-  static const background = Color(0xFFF7F8FC);
-  static const green = Color(0xFF1766B1);
-  static const darkGreen = Color(0xFF102B52);
-  static const softGreen = Color(0xFFE8F0FB);
-  static const muted = Color(0xFF78869A);
+  static const background = Color(0xFFFFF7F5);
+  static const green = Color(0xFFC24D78);
+  static const darkGreen = Color(0xFF54283D);
+  static const softGreen = Color(0xFFFCE8EF);
+  static const muted = Color(0xFF927985);
   static const white = Colors.white;
-  static const border = Color(0xFFE4EAF2);
-  static const navy = Color(0xFF082B63);
-  static const gold = Color(0xFFE7B64B);
-  static const red = Color(0xFFE33445);
+  static const border = Color(0xFFF1DDE4);
+  static const navy = Color(0xFFA83F6A);
+  static const gold = Color(0xFFE8A64A);
+  static const red = Color(0xFFD95C70);
 }
 
 abstract final class AppTheme {
   static ThemeData get light {
     final scheme = ColorScheme.fromSeed(
-      seedColor: AppColors.navy,
+      seedColor: const Color(0xFFC24D78),
       brightness: Brightness.light,
       surface: AppColors.white,
     );
