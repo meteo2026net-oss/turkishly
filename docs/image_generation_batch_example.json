@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "batchId": "img-batch-demo-fruits-001",
+  "locale": "tr",
+  "items": [
+    {
+      "vocabularyId": "TR-A1-FRUIT-0001",
+      "turkish": "elma",
+      "translations": {"ar": "تفاحة", "en": "apple", "de": "Apfel"},
+      "category": "food",
+      "subcategory": "fruits",
+      "senseId": "fruit-apple",
+      "promptVersion": 1,
+      "status": "queued",
+      "assetPath": null
+    },
+    {
+      "vocabularyId": "TR-A1-FRUIT-0002",
+      "turkish": "muz",
+      "translations": {"ar": "موز", "en": "banana", "de": "Banane"},
+      "category": "food",
+      "subcategory": "fruits",
+      "senseId": "fruit-banana",
+      "promptVersion": 1,
+      "status": "queued",
+      "assetPath": null
+    }
+  ]
+}
