@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import '../data/course_catalog.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
+import 'missed_questions_screen.dart';
 
 class LearnerProgressDashboard extends StatefulWidget {
   const LearnerProgressDashboard({super.key});
@@ -22,6 +23,8 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
   int _streak = 0;
   List<Map<String, dynamic>> _quizHistory = <Map<String, dynamic>>[];
   List<Map<String, dynamic>> _levelHistory = <Map<String, dynamic>>[];
+  List<Map<String, dynamic>> _conversationHistory = <Map<String, dynamic>>[];
+  List<Map<String, dynamic>> _recommendedTopics = <Map<String, dynamic>>[];
   Map<String, int> _levelBest = <String, int>{};
   String _timelineFilter = 'الكل';
 
@@ -42,6 +45,8 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       LearningProgress.levelAssessmentHistory(limit: 100),
       ...CourseCatalog.levels.map(LearningProgress.levelAssessmentBest),
       LearningProgress.currentLearningStreak(),
+      LearningProgress.conversationHistory(limit: 100),
+      LearningProgress.missedQuestionTopicSummary(limit: 3),
     ]);
     if (!mounted) return;
     setState(() {
@@ -57,6 +62,8 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
           CourseCatalog.levels[i]: values[7 + i] as int,
       };
       _streak = values[7 + CourseCatalog.levels.length] as int;
+      _conversationHistory = values[8 + CourseCatalog.levels.length] as List<Map<String, dynamic>>;
+      _recommendedTopics = values[9 + CourseCatalog.levels.length] as List<Map<String, dynamic>>;
       _loading = false;
     });
   }
@@ -92,6 +99,51 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('تعذرت استعادة النسخة. تحقق من محتواها ثم حاول مجدداً.')));
     }
   }
+  Widget _recommendedReviewCard() => Container(
+    padding: const EdgeInsets.all(15),
+    decoration: BoxDecoration(
+      color: const Color(0xFFEAF2FF),
+      borderRadius: BorderRadius.circular(18),
+      border: Border.all(color: const Color(0xFFD5E3F5)),
+    ),
+    child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+      Row(children: [
+        const Icon(Icons.track_changes_rounded, color: AppColors.navy, size: 21),
+        const SizedBox(width: 8),
+        const Expanded(child: Text('مراجعة مقترحة حسب أخطائك',
+          textAlign: TextAlign.right,
+          style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13))),
+      ]),
+      const SizedBox(height: 5),
+      const Text('هذه الموضوعات تكررت في سجل إجاباتك الخاطئة؛ ابدأ بالأكثر تكراراً.',
+        textAlign: TextAlign.right,
+        style: TextStyle(color: AppColors.muted, fontSize: 10, height: 1.5)),
+      const SizedBox(height: 9),
+      ..._recommendedTopics.map((item) => Padding(
+        padding: const EdgeInsets.only(bottom: 6),
+        child: Row(children: [
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5),
+            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(9)),
+            child: Text('${item['count']} خطأ محفوظ',
+              style: const TextStyle(color: AppColors.navy, fontSize: 9, fontWeight: FontWeight.w800)),
+          ),
+          const Spacer(),
+          Flexible(child: Text(item['topic']?.toString() ?? 'مراجعة عامة',
+            textAlign: TextAlign.right,
+            style: const TextStyle(color: AppColors.darkGreen, fontSize: 11, fontWeight: FontWeight.w800))),
+        ]),
+      )),
+      Align(alignment: Alignment.centerLeft, child: TextButton.icon(
+        onPressed: () => Navigator.of(context).push(MaterialPageRoute<void>(
+          builder: (_) => const MissedQuestionsScreen(),
+        )),
+        icon: const Icon(Icons.menu_book_rounded, size: 17),
+        label: const Text('ابدأ مراجعة الأخطاء'),
+      )),
+    ]),
+  );
+
   int _completedForLevel(String level) => CourseCatalog.units
       .where((unit) => unit.level == level)
       .fold<int>(0, (sum, unit) => sum + unit.lessons.asMap().entries
@@ -141,6 +193,37 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                 ]),
               ),
               const SizedBox(height: 20),
+              Container(
+                padding: const EdgeInsets.all(14),
+                decoration: _surface(),
+                child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                  const Text('حماية تقدمك الدراسي', textAlign: TextAlign.right,
+                    style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
+                  const SizedBox(height: 5),
+                  const Text('صدّر نسخة احتياطية أو استعد تقدماً سابقاً على هذا الجهاز.',
+                    textAlign: TextAlign.right, style: TextStyle(color: AppColors.muted, fontSize: 10)),
+                  const SizedBox(height: 11),
+                  Row(children: [
+                    Expanded(child: OutlinedButton.icon(
+                      onPressed: _exportBackup,
+                      icon: const Icon(Icons.copy_rounded, size: 17),
+                      label: const Text('نسخ احتياطي'),
+                    )),
+                    const SizedBox(width: 8),
+                    Expanded(child: FilledButton.icon(
+                      onPressed: _restoreBackup,
+                      icon: const Icon(Icons.restore_rounded, size: 17),
+                      label: const Text('استعادة'),
+                      style: FilledButton.styleFrom(backgroundColor: AppColors.navy),
+                    )),
+                  ]),
+                ]),
+              ),
+              if (_recommendedTopics.isNotEmpty) ...[
+                const SizedBox(height: 14),
+                _recommendedReviewCard(),
+              ],
+              const SizedBox(height: 16),
               _heading('شارات الإنجاز', 'تُفتح تلقائياً عند تحقيق شروط التعلم المحددة'),
               const SizedBox(height: 10),
               Wrap(
@@ -235,14 +318,26 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
                   item['completedAt']?.toString(),
                 )),
               ],
-              if (_quizHistory.isNotEmpty || _levelHistory.isNotEmpty) ...[
+              if (_conversationHistory.isNotEmpty) ...[
+                const SizedBox(height: 13),
+                const Text('سجل تدريبات المحادثة', textAlign: TextAlign.right,
+                  style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
+                const SizedBox(height: 8),
+                ..._conversationHistory.take(8).map((item) => _historyTile(
+                  'محادثة ${item['title'] ?? 'يومية'} · ${item['level'] ?? '—'}',
+                  '${item['score'] ?? 0} من ${item['total'] ?? 0}',
+                  (item['percent'] as num?)?.toInt() ?? 0,
+                  item['completedAt']?.toString(),
+                )),
+              ],
+              if (_quizHistory.isNotEmpty || _levelHistory.isNotEmpty || _conversationHistory.isNotEmpty) ...[
                 const SizedBox(height: 18),
-                _heading('السجل الزمني للتعلم', 'آخر الاختبارات والتقييمات المسجلة على هذا الجهاز'),
+                _heading('السجل الزمني للتعلم', 'آخر الاختبارات والتقييمات والمحادثات المسجلة على هذا الجهاز'),
                 const SizedBox(height: 9),
                 Wrap(
                   alignment: WrapAlignment.end,
                   spacing: 7,
-                  children: ['الكل', 'اختبار', 'تقييم مستوى'].map((filter) => ChoiceChip(
+                  children: ['الكل', 'اختبار', 'تقييم مستوى', 'محادثة'].map((filter) => ChoiceChip(
                     label: Text(filter, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w700)),
                     selected: _timelineFilter == filter,
                     onSelected: (_) => setState(() => _timelineFilter = filter),
@@ -290,6 +385,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
   List<Map<String, dynamic>> _datedActivities() => [
     ..._quizHistory,
     ..._levelHistory,
+    ..._conversationHistory,
   ];
 
   List<Map<String, dynamic>> _activitiesSince(int days) {
@@ -353,7 +449,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
           ),
         ),
         const SizedBox(height: 4),
-        const Text('عدد الاختبارات والتقييمات المسجلة في كل يوم',
+        const Text('عدد الاختبارات والتقييمات والمحادثات المسجلة في كل يوم',
           textAlign: TextAlign.right,
           style: TextStyle(color: AppColors.muted, fontSize: 9)),
       ]),
@@ -681,9 +777,9 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
             style: TextStyle(color: AppColors.darkGreen,
               fontWeight: FontWeight.w900, fontSize: 13)),
           const SizedBox(height: 5),
-          const Text('تسلسل آخر خمس محاولات مسجلة زمنياً',
+          Text('تسلسل آخر خمس محاولات · أعلى نتيجة $maxScore% · متوسط $average%',
             textAlign: TextAlign.right,
-            style: TextStyle(color: AppColors.muted, fontSize: 9)),
+            style: const TextStyle(color: AppColors.muted, fontSize: 9)),
           const SizedBox(height: 12),
           SizedBox(
             height: 112,
@@ -861,6 +957,11 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
         'eventTitle': 'تقييم المستوى ${item['level'] ?? '—'}',
         'eventType': 'تقييم مستوى',
       }),
+      ..._conversationHistory.map((item) => <String, dynamic>{
+        ...item,
+        'eventTitle': 'محادثة ${item['title'] ?? 'يومية'}',
+        'eventType': 'محادثة',
+      }),
     ];
     if (_timelineFilter != 'الكل') {
       events.removeWhere((event) => event['eventType'] != _timelineFilter);
@@ -878,7 +979,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
     final score = (item['score'] as num?)?.toInt() ?? 0;
     final total = (item['total'] as num?)?.toInt() ?? 0;
     final percent = (item['percent'] as num?)?.toInt() ?? 0;
-    final isQuiz = item['eventType'] == 'اختبار';
+    final eventType = item['eventType']?.toString() ?? 'اختبار';
     final dateLabel = date == null
         ? 'تاريخ غير متاح'
         : '${date.year}/${date.month.toString().padLeft(2, '0')}/${date.day.toString().padLeft(2, '0')} · ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}';
@@ -895,11 +996,12 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
             Center(child: Text('$percent%',
               style: const TextStyle(color: AppColors.navy, fontSize: 34, fontWeight: FontWeight.w900))),
             const SizedBox(height: 12),
-            _detailRow('نوع النشاط', isQuiz ? 'اختبار شامل' : 'تقييم مستوى'),
+            _detailRow('نوع النشاط', eventType == 'اختبار' ? 'اختبار شامل' : eventType),
             _detailRow('النتيجة', total > 0 ? '$score من $total' : 'غير متاحة'),
             _detailRow('النسبة', '$percent%'),
             _detailRow('التاريخ والوقت', dateLabel),
             if (item['level'] != null) _detailRow('المستوى', '${item['level']}'),
+            if (item['title'] != null) _detailRow('الموقف', '${item['title']}'),
           ],
         ),
         actions: [
@@ -942,7 +1044,7 @@ class _LearnerProgressDashboardState extends State<LearnerProgressDashboard> {
             Container(
               width: 34, height: 34,
               decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(10)),
-              child: Icon(item['eventType'] == 'اختبار' ? Icons.quiz_rounded : Icons.assessment_rounded,
+              child: Icon(item['eventType'] == 'اختبار' ? Icons.quiz_rounded : item['eventType'] == 'محادثة' ? Icons.forum_rounded : Icons.assessment_rounded,
                 color: AppColors.navy, size: 18),
             ),
             const SizedBox(width: 10),
