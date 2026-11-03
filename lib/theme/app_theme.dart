@@ -8,7 +8,7 @@ abstract final class AppColors {
   static const muted = Color(0xFF71858A);
   static const white = Colors.white;
   static const border = Color(0xFFDDEBE7);
-  static const navy = Color(0xFF256B80);
+  static const navy = Color(0xFF164E63);
   static const gold = Color(0xFFF4C66A);
   static const red = Color(0xFFD97770);
 }
