@@ -103,7 +103,7 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
     final word = _currentWord;
     final learned = _learned.contains(word.id);
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       body: SafeArea(child: _loading
         ? const Center(child: CircularProgressIndicator())
         : CustomScrollView(physics: const BouncingScrollPhysics(), slivers: [
@@ -145,8 +145,8 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(28),
                     gradient: const LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft,
-                      colors: [Color(0xFF102B52), Color(0xFF2676B8)]),
-                    boxShadow: [BoxShadow(color: const Color(0xFF123D70).withValues(alpha: .18), blurRadius: 22, offset: const Offset(0, 10))],
+                      colors: [Color(0xFF164E63), Color(0xFF0F9D9A)]),
+                    boxShadow: [BoxShadow(color: const Color(0xFF164E63).withValues(alpha: .18), blurRadius: 22, offset: const Offset(0, 10))],
                   ),
                   child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                     Icon(_showMeaning ? Icons.translate_rounded : Icons.style_rounded, color: const Color(0xFFFFD98A), size: 28),
@@ -241,7 +241,7 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
       const SizedBox(height: 12),
       ClipRRect(borderRadius: BorderRadius.circular(20), child: LinearProgressIndicator(
         value: _learned.length / _words.length, minHeight: 9,
-        backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
+        backgroundColor: const Color(0xFFE2F5F2), color: const Color(0xFF0F9D9A))),
     ]),
   );
 }
