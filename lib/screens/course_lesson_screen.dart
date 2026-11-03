@@ -333,15 +333,15 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
   Widget build(BuildContext context) {
     final lesson = LessonContent.find(widget.unitId, widget.lessonNumber - 1);
     if (lesson == null) {
-      return Scaffold(backgroundColor: const Color(0xFFF5F7FC),
+      return Scaffold(backgroundColor: const Color(0xFFFFFAF3),
         appBar: AppBar(title: Text('الدرس ${widget.lessonNumber}')),
         body: const Center(child: Text('محتوى هذا الدرس غير متاح حالياً.')));
     }
     final correct = checked && selected == lesson.answer;
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       appBar: AppBar(
-        backgroundColor: const Color(0xFFF5F7FC),
+        backgroundColor: const Color(0xFFFFFAF3),
         title: const Text('مساحة التعلّم', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
         centerTitle: true,
         actions: [IconButton(onPressed: () => Navigator.maybePop(context), icon: const Icon(Icons.close_rounded))],
@@ -362,7 +362,7 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
           _quizCard(lesson, correct),
           const SizedBox(height: 18),
           Container(padding: const EdgeInsets.all(15),
-            decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(19)),
+            decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(19)),
             child: const Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Icon(Icons.tips_and_updates_outlined, color: AppColors.navy, size: 21), SizedBox(width: 10),
               Expanded(child: Text('نصيحة: اقرأ الأمثلة التركية بصوت مسموع، ثم حاول تكوين جملة جديدة بنفس النمط.',
@@ -387,8 +387,8 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
     padding: const EdgeInsets.all(20),
     decoration: BoxDecoration(borderRadius: BorderRadius.circular(27),
       gradient: const LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft,
-        colors: [Color(0xFF102B52), Color(0xFF174E91), Color(0xFF2676B8)]),
-      boxShadow: [BoxShadow(color: const Color(0xFF123D70).withValues(alpha: .17), blurRadius: 20, offset: const Offset(0, 9))]),
+        colors: [Color(0xFF164E63), Color(0xFF164E63), Color(0xFF0F9D9A)]),
+      boxShadow: [BoxShadow(color: const Color(0xFF164E63).withValues(alpha: .17), blurRadius: 20, offset: const Offset(0, 9))]),
     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       Row(children: [
         Container(padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
@@ -410,7 +410,7 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
   Widget _sectionHeader(IconData icon, String title, String subtitle) => Padding(
     padding: const EdgeInsets.only(bottom: 10),
     child: Row(children: [
-      Container(width: 37, height: 37, decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(12)),
+      Container(width: 37, height: 37, decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(12)),
         child: Icon(icon, color: AppColors.navy, size: 20)),
       const SizedBox(width: 10),
       Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -431,7 +431,7 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
     decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(18), border: Border.all(color: AppColors.border)),
     child: Row(children: [
       Container(width: 30, height: 30, alignment: Alignment.center,
-        decoration: const BoxDecoration(color: Color(0xFFEAF2FF), shape: BoxShape.circle),
+        decoration: const BoxDecoration(color: Color(0xFFE2F5F2), shape: BoxShape.circle),
         child: Text('${index + 1}', style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900, fontSize: 11))),
       const SizedBox(width: 11),
       Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -459,7 +459,7 @@ class _CourseLessonScreenState extends State<CourseLessonScreen> {
         final isAnswer = index == lesson.answer;
         final showAnswer = checked && isAnswer;
         final showWrong = checked && isSelected && !isAnswer;
-        final bg = showAnswer ? const Color(0xFFE8F7EF) : showWrong ? const Color(0xFFFFEEEE) : isSelected ? const Color(0xFFEAF2FF) : const Color(0xFFF8FAFD);
+        final bg = showAnswer ? const Color(0xFFE8F7EF) : showWrong ? const Color(0xFFFFEEEE) : isSelected ? const Color(0xFFE2F5F2) : const Color(0xFFF8FAFD);
         final border = showAnswer ? const Color(0xFF49A879) : showWrong ? const Color(0xFFE57373) : isSelected ? AppColors.navy : AppColors.border;
         return Padding(padding: const EdgeInsets.only(bottom: 8), child: InkWell(
           borderRadius: BorderRadius.circular(15), onTap: checked ? null : () => setState(() => selected = index),
