@@ -9,7 +9,7 @@
     "C1",
     "C2"
   ],
-  "declaredLessonCount": 1272,
+  "declaredLessonCount": 1332,
   "units": [
     {
       "id": "a1-u1",
@@ -2679,6 +2679,432 @@
           "id": "b2-u6-10",
           "order": 10,
           "titleAr": "الاختبار الختامي الشامل للمستوى B2",
+          "contentStatus": "full"
+        }
+      ]
+    },
+    {
+      "id": "b2-u7",
+      "level": "B2",
+      "title": {
+        "ar": "الابتكار وريادة الأعمال",
+        "tr": "İnovasyon ve Girişimcilik"
+      },
+      "description": "تطوير فكرة مشروع وتحليل السوق والتفاوض والتسويق والميزانية.",
+      "lessons": [
+        {
+          "id": "b2-u7-01",
+          "order": 1,
+          "titleAr": "الابتكار وريادة الأعمال",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-02",
+          "order": 2,
+          "titleAr": "نموذج العمل والقيمة المقدمة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-03",
+          "order": 3,
+          "titleAr": "تحليل السوق والمنافسة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-04",
+          "order": 4,
+          "titleAr": "الميزانية والتكاليف والإيرادات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-05",
+          "order": 5,
+          "titleAr": "التسويق وبناء العلامة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-06",
+          "order": 6,
+          "titleAr": "خدمة العملاء وقياس الرضا",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-07",
+          "order": 7,
+          "titleAr": "التفاوض التجاري",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-08",
+          "order": 8,
+          "titleAr": "إدارة التغيير المؤسسي",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-09",
+          "order": 9,
+          "titleAr": "تحليل البيانات لاتخاذ القرار",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u7-10",
+          "order": 10,
+          "titleAr": "مراجعة ريادة الأعمال والاقتصاد",
+          "contentStatus": "full"
+        }
+      ]
+    },
+    {
+      "id": "b2-u8",
+      "level": "B2",
+      "title": {
+        "ar": "القانون والحقوق والمؤسسات",
+        "tr": "Hukuk, Haklar ve Kurumlar"
+      },
+      "description": "الحقوق والإجراءات الرسمية والخصوصية والعقود وتسوية الخلافات.",
+      "lessons": [
+        {
+          "id": "b2-u8-01",
+          "order": 1,
+          "titleAr": "القانون والحقوق والمسؤوليات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-02",
+          "order": 2,
+          "titleAr": "القواعد والإجراءات الرسمية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-03",
+          "order": 3,
+          "titleAr": "الخصوصية وحماية المعلومات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-04",
+          "order": 4,
+          "titleAr": "المؤسسات والخدمات العامة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-05",
+          "order": 5,
+          "titleAr": "التعبير عن الشكاوى الرسمية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-06",
+          "order": 6,
+          "titleAr": "العقود والاتفاقات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-07",
+          "order": 7,
+          "titleAr": "الوساطة وتسوية الخلافات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-08",
+          "order": 8,
+          "titleAr": "الاستدلال وتفسير الأدلة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-09",
+          "order": 9,
+          "titleAr": "اللغة الرسمية والمراسلات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u8-10",
+          "order": 10,
+          "titleAr": "مراجعة القانون والحقوق والمؤسسات",
+          "contentStatus": "full"
+        }
+      ]
+    },
+    {
+      "id": "b2-u9",
+      "level": "B2",
+      "title": {
+        "ar": "العلم والبحث والتفكير النقدي",
+        "tr": "Bilim, Araştırma ve Eleştirel Düşünme"
+      },
+      "description": "الفرضيات والبيانات والاستدلال والتحفظ العلمي والكتابة الأكاديمية.",
+      "lessons": [
+        {
+          "id": "b2-u9-01",
+          "order": 1,
+          "titleAr": "العلم والبحث والتجربة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-02",
+          "order": 2,
+          "titleAr": "الاحتمال والارتباط والسببية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-03",
+          "order": 3,
+          "titleAr": "عرض النتائج العلمية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-04",
+          "order": 4,
+          "titleAr": "التفكير النقدي والتحيز",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-05",
+          "order": 5,
+          "titleAr": "الاستنتاج والتحفظ العلمي",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-06",
+          "order": 6,
+          "titleAr": "التلخيص وإعادة الصياغة الأكاديمية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-07",
+          "order": 7,
+          "titleAr": "مناقشة النتائج والاعتراضات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-08",
+          "order": 8,
+          "titleAr": "الكتابة العلمية المنظمة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-09",
+          "order": 9,
+          "titleAr": "مراجعة اللغة الأكاديمية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u9-10",
+          "order": 10,
+          "titleAr": "اختبار البحث والتفكير النقدي",
+          "contentStatus": "full"
+        }
+      ]
+    },
+    {
+      "id": "b2-u10",
+      "level": "B2",
+      "title": {
+        "ar": "التواصل والقيادة المتقدمة",
+        "tr": "Geçmiş İletişim ve Liderlik"
+      },
+      "description": "التواصل بين الثقافات والذكاء العاطفي والقيادة والاجتماعات وإدارة الأزمات والعمل الرقمي.",
+      "lessons": [
+        {
+          "id": "b2-u10-01",
+          "order": 1,
+          "titleAr": "التواصل بين الثقافات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-02",
+          "order": 2,
+          "titleAr": "الذكاء العاطفي والتعاطف",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-03",
+          "order": 3,
+          "titleAr": "القيادة والتأثير",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-04",
+          "order": 4,
+          "titleAr": "إدارة الاجتماعات المتقدمة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-05",
+          "order": 5,
+          "titleAr": "العروض والإقناع",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-06",
+          "order": 6,
+          "titleAr": "التواصل في الأزمات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-07",
+          "order": 7,
+          "titleAr": "العمل عن بعد والتعاون الرقمي",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-08",
+          "order": 8,
+          "titleAr": "التنوع والشمول في بيئة العمل",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-09",
+          "order": 9,
+          "titleAr": "حل المشكلات المعقدة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u10-10",
+          "order": 10,
+          "titleAr": "مراجعة مهارات التواصل والقيادة",
+          "contentStatus": "full"
+        }
+      ]
+    },
+    {
+      "id": "b2-u11",
+      "level": "B2",
+      "title": {
+        "ar": "القضايا العالمية والاقتصاد والتقنية",
+        "tr": "Küresel Konular, Ekonomi ve Teknoloji"
+      },
+      "description": "المناخ والطاقة والتجارة والعمل والابتكار والأخلاق والمدن الذكية.",
+      "lessons": [
+        {
+          "id": "b2-u11-01",
+          "order": 1,
+          "titleAr": "التغير المناخي والسياسات العامة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-02",
+          "order": 2,
+          "titleAr": "الطاقة والموارد",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-03",
+          "order": 3,
+          "titleAr": "الاقتصاد العالمي والتجارة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-04",
+          "order": 4,
+          "titleAr": "العمل والبطالة والمهارات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-05",
+          "order": 5,
+          "titleAr": "الابتكار العلمي والتقني",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-06",
+          "order": 6,
+          "titleAr": "الأخلاق والمسؤولية التقنية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-07",
+          "order": 7,
+          "titleAr": "المدن الذكية والخدمات",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-08",
+          "order": 8,
+          "titleAr": "السياحة والاقتصاد المحلي",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-09",
+          "order": 9,
+          "titleAr": "الزراعة والغذاء والاستدامة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u11-10",
+          "order": 10,
+          "titleAr": "مراجعة القضايا العالمية",
+          "contentStatus": "full"
+        }
+      ]
+    },
+    {
+      "id": "b2-u12",
+      "level": "B2",
+      "title": {
+        "ar": "الأدب والفنون واللغة المتقدمة",
+        "tr": "Edebiyat, Sanat ve İleri Dil"
+      },
+      "description": "السرد والمجاز والنقد الأدبي والفنون والخطاب والتحرير والتعبيرات الاصطلاحية.",
+      "lessons": [
+        {
+          "id": "b2-u12-01",
+          "order": 1,
+          "titleAr": "الأدب والسرد المتقدم",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-02",
+          "order": 2,
+          "titleAr": "الاستعارة واللغة المجازية",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-03",
+          "order": 3,
+          "titleAr": "النقد الأدبي وتقييم النص",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-04",
+          "order": 4,
+          "titleAr": "التراث والفنون",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-05",
+          "order": 5,
+          "titleAr": "الخطاب والحجاج البلاغي",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-06",
+          "order": 6,
+          "titleAr": "المراجعة والتحرير المتقدم",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-07",
+          "order": 7,
+          "titleAr": "اللغة الاصطلاحية والتلازمات المتقدمة",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-08",
+          "order": 8,
+          "titleAr": "التنوع الأسلوبي والسجل اللغوي",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-09",
+          "order": 9,
+          "titleAr": "المراجعة الشاملة لمهارات B2",
+          "contentStatus": "full"
+        },
+        {
+          "id": "b2-u12-10",
+          "order": 10,
+          "titleAr": "المشروع الختامي للمستوى B2",
           "contentStatus": "full"
         }
       ]
@@ -9077,11 +9503,10 @@
   "migration": {
     "strategy": "additive",
     "legacyDataRetained": true,
-    "fullLessonBodiesExported": 1272,
+    "fullLessonBodiesExported": 1332,
     "metadataOnlyLessonFiles": 0,
     "remaining": "Fill teaching content and assessments from their legacy authored sources; do not treat metadata-only records as complete lessons.",
     "c2Exported": 780,
-    "note": "All 1,272 catalog entries have individual JSON records. Existing legacy Dart sources remain unchanged. Additional B2 records outside the 60 B2 lessons in the canonical catalog remain unlinked exports and are not counted.",
-    "unlinkedB2LegacyDefinitions": 60
+    "note": "All 1,332 lessons across 136 canonical units have their own full JSON records. All original Dart sources remain retained."
   }
 }
