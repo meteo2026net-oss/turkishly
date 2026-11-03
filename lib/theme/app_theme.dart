@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 abstract final class AppColors {
-  static const background = Color(0xFFFFF7F5);
-  static const green = Color(0xFFC24D78);
-  static const darkGreen = Color(0xFF54283D);
-  static const softGreen = Color(0xFFFCE8EF);
-  static const muted = Color(0xFF927985);
+  static const background = Color(0xFFFFFAF3);
+  static const green = Color(0xFF0F9D9A);
+  static const darkGreen = Color(0xFF164E63);
+  static const softGreen = Color(0xFFE2F5F2);
+  static const muted = Color(0xFF71858A);
   static const white = Colors.white;
-  static const border = Color(0xFFF1DDE4);
-  static const navy = Color(0xFFA83F6A);
-  static const gold = Color(0xFFE8A64A);
-  static const red = Color(0xFFD95C70);
+  static const border = Color(0xFFDDEBE7);
+  static const navy = Color(0xFF256B80);
+  static const gold = Color(0xFFF4C66A);
+  static const red = Color(0xFFD97770);
 }
 
 abstract final class AppTheme {
