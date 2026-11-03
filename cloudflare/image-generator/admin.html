@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Turkishly — مولّد صور المفردات</title>
+<style>
+:root{font-family:system-ui,"Segoe UI",sans-serif;color:#172b2a;background:#f3f7f6}
+*{box-sizing:border-box}body{margin:0;padding:24px}.wrap{max-width:900px;margin:auto}
+header,.panel{background:white;border:1px solid #dce7e4;border-radius:18px;padding:22px;margin-bottom:16px}
+h1{margin:0 0 8px;font-size:25px}p{color:#5d716e;line-height:1.7;margin:6px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+label{display:block;font-weight:700;margin-bottom:6px}
+input,select{width:100%;padding:12px;border:1px solid #cbd9d5;border-radius:10px;font:inherit;background:#fff}
+.field{margin:12px 0}
+button{border:0;border-radius:10px;padding:13px 18px;background:#126b57;color:#fff;font:inherit;font-weight:800;cursor:pointer}
+button:disabled{opacity:.55;cursor:wait}
+.small{font-size:13px}.muted{color:#6d7f7b}.status{padding:14px;border-radius:12px;background:#edf4f1;white-space:pre-wrap;overflow-wrap:anywhere}
+.words{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+.word{padding:10px;border:1px solid #e1e9e6;border-radius:10px;display:flex;justify-content:space-between}
+@media(max-width:650px){body{padding:12px}.grid,.words{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>مولّد صور المفردات — Turkishly</h1>
+  <p>لوحة إدارية تجريبية لإرسال مجموعة كلمات إلى Cloudflare Worker. كل كلمة تُرسل كمهمة مستقلة وتُحفظ صورتها في ملف منفصل.</p>
+  <p class="small muted">لا تضع رمز الإدارة في GitHub ولا تشاركه مع أي شخص. الرمز يبقى في ذاكرة الصفحة فقط ولا يُحفظ في المتصفح.</p>
+</header>
+<section class="panel">
+  <div class="grid">
+    <div class="field">
+      <label for="endpoint">رابط Worker</label>
+      <input id="endpoint" type="url" placeholder="https://your-worker.workers.dev">
+    </div>
+    <div class="field">
+      <label for="token">رمز الإدارة</label>
+      <input id="token" type="password" autocomplete="off" placeholder="Bearer token">
+    </div>
+  </div>
+  <div class="grid">
+    <div class="field">
+      <label for="count">عدد الصور في التجربة</label>
+      <select id="count">
+        <option value="1">صورة واحدة — الاختبار الأول</option>
+        <option value="3">3 صور</option>
+        <option value="5">5 صور</option>
+        <option value="10">10 صور</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="category">المجموعة</label>
+      <select id="category"><option value="fruits">الفواكه</option></select>
+    </div>
+  </div>
+  <div class="words" id="words"></div>
+  <div class="field">
+    <button id="run">بدء توليد الصور المحددة</button>
+    <button id="health" type="button" style="background:#e7efec;color:#17483d;margin-right:8px">فحص الاتصال</button>
+  </div>
+  <div id="status" class="status" role="status">جاهز. ابدأ بصورة واحدة لاختبار إعدادات الخدمة.</div>
+</section>
+<section class="panel">
+  <h2>ماذا يحدث بعد التوليد؟</h2>
+  <p>تحفظ الملفات في R2 ضمن المسار <code>images/vocabulary/fruits/</code>. تبدأ الصور بحالة «بانتظار المراجعة» ولا تُربط تلقائياً ببيانات القاموس في هذه النسخة التجريبية.</p>
+  <p class="small muted">قبل الاستخدام، يجب ضبط ADMIN_ORIGIN على عنوان هذه اللوحة، وإنشاء R2 bucket، وربط Workers AI، وإعداد ADMIN_TOKEN في Cloudflare.</p>
+</section>
+</div>
+<script>
+const items=[
+ {vocabularyId:"TR-A1-FRUIT-0001",category:"fruits",subject:"one fresh red apple",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0002",category:"fruits",subject:"one ripe yellow banana",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0003",category:"fruits",subject:"one fresh orange",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0004",category:"fruits",subject:"a small bunch of purple grapes",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0005",category:"fruits",subject:"one ripe red strawberry",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0006",category:"fruits",subject:"one green pear",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0007",category:"fruits",subject:"one ripe peach",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0008",category:"fruits",subject:"one fresh lemon",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0009",category:"fruits",subject:"one red watermelon wedge",scene:"isolated on a clean soft neutral background"},
+ {vocabularyId:"TR-A1-FRUIT-0010",category:"fruits",subject:"one ripe pineapple",scene:"isolated on a clean soft neutral background"}
+];
+const $=id=>document.getElementById(id);
+const status=(value)=>$("status").textContent=value;
+function selectedItems(){return items.slice(0,Number($("count").value))}
+function renderWords(){
+ $("words").innerHTML=selectedItems().map(x=>'<div class="word"><strong>'+x.vocabularyId.split("-").slice(-1)[0]+'</strong><span>'+x.subject+'</span></div>').join("");
+}
+$("count").addEventListener("change",renderWords);renderWords();
+function base(){return $("endpoint").value.trim().replace(/\/$/,"")}
+async function check(){
+ if(!base())throw new Error("أدخل رابط Worker أولاً.");
+ const response=await fetch(base()+"/health");
+ const data=await response.json();
+ if(!response.ok)throw new Error(data.error||"فشل فحص الاتصال");
+ return data;
+}
+$("health").addEventListener("click",async()=>{
+ try{status("جارٍ فحص الاتصال...\n"+JSON.stringify(await check(),null,2))}
+ catch(e){status("تعذر الاتصال: "+e.message)}
+});
+$("run").addEventListener("click",async()=>{
+ const endpoint=base(),token=$("token").value.trim();
+ if(!endpoint||!token){status("أدخل رابط Worker ورمز الإدارة.");return}
+ const chosen=selectedItems();
+ $("run").disabled=true;
+ status("جارٍ إرسال "+chosen.length+" مهمة مستقلة... لا تغلق الصفحة.");
+ try{
+  const response=await fetch(endpoint+"/admin/image-batches",{
+   method:"POST",
+   headers:{"content-type":"application/json","authorization":"Bearer "+token},
+   body:JSON.stringify({items:chosen})
+  });
+  const data=await response.json();
+  status("HTTP "+response.status+"\n"+JSON.stringify(data,null,2));
+ }catch(e){status("فشل الطلب: "+e.message+"\nتحقق من رابط Worker وإعداد ADMIN_ORIGIN وCORS.")}
+ finally{$("run").disabled=false}
+});
+</script>
+</body>
+</html>
