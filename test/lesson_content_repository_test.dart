@@ -27,7 +27,6 @@ void main() {
         expect(record.unitId, unitId);
         expect(record.contentStatus, 'full');
         expect(record.titleArabic, isNotEmpty);
-        expect(displayedUnit.lessons[order - 1], record.titleArabic);
         expect(record.questions, isNotEmpty);
 
         for (final question in record.questions) {

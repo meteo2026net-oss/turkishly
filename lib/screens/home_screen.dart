@@ -624,14 +624,19 @@ class _UnitDetails extends StatelessWidget {
                   )),
                 ),
                 const SizedBox(width: 10),
-                Expanded(child: Text(
-                  unit.lessons[i],
-                  style: const TextStyle(
-                    color: AppColors.darkGreen,
-                    fontWeight: FontWeight.w700,
-                    fontSize: 12,
+                Expanded(
+                  child: FutureBuilder<LessonRecord>(
+                    future: LessonContentRepository.loadLesson(unit.id, i + 1),
+                    builder: (context, snapshot) => Text(
+                      snapshot.data?.titleArabic ?? unit.lessons[i],
+                      style: const TextStyle(
+                        color: AppColors.darkGreen,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 12,
+                      ),
+                    ),
                   ),
-                )),
+                ),
                 const Icon(Icons.play_circle_outline_rounded,
                   color: AppColors.navy, size: 22),
               ]),
