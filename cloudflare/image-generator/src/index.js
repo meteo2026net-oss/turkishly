@@ -103,28 +103,28 @@ export default {
     }
 
     if (url.pathname !== "/admin/image-batches" || request.method !== "POST") {
-      return json({ error: "Not found" }, 404);
+      return json({ error: "Not found" }, 404, cors);
     }
 
-    if (!authorized(request, env)) return json({ error: "Unauthorized" }, 401);
-    if (!env.AI || !env.IMAGES) return json({ error: "AI and R2 bindings are required." }, 503);
+    if (!authorized(request, env)) return json({ error: "Unauthorized" }, 401, cors);
+    if (!env.AI || !env.IMAGES) return json({ error: "AI and R2 bindings are required." }, 503, cors);
 
     let body;
     try {
       body = await request.json();
     } catch {
-      return json({ error: "Request body must be valid JSON." }, 400);
+      return json({ error: "Request body must be valid JSON." }, 400, cors);
     }
 
     if (!body || !Array.isArray(body.items) || body.items.length < 1 || body.items.length > MAX_BATCH_SIZE) {
-      return json({ error: `items must contain between 1 and ${MAX_BATCH_SIZE} entries per request.` }, 400);
+      return json({ error: `items must contain between 1 and ${MAX_BATCH_SIZE} entries per request.` }, 400, cors);
     }
 
     const seen = new Set();
     for (const item of body.items) {
       const issue = validateItem(item);
-      if (issue) return json({ error: issue }, 400);
-      if (seen.has(item.vocabularyId)) return json({ error: "Duplicate vocabularyId in batch." }, 400);
+      if (issue) return json({ error: issue }, 400, cors);
+      if (seen.has(item.vocabularyId)) return json({ error: "Duplicate vocabularyId in batch." }, 400, cors);
       seen.add(item.vocabularyId);
     }
 
@@ -152,6 +152,6 @@ export default {
       existing: exists,
       failed,
       results
-    }, failed === results.length ? 502 : 200);
+    }, failed === results.length ? 502 : 200, cors);
   }
 };
