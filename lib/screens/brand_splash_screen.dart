@@ -26,7 +26,7 @@ class BrandSplashScreen extends StatelessWidget {
               const BrandMark(size: 118),
               const SizedBox(height: 26),
               const Text(
-                'تعلم مع ساره هوكام',
+                'تعلم مع هوجام ساره',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
