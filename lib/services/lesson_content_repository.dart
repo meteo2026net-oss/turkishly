@@ -135,8 +135,13 @@ class LessonContentRepository {
   LessonContentRepository._();
 
   static const _catalogAsset = 'content/catalog.json';
+  static Future<Map<String, dynamic>>? _catalogCache;
 
-  static Future<Map<String, dynamic>> loadCatalog() async {
+  static Future<Map<String, dynamic>> loadCatalog() {
+    return _catalogCache ??= _readCatalog();
+  }
+
+  static Future<Map<String, dynamic>> _readCatalog() async {
     final source = await rootBundle.loadString(_catalogAsset);
     return Map<String, dynamic>.from(jsonDecode(source) as Map);
   }

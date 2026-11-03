@@ -1,25 +1,25 @@
 # Turkishly JSON lesson content
 
-The JSON directory is the app's lesson-content source. The Flutter app loads the catalog and lesson records through `LessonContentRepository`; screens render the returned data and keep learning progress locally.
+The JSON directory is the canonical lesson-content source. The Flutter app reads the catalog and lesson records through `LessonContentRepository`; the home curriculum now opens the JSON-driven lesson screen.
 
 ## Layout
 
 `lessons/<LEVEL>/<unit-id>/<lesson-id>.json`
 
-- Each of the 1,272 catalog lessons has its own JSON file.
+- Every one of the 1,272 lessons in the canonical catalog has a separate JSON file.
 - Stable IDs and file paths are independent from display names. Rename a lesson by editing `title.ar` or `title.tr`; do not rename the ID for an ordinary title change.
-- Lesson files contain the teaching goal, explanation, vocabulary where available, examples, dialogue, speaking task, questions, answer indexes, explanations and media references.
+- Lesson records contain goals, explanations, vocabulary where available, examples, dialogue, speaking tasks, quiz options, answer indexes and explanations.
 - `catalog.json` controls unit ordering and maps each lesson to its JSON file.
 - `schema/lesson.schema.json` describes the record format.
 
 ## Migration status
 
-All 1,272 lessons in the canonical catalog have `contentStatus: "full"` and individual JSON records. The original Dart curriculum and legacy lesson screens are retained unchanged as a rollback/reference source. There are also 60 additional B2 lesson definitions in the legacy Dart source whose unit IDs are not present in the canonical catalog; those unlinked records have not been added to the 1,272-lesson catalog.
+All 1,272 canonical catalog lessons are marked `contentStatus: "full"`. Existing Dart curriculum files and the former lesson screens are retained unchanged as a rollback/reference source. The legacy B2 Dart data includes 60 additional lesson definitions with unit IDs absent from the canonical 60-lesson B2 catalog; those unlinked definitions are preserved in the legacy source and are not part of the canonical JSON catalog.
 
 ## Media
 
 Lesson JSON may refer to image, audio or video files by relative path or stable asset ID. Keep binary files under the media asset tree rather than embedding base64 in JSON.
 
-## Validation and safety
+## Validation
 
-Do not delete the legacy Dart files until the JSON loader and UI have passed device/web tests and the old/new lesson counts, question counts and answer indexes have been compared. Do not present a record as complete if it is marked `metadata_only`.
+The Flutter app bundles `content/catalog.json` and `content/lessons/`. A repository test loads every catalog lesson and checks record identity, completion status, question presence and answer-index bounds. Legacy Dart files remain in place; do not remove them until CI and device/web validation are successful.
