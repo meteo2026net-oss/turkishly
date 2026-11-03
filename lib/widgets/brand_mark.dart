@@ -35,7 +35,7 @@ class BrandMark extends StatelessWidget {
             top: size * 0.08,
             right: size * 0.15,
             child: Icon(Icons.local_florist_rounded,
-                size: size * 0.40, color: AppColors.red),
+                size: size * 0.40, color: AppColors.gold),
           ),
           Positioned(
             bottom: size * 0.11,
