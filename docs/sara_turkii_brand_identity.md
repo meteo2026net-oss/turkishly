@@ -1,15 +1,15 @@
-# Sara Turkii — Brand Identity
+# Sara Hocam — Brand Identity
 
 ## Official name
-- Arabic display name: ساره تركيي
-- Latin display name: SARA TURKII
-- Product category: Arabic-first Turkish learning companion aligned with the İstanbul course sequence.
+- Arabic display name: تعلم مع ساره هوكام
+- Latin display name: SARA HOCAM
+- Product category: Arabic-first Turkish language learning academy.
 
 ## Brand promise
-Learn Turkish with confidence through clear Arabic explanations, original visuals, listening, speaking, writing and practice.
+Learn Turkish step by step through clear Arabic explanations, structured lessons, vocabulary, listening, speaking, writing and practice.
 
 ## Logo concept
-A red tulip represents Türkiye and the learning journey. An open book represents education. The mark is paired with the bilingual wordmark ساره تركيي / SARA TURKII. Keep the symbol simple and legible at small app-icon sizes.
+Retain the existing open-book and tulip symbol for this rebrand. The bilingual wordmark is تعلم مع ساره هوكام / SARA HOCAM. Keep the symbol simple and legible at small app-icon sizes.
 
 ## Color palette
 - Royal navy: #082B63
@@ -20,14 +20,14 @@ A red tulip represents Türkiye and the learning journey. An open book represent
 - Body text: #102B52
 
 ## Character artwork
-The teacher character is an original illustrated brand character inspired by the reference photo supplied by the project owner. Use the generated character artwork only as an illustration, not as a claim that the illustration is a photograph or an exact reproduction of a real person's identity. Keep future lesson illustrations visually consistent while varying poses and learning contexts.
+The teacher character is an original illustrated brand character inspired by the reference photo supplied by the project owner. Use generated character artwork only as an illustration, not as a claim that the illustration is a photograph or an exact reproduction of a real person's identity.
 
 ## Usage
 - App header: compact tulip/book mark and bilingual wordmark.
 - Home hero: navy-to-blue gradient with gold accent.
-- App icon: simplified tulip + open book + short wordmark; avoid tiny text.
+- App icon: simplified tulip + open book; avoid tiny text.
 - Splash screen: centered mark and official app name.
 - Lesson illustrations: original artwork for each lesson, with editable text rendered by Flutter rather than embedded in images.
 
 ## Product naming
-Use ساره تركيي / SARA TURKII consistently in all new UI, documentation, store metadata and promotional material. Keep the internal Dart package identifier `turkishly` unchanged to avoid breaking imports and project tooling.
+Use تعلم مع ساره هوكام / SARA HOCAM consistently in new visible UI, web metadata, store metadata and promotional material. Keep the internal Dart package identifier `turkishly` unchanged to avoid breaking imports and project tooling.
