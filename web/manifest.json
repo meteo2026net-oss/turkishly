@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "ساره تركيي | SARA TURKII",
-  "short_name": "ساره تركيي",
-  "description": "رفيقك لفهم اللغة التركية وممارستها بثقة باللغة العربية.",
+  "name": "تعلم مع ساره هوكام | Sara Hocam",
+  "short_name": "Sara Hocam",
+  "description": "رحلتك لتعلّم اللغة التركية خطوة بخطوة باللغة العربية.",
   "lang": "ar",
   "dir": "rtl",
   "start_url": "./",
@@ -12,7 +12,7 @@
   "orientation": "portrait-primary",
   "background_color": "#082B63",
   "theme_color": "#082B63",
-  "categories": ["education", "language", "utilities"],
+  "categories": ["education", "language"],
   "icons": [
     {
       "src": "favicon.svg",
