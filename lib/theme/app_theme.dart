@@ -16,7 +16,7 @@ abstract final class AppColors {
 abstract final class AppTheme {
   static ThemeData get light {
     final scheme = ColorScheme.fromSeed(
-      seedColor: const Color(0xFFC24D78),
+      seedColor: AppColors.green,
       brightness: Brightness.light,
       surface: AppColors.white,
     );
