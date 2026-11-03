@@ -47,8 +47,19 @@
       ],
       "properties": {
         "ar": {
-          "type": "string",
-          "minLength": 1
+          "oneOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "object",
+              "required": ["titleAr"],
+              "properties": {
+                "titleAr": {"type": "string", "minLength": 1}
+              }
+            }
+          ]
         },
         "tr": {
           "type": "string"
