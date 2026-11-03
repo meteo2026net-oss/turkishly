@@ -89,6 +89,45 @@ void main() {
       }
     });
 
+    test('C2 capstone lessons use lesson-specific distractors', () {
+      final capstone = C2CourseData.lessons.where(
+        (lesson) => lesson.globalNumber >= 511 && lesson.globalNumber <= 540,
+      );
+      expect(capstone, hasLength(30));
+      const genericDistractors = <String>{
+        'التعبير عن المكان',
+        'التعبير عن الزمن الماضي',
+        'طلب الإذن',
+        'لم يبدأ الاجتماع بعد.',
+        'سأعود إلى المنزل غداً.',
+        'لا تتضمن الجملة هذا المعنى.',
+        'geçmiş zaman',
+        'istek kipi',
+        'yer tamlayıcısı',
+        'تحديد المكان فقط',
+        'تغيير زمن الجملة فقط',
+        'السؤال عن السعر',
+        'حفظ كلمات دون سياق',
+        'نسخ نص دون فهم',
+        'تجاهل القرائن والأدلة',
+      };
+
+      for (final lesson in capstone) {
+        expect(lesson.questions, hasLength(5), reason: lesson.title);
+        for (final question in lesson.questions) {
+          expect(question.options, hasLength(4), reason: lesson.title);
+          expect(question.options.toSet(), hasLength(4), reason: lesson.title);
+          expect(question.answer, inInclusiveRange(0, 3), reason: lesson.title);
+          expect(question.options[question.answer], isNotEmpty, reason: lesson.title);
+          expect(
+            question.options.toSet().intersection(genericDistractors),
+            isEmpty,
+            reason: 'Generic distractor in ${lesson.title}: ${question.prompt}',
+          );
+        }
+      }
+    });
+
     test('keeps lesson assessment payloads usable', () {
       for (final unit in CourseCatalog.units) {
         for (var index = 0; index < unit.lessons.length; index++) {
