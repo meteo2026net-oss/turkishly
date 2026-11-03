@@ -1,10 +1,10 @@
-# Sara Turkii — Splash Screen and Logo Component
+# Sara Hocam — Splash Screen and Logo Component
 
-The Flutter app now opens with an in-app branded welcome screen before the learning dashboard.
+The Flutter app opens with an in-app branded welcome screen before the learning dashboard.
 
-- Main display name: ساره تركيي
-- Latin wordmark: SARA TURKII
-- Mark: open book + red tulip + gold accent
+- Main display name: تعلم مع ساره هوكام
+- Latin wordmark: SARA HOCAM
+- Mark: existing open book + red tulip + gold accent
 - Background: layered royal-navy gradient
 - Main action: ابدأ التعلّم
 - No external image or icon package is required; the logo mark is composed from Material icons and Flutter widgets.
