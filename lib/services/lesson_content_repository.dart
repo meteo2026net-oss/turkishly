@@ -152,25 +152,42 @@ class LessonContentRepository {
   static Future<List<CourseUnit>> loadUnits() async {
     final catalog = await loadCatalog();
     final units = catalog['units'] as List<dynamic>? ?? const [];
-    return units.whereType<Map>().map((rawUnit) {
+    final result = <CourseUnit>[];
+
+    for (final rawUnit in units.whereType<Map>()) {
       final unit = Map<String, dynamic>.from(rawUnit);
       final title = Map<String, dynamic>.from(unit['title'] as Map? ?? const {});
-      final lessons = (unit['lessons'] as List<dynamic>? ?? const [])
-          .whereType<Map>()
-          .map((rawLesson) {
-            final lesson = Map<String, dynamic>.from(rawLesson);
-            return lesson['titleAr']?.toString() ?? '';
-          })
-          .toList(growable: false);
-      return CourseUnit(
-        id: unit['id']?.toString() ?? '',
-        level: unit['level']?.toString() ?? '',
+      final unitId = unit['id']?.toString() ?? '';
+      final level = unit['level']?.toString() ?? '';
+      final lessonTitles = <String>[];
+      final lessonEntries = unit['lessons'] as List<dynamic>? ?? const [];
+
+      for (final rawLesson in lessonEntries.whereType<Map>()) {
+        final lesson = Map<String, dynamic>.from(rawLesson);
+        final lessonId = lesson['id']?.toString() ?? '';
+        final path = 'content/lessons/$level/$unitId/$lessonId.json';
+        final source = await rootBundle.loadString(path);
+        final record = Map<String, dynamic>.from(jsonDecode(source) as Map);
+        final lessonTitle = Map<String, dynamic>.from(
+          record['title'] as Map? ?? const {},
+        );
+        final arabicName = lessonTitle['ar']?.toString().trim() ?? '';
+        if (arabicName.isEmpty) {
+          throw FormatException('Lesson $lessonId has no Arabic display name.');
+        }
+        lessonTitles.add(arabicName);
+      }
+
+      result.add(CourseUnit(
+        id: unitId,
+        level: level,
         titleArabic: title['ar']?.toString() ?? '',
         titleTurkish: title['tr']?.toString() ?? '',
         description: unit['description']?.toString() ?? '',
-        lessons: lessons,
-      );
-    }).toList(growable: false);
+        lessons: lessonTitles,
+      ));
+    }
+    return result;
   }
 
   static Future<LessonRecord> loadLesson(String unitId, int lessonOrder) async {
