@@ -13,18 +13,99 @@
     "titleTr": "İleri Tartışma ve Uzman Sunumu",
     "description": "المناظرة والاعتراضات والتحفظ والتفاوض والعروض وفهم الدلالات الضمنية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "اقتراح بدائل وموازنة المصالح والقيود.",
+  "rule": "بدلاً من قبول أو رفض فوري، قارن البدائل وفق التكلفة والوقت والنتيجة، واستخدم koşuluyla وkarşılığında.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Bu takvimi kabul edebiliriz, karşılığında ek süre talep ediyoruz.",
+      "ar": "يمكننا قبول هذا الجدول مقابل طلب وقت إضافي."
+    },
+    {
+      "tr": "İki taraf için uygulanabilir bir çözüm önerin.",
+      "ar": "اقترح حلين تفاوضيين وبيّن مكسب كل طرف وحدوده."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «alternatif»؟",
+      "options": [
+        "بديل",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«alternatif» تعني بديل.",
+      "id": "c1-u3-05-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bu takvimi kabul edebiliriz, karşılığında ek süre talep ediyoruz.»؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "يمكننا قبول هذا الجدول مقابل طلب وقت إضافي.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجمة الجملة: يمكننا قبول هذا الجدول مقابل طلب وقت إضافي.",
+      "id": "c1-u3-05-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «karşılıklı çıkar»؟",
+      "options": [
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "karşılıklı çıkar",
+        "rastgele bir ifade"
+      ],
+      "answerIndex": 2,
+      "explanation": "مصلحة متبادلة",
+      "id": "c1-u3-05-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح"
+      ],
+      "answerIndex": 3,
+      "explanation": "بدلاً من قبول أو رفض فوري، قارن البدائل وفق التكلفة والوقت والنتيجة، واستخدم koşuluyla وkarşılığında.",
+      "id": "c1-u3-05-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل"
+      ],
+      "answerIndex": 0,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u3-05-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u3",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 325
   }
 }

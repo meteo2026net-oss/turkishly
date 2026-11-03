@@ -13,18 +13,99 @@
     "titleTr": "İleri Akademik Yazma",
     "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "دمج الأطروحة والتنظيم والتوثيق والتحرير.",
+  "rule": "افحص كل فقرة بسؤال: ما فكرتها؟ ما دليلها؟ وكيف تخدم الأطروحة؟ ثم راجع الترابط واللغة.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Son okumada kaynak gösterimini ve paragraf bütünlüğünü kontrol etti.",
+      "ar": "راجع في القراءة النهائية التوثيق وتماسك الفقرات."
+    },
+    {
+      "tr": "Metninizi içerik ve dil bakımından gözden geçirin.",
+      "ar": "راجع نصاً من ثلاث فقرات وفق قائمة معايير تحريرية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «son okuma»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "المراجعة النهائية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«son okuma» تعني المراجعة النهائية.",
+      "id": "c1-u2-10-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Son okumada kaynak gösterimini ve paragraf bütünlüğünü kontrol etti.»؟",
+      "options": [
+        "راجع في القراءة النهائية التوثيق وتماسك الفقرات.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ترجمة الجملة: راجع في القراءة النهائية التوثيق وتماسك الفقرات.",
+      "id": "c1-u2-10-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «akademik metin»؟",
+      "options": [
+        "yer bildiren ifade",
+        "akademik metin",
+        "rastgele bir ifade",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 1,
+      "explanation": "نص أكاديمي",
+      "id": "c1-u2-10-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص"
+      ],
+      "answerIndex": 2,
+      "explanation": "افحص كل فقرة بسؤال: ما فكرتها؟ ما دليلها؟ وكيف تخدم الأطروحة؟ ثم راجع الترابط واللغة.",
+      "id": "c1-u2-10-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد"
+      ],
+      "answerIndex": 3,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-10-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u2",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 320
   }
 }

@@ -13,18 +13,99 @@
     "titleTr": "İleri Tartışma ve Uzman Sunumu",
     "description": "المناظرة والاعتراضات والتحفظ والتفاوض والعروض وفهم الدلالات الضمنية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "إظهار درجة اليقين دون مبالغة أو تردد مبهم.",
+  "rule": "تُستخدم büyük olasılıkla وmevcut bulgulara göre وkesin olarak söylenemez لضبط قوة الادعاء.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Mevcut bulgular, bu ilişkinin güçlü olabileceğini düşündürüyor.",
+      "ar": "تشير النتائج المتاحة إلى أن هذه العلاقة قد تكون قوية."
+    },
+    {
+      "tr": "İddianızı kanıtın gücüne göre sınırlandırın.",
+      "ar": "أعد صياغة ثلاثة ادعاءات قطعية بصيغ علمية متحفظة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «ihtiyatlı ifade»؟",
+      "options": [
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "تعبير متحفظ",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "«ihtiyatlı ifade» تعني تعبير متحفظ.",
+      "id": "c1-u3-03-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Mevcut bulgular, bu ilişkinin güçlü olabileceğini düşündürüyor.»؟",
+      "options": [
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تشير النتائج المتاحة إلى أن هذه العلاقة قد تكون قوية."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجمة الجملة: تشير النتائج المتاحة إلى أن هذه العلاقة قد تكون قوية.",
+      "id": "c1-u3-03-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «kesinlik derecesi»؟",
+      "options": [
+        "kesinlik derecesi",
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "درجة اليقين",
+      "id": "c1-u3-03-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية"
+      ],
+      "answerIndex": 1,
+      "explanation": "تُستخدم büyük olasılıkla وmevcut bulgulara göre وkesin olarak söylenemez لضبط قوة الادعاء.",
+      "id": "c1-u3-03-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u3-03-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u3",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 323
   }
 }

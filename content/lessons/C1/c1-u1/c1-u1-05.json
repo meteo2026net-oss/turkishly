@@ -13,18 +13,99 @@
     "titleTr": "Akademik Okuma ve Metin Çözümleme",
     "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "فحص صلة الدليل بالادعاء وحداثته وموثوقية مصدره.",
+  "rule": "الدليل القوي مرتبط بالادعاء وقابل للتحقق ومصدره واضح؛ كثرة الأمثلة وحدها لا تضمن الصحة.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Bu sonuç, bağımsız verilerle desteklenmiştir.",
+      "ar": "هذه النتيجة مدعومة ببيانات مستقلة."
+    },
+    {
+      "tr": "İddia ile kanıt arasındaki ilişkiyi değerlendirin.",
+      "ar": "قيّم دليلاً في مقال وفق الصلة والمصدر وإمكانية التحقق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «kanıt»؟",
+      "options": [
+        "دليل أو برهان",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«kanıt» تعني دليل أو برهان.",
+      "id": "c1-u1-05-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bu sonuç, bağımsız verilerle desteklenmiştir.»؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "هذه النتيجة مدعومة ببيانات مستقلة.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجمة الجملة: هذه النتيجة مدعومة ببيانات مستقلة.",
+      "id": "c1-u1-05-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «kanıtın güvenilirliği»؟",
+      "options": [
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "kanıtın güvenilirliği",
+        "rastgele bir ifade"
+      ],
+      "answerIndex": 2,
+      "explanation": "موثوقية الدليل",
+      "id": "c1-u1-05-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح"
+      ],
+      "answerIndex": 3,
+      "explanation": "الدليل القوي مرتبط بالادعاء وقابل للتحقق ومصدره واضح؛ كثرة الأمثلة وحدها لا تضمن الصحة.",
+      "id": "c1-u1-05-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل"
+      ],
+      "answerIndex": 0,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-05-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u1",
-    "legacyLessonOrder": 5
+    "legacyGlobalNumber": 305
   }
 }

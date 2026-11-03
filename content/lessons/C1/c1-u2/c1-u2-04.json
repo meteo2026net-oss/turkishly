@@ -13,18 +13,99 @@
     "titleTr": "İleri Akademik Yazma",
     "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "تقديم الاقتباس وشرحه وربطه بحجة الكاتب.",
+  "rule": "لا يُترك الاقتباس منفصلاً؛ قدّمه بسياقه ثم فسّر علاقته بالفكرة التي تناقشها.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Yazarın ifadesi, bu yaklaşımın sınırlarını açıkça gösteriyor.",
+      "ar": "تُظهر عبارة الكاتب حدود هذا النهج بوضوح."
+    },
+    {
+      "tr": "Alıntıyı kendi argümanınızla ilişkilendirin.",
+      "ar": "ادمج اقتباساً قصيراً في فقرة واشرح وظيفته."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «alıntı»؟",
+      "options": [
+        "طلب الإذن",
+        "اقتباس",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "«alıntı» تعني اقتباس.",
+      "id": "c1-u2-04-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Yazarın ifadesi, bu yaklaşımın sınırlarını açıkça gösteriyor.»؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تُظهر عبارة الكاتب حدود هذا النهج بوضوح.",
+        "لم تبدأ الدراسة بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ترجمة الجملة: تُظهر عبارة الكاتب حدود هذا النهج بوضوح.",
+      "id": "c1-u2-04-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «alıntıyı yorumlamak»؟",
+      "options": [
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "alıntıyı yorumlamak"
+      ],
+      "answerIndex": 3,
+      "explanation": "تفسير الاقتباس",
+      "id": "c1-u2-04-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص"
+      ],
+      "answerIndex": 0,
+      "explanation": "لا يُترك الاقتباس منفصلاً؛ قدّمه بسياقه ثم فسّر علاقته بالفكرة التي تناقشها.",
+      "id": "c1-u2-04-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة"
+      ],
+      "answerIndex": 1,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-04-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u2",
-    "legacyLessonOrder": 4
+    "legacyGlobalNumber": 314
   }
 }

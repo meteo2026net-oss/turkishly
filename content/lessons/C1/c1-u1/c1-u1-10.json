@@ -13,18 +13,99 @@
     "titleTr": "Akademik Okuma ve Metin Çözümleme",
     "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "دمج مهارات التحليل والاستدلال والتلخيص وتقييم الأدلة.",
+  "rule": "في القراءة النقدية ميّز بين ما يقوله النص وما تستنتجه أنت، واربط كل استنتاج بقرينة محددة.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Eleştirel okuma, iddiaları kanıtlarla karşılaştırmayı gerektirir.",
+      "ar": "تتطلب القراءة النقدية مقارنة الادعاءات بالأدلة."
+    },
+    {
+      "tr": "Bir akademik metni sistemli biçimde çözümleyin.",
+      "ar": "حلّل نصاً أكاديمياً في فقرة تشمل أطروحته وأدلته وحدوده."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «eleştirel okuma»؟",
+      "options": [
+        "طلب الإذن",
+        "قراءة نقدية",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "«eleştirel okuma» تعني قراءة نقدية.",
+      "id": "c1-u1-10-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Eleştirel okuma, iddiaları kanıtlarla karşılaştırmayı gerektirir.»؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تتطلب القراءة النقدية مقارنة الادعاءات بالأدلة.",
+        "لم تبدأ الدراسة بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ترجمة الجملة: تتطلب القراءة النقدية مقارنة الادعاءات بالأدلة.",
+      "id": "c1-u1-10-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «metin çözümlemesi»؟",
+      "options": [
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "metin çözümlemesi"
+      ],
+      "answerIndex": 3,
+      "explanation": "تحليل النص",
+      "id": "c1-u1-10-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص"
+      ],
+      "answerIndex": 0,
+      "explanation": "في القراءة النقدية ميّز بين ما يقوله النص وما تستنتجه أنت، واربط كل استنتاج بقرينة محددة.",
+      "id": "c1-u1-10-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة"
+      ],
+      "answerIndex": 1,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-10-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u1",
-    "legacyLessonOrder": 10
+    "legacyGlobalNumber": 310
   }
 }

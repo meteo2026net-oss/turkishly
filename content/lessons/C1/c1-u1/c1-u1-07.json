@@ -13,18 +13,99 @@
     "titleTr": "Akademik Okuma ve Metin Çözümleme",
     "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "اختزال الأفكار المحورية مع الحفاظ على العلاقات والمنطق.",
+  "rule": "يحتفظ الملخص بالأطروحة والأسباب والنتائج الأساسية، ويحذف التكرار والتفاصيل الثانوية دون إضافة رأي جديد.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Raporun sonuç bölümünü üç cümlede özetledi.",
+      "ar": "لخّص قسم النتائج في التقرير بثلاث جمل."
+    },
+    {
+      "tr": "Metni ana ve yardımcı düşüncelere ayırın.",
+      "ar": "اكتب ملخصاً من خمس جمل لنص متعدد الفقرات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «özetlemek»؟",
+      "options": [
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "يلخّص",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "«özetlemek» تعني يلخّص.",
+      "id": "c1-u1-07-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Raporun sonuç bölümünü üç cümlede özetledi.»؟",
+      "options": [
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "لخّص قسم النتائج في التقرير بثلاث جمل."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجمة الجملة: لخّص قسم النتائج في التقرير بثلاث جمل.",
+      "id": "c1-u1-07-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «ana düşünce»؟",
+      "options": [
+        "ana düşünce",
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "الفكرة الرئيسية",
+      "id": "c1-u1-07-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية"
+      ],
+      "answerIndex": 1,
+      "explanation": "يحتفظ الملخص بالأطروحة والأسباب والنتائج الأساسية، ويحذف التكرار والتفاصيل الثانوية دون إضافة رأي جديد.",
+      "id": "c1-u1-07-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-07-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u1",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 307
   }
 }

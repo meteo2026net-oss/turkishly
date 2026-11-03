@@ -13,18 +13,99 @@
     "titleTr": "Akademik Okuma ve Metin Çözümleme",
     "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "تفسير وظيفة الروابط في بناء الحجة والانتقال بين الأفكار.",
+  "rule": "تربط dolayısıyla النتيجة، buna karşılık المقابلة، üstelik الإضافة، ne var ki الاستدراك.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Veriler yetersiz; dolayısıyla yeni bir araştırma gerekiyor.",
+      "ar": "البيانات غير كافية؛ وبالتالي نحتاج إلى بحث جديد."
+    },
+    {
+      "tr": "Bağlaçların argümandaki işlevini açıklayın.",
+      "ar": "استبدل ثلاثة روابط في فقرة بروابط أدق واشرح أثرها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «dolayısıyla»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "وبالتالي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«dolayısıyla» تعني وبالتالي.",
+      "id": "c1-u1-08-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Veriler yetersiz; dolayısıyla yeni bir araştırma gerekiyor.»؟",
+      "options": [
+        "البيانات غير كافية؛ وبالتالي نحتاج إلى بحث جديد.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ترجمة الجملة: البيانات غير كافية؛ وبالتالي نحتاج إلى بحث جديد.",
+      "id": "c1-u1-08-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «sonuç bağlantısı»؟",
+      "options": [
+        "yer bildiren ifade",
+        "sonuç bağlantısı",
+        "rastgele bir ifade",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 1,
+      "explanation": "رابط يدل على النتيجة",
+      "id": "c1-u1-08-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص"
+      ],
+      "answerIndex": 2,
+      "explanation": "تربط dolayısıyla النتيجة، buna karşılık المقابلة، üstelik الإضافة، ne var ki الاستدراك.",
+      "id": "c1-u1-08-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد"
+      ],
+      "answerIndex": 3,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-08-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u1",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 308
   }
 }

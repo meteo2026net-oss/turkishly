@@ -13,18 +13,99 @@
     "titleTr": "Akademik Okuma ve Metin Çözümleme",
     "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "تمييز المقدمة والأطروحة والأدلة والنتيجة في نص تركي طويل.",
+  "rule": "اقرأ النص على مستوى الفقرات ثم حدّد وظيفة كل فقرة قبل تفسير التفاصيل.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Bu makalenin temel tezi, dijital eğitimin erişimi artırdığıdır.",
+      "ar": "الأطروحة الأساسية في هذه المقالة هي أن التعليم الرقمي يزيد إمكانية الوصول."
+    },
+    {
+      "tr": "Metnin ana savını belirleyip iki kanıtla destekleyin.",
+      "ar": "حدّد أطروحة نص قصير واشرح دليلين يدعمانها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «tez»؟",
+      "options": [
+        "أطروحة أو فرضية رئيسية",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«tez» تعني أطروحة أو فرضية رئيسية.",
+      "id": "c1-u1-01-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bu makalenin temel tezi, dijital eğitimin erişimi artırdığıdır.»؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "الأطروحة الأساسية في هذه المقالة هي أن التعليم الرقمي يزيد إمكانية الوصول.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجمة الجملة: الأطروحة الأساسية في هذه المقالة هي أن التعليم الرقمي يزيد إمكانية الوصول.",
+      "id": "c1-u1-01-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «temel tez»؟",
+      "options": [
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "temel tez",
+        "rastgele bir ifade"
+      ],
+      "answerIndex": 2,
+      "explanation": "الفكرة المركزية التي يدافع عنها الكاتب",
+      "id": "c1-u1-01-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح"
+      ],
+      "answerIndex": 3,
+      "explanation": "اقرأ النص على مستوى الفقرات ثم حدّد وظيفة كل فقرة قبل تفسير التفاصيل.",
+      "id": "c1-u1-01-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل"
+      ],
+      "answerIndex": 0,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-01-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u1",
-    "legacyLessonOrder": 1
+    "legacyGlobalNumber": 301
   }
 }

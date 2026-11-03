@@ -13,18 +13,99 @@
     "titleTr": "İleri Akademik Yazma",
     "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "صياغة القيود دون إضعاف الاستنتاجات أكثر مما يلزم.",
+  "rule": "تُذكر حدود العينة والزمن والأداة بصيغ دقيقة مثل bu çalışma ... ile sınırlıdır.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Bu çalışma yalnızca iki şehirdeki katılımcılarla sınırlıdır.",
+      "ar": "تقتصر هذه الدراسة على المشاركين في مدينتين فقط."
+    },
+    {
+      "tr": "Araştırmanızın iki temel sınırlılığını açıklayın.",
+      "ar": "اكتب فقرة تعرض ثلاثة قيود وتوضح أثر كل منها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «sınırlılık»؟",
+      "options": [
+        "قيد أو محدودية",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«sınırlılık» تعني قيد أو محدودية.",
+      "id": "c1-u2-07-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bu çalışma yalnızca iki şehirdeki katılımcılarla sınırlıdır.»؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "تقتصر هذه الدراسة على المشاركين في مدينتين فقط.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجمة الجملة: تقتصر هذه الدراسة على المشاركين في مدينتين فقط.",
+      "id": "c1-u2-07-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «araştırmanın kapsamı»؟",
+      "options": [
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "araştırmanın kapsamı",
+        "rastgele bir ifade"
+      ],
+      "answerIndex": 2,
+      "explanation": "نطاق البحث",
+      "id": "c1-u2-07-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح"
+      ],
+      "answerIndex": 3,
+      "explanation": "تُذكر حدود العينة والزمن والأداة بصيغ دقيقة مثل bu çalışma ... ile sınırlıdır.",
+      "id": "c1-u2-07-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل"
+      ],
+      "answerIndex": 0,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-07-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u2",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 317
   }
 }

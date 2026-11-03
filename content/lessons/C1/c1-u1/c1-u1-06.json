@@ -13,18 +13,99 @@
     "titleTr": "Akademik Okuma ve Metin Çözümleme",
     "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "فهم ألفاظ التعميم وحدوده والاستثناءات التي تقيّده.",
+  "rule": "تدل genellikle وçoğu وher zaman على درجات مختلفة من التعميم، بينما yalnızca وistisna olarak تقيدان الحكم.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Bu kural, bazı özel durumlar dışında geçerlidir.",
+      "ar": "هذه القاعدة صالحة باستثناء بعض الحالات الخاصة."
+    },
+    {
+      "tr": "Genellemenin sınırlarını belirtin.",
+      "ar": "أعد صياغة تعميم مطلق ليصبح حكماً دقيقاً يراعي الاستثناءات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «istisna»؟",
+      "options": [
+        "طلب الإذن",
+        "استثناء",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "«istisna» تعني استثناء.",
+      "id": "c1-u1-06-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bu kural, bazı özel durumlar dışında geçerlidir.»؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "هذه القاعدة صالحة باستثناء بعض الحالات الخاصة.",
+        "لم تبدأ الدراسة بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ترجمة الجملة: هذه القاعدة صالحة باستثناء بعض الحالات الخاصة.",
+      "id": "c1-u1-06-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «genelleme ve istisna»؟",
+      "options": [
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "genelleme ve istisna"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعميم والاستثناء",
+      "id": "c1-u1-06-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص"
+      ],
+      "answerIndex": 0,
+      "explanation": "تدل genellikle وçoğu وher zaman على درجات مختلفة من التعميم، بينما yalnızca وistisna olarak تقيدان الحكم.",
+      "id": "c1-u1-06-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة"
+      ],
+      "answerIndex": 1,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-06-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u1",
-    "legacyLessonOrder": 6
+    "legacyGlobalNumber": 306
   }
 }

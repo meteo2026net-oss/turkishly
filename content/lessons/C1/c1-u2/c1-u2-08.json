@@ -13,18 +13,99 @@
     "titleTr": "İleri Akademik Yazma",
     "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "تنظيم التقرير حول سؤال ونتائج وتحليل وتوصيات.",
+  "rule": "يبدأ التقرير بهدف واضح، ثم يعرض المنهج والنتائج، ويفصل بين البيانات وتفسيرها، وينتهي بتوصيات مرتبطة بها.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Rapor, bulguları nedenleriyle birlikte değerlendiriyor.",
+      "ar": "يقيّم التقرير النتائج مع أسبابها."
+    },
+    {
+      "tr": "Verileri yorumlardan ayırarak rapor yazın.",
+      "ar": "أنشئ مخطط تقرير تحليلي من عناوين مترابطة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «analitik rapor»؟",
+      "options": [
+        "طلب الإذن",
+        "تقرير تحليلي",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "«analitik rapor» تعني تقرير تحليلي.",
+      "id": "c1-u2-08-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Rapor, bulguları nedenleriyle birlikte değerlendiriyor.»؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يقيّم التقرير النتائج مع أسبابها.",
+        "لم تبدأ الدراسة بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ترجمة الجملة: يقيّم التقرير النتائج مع أسبابها.",
+      "id": "c1-u2-08-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «bulgu ve yorum»؟",
+      "options": [
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "bulgu ve yorum"
+      ],
+      "answerIndex": 3,
+      "explanation": "النتيجة والتفسير",
+      "id": "c1-u2-08-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص"
+      ],
+      "answerIndex": 0,
+      "explanation": "يبدأ التقرير بهدف واضح، ثم يعرض المنهج والنتائج، ويفصل بين البيانات وتفسيرها، وينتهي بتوصيات مرتبطة بها.",
+      "id": "c1-u2-08-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة"
+      ],
+      "answerIndex": 1,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-08-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u2",
-    "legacyLessonOrder": 8
+    "legacyGlobalNumber": 318
   }
 }

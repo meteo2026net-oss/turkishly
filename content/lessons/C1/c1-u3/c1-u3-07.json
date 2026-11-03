@@ -13,18 +13,99 @@
     "titleTr": "İleri Tartışma ve Uzman Sunumu",
     "description": "المناظرة والاعتراضات والتحفظ والتفاوض والعروض وفهم الدلالات الضمنية."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "اختصار موقف متحدث مع الحفاظ على شروطه وتحفظاته.",
+  "rule": "ابدأ بـ konuşmacının temel noktası ثم اذكر السبب والاستثناء، ولا تحوّل الاحتمال إلى حقيقة.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Konuşmacı, öneriyi destekliyor ancak maliyet konusunda çekince belirtiyor.",
+      "ar": "يدعم المتحدث الاقتراح لكنه يبدي تحفظاً بشأن التكلفة."
+    },
+    {
+      "tr": "Konuşmayı tarafsız ve kısa biçimde özetleyin.",
+      "ar": "لخّص موقفاً من عدة نقاط في 4 جمل محايدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «özetlemek»؟",
+      "options": [
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "يلخّص",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "«özetlemek» تعني يلخّص.",
+      "id": "c1-u3-07-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Konuşmacı, öneriyi destekliyor ancak maliyet konusunda çekince belirtiyor.»؟",
+      "options": [
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يدعم المتحدث الاقتراح لكنه يبدي تحفظاً بشأن التكلفة."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجمة الجملة: يدعم المتحدث الاقتراح لكنه يبدي تحفظاً بشأن التكلفة.",
+      "id": "c1-u3-07-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «sözlü özet»؟",
+      "options": [
+        "sözlü özet",
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "ملخص شفهي",
+      "id": "c1-u3-07-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية"
+      ],
+      "answerIndex": 1,
+      "explanation": "ابدأ بـ konuşmacının temel noktası ثم اذكر السبب والاستثناء، ولا تحوّل الاحتمال إلى حقيقة.",
+      "id": "c1-u3-07-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u3-07-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u3",
-    "legacyLessonOrder": 7
+    "legacyGlobalNumber": 327
   }
 }

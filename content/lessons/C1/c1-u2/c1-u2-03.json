@@ -13,18 +13,99 @@
     "titleTr": "İleri Akademik Yazma",
     "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
   },
-  "contentStatus": "metadata_only",
-  "goal": "",
-  "rule": "",
+  "contentStatus": "full",
+  "goal": "نقل فكرة المصدر بصياغة مستقلة مع حفظ معناها ونسبتها.",
+  "rule": "غيّر بنية الجملة والمفردات مع الحفاظ على المعنى، ولا تحذف القيد أو درجة اليقين في الأصل.",
   "vocabulary": [],
-  "examples": [],
-  "dialogue": [],
-  "speakingTask": "",
-  "questions": [],
+  "examples": [
+    {
+      "tr": "Araştırmacı, sonuçların sınırlı olduğunu vurguluyor.",
+      "ar": "يؤكد الباحث أن النتائج محدودة."
+    },
+    {
+      "tr": "Kaynağın düşüncesini kendi cümlelerinizle aktarın.",
+      "ar": "أعد صياغة فقرة قصيرة مع الحفاظ على معناها وحدودها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «yeniden ifade etmek»؟",
+      "options": [
+        "يعيد التعبير بصياغة أخرى",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«yeniden ifade etmek» تعني يعيد التعبير بصياغة أخرى.",
+      "id": "c1-u2-03-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Araştırmacı, sonuçların sınırlı olduğunu vurguluyor.»؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "يؤكد الباحث أن النتائج محدودة.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجمة الجملة: يؤكد الباحث أن النتائج محدودة.",
+      "id": "c1-u2-03-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «parafraz»؟",
+      "options": [
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "parafraz",
+        "rastgele bir ifade"
+      ],
+      "answerIndex": 2,
+      "explanation": "إعادة صياغة",
+      "id": "c1-u2-03-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح"
+      ],
+      "answerIndex": 3,
+      "explanation": "غيّر بنية الجملة والمفردات مع الحفاظ على المعنى، ولا تحذف القيد أو درجة اليقين في الأصل.",
+      "id": "c1-u2-03-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل"
+      ],
+      "answerIndex": 0,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-03-q5"
+    }
+  ],
   "media": [],
   "source": {
-    "legacyFile": "lib/data/course_catalog.dart",
+    "legacyFile": "lib/data/c1_course_data.dart",
     "legacyUnitId": "c1-u2",
-    "legacyLessonOrder": 3
+    "legacyGlobalNumber": 313
   }
 }
