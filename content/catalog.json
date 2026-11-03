@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "contentMode": "json",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "units": [],
+  "migration": {
+    "strategy": "additive",
+    "legacyDataRetained": true,
+    "pilotLessons": [
+      "b1-u1-0121"
+    ],
+    "remainingLessons": "pending-export-and-validation"
+  }
+}
