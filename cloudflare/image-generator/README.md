@@ -32,6 +32,16 @@ This is source code only. It is **not deployed** and has no connected Cloudflare
 
 5. Test `GET /health`. It should report that generation bindings are available.
 
+## Admin page
+
+The standalone admin page is `admin.html`. For local testing, serve this directory:
+
+```bash
+python -m http.server 8080
+```
+
+Open `http://localhost:8080/admin.html`, then set the Worker variable `ADMIN_ORIGIN` to the exact origin `http://localhost:8080`. For a deployed admin site, set it to that site's exact HTTPS origin instead. CORS is an additional browser restriction, not a substitute for the admin bearer token.
+
 ## Generate a batch
 
 Send an authenticated POST to `/admin/image-batches`:
@@ -57,7 +67,7 @@ Send an authenticated POST to `/admin/image-batches`:
 
 Header: `Authorization: Bearer YOUR_ADMIN_TOKEN`.
 
-The worker currently accepts up to 10 items per request and processes them sequentially. Each image is stored separately in R2 under `images/vocabulary/{category}/{vocabularyId}.png`. Existing objects are not overwritten.
+The worker currently accepts up to 10 items per request and processes them sequentially. Each image is stored separately in R2 under `images/vocabulary/{category}/{vocabularyId}.jpg`. Existing objects are not overwritten.
 
 ## Important limitations
 
@@ -65,5 +75,5 @@ The worker currently accepts up to 10 items per request and processes them seque
 - This scaffold does not yet connect to the app's vocabulary database or update image paths.
 - Configure a private admin route or strict access controls before production use.
 - Add budget guards, durable job persistence, retry scheduling, rate limiting, audit logs, and image moderation before large-scale batches.
-- The selected model output is stored as PNG. WebP conversion should be added as a separate, tested optimization step.
+- The selected model output is stored as JPEG. WebP conversion should be added as a separate, tested optimization step.
 - Never put `ADMIN_TOKEN`, Cloudflare API tokens, or R2 credentials in Flutter or GitHub.
