@@ -4,8 +4,7 @@ import '../models/course_unit.dart';
 import '../services/learning_progress.dart';
 import '../theme/app_theme.dart';
 import '../widgets/brand_mark.dart';
-import 'course_lesson_screen.dart';
-import 'b1_lesson_screen.dart';
+import 'json_lesson_screen.dart';
 import 'vocabulary_screen.dart';
 import 'quiz_screen.dart';
 import 'missed_questions_screen.dart';
@@ -591,19 +590,12 @@ class _UnitDetails extends StatelessWidget {
             borderRadius: BorderRadius.circular(16),
             onTap: () async {
               await Navigator.of(context).push(MaterialPageRoute<void>(
-                builder: (_) => (unit.id.startsWith('b1-') || unit.id.startsWith('b2-') || unit.id.startsWith('c1-') || unit.id.startsWith('c2-'))
-                  ? B1LessonScreen(
-                      unitId: unit.id,
-                      unitTitle: unit.titleArabic,
-                      lessonTitle: unit.lessons[i],
-                      lessonNumber: i + 1,
-                    )
-                  : CourseLessonScreen(
-                      unitId: unit.id,
-                      unitTitle: unit.titleArabic,
-                      lessonTitle: unit.lessons[i],
-                      lessonNumber: i + 1,
-                    ),
+                builder: (_) => JsonLessonScreen(
+                  unitId: unit.id,
+                  unitTitle: unit.titleArabic,
+                  lessonTitle: unit.lessons[i],
+                  lessonNumber: i + 1,
+                ),
               ));
               onProgressChanged?.call();
             },
