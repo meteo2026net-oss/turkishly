@@ -26,18 +26,18 @@ class BrandSplashScreen extends StatelessWidget {
               const BrandMark(size: 118),
               const SizedBox(height: 26),
               const Text(
-                'ساره تركيي',
+                'تعلم مع ساره هوكام',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 34,
+                  fontSize: 31,
                   fontWeight: FontWeight.w900,
-                  letterSpacing: 0.2,
+                  letterSpacing: 0.1,
                 ),
               ),
               const SizedBox(height: 8),
               const Text(
-                'SARA TURKII',
+                'SARA HOCAM',
                 textDirection: TextDirection.ltr,
                 style: TextStyle(
                   color: AppColors.gold,
@@ -50,7 +50,7 @@ class BrandSplashScreen extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 38),
                 child: Text(
-                  'رفيقك لفهم اللغة التركية وممارستها بثقة',
+                  'رحلتك لتعلّم اللغة التركية خطوة بخطوة',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white70,
