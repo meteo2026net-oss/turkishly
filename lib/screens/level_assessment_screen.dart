@@ -171,9 +171,9 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    backgroundColor: const Color(0xFFF5F7FC),
+    backgroundColor: const Color(0xFFFFFAF3),
     appBar: AppBar(
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       foregroundColor: AppColors.darkGreen,
       elevation: 0,
       title: Text('تقييم المستوى ${widget.level}', style: const TextStyle(fontWeight: FontWeight.w900)),
@@ -212,7 +212,7 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
         ]),
         const SizedBox(height: 10),
         LinearProgressIndicator(value: (_index + (answered ? 1 : 0)) / _questions.length, minHeight: 7,
-          backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7)),
+          backgroundColor: const Color(0xFFE2F5F2), color: const Color(0xFF0F9D9A)),
         const SizedBox(height: 22),
         Text(q.prompt, textAlign: TextAlign.right, style: const TextStyle(color: AppColors.darkGreen, fontSize: 19, height: 1.5, fontWeight: FontWeight.w900)),
         const SizedBox(height: 16),
@@ -220,7 +220,7 @@ class _LevelAssessmentScreenState extends State<LevelAssessmentScreen> {
           final correct = i == q.answer;
           final selected = i == _selected;
           final color = answered && correct ? const Color(0xFFE8F7EF) :
-              answered && selected ? const Color(0xFFFFEEEE) : const Color(0xFFF7F9FC);
+              answered && selected ? const Color(0xFFFFEEEE) : const Color(0xFFFFFAF3);
           return Padding(
             padding: const EdgeInsets.only(bottom: 8),
             child: Material(
