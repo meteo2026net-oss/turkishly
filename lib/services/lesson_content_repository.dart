@@ -152,25 +152,28 @@ class LessonContentRepository {
   static Future<List<CourseUnit>> loadUnits() async {
     final catalog = await loadCatalog();
     final units = catalog['units'] as List<dynamic>? ?? const [];
-    return units.whereType<Map>().map((rawUnit) {
+    return Future.wait(units.whereType<Map>().map((rawUnit) async {
       final unit = Map<String, dynamic>.from(rawUnit);
       final title = Map<String, dynamic>.from(unit['title'] as Map? ?? const {});
-      final lessons = (unit['lessons'] as List<dynamic>? ?? const [])
-          .whereType<Map>()
-          .map((rawLesson) {
-            final lesson = Map<String, dynamic>.from(rawLesson);
-            return lesson['titleAr']?.toString() ?? '';
-          })
-          .toList(growable: false);
+      final lessons = unit['lessons'] as List<dynamic>? ?? const [];
+      final lessonTitles = await Future.wait(lessons.whereType<Map>().map((rawLesson) async {
+        final lesson = Map<String, dynamic>.from(rawLesson);
+        final id = lesson['id']?.toString() ?? '';
+        final path = 'content/lessons/${unit['level']}/${unit['id']}/$id.json';
+        final source = await rootBundle.loadString(path);
+        final record = Map<String, dynamic>.from(jsonDecode(source) as Map);
+        final lessonTitle = Map<String, dynamic>.from(record['title'] as Map? ?? const {});
+        return lessonTitle['ar']?.toString() ?? '';
+      }));
       return CourseUnit(
         id: unit['id']?.toString() ?? '',
         level: unit['level']?.toString() ?? '',
         titleArabic: title['ar']?.toString() ?? '',
         titleTurkish: title['tr']?.toString() ?? '',
         description: unit['description']?.toString() ?? '',
-        lessons: lessons,
+        lessons: lessonTitles,
       );
-    }).toList(growable: false);
+    }));
   }
 
   static Future<LessonRecord> loadLesson(String unitId, int lessonOrder) async {

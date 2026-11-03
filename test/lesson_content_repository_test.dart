@@ -12,8 +12,9 @@ void main() {
     expect(displayedUnits.length, units.length);
     var loaded = 0;
 
-    for (final rawUnit in units) {
-      final unit = Map<String, dynamic>.from(rawUnit as Map);
+    for (var unitIndex = 0; unitIndex < units.length; unitIndex++) {
+      final unit = Map<String, dynamic>.from(units[unitIndex] as Map);
+      final displayedUnit = displayedUnits[unitIndex];
       final unitId = unit['id'] as String;
       final lessons = unit['lessons'] as List<dynamic>;
 
@@ -26,6 +27,7 @@ void main() {
         expect(record.unitId, unitId);
         expect(record.contentStatus, 'full');
         expect(record.titleArabic, isNotEmpty);
+        expect(displayedUnit.lessons[order - 1], record.titleArabic);
         expect(record.questions, isNotEmpty);
 
         for (final question in record.questions) {

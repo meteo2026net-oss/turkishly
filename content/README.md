@@ -1,15 +1,15 @@
 # Turkishly JSON lesson content
 
-The JSON directory is the canonical lesson-content source. The Flutter app reads unit names, lesson display titles, ordering and lesson records through `LessonContentRepository`; the home curriculum opens the JSON-driven lesson screen.
+The JSON directory is the canonical lesson-content source. The Flutter app reads unit metadata, lesson names, ordering and lesson bodies through `LessonContentRepository`; the home curriculum opens the JSON-driven lesson screen.
 
 ## Layout
 
 `lessons/<LEVEL>/<unit-id>/<lesson-id>.json`
 
-- Every one of the **1,332 lessons across 136 units** in the canonical curriculum has a separate JSON file.
-- Stable IDs and file paths are independent from display names. Rename a lesson by editing `title.ar` or `title.tr`; do not rename the ID for an ordinary title change.
+- Every one of the **1,332 lessons across 136 units** has its own JSON file.
+- The lesson JSON file is the single source of truth for its display name. Rename it by editing `title.ar` or `title.tr`; the app reads the name from that file. Keep the stable `id` and file path unchanged.
+- `catalog.json` stores unit ordering and references each lesson by stable ID and order; it does not duplicate lesson titles.
 - Lesson records contain goals, explanations, vocabulary where available, examples, dialogue, speaking tasks, quiz options, answer indexes and explanations.
-- `catalog.json` controls unit ordering and maps each lesson to its JSON file.
 - `schema/lesson.schema.json` describes the record format.
 
 ## Migration status
@@ -22,4 +22,4 @@ Lesson JSON may refer to image, audio or video files by relative path or stable 
 
 ## Validation
 
-The Flutter app bundles `content/catalog.json` and each of the 136 unit directories. A repository test loads every catalog lesson and checks record identity, completion status, question presence and answer-index bounds. Legacy Dart files remain in place; do not remove them until CI and device/web validation are successful.
+The Flutter app bundles `content/catalog.json` and each of the 136 unit directories. A repository test loads every catalog lesson, checks record identity and answer indexes, and confirms that displayed lesson names come from the corresponding lesson JSON files. Legacy Dart files remain in place until all builds are reviewed.
