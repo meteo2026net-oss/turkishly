@@ -19,6 +19,8 @@ Lesson titles and lesson data are loaded at runtime from JSON. Lesson content is
 - Multiple-choice questions with answer checking and explanations.
 - Local lesson-completion tracking using Android SharedPreferences.
 - Course progress indicator on the home screen.
+- Searchable vocabulary browser that reads word entries directly from lesson JSON, with A1–C2 filters and Arabic/Turkish search.
+- Vocabulary loading runs off the UI thread and tolerates individual unreadable lesson files.
 
 ## Build and install
 
@@ -35,4 +37,4 @@ A debug APK is built automatically by GitHub Actions and uploaded as the artifac
 Command-line build from this folder (after Gradle is installed):
 `gradle :app:assembleDebug`
 
-The Flutter application and original lesson JSON files remain unchanged. This is a separate native Android implementation on its own feature branch. It is an initial native edition; advanced Flutter features such as full vocabulary browsing, conversation practice, assessment dashboards, and missed-question analytics still need dedicated Kotlin screens before feature parity.
+The Flutter application and original lesson JSON files remain unchanged. This is a separate native Android implementation on its own feature branch. It is an initial native edition; advanced Flutter features such as conversation practice, assessment dashboards, missed-question analytics, and a full settings screen still need dedicated Kotlin screens before feature parity.
