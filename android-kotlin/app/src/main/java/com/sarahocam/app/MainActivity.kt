@@ -79,6 +79,7 @@ private fun SaraHocamApp() {
     var error by remember { mutableStateOf<String?>(null) }
     var selectedUnit by remember { mutableStateOf<UnitItem?>(null) }
     var selectedLesson by remember { mutableStateOf<JSONObject?>(null) }
+    var showVocabulary by remember { mutableStateOf(false) }
     var search by remember { mutableStateOf("") }
     var selectedLevel by remember { mutableStateOf("الكل") }
     var completedIds by remember {
@@ -123,6 +124,7 @@ private fun SaraHocamApp() {
                     },
                     isCompleted = completedIds.contains(selectedLesson!!.optString("id"))
                 )
+                showVocabulary -> VocabularyPage(assets = context.assets, onBack = { showVocabulary = false })
                 selectedUnit != null -> UnitPage(
                     unit = selectedUnit!!,
                     onBack = { selectedUnit = null },
@@ -143,6 +145,7 @@ private fun SaraHocamApp() {
                     selectedLevel = selectedLevel,
                     onLevel = { selectedLevel = it },
                     onUnit = { selectedUnit = it },
+                    onVocabulary = { showVocabulary = true },
                     completedCount = completedIds.size
                 )
             }
@@ -197,6 +200,7 @@ private fun HomePage(
     selectedLevel: String,
     onLevel: (String) -> Unit,
     onUnit: (UnitItem) -> Unit,
+    onVocabulary: () -> Unit,
     completedCount: Int
 ) {
     val levels = listOf("الكل", "A1", "A2", "B1", "B2", "C1", "C2")
@@ -314,6 +318,13 @@ private fun HomePage(
         }
         if (error != null) item {
             Text(error, color = Color(0xFFB4534B), modifier = Modifier.padding(8.dp))
+        }
+        item {
+            OutlinedButton(onClick = onVocabulary, modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(15.dp)) {
+                Icon(Icons.Default.MenuBook, contentDescription = null)
+                Spacer(Modifier.width(8.dp))
+                Text("افتح قاموس المفردات")
+            }
         }
         item {
             Text("استكشف المنهج", color = Navy, fontWeight = FontWeight.Black, fontSize = 19.sp)
