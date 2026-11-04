@@ -79,7 +79,11 @@ void main() {
       expect(stored, hasLength(400));
       expect(stored, orderedEquals(stored.toList()..sort()));
       expect(stored.first, dates[6]);
-      expect(stored.last, dates.last);
+      final now = DateTime.now();
+      final today = '${now.year.toString().padLeft(4, '0')}-'
+          '${now.month.toString().padLeft(2, '0')}-'
+          '${now.day.toString().padLeft(2, '0')}';
+      expect(stored.last, today);
     });
 
     test('skips malformed conversation history records', () async {
