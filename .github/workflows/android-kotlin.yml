@@ -36,6 +36,37 @@ jobs:
         with:
           gradle-version: "8.9"
 
+      - name: Validate shared JSON lesson catalog
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("content")
+          catalog = json.loads((root / "catalog.json").read_text(encoding="utf-8"))
+          seen = set()
+          checked = 0
+          for unit in catalog["units"]:
+              level = unit["level"]
+              unit_id = unit["id"]
+              for lesson in unit.get("lessons", []):
+                  lesson_id = lesson["id"]
+                  if lesson_id in seen:
+                      raise SystemExit(f"Duplicate lesson id: {lesson_id}")
+                  seen.add(lesson_id)
+                  path = root / "lessons" / level / unit_id / f"{lesson_id}.json"
+                  if not path.is_file():
+                      raise SystemExit(f"Missing lesson file: {path}")
+                  data = json.loads(path.read_text(encoding="utf-8"))
+                  if data.get("id") != lesson_id:
+                      raise SystemExit(f"Lesson id mismatch in {path}")
+                  checked += 1
+          declared = catalog.get("declaredLessonCount")
+          if declared is not None and declared != checked:
+              raise SystemExit(f"Catalog declares {declared} lessons, found {checked}")
+          print(f"Validated {checked} lesson JSON files across {len(catalog['units'])} units.")
+          PY
+
       - name: Build debug APK
         working-directory: android-kotlin
         run: gradle :app:assembleDebug
