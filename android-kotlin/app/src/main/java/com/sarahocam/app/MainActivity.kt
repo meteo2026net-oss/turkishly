@@ -84,7 +84,7 @@ private fun SaraHocamApp() {
     var completedIds by remember {
         mutableStateOf(
             context.getSharedPreferences("sara_hocam_progress", android.content.Context.MODE_PRIVATE)
-                .getStringSet("completed_lessons", emptySet())?.toSet() ?: emptySet()
+                .getStringSet("completed_lessons", mutableSetOf<String>())?.toSet() ?: emptySet()
         )
     }
 
@@ -119,7 +119,7 @@ private fun SaraHocamApp() {
                         val updated = completedIds + lessonId
                         completedIds = updated
                         context.getSharedPreferences("sara_hocam_progress", android.content.Context.MODE_PRIVATE)
-                            .edit().putStringSet("completed_lessons", updated).apply()
+                            .edit().putStringSet("completed_lessons", updated.toMutableSet()).apply()
                     },
                     isCompleted = completedIds.contains(selectedLesson!!.optString("id"))
                 )
