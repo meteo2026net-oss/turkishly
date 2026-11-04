@@ -22,6 +22,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
@@ -101,7 +103,8 @@ private fun SaraHocamApp() {
             onSurface = Ink
         )
     ) {
-        Surface(Modifier.fillMaxSize(), color = Cream) {
+        CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
+          Surface(Modifier.fillMaxSize(), color = Cream) {
             when {
                 selectedLesson != null -> LessonPage(
                     lesson = selectedLesson!!,
@@ -129,6 +132,7 @@ private fun SaraHocamApp() {
                     onUnit = { selectedUnit = it }
                 )
             }
+          }
         }
     }
 }
