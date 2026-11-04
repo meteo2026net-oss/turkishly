@@ -81,6 +81,12 @@ private fun SaraHocamApp() {
     var selectedLesson by remember { mutableStateOf<JSONObject?>(null) }
     var search by remember { mutableStateOf("") }
     var selectedLevel by remember { mutableStateOf("الكل") }
+    var completedIds by remember {
+        mutableStateOf(
+            context.getSharedPreferences("sara_hocam_progress", android.content.Context.MODE_PRIVATE)
+                .getStringSet("completed_lessons", emptySet())?.toSet() ?: emptySet()
+        )
+    }
 
     LaunchedEffect(Unit) {
         try {
@@ -108,7 +114,14 @@ private fun SaraHocamApp() {
             when {
                 selectedLesson != null -> LessonPage(
                     lesson = selectedLesson!!,
-                    onBack = { selectedLesson = null }
+                    onBack = { selectedLesson = null },
+                    onCompleted = { lessonId ->
+                        val updated = completedIds + lessonId
+                        completedIds = updated
+                        context.getSharedPreferences("sara_hocam_progress", android.content.Context.MODE_PRIVATE)
+                            .edit().putStringSet("completed_lessons", updated).apply()
+                    },
+                    isCompleted = completedIds.contains(selectedLesson!!.optString("id"))
                 )
                 selectedUnit != null -> UnitPage(
                     unit = selectedUnit!!,
@@ -182,7 +195,8 @@ private fun HomePage(
     onSearch: (String) -> Unit,
     selectedLevel: String,
     onLevel: (String) -> Unit,
-    onUnit: (UnitItem) -> Unit
+    onUnit: (UnitItem) -> Unit,
+    completedCount: Int
 ) {
     val levels = listOf("الكل", "A1", "A2", "B1", "B2", "C1", "C2")
     val filtered = units.filter {
@@ -249,6 +263,23 @@ private fun HomePage(
                         StatPill("${units.sumOf { it.lessons.size }}", "درساً")
                     }
                 }
+            }
+        }
+        item {
+            val totalLessons = units.sumOf { it.lessons.size }
+            Column(Modifier.fillMaxWidth().background(Color.White, RoundedCornerShape(18.dp)).padding(15.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text("تقدمك في التعلم", color = Navy, fontWeight = FontWeight.Black)
+                    Spacer(Modifier.weight(1f))
+                    Text("$completedCount / $totalLessons", color = Teal, fontWeight = FontWeight.Bold)
+                }
+                Spacer(Modifier.height(10.dp))
+                LinearProgressIndicator(
+                    progress = { if (totalLessons == 0) 0f else completedCount.toFloat() / totalLessons },
+                    modifier = Modifier.fillMaxWidth().height(8.dp),
+                    color = Teal,
+                    trackColor = Pale
+                )
             }
         }
         item {
@@ -373,7 +404,12 @@ private fun UnitPage(
 }
 
 @Composable
-private fun LessonPage(lesson: JSONObject, onBack: () -> Unit) {
+private fun LessonPage(
+    lesson: JSONObject,
+    onBack: () -> Unit,
+    onCompleted: (String) -> Unit,
+    isCompleted: Boolean
+) {
     val titleObject = lesson.optJSONObject("title") ?: JSONObject()
     val arabicTitleObject = titleObject.optJSONObject("ar") ?: JSONObject()
     val titleAr = arabicTitleObject.optString("titleAr", "الدرس")
@@ -477,9 +513,18 @@ private fun LessonPage(lesson: JSONObject, onBack: () -> Unit) {
                     }
                 }
             }
+            if (isCompleted) item {
+                Surface(color = Pale, shape = RoundedCornerShape(14.dp)) {
+                    Text("✓ هذا الدرس مكتمل ومحفوظ على هذا الجهاز", color = Navy,
+                        modifier = Modifier.fillMaxWidth().padding(13.dp), fontWeight = FontWeight.Bold)
+                }
+            }
             if (questions.length() > 0) item {
                 Button(
-                    onClick = { submitted = true },
+                    onClick = {
+                        submitted = true
+                        onCompleted(lesson.optString("id"))
+                    },
                     enabled = !submitted && answers.size == questions.length(),
                     modifier = Modifier.fillMaxWidth(),
                     colors = ButtonDefaults.buttonColors(containerColor = Teal)
