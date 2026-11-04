@@ -415,6 +415,7 @@ private fun LessonPage(
     val arabicTitleObject = titleObject.optJSONObject("ar") ?: JSONObject()
     val titleAr = arabicTitleObject.optString("titleAr", "الدرس")
     val titleTr = titleObject.optString("tr")
+    val vocabulary = lesson.optJSONArray("vocabulary") ?: JSONArray()
     val examples = lesson.optJSONArray("examples") ?: JSONArray()
     val dialogue = lesson.optJSONArray("dialogue") ?: JSONArray()
     val questions = lesson.optJSONArray("questions") ?: JSONArray()
@@ -446,6 +447,30 @@ private fun LessonPage(
             if (lesson.optString("rule").isNotBlank()) item {
                 LessonSection("القاعدة والشرح") {
                     Text(lesson.optString("rule"), color = Ink, lineHeight = 25.sp)
+                }
+            }
+            if (vocabulary.length() > 0) item {
+                LessonSection("المفردات") {
+                    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        repeat(vocabulary.length()) { index ->
+                            val word = vocabulary.getJSONObject(index)
+                            val turkish = word.optString("tr",
+                                word.optString("word", word.optString("term")))
+                            val arabic = word.optString("ar",
+                                word.optString("meaning", word.optString("translation")))
+                            Row(
+                                Modifier.fillMaxWidth().background(Pale, RoundedCornerShape(12.dp)).padding(12.dp),
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Column(Modifier.weight(1f)) {
+                                    Text(turkish, color = Navy, fontWeight = FontWeight.Bold)
+                                    if (word.optString("pronunciation").isNotBlank())
+                                        Text(word.optString("pronunciation"), color = Muted, fontSize = 11.sp)
+                                }
+                                Text(arabic, color = Ink, textAlign = TextAlign.End)
+                            }
+                        }
+                    }
                 }
             }
             if (examples.length() > 0) item {
