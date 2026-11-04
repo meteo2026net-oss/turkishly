@@ -142,7 +142,8 @@ private fun SaraHocamApp() {
                     onSearch = { search = it },
                     selectedLevel = selectedLevel,
                     onLevel = { selectedLevel = it },
-                    onUnit = { selectedUnit = it }
+                    onUnit = { selectedUnit = it },
+                    completedCount = completedIds.size
                 )
             }
           }
