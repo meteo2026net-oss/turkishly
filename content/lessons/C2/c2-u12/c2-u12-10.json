@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u12-10",
+  "level": "C2",
+  "unitId": "c2-u12",
+  "order": 10,
+  "title": {
+    "ar": "المشروع الختامي المتقدم لمستوى C2",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الدبلوماسية والقيادة الدولية والمشروع الختامي",
+    "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
+    "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
+  },
+  "contentStatus": "full",
+  "goal": "دمج التحليل والبحث والتواصل والترجمة والقيادة في مشروع واحد.",
+  "rule": "قدم ملفاً متعدد الأجزاء يبرهن على الدقة والمرونة والاستقلالية، مع تقييم نقدي للقرارات.",
+  "vocabulary": [
+    {
+      "term": "C2 bitirme projesi",
+      "meaningAr": "المشروع الختامي C2",
+      "exampleTr": "Dilsel, akademik ve kurumsal becerilerimi tek bir kapsamlı projede birleştirdim.",
+      "exampleAr": "جمعت مهاراتي اللغوية والأكاديمية والمؤسسية في مشروع شامل واحد."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Dilsel, akademik ve kurumsal becerilerimi tek bir kapsamlı projede birleştirdim.",
+      "ar": "جمعت مهاراتي اللغوية والأكاديمية والمؤسسية في مشروع شامل واحد."
+    },
+    {
+      "tr": "Kararlarımı kanıtlarla gerekçelendirip süreci eleştirel biçimde değerlendirdim.",
+      "ar": "بررت قراراتي بالأدلة وقيّمت العملية بصورة نقدية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "C2 düzeyinde başarı neyle ölçülür؟",
+      "ar": "بماذا يقاس النجاح في مستوى C2؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Karmaşık durumlarda bağımsız ve etkili dil kullanımıyla.",
+      "ar": "باستخدام اللغة باستقلالية وفاعلية في المواقف المعقدة."
+    }
+  ],
+  "speakingTask": "أنجز مشروعاً نهائياً يضم بحثاً وعرضاً ومفاوضة ونصاً مترجماً وتقييماً ذاتياً.",
+  "questions": [
+    {
+      "id": "c2-u12-10-q1",
+      "prompt": "ما معنى «C2 bitirme projesi»؟",
+      "options": [
+        "المشروع الختامي C2",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«C2 bitirme projesi» تعني: المشروع الختامي C2."
+    },
+    {
+      "id": "c2-u12-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "جمعت مهاراتي اللغوية والأكاديمية والمؤسسية في مشروع شامل واحد.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "جمعت مهاراتي اللغوية والأكاديمية والمؤسسية في مشروع شامل واحد."
+    },
+    {
+      "id": "c2-u12-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "ileri yeterlik",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «ileri yeterlik». قدم ملفاً متعدد الأجزاء يبرهن على الدقة والمرونة والاستقلالية، مع تقييم نقدي للقرارات."
+    },
+    {
+      "id": "c2-u12-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إثبات الكفاءة المتقدمة المتكاملة."
+      ],
+      "answerIndex": 3,
+      "explanation": "إثبات الكفاءة المتقدمة المتكاملة."
+    },
+    {
+      "id": "c2-u12-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أنجز مشروعاً نهائياً يضم بحثاً وعرضاً ومفاوضة ونصاً مترجماً وتقييماً ذاتياً.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أنجز مشروعاً نهائياً يضم بحثاً وعرضاً ومفاوضة ونصاً مترجماً وتقييماً ذاتياً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u12",
+    "legacyGlobalNumber": 540
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u12-6",
+  "level": "A1",
+  "unitId": "a1-u12",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u12-06",
+      "order": 6,
+      "titleAr": "المواعيد والخطط اليومية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والتاريخ والطقس والفصول",
+    "titleTr": "Zaman, Tarih, Hava Durumu ve Mevsimler",
+    "description": "قراءة الساعة وأيام الأسبوع والأشهر والفصول ووصف الطقس وتحديد المواعيد والروتين الأسبوعي."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث عن المواعيد والخطط باستخدام اليوم والوقت.",
+  "rule": "كلمات مهمة: randevu موعد، toplantı اجتماع، ders درس، bugün اليوم، yarın غداً، sabah صباحاً، öğleden sonra بعد الظهر، akşam مساءً. للسؤال عن موعد قل Saat kaçta؟ (في أي ساعة؟). مثال: Yarın saat onda dersim var (لدي درس غداً الساعة العاشرة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Saat kaçta?",
+      "ar": "في أي ساعة؟"
+    },
+    {
+      "tr": "Sabah dokuzda.",
+      "ar": "في التاسعة صباحاً."
+    },
+    {
+      "tr": "Yarın toplantım var.",
+      "ar": "لدي اجتماع غداً."
+    },
+    {
+      "tr": "Akşam görüşürüz.",
+      "ar": "نلتقي مساءً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u12-6-q1",
+      "prompt": "ما معنى sabah؟",
+      "options": [
+        "مساءً",
+        "صباحاً",
+        "أمس",
+        "شتاءً"
+      ],
+      "answerIndex": 1,
+      "explanation": "sabah تعني صباحاً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u12",
+    "legacyLessonOrder": 6
+  }
+}

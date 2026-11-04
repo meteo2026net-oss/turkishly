@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u5-09",
+  "level": "C1",
+  "unitId": "c1-u5",
+  "order": 9,
+  "title": {
+    "ar": "مراجعة التواصل المهني",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة الرسمية والمهنية",
+    "titleTr": "Resmî ve Mesleki Dil",
+    "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
+  },
+  "contentStatus": "full",
+  "goal": "دمج الكتابة والاجتماعات والتفاوض والتوصيات.",
+  "rule": "اختر السجل المناسب واجعل الرسائل والقرارات متسقة وتحقق من وضوح المسؤوليات.",
+  "vocabulary": [
+    {
+      "term": "kurumsal iletişim",
+      "meaningAr": "التواصل المؤسسي",
+      "exampleTr": "Toplantı sonrasında kararları tüm ekiple paylaştık.",
+      "exampleAr": "شاركنا القرارات مع الفريق بعد الاجتماع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Toplantı sonrasında kararları tüm ekiple paylaştık.",
+      "ar": "شاركنا القرارات مع الفريق بعد الاجتماع."
+    },
+    {
+      "tr": "Kurumsal iletişim sürecini yönettim.",
+      "ar": "أدرت عملية التواصل المؤسسي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi belgeler gerekli؟",
+      "ar": "ما الوثائق اللازمة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öneri, tutanak ve sonuç raporu.",
+      "ar": "المقترح والمحضر والتقرير."
+    }
+  ],
+  "speakingTask": "نفذ محاكاة تشمل رسالة ومقترحاً واجتماعاً ومحضراً.",
+  "questions": [
+    {
+      "id": "c1-u5-09-q1",
+      "prompt": "ما معنى «kurumsal iletişim»؟",
+      "options": [
+        "طلب الإذن",
+        "التواصل المؤسسي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«kurumsal iletişim» تعني: التواصل المؤسسي."
+    },
+    {
+      "id": "c1-u5-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "شاركنا القرارات مع الفريق بعد الاجتماع.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "شاركنا القرارات مع الفريق بعد الاجتماع."
+    },
+    {
+      "id": "c1-u5-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "tutarlı iletişim"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «tutarlı iletişim». اختر السجل المناسب واجعل الرسائل والقرارات متسقة وتحقق من وضوح المسؤوليات."
+    },
+    {
+      "id": "c1-u5-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "الحفاظ على الاتساق بين الرسالة والقرار.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحفاظ على الاتساق بين الرسالة والقرار."
+    },
+    {
+      "id": "c1-u5-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "نفذ محاكاة تشمل رسالة ومقترحاً واجتماعاً ومحضراً.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "نفذ محاكاة تشمل رسالة ومقترحاً واجتماعاً ومحضراً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u5",
+    "legacyGlobalNumber": 349
+  }
+}

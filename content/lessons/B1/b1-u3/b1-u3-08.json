@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u3-08",
+  "level": "B1",
+  "unitId": "b1-u3",
+  "order": 8,
+  "title": {
+    "ar": "التخيير والتناوب ya...ya وister...ister",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "تقديم خيارين أو بديلين في الجملة.",
+  "rule": "ya ... ya (da) تعني إما ... أو، وister ... ister تعني سواء ... أو/سواء أكان ... أم. يجب الحفاظ على التوازي بين الخيارين.",
+  "vocabulary": [
+    {
+      "term": "ya ... ya da",
+      "meaningAr": "إما ... أو",
+      "exampleTr": "Ya otobüsle gidelim ya da yürüyelim.",
+      "exampleAr": "إما أن نذهب بالحافلة أو نمشي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ya bugün ya yarın görüşelim.",
+      "ar": "لنلتقِ إما اليوم أو غداً."
+    },
+    {
+      "tr": "İster evde ister dışarıda çalışabilirsin.",
+      "ar": "يمكنك العمل سواء في المنزل أو خارجه."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Nasıl gidelim?",
+      "ar": "كيف نذهب؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ya metroya binelim ya da taksi çağıralım.",
+      "ar": "إما أن نركب المترو أو نطلب سيارة أجرة."
+    }
+  ],
+  "speakingTask": "اقترح ثلاثة اختيارات باستخدام ya...ya da وister...ister.",
+  "questions": [
+    {
+      "id": "b1-u3-08-q1",
+      "prompt": "ما معنى «ya ... ya da»؟",
+      "options": [
+        "إما ... أو",
+        "ليس ... بل",
+        "كلما ... زاد",
+        "لا ... ولا"
+      ],
+      "answerIndex": 0,
+      "explanation": "ya ... ya da تعني إما ... أو."
+    },
+    {
+      "id": "b1-u3-08-q2",
+      "prompt": "ما ترجمة الجملة: «Ya otobüsle gidelim ya da yürüyelim.»؟",
+      "options": [
+        "نذهب دائماً مشياً.",
+        "إما أن نذهب بالحافلة أو نمشي.",
+        "نذهب بالحافلة لأننا نمشي.",
+        "لا نذهب بالحافلة ولا نمشي."
+      ],
+      "answerIndex": 1,
+      "explanation": "Ya otobüsle gidelim ya da yürüyelim. تعني إما أن نذهب بالحافلة أو نمشي.."
+    },
+    {
+      "id": "b1-u3-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "ne ... ne de",
+        "çünkü ...",
+        "ister ... ister",
+        "hem ... hem de"
+      ],
+      "answerIndex": 2,
+      "explanation": "سواء ... أو، لعرض بديلين دون تفضيل صريح."
+    },
+    {
+      "id": "b1-u3-08-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «ister ... ister»؟",
+      "options": [
+        "الجمع بين شيئين",
+        "نفي شيئين",
+        "ذكر السبب",
+        "عرض بديلين أو خيارين"
+      ],
+      "answerIndex": 3,
+      "explanation": "عرض بدائل أو خيارات متعددة."
+    },
+    {
+      "id": "b1-u3-08-q5",
+      "prompt": "أكمل التركيب: Ya otobüsle gidelim ya da yürüyelim.",
+      "options": [
+        "çünkü ...",
+        "ister ... ister",
+        "hem ... hem de",
+        "ne ... ne de"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي ister ... ister؛ سواء ... أو، لعرض بديلين دون تفضيل صريح."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u3",
+    "legacyGlobalNumber": 148
+  }
+}

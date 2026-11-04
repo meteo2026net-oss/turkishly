@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-8",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u3-08",
+      "order": 8,
+      "titleAr": "السؤال عن الأشياء ووصفها في حوار",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن الأشياء ومالكها ووصفها في حوار يومي.",
+  "rule": "للسؤال عن ماهية الشيء نقول Bu ne؟ (ما هذا؟)، وعن صاحبه Bu kimin؟ (لمن هذا؟)، وعن مكانه Nerede؟ (أين؟). وللسؤال عن السعر Ne kadar؟ (كم السعر؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu ne?",
+      "ar": "ما هذا؟"
+    },
+    {
+      "tr": "Bu kimin çantası?",
+      "ar": "لمن هذه الحقيبة؟"
+    },
+    {
+      "tr": "Ne kadar?",
+      "ar": "كم السعر؟"
+    },
+    {
+      "tr": "Çanta nerede?",
+      "ar": "أين الحقيبة؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u3-8-q1",
+      "prompt": "كيف تسأل «لمن هذا؟»",
+      "options": [
+        "Bu ne?",
+        "Bu kimin?",
+        "Nerede?",
+        "Ne kadar?"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bu kimin؟ تعني لمن هذا؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 8
+  }
+}

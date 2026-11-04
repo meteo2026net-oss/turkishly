@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-5",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a2-u4-05",
+      "order": 5,
+      "titleAr": "التعبير عن الزمن وترتيب الروتين",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الزمن وترتيب الروتين.",
+  "rule": "تساعد كلمات الزمن على تحديد وقت الفعل: sabah صباحاً، öğleden sonra بعد الظهر، akşam مساءً، gece ليلاً، önce قبل، sonra بعد. مثال: Önce kahvaltı yapıyorum, sonra işe gidiyorum (أتناول الفطور أولاً، ثم أذهب إلى العمل).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "sabah",
+      "ar": "صباحاً"
+    },
+    {
+      "tr": "akşam",
+      "ar": "مساءً"
+    },
+    {
+      "tr": "önce",
+      "ar": "أولاً / قبل"
+    },
+    {
+      "tr": "sonra",
+      "ar": "بعد ذلك"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-5-q1",
+      "prompt": "ما معنى sonra؟",
+      "options": [
+        "قبل",
+        "بعد ذلك",
+        "أمس",
+        "دائماً"
+      ],
+      "answerIndex": 1,
+      "explanation": "sonra تعني بعد ذلك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 5
+  }
+}

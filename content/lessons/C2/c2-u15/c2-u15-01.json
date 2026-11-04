@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u15-01",
+  "level": "C2",
+  "unitId": "c2-u15",
+  "order": 1,
+  "title": {
+    "ar": "الاستماع تحت ضغط",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+    "titleTr": "İleri Sözlü Çeviri ve Dilsel Arabuluculuk",
+    "description": "الاستماع المتقدم والتدوين والترجمة التتابعية وإدارة المصطلحات ومراجعة الأداء."
+  },
+  "contentStatus": "full",
+  "goal": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+  "rule": "استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف.",
+  "vocabulary": [
+    {
+      "term": "baskı altında dinleme",
+      "meaningAr": "الاستماع تحت الضغط",
+      "exampleTr": "Hızlı konuşmada ana savı ve konuşmacının tutumunu izlemeliyiz.",
+      "exampleAr": "في الحديث السريع ينبغي تتبع الفكرة الرئيسة وموقف المتحدث."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Hızlı konuşmada ana savı ve konuşmacının tutumunu izlemeliyiz.",
+      "ar": "في الحديث السريع ينبغي تتبع الفكرة الرئيسة وموقف المتحدث."
+    },
+    {
+      "tr": "Hızlı konuşmada ana savı ve konuşmacının tutumunu izlemeliyiz.",
+      "ar": "في الحديث السريع ينبغي تتبع الفكرة الرئيسة وموقف المتحدث."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "baskı altında dinleme konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في الاستماع تحت الضغط؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "نفذ تمريناً شفهياً حول الاستماع تحت ضغط، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u15-01-q1",
+      "prompt": "ما معنى «baskı altında dinleme»؟",
+      "options": [
+        "طلب الإذن",
+        "الاستماع تحت الضغط",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«baskı altında dinleme» تعني: الاستماع تحت الضغط."
+    },
+    {
+      "id": "c2-u15-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "في الحديث السريع ينبغي تتبع الفكرة الرئيسة وموقف المتحدث.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "في الحديث السريع ينبغي تتبع الفكرة الرئيسة وموقف المتحدث."
+    },
+    {
+      "id": "c2-u15-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "baskı altında dinleme"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «baskı altında dinleme». استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف."
+    },
+    {
+      "id": "c2-u15-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إتقان الاستماع تحت الضغط في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إتقان الاستماع تحت الضغط في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u15-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "نفذ تمريناً شفهياً حول الاستماع تحت ضغط، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "نفذ تمريناً شفهياً حول الاستماع تحت ضغط، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
+    "legacyUnitId": "c2-u15",
+    "legacyGlobalNumber": 561
+  }
+}

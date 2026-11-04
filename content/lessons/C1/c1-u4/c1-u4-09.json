@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u4-09",
+  "level": "C1",
+  "unitId": "c1-u4",
+  "order": 9,
+  "title": {
+    "ar": "مراجعة الاستماع المتقدم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاستماع المتقدم وتحليل الخطاب",
+    "titleTr": "İleri Dinleme ve Söylem Analizi",
+    "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
+  },
+  "contentStatus": "full",
+  "goal": "دمج التلخيص والاستنتاج وتحليل النبرة وتدوين الملاحظات.",
+  "rule": "استمع للفكرة العامة ثم للبنية والأدلة وراجع استنتاجاتك مع التسجيل.",
+  "vocabulary": [
+    {
+      "term": "dinlediğini değerlendirmek",
+      "meaningAr": "يقيّم ما استمع إليه",
+      "exampleTr": "Kaydı yeniden dinleyerek notlarımdaki eksik bağlantıları tamamladım.",
+      "exampleAr": "أكملت الروابط الناقصة في ملاحظاتي بإعادة الاستماع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kaydı yeniden dinleyerek notlarımdaki eksik bağlantıları tamamladım.",
+      "ar": "أكملت الروابط الناقصة في ملاحظاتي بإعادة الاستماع."
+    },
+    {
+      "tr": "Dinleme raporumu kanıtlarla tamamladım.",
+      "ar": "أكملت تقرير الاستماع بالأدلة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İlk dinleyişte her şeyi anladın mı؟",
+      "ar": "هل فهمت من المرة الأولى؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "İkinci dinleyişte ayrıntıları doğruladım.",
+      "ar": "تحققت من التفاصيل في الاستماع الثاني."
+    }
+  ],
+  "speakingTask": "أنجز تقريراً يتضمن ملخصاً وموقف المتحدث وثلاثة استنتاجات.",
+  "questions": [
+    {
+      "id": "c1-u4-09-q1",
+      "prompt": "ما معنى «dinlediğini değerlendirmek»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "يقيّم ما استمع إليه"
+      ],
+      "answerIndex": 3,
+      "explanation": "«dinlediğini değerlendirmek» تعني: يقيّم ما استمع إليه."
+    },
+    {
+      "id": "c1-u4-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "أكملت الروابط الناقصة في ملاحظاتي بإعادة الاستماع.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "أكملت الروابط الناقصة في ملاحظاتي بإعادة الاستماع."
+    },
+    {
+      "id": "c1-u4-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "bütünleşik dinleme",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «bütünleşik dinleme». استمع للفكرة العامة ثم للبنية والأدلة وراجع استنتاجاتك مع التسجيل."
+    },
+    {
+      "id": "c1-u4-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "توظيف استراتيجيات الاستماع بصورة متكاملة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "توظيف استراتيجيات الاستماع بصورة متكاملة."
+    },
+    {
+      "id": "c1-u4-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "أنجز تقريراً يتضمن ملخصاً وموقف المتحدث وثلاثة استنتاجات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أنجز تقريراً يتضمن ملخصاً وموقف المتحدث وثلاثة استنتاجات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u4",
+    "legacyGlobalNumber": 339
+  }
+}

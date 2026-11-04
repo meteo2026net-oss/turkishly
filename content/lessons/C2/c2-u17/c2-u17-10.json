@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u17-10",
+  "level": "C2",
+  "unitId": "c2-u17",
+  "order": 10,
+  "title": {
+    "ar": "ملف إنجاز الترجمة الأدبية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الأدبية والتحليل الأسلوبي",
+    "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
+    "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
+  },
+  "contentStatus": "full",
+  "goal": "اجمع النص الأصلي والترجمة والمسودات والقرارات التحريرية وتعليقات المراجعة في ملف موثق.",
+  "rule": "اجمع النص الأصلي والترجمة والمسودات والقرارات التحريرية وتعليقات المراجعة في ملف موثق.",
+  "vocabulary": [
+    {
+      "term": "çeviri portfolyosu",
+      "meaningAr": "ملف إنجاز الترجمة",
+      "exampleTr": "Çeviri kararlarımı örneklerle açıklayan bir portfolyo hazırladım.",
+      "exampleAr": "أعددت ملف إنجاز يشرح قراراتي الترجمية بالأمثلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çeviri kararlarımı örneklerle açıklayan bir portfolyo hazırladım.",
+      "ar": "أعددت ملف إنجاز يشرح قراراتي الترجمية بالأمثلة."
+    },
+    {
+      "tr": "Portfolyo, yalnızca sonucu değil karar sürecini de gösterir.",
+      "ar": "يعرض ملف الإنجاز عملية اتخاذ القرار لا النتيجة وحدها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Portfolyoda hangi belgeler bulunmalı?",
+      "ar": "ما الوثائق التي ينبغي أن يتضمنها الملف؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kaynak metin, taslaklar ve gerekçeli kararlar.",
+      "ar": "النص الأصلي والمسودات والقرارات المبررة."
+    }
+  ],
+  "speakingTask": "أنشئ ملفاً يضم ترجمة أدبية وتعليقات تشرح أهم القرارات.",
+  "questions": [
+    {
+      "id": "c2-u17-10-q1",
+      "prompt": "ما معنى «çeviri portfolyosu»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "ملف إنجاز الترجمة",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«çeviri portfolyosu» تعني: ملف إنجاز الترجمة."
+    },
+    {
+      "id": "c2-u17-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أعددت ملف إنجاز يشرح قراراتي الترجمية بالأمثلة."
+      ],
+      "answerIndex": 3,
+      "explanation": "أعددت ملف إنجاز يشرح قراراتي الترجمية بالأمثلة."
+    },
+    {
+      "id": "c2-u17-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "çeviri notu",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «çeviri notu». اجمع النص الأصلي والترجمة والمسودات والقرارات التحريرية وتعليقات المراجعة في ملف موثق."
+    },
+    {
+      "id": "c2-u17-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "ملاحظة ترجمية",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "ملاحظة ترجمية"
+    },
+    {
+      "id": "c2-u17-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ ملفاً يضم ترجمة أدبية وتعليقات تشرح أهم القرارات."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنشئ ملفاً يضم ترجمة أدبية وتعليقات تشرح أهم القرارات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u17",
+    "legacyGlobalNumber": 590
+  }
+}

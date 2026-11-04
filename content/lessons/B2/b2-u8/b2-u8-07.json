@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-07",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 7,
+  "title": {
+    "ar": "الوساطة وتسوية الخلافات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القانون والحقوق والمؤسسات",
+    "titleTr": "Hukuk, Haklar ve Kurumlar",
+    "description": "الحقوق والإجراءات الرسمية والخصوصية والعقود وتسوية الخلافات."
+  },
+  "contentStatus": "full",
+  "goal": "arabuluculuk",
+  "rule": "Arabuluculuk tarafların ortak bir çözüm bulmasına yardımcı olabilir.",
+  "vocabulary": [
+    {
+      "term": "وساطة",
+      "meaningAr": "taraf",
+      "exampleTr": "Arabuluculuk tarafların ortak bir çözüm bulmasına yardımcı olabilir.",
+      "exampleAr": "قد تساعد الوساطة الأطراف على إيجاد حل مشترك."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "التعبير عن المساعدة",
+      "ar": ""
+    },
+    {
+      "tr": "Arabuluculuk tarafların ortak bir çözüm bulmasına yardımcı olabilir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Tarafsız bir kişi görüşmeyi yönetti.|أدار شخص محايد النقاش.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Anlaşmazlığı nasıl çözeriz? — كيف نحل الخلاف؟\nB: Önce tarafları dinleyelim. — لنستمع إلى الأطراف أولاً.",
+  "questions": [
+    {
+      "id": "b2-u8-07-q1",
+      "prompt": "ما معنى «وساطة»؟",
+      "options": [
+        "تعبير غير مناسب",
+        "طرف",
+        "ortak çözüm",
+        "حل مشترك"
+      ],
+      "answerIndex": 1,
+      "explanation": "وساطة تعني taraf."
+    },
+    {
+      "id": "b2-u8-07-q2",
+      "prompt": "ما ترجمة الجملة: «Arabuluculuk tarafların ortak bir çözüm bulmasına yardımcı olabilir.»؟",
+      "options": [
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "قد تساعد الوساطة الأطراف على إيجاد حل مشترك.|قد تساعد الوساطة الأطراف على إيجاد حل مشترك.",
+        "سأزور المكتبة غداً."
+      ],
+      "answerIndex": 2,
+      "explanation": "Arabuluculuk tarafların ortak bir çözüm bulmasına yardımcı olabilir. تعني قد تساعد الوساطة الأطراف على إيجاد حل مشترك.."
+    },
+    {
+      "id": "b2-u8-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "شرح دور الوسيط"
+      ],
+      "answerIndex": 3,
+      "explanation": "yardımcı olmak."
+    },
+    {
+      "id": "b2-u8-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «شرح دور الوسيط»؟",
+      "options": [
+        "يساعد على",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "يساعد على"
+    },
+    {
+      "id": "b2-u8-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "يساعد على",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "يساعد على"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 257
+  }
+}

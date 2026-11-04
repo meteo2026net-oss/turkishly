@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-3",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a2-u6-03",
+      "order": 3,
+      "titleAr": "تصريف الوجوب مع الضمائر",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "تصريف الوجوب مع الضمائر.",
+  "rule": "تتصل علامة الشخص بصيغة -malı/-meli: Ben gitmeliyim، Sen gitmelisin، O gitmeli، Biz gitmeliyiz، Siz gitmelisiniz، Onlar gitmeliler. لاحظ أن المعنى يتغير بحسب الضمير.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "gitmeliyim",
+      "ar": "يجب أن أذهب"
+    },
+    {
+      "tr": "gitmelisin",
+      "ar": "يجب أن تذهب"
+    },
+    {
+      "tr": "gitmeliyiz",
+      "ar": "يجب أن نذهب"
+    },
+    {
+      "tr": "gitmelisiniz",
+      "ar": "يجب أن تذهبوا"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-3-q1",
+      "prompt": "أي صيغة تعني «يجب أن نذهب»؟",
+      "options": [
+        "gitmeliyim",
+        "gitmelisin",
+        "gitmeliyiz",
+        "gitmelisiniz"
+      ],
+      "answerIndex": 2,
+      "explanation": "gitmeliyiz هي صيغة المتكلم الجمع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 3
+  }
+}

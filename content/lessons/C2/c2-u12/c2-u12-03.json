@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u12-03",
+  "level": "C2",
+  "unitId": "c2-u12",
+  "order": 3,
+  "title": {
+    "ar": "صياغة البروتوكولات والبيانات الرسمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الدبلوماسية والقيادة الدولية والمشروع الختامي",
+    "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
+    "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
+  },
+  "contentStatus": "full",
+  "goal": "إنتاج بيانات رسمية دقيقة ومتوازنة ومتسقة مع الصلاحيات.",
+  "rule": "تحقق من الأسماء والصفات والتواريخ، وميز الموقف الرسمي من التوقع أو التفسير.",
+  "vocabulary": [
+    {
+      "term": "resmî bildiri",
+      "meaningAr": "بيان رسمي",
+      "exampleTr": "Bildiride yalnızca doğrulanmış ve yetkili makamca onaylanmış bilgiler yer aldı.",
+      "exampleAr": "تضمن البيان معلومات مؤكدة فقط ومعتمدة من الجهة المخولة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bildiride yalnızca doğrulanmış ve yetkili makamca onaylanmış bilgiler yer aldı.",
+      "ar": "تضمن البيان معلومات مؤكدة فقط ومعتمدة من الجهة المخولة."
+    },
+    {
+      "tr": "Resmî metnin kapsamını ve onay zincirini doğruladım.",
+      "ar": "تحققت من نطاق النص الرسمي وتسلسل اعتماده."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tahmini bilgi ekleyelim mi؟",
+      "ar": "هل نضيف معلومات تقديرية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Doğrulanmadıysa ayrı ve açık biçimde belirtilmeli.",
+      "ar": "إن لم تكن مؤكدة فيجب تمييزها بوضوح."
+    }
+  ],
+  "speakingTask": "حرر بياناً رسمياً ثم راجعه من حيث الدقة والصلاحيات والنبرة.",
+  "questions": [
+    {
+      "id": "c2-u12-03-q1",
+      "prompt": "ما معنى «resmî bildiri»؟",
+      "options": [
+        "طلب الإذن",
+        "بيان رسمي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«resmî bildiri» تعني: بيان رسمي."
+    },
+    {
+      "id": "c2-u12-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تضمن البيان معلومات مؤكدة فقط ومعتمدة من الجهة المخولة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تضمن البيان معلومات مؤكدة فقط ومعتمدة من الجهة المخولة."
+    },
+    {
+      "id": "c2-u12-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "protokol metni"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «protokol metni». تحقق من الأسماء والصفات والتواريخ، وميز الموقف الرسمي من التوقع أو التفسير."
+    },
+    {
+      "id": "c2-u12-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "صياغة البيانات الرسمية والبروتوكولية.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "صياغة البيانات الرسمية والبروتوكولية."
+    },
+    {
+      "id": "c2-u12-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حرر بياناً رسمياً ثم راجعه من حيث الدقة والصلاحيات والنبرة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حرر بياناً رسمياً ثم راجعه من حيث الدقة والصلاحيات والنبرة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u12",
+    "legacyGlobalNumber": 533
+  }
+}

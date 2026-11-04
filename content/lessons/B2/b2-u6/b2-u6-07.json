@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u6-07",
+  "level": "B2",
+  "unitId": "b2-u6",
+  "order": 7,
+  "title": {
+    "ar": "السياحة والتراث المحلي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المجتمع والثقافة والقضايا المعاصرة",
+    "titleTr": "Toplum, Kültür ve Güncel Konular",
+    "description": "المشاركة المدنية والبيئة والإعلام والثقافة والصحة وكتابة الرأي."
+  },
+  "contentStatus": "full",
+  "goal": "وصف المواقع التراثية وأثر السياحة.",
+  "rule": "Sorumlu turizm kültürel mirasın korunmasına katkı sağlar.",
+  "vocabulary": [
+    {
+      "term": "miras",
+      "meaningAr": "تراث",
+      "exampleTr": "تساهم السياحة المسؤولة في الحفاظ على التراث الثقافي.",
+      "exampleAr": "تراث"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الماضي",
+      "ar": ""
+    },
+    {
+      "tr": "Tarihi yapılar dikkatle korunmalıdır.",
+      "ar": "ينبغي الحفاظ على المباني التاريخية بعناية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Yerel halkın katılımı önemlidir.|مشاركة السكان المحليين مهمة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Turizm nasıl sürdürülebilir olur? — كيف تصبح السياحة مستدامة؟\nB: Doğayı ve mirası koruyarak. — بحماية الطبيعة والتراث.",
+  "questions": [
+    {
+      "id": "b2-u6-07-q1",
+      "prompt": "ما معنى «miras»؟",
+      "options": [
+        "فندق",
+        "kültürel miras|التراث الثقافي",
+        "منافسة",
+        "تأشيرة"
+      ],
+      "answerIndex": 1,
+      "explanation": "miras تعني تراث."
+    },
+    {
+      "id": "b2-u6-07-q2",
+      "prompt": "ما ترجمة الجملة: «تساهم السياحة المسؤولة في الحفاظ على التراث الثقافي.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "تساهم السياحة المسؤولة في الحفاظ على التراث الثقافي.|تراث",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "تساهم السياحة المسؤولة في الحفاظ على التراث الثقافي. تعني تراث."
+    },
+    {
+      "id": "b2-u6-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "وصف التراث والسياحة",
+        "الشرط",
+        "النفي",
+        "خريطة"
+      ],
+      "answerIndex": 3,
+      "explanation": "isim tamlaması."
+    },
+    {
+      "id": "b2-u6-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «خريطة»؟",
+      "options": [
+        "تركيب اسمي",
+        "وصف التراث والسياحة",
+        "الشرط",
+        "النفي"
+      ],
+      "answerIndex": 0,
+      "explanation": "تركيب اسمي"
+    },
+    {
+      "id": "b2-u6-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "الشرط",
+        "النفي",
+        "تركيب اسمي",
+        "وصف التراث والسياحة"
+      ],
+      "answerIndex": 2,
+      "explanation": "تركيب اسمي"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u6",
+    "legacyGlobalNumber": 237
+  }
+}

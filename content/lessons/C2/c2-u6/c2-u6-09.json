@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u6-09",
+  "level": "C2",
+  "unitId": "c2-u6",
+  "order": 9,
+  "title": {
+    "ar": "تقييم أثر القيادة والتواصل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والوساطة الاستراتيجية المتقدمة",
+    "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
+    "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
+  },
+  "contentStatus": "full",
+  "goal": "قياس أثر القرارات والرسائل على النتائج والثقة والتعاون.",
+  "rule": "اجمع مؤشرات كمية ونوعية، وقارنها بالهدف، وافصل أثر التدخل عن العوامل الأخرى.",
+  "vocabulary": [
+    {
+      "term": "iletişim etkisi",
+      "meaningAr": "أثر التواصل",
+      "exampleTr": "Geri bildirimler, iletişim planının güven üzerindeki etkisini değerlendirmemizi sağladı.",
+      "exampleAr": "أتاحت الملاحظات تقييم أثر خطة التواصل في الثقة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Geri bildirimler, iletişim planının güven üzerindeki etkisini değerlendirmemizi sağladı.",
+      "ar": "أتاحت الملاحظات تقييم أثر خطة التواصل في الثقة."
+    },
+    {
+      "tr": "İletişim sonuçlarını hedeflerle karşılaştırdım.",
+      "ar": "قارنت نتائج التواصل بالأهداف."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yalnızca sayısal veriler yeterli mi؟",
+      "ar": "هل تكفي البيانات الرقمية وحدها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Nitel geri bildirimleri de incelemeliyiz.",
+      "ar": "ينبغي دراسة الملاحظات النوعية أيضاً."
+    }
+  ],
+  "speakingTask": "اكتب تقييماً بعد مشروع يضم ثلاثة مؤشرات ودرساً مستفاداً.",
+  "questions": [
+    {
+      "id": "c2-u6-09-q1",
+      "prompt": "ما معنى «iletişim etkisi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "أثر التواصل"
+      ],
+      "answerIndex": 3,
+      "explanation": "«iletişim etkisi» تعني: أثر التواصل."
+    },
+    {
+      "id": "c2-u6-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "أتاحت الملاحظات تقييم أثر خطة التواصل في الثقة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "أتاحت الملاحظات تقييم أثر خطة التواصل في الثقة."
+    },
+    {
+      "id": "c2-u6-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "etki değerlendirmesi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «etki değerlendirmesi». اجمع مؤشرات كمية ونوعية، وقارنها بالهدف، وافصل أثر التدخل عن العوامل الأخرى."
+    },
+    {
+      "id": "c2-u6-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "قياس أثر التواصل والقيادة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "قياس أثر التواصل والقيادة."
+    },
+    {
+      "id": "c2-u6-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب تقييماً بعد مشروع يضم ثلاثة مؤشرات ودرساً مستفاداً.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب تقييماً بعد مشروع يضم ثلاثة مؤشرات ودرساً مستفاداً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
+    "legacyUnitId": "c2-u6",
+    "legacyGlobalNumber": 479
+  }
+}

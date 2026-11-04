@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u4-05",
+  "level": "C2",
+  "unitId": "c2-u4",
+  "order": 5,
+  "title": {
+    "ar": "التمييز بين الخطأ المنطقي والمغالطة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب والنقد الاجتماعي المتقدم",
+    "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
+    "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
+  },
+  "contentStatus": "full",
+  "goal": "كشف الخلل في بنية الحجة وعدم الخلط بين ضعف الدليل والمغالطة.",
+  "rule": "حدد شكل الاستدلال، وافحص صلة المقدمات، وميز التعميم المتسرع والشخصنة والثنائية الزائفة.",
+  "vocabulary": [
+    {
+      "term": "mantık yanılgısı",
+      "meaningAr": "مغالطة منطقية",
+      "exampleTr": "Bir iddianın sahibini eleştirmek, iddianın kendisini çürütmez.",
+      "exampleAr": "انتقاد صاحب الادعاء لا يدحض الادعاء نفسه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bir iddianın sahibini eleştirmek, iddianın kendisini çürütmez.",
+      "ar": "انتقاد صاحب الادعاء لا يدحض الادعاء نفسه."
+    },
+    {
+      "tr": "Mantık hatasını örnek üzerinden gösterdim.",
+      "ar": "أوضحت الخطأ المنطقي من خلال مثال."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Konuşmacının güvenilir olmaması iddiayı çürütür mü؟",
+      "ar": "هل عدم موثوقية المتحدث يدحض الادعاء؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, iddia ayrıca değerlendirilmelidir.",
+      "ar": "لا، ينبغي تقييم الادعاء بصورة مستقلة."
+    }
+  ],
+  "speakingTask": "استخرج أربع مغالطات من نقاش واشرح موضع الخلل.",
+  "questions": [
+    {
+      "id": "c2-u4-05-q1",
+      "prompt": "ما معنى «mantık yanılgısı»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مغالطة منطقية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«mantık yanılgısı» تعني: مغالطة منطقية."
+    },
+    {
+      "id": "c2-u4-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "انتقاد صاحب الادعاء لا يدحض الادعاء نفسه.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "انتقاد صاحب الادعاء لا يدحض الادعاء نفسه."
+    },
+    {
+      "id": "c2-u4-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "safsata çözümlemesi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «safsata çözümlemesi». حدد شكل الاستدلال، وافحص صلة المقدمات، وميز التعميم المتسرع والشخصنة والثنائية الزائفة."
+    },
+    {
+      "id": "c2-u4-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحديد المغالطات وتفسير أثرها.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحديد المغالطات وتفسير أثرها."
+    },
+    {
+      "id": "c2-u4-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "استخرج أربع مغالطات من نقاش واشرح موضع الخلل.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "استخرج أربع مغالطات من نقاش واشرح موضع الخلل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
+    "legacyUnitId": "c2-u4",
+    "legacyGlobalNumber": 455
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u10-08",
+  "level": "B2",
+  "unitId": "b2-u10",
+  "order": 8,
+  "title": {
+    "ar": "التنوع والشمول في بيئة العمل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل والقيادة المتقدمة",
+    "titleTr": "Geçmiş İletişim ve Liderlik",
+    "description": "التواصل بين الثقافات والذكاء العاطفي والقيادة والاجتماعات وإدارة الأزمات والعمل الرقمي."
+  },
+  "contentStatus": "full",
+  "goal": "kapsayıcı",
+  "rule": "Kapsayıcı bir ortam herkesin katkı sunmasını destekler.",
+  "vocabulary": [
+    {
+      "term": "شامل",
+      "meaningAr": "eşit katılım",
+      "exampleTr": "Kapsayıcı bir ortam herkesin katkı sunmasını destekler.",
+      "exampleAr": "تدعم البيئة الشاملة مساهمة الجميع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "herkesin + isim",
+      "ar": ""
+    },
+    {
+      "tr": "Kapsayıcı bir ortam herkesin katkı sunmasını destekler.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "الجميع",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تعميم المشاركة",
+  "questions": [
+    {
+      "id": "b2-u10-08-q1",
+      "prompt": "ما معنى «شامل»؟",
+      "options": [
+        "تجاهل",
+        "تعبير غير ملائم",
+        "مشاركة متساوية",
+        "تمييز"
+      ],
+      "answerIndex": 2,
+      "explanation": "شامل تعني eşit katılım."
+    },
+    {
+      "id": "b2-u10-08-q2",
+      "prompt": "ما ترجمة الجملة: «Kapsayıcı bir ortam herkesin katkı sunmasını destekler.»؟",
+      "options": [
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Kapsayıcı bir ortam herkesin katkı sunmasını destekler.|تدعم البيئة الشاملة مساهمة الجميع."
+      ],
+      "answerIndex": 3,
+      "explanation": "Kapsayıcı bir ortam herkesin katkı sunmasını destekler. تعني تدعم البيئة الشاملة مساهمة الجميع.."
+    },
+    {
+      "id": "b2-u10-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "kapsayıcı ortam",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "بيئة شاملة."
+    },
+    {
+      "id": "b2-u10-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «kapsayıcı ortam»؟",
+      "options": [
+        "طلب الإذن",
+        "تعزيز المشاركة",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "تعزيز المشاركة"
+    },
+    {
+      "id": "b2-u10-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "تعزيز المشاركة"
+      ],
+      "answerIndex": 3,
+      "explanation": "تعزيز المشاركة"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u10",
+    "legacyGlobalNumber": 278
+  }
+}

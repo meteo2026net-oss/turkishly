@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u10-03",
+  "level": "C1",
+  "unitId": "c1-u10",
+  "order": 3,
+  "title": {
+    "ar": "شرح الرسوم والبيانات المعقدة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العرض الأكاديمي المتقدم",
+    "titleTr": "İleri Akademik Sunum",
+    "description": "بناء العروض والانتقالات وشرح البيانات وإدارة الأسئلة والنقاش."
+  },
+  "contentStatus": "full",
+  "goal": "تفسير الرسم البياني والاتجاهات والاستثناءات بدقة شفوية.",
+  "rule": "صف المحاور والوحدات والفترة أولاً، ثم الاتجاه والفروق، ولا تستنتج ما لا تعرضه البيانات.",
+  "vocabulary": [
+    {
+      "term": "grafiği yorumlamak",
+      "meaningAr": "يفسر الرسم البياني",
+      "exampleTr": "Grafikteki artış, ikinci çeyrekte belirgin biçimde yavaşlıyor.",
+      "exampleAr": "يتباطأ الارتفاع الظاهر في الرسم بوضوح خلال الربع الثاني."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Grafikteki artış, ikinci çeyrekte belirgin biçimde yavaşlıyor.",
+      "ar": "يتباطأ الارتفاع الظاهر في الرسم بوضوح خلال الربع الثاني."
+    },
+    {
+      "tr": "Grafiği yalnızca görünen verilerle açıkladım.",
+      "ar": "شرحت الرسم اعتماداً على البيانات الظاهرة فقط."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu grafik neyi kanıtlıyor؟",
+      "ar": "ماذا يثبت هذا الرسم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yalnızca belirtilen dönemdeki eğilimi gösteriyor.",
+      "ar": "يظهر الاتجاه في الفترة المحددة فقط."
+    }
+  ],
+  "speakingTask": "اشرح رسماً افتراضياً في دقيقة مع ذكر اتجاه واستثناء وحد واحد.",
+  "questions": [
+    {
+      "id": "c1-u10-03-q1",
+      "prompt": "ما معنى «grafiği yorumlamak»؟",
+      "options": [
+        "طلب الإذن",
+        "يفسر الرسم البياني",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«grafiği yorumlamak» تعني: يفسر الرسم البياني."
+    },
+    {
+      "id": "c1-u10-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يتباطأ الارتفاع الظاهر في الرسم بوضوح خلال الربع الثاني.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "يتباطأ الارتفاع الظاهر في الرسم بوضوح خلال الربع الثاني."
+    },
+    {
+      "id": "c1-u10-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "veri görselleştirmesi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «veri görselleştirmesi». صف المحاور والوحدات والفترة أولاً، ثم الاتجاه والفروق، ولا تستنتج ما لا تعرضه البيانات."
+    },
+    {
+      "id": "c1-u10-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "شرح البيانات المرئية مع حدودها.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "شرح البيانات المرئية مع حدودها."
+    },
+    {
+      "id": "c1-u10-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اشرح رسماً افتراضياً في دقيقة مع ذكر اتجاه واستثناء وحد واحد.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اشرح رسماً افتراضياً في دقيقة مع ذكر اتجاه واستثناء وحد واحد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u10",
+    "legacyGlobalNumber": 393
+  }
+}

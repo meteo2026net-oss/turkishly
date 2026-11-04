@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u2-08",
+  "level": "B2",
+  "unitId": "b2-u2",
+  "order": 8,
+  "title": {
+    "ar": "التعبير عن التغيير التدريجي والاتجاهات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
+    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
+    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+  },
+  "contentStatus": "full",
+  "goal": "وصف اتجاه يتغير مع مرور الوقت.",
+  "rule": "تستخدم giderek وgitgide بمعنى تدريجياً، artış göstermek للارتفاع، azalma eğilimi göstermek لإظهار اتجاه نحو الانخفاض، sabit kalmak للثبات.",
+  "vocabulary": [
+    {
+      "term": "artış göstermek",
+      "meaningAr": "يُظهر ارتفاعاً / زيادة",
+      "exampleTr": "Son yıllarda çevrim içi eğitim talebi artış gösterdi.",
+      "exampleAr": "أظهر الطلب على التعليم عبر الإنترنت ارتفاعاً في السنوات الأخيرة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "اتجاه مكاني",
+      "ar": ""
+    },
+    {
+      "tr": "Maliyetler giderek yükseliyor.",
+      "ar": "التكاليف ترتفع تدريجياً."
+    },
+    {
+      "tr": "Katılım oranı son aylarda sabit kaldı.",
+      "ar": "ظل معدل المشاركة ثابتاً في الأشهر الأخيرة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sonuçlarda ne fark ettin?",
+      "ar": "ماذا لاحظت في النتائج؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Katılım giderek artıyor.",
+      "ar": "المشاركة تزداد تدريجياً."
+    }
+  ],
+  "speakingTask": "صف اتجاهاً صاعداً وآخر هابطاً باستخدام خمسة تعبيرات.",
+  "questions": [
+    {
+      "id": "b2-u2-08-q1",
+      "prompt": "ما معنى «artış göstermek»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "يُظهر ارتفاعاً / زيادة",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "artış göstermek تعني يُظهر ارتفاعاً / زيادة."
+    },
+    {
+      "id": "b2-u2-08-q2",
+      "prompt": "ما ترجمة الجملة: «Son yıllarda çevrim içi eğitim talebi artış gösterdi.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "أظهر الطلب على التعليم عبر الإنترنت ارتفاعاً في السنوات الأخيرة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Son yıllarda çevrim içi eğitim talebi artış gösterdi. تعني أظهر الطلب على التعليم عبر الإنترنت ارتفاعاً في السنوات الأخيرة.."
+    },
+    {
+      "id": "b2-u2-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "giderek + sıfat/fiil / artış göstermek",
+        "eğilim ve değişim",
+        "tek seferlik emir",
+        "geçmiş alışkanlık"
+      ],
+      "answerIndex": 0,
+      "explanation": "تعبير عن اتجاه متدرج أو زيادة."
+    },
+    {
+      "id": "b2-u2-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «giderek + sıfat/fiil / artış göstermek»؟",
+      "options": [
+        "النفي المطلق",
+        "وصف تغيرات كمية أو نوعية عبر الزمن.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "وصف تغيرات كمية أو نوعية عبر الزمن."
+    },
+    {
+      "id": "b2-u2-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "وصف تغيرات كمية أو نوعية عبر الزمن."
+      ],
+      "answerIndex": 3,
+      "explanation": "وصف تغيرات كمية أو نوعية عبر الزمن."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u2",
+    "legacyGlobalNumber": 198
+  }
+}

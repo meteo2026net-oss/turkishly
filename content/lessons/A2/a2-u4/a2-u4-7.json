@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-7",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u4-07",
+      "order": 7,
+      "titleAr": "وضع الظرف في الجملة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "وضع الظرف في الجملة وفهم المعنى.",
+  "rule": "غالباً يوضع الظرف قبل الفعل أو في موضع يبرز المعلومة المقصودة: Ben her sabah kahve içerim (أشرب القهوة كل صباح)، Kardeşim hızlı koşuyor (أخي يركض بسرعة). انتبه إلى أن ترتيب الكلمات قد يتغير للتوكيد، لكن الفعل يأتي غالباً قرب نهاية الجملة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "her sabah",
+      "ar": "كل صباح"
+    },
+    {
+      "tr": "hızlı koşuyor",
+      "ar": "يركض بسرعة"
+    },
+    {
+      "tr": "çok güzel",
+      "ar": "بشكل جميل جداً"
+    },
+    {
+      "tr": "Bugün erken kalktım.",
+      "ar": "استيقظت مبكراً اليوم."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-7-q1",
+      "prompt": "في جملة Ben her sabah kahve içerim، ماذا تصف her sabah؟",
+      "options": [
+        "مكان الشرب",
+        "تكرار الشرب",
+        "طريقة الشرب",
+        "لون القهوة"
+      ],
+      "answerIndex": 1,
+      "explanation": "her sabah تحدد تكرار/موعد شرب القهوة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 7
+  }
+}

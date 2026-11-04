@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u18-03",
+  "level": "C2",
+  "unitId": "c2-u18",
+  "order": 3,
+  "title": {
+    "ar": "التعبير عن عدم اليقين",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب العام والتحقق من الأدلة",
+    "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
+    "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
+  },
+  "contentStatus": "full",
+  "goal": "استخدم درجات اليقين بدقة، وافصل ما تثبته البيانات عما ترجحه أو لا تسمح بتحديده.",
+  "rule": "استخدم درجات اليقين بدقة، وافصل ما تثبته البيانات عما ترجحه أو لا تسمح بتحديده.",
+  "vocabulary": [
+    {
+      "term": "belirsizlik payı",
+      "meaningAr": "هامش عدم اليقين",
+      "exampleTr": "Verilerin kesin sonuç vermediğini açıkça belirttik.",
+      "exampleAr": "أوضحنا أن البيانات لا تقدم نتيجة قطعية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Verilerin kesin sonuç vermediğini açıkça belirttik.",
+      "ar": "أوضحنا أن البيانات لا تقدم نتيجة قطعية."
+    },
+    {
+      "tr": "Belirsizliği belirtmek, bulguyu zayıflatmaz; doğru sınırlar.",
+      "ar": "لا يضعف توضيح عدم اليقين النتيجة بل يحدد حدودها بدقة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu sonuç kesin mi?",
+      "ar": "هل هذه النتيجة مؤكدة؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Mevcut veriler yalnızca güçlü bir olasılığı destekliyor.",
+      "ar": "البيانات الحالية تدعم احتمالاً قوياً فقط."
+    }
+  ],
+  "speakingTask": "أعد صياغة خمس نتائج لتفصل المؤكد والمرجح وغير المحسوم.",
+  "questions": [
+    {
+      "id": "c2-u18-03-q1",
+      "prompt": "ما معنى «belirsizlik payı»؟",
+      "options": [
+        "طلب الإذن",
+        "هامش عدم اليقين",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«belirsizlik payı» تعني: هامش عدم اليقين."
+    },
+    {
+      "id": "c2-u18-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أوضحنا أن البيانات لا تقدم نتيجة قطعية.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "أوضحنا أن البيانات لا تقدم نتيجة قطعية."
+    },
+    {
+      "id": "c2-u18-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "olasılık dili"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «olasılık dili». استخدم درجات اليقين بدقة، وافصل ما تثبته البيانات عما ترجحه أو لا تسمح بتحديده."
+    },
+    {
+      "id": "c2-u18-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "لغة الاحتمال",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "لغة الاحتمال"
+    },
+    {
+      "id": "c2-u18-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أعد صياغة خمس نتائج لتفصل المؤكد والمرجح وغير المحسوم.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أعد صياغة خمس نتائج لتفصل المؤكد والمرجح وغير المحسوم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u18",
+    "legacyGlobalNumber": 593
+  }
+}

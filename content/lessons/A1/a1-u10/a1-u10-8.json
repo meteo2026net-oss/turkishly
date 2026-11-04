@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-8",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u10-08",
+      "order": 8,
+      "titleAr": "حوار في العيادة والصيدلية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "إجراء حوار تعليمي قصير في عيادة أو صيدلية.",
+  "rule": "اقرأ الحوار ولاحظ كيف يصف الشخص ما يشعر به، وكيف يسأل عن الموعد. عند عدم فهم السؤال يمكنك طلب إعادته بقول Tekrar eder misiniz؟ (هل يمكنكم الإعادة؟). تعلّم العبارات لفهم المحادثة والتواصل بوضوح.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Hasta: Merhaba, randevum var.",
+      "ar": "المريض: مرحباً، لدي موعد."
+    },
+    {
+      "tr": "Görevli: Adınız nedir?",
+      "ar": "الموظف: ما اسمك؟"
+    },
+    {
+      "tr": "Hasta: Başım ağrıyor.",
+      "ar": "المريض: رأسي يؤلمني."
+    },
+    {
+      "tr": "Doktor: Ne zamandır?",
+      "ar": "الطبيب: منذ متى؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-8-q1",
+      "prompt": "ماذا تعني Adınız nedir؟",
+      "options": [
+        "ما اسمك؟ بصيغة مهذبة",
+        "أين المستشفى؟",
+        "هل أنت بخير؟",
+        "كم عمرك؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "Adınız nedir؟ تعني ما اسمك؟ بصيغة مهذبة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 8
+  }
+}

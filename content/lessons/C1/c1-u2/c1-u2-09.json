@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u2-09",
+  "level": "C1",
+  "unitId": "c1-u2",
+  "order": 9,
+  "title": {
+    "ar": "التحرير الأسلوبي والدقة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الكتابة الأكاديمية المتقدمة",
+    "titleTr": "İleri Akademik Yazma",
+    "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
+  },
+  "contentStatus": "full",
+  "goal": "تحسين الإيجاز والاتساق والسجل الأكاديمي.",
+  "rule": "احذف الحشو والتكرار، واستعمل مصطلحاً واحداً للمفهوم نفسه، وتجنب الادعاء القطعي إذا كان الدليل احتماليّاً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Terimler metnin tamamında tutarlı biçimde kullanılmalıdır.",
+      "ar": "ينبغي استخدام المصطلحات باتساق في النص كله."
+    },
+    {
+      "tr": "Metindeki tekrarları ve belirsiz ifadeleri düzeltin.",
+      "ar": "حرّر فقرة لتصبح أدق وأوجز وأكثر اتساقاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «tutarlılık»؟",
+      "options": [
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "اتساق",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "«tutarlılık» تعني اتساق.",
+      "id": "c1-u2-09-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Terimler metnin tamamında tutarlı biçimde kullanılmalıdır.»؟",
+      "options": [
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ينبغي استخدام المصطلحات باتساق في النص كله."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجمة الجملة: ينبغي استخدام المصطلحات باتساق في النص كله.",
+      "id": "c1-u2-09-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «akademik üslup»؟",
+      "options": [
+        "akademik üslup",
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأسلوب الأكاديمي",
+      "id": "c1-u2-09-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية"
+      ],
+      "answerIndex": 1,
+      "explanation": "احذف الحشو والتكرار، واستعمل مصطلحاً واحداً للمفهوم نفسه، وتجنب الادعاء القطعي إذا كان الدليل احتماليّاً.",
+      "id": "c1-u2-09-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-09-q5"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_course_data.dart",
+    "legacyUnitId": "c1-u2",
+    "legacyGlobalNumber": 319
+  }
+}

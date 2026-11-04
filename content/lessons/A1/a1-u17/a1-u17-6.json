@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u17-6",
+  "level": "A1",
+  "unitId": "a1-u17",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u17-06",
+      "order": 6,
+      "titleAr": "المهارات والقدرات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمل والمهن والحياة المهنية",
+    "titleTr": "İşler, Meslekler ve İş Hayatı",
+    "description": "أسماء المهن وأماكن العمل والمهام والمسؤوليات وأوقات الدوام والمهارات والتعريف بالحياة المهنية."
+  },
+  "contentStatus": "full",
+  "goal": "وصف المهارات والقدرات باستخدام تراكيب بسيطة.",
+  "rule": "كلمات: beceri مهارة، deneyim خبرة، bilgisayar حاسوب، yabancı dil لغة أجنبية، takım çalışması العمل الجماعي. للتعبير عن القدرة نستخدم -ebil/-abil: Bilgisayar kullanabilirim (أستطيع استخدام الحاسوب)، Türkçe konuşabilirim (أستطيع التحدث بالتركية).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "beceri",
+      "ar": "مهارة"
+    },
+    {
+      "tr": "deneyim",
+      "ar": "خبرة"
+    },
+    {
+      "tr": "Bilgisayar kullanabilirim.",
+      "ar": "أستطيع استخدام الحاسوب."
+    },
+    {
+      "tr": "Türkçe konuşabilirim.",
+      "ar": "أستطيع التحدث بالتركية."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u17-6-q1",
+      "prompt": "ما معنى deneyim؟",
+      "options": [
+        "خبرة",
+        "إجازة",
+        "راتب",
+        "مكتب"
+      ],
+      "answerIndex": 0,
+      "explanation": "deneyim تعني خبرة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u17",
+    "legacyLessonOrder": 6
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u6-03",
+  "level": "B1",
+  "unitId": "b1-u6",
+  "order": 3,
+  "title": {
+    "ar": "التعبير عن المشاعر وردود الفعل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الشعور وسببه ورد الفعل المناسب.",
+  "rule": "تستخدم mutlu olmak للسعادة، şaşırmak للدهشة، endişelenmek للقلق، memnun kalmak للرضا. للتعبير عن السبب استخدم ...-dığı için.",
+  "vocabulary": [
+    {
+      "term": "memnun kalmak",
+      "meaningAr": "يكون راضياً / يشعر بالرضا",
+      "exampleTr": "Aldığım hizmetten çok memnun kaldım.",
+      "exampleAr": "كنت راضياً جداً عن الخدمة التي تلقيتها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Haberi duyunca çok şaşırdım.",
+      "ar": "تفاجأت كثيراً عندما سمعت الخبر."
+    },
+    {
+      "tr": "Sınav sonucu için endişeleniyorum.",
+      "ar": "أشعر بالقلق بشأن نتيجة الامتحان."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tatil nasıldı?",
+      "ar": "كيف كانت العطلة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Çok güzeldi, gerçekten memnun kaldım.",
+      "ar": "كانت جميلة جداً، وكنت راضياً حقاً."
+    }
+  ],
+  "speakingTask": "صف أربعة مشاعر مررت بها واشرح سبب كل شعور.",
+  "questions": [
+    {
+      "id": "b1-u6-03-q1",
+      "prompt": "ما معنى «memnun kalmak»؟",
+      "options": [
+        "المقارنة",
+        "يكون راضياً / يشعر بالرضا",
+        "السبب / النتيجة",
+        "الاحتمال"
+      ],
+      "answerIndex": 1,
+      "explanation": "memnun kalmak تعني يكون راضياً / يشعر بالرضا."
+    },
+    {
+      "id": "b1-u6-03-q2",
+      "prompt": "ما ترجمة الجملة: «Aldığım hizmetten çok memnun kaldım.»؟",
+      "options": [
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "كنت راضياً جداً عن الخدمة التي تلقيتها.",
+        "سأفعل ذلك في وقت آخر."
+      ],
+      "answerIndex": 2,
+      "explanation": "Aldığım hizmetten çok memnun kaldım. تعني كنت راضياً جداً عن الخدمة التي تلقيتها.."
+    },
+    {
+      "id": "b1-u6-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "...-den memnun kalmak"
+      ],
+      "answerIndex": 3,
+      "explanation": "حالة الاسم ablative بعد memnun kalmak."
+    },
+    {
+      "id": "b1-u6-03-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «...-den memnun kalmak»؟",
+      "options": [
+        "تحديد الشيء أو التجربة التي سببت الرضا.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحديد الشيء أو التجربة التي سببت الرضا."
+    },
+    {
+      "id": "b1-u6-03-q5",
+      "prompt": "أكمل التركيب: Aldığım hizmetten çok memnun kaldım.",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "...-den memnun kalmak",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي ...-den memnun kalmak؛ حالة الاسم ablative بعد memnun kalmak."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u6",
+    "legacyGlobalNumber": 173
+  }
+}

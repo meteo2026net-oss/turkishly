@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 import '../data/course_catalog.dart';
 import '../models/course_unit.dart';
 import '../services/learning_progress.dart';
+import '../services/lesson_content_repository.dart';
 import '../theme/app_theme.dart';
 import '../widgets/brand_mark.dart';
-import 'course_lesson_screen.dart';
-import 'b1_lesson_screen.dart';
+import 'json_lesson_screen.dart';
 import 'vocabulary_screen.dart';
 import 'quiz_screen.dart';
 import 'missed_questions_screen.dart';
 import 'performance_insights_screen.dart';
 import 'learner_progress_dashboard.dart';
 import 'level_assessment_screen.dart';
+import 'conversation_practice_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -23,17 +24,24 @@ class _HomeScreenState extends State<HomeScreen> {
   int tab = 0;
   String query = '';
   Set<String> completedLessonIds = <String>{};
+  List<CourseUnit> units = CourseCatalog.units;
   int learnedWordCount = 0;
   int bestQuiz = 0;
   int latestQuiz = 0;
   int quizAttempts = 0;
   Map<String, int> levelBestScores = <String, int>{};
-  List<CourseUnit> get units => CourseCatalog.units;
 
   @override
   void initState() {
     super.initState();
+    _loadCatalog();
     _loadProgress();
+  }
+
+  Future<void> _loadCatalog() async {
+    final loadedUnits = await LessonContentRepository.loadUnits();
+    if (!mounted) return;
+    setState(() => units = loadedUnits);
   }
 
   Future<void> _loadProgress() async {
@@ -70,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final done = units.where(_unitIsComplete).length;
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FC),
+      backgroundColor: const Color(0xFFFFFAF3),
       body: SafeArea(bottom: false, child: IndexedStack(index: tab, children: [
         _home(done), _library(), const VocabularyScreen(), const QuizScreen(), _progress(done),
       ])),
@@ -84,10 +92,11 @@ class _HomeScreenState extends State<HomeScreen> {
       const BrandMark(size: 45),
       const SizedBox(width: 11),
       const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text('ساره تركيي', style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900, color: AppColors.darkGreen)),
-        SizedBox(height: 2),
-        Text('SARA TURKII  •  تعلم التركية', textDirection: TextDirection.ltr,
-          style: TextStyle(fontSize: 9, letterSpacing: 1, color: AppColors.muted, fontWeight: FontWeight.w800)),
+        Text('SARA HOCAM', textDirection: TextDirection.ltr,
+          style: TextStyle(fontSize: 18, letterSpacing: 1.1, fontWeight: FontWeight.w900, color: AppColors.darkGreen)),
+        SizedBox(height: 3),
+        Text('تعلم مع الانسة ساره',
+          style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: AppColors.muted)),
       ])),
       _circleButton(Icons.notifications_none_rounded, () {}),
       const SizedBox(width: 8),
@@ -101,6 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
     SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(20, 24, 20, 12),
       child: _heading('تابع رحلتك', 'خطوة صغيرة كل يوم تصنع فرقاً', action: 'كل الوحدات', onTap: () => setState(() => tab = 1)))),
     SliverToBoxAdapter(child: _continueCard()),
+    SliverToBoxAdapter(child: _conversationPracticeCard()),
     SliverToBoxAdapter(child: Padding(padding: const EdgeInsets.fromLTRB(20, 25, 20, 12),
       child: _heading('استكشف المنهج', 'من الأساسيات إلى المحادثة'))),
     SliverPadding(padding: const EdgeInsets.fromLTRB(17, 0, 17, 28),
@@ -109,13 +119,47 @@ class _HomeScreenState extends State<HomeScreen> {
         childCount: units.length > 5 ? 5 : units.length))),
   ]);
 
+  Widget _conversationPracticeCard() => Padding(
+    padding: const EdgeInsets.fromLTRB(17, 12, 17, 0),
+    child: Material(
+      color: const Color(0xFFE2F5F2),
+      borderRadius: BorderRadius.circular(20),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(20),
+        onTap: () async {
+          await Navigator.of(context).push(MaterialPageRoute<void>(
+            builder: (_) => const ConversationPracticeScreen(),
+          ));
+          _loadProgress();
+        },
+        child: Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: const Color(0xFFC8E6E1)),
+          ),
+          child: Row(children: [
+            const Icon(Icons.forum_rounded, color: AppColors.navy, size: 29),
+            const SizedBox(width: 12),
+            const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text('تدرّب على المحادثة', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 14)),
+              SizedBox(height: 4),
+              Text('مواقف يومية وحوارات تركية مع ترجمة', style: TextStyle(color: AppColors.muted, fontSize: 11)),
+            ])),
+            const Icon(Icons.arrow_back_ios_new_rounded, color: AppColors.navy, size: 17),
+          ]),
+        ),
+      ),
+    ),
+  );
+
   Widget _hero(int done) => Container(
     padding: const EdgeInsets.all(21),
     decoration: BoxDecoration(
       borderRadius: BorderRadius.circular(29),
       gradient: const LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft,
-        colors: [Color(0xFF102B52), Color(0xFF174E91), Color(0xFF2676B8)]),
-      boxShadow: [BoxShadow(color: const Color(0xFF123D70).withValues(alpha: .2), blurRadius: 24, offset: const Offset(0, 12))],
+        colors: [Color(0xFF164E63), Color(0xFF0F9D9A), Color(0xFF38BDF8)]),
+      boxShadow: [BoxShadow(color: const Color(0xFF0F9D9A).withValues(alpha: .2), blurRadius: 24, offset: const Offset(0, 12))],
     ),
     child: Stack(children: [
       Positioned(left: -15, top: -20, child: Icon(Icons.auto_awesome_rounded, size: 110, color: Colors.white.withValues(alpha: .06))),
@@ -124,8 +168,8 @@ class _HomeScreenState extends State<HomeScreen> {
           Container(padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
             decoration: BoxDecoration(color: Colors.white.withValues(alpha: .12), borderRadius: BorderRadius.circular(30)),
             child: const Text('MERHABA  •  أهلاً بك', textDirection: TextDirection.ltr,
-              style: TextStyle(color: Color(0xFFFFD98A), fontSize: 10, fontWeight: FontWeight.w900, letterSpacing: .7))),
-          const Spacer(), const Icon(Icons.waving_hand_rounded, color: Color(0xFFFFD98A), size: 22),
+              style: TextStyle(color: Color(0xFFF4C66A), fontSize: 10, fontWeight: FontWeight.w900, letterSpacing: .7))),
+          const Spacer(), const Icon(Icons.waving_hand_rounded, color: Color(0xFFF4C66A), size: 22),
         ]),
         const SizedBox(height: 17),
         const Text('كل يوم كلمة،\nوكل درس يقربك.', style: TextStyle(color: Colors.white, fontSize: 27, height: 1.25, fontWeight: FontWeight.w900)),
@@ -146,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
     padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 11),
     decoration: BoxDecoration(color: Colors.white.withValues(alpha: .11), borderRadius: BorderRadius.circular(16), border: Border.all(color: Colors.white.withValues(alpha: .1))),
     child: Row(children: [
-      Icon(icon, color: const Color(0xFFFFD98A), size: 20), const SizedBox(width: 8),
+      Icon(icon, color: const Color(0xFFF4C66A), size: 20), const SizedBox(width: 8),
       Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Text(value, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 17)),
         Text(label, style: TextStyle(color: Colors.white.withValues(alpha: .72), fontSize: 10)),
@@ -162,7 +206,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Container(padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(borderRadius: BorderRadius.circular(23), border: Border.all(color: AppColors.border)),
           child: Row(children: [
-            Container(width: 52, height: 56, decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(16)),
+            Container(width: 52, height: 56, decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(16)),
               child: const Icon(Icons.play_lesson_rounded, color: AppColors.navy, size: 28)),
             const SizedBox(width: 12),
             Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -208,7 +252,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(children: [
         SizedBox(width: 142, height: 142, child: Stack(alignment: Alignment.center, children: [
           SizedBox.expand(child: CircularProgressIndicator(value: units.isEmpty ? 0 : done / units.length, strokeWidth: 11,
-            backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7), strokeCap: StrokeCap.round)),
+            backgroundColor: const Color(0xFFDCEFEB), color: const Color(0xFF0F9D9A), strokeCap: StrokeCap.round)),
           Column(mainAxisSize: MainAxisSize.min, children: [
             Text('${units.isEmpty ? 0 : done * 100 ~/ units.length}%', style: const TextStyle(fontSize: 30, fontWeight: FontWeight.w900, color: AppColors.darkGreen)),
             const Text('نسبة الإنجاز', style: TextStyle(fontSize: 11, color: AppColors.muted)),
@@ -242,7 +286,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ]),
         const SizedBox(height: 12),
         Material(
-          color: const Color(0xFFFFF6E8),
+          color: const Color(0xFFFFF4DC),
           borderRadius: BorderRadius.circular(16),
           child: InkWell(
             borderRadius: BorderRadius.circular(16),
@@ -255,7 +299,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Padding(
               padding: const EdgeInsets.all(14),
               child: Row(children: [
-                const Icon(Icons.history_edu_rounded, color: Color(0xFFB7791F), size: 25),
+                const Icon(Icons.history_edu_rounded, color: Color(0xFFB9822F), size: 25),
                 const SizedBox(width: 10),
                 const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Text('مراجعة أخطائي', style: TextStyle(color: AppColors.darkGreen, fontWeight: FontWeight.w900, fontSize: 13)),
@@ -269,7 +313,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         const SizedBox(height: 9),
         Material(
-          color: const Color(0xFFEAF2FF),
+          color: const Color(0xFFE2F5F2),
           borderRadius: BorderRadius.circular(16),
           child: InkWell(
             borderRadius: BorderRadius.circular(16),
@@ -293,7 +337,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         const SizedBox(height: 9),
         Material(
-          color: const Color(0xFFEAF2FF),
+          color: const Color(0xFFE2F5F2),
           borderRadius: BorderRadius.circular(16),
           child: InkWell(
             borderRadius: BorderRadius.circular(16),
@@ -317,7 +361,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         const SizedBox(height: 9),
         Container(padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(16)),
+          decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(16)),
           child: Row(children: [
             const Icon(Icons.trending_up_rounded, color: AppColors.navy),
             const SizedBox(width: 9),
@@ -331,11 +375,11 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           gradient: const LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft,
-            colors: [Color(0xFF102B52), Color(0xFF2676B8)]),
+            colors: [Color(0xFF164E63), Color(0xFF38BDF8)]),
           borderRadius: BorderRadius.circular(20),
         ),
         child: Row(children: [
-          const Icon(Icons.workspace_premium_rounded, color: Color(0xFFFFD98A), size: 31),
+          const Icon(Icons.workspace_premium_rounded, color: Color(0xFFF4C66A), size: 31),
           const SizedBox(width: 12),
           const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text('تقييم المستوى A1', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 15)),
@@ -365,7 +409,7 @@ class _HomeScreenState extends State<HomeScreen> {
       border: Border.all(color: AppColors.border)),
     child: Row(children: [
       Container(width: 36, height: 36, decoration: BoxDecoration(
-        color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(11)),
+        color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(11)),
         child: Icon(icon, color: AppColors.navy, size: 19)),
       const SizedBox(width: 9),
       Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
@@ -395,7 +439,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
         Row(children: [
           Container(width: 42, height: 42, alignment: Alignment.center,
-            decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(13)),
+            decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(13)),
             child: Text(level, textDirection: TextDirection.ltr,
               style: const TextStyle(color: AppColors.navy, fontWeight: FontWeight.w900))),
           const SizedBox(width: 12),
@@ -414,7 +458,7 @@ class _HomeScreenState extends State<HomeScreen> {
         const SizedBox(height: 12),
         ClipRRect(borderRadius: BorderRadius.circular(8), child: LinearProgressIndicator(
           value: totalLessons == 0 ? 0 : completed / totalLessons,
-          minHeight: 6, backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
+          minHeight: 6, backgroundColor: const Color(0xFFDCEFEB), color: const Color(0xFF0F9D9A))),
         const SizedBox(height: 7),
         Row(children: [
           Text('$percent% إنجاز الدروس', style: const TextStyle(color: AppColors.muted, fontSize: 10)),
@@ -447,7 +491,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _nav() => Container(
-    decoration: BoxDecoration(color: Colors.white, boxShadow: [BoxShadow(color: const Color(0xFF102B52).withValues(alpha: .08), blurRadius: 18, offset: const Offset(0, -5))]),
+    decoration: BoxDecoration(color: Colors.white, boxShadow: [BoxShadow(color: const Color(0xFF164E63).withValues(alpha: .08), blurRadius: 18, offset: const Offset(0, -5))]),
     child: SafeArea(top: false, child: Padding(padding: const EdgeInsets.fromLTRB(12, 8, 12, 6), child: Row(children: [
       _navItem(0, Icons.home_rounded, 'الرئيسية'),
       _navItem(1, Icons.auto_stories_rounded, 'الدروس'),
@@ -464,7 +508,7 @@ class _HomeScreenState extends State<HomeScreen> {
       if (index == 4) _loadProgress();
     },
       child: AnimatedContainer(duration: const Duration(milliseconds: 180), padding: const EdgeInsets.symmetric(vertical: 7),
-        decoration: BoxDecoration(color: active ? const Color(0xFFEAF2FF) : Colors.transparent, borderRadius: BorderRadius.circular(16)),
+        decoration: BoxDecoration(color: active ? const Color(0xFFE2F5F2) : Colors.transparent, borderRadius: BorderRadius.circular(16)),
         child: Column(mainAxisSize: MainAxisSize.min, children: [
           Icon(icon, color: active ? AppColors.navy : AppColors.muted, size: 23),
           const SizedBox(height: 3),
@@ -492,7 +536,7 @@ Widget _heading(String title, String subtitle, {String? action, VoidCallback? on
 ]);
 
 Widget _unitTile(BuildContext context, CourseUnit unit, int index, {VoidCallback? onProgressChanged}) {
-  const tints = [Color(0xFFEAF2FF), Color(0xFFFFF4E3), Color(0xFFEAF7F2), Color(0xFFF2EDFF)];
+  const tints = [Color(0xFFE2F5F2), Color(0xFFFFF4DC), Color(0xFFEAF6F3), Color(0xFFEAF6F3)];
   const icons = [Icons.translate_rounded, Icons.chat_bubble_outline_rounded, Icons.headphones_rounded, Icons.edit_note_rounded];
   return Material(color: Colors.white, borderRadius: BorderRadius.circular(20),
     child: InkWell(borderRadius: BorderRadius.circular(20), onTap: () => showModalBottomSheet<void>(
@@ -509,7 +553,7 @@ Widget _unitTile(BuildContext context, CourseUnit unit, int index, {VoidCallback
               Expanded(child: Text(unit.titleArabic, maxLines: 1, overflow: TextOverflow.ellipsis,
                 style: const TextStyle(color: AppColors.darkGreen, fontSize: 14, fontWeight: FontWeight.w900))),
               Container(padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(8)),
+                decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(8)),
                 child: Text(unit.level, textDirection: TextDirection.ltr, style: const TextStyle(color: AppColors.navy, fontSize: 10, fontWeight: FontWeight.w900))),
             ]),
             const SizedBox(height: 4),
@@ -534,7 +578,7 @@ class _UnitDetails extends StatelessWidget {
     decoration: const BoxDecoration(color: Color(0xFFF8FAFE), borderRadius: BorderRadius.vertical(top: Radius.circular(28))),
     child: SafeArea(child: Column(children: [
       Container(width: 42, height: 4, margin: const EdgeInsets.only(top: 10, bottom: 15),
-        decoration: BoxDecoration(color: const Color(0xFFD7DFEA), borderRadius: BorderRadius.circular(5))),
+        decoration: BoxDecoration(color: const Color(0xFFDDEBE7), borderRadius: BorderRadius.circular(5))),
       Padding(padding: const EdgeInsets.fromLTRB(20, 4, 20, 15), child: Row(children: [
         Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Text(unit.titleArabic, style: const TextStyle(color: AppColors.darkGreen, fontSize: 20, fontWeight: FontWeight.w900)),
@@ -555,19 +599,12 @@ class _UnitDetails extends StatelessWidget {
             borderRadius: BorderRadius.circular(16),
             onTap: () async {
               await Navigator.of(context).push(MaterialPageRoute<void>(
-                builder: (_) => (unit.id.startsWith('b1-') || unit.id.startsWith('b2-') || unit.id.startsWith('c1-') || unit.id.startsWith('c2-'))
-                  ? B1LessonScreen(
-                      unitId: unit.id,
-                      unitTitle: unit.titleArabic,
-                      lessonTitle: unit.lessons[i],
-                      lessonNumber: i + 1,
-                    )
-                  : CourseLessonScreen(
-                      unitId: unit.id,
-                      unitTitle: unit.titleArabic,
-                      lessonTitle: unit.lessons[i],
-                      lessonNumber: i + 1,
-                    ),
+                builder: (_) => JsonLessonScreen(
+                  unitId: unit.id,
+                  unitTitle: unit.titleArabic,
+                  lessonTitle: unit.lessons[i],
+                  lessonNumber: i + 1,
+                ),
               ));
               onProgressChanged?.call();
             },
@@ -579,7 +616,7 @@ class _UnitDetails extends StatelessWidget {
                   height: 35,
                   alignment: Alignment.center,
                   decoration: const BoxDecoration(
-                    color: Color(0xFFEAF2FF),
+                    color: Color(0xFFE2F5F2),
                     shape: BoxShape.circle,
                   ),
                   child: Text('${i + 1}', style: const TextStyle(
@@ -588,14 +625,19 @@ class _UnitDetails extends StatelessWidget {
                   )),
                 ),
                 const SizedBox(width: 10),
-                Expanded(child: Text(
-                  unit.lessons[i],
-                  style: const TextStyle(
-                    color: AppColors.darkGreen,
-                    fontWeight: FontWeight.w700,
-                    fontSize: 12,
+                Expanded(
+                  child: FutureBuilder<LessonRecord>(
+                    future: LessonContentRepository.loadLesson(unit.id, i + 1),
+                    builder: (context, snapshot) => Text(
+                      snapshot.data?.titleArabic ?? unit.lessons[i],
+                      style: const TextStyle(
+                        color: AppColors.darkGreen,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 12,
+                      ),
+                    ),
                   ),
-                )),
+                ),
                 const Icon(Icons.play_circle_outline_rounded,
                   color: AppColors.navy, size: 22),
               ]),

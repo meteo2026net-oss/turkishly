@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u12-04",
+  "level": "C1",
+  "unitId": "c1-u12",
+  "order": 4,
+  "title": {
+    "ar": "حل النزاع والتوصل إلى قرار",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الاستراتيجي والمشروع الختامي",
+    "titleTr": "Stratejik İletişim ve Bitirme Projesi",
+    "description": "التوصيات الاستراتيجية والتواصل في الأزمات وأصحاب المصلحة والقيادة والتقييم النهائي."
+  },
+  "contentStatus": "full",
+  "goal": "تحويل الخلاف إلى نقاط قابلة للنقاش ثم بناء بدائل واتفاق.",
+  "rule": "افصل الأشخاص عن المشكلة، وحدد المصالح، واطلب معايير مشتركة لتقييم الحلول.",
+  "vocabulary": [
+    {
+      "term": "çatışma çözümü",
+      "meaningAr": "حل النزاع",
+      "exampleTr": "Taraflar, ortak ölçütler belirleyerek anlaşmazlığı çözdü.",
+      "exampleAr": "حل الأطراف الخلاف عبر تحديد معايير مشتركة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Taraflar, ortak ölçütler belirleyerek anlaşmazlığı çözdü.",
+      "ar": "حل الأطراف الخلاف عبر تحديد معايير مشتركة."
+    },
+    {
+      "tr": "Sorunu kişiselleştirmeden çözüm seçeneklerini değerlendirdim.",
+      "ar": "قيّمت خيارات الحل دون تحويل المشكلة إلى خلاف شخصي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi noktada anlaşamıyoruz؟",
+      "ar": "في أي نقطة نختلف؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikleri farklı tanımlıyoruz; ölçütleri netleştirelim.",
+      "ar": "نحدد الأولويات بشكل مختلف؛ لنوضح المعايير."
+    }
+  ],
+  "speakingTask": "اكتب خطة من خمس خطوات لحل نزاع مهني.",
+  "questions": [
+    {
+      "id": "c1-u12-04-q1",
+      "prompt": "ما معنى «çatışma çözümü»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "حل النزاع",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«çatışma çözümü» تعني: حل النزاع."
+    },
+    {
+      "id": "c1-u12-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حل الأطراف الخلاف عبر تحديد معايير مشتركة."
+      ],
+      "answerIndex": 3,
+      "explanation": "حل الأطراف الخلاف عبر تحديد معايير مشتركة."
+    },
+    {
+      "id": "c1-u12-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "uzlaşma süreci",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «uzlaşma süreci». افصل الأشخاص عن المشكلة، وحدد المصالح، واطلب معايير مشتركة لتقييم الحلول."
+    },
+    {
+      "id": "c1-u12-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إدارة الخلاف للوصول إلى حل.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إدارة الخلاف للوصول إلى حل."
+    },
+    {
+      "id": "c1-u12-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب خطة من خمس خطوات لحل نزاع مهني."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب خطة من خمس خطوات لحل نزاع مهني."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u12",
+    "legacyGlobalNumber": 414
+  }
+}

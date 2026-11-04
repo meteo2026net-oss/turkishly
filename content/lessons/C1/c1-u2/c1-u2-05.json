@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u2-05",
+  "level": "C1",
+  "unitId": "c1-u2",
+  "order": 5,
+  "title": {
+    "ar": "الربط المنطقي بين الفقرات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الكتابة الأكاديمية المتقدمة",
+    "titleTr": "İleri Akademik Yazma",
+    "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام الإحالة والانتقال لتوضيح تسلسل الحجة.",
+  "rule": "يمكن أن تستأنف الفقرة الجديدة فكرة سابقة باستخدام bu bulgular وöte yandan وbununla birlikte.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bununla birlikte, bu bulgular daha geniş bir örneklemle doğrulanmalıdır.",
+      "ar": "ومع ذلك ينبغي التحقق من هذه النتائج بعينة أوسع."
+    },
+    {
+      "tr": "Paragraflar arasındaki geçişleri güçlendirin.",
+      "ar": "حرّر فقرتين بإضافة انتقال منطقي واضح بينهما."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «geçiş ifadesi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "عبارة انتقالية",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "«geçiş ifadesi» تعني عبارة انتقالية.",
+      "id": "c1-u2-05-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bununla birlikte, bu bulgular daha geniş bir örneklemle doğrulanmalıdır.»؟",
+      "options": [
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ومع ذلك ينبغي التحقق من هذه النتائج بعينة أوسع."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجمة الجملة: ومع ذلك ينبغي التحقق من هذه النتائج بعينة أوسع.",
+      "id": "c1-u2-05-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «mantıksal akış»؟",
+      "options": [
+        "mantıksal akış",
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "التدفق المنطقي",
+      "id": "c1-u2-05-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية"
+      ],
+      "answerIndex": 1,
+      "explanation": "يمكن أن تستأنف الفقرة الجديدة فكرة سابقة باستخدام bu bulgular وöte yandan وbununla birlikte.",
+      "id": "c1-u2-05-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-05-q5"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_course_data.dart",
+    "legacyUnitId": "c1-u2",
+    "legacyGlobalNumber": 315
+  }
+}

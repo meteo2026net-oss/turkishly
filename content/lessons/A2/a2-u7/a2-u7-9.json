@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-9",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u7-09",
+      "order": 9,
+      "titleAr": "مراجعة حالات الاسم واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة حالات الاسم وحروف الجر واختبار الوحدة.",
+  "rule": "راجع الاستخدامات: المفعول المحدد -(y)ı/i/u/ü، الاتجاه -(y)a/e، المكان -da/de/ta/te، الابتعاد -dan/den/tan/ten. وتذكر تراكيب مثل benim için وsenin gibi وarkadaşımla. اختر اللاحقة بحسب معنى الجملة لا بحسب الترجمة الحرفية وحدها.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kitabı",
+      "ar": "المفعول المحدد"
+    },
+    {
+      "tr": "okula",
+      "ar": "الاتجاه"
+    },
+    {
+      "tr": "evde",
+      "ar": "المكان"
+    },
+    {
+      "tr": "işten",
+      "ar": "الابتعاد / المصدر"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-9-q1",
+      "prompt": "أكمل: Yarın ___ gidiyorum. (غداً أذهب إلى المدرسة.)",
+      "options": [
+        "okulda",
+        "okuldan",
+        "okulu",
+        "okula"
+      ],
+      "answerIndex": 3,
+      "explanation": "okula هي صيغة الاتجاه، لأن الجملة تعني الذهاب إلى المدرسة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 9
+  }
+}

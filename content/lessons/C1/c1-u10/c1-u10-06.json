@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u10-06",
+  "level": "C1",
+  "unitId": "c1-u10",
+  "order": 6,
+  "title": {
+    "ar": "إدارة الوقت والإيقاع الشفهي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العرض الأكاديمي المتقدم",
+    "titleTr": "İleri Akademik Sunum",
+    "description": "بناء العروض والانتقالات وشرح البيانات وإدارة الأسئلة والنقاش."
+  },
+  "contentStatus": "full",
+  "goal": "ضبط سرعة الكلام والوقفات وتوزيع الزمن على أجزاء العرض.",
+  "rule": "خصص وقتاً لكل محور، وأبطئ عند المفاهيم المهمة، واترك وقفة بعد النتيجة الرئيسة.",
+  "vocabulary": [
+    {
+      "term": "konuşma temposu",
+      "meaningAr": "إيقاع الحديث",
+      "exampleTr": "Önemli bulgudan sonra kısa bir duraklama yaptım.",
+      "exampleAr": "توقفت وقفة قصيرة بعد النتيجة المهمة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Önemli bulgudan sonra kısa bir duraklama yaptım.",
+      "ar": "توقفت وقفة قصيرة بعد النتيجة المهمة."
+    },
+    {
+      "tr": "Konuşma tempomu dinleyiciye göre ayarladım.",
+      "ar": "ضبطت إيقاع حديثي وفق المستمع."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden burada durakladın؟",
+      "ar": "لماذا توقفت هنا؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ana bulgunun vurgulanmasını istedim.",
+      "ar": "أردت إبراز النتيجة الرئيسة."
+    }
+  ],
+  "speakingTask": "سجل عرضاً قصيراً وقيّم سرعته ووضوح الوقفات.",
+  "questions": [
+    {
+      "id": "c1-u10-06-q1",
+      "prompt": "ما معنى «konuşma temposu»؟",
+      "options": [
+        "إيقاع الحديث",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«konuşma temposu» تعني: إيقاع الحديث."
+    },
+    {
+      "id": "c1-u10-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "توقفت وقفة قصيرة بعد النتيجة المهمة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "توقفت وقفة قصيرة بعد النتيجة المهمة."
+    },
+    {
+      "id": "c1-u10-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "tempo ve duraklama",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «tempo ve duraklama». خصص وقتاً لكل محور، وأبطئ عند المفاهيم المهمة، واترك وقفة بعد النتيجة الرئيسة."
+    },
+    {
+      "id": "c1-u10-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تنظيم سرعة الحديث والوقفات."
+      ],
+      "answerIndex": 3,
+      "explanation": "تنظيم سرعة الحديث والوقفات."
+    },
+    {
+      "id": "c1-u10-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "سجل عرضاً قصيراً وقيّم سرعته ووضوح الوقفات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "سجل عرضاً قصيراً وقيّم سرعته ووضوح الوقفات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u10",
+    "legacyGlobalNumber": 396
+  }
+}

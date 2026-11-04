@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-04",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 4,
+  "title": {
+    "ar": "الميزانية والتكاليف والإيرادات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الابتكار وريادة الأعمال",
+    "titleTr": "İnovasyon ve Girişimcilik",
+    "description": "تطوير فكرة مشروع وتحليل السوق والتفاوض والتسويق والميزانية."
+  },
+  "contentStatus": "full",
+  "goal": "gelir",
+  "rule": "Gelir ve giderleri düzenli izlemek finansal dengeyi korur.",
+  "vocabulary": [
+    {
+      "term": "إيراد",
+      "meaningAr": "gider",
+      "exampleTr": "Gelir ve giderleri düzenli izlemek finansal dengeyi korur.",
+      "exampleAr": "تحافظ متابعة الإيرادات والمصروفات بانتظام على التوازن المالي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "توضيح السبب",
+      "ar": ""
+    },
+    {
+      "tr": "Gelir ve giderleri düzenli izlemek finansal dengeyi korur.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Beklenmeyen giderler bütçeyi etkiledi.|أثرت المصروفات غير المتوقعة في الميزانية.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bütçe yeterli mi? — هل الميزانية كافية؟\nB: Öncelikleri yeniden belirlemeliyiz. — ينبغي إعادة تحديد الأولويات.",
+  "questions": [
+    {
+      "id": "b2-u7-04-q1",
+      "prompt": "ما معنى «إيراد»؟",
+      "options": [
+        "مصروف",
+        "gelir-gider dengesi",
+        "توازن الإيرادات والمصروفات",
+        "تعبير غير مناسب"
+      ],
+      "answerIndex": 0,
+      "explanation": "إيراد تعني gider."
+    },
+    {
+      "id": "b2-u7-04-q2",
+      "prompt": "ما ترجمة الجملة: «Gelir ve giderleri düzenli izlemek finansal dengeyi korur.»؟",
+      "options": [
+        "هذا التعبير لا يناسب السياق.",
+        "تحافظ متابعة الإيرادات والمصروفات بانتظام على التوازن المالي.|تحافظ متابعة الإيرادات والمصروفات بانتظام على التوازن المالي.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق."
+      ],
+      "answerIndex": 1,
+      "explanation": "Gelir ve giderleri düzenli izlemek finansal dengeyi korur. تعني تحافظ متابعة الإيرادات والمصروفات بانتظام على التوازن المالي.."
+    },
+    {
+      "id": "b2-u7-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "شرح الوضع المالي",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "-DIğından dolayı."
+    },
+    {
+      "id": "b2-u7-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «شرح الوضع المالي»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "بسبب"
+      ],
+      "answerIndex": 3,
+      "explanation": "بسبب"
+    },
+    {
+      "id": "b2-u7-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "بسبب",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "بسبب"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 244
+  }
+}

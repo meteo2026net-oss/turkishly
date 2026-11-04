@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-3",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u2-03",
+      "order": 3,
+      "titleAr": "السؤال عن الاسم والبلد",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن الاسم والبلد والأصل والإجابة عنها.",
+  "rule": "للسؤال عن الاسم نقول Adın ne؟ وللسؤال عن البلد أو الأصل Nerelisin؟. يمكن الإجابة بـ Ben Suriyeliyim (أنا سوري/سورية) أو Suriyeliyim.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Adın ne?",
+      "ar": "ما اسمك؟"
+    },
+    {
+      "tr": "Nerelisin?",
+      "ar": "من أين أنت؟"
+    },
+    {
+      "tr": "Ben Suriyeliyim.",
+      "ar": "أنا سوري/سورية."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u2-3-q1",
+      "prompt": "أي سؤال يعني «من أين أنت؟»",
+      "options": [
+        "Kaç yaşındasın?",
+        "Nerelisin?",
+        "Adın ne?",
+        "Nasılsın?"
+      ],
+      "answerIndex": 1,
+      "explanation": "Nerelisin تعني من أين أنت؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 3
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u11-08",
+  "level": "C1",
+  "unitId": "c1-u11",
+  "order": 8,
+  "title": {
+    "ar": "الإحالات والتناص بين النصوص",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل الأدبي والأسلوبي المتقدم",
+    "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
+    "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
+  },
+  "contentStatus": "full",
+  "goal": "فهم الإشارات إلى نصوص أو شخصيات أو أفكار سابقة.",
+  "rule": "حدد النص المرجعي ووظيفة الإحالة: تكريم أو نقد أو مفارقة أو توسيع للمعنى.",
+  "vocabulary": [
+    {
+      "term": "metinlerarasılık",
+      "meaningAr": "التناص",
+      "exampleTr": "Şair, eski bir destana gönderme yaparak çağdaş bir sorunu tartışıyor.",
+      "exampleAr": "يناقش الشاعر قضية معاصرة بالإشارة إلى ملحمة قديمة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Şair, eski bir destana gönderme yaparak çağdaş bir sorunu tartışıyor.",
+      "ar": "يناقش الشاعر قضية معاصرة بالإشارة إلى ملحمة قديمة."
+    },
+    {
+      "tr": "Metinlerarası ilişkiyi bağlam içinde yorumladım.",
+      "ar": "فسرت العلاقة بين النصوص ضمن السياق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Okur eski metni bilmek zorunda mı؟",
+      "ar": "هل يجب أن يعرف القارئ النص القديم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bilmesi yorumu derinleştirir, ancak bağlam ipucu verir.",
+      "ar": "معرفته تعمق التفسير لكن السياق يقدم قرائن."
+    }
+  ],
+  "speakingTask": "حدد إحالتين في نص واشرح أثر كل منهما.",
+  "questions": [
+    {
+      "id": "c1-u11-08-q1",
+      "prompt": "ما معنى «metinlerarasılık»؟",
+      "options": [
+        "التناص",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«metinlerarasılık» تعني: التناص."
+    },
+    {
+      "id": "c1-u11-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "يناقش الشاعر قضية معاصرة بالإشارة إلى ملحمة قديمة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "يناقش الشاعر قضية معاصرة بالإشارة إلى ملحمة قديمة."
+    },
+    {
+      "id": "c1-u11-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "metinlerarası gönderme",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «metinlerarası gönderme». حدد النص المرجعي ووظيفة الإحالة: تكريم أو نقد أو مفارقة أو توسيع للمعنى."
+    },
+    {
+      "id": "c1-u11-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تفسير العلاقة بين النصوص."
+      ],
+      "answerIndex": 3,
+      "explanation": "تفسير العلاقة بين النصوص."
+    },
+    {
+      "id": "c1-u11-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "حدد إحالتين في نص واشرح أثر كل منهما.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "حدد إحالتين في نص واشرح أثر كل منهما."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u11",
+    "legacyGlobalNumber": 408
+  }
+}

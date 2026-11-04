@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-5",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a2-u6-05",
+      "order": 5,
+      "titleAr": "التعبير عن النصيحة باستخدام -malı/-meli",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن النصيحة باستخدام -malı/-meli.",
+  "rule": "تُستخدم صيغة الوجوب أيضاً للنصيحة، ويحدد السياق قوتها: Daha çok su içmelisin (ينبغي أن تشرب ماء أكثر)، Bir doktora danışmalısın (من الأفضل أن تستشير طبيباً). ويمكن تلطيف النصيحة بعبارة Bence برأيي.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bence",
+      "ar": "برأيي"
+    },
+    {
+      "tr": "dinlenmelisin",
+      "ar": "ينبغي أن ترتاح"
+    },
+    {
+      "tr": "dikkat etmelisin",
+      "ar": "ينبغي أن تنتبه"
+    },
+    {
+      "tr": "Daha erken başlamalısın.",
+      "ar": "ينبغي أن تبدأ أبكر."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-5-q1",
+      "prompt": "ما معنى Bence daha erken başlamalısın؟",
+      "options": [
+        "برأيي يجب أن تبدأ أبكر",
+        "بدأت مبكراً",
+        "لا تبدأ الآن",
+        "هل تستطيع البدء؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bence تعني برأيي، والجملة تقدم نصيحة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 5
+  }
+}

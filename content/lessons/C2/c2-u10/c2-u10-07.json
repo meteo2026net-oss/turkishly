@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u10-07",
+  "level": "C2",
+  "unitId": "c2-u10",
+  "order": 7,
+  "title": {
+    "ar": "مقارنة الخطاب الإعلامي والعلمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "تحليل الخطاب والنقد المقارن",
+    "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
+    "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
+  },
+  "contentStatus": "full",
+  "goal": "تمييز اختلاف أهداف الخطاب ومعايير الدليل ودرجات اليقين.",
+  "rule": "قارن الجمهور والمصطلحات والمنهج والتحفظات، ولا تعتبر اختلاف الأسلوب تناقضاً بالضرورة.",
+  "vocabulary": [
+    {
+      "term": "bilimsel ve medya söylemi",
+      "meaningAr": "الخطاب العلمي والإعلامي",
+      "exampleTr": "Bilimsel metin belirsizliği belirtirken haber başlığı sonucu kesinleştirebilir.",
+      "exampleAr": "قد يذكر النص العلمي عدم اليقين بينما يحسم العنوان الصحفي النتيجة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bilimsel metin belirsizliği belirtirken haber başlığı sonucu kesinleştirebilir.",
+      "ar": "قد يذكر النص العلمي عدم اليقين بينما يحسم العنوان الصحفي النتيجة."
+    },
+    {
+      "tr": "İki metnin kesinlik derecesini ve kanıt yapısını karşılaştırdım.",
+      "ar": "قارنت درجة اليقين وبنية الدليل في النصين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Başlık neden daha kesin görünüyor؟",
+      "ar": "لماذا يبدو العنوان أكثر جزماً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Dikkat çekmek için ayrıntıları daraltmış olabilir.",
+      "ar": "ربما ضيّق التفاصيل لجذب الانتباه."
+    }
+  ],
+  "speakingTask": "قارن تغطية إعلامية وملخصاً علمياً للنتيجة نفسها.",
+  "questions": [
+    {
+      "id": "c2-u10-07-q1",
+      "prompt": "ما معنى «bilimsel ve medya söylemi»؟",
+      "options": [
+        "طلب الإذن",
+        "الخطاب العلمي والإعلامي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«bilimsel ve medya söylemi» تعني: الخطاب العلمي والإعلامي."
+    },
+    {
+      "id": "c2-u10-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قد يذكر النص العلمي عدم اليقين بينما يحسم العنوان الصحفي النتيجة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "قد يذكر النص العلمي عدم اليقين بينما يحسم العنوان الصحفي النتيجة."
+    },
+    {
+      "id": "c2-u10-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "söylem türleri"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «söylem türleri». قارن الجمهور والمصطلحات والمنهج والتحفظات، ولا تعتبر اختلاف الأسلوب تناقضاً بالضرورة."
+    },
+    {
+      "id": "c2-u10-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "مقارنة أنماط الخطاب ومعاييرها.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "مقارنة أنماط الخطاب ومعاييرها."
+    },
+    {
+      "id": "c2-u10-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قارن تغطية إعلامية وملخصاً علمياً للنتيجة نفسها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قارن تغطية إعلامية وملخصاً علمياً للنتيجة نفسها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u10",
+    "legacyGlobalNumber": 517
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u17-03",
+  "level": "C2",
+  "unitId": "c2-u17",
+  "order": 3,
+  "title": {
+    "ar": "ترجمة التعبيرات الاصطلاحية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الأدبية والتحليل الأسلوبي",
+    "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
+    "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
+  },
+  "contentStatus": "full",
+  "goal": "انقل وظيفة التعبير الاصطلاحي وأثره، ولا تترجم مكوناته حرفياً إذا أفسد ذلك المعنى.",
+  "rule": "انقل وظيفة التعبير الاصطلاحي وأثره، ولا تترجم مكوناته حرفياً إذا أفسد ذلك المعنى.",
+  "vocabulary": [
+    {
+      "term": "deyimsel ifade",
+      "meaningAr": "تعبير اصطلاحي",
+      "exampleTr": "Deyimi kelimesi kelimesine değil, bağlamdaki işleviyle çevirdim.",
+      "exampleAr": "ترجمت التعبير الاصطلاحي وفق وظيفته في السياق لا حرفياً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Deyimi kelimesi kelimesine değil, bağlamdaki işleviyle çevirdim.",
+      "ar": "ترجمت التعبير الاصطلاحي وفق وظيفته في السياق لا حرفياً."
+    },
+    {
+      "tr": "İşlevsel eşdeğerlik çoğu zaman sözcüksel benzerlikten önemlidir.",
+      "ar": "غالباً ما يكون التكافؤ الوظيفي أهم من التشابه اللفظي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu deyimi aynen çevirelim mi?",
+      "ar": "هل نترجم هذا التعبير كما هو؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce aynı etkiyi veren doğal karşılığı arayalım.",
+      "ar": "لنبحث أولاً عن مقابل طبيعي يحقق الأثر نفسه."
+    }
+  ],
+  "speakingTask": "اختر خمسة تعبيرات اصطلاحية واقترح مقابلات طبيعية في العربية.",
+  "questions": [
+    {
+      "id": "c2-u17-03-q1",
+      "prompt": "ما معنى «deyimsel ifade»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تعبير اصطلاحي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«deyimsel ifade» تعني: تعبير اصطلاحي."
+    },
+    {
+      "id": "c2-u17-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "ترجمت التعبير الاصطلاحي وفق وظيفته في السياق لا حرفياً.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ترجمت التعبير الاصطلاحي وفق وظيفته في السياق لا حرفياً."
+    },
+    {
+      "id": "c2-u17-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "işlevsel eşdeğer",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «işlevsel eşdeğer». انقل وظيفة التعبير الاصطلاحي وأثره، ولا تترجم مكوناته حرفياً إذا أفسد ذلك المعنى."
+    },
+    {
+      "id": "c2-u17-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "مكافئ وظيفي",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "مكافئ وظيفي"
+    },
+    {
+      "id": "c2-u17-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اختر خمسة تعبيرات اصطلاحية واقترح مقابلات طبيعية في العربية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اختر خمسة تعبيرات اصطلاحية واقترح مقابلات طبيعية في العربية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u17",
+    "legacyGlobalNumber": 583
+  }
+}

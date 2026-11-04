@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-4",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u1-04",
+      "order": 4,
+      "titleAr": "الأحرف التي تختلف عن العربية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أصوات تركية قد لا توجد بالطريقة نفسها في العربية.",
+  "rule": "تحتاج بعض الحروف إلى تدريب خاص: c يُنطق مثل j في كلمة journal، وç مثل ch في chair، وş مثل sh في ship. أما ı فصوت مستقل غير منقوط، ويختلف عن i المنقوط.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "cam",
+      "ar": "زجاج – يبدأ بصوت j"
+    },
+    {
+      "tr": "çocuk",
+      "ar": "طفل – يبدأ بصوت ch"
+    },
+    {
+      "tr": "şapka",
+      "ar": "قبعة – يبدأ بصوت sh"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-4-q1",
+      "prompt": "أي حرف تركي يُنطق قريباً من sh الإنجليزية؟",
+      "options": [
+        "c",
+        "ş",
+        "ç",
+        "j"
+      ],
+      "answerIndex": 1,
+      "explanation": "الحرف ş صوته قريب من sh في الإنجليزية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 4
+  }
+}

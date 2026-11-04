@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u1-8",
+  "level": "A2",
+  "unitId": "a2-u1",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u1-08",
+      "order": 8,
+      "titleAr": "حوار عن عطلة نهاية الأسبوع",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحدث عن الماضي والأحداث السابقة",
+    "titleTr": "Geçmiş Zaman ve Geçmiş Olaylar",
+    "description": "تعلم الماضي المحدد وإثباته ونفيه والسؤال عنه، مع كلمات الزمن وتسلسل الأحداث ووصف يوم سابق وعطلة مضت."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار عن عطلة نهاية الأسبوع الماضية.",
+  "rule": "A: Hafta sonu ne yaptın؟ (ماذا فعلت في عطلة نهاية الأسبوع؟) B: Cumartesi arkadaşlarımla buluştum (التقيت أصدقائي يوم السبت). A: Nereye gittiniz؟ (إلى أين ذهبتم؟) B: Bir kafeye gittik ve kahve içtik (ذهبنا إلى مقهى وشربنا القهوة). A: Güzel miydi؟ (هل كان جميلاً؟) B: Evet, çok güzeldi (نعم، كان جميلاً جداً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Hafta sonu",
+      "ar": "نهاية الأسبوع"
+    },
+    {
+      "tr": "arkadaşlarımla buluştum",
+      "ar": "التقيت أصدقائي"
+    },
+    {
+      "tr": "Bir kafeye gittik.",
+      "ar": "ذهبنا إلى مقهى."
+    },
+    {
+      "tr": "Güzel miydi?",
+      "ar": "هل كان جميلاً؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u1-8-q1",
+      "prompt": "ماذا فعل المتحدث يوم السبت؟",
+      "options": [
+        "سافر بالطائرة",
+        "التقى أصدقاءه",
+        "ذهب إلى الطبيب",
+        "درس طوال اليوم"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cumartesi arkadaşlarımla buluştum تعني التقيت أصدقائي يوم السبت."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u1",
+    "legacyLessonOrder": 8
+  }
+}

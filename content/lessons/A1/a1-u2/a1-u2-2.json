@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-2",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u2-02",
+      "order": 2,
+      "titleAr": "التعريف بالنفس",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "full",
+  "goal": "تقديم نفسك بجمل قصيرة وبسيطة.",
+  "rule": "يمكنك استخدام Benim adım ... بمعنى اسمي ...، أو Ben ... بمعنى أنا ... . ولذكر المهنة أو الصفة نستخدم جملة اسمية بسيطة مثل Ben öğrenciyim (أنا طالب/طالبة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Benim adım Ali.",
+      "ar": "اسمي علي."
+    },
+    {
+      "tr": "Ben öğrenciyim.",
+      "ar": "أنا طالب/طالبة."
+    },
+    {
+      "tr": "Memnun oldum.",
+      "ar": "سعيد/سعيدة بلقائك."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u2-2-q1",
+      "prompt": "كيف تقول «اسمي سارة»؟",
+      "options": [
+        "Benim adım Sara.",
+        "Senin adın Sara.",
+        "Nerelisin Sara?",
+        "Hoşça kal Sara."
+      ],
+      "answerIndex": 0,
+      "explanation": "Benim adım Sara تعني اسمي سارة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 2
+  }
+}

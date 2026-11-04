@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-4",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u20-04",
+      "order": 4,
+      "titleAr": "مراجعة الروتين اليومي والأفعال الشائعة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الروتين اليومي والأفعال الشائعة.",
+  "rule": "راجع أفعال الحياة اليومية مثل kalkmak يستيقظ، gitmek يذهب، yemek يأكل، içmek يشرب، çalışmak يعمل/يدرس. استخدم المضارع المستمر -yor للحدث الجاري أو الروتين في سياق مناسب: Her gün erken kalkıyorum (أستيقظ مبكراً كل يوم).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Erken kalkıyorum.",
+      "ar": "أستيقظ مبكراً."
+    },
+    {
+      "tr": "Okula gidiyorum.",
+      "ar": "أذهب إلى المدرسة."
+    },
+    {
+      "tr": "Su içiyorum.",
+      "ar": "أشرب الماء."
+    },
+    {
+      "tr": "Akşam kitap okuyorum.",
+      "ar": "أقرأ كتاباً مساءً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u20-4-q1",
+      "prompt": "ما معنى içiyorum؟",
+      "options": [
+        "أذهب",
+        "أشرب",
+        "أكتب",
+        "أنام"
+      ],
+      "answerIndex": 1,
+      "explanation": "içiyorum تعني أشرب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 4
+  }
+}

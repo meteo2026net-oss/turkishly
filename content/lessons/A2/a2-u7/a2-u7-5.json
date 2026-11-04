@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-5",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a2-u7-05",
+      "order": 5,
+      "titleAr": "حالة الابتعاد والمصدر",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "حالة الابتعاد أو المصدر -(d)an/-(t)en.",
+  "rule": "تجيب عن سؤال Nereden؟ (من أين؟) وتدل على نقطة الانطلاق أو المصدر: evden من المنزل، okuldan من المدرسة، parktan من الحديقة. مثال: İşten geliyorum (آتي من العمل). وتستخدم أيضاً في المقارنة مثل senden daha hızlı (أسرع منك).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "evden",
+      "ar": "من المنزل"
+    },
+    {
+      "tr": "okuldan",
+      "ar": "من المدرسة"
+    },
+    {
+      "tr": "işten",
+      "ar": "من العمل"
+    },
+    {
+      "tr": "İzmir'den geliyorum.",
+      "ar": "أتي من إزمير."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-5-q1",
+      "prompt": "ما معنى okuldan؟",
+      "options": [
+        "إلى المدرسة",
+        "في المدرسة",
+        "من المدرسة",
+        "المدرسة المحددة"
+      ],
+      "answerIndex": 2,
+      "explanation": "okuldan تعني من المدرسة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 5
+  }
+}

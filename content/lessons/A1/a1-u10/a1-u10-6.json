@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-6",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u10-06",
+      "order": 6,
+      "titleAr": "عبارات التحدث مع الطبيب",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام عبارات بسيطة عند التحدث مع الطبيب.",
+  "rule": "في حوار العيادة قد يسأل الطبيب Nereniz ağrıyor؟ (أين تشعر بالألم؟)، Ne zamandır؟ (منذ متى؟)، Nasıl hissediyorsunuz؟ (كيف تشعر؟). يمكن أن تجيب Başım ağrıyor (رأسي يؤلمني)، İki gündür (منذ يومين)، أو Kendimi yorgun hissediyorum (أشعر بالتعب).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Nereniz ağrıyor?",
+      "ar": "أين تشعر بالألم؟"
+    },
+    {
+      "tr": "Başım ağrıyor.",
+      "ar": "رأسي يؤلمني."
+    },
+    {
+      "tr": "Ne zamandır?",
+      "ar": "منذ متى؟"
+    },
+    {
+      "tr": "Dünden beri.",
+      "ar": "منذ الأمس."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-6-q1",
+      "prompt": "ما معنى Ne zamandır؟",
+      "options": [
+        "أين؟",
+        "منذ متى؟",
+        "كم السعر؟",
+        "من هذا؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ne zamandır؟ تعني منذ متى؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 6
+  }
+}

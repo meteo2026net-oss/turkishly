@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u6-8",
+  "level": "A1",
+  "unitId": "a1-u6",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u6-08",
+      "order": 8,
+      "titleAr": "السؤال عن المواعيد والاتفاق على وقت",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الوقت والأيام والتاريخ والروتين اليومي",
+    "titleTr": "Zaman, Günler, Tarihler ve Günlük Rutinler",
+    "description": "أيام الأسبوع وأشهر السنة وقراءة التاريخ والساعة ووصف العادات والأنشطة اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن المواعيد والاتفاق على وقت للقاء.",
+  "rule": "يمكن السؤال Ne zaman؟ (متى؟)، Saat kaçta؟ (في أي ساعة؟)، وHangi gün؟ (في أي يوم؟). للتعبير عن وقت وقوع الفعل نضيف لاحقة الحالة الزمنية -da/-de أو -ta/-te بحسب الانسجام الصوتي والتغيرات الصوتية، مثل saat üçte (في الساعة الثالثة) وpazartesi günü (يوم الاثنين).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ne zaman buluşuyoruz?",
+      "ar": "متى نلتقي؟"
+    },
+    {
+      "tr": "Saat kaçta?",
+      "ar": "في أي ساعة؟"
+    },
+    {
+      "tr": "Saat beşte buluşalım.",
+      "ar": "لنلتقِ في الساعة الخامسة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u6-8-q1",
+      "prompt": "أي عبارة تعني «في أي ساعة؟»",
+      "options": [
+        "Saat kaçta?",
+        "Saat kaç?",
+        "Kaç yaşında?",
+        "Nerede?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Saat kaçta؟ تسأل عن وقت حدوث النشاط."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u6",
+    "legacyLessonOrder": 8
+  }
+}

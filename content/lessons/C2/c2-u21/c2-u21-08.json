@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u21-08",
+  "level": "C2",
+  "unitId": "c2-u21",
+  "order": 8,
+  "title": {
+    "ar": "إدارة المخاطر والافتراضات البرنامجية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السياسات والحوكمة والتواصل الاستراتيجي الدولي",
+    "titleTr": "Politika, Yönetişim ve Uluslararası Stratejik İletişim",
+    "description": "تصميم السياسات وتقييم الأثر وإدارة أصحاب المصلحة والأزمات والاتفاقات والمؤشرات والمخاطر."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم إدارة المخاطر والافتراضات البرنامجية في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "program risk yönetimi",
+      "meaningAr": "إدارة مخاطر البرنامج",
+      "exampleTr": "Kritik varsayımları risk kayıtlarına ekleyip sorumlularını belirledik.",
+      "exampleAr": "أضفنا الافتراضات الحرجة إلى سجل المخاطر وحددنا المسؤولين عنها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kritik varsayımları risk kayıtlarına ekleyip sorumlularını belirledik.",
+      "ar": "أضفنا الافتراضات الحرجة إلى سجل المخاطر وحددنا المسؤولين عنها."
+    },
+    {
+      "tr": "Risk kaydı düzenli olarak gözden geçirilmelidir.",
+      "ar": "ينبغي مراجعة سجل المخاطر بانتظام."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu varsayım gerçekleşmezse ne olur?",
+      "ar": "ماذا يحدث إن لم يتحقق هذا الافتراض؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Alternatif bir müdahale planı hazırladık.",
+      "ar": "أعددنا خطة تدخل بديلة."
+    }
+  ],
+  "speakingTask": "أنشئ سجل مخاطر من خمسة بنود مع مسؤول وإجراء تخفيف لكل بند.",
+  "questions": [
+    {
+      "id": "c2-u21-08-q1",
+      "prompt": "ما المقصود بالمصطلح «program risk yönetimi»؟",
+      "options": [
+        "إدارة مخاطر البرنامج",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«program risk yönetimi» يعني: إدارة مخاطر البرنامج."
+    },
+    {
+      "id": "c2-u21-08-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "أضفنا الافتراضات الحرجة إلى سجل المخاطر وحددنا المسؤولين عنها.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "أضفنا الافتراضات الحرجة إلى سجل المخاطر وحددنا المسؤولين عنها."
+    },
+    {
+      "id": "c2-u21-08-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "risk kaydı",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة: risk kaydı. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u21-08-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "تحديد المخاطر واحتمالاتها وآثارها وخطط الاستجابة"
+      ],
+      "answerIndex": 3,
+      "explanation": "تحديد المخاطر واحتمالاتها وآثارها وخطط الاستجابة"
+    },
+    {
+      "id": "c2-u21-08-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أنشئ سجل مخاطر من خمسة بنود مع مسؤول وإجراء تخفيف لكل بند.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أنشئ سجل مخاطر من خمسة بنود مع مسؤول وإجراء تخفيف لكل بند."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u21",
+    "legacyGlobalNumber": 628
+  }
+}

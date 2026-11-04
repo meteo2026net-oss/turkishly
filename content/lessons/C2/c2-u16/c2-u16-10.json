@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u16-10",
+  "level": "C2",
+  "unitId": "c2-u16",
+  "order": 10,
+  "title": {
+    "ar": "مشروع تفاوض ووساطة متكامل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التفاوض متعدد الأطراف والوساطة المتقدمة",
+    "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
+    "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
+  },
+  "contentStatus": "full",
+  "goal": "ادمج التحضير والاستماع وإعادة الصياغة وصناعة الخيارات وتحرير الاتفاق وتقييم التنفيذ.",
+  "rule": "ادمج التحضير والاستماع وإعادة الصياغة وصناعة الخيارات وتحرير الاتفاق وتقييم التنفيذ.",
+  "vocabulary": [
+    {
+      "term": "bütünleşik arabuluculuk",
+      "meaningAr": "وساطة متكاملة",
+      "exampleTr": "Arabuluculuk sürecini ortak bir uygulama planıyla tamamladık.",
+      "exampleAr": "أنهينا عملية الوساطة بخطة تنفيذ مشتركة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Arabuluculuk sürecini ortak bir uygulama planıyla tamamladık.",
+      "ar": "أنهينا عملية الوساطة بخطة تنفيذ مشتركة."
+    },
+    {
+      "tr": "Başarı, yalnızca anlaşmaya değil uygulanabilirliğe de bağlıdır.",
+      "ar": "لا يعتمد النجاح على الاتفاق وحده بل على قابليته للتنفيذ أيضاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Görüşmeleri nasıl sonuçlandıracağız?",
+      "ar": "كيف سننهي المباحثات؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Maddeleri, sorumluları ve izleme takvimini birlikte onaylayalım.",
+      "ar": "لنعتمد البنود والمسؤولين وجدول المتابعة معاً."
+    }
+  ],
+  "speakingTask": "نفذ محاكاة تفاوض متعددة الأطراف وسلّم محضر اتفاق وخطة متابعة.",
+  "questions": [
+    {
+      "id": "c2-u16-10-q1",
+      "prompt": "ما معنى «bütünleşik arabuluculuk»؟",
+      "options": [
+        "وساطة متكاملة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«bütünleşik arabuluculuk» تعني: وساطة متكاملة."
+    },
+    {
+      "id": "c2-u16-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "أنهينا عملية الوساطة بخطة تنفيذ مشتركة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "أنهينا عملية الوساطة بخطة تنفيذ مشتركة."
+    },
+    {
+      "id": "c2-u16-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "uzlaşma planı",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «uzlaşma planı». ادمج التحضير والاستماع وإعادة الصياغة وصناعة الخيارات وتحرير الاتفاق وتقييم التنفيذ."
+    },
+    {
+      "id": "c2-u16-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "خطة التوافق"
+      ],
+      "answerIndex": 3,
+      "explanation": "خطة التوافق"
+    },
+    {
+      "id": "c2-u16-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "نفذ محاكاة تفاوض متعددة الأطراف وسلّم محضر اتفاق وخطة متابعة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "نفذ محاكاة تفاوض متعددة الأطراف وسلّم محضر اتفاق وخطة متابعة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u16",
+    "legacyGlobalNumber": 580
+  }
+}

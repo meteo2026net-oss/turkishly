@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u18-07",
+  "level": "C2",
+  "unitId": "c2-u18",
+  "order": 7,
+  "title": {
+    "ar": "كتابة موجز سياساتي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب العام والتحقق من الأدلة",
+    "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
+    "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
+  },
+  "contentStatus": "full",
+  "goal": "لخص المشكلة والأدلة والخيارات والتبعات والتوصية في وثيقة قصيرة موجهة لصانع القرار.",
+  "rule": "لخص المشكلة والأدلة والخيارات والتبعات والتوصية في وثيقة قصيرة موجهة لصانع القرار.",
+  "vocabulary": [
+    {
+      "term": "politika notu",
+      "meaningAr": "موجز سياساتي",
+      "exampleTr": "Notta seçenekleri ve olası etkileri karşılaştırdık.",
+      "exampleAr": "قارنّا الخيارات وآثارها المحتملة في الموجز."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Notta seçenekleri ve olası etkileri karşılaştırdık.",
+      "ar": "قارنّا الخيارات وآثارها المحتملة في الموجز."
+    },
+    {
+      "tr": "Politika notu, karar vermeyi kolaylaştıran seçici bir belgedir.",
+      "ar": "الموجز السياساتي وثيقة انتقائية تسهل اتخاذ القرار."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bütün ayrıntıları ekleyelim mi?",
+      "ar": "هل نضيف جميع التفاصيل؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kararı etkileyen kanıtları ve seçenekleri seçelim.",
+      "ar": "لنختر الأدلة والخيارات التي تؤثر في القرار."
+    }
+  ],
+  "speakingTask": "اكتب موجزاً من صفحة واحدة يوازن بين ثلاثة خيارات وتبعاتها.",
+  "questions": [
+    {
+      "id": "c2-u18-07-q1",
+      "prompt": "ما معنى «politika notu»؟",
+      "options": [
+        "طلب الإذن",
+        "موجز سياساتي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«politika notu» تعني: موجز سياساتي."
+    },
+    {
+      "id": "c2-u18-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قارنّا الخيارات وآثارها المحتملة في الموجز.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "قارنّا الخيارات وآثارها المحتملة في الموجز."
+    },
+    {
+      "id": "c2-u18-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "politika önerisi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «politika önerisi». لخص المشكلة والأدلة والخيارات والتبعات والتوصية في وثيقة قصيرة موجهة لصانع القرار."
+    },
+    {
+      "id": "c2-u18-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "توصية سياساتية",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "توصية سياساتية"
+    },
+    {
+      "id": "c2-u18-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب موجزاً من صفحة واحدة يوازن بين ثلاثة خيارات وتبعاتها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب موجزاً من صفحة واحدة يوازن بين ثلاثة خيارات وتبعاتها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u18",
+    "legacyGlobalNumber": 597
+  }
+}

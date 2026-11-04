@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u6-04",
+  "level": "B2",
+  "unitId": "b2-u6",
+  "order": 4,
+  "title": {
+    "ar": "الإعلام والرأي العام",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المجتمع والثقافة والقضايا المعاصرة",
+    "titleTr": "Toplum, Kültür ve Güncel Konular",
+    "description": "المشاركة المدنية والبيئة والإعلام والثقافة والصحة وكتابة الرأي."
+  },
+  "contentStatus": "full",
+  "goal": "تمييز الخبر عن الرأي وتحليل أثر الإعلام.",
+  "rule": "Haber ile yorum arasındaki farkı ayırt etmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "yorum",
+      "meaningAr": "تعليق / رأي",
+      "exampleTr": "ينبغي أن نميز الفرق بين الخبر والتعليق.",
+      "exampleAr": "تعليق / رأي"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الزمن",
+      "ar": ""
+    },
+    {
+      "tr": "Başlık her zaman içeriği tam yansıtmayabilir.",
+      "ar": "قد لا يعكس العنوان المحتوى كاملاً دائماً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Farklı kaynakları karşılaştırmak gerekir.|ينبغي مقارنة مصادر مختلفة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu bir haber mi, yorum mu? — هل هذا خبر أم رأي؟\nB: Yazarın değerlendirmesi olduğu için yorum. — إنه رأي لأنه تقييم الكاتب.",
+  "questions": [
+    {
+      "id": "b2-u6-04-q1",
+      "prompt": "ما معنى «yorum»؟",
+      "options": [
+        "إشاعة",
+        "إعلان",
+        "kamuoyu|الرأي العام",
+        "خبر مؤكد"
+      ],
+      "answerIndex": 2,
+      "explanation": "yorum تعني تعليق / رأي."
+    },
+    {
+      "id": "b2-u6-04-q2",
+      "prompt": "ما ترجمة الجملة: «ينبغي أن نميز الفرق بين الخبر والتعليق.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "ينبغي أن نميز الفرق بين الخبر والتعليق.|تعليق / رأي"
+      ],
+      "answerIndex": 3,
+      "explanation": "ينبغي أن نميز الفرق بين الخبر والتعليق. تعني تعليق / رأي."
+    },
+    {
+      "id": "b2-u6-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تخمين",
+        "التمييز بين المعلومة والرأي",
+        "السبب",
+        "الشرط"
+      ],
+      "answerIndex": 0,
+      "explanation": "arasındaki fark."
+    },
+    {
+      "id": "b2-u6-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تخمين»؟",
+      "options": [
+        "الشرط",
+        "الفرق بين",
+        "التمييز بين المعلومة والرأي",
+        "السبب"
+      ],
+      "answerIndex": 1,
+      "explanation": "الفرق بين"
+    },
+    {
+      "id": "b2-u6-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التمييز بين المعلومة والرأي",
+        "السبب",
+        "الشرط",
+        "الفرق بين"
+      ],
+      "answerIndex": 3,
+      "explanation": "الفرق بين"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u6",
+    "legacyGlobalNumber": 234
+  }
+}

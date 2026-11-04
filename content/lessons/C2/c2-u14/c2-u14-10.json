@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u14-10",
+  "level": "C2",
+  "unitId": "c2-u14",
+  "order": 10,
+  "title": {
+    "ar": "التقرير التقني المتكامل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاتصال العلمي والتقني المتقدم",
+    "titleTr": "İleri Bilimsel ve Teknik İletişim",
+    "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
+  },
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "bütünleşik teknik rapor",
+      "meaningAr": "تقرير تقني متكامل",
+      "exampleTr": "Teknik rapor bulguları, kararları, riskleri ve sonraki adımları birleştirir.",
+      "exampleAr": "يجمع التقرير التقني النتائج والقرارات والمخاطر والخطوات التالية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Teknik rapor bulguları, kararları, riskleri ve sonraki adımları birleştirir.",
+      "ar": "يجمع التقرير التقني النتائج والقرارات والمخاطر والخطوات التالية."
+    },
+    {
+      "tr": "Teknik rapor bulguları, kararları, riskleri ve sonraki adımları birleştirir.",
+      "ar": "يجمع التقرير التقني النتائج والقرارات والمخاطر والخطوات التالية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "bütünleşik teknik rapor konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في تقرير تقني متكامل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول التقرير التقني المتكامل، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-10-q1",
+      "prompt": "ما معنى «bütünleşik teknik rapor»؟",
+      "options": [
+        "تقرير تقني متكامل",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«bütünleşik teknik rapor» تعني: تقرير تقني متكامل."
+    },
+    {
+      "id": "c2-u14-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "يجمع التقرير التقني النتائج والقرارات والمخاطر والخطوات التالية.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "يجمع التقرير التقني النتائج والقرارات والمخاطر والخطوات التالية."
+    },
+    {
+      "id": "c2-u14-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "bütünleşik teknik rapor",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «bütünleşik teknik rapor». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إتقان تقرير تقني متكامل في سياق تخصصي متقدم"
+      ],
+      "answerIndex": 3,
+      "explanation": "إتقان تقرير تقني متكامل في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أنشئ مخرجاً تقنياً حول التقرير التقني المتكامل، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أنشئ مخرجاً تقنياً حول التقرير التقني المتكامل، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
+    "legacyUnitId": "c2-u14",
+    "legacyGlobalNumber": 560
+  }
+}

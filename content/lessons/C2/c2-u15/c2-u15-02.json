@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u15-02",
+  "level": "C2",
+  "unitId": "c2-u15",
+  "order": 2,
+  "title": {
+    "ar": "تقسيم الرسالة وإعادة بنائها",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+    "titleTr": "İleri Sözlü Çeviri ve Dilsel Arabuluculuk",
+    "description": "الاستماع المتقدم والتدوين والترجمة التتابعية وإدارة المصطلحات ومراجعة الأداء."
+  },
+  "contentStatus": "full",
+  "goal": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+  "rule": "استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف.",
+  "vocabulary": [
+    {
+      "term": "mesajı bölümlere ayırma",
+      "meaningAr": "تقسيم الرسالة",
+      "exampleTr": "Uzun mesajı anlam bloklarına ayırıp doğal sırayla yeniden kurdum.",
+      "exampleAr": "قسمت الرسالة إلى وحدات معنوية وأعدت بناءها بترتيب طبيعي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Uzun mesajı anlam bloklarına ayırıp doğal sırayla yeniden kurdum.",
+      "ar": "قسمت الرسالة إلى وحدات معنوية وأعدت بناءها بترتيب طبيعي."
+    },
+    {
+      "tr": "Uzun mesajı anlam bloklarına ayırıp doğal sırayla yeniden kurdum.",
+      "ar": "قسمت الرسالة إلى وحدات معنوية وأعدت بناءها بترتيب طبيعي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "mesajı bölümlere ayırma konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في تقسيم الرسالة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "نفذ تمريناً شفهياً حول تقسيم الرسالة وإعادة بنائها، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u15-02-q1",
+      "prompt": "ما معنى «mesajı bölümlere ayırma»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تقسيم الرسالة",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«mesajı bölümlere ayırma» تعني: تقسيم الرسالة."
+    },
+    {
+      "id": "c2-u15-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قسمت الرسالة إلى وحدات معنوية وأعدت بناءها بترتيب طبيعي."
+      ],
+      "answerIndex": 3,
+      "explanation": "قسمت الرسالة إلى وحدات معنوية وأعدت بناءها بترتيب طبيعي."
+    },
+    {
+      "id": "c2-u15-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "mesajı bölümlere ayırma",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «mesajı bölümlere ayırma». استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف."
+    },
+    {
+      "id": "c2-u15-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إتقان تقسيم الرسالة في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إتقان تقسيم الرسالة في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u15-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "نفذ تمريناً شفهياً حول تقسيم الرسالة وإعادة بنائها، ثم وثق خطواتك والنتائج ومعايير الجودة."
+      ],
+      "answerIndex": 3,
+      "explanation": "نفذ تمريناً شفهياً حول تقسيم الرسالة وإعادة بنائها، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
+    "legacyUnitId": "c2-u15",
+    "legacyGlobalNumber": 562
+  }
+}

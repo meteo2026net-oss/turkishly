@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u10-06",
+  "level": "B2",
+  "unitId": "b2-u10",
+  "order": 6,
+  "title": {
+    "ar": "التواصل في الأزمات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل والقيادة المتقدمة",
+    "titleTr": "Geçmiş İletişim ve Liderlik",
+    "description": "التواصل بين الثقافات والذكاء العاطفي والقيادة والاجتماعات وإدارة الأزمات والعمل الرقمي."
+  },
+  "contentStatus": "full",
+  "goal": "kriz",
+  "rule": "Kriz anında doğrulanmış bilgiyi sakin ve hızlı biçimde paylaşmalıyız.",
+  "vocabulary": [
+    {
+      "term": "أزمة",
+      "meaningAr": "kriz yönetimi",
+      "exampleTr": "Kriz anında doğrulanmış bilgiyi sakin ve hızlı biçimde paylaşmalıyız.",
+      "exampleAr": "في وقت الأزمة ينبغي مشاركة المعلومات المتحقق منها بهدوء وسرعة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-miş bilgi",
+      "ar": ""
+    },
+    {
+      "tr": "Kriz anında doğrulanmış bilgiyi sakin ve hızlı biçimde paylaşmalıyız.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "معلومة منقولة",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تمييز الخبر المؤكد",
+  "questions": [
+    {
+      "id": "b2-u10-06-q1",
+      "prompt": "ما معنى «أزمة»؟",
+      "options": [
+        "إدارة الأزمات",
+        "ارتباك",
+        "تأخير",
+        "تعبير غير ملائم"
+      ],
+      "answerIndex": 0,
+      "explanation": "أزمة تعني kriz yönetimi."
+    },
+    {
+      "id": "b2-u10-06-q2",
+      "prompt": "ما ترجمة الجملة: «Kriz anında doğrulanmış bilgiyi sakin ve hızlı biçimde paylaşmalıyız.»؟",
+      "options": [
+        "لا تناسب هذه الجملة السياق.",
+        "Kriz anında doğrulanmış bilgiyi sakin ve hızlı biçimde paylaşmalıyız.|في وقت الأزمة ينبغي مشاركة المعلومات المتحقق منها بهدوء وسرعة.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد."
+      ],
+      "answerIndex": 1,
+      "explanation": "Kriz anında doğrulanmış bilgiyi sakin ve hızlı biçimde paylaşmalıyız. تعني في وقت الأزمة ينبغي مشاركة المعلومات المتحقق منها بهدوء وسرعة.."
+    },
+    {
+      "id": "b2-u10-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "bilgiyi doğrulamak",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "يتحقق من المعلومة."
+    },
+    {
+      "id": "b2-u10-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «bilgiyi doğrulamak»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "التواصل المسؤول"
+      ],
+      "answerIndex": 3,
+      "explanation": "التواصل المسؤول"
+    },
+    {
+      "id": "b2-u10-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "التواصل المسؤول",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "التواصل المسؤول"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u10",
+    "legacyGlobalNumber": 276
+  }
+}

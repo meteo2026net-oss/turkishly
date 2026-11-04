@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u17-08",
+  "level": "C2",
+  "unitId": "c2-u17",
+  "order": 8,
+  "title": {
+    "ar": "ترجمة الحوار والشخصيات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الأدبية والتحليل الأسلوبي",
+    "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
+    "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
+  },
+  "contentStatus": "full",
+  "goal": "حافظ على اختلاف أصوات الشخصيات وإيقاع التبادل وسمات الحديث بما يخدم بناء الشخصية.",
+  "rule": "حافظ على اختلاف أصوات الشخصيات وإيقاع التبادل وسمات الحديث بما يخدم بناء الشخصية.",
+  "vocabulary": [
+    {
+      "term": "karakter sesi",
+      "meaningAr": "صوت الشخصية",
+      "exampleTr": "Her karakterin konuşma biçimini ayrı ayrı korudum.",
+      "exampleAr": "حافظت على طريقة حديث كل شخصية بصورة مستقلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Her karakterin konuşma biçimini ayrı ayrı korudum.",
+      "ar": "حافظت على طريقة حديث كل شخصية بصورة مستقلة."
+    },
+    {
+      "tr": "Diyalog, karakteri yalnızca içerikle değil söyleyişle de kurar.",
+      "ar": "يبني الحوار الشخصية بالمضمون وطريقة القول معاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Üç karakter aynı şekilde mi konuşmalı?",
+      "ar": "هل ينبغي أن تتحدث الشخصيات الثلاث بالطريقة نفسها؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, sözcük seçimi ve ritimleri farklı olmalı.",
+      "ar": "لا، يجب أن يختلف اختيار الكلمات والإيقاع."
+    }
+  ],
+  "speakingTask": "ترجم حواراً بين ثلاث شخصيات مع إبراز اختلاف أصواتها.",
+  "questions": [
+    {
+      "id": "c2-u17-08-q1",
+      "prompt": "ما معنى «karakter sesi»؟",
+      "options": [
+        "صوت الشخصية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«karakter sesi» تعني: صوت الشخصية."
+    },
+    {
+      "id": "c2-u17-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "حافظت على طريقة حديث كل شخصية بصورة مستقلة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "حافظت على طريقة حديث كل شخصية بصورة مستقلة."
+    },
+    {
+      "id": "c2-u17-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "konuşma doğallığı",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «konuşma doğallığı». حافظ على اختلاف أصوات الشخصيات وإيقاع التبادل وسمات الحديث بما يخدم بناء الشخصية."
+    },
+    {
+      "id": "c2-u17-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "طبيعية الحوار"
+      ],
+      "answerIndex": 3,
+      "explanation": "طبيعية الحوار"
+    },
+    {
+      "id": "c2-u17-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "ترجم حواراً بين ثلاث شخصيات مع إبراز اختلاف أصواتها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجم حواراً بين ثلاث شخصيات مع إبراز اختلاف أصواتها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u17",
+    "legacyGlobalNumber": 588
+  }
+}

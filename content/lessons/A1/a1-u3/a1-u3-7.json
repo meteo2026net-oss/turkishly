@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-7",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u3-07",
+      "order": 7,
+      "titleAr": "التعبير عن الملكية ووصف ما نملكه",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الملكية باستخدام الضمائر واللواحق.",
+  "rule": "يمكن أن نذكر ضمير الملكية مثل benim أو senin، ثم نضيف لاحقة الملكية إلى الاسم. تتغير اللاحقة بحسب آخر حركة، وقد يتغير آخر حرف في بعض الأسماء مثل kitap → kitabım.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Benim kitabım.",
+      "ar": "كتابي."
+    },
+    {
+      "tr": "Senin çantan.",
+      "ar": "حقيبتك."
+    },
+    {
+      "tr": "Bizim evimiz.",
+      "ar": "بيتنا."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u3-7-q1",
+      "prompt": "كيف نقول «كتابي»؟",
+      "options": [
+        "kitabın",
+        "kitabım",
+        "kitabı",
+        "kitabımız"
+      ],
+      "answerIndex": 1,
+      "explanation": "لاحقة المتكلم المفرد هنا -ım: kitabım."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 7
+  }
+}

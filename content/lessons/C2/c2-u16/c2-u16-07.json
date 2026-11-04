@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u16-07",
+  "level": "C2",
+  "unitId": "c2-u16",
+  "order": 7,
+  "title": {
+    "ar": "إدارة التنازلات المتبادلة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التفاوض متعدد الأطراف والوساطة المتقدمة",
+    "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
+    "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
+  },
+  "contentStatus": "full",
+  "goal": "لا تقدم تنازلاً منفرداً؛ اربطه بقيمة مقابلة، وسجل أثره على الاتفاق النهائي.",
+  "rule": "لا تقدم تنازلاً منفرداً؛ اربطه بقيمة مقابلة، وسجل أثره على الاتفاق النهائي.",
+  "vocabulary": [
+    {
+      "term": "karşılıklı taviz",
+      "meaningAr": "تنازل متبادل",
+      "exampleTr": "Her tavizi karşılıklı bir kazanımla ilişkilendirdik.",
+      "exampleAr": "ربطنا كل تنازل بمكسب متبادل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Her tavizi karşılıklı bir kazanımla ilişkilendirdik.",
+      "ar": "ربطنا كل تنازل بمكسب متبادل."
+    },
+    {
+      "tr": "Tavizlerin dengesi sürdürülebilir anlaşmayı destekler.",
+      "ar": "يدعم توازن التنازلات استدامة الاتفاق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu maddeden vazgeçebiliriz.",
+      "ar": "يمكننا التخلي عن هذا البند.\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bunun karşılığında hangi güvenceyi alacağız?",
+      "ar": "ما الضمان الذي سنحصل عليه في المقابل؟"
+    }
+  ],
+  "speakingTask": "أنشئ جدولاً يربط كل تنازل بالمقابل والقيمة والمخاطر.",
+  "questions": [
+    {
+      "id": "c2-u16-07-q1",
+      "prompt": "ما معنى «karşılıklı taviz»؟",
+      "options": [
+        "طلب الإذن",
+        "تنازل متبادل",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«karşılıklı taviz» تعني: تنازل متبادل."
+    },
+    {
+      "id": "c2-u16-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ربطنا كل تنازل بمكسب متبادل.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ربطنا كل تنازل بمكسب متبادل."
+    },
+    {
+      "id": "c2-u16-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "taviz dengesi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «taviz dengesi». لا تقدم تنازلاً منفرداً؛ اربطه بقيمة مقابلة، وسجل أثره على الاتفاق النهائي."
+    },
+    {
+      "id": "c2-u16-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "توازن التنازلات",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "توازن التنازلات"
+    },
+    {
+      "id": "c2-u16-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ جدولاً يربط كل تنازل بالمقابل والقيمة والمخاطر.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أنشئ جدولاً يربط كل تنازل بالمقابل والقيمة والمخاطر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u16",
+    "legacyGlobalNumber": 577
+  }
+}

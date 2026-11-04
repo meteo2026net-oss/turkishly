@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u4-01",
+  "level": "C1",
+  "unitId": "c1-u4",
+  "order": 1,
+  "title": {
+    "ar": "تحليل مواقف المتحدثين",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاستماع المتقدم وتحليل الخطاب",
+    "titleTr": "İleri Dinleme ve Söylem Analizi",
+    "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
+  },
+  "contentStatus": "full",
+  "goal": "تحديد مواقف المتحدثين وأسباب الاتفاق والاختلاف.",
+  "rule": "افصل الرأي عن المعلومة وسجّل موقف كل متحدث ودليله ودرجة يقينه.",
+  "vocabulary": [
+    {
+      "term": "tutum",
+      "meaningAr": "موقف أو توجّه",
+      "exampleTr": "Konuşmacı öneriyi destekliyor, ancak maliyet konusunda çekince taşıyor.",
+      "exampleAr": "يدعم المتحدث المقترح لكنه يتحفظ بشأن التكلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Konuşmacı öneriyi destekliyor, ancak maliyet konusunda çekince taşıyor.",
+      "ar": "يدعم المتحدث المقترح لكنه يتحفظ بشأن التكلفة."
+    },
+    {
+      "tr": "Konuşmacıların görüşlerini karşılaştırdım.",
+      "ar": "قارنت آراء المتحدثين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İlk konuşmacı ne düşünüyor؟",
+      "ar": "ما رأي المتحدث الأول؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Uygulamayı destekliyor, fakat maliyeti sorguluyor.",
+      "ar": "يدعم التطبيق لكنه يتساءل عن التكلفة."
+    }
+  ],
+  "speakingTask": "استمع إلى نقاش من ثلاثة أشخاص وسجل موقف كل شخص ودليلاً عليه.",
+  "questions": [
+    {
+      "id": "c1-u4-01-q1",
+      "prompt": "ما معنى «tutum»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "موقف أو توجّه"
+      ],
+      "answerIndex": 3,
+      "explanation": "«tutum» تعني: موقف أو توجّه."
+    },
+    {
+      "id": "c1-u4-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يدعم المتحدث المقترح لكنه يتحفظ بشأن التكلفة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يدعم المتحدث المقترح لكنه يتحفظ بشأن التكلفة."
+    },
+    {
+      "id": "c1-u4-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "konuşmacının tutumu",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «konuşmacının tutumu». افصل الرأي عن المعلومة وسجّل موقف كل متحدث ودليله ودرجة يقينه."
+    },
+    {
+      "id": "c1-u4-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحديد موقف المتحدث وأسباب تحفّظه.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحديد موقف المتحدث وأسباب تحفّظه."
+    },
+    {
+      "id": "c1-u4-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "استمع إلى نقاش من ثلاثة أشخاص وسجل موقف كل شخص ودليلاً عليه.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "استمع إلى نقاش من ثلاثة أشخاص وسجل موقف كل شخص ودليلاً عليه."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u4",
+    "legacyGlobalNumber": 331
+  }
+}

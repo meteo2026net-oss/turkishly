@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u6-09",
+  "level": "B1",
+  "unitId": "b1-u6",
+  "order": 9,
+  "title": {
+    "ar": "المحادثة حول موضوع غير مألوف",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "التعامل مع موضوع لا تعرف مفرداته بالكامل باستخدام إعادة الصياغة وطلب الشرح.",
+  "rule": "إذا نسيت كلمة استخدم ... demek istiyorum (أقصد)، أو ... başka bir deyişle (بعبارة أخرى). وقل Bu kelime ne anlama geliyor? لطلب معنى كلمة.",
+  "vocabulary": [
+    {
+      "term": "başka bir deyişle",
+      "meaningAr": "بعبارة أخرى",
+      "exampleTr": "Başka bir deyişle, bu sistem işleri kolaylaştırıyor.",
+      "exampleAr": "بعبارة أخرى، هذا النظام يجعل الأعمال أسهل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu kelimenin anlamını bilmiyorum.",
+      "ar": "لا أعرف معنى هذه الكلمة."
+    },
+    {
+      "tr": "Yani daha az zaman harcıyoruz.",
+      "ar": "أي أننا نقضي وقتاً أقل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu terimi anladın mı?",
+      "ar": "هل فهمت هذا المصطلح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tam değil. Başka bir deyişle açıklayabilir misin?",
+      "ar": "ليس تماماً. هل يمكنك شرحه بعبارة أخرى؟"
+    }
+  ],
+  "speakingTask": "اشرح ثلاثة مفاهيم بسيطة بالتركية دون استخدام الكلمة العربية المقابلة.",
+  "questions": [
+    {
+      "id": "b1-u6-09-q1",
+      "prompt": "ما معنى «başka bir deyişle»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "بعبارة أخرى"
+      ],
+      "answerIndex": 3,
+      "explanation": "başka bir deyişle تعني بعبارة أخرى."
+    },
+    {
+      "id": "b1-u6-09-q2",
+      "prompt": "ما ترجمة الجملة: «Başka bir deyişle, bu sistem işleri kolaylaştırıyor.»؟",
+      "options": [
+        "بعبارة أخرى، هذا النظام يجعل الأعمال أسهل.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Başka bir deyişle, bu sistem işleri kolaylaştırıyor. تعني بعبارة أخرى، هذا النظام يجعل الأعمال أسهل.."
+    },
+    {
+      "id": "b1-u6-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "... demek istiyorum / başka bir deyişle",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "إعادة الصياغة لتوضيح المعنى."
+    },
+    {
+      "id": "b1-u6-09-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «... demek istiyorum / başka bir deyişle»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "المحافظة على التواصل عند نقص المفردات أو صعوبة الشرح.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "المحافظة على التواصل عند نقص المفردات أو صعوبة الشرح."
+    },
+    {
+      "id": "b1-u6-09-q5",
+      "prompt": "أكمل التركيب: Başka bir deyişle, bu sistem işleri kolaylaştırıyor.",
+      "options": [
+        "... demek istiyorum / başka bir deyişle",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي ... demek istiyorum / başka bir deyişle؛ إعادة الصياغة لتوضيح المعنى."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u6",
+    "legacyGlobalNumber": 179
+  }
+}

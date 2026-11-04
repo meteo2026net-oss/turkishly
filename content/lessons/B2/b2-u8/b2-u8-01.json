@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-01",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 1,
+  "title": {
+    "ar": "القانون والحقوق والمسؤوليات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القانون والحقوق والمؤسسات",
+    "titleTr": "Hukuk, Haklar ve Kurumlar",
+    "description": "الحقوق والإجراءات الرسمية والخصوصية والعقود وتسوية الخلافات."
+  },
+  "contentStatus": "full",
+  "goal": "hak",
+  "rule": "Hak ve sorumluluklar birlikte ele alınmalıdır.",
+  "vocabulary": [
+    {
+      "term": "حق",
+      "meaningAr": "yükümlülük",
+      "exampleTr": "Hak ve sorumluluklar birlikte ele alınmalıdır.",
+      "exampleAr": "ينبغي تناول الحقوق والمسؤوليات معاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تقديم موضوعين بصورة مترابطة",
+      "ar": ""
+    },
+    {
+      "tr": "Hak ve sorumluluklar birlikte ele alınmalıdır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Her bireyin eşit haklara sahip olması gerekir.|ينبغي أن يتمتع كل فرد بحقوق متساوية.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Haklarımız neleri kapsar? — ما الذي تشمل حقوقنا؟\nB: Yasal güvence ve eşit muameleyi. — الحماية القانونية والمعاملة المتساوية.",
+  "questions": [
+    {
+      "id": "b2-u8-01-q1",
+      "prompt": "ما معنى «حق»؟",
+      "options": [
+        "hak ve yükümlülük",
+        "حق والتزام",
+        "تعبير غير مناسب",
+        "التزام"
+      ],
+      "answerIndex": 3,
+      "explanation": "حق تعني yükümlülük."
+    },
+    {
+      "id": "b2-u8-01-q2",
+      "prompt": "ما ترجمة الجملة: «Hak ve sorumluluklar birlikte ele alınmalıdır.»؟",
+      "options": [
+        "ينبغي تناول الحقوق والمسؤوليات معاً.|ينبغي تناول الحقوق والمسؤوليات معاً.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Hak ve sorumluluklar birlikte ele alınmalıdır. تعني ينبغي تناول الحقوق والمسؤوليات معاً.."
+    },
+    {
+      "id": "b2-u8-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "شرح علاقة الحق بالواجب",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "birlikte ele almak."
+    },
+    {
+      "id": "b2-u8-01-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «شرح علاقة الحق بالواجب»؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "يتناول معاً",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "يتناول معاً"
+    },
+    {
+      "id": "b2-u8-01-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "يتناول معاً",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "يتناول معاً"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 251
+  }
+}

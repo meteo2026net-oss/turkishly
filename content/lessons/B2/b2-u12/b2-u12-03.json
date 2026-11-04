@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-03",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 3,
+  "title": {
+    "ar": "النقد الأدبي وتقييم النص",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأدب والفنون واللغة المتقدمة",
+    "titleTr": "Edebiyat, Sanat ve İleri Dil",
+    "description": "السرد والمجاز والنقد الأدبي والفنون والخطاب والتحرير والتعبيرات الاصطلاحية."
+  },
+  "contentStatus": "full",
+  "goal": "eleştiri",
+  "rule": "Bir eseri değerlendirirken biçim ve içeriği birlikte incelemeliyiz.",
+  "vocabulary": [
+    {
+      "term": "نقد",
+      "meaningAr": "üslup",
+      "exampleTr": "Bir eseri değerlendirirken biçim ve içeriği birlikte incelemeliyiz.",
+      "exampleAr": "عند تقييم عمل أدبي ينبغي دراسة الشكل والمضمون معاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "biçim ve içerik",
+      "ar": ""
+    },
+    {
+      "tr": "Bir eseri değerlendirirken biçim ve içeriği birlikte incelemeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "الشكل والمحتوى",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "مقارنة عنصرين",
+  "questions": [
+    {
+      "id": "b2-u12-03-q1",
+      "prompt": "ما معنى «نقد»؟",
+      "options": [
+        "تعبير غير ملائم",
+        "أسلوب",
+        "ورق",
+        "مكتبة"
+      ],
+      "answerIndex": 1,
+      "explanation": "نقد تعني üslup."
+    },
+    {
+      "id": "b2-u12-03-q2",
+      "prompt": "ما ترجمة الجملة: «Bir eseri değerlendirirken biçim ve içeriği birlikte incelemeliyiz.»؟",
+      "options": [
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Bir eseri değerlendirirken biçim ve içeriği birlikte incelemeliyiz.|عند تقييم عمل أدبي ينبغي دراسة الشكل والمضمون معاً.",
+        "سأذهب إلى السوق بعد الدرس."
+      ],
+      "answerIndex": 2,
+      "explanation": "Bir eseri değerlendirirken biçim ve içeriği birlikte incelemeliyiz. تعني عند تقييم عمل أدبي ينبغي دراسة الشكل والمضمون معاً.."
+    },
+    {
+      "id": "b2-u12-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "edebî eleştiri"
+      ],
+      "answerIndex": 3,
+      "explanation": "نقد أدبي."
+    },
+    {
+      "id": "b2-u12-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «edebî eleştiri»؟",
+      "options": [
+        "تقييم العمل بموضوعية",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "تقييم العمل بموضوعية"
+    },
+    {
+      "id": "b2-u12-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "تقييم العمل بموضوعية",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقييم العمل بموضوعية"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 293
+  }
+}

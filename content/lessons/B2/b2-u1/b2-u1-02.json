@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u1-02",
+  "level": "B2",
+  "unitId": "b2-u1",
+  "order": 2,
+  "title": {
+    "ar": "صيغ المستقبل الموصولة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التراكيب النحوية المتقدمة",
+    "titleTr": "İleri Dilbilgisi Yapıları",
+    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+  },
+  "contentStatus": "full",
+  "goal": "وصف مهمة أو شيء سيحدث مستقبلاً.",
+  "rule": "تُستخدم -ecek/-acak مع لاحقة الملكية لتحديد اسم مرتبط بفعل مستقبلي: yapacağım toplantı (الاجتماع الذي سأعقده).",
+  "vocabulary": [
+    {
+      "term": "yapacağım",
+      "meaningAr": "الذي سأقوم به",
+      "exampleTr": "Yarın yapacağımız sunum için hazırlanıyoruz.",
+      "exampleAr": "نستعد للعرض الذي سنقدمه غداً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "التزامن",
+      "ar": ""
+    },
+    {
+      "tr": "Gelecek hafta başlayacak proje önemli.",
+      "ar": "المشروع الذي سيبدأ الأسبوع القادم مهم."
+    },
+    {
+      "tr": "Alacağımız karar herkesi etkileyecek.",
+      "ar": "القرار الذي سنتخذه سيؤثر في الجميع."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi konuyu konuşacağız?",
+      "ar": "أي موضوع سنناقش؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yarın ele alacağımız konuyu.",
+      "ar": "الموضوع الذي سنتناوله غداً."
+    }
+  ],
+  "speakingTask": "تحدث عن ثلاثة مشاريع أو قرارات ستقوم بها مستقبلاً.",
+  "questions": [
+    {
+      "id": "b2-u1-02-q1",
+      "prompt": "ما معنى «yapacağım»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "الذي سأقوم به",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "yapacağım تعني الذي سأقوم به."
+    },
+    {
+      "id": "b2-u1-02-q2",
+      "prompt": "ما ترجمة الجملة: «Yarın yapacağımız sunum için hazırlanıyoruz.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "نستعد للعرض الذي سنقدمه غداً."
+      ],
+      "answerIndex": 3,
+      "explanation": "Yarın yapacağımız sunum için hazırlanıyoruz. تعني نستعد للعرض الذي سنقدمه غداً.."
+    },
+    {
+      "id": "b2-u1-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "fiil + -AcAk + iyelik eki",
+        "-AcAk + iyelik eki",
+        "-DIK + iyelik eki",
+        "-miş gibi"
+      ],
+      "answerIndex": 0,
+      "explanation": "صيغة المستقبل مع لاحقة الملكية."
+    },
+    {
+      "id": "b2-u1-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «fiil + -AcAk + iyelik eki»؟",
+      "options": [
+        "النفي المطلق",
+        "تحديد فعل مستقبلي مرتبط باسم.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحديد فعل مستقبلي مرتبط باسم."
+    },
+    {
+      "id": "b2-u1-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تحديد فعل مستقبلي مرتبط باسم."
+      ],
+      "answerIndex": 3,
+      "explanation": "تحديد فعل مستقبلي مرتبط باسم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u1",
+    "legacyGlobalNumber": 182
+  }
+}

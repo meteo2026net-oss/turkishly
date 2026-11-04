@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u7-05",
+  "level": "C1",
+  "unitId": "c1-u7",
+  "order": 5,
+  "title": {
+    "ar": "تركيب نتائج الدراسات السابقة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "منهجية البحث والحجاج المتقدم",
+    "titleTr": "İleri Araştırma ve Argümantasyon",
+    "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
+  },
+  "contentStatus": "full",
+  "goal": "دمج مصادر متعددة في خريطة موضوعية بدلاً من تلخيص كل مصدر منفرداً.",
+  "rule": "نظم الأدبيات حسب الاتجاهات والاختلافات والمنهج، ثم أبرز الفجوة التي يعالجها بحثك.",
+  "vocabulary": [
+    {
+      "term": "literatür sentezi",
+      "meaningAr": "تركيب الأدبيات البحثية",
+      "exampleTr": "Önceki çalışmaların ortak bulgularını ve ayrıştıkları noktaları bir araya getirdim.",
+      "exampleAr": "جمعت النتائج المشتركة للدراسات السابقة ونقاط اختلافها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Önceki çalışmaların ortak bulgularını ve ayrıştıkları noktaları bir araya getirdim.",
+      "ar": "جمعت النتائج المشتركة للدراسات السابقة ونقاط اختلافها."
+    },
+    {
+      "tr": "Literatürü temalara göre sentezledim.",
+      "ar": "ركبت الأدبيات وفق محاور موضوعية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her çalışmayı ayrı mı özetledin؟",
+      "ar": "هل لخصت كل دراسة على حدة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, ortak temalara göre birleştirdim.",
+      "ar": "لا، جمعتها وفق الموضوعات المشتركة."
+    }
+  ],
+  "speakingTask": "اكتب فقرة تقارن أربع دراسات وتستخلص اتجاهاً وفجوة بحثية.",
+  "questions": [
+    {
+      "id": "c1-u7-05-q1",
+      "prompt": "ما معنى «literatür sentezi»؟",
+      "options": [
+        "طلب الإذن",
+        "تركيب الأدبيات البحثية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«literatür sentezi» تعني: تركيب الأدبيات البحثية."
+    },
+    {
+      "id": "c1-u7-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "جمعت النتائج المشتركة للدراسات السابقة ونقاط اختلافها.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "جمعت النتائج المشتركة للدراسات السابقة ونقاط اختلافها."
+    },
+    {
+      "id": "c1-u7-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "çalışmaları sentezlemek"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «çalışmaları sentezlemek». نظم الأدبيات حسب الاتجاهات والاختلافات والمنهج، ثم أبرز الفجوة التي يعالجها بحثك."
+    },
+    {
+      "id": "c1-u7-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "دمج نتائج عدة مصادر في تحليل واحد.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "دمج نتائج عدة مصادر في تحليل واحد."
+    },
+    {
+      "id": "c1-u7-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب فقرة تقارن أربع دراسات وتستخلص اتجاهاً وفجوة بحثية.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب فقرة تقارن أربع دراسات وتستخلص اتجاهاً وفجوة بحثية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u7",
+    "legacyGlobalNumber": 365
+  }
+}

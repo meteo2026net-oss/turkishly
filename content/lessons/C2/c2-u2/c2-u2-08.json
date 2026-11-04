@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u2-08",
+  "level": "C2",
+  "unitId": "c2-u2",
+  "order": 8,
+  "title": {
+    "ar": "الكتابة للنشر الأكاديمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحرير والترجمة والنشر المتقدم",
+    "titleTr": "İleri Editörlük, Çeviri ve Yayın",
+    "description": "الدقة الدلالية والترجمة المفاهيمية والثقافية والتحرير والكتابة للنشر."
+  },
+  "contentStatus": "full",
+  "goal": "تكييف النص لمتطلبات مجلة أو جهة نشر متخصصة.",
+  "rule": "راجع نطاق المجلة وتعليماتها وبنية المقال والتوثيق والأخلاقيات قبل الإرسال.",
+  "vocabulary": [
+    {
+      "term": "yayına hazırlamak",
+      "meaningAr": "يهيئ للنشر",
+      "exampleTr": "Makalenin biçimini derginin yazım kurallarına göre düzenledim.",
+      "exampleAr": "نظمت تنسيق المقال وفق قواعد المجلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Makalenin biçimini derginin yazım kurallarına göre düzenledim.",
+      "ar": "نظمت تنسيق المقال وفق قواعد المجلة."
+    },
+    {
+      "tr": "Makale dosyasını yayın ölçütlerine göre hazırladım.",
+      "ar": "جهزت ملف المقال وفق معايير النشر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İçerik tamamlandı mı؟",
+      "ar": "هل اكتمل المحتوى؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, şimdi biçim ve kaynakça denetimi yapıyorum.",
+      "ar": "نعم، أراجع الآن التنسيق والمراجع."
+    }
+  ],
+  "speakingTask": "جهز ملخصاً وعنواناً وكلمات مفتاحية لمقال بحثي.",
+  "questions": [
+    {
+      "id": "c2-u2-08-q1",
+      "prompt": "ما معنى «yayına hazırlamak»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "يهيئ للنشر",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«yayına hazırlamak» تعني: يهيئ للنشر."
+    },
+    {
+      "id": "c2-u2-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "نظمت تنسيق المقال وفق قواعد المجلة."
+      ],
+      "answerIndex": 3,
+      "explanation": "نظمت تنسيق المقال وفق قواعد المجلة."
+    },
+    {
+      "id": "c2-u2-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "akademik yayın dili",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «akademik yayın dili». راجع نطاق المجلة وتعليماتها وبنية المقال والتوثيق والأخلاقيات قبل الإرسال."
+    },
+    {
+      "id": "c2-u2-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إعداد مقال صالح للتقديم للنشر.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إعداد مقال صالح للتقديم للنشر."
+    },
+    {
+      "id": "c2-u2-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "جهز ملخصاً وعنواناً وكلمات مفتاحية لمقال بحثي."
+      ],
+      "answerIndex": 3,
+      "explanation": "جهز ملخصاً وعنواناً وكلمات مفتاحية لمقال بحثي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u2",
+    "legacyGlobalNumber": 438
+  }
+}

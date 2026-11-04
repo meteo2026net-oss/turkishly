@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u7-05",
+  "level": "C2",
+  "unitId": "c2-u7",
+  "order": 5,
+  "title": {
+    "ar": "توظيف الصمت والوقفات في الإقناع",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب الشفهي والمناظرة المتقدمة",
+    "titleTr": "İleri Sözlü Söylem ve Münazara",
+    "description": "تحليل المداخلات والشرح الفوري وإدارة الاختلاف والنقاش متعدد اللغات."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام الوقفات لتأكيد الفكرة وإتاحة وقت للمعالجة.",
+  "rule": "ضع الوقفة بعد الفكرة المحورية لا وسط العلاقة النحوية، وراقب أثرها على الجمهور.",
+  "vocabulary": [
+    {
+      "term": "retorik duraklama",
+      "meaningAr": "وقفة بلاغية",
+      "exampleTr": "Ana savdan sonra kısa bir duraklama dinleyicinin dikkatini topladı.",
+      "exampleAr": "جمعت وقفة قصيرة بعد الحجة الرئيسة انتباه المستمع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ana savdan sonra kısa bir duraklama dinleyicinin dikkatini topladı.",
+      "ar": "جمعت وقفة قصيرة بعد الحجة الرئيسة انتباه المستمع."
+    },
+    {
+      "tr": "Duraklamaları anlamın yapısına göre kullandım.",
+      "ar": "استخدمت الوقفات وفق بنية المعنى."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden cümleden sonra bekledin؟",
+      "ar": "لماذا انتظرت بعد الجملة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ana fikrin dinleyicide yerleşmesini istedim.",
+      "ar": "أردت أن تستقر الفكرة الرئيسة لدى المستمع."
+    }
+  ],
+  "speakingTask": "سجل خطاباً وقارن أثر نسختين تختلفان في الوقفات.",
+  "questions": [
+    {
+      "id": "c2-u7-05-q1",
+      "prompt": "ما معنى «retorik duraklama»؟",
+      "options": [
+        "طلب الإذن",
+        "وقفة بلاغية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«retorik duraklama» تعني: وقفة بلاغية."
+    },
+    {
+      "id": "c2-u7-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "جمعت وقفة قصيرة بعد الحجة الرئيسة انتباه المستمع.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "جمعت وقفة قصيرة بعد الحجة الرئيسة انتباه المستمع."
+    },
+    {
+      "id": "c2-u7-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "sözlü vurgu"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «sözlü vurgu». ضع الوقفة بعد الفكرة المحورية لا وسط العلاقة النحوية، وراقب أثرها على الجمهور."
+    },
+    {
+      "id": "c2-u7-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تعزيز المعنى عبر الوقف والإيقاع.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تعزيز المعنى عبر الوقف والإيقاع."
+    },
+    {
+      "id": "c2-u7-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "سجل خطاباً وقارن أثر نسختين تختلفان في الوقفات.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "سجل خطاباً وقارن أثر نسختين تختلفان في الوقفات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u7",
+    "legacyGlobalNumber": 485
+  }
+}

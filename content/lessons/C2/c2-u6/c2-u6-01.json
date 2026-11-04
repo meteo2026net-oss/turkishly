@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u6-01",
+  "level": "C2",
+  "unitId": "c2-u6",
+  "order": 1,
+  "title": {
+    "ar": "إدارة مفاوضات متعددة الأطراف",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والوساطة الاستراتيجية المتقدمة",
+    "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
+    "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
+  },
+  "contentStatus": "full",
+  "goal": "إدارة مصالح متعارضة بين عدة أطراف وصياغة مسار تفاوضي.",
+  "rule": "حدد الأطراف والمصالح والقيود والبدائل، ثم رتب القضايا حسب إمكانية الاتفاق.",
+  "vocabulary": [
+    {
+      "term": "çok taraflı müzakere",
+      "meaningAr": "تفاوض متعدد الأطراف",
+      "exampleTr": "Tarafların önceliklerini ayrı ayrı belirleyip ortak seçenekler geliştirdik.",
+      "exampleAr": "حددنا أولويات الأطراف بصورة منفصلة وطوّرنا خيارات مشتركة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tarafların önceliklerini ayrı ayrı belirleyip ortak seçenekler geliştirdik.",
+      "ar": "حددنا أولويات الأطراف بصورة منفصلة وطوّرنا خيارات مشتركة."
+    },
+    {
+      "tr": "Müzakere sürecini aşamalı bir plana bağladım.",
+      "ar": "ربطت عملية التفاوض بخطة مرحلية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Herkes aynı önceliğe mi sahip؟",
+      "ar": "هل لدى الجميع الأولوية نفسها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, bu yüzden çıkarları ayrı analiz ettik.",
+      "ar": "لا، لذلك حللنا المصالح بصورة منفصلة."
+    }
+  ],
+  "speakingTask": "صمم خطة تفاوض لأربعة أطراف مع خريطة مصالح وبدائل.",
+  "questions": [
+    {
+      "id": "c2-u6-01-q1",
+      "prompt": "ما معنى «çok taraflı müzakere»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تفاوض متعدد الأطراف"
+      ],
+      "answerIndex": 3,
+      "explanation": "«çok taraflı müzakere» تعني: تفاوض متعدد الأطراف."
+    },
+    {
+      "id": "c2-u6-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "حددنا أولويات الأطراف بصورة منفصلة وطوّرنا خيارات مشتركة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "حددنا أولويات الأطراف بصورة منفصلة وطوّرنا خيارات مشتركة."
+    },
+    {
+      "id": "c2-u6-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "müzakere mimarisi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «müzakere mimarisi». حدد الأطراف والمصالح والقيود والبدائل، ثم رتب القضايا حسب إمكانية الاتفاق."
+    },
+    {
+      "id": "c2-u6-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "بناء عملية تفاوض متعددة الأطراف.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "بناء عملية تفاوض متعددة الأطراف."
+    },
+    {
+      "id": "c2-u6-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "صمم خطة تفاوض لأربعة أطراف مع خريطة مصالح وبدائل.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "صمم خطة تفاوض لأربعة أطراف مع خريطة مصالح وبدائل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
+    "legacyUnitId": "c2-u6",
+    "legacyGlobalNumber": 471
+  }
+}

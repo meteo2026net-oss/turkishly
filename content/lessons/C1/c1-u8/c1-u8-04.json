@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u8-04",
+  "level": "C1",
+  "unitId": "c1-u8",
+  "order": 4,
+  "title": {
+    "ar": "فهم الإحالات الثقافية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التداولية والوساطة بين الثقافات",
+    "titleTr": "Edimbilim ve Kültürlerarası Arabuluculuk",
+    "description": "فهم النية الضمنية واللباقة والإحالات الثقافية وإصلاح سوء الفهم والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "تفسير الإشارات إلى العادات والأحداث والأمثال في السياق.",
+  "rule": "حدد المرجع الثقافي ووظيفته ولا تفترض أن الترجمة الحرفية تنقل دلالته.",
+  "vocabulary": [
+    {
+      "term": "kültürel gönderme",
+      "meaningAr": "إحالة ثقافية",
+      "exampleTr": "Bu deyim, Türk kültüründeki misafirperverlik anlayışına gönderme yapıyor.",
+      "exampleAr": "يشير هذا التعبير إلى مفهوم الضيافة في الثقافة التركية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu deyim, Türk kültüründeki misafirperverlik anlayışına gönderme yapıyor.",
+      "ar": "يشير هذا التعبير إلى مفهوم الضيافة في الثقافة التركية."
+    },
+    {
+      "tr": "Kültürel göndermeyi açıklayarak anlamı korudum.",
+      "ar": "حافظت على المعنى بشرح الإحالة الثقافية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu söz neden kullanıldı؟",
+      "ar": "لماذا استُخدم هذا القول؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ortak bir kültürel değeri hatırlatıyor.",
+      "ar": "إنه يذكّر بقيمة ثقافية مشتركة."
+    }
+  ],
+  "speakingTask": "اختر ثلاثة أمثال تركية واشرح مرجعها الثقافي واستعمالها.",
+  "questions": [
+    {
+      "id": "c1-u8-04-q1",
+      "prompt": "ما معنى «kültürel gönderme»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "إحالة ثقافية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«kültürel gönderme» تعني: إحالة ثقافية."
+    },
+    {
+      "id": "c1-u8-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يشير هذا التعبير إلى مفهوم الضيافة في الثقافة التركية."
+      ],
+      "answerIndex": 3,
+      "explanation": "يشير هذا التعبير إلى مفهوم الضيافة في الثقافة التركية."
+    },
+    {
+      "id": "c1-u8-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "kültürel bağlam",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «kültürel bağlam». حدد المرجع الثقافي ووظيفته ولا تفترض أن الترجمة الحرفية تنقل دلالته."
+    },
+    {
+      "id": "c1-u8-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "فهم الإشارة الثقافية في سياقها.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "فهم الإشارة الثقافية في سياقها."
+    },
+    {
+      "id": "c1-u8-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اختر ثلاثة أمثال تركية واشرح مرجعها الثقافي واستعمالها."
+      ],
+      "answerIndex": 3,
+      "explanation": "اختر ثلاثة أمثال تركية واشرح مرجعها الثقافي واستعمالها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u8",
+    "legacyGlobalNumber": 374
+  }
+}

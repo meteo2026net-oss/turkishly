@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u5-08",
+  "level": "B2",
+  "unitId": "b2-u5",
+  "order": 8,
+  "title": {
+    "ar": "التعبير عن الصعوبات واستراتيجيات التعلم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التعليم والتعلم والبحث",
+    "titleTr": "Eğitim, Öğrenme ve Araştırma",
+    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+  },
+  "contentStatus": "full",
+  "goal": "وصف العقبة والطريقة التي تساعد على تجاوزها.",
+  "rule": "Zorlandığım konuları küçük adımlara bölüyorum.",
+  "vocabulary": [
+    {
+      "term": "zorlanmak",
+      "meaningAr": "يجد صعوبة",
+      "exampleTr": "أقسم الموضوعات التي أجد صعوبة فيها إلى خطوات صغيرة.",
+      "exampleAr": "يجد صعوبة"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الملكية",
+      "ar": ""
+    },
+    {
+      "tr": "Düzenli tekrar hatırlamayı kolaylaştırır.",
+      "ar": "تسهل المراجعة المنتظمة التذكر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Hata yapmak öğrenmenin bir parçasıdır.|ارتكاب الخطأ جزء من التعلم.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu konuyu nasıl öğreniyorsun? — كيف تتعلم هذا الموضوع؟\nB: Örnekleri inceleyip alıştırma yapıyorum. — أدرس الأمثلة وأتدرب.",
+  "questions": [
+    {
+      "id": "b2-u5-08-q1",
+      "prompt": "ما معنى «zorlanmak»؟",
+      "options": [
+        "bir konuda zorlanmak|يواجه صعوبة في موضوع",
+        "ينجح فوراً",
+        "يتجاهل",
+        "يمنع"
+      ],
+      "answerIndex": 0,
+      "explanation": "zorlanmak تعني يجد صعوبة."
+    },
+    {
+      "id": "b2-u5-08-q2",
+      "prompt": "ما ترجمة الجملة: «أقسم الموضوعات التي أجد صعوبة فيها إلى خطوات صغيرة.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "أقسم الموضوعات التي أجد صعوبة فيها إلى خطوات صغيرة.|يجد صعوبة",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "أقسم الموضوعات التي أجد صعوبة فيها إلى خطوات صغيرة. تعني يجد صعوبة."
+    },
+    {
+      "id": "b2-u5-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "المقارنة",
+        "الزمن المستقبلي",
+        "يستسلم",
+        "تحديد مواضع الصعوبة"
+      ],
+      "answerIndex": 2,
+      "explanation": "-DIğım konular."
+    },
+    {
+      "id": "b2-u5-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يستسلم»؟",
+      "options": [
+        "تحديد مواضع الصعوبة",
+        "المقارنة",
+        "الزمن المستقبلي",
+        "الموضوعات التي"
+      ],
+      "answerIndex": 3,
+      "explanation": "الموضوعات التي"
+    },
+    {
+      "id": "b2-u5-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "الزمن المستقبلي",
+        "الموضوعات التي",
+        "تحديد مواضع الصعوبة",
+        "المقارنة"
+      ],
+      "answerIndex": 1,
+      "explanation": "الموضوعات التي"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u5",
+    "legacyGlobalNumber": 228
+  }
+}

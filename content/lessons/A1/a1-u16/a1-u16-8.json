@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u16-8",
+  "level": "A1",
+  "unitId": "a1-u16",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u16-08",
+      "order": 8,
+      "titleAr": "حوار في استقبال العيادة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم والحالة العامة والأعراض الشائعة ومفردات العيادة والصيدلية وطلب المواعيد والمساعدة."
+  },
+  "contentStatus": "full",
+  "goal": "حوار في استقبال العيادة باللغة التركية.",
+  "rule": "اقرأ الحوار: Hasta: Merhaba, randevu almak istiyorum (المراجع: مرحباً، أريد حجز موعد). Görevli: Hangi gün؟ (الموظف: أي يوم؟). Hasta: Yarın mümkün mü؟ (هل غداً ممكن؟). Görevli: Evet, saat onda (نعم، الساعة العاشرة). Hasta: Teşekkür ederim (شكراً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Merhaba, randevu almak istiyorum.",
+      "ar": "مرحباً، أريد حجز موعد."
+    },
+    {
+      "tr": "Hangi gün?",
+      "ar": "أي يوم؟"
+    },
+    {
+      "tr": "Yarın mümkün mü?",
+      "ar": "هل غداً ممكن؟"
+    },
+    {
+      "tr": "Evet, saat onda.",
+      "ar": "نعم، الساعة العاشرة."
+    },
+    {
+      "tr": "Teşekkür ederim.",
+      "ar": "شكراً لك."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u16-8-q1",
+      "prompt": "ما معنى Hangi gün؟",
+      "options": [
+        "أي يوم؟",
+        "أي لون؟",
+        "كم السعر؟",
+        "أين الطبيب؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hangi تعني أيّ، وgün تعني يوم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u16",
+    "legacyLessonOrder": 8
+  }
+}

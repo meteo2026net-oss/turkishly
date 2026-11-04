@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u17-3",
+  "level": "A1",
+  "unitId": "a1-u17",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u17-03",
+      "order": 3,
+      "titleAr": "السؤال عن المهنة والتعريف بالعمل",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمل والمهن والحياة المهنية",
+    "titleTr": "İşler, Meslekler ve İş Hayatı",
+    "description": "أسماء المهن وأماكن العمل والمهام والمسؤوليات وأوقات الدوام والمهارات والتعريف بالحياة المهنية."
+  },
+  "contentStatus": "full",
+  "goal": "طرح سؤال عن مهنة الشخص والإجابة عنه.",
+  "rule": "للسؤال عن العمل: Ne iş yapıyorsun؟ (ما عملك؟)، Mesleğin ne؟ (ما مهنتك؟). للإجابة: Öğretmenim (أنا معلّم)، Mühendisim (أنا مهندس)، Bir şirkette çalışıyorum (أعمل في شركة). لاحظ اتصال لاحقة المتكلم بالكلمة في Öğretmenim.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ne iş yapıyorsun?",
+      "ar": "ما عملك؟"
+    },
+    {
+      "tr": "Mesleğin ne?",
+      "ar": "ما مهنتك؟"
+    },
+    {
+      "tr": "Öğretmenim.",
+      "ar": "أنا معلّم."
+    },
+    {
+      "tr": "Bir şirkette çalışıyorum.",
+      "ar": "أعمل في شركة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u17-3-q1",
+      "prompt": "كيف تقول «أنا معلّم»؟",
+      "options": [
+        "Öğretmenim.",
+        "Nerede?",
+        "Saat kaç?",
+        "Evdeyim."
+      ],
+      "answerIndex": 0,
+      "explanation": "Öğretmenim تعني أنا معلّم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u17",
+    "legacyLessonOrder": 3
+  }
+}

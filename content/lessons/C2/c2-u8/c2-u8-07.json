@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u8-07",
+  "level": "C2",
+  "unitId": "c2-u8",
+  "order": 7,
+  "title": {
+    "ar": "تقييم الجودة الترجمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة والتحرير متعدد الطبقات",
+    "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
+    "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "بناء معيار جودة يقيس الدقة والوظيفة والسياق والأثر.",
+  "rule": "حدد الأخطاء الحرجة والثانوية، وقيّم أثرها في الفهم، ولا تساو بين جميع الاختلافات.",
+  "vocabulary": [
+    {
+      "term": "çeviri kalite değerlendirmesi",
+      "meaningAr": "تقييم جودة الترجمة",
+      "exampleTr": "Hata türlerini etkilerine göre sınıflandırıp kalite raporu hazırladım.",
+      "exampleAr": "صنفت أنواع الأخطاء وفق أثرها وأعددت تقرير جودة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Hata türlerini etkilerine göre sınıflandırıp kalite raporu hazırladım.",
+      "ar": "صنفت أنواع الأخطاء وفق أثرها وأعددت تقرير جودة."
+    },
+    {
+      "tr": "Kalite raporunu somut örneklerle destekledim.",
+      "ar": "دعمت تقرير الجودة بأمثلة ملموسة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her küçük fark hata mı؟",
+      "ar": "هل كل اختلاف صغير خطأ؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "İşlevi ve anlamı etkileyip etkilemediğine bakmalıyız.",
+      "ar": "ينبغي النظر فيما إذا كان يؤثر في الوظيفة والمعنى."
+    }
+  ],
+  "speakingTask": "قيّم ترجمة وفق عشرة معايير وصنف الأخطاء حسب شدتها.",
+  "questions": [
+    {
+      "id": "c2-u8-07-q1",
+      "prompt": "ما معنى «çeviri kalite değerlendirmesi»؟",
+      "options": [
+        "طلب الإذن",
+        "تقييم جودة الترجمة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«çeviri kalite değerlendirmesi» تعني: تقييم جودة الترجمة."
+    },
+    {
+      "id": "c2-u8-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "صنفت أنواع الأخطاء وفق أثرها وأعددت تقرير جودة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "صنفت أنواع الأخطاء وفق أثرها وأعددت تقرير جودة."
+    },
+    {
+      "id": "c2-u8-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kalite ölçütleri"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «kalite ölçütleri». حدد الأخطاء الحرجة والثانوية، وقيّم أثرها في الفهم، ولا تساو بين جميع الاختلافات."
+    },
+    {
+      "id": "c2-u8-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "قياس جودة الترجمة وفق أثر الخطأ.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "قياس جودة الترجمة وفق أثر الخطأ."
+    },
+    {
+      "id": "c2-u8-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قيّم ترجمة وفق عشرة معايير وصنف الأخطاء حسب شدتها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قيّم ترجمة وفق عشرة معايير وصنف الأخطاء حسب شدتها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u8",
+    "legacyGlobalNumber": 497
+  }
+}

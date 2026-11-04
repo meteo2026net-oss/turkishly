@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u4-09",
+  "level": "B2",
+  "unitId": "b2-u4",
+  "order": 9,
+  "title": {
+    "ar": "شرح الإجراءات والتعليمات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المشاريع والقيادة المهنية",
+    "titleTr": "Proje Yönetimi ve Mesleki Liderlik",
+    "description": "تخطيط المشاريع وتوزيع المسؤوليات وإدارة المخاطر والعمل مع العملاء."
+  },
+  "contentStatus": "full",
+  "goal": "عرض إجراء متسلسل بلغة دقيقة.",
+  "rule": "Önce başvuru formunu doldurun, ardından belgeleri yükleyin.",
+  "vocabulary": [
+    {
+      "term": "ardından",
+      "meaningAr": "بعد ذلك",
+      "exampleTr": "املأ استمارة الطلب أولاً، ثم ارفع الوثائق.",
+      "exampleAr": "بعد ذلك"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "المقارنة",
+      "ar": ""
+    },
+    {
+      "tr": "Başvurunuz tamamlandığında onay mesajı alacaksınız.",
+      "ar": "عند اكتمال طلبك ستتلقى رسالة تأكيد."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Eksik belge varsa başvuru bekletilir.|إذا كانت هناك وثيقة ناقصة فسيُعلّق الطلب.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Nereden başlamalıyım? — من أين أبدأ؟\nB: İlk olarak hesabınızı oluşturun. — أنشئ حسابك أولاً.",
+  "questions": [
+    {
+      "id": "b2-u4-09-q1",
+      "prompt": "ما معنى «ardından»؟",
+      "options": [
+        "سبب",
+        "نتيجة",
+        "استثناء",
+        "işlem sırası|ترتيب الإجراء"
+      ],
+      "answerIndex": 3,
+      "explanation": "ardından تعني بعد ذلك."
+    },
+    {
+      "id": "b2-u4-09-q2",
+      "prompt": "ما ترجمة الجملة: «املأ استمارة الطلب أولاً، ثم ارفع الوثائق.»؟",
+      "options": [
+        "املأ استمارة الطلب أولاً، ثم ارفع الوثائق.|بعد ذلك",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "املأ استمارة الطلب أولاً، ثم ارفع الوثائق. تعني بعد ذلك."
+    },
+    {
+      "id": "b2-u4-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "الاحتمال",
+        "تخمين",
+        "شرح إجراء متسلسل",
+        "التنازل"
+      ],
+      "answerIndex": 1,
+      "explanation": "önce... ardından...."
+    },
+    {
+      "id": "b2-u4-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تخمين»؟",
+      "options": [
+        "التنازل",
+        "الاحتمال",
+        "ترتيب الخطوات",
+        "شرح إجراء متسلسل"
+      ],
+      "answerIndex": 2,
+      "explanation": "ترتيب الخطوات"
+    },
+    {
+      "id": "b2-u4-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "ترتيب الخطوات",
+        "شرح إجراء متسلسل",
+        "التنازل",
+        "الاحتمال"
+      ],
+      "answerIndex": 0,
+      "explanation": "ترتيب الخطوات"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u4",
+    "legacyGlobalNumber": 219
+  }
+}

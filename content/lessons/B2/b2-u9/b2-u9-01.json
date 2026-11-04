@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-01",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 1,
+  "title": {
+    "ar": "العلم والبحث والتجربة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلم والبحث والتفكير النقدي",
+    "titleTr": "Bilim, Araştırma ve Eleştirel Düşünme",
+    "description": "الفرضيات والبيانات والاستدلال والتحفظ العلمي والكتابة الأكاديمية."
+  },
+  "contentStatus": "full",
+  "goal": "deney",
+  "rule": "Bir hipotezi sınamak için kontrollü bir deney tasarlanır.",
+  "vocabulary": [
+    {
+      "term": "تجربة",
+      "meaningAr": "hipotez",
+      "exampleTr": "Bir hipotezi sınamak için kontrollü bir deney tasarlanır.",
+      "exampleAr": "يُصمم اختبار مضبوط لفحص فرضية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "توضيح غرض البحث",
+      "ar": ""
+    },
+    {
+      "tr": "Bir hipotezi sınamak için kontrollü bir deney tasarlanır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Araştırma sorusunu açıkça belirledik.|حددنا سؤال البحث بوضوح.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Hipotez nasıl sınanır? — كيف تُختبر الفرضية؟\nB: Uygun veriler toplayarak. — بجمع بيانات مناسبة.",
+  "questions": [
+    {
+      "id": "b2-u9-01-q1",
+      "prompt": "ما معنى «تجربة»؟",
+      "options": [
+        "تعبير غير مناسب",
+        "فرضية",
+        "hipotezi sınamak",
+        "يختبر فرضية"
+      ],
+      "answerIndex": 1,
+      "explanation": "تجربة تعني hipotez."
+    },
+    {
+      "id": "b2-u9-01-q2",
+      "prompt": "ما ترجمة الجملة: «Bir hipotezi sınamak için kontrollü bir deney tasarlanır.»؟",
+      "options": [
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "يُصمم اختبار مضبوط لفحص فرضية.|يُصمم اختبار مضبوط لفحص فرضية.",
+        "سأزور المكتبة غداً."
+      ],
+      "answerIndex": 2,
+      "explanation": "Bir hipotezi sınamak için kontrollü bir deney tasarlanır. تعني يُصمم اختبار مضبوط لفحص فرضية.."
+    },
+    {
+      "id": "b2-u9-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "وصف المنهج العلمي"
+      ],
+      "answerIndex": 3,
+      "explanation": "-mek amacıyla."
+    },
+    {
+      "id": "b2-u9-01-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «وصف المنهج العلمي»؟",
+      "options": [
+        "بهدف",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "بهدف"
+    },
+    {
+      "id": "b2-u9-01-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "بهدف",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "بهدف"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 261
+  }
+}

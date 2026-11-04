@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u14-3",
+  "level": "A1",
+  "unitId": "a1-u14",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u14-03",
+      "order": 3,
+      "titleAr": "الاتجاهات وتحديد المواقع",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والاتجاهات",
+    "titleTr": "Şehir, Ulaşım ve Yönler",
+    "description": "الأماكن العامة ووسائل النقل والاتجاهات والسؤال عن الطريق ومحطات النقل وشراء التذاكر."
+  },
+  "contentStatus": "full",
+  "goal": "فهم كلمات الاتجاهات وتحديد موقع مكان في المدينة.",
+  "rule": "الاتجاهات: sağ يمين، sol يسار، düz إلى الأمام، geri إلى الخلف، kuzey شمال، güney جنوب، doğu شرق، batı غرب. كلمات الموقع: yakın قريب، uzak بعيد، karşı مقابل، yanında بجانب. مثال: Sağa dön (انعطف يميناً)، Düz gidin (تابع إلى الأمام بصيغة مهذبة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "sağ",
+      "ar": "يمين"
+    },
+    {
+      "tr": "sol",
+      "ar": "يسار"
+    },
+    {
+      "tr": "düz",
+      "ar": "إلى الأمام"
+    },
+    {
+      "tr": "yakın",
+      "ar": "قريب"
+    },
+    {
+      "tr": "uzak",
+      "ar": "بعيد"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u14-3-q1",
+      "prompt": "ما معنى sola؟",
+      "options": [
+        "إلى اليمين",
+        "إلى اليسار",
+        "إلى الأمام",
+        "إلى الخلف"
+      ],
+      "answerIndex": 1,
+      "explanation": "sola تعني إلى اليسار."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u14",
+    "legacyLessonOrder": 3
+  }
+}

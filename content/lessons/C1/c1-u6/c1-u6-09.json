@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u6-09",
+  "level": "C1",
+  "unitId": "c1-u6",
+  "order": 9,
+  "title": {
+    "ar": "المراجعة البلاغية والأسلوبية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البلاغة والأسلوب المتقدم",
+    "titleTr": "İleri Retorik ve Üslup",
+    "description": "المجاز والتوكيد والسجل اللغوي والفروق الدلالية والتحرير وتحليل النصوص."
+  },
+  "contentStatus": "full",
+  "goal": "تقييم أثر الأدوات البلاغية وملاءمتها لغرض النص.",
+  "rule": "قيّم الوضوح والنبرة والإقناع وملاءمة الجمهور دون زخرفة زائدة.",
+  "vocabulary": [
+    {
+      "term": "retorik etki",
+      "meaningAr": "أثر بلاغي",
+      "exampleTr": "Yazarın karşıtlık kullanımı iki politika arasındaki farkı belirginleştiriyor.",
+      "exampleAr": "يجعل استخدام المقابلة الفرق بين سياستين واضحاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yazarın karşıtlık kullanımı iki politika arasındaki farkı belirginleştiriyor.",
+      "ar": "يجعل استخدام المقابلة الفرق بين سياستين واضحاً."
+    },
+    {
+      "tr": "Retorik tercihin amaca hizmet edip etmediğini inceledim.",
+      "ar": "فحصت ملاءمة الاختيار البلاغي للهدف."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu benzetme gerekli mi؟",
+      "ar": "هل التشبيه ضروري؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Soyut fikri daha anlaşılır kılıyor.",
+      "ar": "يجعل الفكرة المجردة أوضح."
+    }
+  ],
+  "speakingTask": "حدد أداتين بلاغيتين في مقطع واشرح أثرهما.",
+  "questions": [
+    {
+      "id": "c1-u6-09-q1",
+      "prompt": "ما معنى «retorik etki»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "أثر بلاغي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«retorik etki» تعني: أثر بلاغي."
+    },
+    {
+      "id": "c1-u6-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يجعل استخدام المقابلة الفرق بين سياستين واضحاً.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يجعل استخدام المقابلة الفرق بين سياستين واضحاً."
+    },
+    {
+      "id": "c1-u6-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "retorik araç",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «retorik araç». قيّم الوضوح والنبرة والإقناع وملاءمة الجمهور دون زخرفة زائدة."
+    },
+    {
+      "id": "c1-u6-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "توظيف أداة بلاغية لخدمة المعنى.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "توظيف أداة بلاغية لخدمة المعنى."
+    },
+    {
+      "id": "c1-u6-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حدد أداتين بلاغيتين في مقطع واشرح أثرهما.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حدد أداتين بلاغيتين في مقطع واشرح أثرهما."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u6",
+    "legacyGlobalNumber": 359
+  }
+}

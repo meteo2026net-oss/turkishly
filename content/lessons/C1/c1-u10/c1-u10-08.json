@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u10-08",
+  "level": "C1",
+  "unitId": "c1-u10",
+  "order": 8,
+  "title": {
+    "ar": "إدارة جلسة نقاش جماعية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العرض الأكاديمي المتقدم",
+    "titleTr": "İleri Akademik Sunum",
+    "description": "بناء العروض والانتقالات وشرح البيانات وإدارة الأسئلة والنقاش."
+  },
+  "contentStatus": "full",
+  "goal": "توزيع فرص الحديث وتلخيص الآراء المتباينة وإعادة النقاش إلى الهدف.",
+  "rule": "ضع قواعد مشاركة واضحة، ووازن الوقت، ولخص نقاط الاتفاق والاختلاف دون تحيز.",
+  "vocabulary": [
+    {
+      "term": "panel tartışması",
+      "meaningAr": "نقاش حلقي",
+      "exampleTr": "Her konuşmacıya eşit süre vererek tartışmayı yönettim.",
+      "exampleAr": "أدرت النقاش بمنح كل متحدث وقتاً متساوياً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Her konuşmacıya eşit süre vererek tartışmayı yönettim.",
+      "ar": "أدرت النقاش بمنح كل متحدث وقتاً متساوياً."
+    },
+    {
+      "tr": "Farklı görüşlere dengeli biçimde söz hakkı tanıdım.",
+      "ar": "منحت الآراء المختلفة فرصة متوازنة للتعبير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tartışma konudan uzaklaşıyor mu؟",
+      "ar": "هل يبتعد النقاش عن الموضوع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ana soruya dönüp görüşleri özetleyelim.",
+      "ar": "لنعد إلى السؤال الرئيس ونلخص الآراء."
+    }
+  ],
+  "speakingTask": "أدر جلسة نقاش من أربعة مشاركين واكتب ملخصاً محايداً.",
+  "questions": [
+    {
+      "id": "c1-u10-08-q1",
+      "prompt": "ما معنى «panel tartışması»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "نقاش حلقي",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«panel tartışması» تعني: نقاش حلقي."
+    },
+    {
+      "id": "c1-u10-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أدرت النقاش بمنح كل متحدث وقتاً متساوياً."
+      ],
+      "answerIndex": 3,
+      "explanation": "أدرت النقاش بمنح كل متحدث وقتاً متساوياً."
+    },
+    {
+      "id": "c1-u10-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "söz hakkı dağıtımı",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «söz hakkı dağıtımı». ضع قواعد مشاركة واضحة، ووازن الوقت، ولخص نقاط الاتفاق والاختلاف دون تحيز."
+    },
+    {
+      "id": "c1-u10-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تنظيم المشاركة وتوازن الحوار.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تنظيم المشاركة وتوازن الحوار."
+    },
+    {
+      "id": "c1-u10-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أدر جلسة نقاش من أربعة مشاركين واكتب ملخصاً محايداً."
+      ],
+      "answerIndex": 3,
+      "explanation": "أدر جلسة نقاش من أربعة مشاركين واكتب ملخصاً محايداً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u10",
+    "legacyGlobalNumber": 398
+  }
+}

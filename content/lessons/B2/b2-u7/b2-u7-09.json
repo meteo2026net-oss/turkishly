@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-09",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 9,
+  "title": {
+    "ar": "تحليل البيانات لاتخاذ القرار",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الابتكار وريادة الأعمال",
+    "titleTr": "İnovasyon ve Girişimcilik",
+    "description": "تطوير فكرة مشروع وتحليل السوق والتفاوض والتسويق والميزانية."
+  },
+  "contentStatus": "full",
+  "goal": "veri",
+  "rule": "Karar vermeden önce verilerin güvenilirliğini kontrol etmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "بيانات",
+      "meaningAr": "bulgu",
+      "exampleTr": "Karar vermeden önce verilerin güvenilirliğini kontrol etmeliyiz.",
+      "exampleAr": "ينبغي التحقق من موثوقية البيانات قبل اتخاذ القرار."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ترتيب الفعل زمنياً",
+      "ar": ""
+    },
+    {
+      "tr": "Karar vermeden önce verilerin güvenilirliğini kontrol etmeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Veriler eğilimin değiştiğini gösteriyor.|تظهر البيانات أن الاتجاه يتغير.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu sonuca nasıl ulaştınız? — كيف توصلتم إلى هذه النتيجة؟\nB: Üç farklı göstergeyi karşılaştırarak. — بمقارنة ثلاثة مؤشرات مختلفة.",
+  "questions": [
+    {
+      "id": "b2-u7-09-q1",
+      "prompt": "ما معنى «بيانات»؟",
+      "options": [
+        "تعبير غير مناسب",
+        "نتيجة / استنتاج",
+        "veriye dayalı karar",
+        "قرار قائم على البيانات"
+      ],
+      "answerIndex": 1,
+      "explanation": "بيانات تعني bulgu."
+    },
+    {
+      "id": "b2-u7-09-q2",
+      "prompt": "ما ترجمة الجملة: «Karar vermeden önce verilerin güvenilirliğini kontrol etmeliyiz.»؟",
+      "options": [
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي التحقق من موثوقية البيانات قبل اتخاذ القرار.|ينبغي التحقق من موثوقية البيانات قبل اتخاذ القرار.",
+        "سأزور المكتبة غداً."
+      ],
+      "answerIndex": 2,
+      "explanation": "Karar vermeden önce verilerin güvenilirliğini kontrol etmeliyiz. تعني ينبغي التحقق من موثوقية البيانات قبل اتخاذ القرار.."
+    },
+    {
+      "id": "b2-u7-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "تقديم قرار مبرر"
+      ],
+      "answerIndex": 3,
+      "explanation": "-meden önce."
+    },
+    {
+      "id": "b2-u7-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تقديم قرار مبرر»؟",
+      "options": [
+        "قبل أن",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "قبل أن"
+    },
+    {
+      "id": "b2-u7-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "قبل أن",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "قبل أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 249
+  }
+}

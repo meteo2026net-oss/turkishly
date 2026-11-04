@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u8-6",
+  "level": "A1",
+  "unitId": "a1-u8",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u8-06",
+      "order": 6,
+      "titleAr": "تجربة الملابس وغرفة القياس",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الملابس والتسوّق والألوان والأسعار",
+    "titleTr": "Kıyafetler, Alışveriş, Renkler ve Fiyatlar",
+    "description": "أسماء الملابس والألوان والمقاسات والسؤال عن الأسعار وتجربة الملابس والشراء من المتاجر."
+  },
+  "contentStatus": "full",
+  "goal": "طلب تجربة الملابس قبل اتخاذ قرار الشراء.",
+  "rule": "غرفة القياس تُسمّى deneme kabini أو kabin. لطلب تجربة قطعة ملابس قل Deneyebilir miyim؟ (هل يمكنني تجربتها؟)، وللسؤال عن مكان غرفة القياس قل Deneme kabini nerede؟. بعد التجربة يمكنك وصفها: Çok büyük (كبيرة جداً) أو Tam oldu (المقاس مناسب تماماً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Deneyebilir miyim?",
+      "ar": "هل يمكنني تجربتها؟"
+    },
+    {
+      "tr": "Deneme kabini nerede?",
+      "ar": "أين غرفة القياس؟"
+    },
+    {
+      "tr": "Tam oldu.",
+      "ar": "المقاس مناسب تماماً."
+    },
+    {
+      "tr": "Biraz küçük.",
+      "ar": "صغيرة قليلاً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u8-6-q1",
+      "prompt": "ما معنى Deneme kabini nerede؟",
+      "options": [
+        "كم السعر؟",
+        "أين غرفة القياس؟",
+        "هل يوجد تخفيض؟",
+        "أين المتجر؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "Deneme kabini nerede؟ تعني أين غرفة القياس؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u8",
+    "legacyLessonOrder": 6
+  }
+}

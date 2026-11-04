@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-8",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u6-08",
+      "order": 8,
+      "titleAr": "حوار لتقديم النصائح والحديث عن الخطط",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "حوار لتقديم النصائح والحديث عن الخطط.",
+  "rule": "A: Yarın sınavım var. Ne yapmalıyım? (لدي امتحان غداً، ماذا ينبغي أن أفعل؟) B: Bu akşam tekrar yapmalısın ve erken yatmalısın (ينبغي أن تراجع هذا المساء وأن تنام مبكراً). A: Çok teşekkür ederim. B: Rica ederim.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "sınav",
+      "ar": "امتحان"
+    },
+    {
+      "tr": "tekrar yapmak",
+      "ar": "يراجع"
+    },
+    {
+      "tr": "erken yatmak",
+      "ar": "ينام مبكراً"
+    },
+    {
+      "tr": "Ne yapmalıyım?",
+      "ar": "ماذا ينبغي أن أفعل؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-8-q1",
+      "prompt": "ما النصيحة التي قدمها المتحدث؟",
+      "options": [
+        "أن يسافر غداً",
+        "أن يراجع وينام مبكراً",
+        "أن يتوقف عن الدراسة",
+        "أن يأتي متأخراً"
+      ],
+      "answerIndex": 1,
+      "explanation": "النصيحة هي المراجعة مساءً والنوم مبكراً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 8
+  }
+}

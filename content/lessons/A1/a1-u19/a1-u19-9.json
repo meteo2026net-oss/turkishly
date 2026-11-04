@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-9",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u19-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة مفردات السفر والمطار والفندق والاتجاهات.",
+  "rule": "راجع أسماء وسائل النقل وأماكن السفر والإقامة ومفردات المطار والخدمات. تدرب على ذكر وجهتك ومدة إقامتك، وطلب غرفة، والسؤال عن الطريق أو خدمة في الفندق. حاول تكوين حوار قصير من التحية إلى استلام مفتاح الغرفة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "İstanbul'a gidiyorum.",
+      "ar": "أذهب إلى إسطنبول."
+    },
+    {
+      "tr": "Bir oda ayırtmak istiyorum.",
+      "ar": "أريد حجز غرفة."
+    },
+    {
+      "tr": "Uçuş kapısı nerede?",
+      "ar": "أين بوابة الرحلة؟"
+    },
+    {
+      "tr": "Üç gün kalacağım.",
+      "ar": "سأقيم ثلاثة أيام."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-9-q1",
+      "prompt": "اختر ترجمة «أريد حجز غرفة».",
+      "options": [
+        "Bir oda ayırtmak istiyorum.",
+        "Tren bileti aldım.",
+        "Otel nerede?",
+        "Üç gün kalacağım."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bir oda ayırtmak istiyorum تعني أريد حجز غرفة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 9
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-7",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u7-07",
+      "order": 7,
+      "titleAr": "استخدام edatlar مع الأسماء والضمائر",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام edatlar مع الأسماء والضمائر.",
+  "rule": "تأتي بعض حروف الجر التركية بعد الاسم أو الضمير: benim için من أجلي، senin gibi مثلك، arkadaşım ile مع صديقي، bana göre وفق رأيي/بالنسبة لي. لاحظ أن ile قد تتصل بالاسم بصيغة -le/-la: arkadaşım ile أو arkadaşımla.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "benim için",
+      "ar": "من أجلي"
+    },
+    {
+      "tr": "senin gibi",
+      "ar": "مثلك"
+    },
+    {
+      "tr": "arkadaşımla",
+      "ar": "مع صديقي"
+    },
+    {
+      "tr": "bana göre",
+      "ar": "بالنسبة لي"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-7-q1",
+      "prompt": "ما معنى senin gibi؟",
+      "options": [
+        "من أجلك",
+        "مثلك",
+        "معك",
+        "إليك"
+      ],
+      "answerIndex": 1,
+      "explanation": "senin gibi تعني مثلك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 7
+  }
+}

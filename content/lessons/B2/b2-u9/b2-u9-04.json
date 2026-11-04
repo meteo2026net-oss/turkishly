@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-04",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 4,
+  "title": {
+    "ar": "التفكير النقدي والتحيز",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلم والبحث والتفكير النقدي",
+    "titleTr": "Bilim, Araştırma ve Eleştirel Düşünme",
+    "description": "الفرضيات والبيانات والاستدلال والتحفظ العلمي والكتابة الأكاديمية."
+  },
+  "contentStatus": "full",
+  "goal": "önyargı",
+  "rule": "Bir kaynağı değerlendirirken kendi önyargılarımızı fark etmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "تحيز مسبق",
+      "meaningAr": "tarafsız",
+      "exampleTr": "Bir kaynağı değerlendirirken kendi önyargılarımızı fark etmeliyiz.",
+      "exampleAr": "ينبغي أن نلاحظ تحيزاتنا عند تقييم مصدر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الإشارة إلى التحيز الشخصي",
+      "ar": ""
+    },
+    {
+      "tr": "Bir kaynağı değerlendirirken kendi önyargılarımızı fark etmeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Farklı açıklamaları karşılaştırdık.|قارنّا تفسيرات مختلفة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Kaynak tarafsız mı? — هل المصدر محايد؟\nB: Bunu kanıtlarına bakarak değerlendirelim. — لنقيّم ذلك بالنظر إلى أدلته.",
+  "questions": [
+    {
+      "id": "b2-u9-04-q1",
+      "prompt": "ما معنى «تحيز مسبق»؟",
+      "options": [
+        "محايد",
+        "önyargıyı fark etmek",
+        "يلاحظ التحيز",
+        "تعبير غير مناسب"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحيز مسبق تعني tarafsız."
+    },
+    {
+      "id": "b2-u9-04-q2",
+      "prompt": "ما ترجمة الجملة: «Bir kaynağı değerlendirirken kendi önyargılarımızı fark etmeliyiz.»؟",
+      "options": [
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي أن نلاحظ تحيزاتنا عند تقييم مصدر.|ينبغي أن نلاحظ تحيزاتنا عند تقييم مصدر.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق."
+      ],
+      "answerIndex": 1,
+      "explanation": "Bir kaynağı değerlendirirken kendi önyargılarımızı fark etmeliyiz. تعني ينبغي أن نلاحظ تحيزاتنا عند تقييم مصدر.."
+    },
+    {
+      "id": "b2-u9-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "مراجعة الافتراضات",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "kendi + isim."
+    },
+    {
+      "id": "b2-u9-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «مراجعة الافتراضات»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "خاصته / الذات"
+      ],
+      "answerIndex": 3,
+      "explanation": "خاصته / الذات"
+    },
+    {
+      "id": "b2-u9-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "خاصته / الذات",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "خاصته / الذات"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 264
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u18-10",
+  "level": "C2",
+  "unitId": "c2-u18",
+  "order": 10,
+  "title": {
+    "ar": "المشروع الختامي المتقدم لمستوى C2",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب العام والتحقق من الأدلة",
+    "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
+    "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
+  },
+  "contentStatus": "full",
+  "goal": "أنجز مشروعاً مستقلاً يجمع البحث والتحليل والترجمة والتواصل والتفاوض مع تبرير القرارات والقيود.",
+  "rule": "أنجز مشروعاً مستقلاً يجمع البحث والتحليل والترجمة والتواصل والتفاوض مع تبرير القرارات والقيود.",
+  "vocabulary": [
+    {
+      "term": "ileri bitirme projesi",
+      "meaningAr": "مشروع ختامي متقدم",
+      "exampleTr": "Projemde kanıtları değerlendirdim, sonuçları savundum ve farklı kitlelere uyarladım.",
+      "exampleAr": "قيّمت الأدلة ودافعت عن النتائج وكيّفتها لجماهير مختلفة في مشروعي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Projemde kanıtları değerlendirdim, sonuçları savundum ve farklı kitlelere uyarladım.",
+      "ar": "قيّمت الأدلة ودافعت عن النتائج وكيّفتها لجماهير مختلفة في مشروعي."
+    },
+    {
+      "tr": "Yetkinlik, karmaşık görevleri bağımsız ve tutarlı biçimde tamamlamaktır.",
+      "ar": "الكفاءة هي إنجاز المهام المعقدة باستقلالية واتساق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Projenin başarısı nasıl ölçülecek?",
+      "ar": "كيف سيُقاس نجاح المشروع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kanıt, dil doğruluğu, tutarlılık ve uygulanabilirlikle.",
+      "ar": "بالأدلة والدقة اللغوية والاتساق وقابلية التطبيق."
+    }
+  ],
+  "speakingTask": "قدم ملفاً ختامياً يضم بحثاً ومخرجاً لغوياً وعرضاً وتأملاً نقدياً.",
+  "questions": [
+    {
+      "id": "c2-u18-10-q1",
+      "prompt": "ما معنى «ileri bitirme projesi»؟",
+      "options": [
+        "مشروع ختامي متقدم",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«ileri bitirme projesi» تعني: مشروع ختامي متقدم."
+    },
+    {
+      "id": "c2-u18-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "قيّمت الأدلة ودافعت عن النتائج وكيّفتها لجماهير مختلفة في مشروعي.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "قيّمت الأدلة ودافعت عن النتائج وكيّفتها لجماهير مختلفة في مشروعي."
+    },
+    {
+      "id": "c2-u18-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "uzmanlık portfolyosu",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «uzmanlık portfolyosu». أنجز مشروعاً مستقلاً يجمع البحث والتحليل والترجمة والتواصل والتفاوض مع تبرير القرارات والقيود."
+    },
+    {
+      "id": "c2-u18-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "ملف إنجاز تخصصي"
+      ],
+      "answerIndex": 3,
+      "explanation": "ملف إنجاز تخصصي"
+    },
+    {
+      "id": "c2-u18-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "قدم ملفاً ختامياً يضم بحثاً ومخرجاً لغوياً وعرضاً وتأملاً نقدياً.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "قدم ملفاً ختامياً يضم بحثاً ومخرجاً لغوياً وعرضاً وتأملاً نقدياً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u18",
+    "legacyGlobalNumber": 600
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u10-02",
+  "level": "C2",
+  "unitId": "c2-u10",
+  "order": 2,
+  "title": {
+    "ar": "تحليل الاستعارة المفاهيمية في الخطاب العام",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "تحليل الخطاب والنقد المقارن",
+    "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
+    "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
+  },
+  "contentStatus": "full",
+  "goal": "كشف الاستعارات التي تنظم فهم الجمهور للمفاهيم المجردة.",
+  "rule": "حدد المجال المصدر والهدف، ثم اختبر أثر الاستعارة وما تخفيه من جوانب.",
+  "vocabulary": [
+    {
+      "term": "kavramsal metafor",
+      "meaningAr": "استعارة مفاهيمية",
+      "exampleTr": "Bu söylemde ekonomi bir yolculuk olarak tasvir ediliyor.",
+      "exampleAr": "يُصوَّر الاقتصاد في هذا الخطاب على أنه رحلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu söylemde ekonomi bir yolculuk olarak tasvir ediliyor.",
+      "ar": "يُصوَّر الاقتصاد في هذا الخطاب على أنه رحلة."
+    },
+    {
+      "tr": "Metaforun düşünceyi nasıl yönlendirdiğini inceledim.",
+      "ar": "درست كيف توجه الاستعارة التفكير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu yalnızca süslü bir ifade mi؟",
+      "ar": "هل هذا مجرد تعبير مزخرف؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, konuyu algılama biçimini de etkiliyor.",
+      "ar": "لا، بل يؤثر أيضاً في طريقة إدراك الموضوع."
+    }
+  ],
+  "speakingTask": "استخرج خمس استعارات مفاهيمية من خطاب عام وناقش آثارها.",
+  "questions": [
+    {
+      "id": "c2-u10-02-q1",
+      "prompt": "ما معنى «kavramsal metafor»؟",
+      "options": [
+        "استعارة مفاهيمية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«kavramsal metafor» تعني: استعارة مفاهيمية."
+    },
+    {
+      "id": "c2-u10-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "يُصوَّر الاقتصاد في هذا الخطاب على أنه رحلة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "يُصوَّر الاقتصاد في هذا الخطاب على أنه رحلة."
+    },
+    {
+      "id": "c2-u10-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "metaforik çerçeve",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «metaforik çerçeve». حدد المجال المصدر والهدف، ثم اختبر أثر الاستعارة وما تخفيه من جوانب."
+    },
+    {
+      "id": "c2-u10-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحليل الاستعارات المؤثرة في فهم القضايا."
+      ],
+      "answerIndex": 3,
+      "explanation": "تحليل الاستعارات المؤثرة في فهم القضايا."
+    },
+    {
+      "id": "c2-u10-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "استخرج خمس استعارات مفاهيمية من خطاب عام وناقش آثارها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "استخرج خمس استعارات مفاهيمية من خطاب عام وناقش آثارها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u10",
+    "legacyGlobalNumber": 512
+  }
+}

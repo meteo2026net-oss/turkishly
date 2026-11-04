@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u7-09",
+  "level": "C1",
+  "unitId": "c1-u7",
+  "order": 9,
+  "title": {
+    "ar": "عرض نتائج البحث",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "منهجية البحث والحجاج المتقدم",
+    "titleTr": "İleri Araştırma ve Argümantasyon",
+    "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
+  },
+  "contentStatus": "full",
+  "goal": "تقديم النتائج بترتيب منطقي مع رسوم وشرح لا يبالغ في الاستنتاج.",
+  "rule": "ابدأ بسؤال البحث والمنهج ثم النتائج الرئيسية وحدودها ودلالاتها العملية.",
+  "vocabulary": [
+    {
+      "term": "bulguları sunmak",
+      "meaningAr": "يعرض النتائج",
+      "exampleTr": "Bulgular, başlangıçtaki varsayımı yalnızca kısmen destekliyor.",
+      "exampleAr": "تدعم النتائج الفرضية الأولية جزئياً فقط."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bulgular, başlangıçtaki varsayımı yalnızca kısmen destekliyor.",
+      "ar": "تدعم النتائج الفرضية الأولية جزئياً فقط."
+    },
+    {
+      "tr": "Bulguları açık grafikler ve kısa açıklamalarla sundum.",
+      "ar": "عرضت النتائج برسوم واضحة وشروح موجزة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sonuçlar varsayımı doğruladı mı؟",
+      "ar": "هل أكدت النتائج الفرضية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kısmen; bazı değişkenler farklı sonuç verdi.",
+      "ar": "جزئياً؛ بعض المتغيرات أعطت نتائج مختلفة."
+    }
+  ],
+  "speakingTask": "قدم عرضاً من خمس دقائق يتضمن سؤال البحث والمنهج وثلاث نتائج.",
+  "questions": [
+    {
+      "id": "c1-u7-09-q1",
+      "prompt": "ما معنى «bulguları sunmak»؟",
+      "options": [
+        "طلب الإذن",
+        "يعرض النتائج",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«bulguları sunmak» تعني: يعرض النتائج."
+    },
+    {
+      "id": "c1-u7-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تدعم النتائج الفرضية الأولية جزئياً فقط.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تدعم النتائج الفرضية الأولية جزئياً فقط."
+    },
+    {
+      "id": "c1-u7-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "araştırma sunumu"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «araştırma sunumu». ابدأ بسؤال البحث والمنهج ثم النتائج الرئيسية وحدودها ودلالاتها العملية."
+    },
+    {
+      "id": "c1-u7-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "عرض النتائج مع حدود الاستدلال.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "عرض النتائج مع حدود الاستدلال."
+    },
+    {
+      "id": "c1-u7-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قدم عرضاً من خمس دقائق يتضمن سؤال البحث والمنهج وثلاث نتائج.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدم عرضاً من خمس دقائق يتضمن سؤال البحث والمنهج وثلاث نتائج."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u7",
+    "legacyGlobalNumber": 369
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u1-1",
+  "level": "A2",
+  "unitId": "a2-u1",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a2-u1-01",
+      "order": 1,
+      "titleAr": "التحدث عن أحداث يومية في الماضي",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحدث عن الماضي والأحداث السابقة",
+    "titleTr": "Geçmiş Zaman ve Geçmiş Olaylar",
+    "description": "تعلم الماضي المحدد وإثباته ونفيه والسؤال عنه، مع كلمات الزمن وتسلسل الأحداث ووصف يوم سابق وعطلة مضت."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث عن أحداث يومية حدثت في الماضي القريب.",
+  "rule": "في A2 نبدأ باستخدام الماضي المحدد -di للحديث عن حدث انتهى. يتغير شكل اللاحقة بحسب الانسجام الصوتي: geldi (جاء)، baktı (نظر)، gördü (رأى)، konuştu (تحدث). مثال: Dün sinemaya gittim (ذهبت إلى السينما أمس).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Dün",
+      "ar": "أمس"
+    },
+    {
+      "tr": "Dün kitap okudum.",
+      "ar": "قرأت كتاباً أمس."
+    },
+    {
+      "tr": "Eve geldim.",
+      "ar": "وصلت إلى المنزل."
+    },
+    {
+      "tr": "Arkadaşımı gördüm.",
+      "ar": "رأيت صديقي."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u1-1-q1",
+      "prompt": "ما معنى Dün sinemaya gittim؟",
+      "options": [
+        "سأذهب إلى السينما غداً",
+        "ذهبت إلى السينما أمس",
+        "أنا في السينما الآن",
+        "أذهب إلى السينما كل يوم"
+      ],
+      "answerIndex": 1,
+      "explanation": "الجملة تعني ذهبت إلى السينما أمس."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u1",
+    "legacyLessonOrder": 1
+  }
+}

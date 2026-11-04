@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-7",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u8-07",
+      "order": 7,
+      "titleAr": "السؤال عن صاحب الشيء والإجابة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "السؤال عن صاحب الشيء.",
+  "rule": "للسؤال عن المالك نستخدم Kimin؟ أي لمن؟ مثل Kimin kitabı؟ لمن هذا الكتاب؟ ويمكن أن نقول Bu kimin؟ لمن هذا؟ في الإجابة: Bu benim (هذا لي)، أو Bu Ayşe'nin (هذا لعائشة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu kimin?",
+      "ar": "لمن هذا؟"
+    },
+    {
+      "tr": "Kimin telefonu?",
+      "ar": "هاتف مَن؟"
+    },
+    {
+      "tr": "Bu benim.",
+      "ar": "هذا لي."
+    },
+    {
+      "tr": "Bu Mehmet'in kitabı.",
+      "ar": "هذا كتاب محمد."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-7-q1",
+      "prompt": "أي سؤال يعني «لمن هذا الكتاب؟»",
+      "options": [
+        "Kimin kitabı?",
+        "Kim kitap?",
+        "Nerede kitap?",
+        "Ne zaman kitap?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kimin kitabı؟ تعني لمن هذا الكتاب؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 7
+  }
+}

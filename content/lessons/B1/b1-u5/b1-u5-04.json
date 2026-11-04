@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u5-04",
+  "level": "B1",
+  "unitId": "b1-u5",
+  "order": 4,
+  "title": {
+    "ar": "التعبير عن المواعيد والمهل الزمنية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "تحديد موعد نهائي أو فترة زمنية متاحة.",
+  "rule": "استخدم son tarih بمعنى الموعد النهائي، en geç بمعنى في موعد أقصاه، قبل الموعد: ... tarihine kadar. مثال: Raporu cuma gününe kadar göndermelisin.",
+  "vocabulary": [
+    {
+      "term": "en geç",
+      "meaningAr": "في موعد أقصاه / كحد أقصى",
+      "exampleTr": "Başvuruyu en geç pazartesi günü yapmalısın.",
+      "exampleAr": "يجب أن تقدم الطلب في موعد أقصاه يوم الاثنين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ödevi yarına kadar bitirmeliyim.",
+      "ar": "يجب أن أنهي الواجب بحلول الغد."
+    },
+    {
+      "tr": "Son tarih 15 Mayıs.",
+      "ar": "الموعد النهائي هو 15 مايو."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Belgeleri ne zamana kadar göndermeliyim?",
+      "ar": "حتى متى يجب أن أرسل المستندات؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "En geç cuma gününe kadar.",
+      "ar": "في موعد أقصاه يوم الجمعة."
+    }
+  ],
+  "speakingTask": "خطط أسبوعاً مع ثلاثة مواعيد نهائية.",
+  "questions": [
+    {
+      "id": "b1-u5-04-q1",
+      "prompt": "ما معنى «en geç»؟",
+      "options": [
+        "في موعد أقصاه / كحد أقصى",
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة"
+      ],
+      "answerIndex": 0,
+      "explanation": "en geç تعني في موعد أقصاه / كحد أقصى."
+    },
+    {
+      "id": "b1-u5-04-q2",
+      "prompt": "ما ترجمة الجملة: «Başvuruyu en geç pazartesi günü yapmalısın.»؟",
+      "options": [
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "يجب أن تقدم الطلب في موعد أقصاه يوم الاثنين.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً."
+      ],
+      "answerIndex": 1,
+      "explanation": "Başvuruyu en geç pazartesi günü yapmalısın. تعني يجب أن تقدم الطلب في موعد أقصاه يوم الاثنين.."
+    },
+    {
+      "id": "b1-u5-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "... tarihine kadar / en geç",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحديد حد زمني نهائي."
+    },
+    {
+      "id": "b1-u5-04-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «... tarihine kadar / en geç»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "التعبير عن الموعد النهائي والالتزام به."
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير عن الموعد النهائي والالتزام به."
+    },
+    {
+      "id": "b1-u5-04-q5",
+      "prompt": "أكمل التركيب: Başvuruyu en geç pazartesi günü yapmalısın.",
+      "options": [
+        "-seydi",
+        "... tarihine kadar / en geç",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي ... tarihine kadar / en geç؛ تحديد حد زمني نهائي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u5",
+    "legacyGlobalNumber": 164
+  }
+}

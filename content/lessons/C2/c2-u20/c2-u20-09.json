@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u20-09",
+  "level": "C2",
+  "unitId": "c2-u20",
+  "order": 9,
+  "title": {
+    "ar": "صياغة ملخص تنفيذي متعدد الجماهير",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "هندسة المصطلحات والتحرير والترجمة المتقدمة",
+    "titleTr": "İleri Terim Mühendisliği, Editörlük ve Çeviri",
+    "description": "إدارة المصطلحات والغموض والتكافؤ التداولي والتحرير متعدد المؤلفين والترجمة القانونية والتوطين."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم صياغة ملخص تنفيذي متعدد الجماهير في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "çok hedefli yönetici özeti",
+      "meaningAr": "ملخص تنفيذي متعدد الجماهير",
+      "exampleTr": "Aynı raporun teknik ve yönetici sürümlerini ayrı ayrı hazırladık.",
+      "exampleAr": "أعددنا نسختين منفصلتين من التقرير: تقنية وللإدارة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Aynı raporun teknik ve yönetici sürümlerini ayrı ayrı hazırladık.",
+      "ar": "أعددنا نسختين منفصلتين من التقرير: تقنية وللإدارة."
+    },
+    {
+      "tr": "Etkili özet, ayrıntıyı hedef kitlenin karar ihtiyacına göre seçer.",
+      "ar": "يختار الملخص الفعال التفاصيل وفق حاجة الجمهور إلى اتخاذ القرار."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Herkese aynı özeti gönderelim mi?",
+      "ar": "هل نرسل الملخص نفسه للجميع؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Karar ihtiyaçlarına göre uyarlayalım.",
+      "ar": "لنكيفه وفق احتياجاتهم إلى القرار."
+    }
+  ],
+  "speakingTask": "لخص نتيجة واحدة في فقرة للخبراء وأخرى لصناع القرار.",
+  "questions": [
+    {
+      "id": "c2-u20-09-q1",
+      "prompt": "ما المقصود بالمصطلح «çok hedefli yönetici özeti»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "ملخص تنفيذي متعدد الجماهير"
+      ],
+      "answerIndex": 3,
+      "explanation": "«çok hedefli yönetici özeti» يعني: ملخص تنفيذي متعدد الجماهير."
+    },
+    {
+      "id": "c2-u20-09-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "أعددنا نسختين منفصلتين من التقرير: تقنية وللإدارة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "أعددنا نسختين منفصلتين من التقرير: تقنية وللإدارة."
+    },
+    {
+      "id": "c2-u20-09-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "hedef kitle uyarlaması",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة: hedef kitle uyarlaması. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u20-09-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "تكييف كثافة المعلومات والمصطلحات بحسب الجمهور",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تكييف كثافة المعلومات والمصطلحات بحسب الجمهور"
+    },
+    {
+      "id": "c2-u20-09-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "لخص نتيجة واحدة في فقرة للخبراء وأخرى لصناع القرار.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "لخص نتيجة واحدة في فقرة للخبراء وأخرى لصناع القرار."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u20",
+    "legacyGlobalNumber": 619
+  }
+}

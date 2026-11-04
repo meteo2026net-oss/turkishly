@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u7-02",
+  "level": "C1",
+  "unitId": "c1-u7",
+  "order": 2,
+  "title": {
+    "ar": "تقييم موثوقية المصادر",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "منهجية البحث والحجاج المتقدم",
+    "titleTr": "İleri Araştırma ve Argümantasyon",
+    "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
+  },
+  "contentStatus": "full",
+  "goal": "فحص المؤلف والمنهج والتاريخ والجهة الناشرة وتعارض المصالح.",
+  "rule": "لا يكفي شكل المصدر؛ افحص أصل البيانات والمنهج والشفافية وإمكانية التحقق المستقل.",
+  "vocabulary": [
+    {
+      "term": "güvenilir kaynak",
+      "meaningAr": "مصدر موثوق",
+      "exampleTr": "Kaynağın yöntemini ve veri toplama sürecini ayrıca değerlendirdik.",
+      "exampleAr": "قيّمنا منهج المصدر وعملية جمع البيانات بشكل منفصل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kaynağın yöntemini ve veri toplama sürecini ayrıca değerlendirdik.",
+      "ar": "قيّمنا منهج المصدر وعملية جمع البيانات بشكل منفصل."
+    },
+    {
+      "tr": "Kaynağın güvenilirliğini bağımsız verilerle kontrol ettim.",
+      "ar": "تحققت من موثوقية المصدر ببيانات مستقلة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu makaleye güvenebilir miyiz؟",
+      "ar": "هل يمكن الوثوق بهذه المقالة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce yöntemini ve yazarın uzmanlığını inceleyelim.",
+      "ar": "لنفحص منهجها وخبرة الكاتب أولاً."
+    }
+  ],
+  "speakingTask": "قارن مصدرين حول قضية واحدة وحدد مؤشرات الموثوقية في كل منهما.",
+  "questions": [
+    {
+      "id": "c1-u7-02-q1",
+      "prompt": "ما معنى «güvenilir kaynak»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مصدر موثوق",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«güvenilir kaynak» تعني: مصدر موثوق."
+    },
+    {
+      "id": "c1-u7-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قيّمنا منهج المصدر وعملية جمع البيانات بشكل منفصل."
+      ],
+      "answerIndex": 3,
+      "explanation": "قيّمنا منهج المصدر وعملية جمع البيانات بشكل منفصل."
+    },
+    {
+      "id": "c1-u7-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "kaynak güvenilirliği",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «kaynak güvenilirliği». لا يكفي شكل المصدر؛ افحص أصل البيانات والمنهج والشفافية وإمكانية التحقق المستقل."
+    },
+    {
+      "id": "c1-u7-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تقدير موثوقية المصدر قبل الاستشهاد به.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تقدير موثوقية المصدر قبل الاستشهاد به."
+    },
+    {
+      "id": "c1-u7-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قارن مصدرين حول قضية واحدة وحدد مؤشرات الموثوقية في كل منهما."
+      ],
+      "answerIndex": 3,
+      "explanation": "قارن مصدرين حول قضية واحدة وحدد مؤشرات الموثوقية في كل منهما."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u7",
+    "legacyGlobalNumber": 362
+  }
+}

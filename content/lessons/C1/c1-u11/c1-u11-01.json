@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u11-01",
+  "level": "C1",
+  "unitId": "c1-u11",
+  "order": 1,
+  "title": {
+    "ar": "تحليل وجهة النظر السردية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل الأدبي والأسلوبي المتقدم",
+    "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
+    "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
+  },
+  "contentStatus": "full",
+  "goal": "تمييز الراوي العليم والمحدود وضمير المتكلم وأثرها في المعلومات.",
+  "rule": "اسأل من يرى الأحداث ومن يعرفها، وما الذي يظل محجوباً عن القارئ.",
+  "vocabulary": [
+    {
+      "term": "anlatıcı bakış açısı",
+      "meaningAr": "وجهة نظر الراوي",
+      "exampleTr": "Olaylar, anlatıcının sınırlı bilgisi üzerinden aktarılıyor.",
+      "exampleAr": "تُنقل الأحداث عبر معرفة الراوي المحدودة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Olaylar, anlatıcının sınırlı bilgisi üzerinden aktarılıyor.",
+      "ar": "تُنقل الأحداث عبر معرفة الراوي المحدودة."
+    },
+    {
+      "tr": "Anlatıcının bakış açısının okuru nasıl yönlendirdiğini inceledim.",
+      "ar": "درست كيف توجه وجهة نظر الراوي القارئ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Okur her şeyi biliyor mu؟",
+      "ar": "هل يعرف القارئ كل شيء؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, anlatıcının bilgisiyle sınırlı.",
+      "ar": "لا، معرفته محدودة بمعرفة الراوي."
+    }
+  ],
+  "speakingTask": "قارن فقرتين للحدث نفسه من وجهتي نظر مختلفتين.",
+  "questions": [
+    {
+      "id": "c1-u11-01-q1",
+      "prompt": "ما معنى «anlatıcı bakış açısı»؟",
+      "options": [
+        "طلب الإذن",
+        "وجهة نظر الراوي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«anlatıcı bakış açısı» تعني: وجهة نظر الراوي."
+    },
+    {
+      "id": "c1-u11-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تُنقل الأحداث عبر معرفة الراوي المحدودة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تُنقل الأحداث عبر معرفة الراوي المحدودة."
+    },
+    {
+      "id": "c1-u11-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "anlatı perspektifi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «anlatı perspektifi». اسأل من يرى الأحداث ومن يعرفها، وما الذي يظل محجوباً عن القارئ."
+    },
+    {
+      "id": "c1-u11-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحليل زاوية السرد وحدود المعرفة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل زاوية السرد وحدود المعرفة."
+    },
+    {
+      "id": "c1-u11-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قارن فقرتين للحدث نفسه من وجهتي نظر مختلفتين.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قارن فقرتين للحدث نفسه من وجهتي نظر مختلفتين."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u11",
+    "legacyGlobalNumber": 401
+  }
+}

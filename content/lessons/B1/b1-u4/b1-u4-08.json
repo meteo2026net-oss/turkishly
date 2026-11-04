@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u4-08",
+  "level": "B1",
+  "unitId": "b1-u4",
+  "order": 8,
+  "title": {
+    "ar": "التعبير عن التغيير والتطور",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "وصف كيف تغيرت عادة أو حالة مع الزمن.",
+  "rule": "استخدم eskiden ... şimdi ... للمقارنة بين الماضي والحاضر، وgiderek / gittikçe بمعنى تدريجياً، وdeğişmek بمعنى يتغير.",
+  "vocabulary": [
+    {
+      "term": "giderek",
+      "meaningAr": "تدريجياً / شيئاً فشيئاً",
+      "exampleTr": "Türkçem giderek daha iyi oluyor.",
+      "exampleAr": "لغتي التركية تتحسن تدريجياً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Eskiden burada küçük bir köy vardı.",
+      "ar": "كان هنا قديماً قرية صغيرة."
+    },
+    {
+      "tr": "Hava gittikçe soğuyor.",
+      "ar": "الطقس يزداد برودة تدريجياً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Türkçe öğrenmek zor mu?",
+      "ar": "هل تعلم التركية صعب؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Başta zordu, ama giderek kolaylaşıyor.",
+      "ar": "كان صعباً في البداية، لكنه يصبح أسهل تدريجياً."
+    }
+  ],
+  "speakingTask": "صف كيف تغيرت مهارة أو عادة لديك خلال سنة.",
+  "questions": [
+    {
+      "id": "b1-u4-08-q1",
+      "prompt": "ما معنى «giderek»؟",
+      "options": [
+        "الاحتمال",
+        "المقارنة",
+        "تدريجياً / شيئاً فشيئاً",
+        "السبب / النتيجة"
+      ],
+      "answerIndex": 2,
+      "explanation": "giderek تعني تدريجياً / شيئاً فشيئاً."
+    },
+    {
+      "id": "b1-u4-08-q2",
+      "prompt": "ما ترجمة الجملة: «Türkçem giderek daha iyi oluyor.»؟",
+      "options": [
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "لغتي التركية تتحسن تدريجياً."
+      ],
+      "answerIndex": 3,
+      "explanation": "Türkçem giderek daha iyi oluyor. تعني لغتي التركية تتحسن تدريجياً.."
+    },
+    {
+      "id": "b1-u4-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "eskiden ... şimdi ... / gittikçe",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "مقارنة التغير عبر الزمن."
+    },
+    {
+      "id": "b1-u4-08-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «eskiden ... şimdi ... / gittikçe»؟",
+      "options": [
+        "النفي المطلق",
+        "وصف تطور حالة من الماضي إلى الحاضر.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "وصف تطور حالة من الماضي إلى الحاضر."
+    },
+    {
+      "id": "b1-u4-08-q5",
+      "prompt": "أكمل التركيب: Türkçem giderek daha iyi oluyor.",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "eskiden ... şimdi ... / gittikçe"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي eskiden ... şimdi ... / gittikçe؛ مقارنة التغير عبر الزمن."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u4",
+    "legacyGlobalNumber": 158
+  }
+}

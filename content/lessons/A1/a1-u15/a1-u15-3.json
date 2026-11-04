@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-3",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u15-03",
+      "order": 3,
+      "titleAr": "المتاجر والأقسام والمنتجات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى مفردات المتاجر والأقسام والمنتجات.",
+  "rule": "أماكن التسوق: mağaza متجر، dükkân محل، alışveriş merkezi مركز تسوق، market سوبرماركت، kasap محل جزارة، fırın مخبز. مفردات أخرى: ürün منتج، reyon قسم، deneme kabini غرفة قياس الملابس، beden مقاس، numara رقم المقاس، raf رف. مثال: Deneme kabini nerede؟ (أين غرفة القياس؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "mağaza",
+      "ar": "متجر"
+    },
+    {
+      "tr": "alışveriş merkezi",
+      "ar": "مركز تسوق"
+    },
+    {
+      "tr": "ürün",
+      "ar": "منتج"
+    },
+    {
+      "tr": "beden",
+      "ar": "مقاس"
+    },
+    {
+      "tr": "deneme kabini",
+      "ar": "غرفة قياس الملابس"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-3-q1",
+      "prompt": "ما معنى mağaza؟",
+      "options": [
+        "محطة",
+        "متجر",
+        "مستشفى",
+        "مطبخ"
+      ],
+      "answerIndex": 1,
+      "explanation": "mağaza تعني متجر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 3
+  }
+}

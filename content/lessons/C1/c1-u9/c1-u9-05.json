@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u9-05",
+  "level": "C1",
+  "unitId": "c1-u9",
+  "order": 5,
+  "title": {
+    "ar": "إدارة الأسئلة الصعبة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الإتقان والتقييم المتكامل لمستوى C1",
+    "titleTr": "C1 Yetkinliği ve Bütünleşik Değerlendirme",
+    "description": "الكتابة الحجاجية والعروض والأسئلة الصعبة والمناظرة والتحرير وملف الإنجاز."
+  },
+  "contentStatus": "full",
+  "goal": "الإجابة عن سؤال معقد مع تحديد الافتراضات والحدود.",
+  "rule": "أعد صياغة السؤال، ووضح ما يمكن الإجابة عنه، واذكر حدود المعرفة دون مراوغة.",
+  "vocabulary": [
+    {
+      "term": "zor soruyu yanıtlamak",
+      "meaningAr": "الإجابة عن سؤال صعب",
+      "exampleTr": "Bu sorunun iki boyutu var; önce verilerle desteklenen kısmı açıklayayım.",
+      "exampleAr": "لهذا السؤال جانبان؛ دعوني أوضح أولاً الجزء المدعوم بالبيانات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu sorunun iki boyutu var; önce verilerle desteklenen kısmı açıklayayım.",
+      "ar": "لهذا السؤال جانبان؛ دعوني أوضح أولاً الجزء المدعوم بالبيانات."
+    },
+    {
+      "tr": "Soruyu netleştirip kanıta dayalı yanıt verdim.",
+      "ar": "وضحت السؤال وقدمت إجابة قائمة على الدليل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu sonucu her durumda genelleyebilir misiniz؟",
+      "ar": "هل تعمم النتيجة في كل الحالات؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, yalnızca incelenen koşullar için geçerli.",
+      "ar": "لا، تنطبق فقط على الظروف المدروسة."
+    }
+  ],
+  "speakingTask": "تدرب على خمسة أسئلة نقدية وقدم إجابات تتضمن حدوداً واضحة.",
+  "questions": [
+    {
+      "id": "c1-u9-05-q1",
+      "prompt": "ما معنى «zor soruyu yanıtlamak»؟",
+      "options": [
+        "طلب الإذن",
+        "الإجابة عن سؤال صعب",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«zor soruyu yanıtlamak» تعني: الإجابة عن سؤال صعب."
+    },
+    {
+      "id": "c1-u9-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "لهذا السؤال جانبان؛ دعوني أوضح أولاً الجزء المدعوم بالبيانات.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "لهذا السؤال جانبان؛ دعوني أوضح أولاً الجزء المدعوم بالبيانات."
+    },
+    {
+      "id": "c1-u9-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "soruya yapılandırılmış yanıt"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «soruya yapılandırılmış yanıt». أعد صياغة السؤال، ووضح ما يمكن الإجابة عنه، واذكر حدود المعرفة دون مراوغة."
+    },
+    {
+      "id": "c1-u9-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إجابة منظمة ودقيقة عن سؤال معقد.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إجابة منظمة ودقيقة عن سؤال معقد."
+    },
+    {
+      "id": "c1-u9-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "تدرب على خمسة أسئلة نقدية وقدم إجابات تتضمن حدوداً واضحة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "تدرب على خمسة أسئلة نقدية وقدم إجابات تتضمن حدوداً واضحة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u9",
+    "legacyGlobalNumber": 385
+  }
+}

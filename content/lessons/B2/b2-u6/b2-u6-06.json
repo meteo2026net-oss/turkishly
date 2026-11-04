@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u6-06",
+  "level": "B2",
+  "unitId": "b2-u6",
+  "order": 6,
+  "title": {
+    "ar": "الصحة العامة وجودة الحياة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المجتمع والثقافة والقضايا المعاصرة",
+    "titleTr": "Toplum, Kültür ve Güncel Konular",
+    "description": "المشاركة المدنية والبيئة والإعلام والثقافة والصحة وكتابة الرأي."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن العادات الصحية والخدمات العامة.",
+  "rule": "Koruyucu sağlık hizmetleri yaşam kalitesini artırır.",
+  "vocabulary": [
+    {
+      "term": "koruyucu",
+      "meaningAr": "وقائي",
+      "exampleTr": "تعزز خدمات الرعاية الصحية الوقائية جودة الحياة.",
+      "exampleAr": "وقائي"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "السبب فقط",
+      "ar": ""
+    },
+    {
+      "tr": "Düzenli kontroller erken teşhise yardımcı olur.",
+      "ar": "تساعد الفحوص المنتظمة على التشخيص المبكر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Sağlıklı yaşam alışkanlıkları önemlidir.|عادات الحياة الصحية مهمة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Sağlığı korumak için ne yapmalı? — ماذا نفعل للحفاظ على الصحة؟\nB: Düzenli hareket etmeli ve dengeli beslenmeliyiz. — ينبغي أن نتحرك بانتظام ونتغذى بتوازن.",
+  "questions": [
+    {
+      "id": "b2-u6-06-q1",
+      "prompt": "ما معنى «koruyucu»؟",
+      "options": [
+        "koruyucu sağlık|الصحة الوقائية",
+        "طارئ",
+        "تجاري",
+        "مؤقت"
+      ],
+      "answerIndex": 0,
+      "explanation": "koruyucu تعني وقائي."
+    },
+    {
+      "id": "b2-u6-06-q2",
+      "prompt": "ما ترجمة الجملة: «تعزز خدمات الرعاية الصحية الوقائية جودة الحياة.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "تعزز خدمات الرعاية الصحية الوقائية جودة الحياة.|وقائي",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "تعزز خدمات الرعاية الصحية الوقائية جودة الحياة. تعني وقائي."
+    },
+    {
+      "id": "b2-u6-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "التفضيل",
+        "الشرط",
+        "خاص",
+        "التحدث عن الوقاية"
+      ],
+      "answerIndex": 2,
+      "explanation": "sıfat + isim."
+    },
+    {
+      "id": "b2-u6-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «خاص»؟",
+      "options": [
+        "التحدث عن الوقاية",
+        "التفضيل",
+        "الشرط",
+        "صفة واسم"
+      ],
+      "answerIndex": 3,
+      "explanation": "صفة واسم"
+    },
+    {
+      "id": "b2-u6-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "الشرط",
+        "صفة واسم",
+        "التحدث عن الوقاية",
+        "التفضيل"
+      ],
+      "answerIndex": 1,
+      "explanation": "صفة واسم"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u6",
+    "legacyGlobalNumber": 236
+  }
+}

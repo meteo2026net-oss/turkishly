@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u4-03",
+  "level": "C2",
+  "unitId": "c2-u4",
+  "order": 3,
+  "title": {
+    "ar": "تحليل الاستعارة المفاهيمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب والنقد الاجتماعي المتقدم",
+    "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
+    "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
+  },
+  "contentStatus": "full",
+  "goal": "كشف الاستعارات التي تنظم التفكير في موضوع مجرد.",
+  "rule": "حدد المجال المصدر والهدف، ثم اختبر كيف توجه الاستعارة فهم القضية وما الذي تخفيه.",
+  "vocabulary": [
+    {
+      "term": "kavramsal metafor",
+      "meaningAr": "استعارة مفاهيمية",
+      "exampleTr": "Tartışma, ekonomiyi bir yarış olarak çerçeveliyor.",
+      "exampleAr": "يؤطر النقاش الاقتصاد بوصفه سباقاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tartışma, ekonomiyi bir yarış olarak çerçeveliyor.",
+      "ar": "يؤطر النقاش الاقتصاد بوصفه سباقاً."
+    },
+    {
+      "tr": "Kavramsal eşlemeyi metindeki örneklerle açıkladım.",
+      "ar": "شرحت المطابقة المفاهيمية بأمثلة من النص."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu yalnızca süslü bir ifade mi؟",
+      "ar": "هل هو مجرد تعبير مزخرف؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, düşünme biçimini de yönlendiriyor.",
+      "ar": "لا، إنه يوجه طريقة التفكير أيضاً."
+    }
+  ],
+  "speakingTask": "استخرج استعارتين مفاهيميتين من مقال واشرح أثرهما.",
+  "questions": [
+    {
+      "id": "c2-u4-03-q1",
+      "prompt": "ما معنى «kavramsal metafor»؟",
+      "options": [
+        "طلب الإذن",
+        "استعارة مفاهيمية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«kavramsal metafor» تعني: استعارة مفاهيمية."
+    },
+    {
+      "id": "c2-u4-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يؤطر النقاش الاقتصاد بوصفه سباقاً.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "يؤطر النقاش الاقتصاد بوصفه سباقاً."
+    },
+    {
+      "id": "c2-u4-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kavramsal eşleme"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «kavramsal eşleme». حدد المجال المصدر والهدف، ثم اختبر كيف توجه الاستعارة فهم القضية وما الذي تخفيه."
+    },
+    {
+      "id": "c2-u4-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحليل الاستعارة التي تنظم تصور المفهوم.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل الاستعارة التي تنظم تصور المفهوم."
+    },
+    {
+      "id": "c2-u4-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "استخرج استعارتين مفاهيميتين من مقال واشرح أثرهما.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "استخرج استعارتين مفاهيميتين من مقال واشرح أثرهما."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
+    "legacyUnitId": "c2-u4",
+    "legacyGlobalNumber": 453
+  }
+}

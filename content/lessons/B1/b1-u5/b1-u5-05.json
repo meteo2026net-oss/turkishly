@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u5-05",
+  "level": "B1",
+  "unitId": "b1-u5",
+  "order": 5,
+  "title": {
+    "ar": "التعبير عن ترتيب الأحداث",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "سرد الأحداث بترتيب واضح باستخدام روابط التسلسل.",
+  "rule": "استخدم önce (أولاً/قبل)، ardından (بعد ذلك)، daha sonra (لاحقاً)، en sonunda (في النهاية). ويمكن استعمال ilk olarak وson olarak في العرض.",
+  "vocabulary": [
+    {
+      "term": "ardından",
+      "meaningAr": "عقب ذلك / ثم",
+      "exampleTr": "Önce kahvaltı yaptım, ardından işe gittim.",
+      "exampleAr": "تناولت الفطور أولاً، ثم ذهبت إلى العمل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İlk olarak konuyu okuyun.",
+      "ar": "اقرؤوا الموضوع أولاً."
+    },
+    {
+      "tr": "Daha sonra cevapları kontrol edin.",
+      "ar": "بعد ذلك تحققوا من الإجابات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Günün nasıl geçti?",
+      "ar": "كيف مر يومك؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce ders çalıştım, ardından arkadaşımı ziyaret ettim.",
+      "ar": "درست أولاً، ثم زرت صديقي."
+    }
+  ],
+  "speakingTask": "اسرد طريقة إعداد وجبة أو إنجاز مهمة في ست خطوات.",
+  "questions": [
+    {
+      "id": "b1-u5-05-q1",
+      "prompt": "ما معنى «ardından»؟",
+      "options": [
+        "المقارنة",
+        "عقب ذلك / ثم",
+        "السبب / النتيجة",
+        "الاحتمال"
+      ],
+      "answerIndex": 1,
+      "explanation": "ardından تعني عقب ذلك / ثم."
+    },
+    {
+      "id": "b1-u5-05-q2",
+      "prompt": "ما ترجمة الجملة: «Önce kahvaltı yaptım, ardından işe gittim.»؟",
+      "options": [
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "تناولت الفطور أولاً، ثم ذهبت إلى العمل.",
+        "سأفعل ذلك في وقت آخر."
+      ],
+      "answerIndex": 2,
+      "explanation": "Önce kahvaltı yaptım, ardından işe gittim. تعني تناولت الفطور أولاً، ثم ذهبت إلى العمل.."
+    },
+    {
+      "id": "b1-u5-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "önce → ardından → daha sonra → sonunda"
+      ],
+      "answerIndex": 3,
+      "explanation": "سلسلة روابط لترتيب الأحداث."
+    },
+    {
+      "id": "b1-u5-05-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «önce → ardından → daha sonra → sonunda»؟",
+      "options": [
+        "تنظيم السرد زمنياً ومنع الالتباس.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "تنظيم السرد زمنياً ومنع الالتباس."
+    },
+    {
+      "id": "b1-u5-05-q5",
+      "prompt": "أكمل التركيب: Önce kahvaltı yaptım, ardından işe gittim.",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "önce → ardından → daha sonra → sonunda",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي önce → ardından → daha sonra → sonunda؛ سلسلة روابط لترتيب الأحداث."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u5",
+    "legacyGlobalNumber": 165
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-09",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 9,
+  "title": {
+    "ar": "المراجعة الشاملة لمهارات B2",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأدب والفنون واللغة المتقدمة",
+    "titleTr": "Edebiyat, Sanat ve İleri Dil",
+    "description": "السرد والمجاز والنقد الأدبي والفنون والخطاب والتحرير والتعبيرات الاصطلاحية."
+  },
+  "contentStatus": "full",
+  "goal": "akıcılık",
+  "rule": "B2 düzeyinde karmaşık konuları açık ve tutarlı biçimde tartışabilmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "طلاقة",
+      "meaningAr": "tutarlılık",
+      "exampleTr": "B2 düzeyinde karmaşık konuları açık ve tutarlı biçimde tartışabilmeliyiz.",
+      "exampleAr": "في مستوى B2 ينبغي أن نناقش الموضوعات المعقدة بوضوح واتساق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "açık ve tutarlı",
+      "ar": ""
+    },
+    {
+      "tr": "B2 düzeyinde karmaşık konuları açık ve tutarlı biçimde tartışabilmeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "واضح ومتسق",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تقييم التواصل المتقدم",
+  "questions": [
+    {
+      "id": "b2-u12-09-q1",
+      "prompt": "ما معنى «طلاقة»؟",
+      "options": [
+        "غموض",
+        "تكرار",
+        "تعبير غير ملائم",
+        "اتساق"
+      ],
+      "answerIndex": 3,
+      "explanation": "طلاقة تعني tutarlılık."
+    },
+    {
+      "id": "b2-u12-09-q2",
+      "prompt": "ما ترجمة الجملة: «B2 düzeyinde karmaşık konuları açık ve tutarlı biçimde tartışabilmeliyiz.»؟",
+      "options": [
+        "B2 düzeyinde karmaşık konuları açık ve tutarlı biçimde tartışabilmeliyiz.|في مستوى B2 ينبغي أن نناقش الموضوعات المعقدة بوضوح واتساق.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "B2 düzeyinde karmaşık konuları açık ve tutarlı biçimde tartışabilmeliyiz. تعني في مستوى B2 ينبغي أن نناقش الموضوعات المعقدة بوضوح واتساق.."
+    },
+    {
+      "id": "b2-u12-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "akıcı iletişim",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "تواصل بطلاقة."
+    },
+    {
+      "id": "b2-u12-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «akıcı iletişim»؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "دمج المهارات",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "دمج المهارات"
+    },
+    {
+      "id": "b2-u12-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "دمج المهارات",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "دمج المهارات"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 299
+  }
+}

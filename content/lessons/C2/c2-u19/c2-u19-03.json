@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u19-03",
+  "level": "C2",
+  "unitId": "c2-u19",
+  "order": 3,
+  "title": {
+    "ar": "تقويم صلاحية أدوات القياس",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث التطبيقي وتصميم الدراسات المتقدمة",
+    "titleTr": "İleri Uygulamalı Araştırma ve Araştırma Tasarımı",
+    "description": "تصميم المناهج المختلطة والقياس والاستدلال السببي وتحليل الحساسية وكتابة تقارير قابلة لإعادة الإنتاج."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم تقويم صلاحية أدوات القياس في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "ölçme geçerliği",
+      "meaningAr": "صدق القياس",
+      "exampleTr": "Ölçeğin yapı geçerliğini farklı örneklemler üzerinde sınadık.",
+      "exampleAr": "اختبرنا صدق البناء للمقياس على عينات مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ölçeğin yapı geçerliğini farklı örneklemler üzerinde sınadık.",
+      "ar": "اختبرنا صدق البناء للمقياس على عينات مختلفة."
+    },
+    {
+      "tr": "Geçerlik kanıtları tek bir katsayıya indirgenemez.",
+      "ar": "لا يمكن اختزال أدلة الصدق في معامل واحد."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ölçek güvenilir görünüyor.",
+      "ar": "يبدو المقياس موثوقاً."
+    },
+    {
+      "speaker": "B",
+      "tr": "Yapı geçerliğini de ayrıca göstermeliyiz.",
+      "ar": "علينا إظهار صدق البناء أيضاً."
+    }
+  ],
+  "speakingTask": "راجع أداة قياس وحدد أدلة الصدق والثبات وحدود التعميم.",
+  "questions": [
+    {
+      "id": "c2-u19-03-q1",
+      "prompt": "ما المقصود بالمصطلح «ölçme geçerliği»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "صدق القياس"
+      ],
+      "answerIndex": 3,
+      "explanation": "«ölçme geçerliği» يعني: صدق القياس."
+    },
+    {
+      "id": "c2-u19-03-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "اختبرنا صدق البناء للمقياس على عينات مختلفة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "اختبرنا صدق البناء للمقياس على عينات مختلفة."
+    },
+    {
+      "id": "c2-u19-03-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "yapı geçerliği",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة: yapı geçerliği. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u19-03-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "تقييم مدى قياس الأداة للمفهوم المقصود",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقييم مدى قياس الأداة للمفهوم المقصود"
+    },
+    {
+      "id": "c2-u19-03-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "راجع أداة قياس وحدد أدلة الصدق والثبات وحدود التعميم.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "راجع أداة قياس وحدد أدلة الصدق والثبات وحدود التعميم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u19",
+    "legacyGlobalNumber": 603
+  }
+}

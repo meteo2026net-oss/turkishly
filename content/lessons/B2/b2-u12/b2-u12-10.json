@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-10",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 10,
+  "title": {
+    "ar": "المشروع الختامي للمستوى B2",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأدب والفنون واللغة المتقدمة",
+    "titleTr": "Edebiyat, Sanat ve İleri Dil",
+    "description": "السرد والمجاز والنقد الأدبي والفنون والخطاب والتحرير والتعبيرات الاصطلاحية."
+  },
+  "contentStatus": "full",
+  "goal": "proje",
+  "rule": "B2 düzeyinde bağımsız ve etkili iletişim kurduğumuzu kapsamlı bir projeyle gösterebiliriz.",
+  "vocabulary": [
+    {
+      "term": "مشروع",
+      "meaningAr": "kapsamlı",
+      "exampleTr": "B2 düzeyinde bağımsız ve etkili iletişim kurduğumuzu kapsamlı bir projeyle gösterebiliriz.",
+      "exampleAr": "يمكننا إظهار قدرتنا على التواصل المستقل والفعال في B2 من خلال مشروع شامل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-dığımızı göstermek",
+      "ar": ""
+    },
+    {
+      "tr": "B2 düzeyinde bağımsız ve etkili iletişim kurduğumuzu kapsamlı bir projeyle gösterebiliriz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "إظهار أننا",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "تقديم دليل على الإنجاز",
+  "questions": [
+    {
+      "id": "b2-u12-10-q1",
+      "prompt": "ما معنى «مشروع»؟",
+      "options": [
+        "شامل",
+        "مبهم",
+        "منفصل",
+        "تعبير غير ملائم"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشروع تعني kapsamlı."
+    },
+    {
+      "id": "b2-u12-10-q2",
+      "prompt": "ما ترجمة الجملة: «B2 düzeyinde bağımsız ve etkili iletişim kurduğumuzu kapsamlı bir projeyle gösterebiliriz.»؟",
+      "options": [
+        "لا تناسب هذه الجملة السياق.",
+        "B2 düzeyinde bağımsız ve etkili iletişim kurduğumuzu kapsamlı bir projeyle gösterebiliriz.|يمكننا إظهار قدرتنا على التواصل المستقل والفعال في B2 من خلال مشروع شامل.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد."
+      ],
+      "answerIndex": 1,
+      "explanation": "B2 düzeyinde bağımsız ve etkili iletişim kurduğumuzu kapsamlı bir projeyle gösterebiliriz. تعني يمكننا إظهار قدرتنا على التواصل المستقل والفعال في B2 من خلال مشروع شامل.."
+    },
+    {
+      "id": "b2-u12-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "bitirme projesi",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "مشروع ختامي."
+    },
+    {
+      "id": "b2-u12-10-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «bitirme projesi»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "إظهار الكفاءة المتكاملة"
+      ],
+      "answerIndex": 3,
+      "explanation": "إظهار الكفاءة المتكاملة"
+    },
+    {
+      "id": "b2-u12-10-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "إظهار الكفاءة المتكاملة",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "إظهار الكفاءة المتكاملة"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 300
+  }
+}

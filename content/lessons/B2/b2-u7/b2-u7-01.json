@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u7-01",
+  "level": "B2",
+  "unitId": "b2-u7",
+  "order": 1,
+  "title": {
+    "ar": "الابتكار وريادة الأعمال",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الابتكار وريادة الأعمال",
+    "titleTr": "İnovasyon ve Girişimcilik",
+    "description": "تطوير فكرة مشروع وتحليل السوق والتفاوض والتسويق والميزانية."
+  },
+  "contentStatus": "full",
+  "goal": "girişim",
+  "rule": "Yeni bir girişim başlatmak için pazar ihtiyacını araştırmalıyız.",
+  "vocabulary": [
+    {
+      "term": "مبادرة ريادية",
+      "meaningAr": "pazar araştırması",
+      "exampleTr": "Yeni bir girişim başlatmak için pazar ihtiyacını araştırmalıyız.",
+      "exampleAr": "ينبغي أن نبحث حاجة السوق لإطلاق مشروع ريادي جديد."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "نحدد الغرض من الفعل",
+      "ar": ""
+    },
+    {
+      "tr": "Yeni bir girişim başlatmak için pazar ihtiyacını araştırmalıyız.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "İş fikrini küçük ölçekte denedik.|اختبرنا فكرة العمل على نطاق صغير.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Nereden başlamalıyız? — من أين ينبغي أن نبدأ؟\nB: Müşteri ihtiyacını anlamaktan. — بفهم حاجة العميل.",
+  "questions": [
+    {
+      "id": "b2-u7-01-q1",
+      "prompt": "ما معنى «مبادرة ريادية»؟",
+      "options": [
+        "تعبير غير مناسب",
+        "دراسة السوق",
+        "pazar araştırması yapmak",
+        "يجري دراسة للسوق"
+      ],
+      "answerIndex": 1,
+      "explanation": "مبادرة ريادية تعني pazar araştırması."
+    },
+    {
+      "id": "b2-u7-01-q2",
+      "prompt": "ما ترجمة الجملة: «Yeni bir girişim başlatmak için pazar ihtiyacını araştırmalıyız.»؟",
+      "options": [
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي أن نبحث حاجة السوق لإطلاق مشروع ريادي جديد.|ينبغي أن نبحث حاجة السوق لإطلاق مشروع ريادي جديد.",
+        "سأزور المكتبة غداً."
+      ],
+      "answerIndex": 2,
+      "explanation": "Yeni bir girişim başlatmak için pazar ihtiyacını araştırmalıyız. تعني ينبغي أن نبحث حاجة السوق لإطلاق مشروع ريادي جديد.."
+    },
+    {
+      "id": "b2-u7-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "إطلاق مبادرة مدروسة"
+      ],
+      "answerIndex": 3,
+      "explanation": "-mak için."
+    },
+    {
+      "id": "b2-u7-01-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «إطلاق مبادرة مدروسة»؟",
+      "options": [
+        "لأجل أن",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "لأجل أن"
+    },
+    {
+      "id": "b2-u7-01-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "لأجل أن",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "لأجل أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u7",
+    "legacyGlobalNumber": 241
+  }
+}

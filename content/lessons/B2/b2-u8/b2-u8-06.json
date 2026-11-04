@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-06",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 6,
+  "title": {
+    "ar": "العقود والاتفاقات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القانون والحقوق والمؤسسات",
+    "titleTr": "Hukuk, Haklar ve Kurumlar",
+    "description": "الحقوق والإجراءات الرسمية والخصوصية والعقود وتسوية الخلافات."
+  },
+  "contentStatus": "full",
+  "goal": "sözleşme",
+  "rule": "Sözleşmeyi imzalamadan önce bütün maddeleri dikkatle okumalıyız.",
+  "vocabulary": [
+    {
+      "term": "عقد",
+      "meaningAr": "madde",
+      "exampleTr": "Sözleşmeyi imzalamadan önce bütün maddeleri dikkatle okumalıyız.",
+      "exampleAr": "ينبغي قراءة جميع بنود العقد بعناية قبل توقيعه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ترتيب القراءة والتوقيع",
+      "ar": ""
+    },
+    {
+      "tr": "Sözleşmeyi imzalamadan önce bütün maddeleri dikkatle okumalıyız.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Taraflar koşullar üzerinde anlaştı.|اتفق الطرفان على الشروط.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu madde ne anlama geliyor? — ماذا يعني هذا البند؟\nB: Yükümlülükleri açıklıyor. — يوضح الالتزامات.",
+  "questions": [
+    {
+      "id": "b2-u8-06-q1",
+      "prompt": "ما معنى «عقد»؟",
+      "options": [
+        "بند",
+        "sözleşme maddesi",
+        "بند تعاقدي",
+        "تعبير غير مناسب"
+      ],
+      "answerIndex": 0,
+      "explanation": "عقد تعني madde."
+    },
+    {
+      "id": "b2-u8-06-q2",
+      "prompt": "ما ترجمة الجملة: «Sözleşmeyi imzalamadan önce bütün maddeleri dikkatle okumalıyız.»؟",
+      "options": [
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي قراءة جميع بنود العقد بعناية قبل توقيعه.|ينبغي قراءة جميع بنود العقد بعناية قبل توقيعه.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق."
+      ],
+      "answerIndex": 1,
+      "explanation": "Sözleşmeyi imzalamadan önce bütün maddeleri dikkatle okumalıyız. تعني ينبغي قراءة جميع بنود العقد بعناية قبل توقيعه.."
+    },
+    {
+      "id": "b2-u8-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "التنبيه إلى مراجعة الشروط",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "-madan önce."
+    },
+    {
+      "id": "b2-u8-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «التنبيه إلى مراجعة الشروط»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "قبل أن"
+      ],
+      "answerIndex": 3,
+      "explanation": "قبل أن"
+    },
+    {
+      "id": "b2-u8-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "قبل أن",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "قبل أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 256
+  }
+}

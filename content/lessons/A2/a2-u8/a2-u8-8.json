@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-8",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u8-08",
+      "order": 8,
+      "titleAr": "حوار عن الأسرة والأشياء المملوكة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "حوار عن الأسرة والأشياء المملوكة.",
+  "rule": "اجمع مفردات الأسرة وضمائر الملكية والسؤال Kimin؟: Bu kimin fotoğrafı؟ (صورة مَن هذه؟) — Bu benim ailemin fotoğrafı (هذه صورة عائلتي). وتذكر أن ailemin تعني عائلتي في تركيب الإضافة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu kimin çantası?",
+      "ar": "حقيبة مَن هذه؟"
+    },
+    {
+      "tr": "Bu kız kardeşimin çantası.",
+      "ar": "هذه حقيبة أختي."
+    },
+    {
+      "tr": "Ailen büyük mü?",
+      "ar": "هل عائلتك كبيرة؟"
+    },
+    {
+      "tr": "Evet, iki kardeşim var.",
+      "ar": "نعم، لدي أخوان/أختان."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-8-q1",
+      "prompt": "أكمل: Bu kimin telefonu? — Bu ___ telefonum.",
+      "options": [
+        "benim",
+        "ben",
+        "bana",
+        "bende"
+      ],
+      "answerIndex": 0,
+      "explanation": "Benim telefonum تعني هاتفي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 8
+  }
+}

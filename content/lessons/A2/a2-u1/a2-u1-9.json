@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u1-9",
+  "level": "A2",
+  "unitId": "a2-u1",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u1-09",
+      "order": 9,
+      "titleAr": "مراجعة الماضي واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحدث عن الماضي والأحداث السابقة",
+    "titleTr": "Geçmiş Zaman ve Geçmiş Olaylar",
+    "description": "تعلم الماضي المحدد وإثباته ونفيه والسؤال عنه، مع كلمات الزمن وتسلسل الأحداث ووصف يوم سابق وعطلة مضت."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الماضي المحدد وإجراء محادثة قصيرة.",
+  "rule": "راجع إثبات الماضي ونفيه والسؤال عنه، وانتبه إلى لواحق الانسجام الصوتي. كوّن فقرة من أربع جمل عن يومك السابق مستخدماً dün وönce وsonra. تذكّر: gittim ذهبت، gitmedim لم أذهب، gittin mi؟ هل ذهبت؟.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Dün evde kaldım.",
+      "ar": "بقيت في المنزل أمس."
+    },
+    {
+      "tr": "Kitap okumadım.",
+      "ar": "لم أقرأ كتاباً."
+    },
+    {
+      "tr": "Arkadaşımı aradım.",
+      "ar": "اتصلت بصديقي."
+    },
+    {
+      "tr": "Sonra uyudum.",
+      "ar": "ثم نمت."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u1-9-q1",
+      "prompt": "اختر صيغة الماضي المنفية الصحيحة للفعل gitmek مع أنا.",
+      "options": [
+        "gitmedim",
+        "gittim",
+        "gidiyorum",
+        "gideceğim"
+      ],
+      "answerIndex": 0,
+      "explanation": "gitmedim هي صيغة الماضي المنفية: لم أذهب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u1",
+    "legacyLessonOrder": 9
+  }
+}

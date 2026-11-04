@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u11-07",
+  "level": "C1",
+  "unitId": "c1-u11",
+  "order": 7,
+  "title": {
+    "ar": "المقارنة الأسلوبية بين الكتّاب",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل الأدبي والأسلوبي المتقدم",
+    "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
+    "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
+  },
+  "contentStatus": "full",
+  "goal": "تمييز الفروق في المعجم والإيقاع والصورة والمنظور بين كاتبين.",
+  "rule": "اختر مقاطع متقاربة في الموضوع وقارن أدوات محددة بدلاً من الأحكام العامة.",
+  "vocabulary": [
+    {
+      "term": "üslup karşılaştırması",
+      "meaningAr": "مقارنة أسلوبية",
+      "exampleTr": "İki yazar aynı temayı farklı anlatım teknikleriyle işliyor.",
+      "exampleAr": "يعالج الكاتبان الموضوع نفسه بتقنيات سردية مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İki yazar aynı temayı farklı anlatım teknikleriyle işliyor.",
+      "ar": "يعالج الكاتبان الموضوع نفسه بتقنيات سردية مختلفة."
+    },
+    {
+      "tr": "İki metnin dilsel tercihlerini karşılaştırdım.",
+      "ar": "قارنت الاختيارات اللغوية للنصين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangisi daha etkileyici؟",
+      "ar": "أيهما أكثر تأثيراً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Amaçlarına göre farklı güçlü yönleri var.",
+      "ar": "لكل منهما نقاط قوة مختلفة بحسب الهدف."
+    }
+  ],
+  "speakingTask": "قارن مقطعين وحدد ثلاثة فروق أسلوبية مدعومة بأمثلة.",
+  "questions": [
+    {
+      "id": "c1-u11-07-q1",
+      "prompt": "ما معنى «üslup karşılaştırması»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مقارنة أسلوبية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«üslup karşılaştırması» تعني: مقارنة أسلوبية."
+    },
+    {
+      "id": "c1-u11-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يعالج الكاتبان الموضوع نفسه بتقنيات سردية مختلفة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يعالج الكاتبان الموضوع نفسه بتقنيات سردية مختلفة."
+    },
+    {
+      "id": "c1-u11-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "yazarın üslubu",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «yazarın üslubu». اختر مقاطع متقاربة في الموضوع وقارن أدوات محددة بدلاً من الأحكام العامة."
+    },
+    {
+      "id": "c1-u11-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "مقارنة الخصائص الأسلوبية.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "مقارنة الخصائص الأسلوبية."
+    },
+    {
+      "id": "c1-u11-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "قارن مقطعين وحدد ثلاثة فروق أسلوبية مدعومة بأمثلة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "قارن مقطعين وحدد ثلاثة فروق أسلوبية مدعومة بأمثلة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u11",
+    "legacyGlobalNumber": 407
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u11-09",
+  "level": "C2",
+  "unitId": "c2-u11",
+  "order": 9,
+  "title": {
+    "ar": "العرض العلمي والدفاع عن البحث",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث اللغوي والمنهجية الأكاديمية",
+    "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
+    "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
+  },
+  "contentStatus": "full",
+  "goal": "تقديم نتائج الدراسة والدفاع عن المنهج والحدود أمام لجنة.",
+  "rule": "صغ قصة بحثية موجزة، ووضح الإضافة، واستعد للأسئلة عن العينة والتحليل والقيود.",
+  "vocabulary": [
+    {
+      "term": "akademik savunma",
+      "meaningAr": "دفاع أكاديمي",
+      "exampleTr": "Çalışmanın katkısını ve sınırlılıklarını jüriye açıkça anlattım.",
+      "exampleAr": "شرحت للجنة إسهام الدراسة وقيودها بوضوح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çalışmanın katkısını ve sınırlılıklarını jüriye açıkça anlattım.",
+      "ar": "شرحت للجنة إسهام الدراسة وقيودها بوضوح."
+    },
+    {
+      "tr": "Savunmamı veriler ve yöntem kararlarıyla temellendirdim.",
+      "ar": "أسست دفاعي على البيانات والقرارات المنهجية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "En önemli katkı nedir؟",
+      "ar": "ما أهم إسهام؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önceki çalışmalarda görünmeyen örüntüyü göstermesi.",
+      "ar": "إظهار نمط لم يظهر في الدراسات السابقة."
+    }
+  ],
+  "speakingTask": "قدم عرضاً بحثياً من عشر دقائق وأجب عن أسئلة نقدية.",
+  "questions": [
+    {
+      "id": "c2-u11-09-q1",
+      "prompt": "ما معنى «akademik savunma»؟",
+      "options": [
+        "طلب الإذن",
+        "دفاع أكاديمي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«akademik savunma» تعني: دفاع أكاديمي."
+    },
+    {
+      "id": "c2-u11-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "شرحت للجنة إسهام الدراسة وقيودها بوضوح.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "شرحت للجنة إسهام الدراسة وقيودها بوضوح."
+    },
+    {
+      "id": "c2-u11-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "bilimsel sunum"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «bilimsel sunum». صغ قصة بحثية موجزة، ووضح الإضافة، واستعد للأسئلة عن العينة والتحليل والقيود."
+    },
+    {
+      "id": "c2-u11-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "عرض البحث والدفاع عنه.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "عرض البحث والدفاع عنه."
+    },
+    {
+      "id": "c2-u11-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قدم عرضاً بحثياً من عشر دقائق وأجب عن أسئلة نقدية.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدم عرضاً بحثياً من عشر دقائق وأجب عن أسئلة نقدية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u11",
+    "legacyGlobalNumber": 529
+  }
+}

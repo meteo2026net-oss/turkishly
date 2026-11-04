@@ -163,7 +163,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    backgroundColor: const Color(0xFFF5F7FC),
+    backgroundColor: const Color(0xFFFFFAF3),
     body: SafeArea(child: CustomScrollView(
       physics: const BouncingScrollPhysics(),
       slivers: [
@@ -220,14 +220,14 @@ class _QuizScreenState extends State<QuizScreen> {
         const SizedBox(height: 10),
         ClipRRect(borderRadius: BorderRadius.circular(10), child: LinearProgressIndicator(
           value: (_index + (answered ? 1 : 0)) / _questions.length,
-          minHeight: 7, backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7))),
+          minHeight: 7, backgroundColor: const Color(0xFFE2F5F2), color: const Color(0xFF0F9D9A))),
         const SizedBox(height: 23),
         Text(q.prompt, textAlign: TextAlign.right, style: const TextStyle(color: AppColors.darkGreen, fontSize: 19, height: 1.5, fontWeight: FontWeight.w900)),
         const SizedBox(height: 18),
         ...List.generate(q.options.length, (i) {
           final isCorrect = i == q.answer;
           final isSelected = i == _selected;
-          Color bg = const Color(0xFFF7F9FC);
+          Color bg = const Color(0xFFFFFAF3);
           Color border = AppColors.border;
           Color fg = AppColors.darkGreen;
           IconData? trailing;
@@ -258,7 +258,7 @@ class _QuizScreenState extends State<QuizScreen> {
         if (answered) Container(
           margin: const EdgeInsets.only(top: 7, bottom: 12),
           padding: const EdgeInsets.all(13),
-          decoration: BoxDecoration(color: const Color(0xFFEAF2FF), borderRadius: BorderRadius.circular(14)),
+          decoration: BoxDecoration(color: const Color(0xFFE2F5F2), borderRadius: BorderRadius.circular(14)),
           child: Text(q.explanation, textAlign: TextAlign.right,
             style: const TextStyle(color: AppColors.navy, height: 1.6, fontSize: 12, fontWeight: FontWeight.w700)),
         ),
@@ -290,7 +290,7 @@ class _QuizScreenState extends State<QuizScreen> {
         const SizedBox(height: 17),
         SizedBox(width: 150, height: 150, child: Stack(alignment: Alignment.center, children: [
           SizedBox.expand(child: CircularProgressIndicator(value: percent / 100, strokeWidth: 11,
-            backgroundColor: const Color(0xFFE9EEF6), color: const Color(0xFF2E82C7), strokeCap: StrokeCap.round)),
+            backgroundColor: const Color(0xFFE2F5F2), color: const Color(0xFF0F9D9A), strokeCap: StrokeCap.round)),
           Column(mainAxisSize: MainAxisSize.min, children: [
             Text('$percent%', style: const TextStyle(color: AppColors.darkGreen, fontSize: 30, fontWeight: FontWeight.w900)),
             const Text('نتيجتك', style: TextStyle(color: AppColors.muted, fontSize: 11)),
@@ -311,7 +311,7 @@ class _QuizScreenState extends State<QuizScreen> {
               margin: const EdgeInsets.only(bottom: 9),
               padding: const EdgeInsets.all(13),
               decoration: BoxDecoration(
-                color: const Color(0xFFFFF6E8),
+                color: const Color(0xFFFFF7E5),
                 borderRadius: BorderRadius.circular(14),
                 border: Border.all(color: const Color(0xFFF0DDBB)),
               ),
@@ -341,7 +341,7 @@ class _QuizScreenState extends State<QuizScreen> {
             ..._missedQuestions.map((item) => Container(
               width: double.infinity, margin: const EdgeInsets.only(bottom: 7),
               padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(color: const Color(0xFFFFF6E8), borderRadius: BorderRadius.circular(13)),
+              decoration: BoxDecoration(color: const Color(0xFFFFF7E5), borderRadius: BorderRadius.circular(13)),
               child: Text(item, textAlign: TextAlign.right,
                 style: const TextStyle(color: AppColors.darkGreen, fontSize: 12, fontWeight: FontWeight.w700)),
             )),

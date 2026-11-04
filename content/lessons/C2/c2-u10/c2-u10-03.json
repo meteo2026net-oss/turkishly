@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u10-03",
+  "level": "C2",
+  "unitId": "c2-u10",
+  "order": 3,
+  "title": {
+    "ar": "التعرف إلى المغالطات الحجاجية المركبة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "تحليل الخطاب والنقد المقارن",
+    "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
+    "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
+  },
+  "contentStatus": "full",
+  "goal": "تمييز المغالطة داخل حجة تبدو منطقية ومترابطة.",
+  "rule": "اختبر صلة الدليل بالنتيجة، وكفاية العينة، والافتراضات المخفية، والبدائل الممكنة.",
+  "vocabulary": [
+    {
+      "term": "karmaşık safsata",
+      "meaningAr": "مغالطة مركبة",
+      "exampleTr": "Sonuç, sunulan verilerin kapsamını aştığı için gerekçelendirilmemiştir.",
+      "exampleAr": "النتيجة غير مبررة لأنها تتجاوز نطاق البيانات المقدمة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Sonuç, sunulan verilerin kapsamını aştığı için gerekçelendirilmemiştir.",
+      "ar": "النتيجة غير مبررة لأنها تتجاوز نطاق البيانات المقدمة."
+    },
+    {
+      "tr": "Kanıt ile sonuç arasındaki bağı ayrı ayrı değerlendirdim.",
+      "ar": "قيّمت الصلة بين الدليل والنتيجة على حدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Güçlü bir örnek iddiayı kanıtlar mı؟",
+      "ar": "هل يثبت مثال قوي الادعاء؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tek örnek genelleme için yeterli olmayabilir.",
+      "ar": "قد لا يكفي مثال واحد للتعميم."
+    }
+  ],
+  "speakingTask": "حلل مقالة رأي وحدد ثلاث مغالطات مع تفسير أثرها.",
+  "questions": [
+    {
+      "id": "c2-u10-03-q1",
+      "prompt": "ما معنى «karmaşık safsata»؟",
+      "options": [
+        "طلب الإذن",
+        "مغالطة مركبة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«karmaşık safsata» تعني: مغالطة مركبة."
+    },
+    {
+      "id": "c2-u10-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "النتيجة غير مبررة لأنها تتجاوز نطاق البيانات المقدمة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "النتيجة غير مبررة لأنها تتجاوز نطاق البيانات المقدمة."
+    },
+    {
+      "id": "c2-u10-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "mantık denetimi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «mantık denetimi». اختبر صلة الدليل بالنتيجة، وكفاية العينة، والافتراضات المخفية، والبدائل الممكنة."
+    },
+    {
+      "id": "c2-u10-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تدقيق الحجة وكشف القفزات المنطقية.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تدقيق الحجة وكشف القفزات المنطقية."
+    },
+    {
+      "id": "c2-u10-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل مقالة رأي وحدد ثلاث مغالطات مع تفسير أثرها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل مقالة رأي وحدد ثلاث مغالطات مع تفسير أثرها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u10",
+    "legacyGlobalNumber": 513
+  }
+}

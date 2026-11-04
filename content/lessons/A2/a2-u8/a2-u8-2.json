@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-2",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a2-u8-02",
+      "order": 2,
+      "titleAr": "لواحق الملكية والانسجام الصوتي",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "لواحق الملكية والانسجام الصوتي.",
+  "rule": "تتغير لاحقة الملكية بحسب آخر حركة: -ım/-im/-um/-üm للمتكلم، و-ın/-in/-un/-ün للمخاطب، وللغائب -ı/-i/-u/-ü. للجمع: -ımız/-imiz/-umuz/-ümüz و-ınız/-iniz/-unuz/-ünüz. قد يحدث تليين: kitap تصبح kitabım أو kitabı.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "oda → odam",
+      "ar": "غرفتي."
+    },
+    {
+      "tr": "ev → evin",
+      "ar": "بيتك."
+    },
+    {
+      "tr": "göz → gözümüz",
+      "ar": "عيننا."
+    },
+    {
+      "tr": "kitap → kitabı",
+      "ar": "كتابه/كتابها."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-2-q1",
+      "prompt": "ما الصيغة الصحيحة لعبارة «غرفتي»؟",
+      "options": [
+        "odam",
+        "odım",
+        "odan",
+        "odası"
+      ],
+      "answerIndex": 0,
+      "explanation": "آخر حركة في oda هي a، لذلك نقول odam."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 2
+  }
+}

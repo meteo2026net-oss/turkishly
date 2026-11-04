@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u5-4",
+  "level": "A1",
+  "unitId": "a1-u5",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u5-04",
+      "order": 4,
+      "titleAr": "التعبير عن أحب ولا أحب",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والطلب في المطعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranda Sipariş",
+    "description": "مفردات الطعام والوجبات والمشروبات والتعبير عن الرغبات والطلب والسؤال عن الأسعار."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام أحب ولا أحب عند الحديث عن الطعام.",
+  "rule": "للتعبير عن الإعجاب بشيء نستخدم hoşlanmak أو sevmek. مثال: Elma seviyorum (أحب التفاح). وللنفي نقول sevmiyorum (لا أحب). تذكّر أن نهاية الفعل تتغير بحسب الضمير والزمن.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Balık seviyorum.",
+      "ar": "أحب السمك."
+    },
+    {
+      "tr": "Kahve sevmiyorum.",
+      "ar": "لا أحب القهوة."
+    },
+    {
+      "tr": "Sebzeleri seviyor musun?",
+      "ar": "هل تحب الخضروات؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u5-4-q1",
+      "prompt": "ما معنى sevmiyorum؟",
+      "options": [
+        "أحب",
+        "لا أحب",
+        "أشرب",
+        "آكل"
+      ],
+      "answerIndex": 1,
+      "explanation": "sevmiyorum تعني لا أحب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u5",
+    "legacyLessonOrder": 4
+  }
+}

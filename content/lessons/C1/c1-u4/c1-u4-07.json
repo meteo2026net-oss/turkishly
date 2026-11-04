@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u4-07",
+  "level": "C1",
+  "unitId": "c1-u4",
+  "order": 7,
+  "title": {
+    "ar": "تحليل المقابلات المتخصصة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاستماع المتقدم وتحليل الخطاب",
+    "titleTr": "İleri Dinleme ve Söylem Analizi",
+    "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
+  },
+  "contentStatus": "full",
+  "goal": "متابعة الأسئلة الاستيضاحية والإجابات المراوغة.",
+  "rule": "راقب وظيفة السؤال ومباشرة الإجابة والأمثلة وما يتجنب الضيف تحديده.",
+  "vocabulary": [
+    {
+      "term": "takip sorusu",
+      "meaningAr": "سؤال متابعة",
+      "exampleTr": "Gazeteci, belirsiz yanıtın ardından somut bir örnek istedi.",
+      "exampleAr": "طلب الصحفي مثالاً ملموساً بعد إجابة غير واضحة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Gazeteci, belirsiz yanıtın ardından somut bir örnek istedi.",
+      "ar": "طلب الصحفي مثالاً ملموساً بعد إجابة غير واضحة."
+    },
+    {
+      "tr": "Görüşmede verilen yanıtları karşılaştırdım.",
+      "ar": "قارنت إجابات المقابلة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yanıt açık mıydı؟",
+      "ar": "هل كانت الإجابة واضحة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, gazeteci ek bir örnek istedi.",
+      "ar": "لا، طلب الصحفي مثالاً إضافياً."
+    }
+  ],
+  "speakingTask": "حلل مقابلة وحدد سؤالين استيضاحيين وإجابة غير مباشرة.",
+  "questions": [
+    {
+      "id": "c1-u4-07-q1",
+      "prompt": "ما معنى «takip sorusu»؟",
+      "options": [
+        "طلب الإذن",
+        "سؤال متابعة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«takip sorusu» تعني: سؤال متابعة."
+    },
+    {
+      "id": "c1-u4-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "طلب الصحفي مثالاً ملموساً بعد إجابة غير واضحة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "طلب الصحفي مثالاً ملموساً بعد إجابة غير واضحة."
+    },
+    {
+      "id": "c1-u4-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "yanıtı derinleştirmek"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «yanıtı derinleştirmek». راقب وظيفة السؤال ومباشرة الإجابة والأمثلة وما يتجنب الضيف تحديده."
+    },
+    {
+      "id": "c1-u4-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تعميق الإجابة بطلب توضيح أو مثال.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تعميق الإجابة بطلب توضيح أو مثال."
+    },
+    {
+      "id": "c1-u4-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل مقابلة وحدد سؤالين استيضاحيين وإجابة غير مباشرة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل مقابلة وحدد سؤالين استيضاحيين وإجابة غير مباشرة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u4",
+    "legacyGlobalNumber": 337
+  }
+}

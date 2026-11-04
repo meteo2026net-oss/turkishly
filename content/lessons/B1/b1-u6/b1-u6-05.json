@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u6-05",
+  "level": "B1",
+  "unitId": "b1-u6",
+  "order": 5,
+  "title": {
+    "ar": "التعبير عن الطلبات الرسمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "تقديم طلب رسمي أو مهذب في مؤسسة أو مكان عمل.",
+  "rule": "استخدم rica etmek بمعنى يرجو/يطلب، mümkünse بمعنى إن أمكن، و...-ebilir misiniz? للسؤال المهذب عن إمكانية فعل شيء. وفي الرسائل الرسمية استعمل Sayın وSaygılarımla.",
+  "vocabulary": [
+    {
+      "term": "rica etmek",
+      "meaningAr": "يرجو / يطلب بأدب",
+      "exampleTr": "Belgeleri bugün göndermenizi rica ederim.",
+      "exampleAr": "أرجو منكم إرسال المستندات اليوم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Mümkünse randevuyu erteleyebilir misiniz?",
+      "ar": "هل يمكنكم تأجيل الموعد إن أمكن؟"
+    },
+    {
+      "tr": "Yardımınız için teşekkür ederim.",
+      "ar": "أشكركم على مساعدتكم."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Başka bir isteğiniz var mı?",
+      "ar": "هل لديكم طلب آخر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Mümkünse faturayı e-posta ile göndermenizi rica ederim.",
+      "ar": "أرجو إرسال الفاتورة بالبريد الإلكتروني إن أمكن."
+    }
+  ],
+  "speakingTask": "اكتب طلباً رسمياً قصيراً إلى مؤسسة للحصول على معلومات.",
+  "questions": [
+    {
+      "id": "b1-u6-05-q1",
+      "prompt": "ما معنى «rica etmek»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "يرجو / يطلب بأدب"
+      ],
+      "answerIndex": 3,
+      "explanation": "rica etmek تعني يرجو / يطلب بأدب."
+    },
+    {
+      "id": "b1-u6-05-q2",
+      "prompt": "ما ترجمة الجملة: «Belgeleri bugün göndermenizi rica ederim.»؟",
+      "options": [
+        "أرجو منكم إرسال المستندات اليوم.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Belgeleri bugün göndermenizi rica ederim. تعني أرجو منكم إرسال المستندات اليوم.."
+    },
+    {
+      "id": "b1-u6-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "... yapabilir misiniz? / rica ederim",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "طلب مهذب بصيغة الاستطاعة أو الرجاء."
+    },
+    {
+      "id": "b1-u6-05-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «... yapabilir misiniz? / rica ederim»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "صياغة طلب رسمي أو محترم.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "صياغة طلب رسمي أو محترم."
+    },
+    {
+      "id": "b1-u6-05-q5",
+      "prompt": "أكمل التركيب: Belgeleri bugün göndermenizi rica ederim.",
+      "options": [
+        "... yapabilir misiniz? / rica ederim",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي ... yapabilir misiniz? / rica ederim؛ طلب مهذب بصيغة الاستطاعة أو الرجاء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u6",
+    "legacyGlobalNumber": 175
+  }
+}

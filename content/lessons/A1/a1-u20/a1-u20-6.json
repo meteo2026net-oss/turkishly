@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-6",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u20-06",
+      "order": 6,
+      "titleAr": "مراجعة المنزل والمدينة والمواصلات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة المنزل والمدينة والمواصلات والاتجاهات.",
+  "rule": "راجع غرف المنزل وأثاثه وأماكن المدينة ووسائل النقل. استخدم var/yok للتعبير عن وجود شيء أو عدمه، وحروف الاتجاه والمكان الأساسية: yanında بجانب، içinde داخل، yakın قريب.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Evde iki oda var.",
+      "ar": "في البيت غرفتان."
+    },
+    {
+      "tr": "Otobüs durağı nerede?",
+      "ar": "أين موقف الحافلة؟"
+    },
+    {
+      "tr": "Market evin yanında.",
+      "ar": "المتجر بجانب المنزل."
+    },
+    {
+      "tr": "Metroya biniyorum.",
+      "ar": "أركب المترو."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u20-6-q1",
+      "prompt": "ما معنى yok؟",
+      "options": [
+        "يوجد",
+        "لا يوجد",
+        "بعيد",
+        "بجانب"
+      ],
+      "answerIndex": 1,
+      "explanation": "yok تعني لا يوجد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 6
+  }
+}

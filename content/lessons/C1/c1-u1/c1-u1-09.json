@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u1-09",
+  "level": "C1",
+  "unitId": "c1-u1",
+  "order": 9,
+  "title": {
+    "ar": "تفسير المصطلحات المجردة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القراءة الأكاديمية وتحليل النصوص",
+    "titleTr": "Akademik Okuma ve Metin Çözümleme",
+    "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
+  },
+  "contentStatus": "full",
+  "goal": "فهم المفاهيم المجردة من تعريفها وسياق استعمالها.",
+  "rule": "تُفهم المفاهيم مثل sürdürülebilirlik وeşitlik وmeşruiyet عبر تعريف الكاتب وأمثلة السياق لا بالترجمة الحرفية فقط.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Kararın meşruiyeti kamuoyunda tartışılıyor.",
+      "ar": "تجري مناقشة مشروعية القرار في الرأي العام."
+    },
+    {
+      "tr": "Kavramı tanım ve örnekle açıklayın.",
+      "ar": "اختر مفهوماً مجرداً وعرّفه ثم قدّم مثالاً وحدّاً له."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «meşruiyet»؟",
+      "options": [
+        "المشروعية أو الشرعية",
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«meşruiyet» تعني المشروعية أو الشرعية.",
+      "id": "c1-u1-09-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Kararın meşruiyeti kamuoyunda tartışılıyor.»؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "تجري مناقشة مشروعية القرار في الرأي العام.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "ترجمة الجملة: تجري مناقشة مشروعية القرار في الرأي العام.",
+      "id": "c1-u1-09-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «soyut kavram»؟",
+      "options": [
+        "geçmiş zaman",
+        "yer bildiren ifade",
+        "soyut kavram",
+        "rastgele bir ifade"
+      ],
+      "answerIndex": 2,
+      "explanation": "مفهوم مجرد",
+      "id": "c1-u1-09-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح"
+      ],
+      "answerIndex": 3,
+      "explanation": "تُفهم المفاهيم مثل sürdürülebilirlik وeşitlik وmeşruiyet عبر تعريف الكاتب وأمثلة السياق لا بالترجمة الحرفية فقط.",
+      "id": "c1-u1-09-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل"
+      ],
+      "answerIndex": 0,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-09-q5"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_course_data.dart",
+    "legacyUnitId": "c1-u1",
+    "legacyGlobalNumber": 309
+  }
+}

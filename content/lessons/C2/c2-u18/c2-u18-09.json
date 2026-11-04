@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u18-09",
+  "level": "C2",
+  "unitId": "c2-u18",
+  "order": 9,
+  "title": {
+    "ar": "مراجعة متكاملة للخطاب العام",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب العام والتحقق من الأدلة",
+    "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
+    "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
+  },
+  "contentStatus": "full",
+  "goal": "ادمج التحقق من المصادر والتحليل الإحصائي وفهم التأطير وتقييم اللغة والتوصيات.",
+  "rule": "ادمج التحقق من المصادر والتحليل الإحصائي وفهم التأطير وتقييم اللغة والتوصيات.",
+  "vocabulary": [
+    {
+      "term": "bütünleşik söylem değerlendirmesi",
+      "meaningAr": "تقييم متكامل للخطاب",
+      "exampleTr": "İçeriği kaynak, veri, çerçeve ve dil açısından birlikte değerlendirdik.",
+      "exampleAr": "قيّمنا المحتوى معاً من حيث المصدر والبيانات والتأطير واللغة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İçeriği kaynak, veri, çerçeve ve dil açısından birlikte değerlendirdik.",
+      "ar": "قيّمنا المحتوى معاً من حيث المصدر والبيانات والتأطير واللغة."
+    },
+    {
+      "tr": "Bütünleşik değerlendirme, parçalı incelemelerin sonuçlarını birleştirir.",
+      "ar": "يجمع التقييم المتكامل نتائج الفحوص الجزئية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tek bir ölçüt yeterli mi?",
+      "ar": "هل يكفي معيار واحد؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kaynak, veri ve anlatım birlikte incelenmeli.",
+      "ar": "ينبغي فحص المصدر والبيانات وطريقة العرض معاً."
+    }
+  ],
+  "speakingTask": "حلل مادة إعلامية من بدايتها إلى توصيتها مع توثيق سلسلة الأدلة.",
+  "questions": [
+    {
+      "id": "c2-u18-09-q1",
+      "prompt": "ما معنى «bütünleşik söylem değerlendirmesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تقييم متكامل للخطاب"
+      ],
+      "answerIndex": 3,
+      "explanation": "«bütünleşik söylem değerlendirmesi» تعني: تقييم متكامل للخطاب."
+    },
+    {
+      "id": "c2-u18-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "قيّمنا المحتوى معاً من حيث المصدر والبيانات والتأطير واللغة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "قيّمنا المحتوى معاً من حيث المصدر والبيانات والتأطير واللغة."
+    },
+    {
+      "id": "c2-u18-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "kanıt zinciri",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «kanıt zinciri». ادمج التحقق من المصادر والتحليل الإحصائي وفهم التأطير وتقييم اللغة والتوصيات."
+    },
+    {
+      "id": "c2-u18-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "سلسلة الأدلة",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "سلسلة الأدلة"
+    },
+    {
+      "id": "c2-u18-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حلل مادة إعلامية من بدايتها إلى توصيتها مع توثيق سلسلة الأدلة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "حلل مادة إعلامية من بدايتها إلى توصيتها مع توثيق سلسلة الأدلة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u18",
+    "legacyGlobalNumber": 599
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-3",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u1-03",
+      "order": 3,
+      "titleAr": "الانسجام الصوتي الأساسي",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "فهم فكرة الانسجام الصوتي الأساسي في اللواحق.",
+  "rule": "غالباً ما تتغير حركة اللاحقة لتنسجم مع آخر حركة في الكلمة. في الانسجام الثنائي نستخدم a بعد الحركات الخلفية وe بعد الأمامية، مثل -lar/-ler للجمع. توجد قواعد أخرى أكثر تفصيلاً ستتعلمها تدريجياً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "ev → evler",
+      "ar": "بيوت: آخر حركة أمامية، لذلك -ler"
+    },
+    {
+      "tr": "araba → arabalar",
+      "ar": "سيارات: آخر حركة خلفية، لذلك -lar"
+    },
+    {
+      "tr": "gül → güller",
+      "ar": "ورود: آخر حركة أمامية، لذلك -ler"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-3-q1",
+      "prompt": "ما جمع كلمة ev؟",
+      "options": [
+        "evlar",
+        "evler",
+        "evlerı",
+        "evlerlar"
+      ],
+      "answerIndex": 1,
+      "explanation": "ev تنتهي بحركة أمامية e، لذلك نضيف -ler."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 3
+  }
+}

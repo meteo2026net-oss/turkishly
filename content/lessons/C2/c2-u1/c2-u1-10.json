@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u1-10",
+  "level": "C2",
+  "unitId": "c2-u1",
+  "order": 10,
+  "title": {
+    "ar": "مراجعة التحليل النقدي المتقدم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل النقدي والخطاب المعقد",
+    "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
+    "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
+  },
+  "contentStatus": "full",
+  "goal": "دمج تحليل الخطاب والافتراضات والاستدلال والمصادر وعدم اليقين.",
+  "rule": "تحقق من كل ادعاء ومقدمة ومصدر ودرجة يقين قبل اعتماد الخلاصة.",
+  "vocabulary": [
+    {
+      "term": "eleştirel sentez",
+      "meaningAr": "تركيب نقدي",
+      "exampleTr": "Sonuç bölümünde kanıtların desteklediği ve desteklemediği noktaları ayırdım.",
+      "exampleAr": "فصلت في الخاتمة بين النقاط التي تدعمها الأدلة وتلك التي لا تدعمها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Sonuç bölümünde kanıtların desteklediği ve desteklemediği noktaları ayırdım.",
+      "ar": "فصلت في الخاتمة بين النقاط التي تدعمها الأدلة وتلك التي لا تدعمها."
+    },
+    {
+      "tr": "Analizimi kanıt ve sınırlılıklarla tamamladım.",
+      "ar": "أكملت تحليلي بالأدلة والقيود."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sonuçta neyi vurguladın؟",
+      "ar": "ماذا أكدت في النتيجة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kanıtların izin verdiği çıkarımları.",
+      "ar": "الاستنتاجات التي تسمح بها الأدلة."
+    }
+  ],
+  "speakingTask": "أنجز تحليلاً نهائياً لخطاب مركب مع خريطة الحجج والمصادر.",
+  "questions": [
+    {
+      "id": "c2-u1-10-q1",
+      "prompt": "ما معنى «eleştirel sentez»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تركيب نقدي",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«eleştirel sentez» تعني: تركيب نقدي."
+    },
+    {
+      "id": "c2-u1-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "فصلت في الخاتمة بين النقاط التي تدعمها الأدلة وتلك التي لا تدعمها."
+      ],
+      "answerIndex": 3,
+      "explanation": "فصلت في الخاتمة بين النقاط التي تدعمها الأدلة وتلك التي لا تدعمها."
+    },
+    {
+      "id": "c2-u1-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "eleştirel bütünleştirme",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «eleştirel bütünleştirme». تحقق من كل ادعاء ومقدمة ومصدر ودرجة يقين قبل اعتماد الخلاصة."
+    },
+    {
+      "id": "c2-u1-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إنتاج خلاصة نقدية دقيقة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إنتاج خلاصة نقدية دقيقة."
+    },
+    {
+      "id": "c2-u1-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنجز تحليلاً نهائياً لخطاب مركب مع خريطة الحجج والمصادر."
+      ],
+      "answerIndex": 3,
+      "explanation": "أنجز تحليلاً نهائياً لخطاب مركب مع خريطة الحجج والمصادر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u1",
+    "legacyGlobalNumber": 430
+  }
+}

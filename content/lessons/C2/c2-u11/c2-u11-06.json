@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u11-06",
+  "level": "C2",
+  "unitId": "c2-u11",
+  "order": 6,
+  "title": {
+    "ar": "كتابة قسم المنهجية والنتائج",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث اللغوي والمنهجية الأكاديمية",
+    "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
+    "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
+  },
+  "contentStatus": "full",
+  "goal": "صياغة وصف قابل للتكرار للمنهج وعرض منظم للنتائج.",
+  "rule": "اكتب إجراءات واضحة، وحدد العينة والأدوات، واعرض النتائج دون خلطها بالمناقشة.",
+  "vocabulary": [
+    {
+      "term": "yöntem ve bulgular",
+      "meaningAr": "المنهجية والنتائج",
+      "exampleTr": "Yöntem bölümünde veri seçimini ve çözümleme adımlarını ayrıntılandırdım.",
+      "exampleAr": "فصلت اختيار البيانات وخطوات التحليل في قسم المنهجية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yöntem bölümünde veri seçimini ve çözümleme adımlarını ayrıntılandırdım.",
+      "ar": "فصلت اختيار البيانات وخطوات التحليل في قسم المنهجية."
+    },
+    {
+      "tr": "Yöntemi başka bir araştırmacının izleyebileceği biçimde yazdım.",
+      "ar": "كتبت المنهجية بصورة يستطيع باحث آخر اتباعها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sonuçları yorumlayalım mı؟",
+      "ar": "هل نفسر النتائج؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce bulguları tarafsız biçimde sunalım.",
+      "ar": "لنعرض النتائج بموضوعية أولاً."
+    }
+  ],
+  "speakingTask": "اكتب قسم منهجية ونتائج لدراسة لغوية مصغرة.",
+  "questions": [
+    {
+      "id": "c2-u11-06-q1",
+      "prompt": "ما معنى «yöntem ve bulgular»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "المنهجية والنتائج",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«yöntem ve bulgular» تعني: المنهجية والنتائج."
+    },
+    {
+      "id": "c2-u11-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "فصلت اختيار البيانات وخطوات التحليل في قسم المنهجية."
+      ],
+      "answerIndex": 3,
+      "explanation": "فصلت اختيار البيانات وخطوات التحليل في قسم المنهجية."
+    },
+    {
+      "id": "c2-u11-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "araştırma raporu",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «araştırma raporu». اكتب إجراءات واضحة، وحدد العينة والأدوات، واعرض النتائج دون خلطها بالمناقشة."
+    },
+    {
+      "id": "c2-u11-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "كتابة المنهجية والنتائج البحثية.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "كتابة المنهجية والنتائج البحثية."
+    },
+    {
+      "id": "c2-u11-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب قسم منهجية ونتائج لدراسة لغوية مصغرة."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب قسم منهجية ونتائج لدراسة لغوية مصغرة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u11",
+    "legacyGlobalNumber": 526
+  }
+}

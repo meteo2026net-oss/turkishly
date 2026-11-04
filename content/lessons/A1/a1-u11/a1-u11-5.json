@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-5",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u11-05",
+      "order": 5,
+      "titleAr": "مفردات قائمة الطعام والمطعم",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "فهم كلمات أساسية في قائمة الطعام والمطعم.",
+  "rule": "في المطعم ستجد menü قائمة الطعام، restoran مطعم، masa طاولة، garson نادل، sipariş طلب، hesap فاتورة، tatlı حلوى، ana yemek طبق رئيسي، başlangıç مقبلات. عبارة Menü alabilir miyim؟ تعني هل يمكنني الحصول على قائمة الطعام؟.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "menü",
+      "ar": "قائمة الطعام"
+    },
+    {
+      "tr": "garson",
+      "ar": "نادل"
+    },
+    {
+      "tr": "sipariş",
+      "ar": "طلب"
+    },
+    {
+      "tr": "hesap",
+      "ar": "فاتورة"
+    },
+    {
+      "tr": "tatlı",
+      "ar": "حلوى"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-5-q1",
+      "prompt": "ما معنى hesap في المطعم؟",
+      "options": [
+        "قائمة الطعام",
+        "الفاتورة",
+        "الطاولة",
+        "المطبخ"
+      ],
+      "answerIndex": 1,
+      "explanation": "hesap تعني الفاتورة أو الحساب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 5
+  }
+}

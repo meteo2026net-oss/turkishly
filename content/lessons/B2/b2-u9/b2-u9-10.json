@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-10",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 10,
+  "title": {
+    "ar": "اختبار البحث والتفكير النقدي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلم والبحث والتفكير النقدي",
+    "titleTr": "Bilim, Araştırma ve Eleştirel Düşünme",
+    "description": "الفرضيات والبيانات والاستدلال والتحفظ العلمي والكتابة الأكاديمية."
+  },
+  "contentStatus": "full",
+  "goal": "eleştirel",
+  "rule": "Güçlü bir değerlendirme iddia, kanıt ve sınırlılıkları birlikte ele alır.",
+  "vocabulary": [
+    {
+      "term": "نقدي",
+      "meaningAr": "değerlendirme",
+      "exampleTr": "Güçlü bir değerlendirme iddia, kanıt ve sınırlılıkları birlikte ele alır.",
+      "exampleAr": "يتناول التقييم القوي الادعاء والأدلة والقيود معاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "دمج عناصر التقييم",
+      "ar": ""
+    },
+    {
+      "tr": "Güçlü bir değerlendirme iddia, kanıt ve sınırlılıkları birlikte ele alır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Kanıtın gücünü ve sınırını açıkladım.|شرحت قوة الدليل وحدوده.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: İyi bir analiz ne içerir? — ماذا يتضمن التحليل الجيد؟\nB: Açık iddia, kanıt ve dengeli sonuç. — ادعاء واضح ودليل ونتيجة متوازنة.",
+  "questions": [
+    {
+      "id": "b2-u9-10-q1",
+      "prompt": "ما معنى «نقدي»؟",
+      "options": [
+        "ادعاء ودليل",
+        "تعبير غير مناسب",
+        "تقييم",
+        "iddia ve kanıt"
+      ],
+      "answerIndex": 2,
+      "explanation": "نقدي تعني değerlendirme."
+    },
+    {
+      "id": "b2-u9-10-q2",
+      "prompt": "ما ترجمة الجملة: «Güçlü bir değerlendirme iddia, kanıt ve sınırlılıkları birlikte ele alır.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "يتناول التقييم القوي الادعاء والأدلة والقيود معاً.|يتناول التقييم القوي الادعاء والأدلة والقيود معاً."
+      ],
+      "answerIndex": 3,
+      "explanation": "Güçlü bir değerlendirme iddia, kanıt ve sınırlılıkları birlikte ele alır. تعني يتناول التقييم القوي الادعاء والأدلة والقيود معاً.."
+    },
+    {
+      "id": "b2-u9-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تقييم علمي متوازن",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "birlikte ele almak."
+    },
+    {
+      "id": "b2-u9-10-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تقييم علمي متوازن»؟",
+      "options": [
+        "طلب الإذن",
+        "يتناول معاً",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "يتناول معاً"
+    },
+    {
+      "id": "b2-u9-10-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "يتناول معاً"
+      ],
+      "answerIndex": 3,
+      "explanation": "يتناول معاً"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 270
+  }
+}

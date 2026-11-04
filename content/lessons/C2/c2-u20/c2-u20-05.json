@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u20-05",
+  "level": "C2",
+  "unitId": "c2-u20",
+  "order": 5,
+  "title": {
+    "ar": "ترجمة الاستعارات المفاهيمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "هندسة المصطلحات والتحرير والترجمة المتقدمة",
+    "titleTr": "İleri Terim Mühendisliği, Editörlük ve Çeviri",
+    "description": "إدارة المصطلحات والغموض والتكافؤ التداولي والتحرير متعدد المؤلفين والترجمة القانونية والتوطين."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم ترجمة الاستعارات المفاهيمية في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "kavramsal metafor çevirisi",
+      "meaningAr": "ترجمة الاستعارات المفاهيمية",
+      "exampleTr": "Kaynak metindeki kavramsal metaforu hedef dilde işlevsel biçimde aktardık.",
+      "exampleAr": "نقلنا الاستعارة المفاهيمية في النص المصدر بصورة وظيفية إلى اللغة الهدف."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kaynak metindeki kavramsal metaforu hedef dilde işlevsel biçimde aktardık.",
+      "ar": "نقلنا الاستعارة المفاهيمية في النص المصدر بصورة وظيفية إلى اللغة الهدف."
+    },
+    {
+      "tr": "Metaforun işlevi kültürler arasında farklılaşabilir.",
+      "ar": "قد تختلف وظيفة الاستعارة بين الثقافات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Metaforu aynen çevirelim mi?",
+      "ar": "هل نترجم الاستعارة كما هي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hedef kültürdeki etkisini değerlendirelim.",
+      "ar": "لنقيّم أثرها في الثقافة الهدف."
+    }
+  ],
+  "speakingTask": "اختر استعارة تركية واشرح متى تُنقل حرفياً ومتى يعاد بناؤها.",
+  "questions": [
+    {
+      "id": "c2-u20-05-q1",
+      "prompt": "ما المقصود بالمصطلح «kavramsal metafor çevirisi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "ترجمة الاستعارات المفاهيمية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«kavramsal metafor çevirisi» يعني: ترجمة الاستعارات المفاهيمية."
+    },
+    {
+      "id": "c2-u20-05-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "نقلنا الاستعارة المفاهيمية في النص المصدر بصورة وظيفية إلى اللغة الهدف.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "نقلنا الاستعارة المفاهيمية في النص المصدر بصورة وظيفية إلى اللغة الهدف."
+    },
+    {
+      "id": "c2-u20-05-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "metaforik çerçeve",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة: metaforik çerçeve. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u20-05-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "الحفاظ على الصورة المفاهيمية أو تكييفها ثقافياً",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "الحفاظ على الصورة المفاهيمية أو تكييفها ثقافياً"
+    },
+    {
+      "id": "c2-u20-05-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "اختر استعارة تركية واشرح متى تُنقل حرفياً ومتى يعاد بناؤها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اختر استعارة تركية واشرح متى تُنقل حرفياً ومتى يعاد بناؤها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u20",
+    "legacyGlobalNumber": 615
+  }
+}

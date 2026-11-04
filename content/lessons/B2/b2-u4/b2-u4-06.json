@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u4-06",
+  "level": "B2",
+  "unitId": "b2-u4",
+  "order": 6,
+  "title": {
+    "ar": "حل النزاعات داخل الفريق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المشاريع والقيادة المهنية",
+    "titleTr": "Proje Yönetimi ve Mesleki Liderlik",
+    "description": "تخطيط المشاريع وتوزيع المسؤوليات وإدارة المخاطر والعمل مع العملاء."
+  },
+  "contentStatus": "full",
+  "goal": "شرح الخلافات والوصول إلى حل مهني.",
+  "rule": "Anlaşmazlığın nedenini anlamadan karar vermemeliyiz.",
+  "vocabulary": [
+    {
+      "term": "anlaşmazlık",
+      "meaningAr": "خلاف",
+      "exampleTr": "لا ينبغي أن نتخذ قراراً قبل فهم سبب الخلاف.",
+      "exampleAr": "خلاف"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "لأن",
+      "ar": ""
+    },
+    {
+      "tr": "Tarafları ayrı ayrı dinledik.",
+      "ar": "استمعنا إلى الأطراف كلٍّ على حدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Ortak bir çözüm üzerinde anlaştılar.|اتفقوا على حل مشترك.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Nasıl uzlaşabiliriz? — كيف يمكننا التوافق؟\nB: Her iki tarafı da dinleyerek. — بالاستماع إلى الطرفين.",
+  "questions": [
+    {
+      "id": "b2-u4-06-q1",
+      "prompt": "ما معنى «anlaşmazlık»؟",
+      "options": [
+        "anlaşmazlığı çözmek|يحل الخلاف",
+        "يؤجل اجتماعاً",
+        "يكتب تقريراً",
+        "يغير عنواناً"
+      ],
+      "answerIndex": 0,
+      "explanation": "anlaşmazlık تعني خلاف."
+    },
+    {
+      "id": "b2-u4-06-q2",
+      "prompt": "ما ترجمة الجملة: «لا ينبغي أن نتخذ قراراً قبل فهم سبب الخلاف.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "لا ينبغي أن نتخذ قراراً قبل فهم سبب الخلاف.|خلاف",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "لا ينبغي أن نتخذ قراراً قبل فهم سبب الخلاف. تعني خلاف."
+    },
+    {
+      "id": "b2-u4-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "بعد أن",
+        "رغم أن",
+        "يحتفل",
+        "تجنب القرار المتسرع"
+      ],
+      "answerIndex": 2,
+      "explanation": "-madan önce."
+    },
+    {
+      "id": "b2-u4-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يحتفل»؟",
+      "options": [
+        "تجنب القرار المتسرع",
+        "بعد أن",
+        "رغم أن",
+        "قبل أن"
+      ],
+      "answerIndex": 3,
+      "explanation": "قبل أن"
+    },
+    {
+      "id": "b2-u4-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "رغم أن",
+        "قبل أن",
+        "تجنب القرار المتسرع",
+        "بعد أن"
+      ],
+      "answerIndex": 1,
+      "explanation": "قبل أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u4",
+    "legacyGlobalNumber": 216
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-09",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 9,
+  "title": {
+    "ar": "مراجعة اللغة الأكاديمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلم والبحث والتفكير النقدي",
+    "titleTr": "Bilim, Araştırma ve Eleştirel Düşünme",
+    "description": "الفرضيات والبيانات والاستدلال والتحفظ العلمي والكتابة الأكاديمية."
+  },
+  "contentStatus": "full",
+  "goal": "tutarlılık",
+  "rule": "Metnin tutarlılığını artırmak için kavramları aynı anlamda kullanmalıyız.",
+  "vocabulary": [
+    {
+      "term": "اتساق",
+      "meaningAr": "kavram",
+      "exampleTr": "Metnin tutarlılığını artırmak için kavramları aynı anlamda kullanmalıyız.",
+      "exampleAr": "لزيادة اتساق النص ينبغي استخدام المفاهيم بالمعنى نفسه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ضبط المصطلحات",
+      "ar": ""
+    },
+    {
+      "tr": "Metnin tutarlılığını artırmak için kavramları aynı anlamda kullanmalıyız.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Tekrarları azaltıp geçiş ifadeleri ekledim.|قللت التكرار وأضفت عبارات انتقالية.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Metni nasıl geliştirdin? — كيف طورت النص؟\nB: Bağlantıları ve terimleri düzenleyerek. — بتنظيم الروابط والمصطلحات.",
+  "questions": [
+    {
+      "id": "b2-u9-09-q1",
+      "prompt": "ما معنى «اتساق»؟",
+      "options": [
+        "تعبير غير مناسب",
+        "مفهوم",
+        "anlam tutarlılığı",
+        "اتساق المعنى"
+      ],
+      "answerIndex": 1,
+      "explanation": "اتساق تعني kavram."
+    },
+    {
+      "id": "b2-u9-09-q2",
+      "prompt": "ما ترجمة الجملة: «Metnin tutarlılığını artırmak için kavramları aynı anlamda kullanmalıyız.»؟",
+      "options": [
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "لزيادة اتساق النص ينبغي استخدام المفاهيم بالمعنى نفسه.|لزيادة اتساق النص ينبغي استخدام المفاهيم بالمعنى نفسه.",
+        "سأزور المكتبة غداً."
+      ],
+      "answerIndex": 2,
+      "explanation": "Metnin tutarlılığını artırmak için kavramları aynı anlamda kullanmalıyız. تعني لزيادة اتساق النص ينبغي استخدام المفاهيم بالمعنى نفسه.."
+    },
+    {
+      "id": "b2-u9-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile",
+        "مراجعة المصطلحات والترابط"
+      ],
+      "answerIndex": 3,
+      "explanation": "aynı anlamda."
+    },
+    {
+      "id": "b2-u9-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «مراجعة المصطلحات والترابط»؟",
+      "options": [
+        "بالمعنى نفسه",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "بالمعنى نفسه"
+    },
+    {
+      "id": "b2-u9-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "بالمعنى نفسه",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "بالمعنى نفسه"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 269
+  }
+}

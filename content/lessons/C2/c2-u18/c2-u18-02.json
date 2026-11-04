@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u18-02",
+  "level": "C2",
+  "unitId": "c2-u18",
+  "order": 2,
+  "title": {
+    "ar": "تفسير الادعاءات الإحصائية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب العام والتحقق من الأدلة",
+    "titleTr": "Kamu Söylemi ve Kanıt Doğrulama",
+    "description": "التحقق من المصادر والادعاءات الإحصائية وعدم اليقين والتأطير الإعلامي والتواصل المبني على الأدلة."
+  },
+  "contentStatus": "full",
+  "goal": "افحص حجم العينة والمقام والفترة الزمنية وطريقة القياس قبل قبول المقارنة الإحصائية.",
+  "rule": "افحص حجم العينة والمقام والفترة الزمنية وطريقة القياس قبل قبول المقارنة الإحصائية.",
+  "vocabulary": [
+    {
+      "term": "istatistiksel iddia",
+      "meaningAr": "ادعاء إحصائي",
+      "exampleTr": "Oranları karşılaştırmadan önce örneklem büyüklüklerini inceledik.",
+      "exampleAr": "فحصنا أحجام العينات قبل مقارنة النسب."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Oranları karşılaştırmadan önce örneklem büyüklüklerini inceledik.",
+      "ar": "فحصنا أحجام العينات قبل مقارنة النسب."
+    },
+    {
+      "tr": "Payda bilinmeden oran yanıltıcı olabilir.",
+      "ar": "قد تكون النسبة مضللة دون معرفة مقامها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Oran yüzde elli artmış.",
+      "ar": "ارتفعت النسبة خمسين بالمئة.\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Başlangıç değerini ve ölçüm dönemini de bilmeliyiz.",
+      "ar": "يجب أن نعرف القيمة الأولية وفترة القياس أيضاً."
+    }
+  ],
+  "speakingTask": "حلل خبراً يتضمن نسبة مئوية وحدد المعلومات اللازمة لفهمها.",
+  "questions": [
+    {
+      "id": "c2-u18-02-q1",
+      "prompt": "ما معنى «istatistiksel iddia»؟",
+      "options": [
+        "ادعاء إحصائي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«istatistiksel iddia» تعني: ادعاء إحصائي."
+    },
+    {
+      "id": "c2-u18-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "فحصنا أحجام العينات قبل مقارنة النسب.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "فحصنا أحجام العينات قبل مقارنة النسب."
+    },
+    {
+      "id": "c2-u18-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "payda",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «payda». افحص حجم العينة والمقام والفترة الزمنية وطريقة القياس قبل قبول المقارنة الإحصائية."
+    },
+    {
+      "id": "c2-u18-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "المقام الإحصائي"
+      ],
+      "answerIndex": 3,
+      "explanation": "المقام الإحصائي"
+    },
+    {
+      "id": "c2-u18-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "حلل خبراً يتضمن نسبة مئوية وحدد المعلومات اللازمة لفهمها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "حلل خبراً يتضمن نسبة مئوية وحدد المعلومات اللازمة لفهمها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u18",
+    "legacyGlobalNumber": 592
+  }
+}

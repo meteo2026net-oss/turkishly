@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-05",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 5,
+  "title": {
+    "ar": "الخطاب والحجاج البلاغي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأدب والفنون واللغة المتقدمة",
+    "titleTr": "Edebiyat, Sanat ve İleri Dil",
+    "description": "السرد والمجاز والنقد الأدبي والفنون والخطاب والتحرير والتعبيرات الاصطلاحية."
+  },
+  "contentStatus": "full",
+  "goal": "retorik",
+  "rule": "Etkili bir konuşma mantık, örnek ve uygun üslup gerektirir.",
+  "vocabulary": [
+    {
+      "term": "بلاغة",
+      "meaningAr": "hitabet",
+      "exampleTr": "Etkili bir konuşma mantık, örnek ve uygun üslup gerektirir.",
+      "exampleAr": "يتطلب الخطاب الفعال المنطق والأمثلة والأسلوب المناسب."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "gerektirmek",
+      "ar": ""
+    },
+    {
+      "tr": "Etkili bir konuşma mantık, örnek ve uygun üslup gerektirir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "يتطلب",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "التعبير عن المتطلبات",
+  "questions": [
+    {
+      "id": "b2-u12-05-q1",
+      "prompt": "ما معنى «بلاغة»؟",
+      "options": [
+        "تكرار آلي",
+        "تخمين",
+        "تعبير غير ملائم",
+        "خطابة"
+      ],
+      "answerIndex": 3,
+      "explanation": "بلاغة تعني hitabet."
+    },
+    {
+      "id": "b2-u12-05-q2",
+      "prompt": "ما ترجمة الجملة: «Etkili bir konuşma mantık, örnek ve uygun üslup gerektirir.»؟",
+      "options": [
+        "Etkili bir konuşma mantık, örnek ve uygun üslup gerektirir.|يتطلب الخطاب الفعال المنطق والأمثلة والأسلوب المناسب.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Etkili bir konuşma mantık, örnek ve uygun üslup gerektirir. تعني يتطلب الخطاب الفعال المنطق والأمثلة والأسلوب المناسب.."
+    },
+    {
+      "id": "b2-u12-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "ikna edici dil",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "لغة مقنعة."
+    },
+    {
+      "id": "b2-u12-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «ikna edici dil»؟",
+      "options": [
+        "وصف عادة",
+        "طلب الإذن",
+        "تحليل وسائل الإقناع",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحليل وسائل الإقناع"
+    },
+    {
+      "id": "b2-u12-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تحليل وسائل الإقناع",
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل وسائل الإقناع"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 295
+  }
+}

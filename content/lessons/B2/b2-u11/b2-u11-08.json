@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-08",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 8,
+  "title": {
+    "ar": "السياحة والاقتصاد المحلي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القضايا العالمية والاقتصاد والتقنية",
+    "titleTr": "Küresel Konular, Ekonomi ve Teknoloji",
+    "description": "المناخ والطاقة والتجارة والعمل والابتكار والأخلاق والمدن الذكية."
+  },
+  "contentStatus": "full",
+  "goal": "yerel",
+  "rule": "Yerel turizmi desteklemek küçük işletmelere katkı sağlayabilir.",
+  "vocabulary": [
+    {
+      "term": "محلي",
+      "meaningAr": "yerel ekonomi",
+      "exampleTr": "Yerel turizmi desteklemek küçük işletmelere katkı sağlayabilir.",
+      "exampleAr": "قد يدعم تشجيع السياحة المحلية المشروعات الصغيرة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "katkı sağlamak",
+      "ar": ""
+    },
+    {
+      "tr": "Yerel turizmi desteklemek küçük işletmelere katkı sağlayabilir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "يساهم في",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "بيان الأثر",
+  "questions": [
+    {
+      "id": "b2-u11-08-q1",
+      "prompt": "ما معنى «محلي»؟",
+      "options": [
+        "اقتصاد محلي",
+        "ميزانية شخصية",
+        "سوق افتراضي",
+        "تعبير غير ملائم"
+      ],
+      "answerIndex": 0,
+      "explanation": "محلي تعني yerel ekonomi."
+    },
+    {
+      "id": "b2-u11-08-q2",
+      "prompt": "ما ترجمة الجملة: «Yerel turizmi desteklemek küçük işletmelere katkı sağlayabilir.»؟",
+      "options": [
+        "لا تناسب هذه الجملة السياق.",
+        "Yerel turizmi desteklemek küçük işletmelere katkı sağlayabilir.|قد يدعم تشجيع السياحة المحلية المشروعات الصغيرة.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yerel turizmi desteklemek küçük işletmelere katkı sağlayabilir. تعني قد يدعم تشجيع السياحة المحلية المشروعات الصغيرة.."
+    },
+    {
+      "id": "b2-u11-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "yerel işletme",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "مشروع محلي."
+    },
+    {
+      "id": "b2-u11-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «yerel işletme»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "وصف أثر السياحة"
+      ],
+      "answerIndex": 3,
+      "explanation": "وصف أثر السياحة"
+    },
+    {
+      "id": "b2-u11-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "وصف أثر السياحة",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "وصف أثر السياحة"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 288
+  }
+}

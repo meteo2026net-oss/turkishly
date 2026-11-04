@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u5-05",
+  "level": "C1",
+  "unitId": "c1-u5",
+  "order": 5,
+  "title": {
+    "ar": "صياغة محاضر الاجتماعات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة الرسمية والمهنية",
+    "titleTr": "Resmî ve Mesleki Dil",
+    "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
+  },
+  "contentStatus": "full",
+  "goal": "تسجيل القرارات والإجراءات والمسؤولين والمواعيد.",
+  "rule": "استخدم أفعالاً دقيقة وميز القرار عن النقاش غير المحسوم.",
+  "vocabulary": [
+    {
+      "term": "tutanak",
+      "meaningAr": "محضر اجتماع",
+      "exampleTr": "Projenin ilk aşamasının 15 Mayıs'a kadar tamamlanmasına karar verildi.",
+      "exampleAr": "تقرر إكمال المرحلة الأولى بحلول 15 مايو."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Projenin ilk aşamasının 15 Mayıs'a kadar tamamlanmasına karar verildi.",
+      "ar": "تقرر إكمال المرحلة الأولى بحلول 15 مايو."
+    },
+    {
+      "tr": "Alınan kararları tutanağa geçirdim.",
+      "ar": "دوّنت القرارات في المحضر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Kim sorumlu belirlendi؟",
+      "ar": "من حُدد مسؤولاً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Uygulama ekibi ve koordinatör.",
+      "ar": "فريق التنفيذ والمنسق."
+    }
+  ],
+  "speakingTask": "حوّل ملاحظات اجتماع إلى محضر يتضمن أربعة قرارات.",
+  "questions": [
+    {
+      "id": "c1-u5-05-q1",
+      "prompt": "ما معنى «tutanak»؟",
+      "options": [
+        "طلب الإذن",
+        "محضر اجتماع",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«tutanak» تعني: محضر اجتماع."
+    },
+    {
+      "id": "c1-u5-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تقرر إكمال المرحلة الأولى بحلول 15 مايو.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تقرر إكمال المرحلة الأولى بحلول 15 مايو."
+    },
+    {
+      "id": "c1-u5-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karar ve eylem kaydı"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «karar ve eylem kaydı». استخدم أفعالاً دقيقة وميز القرار عن النقاش غير المحسوم."
+    },
+    {
+      "id": "c1-u5-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "توثيق القرار والإجراء والموعد والمسؤول.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "توثيق القرار والإجراء والموعد والمسؤول."
+    },
+    {
+      "id": "c1-u5-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حوّل ملاحظات اجتماع إلى محضر يتضمن أربعة قرارات.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حوّل ملاحظات اجتماع إلى محضر يتضمن أربعة قرارات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u5",
+    "legacyGlobalNumber": 345
+  }
+}

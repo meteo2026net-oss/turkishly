@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u6-08",
+  "level": "C1",
+  "unitId": "c1-u6",
+  "order": 8,
+  "title": {
+    "ar": "إعادة الصياغة حسب الجمهور",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البلاغة والأسلوب المتقدم",
+    "titleTr": "İleri Retorik ve Üslup",
+    "description": "المجاز والتوكيد والسجل اللغوي والفروق الدلالية والتحرير وتحليل النصوص."
+  },
+  "contentStatus": "full",
+  "goal": "تكييف التفاصيل والمصطلحات والحجج لجمهور متخصص أو عام.",
+  "rule": "حدد معرفة الجمهور وهدف النص واختر المصطلحات والأمثلة دون تشويه الدقة.",
+  "vocabulary": [
+    {
+      "term": "hedef kitle",
+      "meaningAr": "الجمهور المستهدف",
+      "exampleTr": "Teknik bulguları uzman olmayan okuyucular için sadeleştirdik.",
+      "exampleAr": "بسطنا النتائج التقنية للقراء غير المتخصصين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Teknik bulguları uzman olmayan okuyucular için sadeleştirdik.",
+      "ar": "بسطنا النتائج التقنية للقراء غير المتخصصين."
+    },
+    {
+      "tr": "Metni hedef kitlenin bilgisine göre uyarladım.",
+      "ar": "كيفت النص وفق معرفة الجمهور."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Terimleri neden açıkladın؟",
+      "ar": "لماذا شرحت المصطلحات؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Okuyucular konuya aşina olmayabilir.",
+      "ar": "قد لا يكون القراء مطلعين على الموضوع."
+    }
+  ],
+  "speakingTask": "اشرح نتيجة بحث للخبراء ثم للجمهور العام.",
+  "questions": [
+    {
+      "id": "c1-u6-08-q1",
+      "prompt": "ما معنى «hedef kitle»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "الجمهور المستهدف",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«hedef kitle» تعني: الجمهور المستهدف."
+    },
+    {
+      "id": "c1-u6-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "بسطنا النتائج التقنية للقراء غير المتخصصين."
+      ],
+      "answerIndex": 3,
+      "explanation": "بسطنا النتائج التقنية للقراء غير المتخصصين."
+    },
+    {
+      "id": "c1-u6-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "hedef kitleye uyarlama",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «hedef kitleye uyarlama». حدد معرفة الجمهور وهدف النص واختر المصطلحات والأمثلة دون تشويه الدقة."
+    },
+    {
+      "id": "c1-u6-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تكييف الرسالة وفق معرفة الجمهور.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تكييف الرسالة وفق معرفة الجمهور."
+    },
+    {
+      "id": "c1-u6-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اشرح نتيجة بحث للخبراء ثم للجمهور العام."
+      ],
+      "answerIndex": 3,
+      "explanation": "اشرح نتيجة بحث للخبراء ثم للجمهور العام."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u6",
+    "legacyGlobalNumber": 358
+  }
+}

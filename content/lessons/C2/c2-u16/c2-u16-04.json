@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u16-04",
+  "level": "C2",
+  "unitId": "c2-u16",
+  "order": 4,
+  "title": {
+    "ar": "تقديم مقترحات مشروطة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التفاوض متعدد الأطراف والوساطة المتقدمة",
+    "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
+    "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
+  },
+  "contentStatus": "full",
+  "goal": "اربط العرض بشرط واضح وقابل للتحقق، وبيّن المقابل المتوقع دون غموض أو تهديد.",
+  "rule": "اربط العرض بشرط واضح وقابل للتحقق، وبيّن المقابل المتوقع دون غموض أو تهديد.",
+  "vocabulary": [
+    {
+      "term": "koşullu teklif",
+      "meaningAr": "عرض مشروط",
+      "exampleTr": "Bu süreyi kabul edebiliriz; karşılığında raporlama sıklığı artırılmalıdır.",
+      "exampleAr": "يمكننا قبول هذه المدة؛ على أن تزداد وتيرة التقارير في المقابل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu süreyi kabul edebiliriz; karşılığında raporlama sıklığı artırılmalıdır.",
+      "ar": "يمكننا قبول هذه المدة؛ على أن تزداد وتيرة التقارير في المقابل."
+    },
+    {
+      "tr": "Koşul ve karşılık aynı açıklıkta ifade edilmelidir.",
+      "ar": "يجب التعبير عن الشرط والمقابل بالوضوح نفسه."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Teslim tarihini uzatabilir misiniz?",
+      "ar": "هل يمكنكم تمديد موعد التسليم؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, ancak ara raporlar haftalık sunulursa.",
+      "ar": "نعم، إذا قُدمت تقارير مرحلية أسبوعية."
+    }
+  ],
+  "speakingTask": "اكتب ثلاثة عروض مشروطة وحدد شرط كل عرض ومقابله.",
+  "questions": [
+    {
+      "id": "c2-u16-04-q1",
+      "prompt": "ما معنى «koşullu teklif»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "عرض مشروط",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«koşullu teklif» تعني: عرض مشروط."
+    },
+    {
+      "id": "c2-u16-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يمكننا قبول هذه المدة؛ على أن تزداد وتيرة التقارير في المقابل."
+      ],
+      "answerIndex": 3,
+      "explanation": "يمكننا قبول هذه المدة؛ على أن تزداد وتيرة التقارير في المقابل."
+    },
+    {
+      "id": "c2-u16-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "karşılıklı koşul",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «karşılıklı koşul». اربط العرض بشرط واضح وقابل للتحقق، وبيّن المقابل المتوقع دون غموض أو تهديد."
+    },
+    {
+      "id": "c2-u16-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "شرط متبادل",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "شرط متبادل"
+    },
+    {
+      "id": "c2-u16-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب ثلاثة عروض مشروطة وحدد شرط كل عرض ومقابله."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب ثلاثة عروض مشروطة وحدد شرط كل عرض ومقابله."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u16",
+    "legacyGlobalNumber": 574
+  }
+}

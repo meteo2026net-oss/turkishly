@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-5",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a1-u15-05",
+      "order": 5,
+      "titleAr": "طلب مقاس أو لون وتجربة الملابس",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "طلب مقاس أو لون مختلف وتجربة الملابس في المتجر.",
+  "rule": "عبارات مهمة: Başka beden var mı؟ (هل يوجد مقاس آخر؟)، Daha büyük beden istiyorum (أريد مقاساً أكبر)، Başka renk var mı؟ (هل يوجد لون آخر؟)، Deneyebilir miyim؟ (هل يمكنني تجربته؟)، Bana küçük geldi (جاء صغيراً عليّ). كلمة denemek تعني التجربة أو القياس.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Başka beden var mı?",
+      "ar": "هل يوجد مقاس آخر؟"
+    },
+    {
+      "tr": "Daha büyük beden istiyorum.",
+      "ar": "أريد مقاساً أكبر."
+    },
+    {
+      "tr": "Başka renk var mı?",
+      "ar": "هل يوجد لون آخر؟"
+    },
+    {
+      "tr": "Deneyebilir miyim?",
+      "ar": "هل يمكنني تجربته؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-5-q1",
+      "prompt": "ما معنى Deneyebilir miyim؟",
+      "options": [
+        "كم سعره؟",
+        "هل يمكنني تجربته؟",
+        "أين المتجر؟",
+        "هل يوجد لون أزرق؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "Deneyebilir miyim؟ تعني هل يمكنني تجربته؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 5
+  }
+}

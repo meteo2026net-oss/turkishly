@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u2-10",
+  "level": "B1",
+  "unitId": "b1-u2",
+  "order": 10,
+  "title": {
+    "ar": "مراجعة الاحتمال والافتراض والروابط",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "التمييز بين الاحتمال والاستنتاج والشرط الافتراضي والتنازل والمقارنة.",
+  "rule": "belki/-abilir للاحتمال، -malı للاستنتاج أو الوجوب حسب السياق، -seydi للشرط الافتراضي الماضي، rağmen للتنازل، وgibi/kadar/daha للمقارنة.",
+  "vocabulary": [
+    {
+      "term": "olmasına rağmen",
+      "meaningAr": "على الرغم من كونه",
+      "exampleTr": "Hasta olmasına rağmen toplantıya katıldı.",
+      "exampleAr": "شارك في الاجتماع رغم أنه مريض."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Belki geç kalabilir.",
+      "ar": "ربما يتأخر."
+    },
+    {
+      "tr": "Daha dikkatli olmalıydım.",
+      "ar": "كان ينبغي أن أكون أكثر انتباهاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sonuç ne olabilir?",
+      "ar": "ماذا قد تكون النتيجة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Belki başarılı oluruz; yeterince çalışmalıyız.",
+      "ar": "ربما ننجح؛ علينا أن ندرس بما يكفي."
+    }
+  ],
+  "speakingTask": "اكتب فقرة تجمع احتمالاً واستنتاجاً وشرطاً افتراضياً وتنازلاً.",
+  "questions": [
+    {
+      "id": "b1-u2-10-q1",
+      "prompt": "ما معنى «olmasına rağmen»؟",
+      "options": [
+        "على الرغم من كونه",
+        "لأنه يكون",
+        "لكي يكون",
+        "بعد أن يكون"
+      ],
+      "answerIndex": 0,
+      "explanation": "olmasına rağmen تعني على الرغم من كونه."
+    },
+    {
+      "id": "b1-u2-10-q2",
+      "prompt": "ما ترجمة الجملة: «Hasta olmasına rağmen toplantıya katıldı.»؟",
+      "options": [
+        "شارك لكي يمرض.",
+        "شارك في الاجتماع رغم أنه مريض.",
+        "شارك في الاجتماع لأنه مريض.",
+        "شارك بعد أن مرض."
+      ],
+      "answerIndex": 1,
+      "explanation": "Hasta olmasına rağmen toplantıya katıldı. تعني شارك في الاجتماع رغم أنه مريض.."
+    },
+    {
+      "id": "b1-u2-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "Param olmalı",
+        "Param olduğu için",
+        "Param olsaydı",
+        "Param var"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقديم شرط افتراضي ماضٍ."
+    },
+    {
+      "id": "b1-u2-10-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «Param olsaydı»؟",
+      "options": [
+        "ملكية حاضرة",
+        "استنتاج",
+        "سبب مباشر",
+        "شرط افتراضي غير متحقق"
+      ],
+      "answerIndex": 3,
+      "explanation": "اختيار الأداة التي تعبر عن العلاقة المنطقية الصحيحة."
+    },
+    {
+      "id": "b1-u2-10-q5",
+      "prompt": "أكمل التركيب: Hasta olmasına rağmen toplantıya katıldı.",
+      "options": [
+        "Param olduğu için",
+        "Param olsaydı",
+        "Param var",
+        "Param olmalı"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي Param olsaydı؛ تقديم شرط افتراضي ماضٍ."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u2",
+    "legacyGlobalNumber": 140
+  }
+}

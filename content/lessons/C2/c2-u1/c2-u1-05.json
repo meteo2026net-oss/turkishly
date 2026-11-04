@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u1-05",
+  "level": "C2",
+  "unitId": "c2-u1",
+  "order": 5,
+  "title": {
+    "ar": "التحليل النقدي للمصادر الأولية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل النقدي والخطاب المعقد",
+    "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
+    "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
+  },
+  "contentStatus": "full",
+  "goal": "تقييم الوثائق الأصلية وشروط إنتاجها ومصالح أصحابها.",
+  "rule": "حدد منشئ الوثيقة وجمهورها وزمنها والغرض منها وما لا تستطيع إثباته.",
+  "vocabulary": [
+    {
+      "term": "birincil kaynak",
+      "meaningAr": "مصدر أولي",
+      "exampleTr": "Belgenin üretildiği koşullar yorumumuzu doğrudan etkiliyor.",
+      "exampleAr": "تؤثر ظروف إنتاج الوثيقة مباشرة في تفسيرنا لها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Belgenin üretildiği koşullar yorumumuzu doğrudan etkiliyor.",
+      "ar": "تؤثر ظروف إنتاج الوثيقة مباشرة في تفسيرنا لها."
+    },
+    {
+      "tr": "Belgeyi üretildiği bağlam içinde değerlendirdim.",
+      "ar": "قيّمت الوثيقة ضمن سياق إنتاجها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Belge tek başına yeterli mi؟",
+      "ar": "هل الوثيقة وحدها كافية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Başka kaynaklarla karşılaştırılması gerekir.",
+      "ar": "يجب مقارنتها بمصادر أخرى."
+    }
+  ],
+  "speakingTask": "حلل وثيقة أصلية وحدد سياقها وغرضها وحدودها.",
+  "questions": [
+    {
+      "id": "c2-u1-05-q1",
+      "prompt": "ما معنى «birincil kaynak»؟",
+      "options": [
+        "طلب الإذن",
+        "مصدر أولي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«birincil kaynak» تعني: مصدر أولي."
+    },
+    {
+      "id": "c2-u1-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تؤثر ظروف إنتاج الوثيقة مباشرة في تفسيرنا لها.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تؤثر ظروف إنتاج الوثيقة مباشرة في تفسيرنا لها."
+    },
+    {
+      "id": "c2-u1-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kaynak bağlamı"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «kaynak bağlamı». حدد منشئ الوثيقة وجمهورها وزمنها والغرض منها وما لا تستطيع إثباته."
+    },
+    {
+      "id": "c2-u1-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحليل المصدر الأولي ضمن سياقه التاريخي والمؤسسي.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل المصدر الأولي ضمن سياقه التاريخي والمؤسسي."
+    },
+    {
+      "id": "c2-u1-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل وثيقة أصلية وحدد سياقها وغرضها وحدودها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل وثيقة أصلية وحدد سياقها وغرضها وحدودها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u1",
+    "legacyGlobalNumber": 425
+  }
+}

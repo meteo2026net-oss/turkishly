@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-8",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u4-08",
+      "order": 8,
+      "titleAr": "محادثة عن الروتين والعادات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "إجراء محادثة عن الروتين والعادات.",
+  "rule": "A: Ne sıklıkla yürüyüş yaparsın? (كم مرة تتمشى؟) B: Her akşam yürüyüş yaparım (أتمشى كل مساء). A: Nerede yürüyüş yaparsın? (أين تتمشى؟) B: Genellikle parkta, bazen sahilde (عادةً في الحديقة، وأحياناً على الشاطئ).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ne sıklıkla?",
+      "ar": "كم مرة؟"
+    },
+    {
+      "tr": "her akşam",
+      "ar": "كل مساء"
+    },
+    {
+      "tr": "genellikle",
+      "ar": "عادةً"
+    },
+    {
+      "tr": "bazen",
+      "ar": "أحياناً"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-8-q1",
+      "prompt": "كيف تقول «كل مساء»؟",
+      "options": [
+        "her sabah",
+        "her akşam",
+        "her hafta",
+        "her gece"
+      ],
+      "answerIndex": 1,
+      "explanation": "her akşam تعني كل مساء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 8
+  }
+}

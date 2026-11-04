@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-7",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a2-u3-07",
+      "order": 7,
+      "titleAr": "المقارنة بين المدن والأماكن والمنتجات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "المقارنة بين المدن والأماكن والمنتجات.",
+  "rule": "تُستخدم المقارنة عند الاختيار: Bu otel diğer otelden daha ucuz (هذا الفندق أرخص من الفندق الآخر)، Ankara İstanbul'dan daha sakin olabilir (قد تكون أنقرة أهدأ من إسطنبول). انتبه إلى أن المقارنة تصف الصفة ولا تعني دائماً حكماً مطلقاً.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "daha ucuz",
+      "ar": "أرخص"
+    },
+    {
+      "tr": "daha pahalı",
+      "ar": "أغلى"
+    },
+    {
+      "tr": "daha kalabalık",
+      "ar": "أكثر ازدحاماً"
+    },
+    {
+      "tr": "Bu telefon daha hafif.",
+      "ar": "هذا الهاتف أخف."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-7-q1",
+      "prompt": "ما معنى daha ucuz؟",
+      "options": [
+        "أغلى",
+        "أرخص",
+        "أكبر",
+        "أبطأ"
+      ],
+      "answerIndex": 1,
+      "explanation": "daha ucuz تعني أرخص."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 7
+  }
+}

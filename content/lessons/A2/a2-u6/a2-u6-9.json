@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u6-9",
+  "level": "A2",
+  "unitId": "a2-u6",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u6-09",
+      "order": 9,
+      "titleAr": "مراجعة الضرورة والوجوب والنصيحة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضرورة والوجوب والنصيحة",
+    "titleTr": "Gereklilik ve Tavsiye",
+    "description": "التعبير عن الواجب والضرورة والنصيحة وعدم الحاجة، والسؤال عما ينبغي فعله والحديث عن القواعد والالتزامات."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الضرورة والوجوب والنصيحة.",
+  "rule": "راجع الفروق: -malı/-meli للوجوب أو النصيحة، gerek/lazım للتعبير عن الضرورة، -mamalı/-memeli للنهي أو النصيحة بعدم الفعل، وgerek yok لعدم الحاجة. اختر الصيغة المناسبة بحسب المعنى والسياق.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "gitmeliyim",
+      "ar": "يجب أن أذهب"
+    },
+    {
+      "tr": "gitmemeliyim",
+      "ar": "ينبغي ألا أذهب"
+    },
+    {
+      "tr": "gitmeme gerek yok",
+      "ar": "لا داعي لأن أذهب"
+    },
+    {
+      "tr": "Ne yapmalıyım?",
+      "ar": "ماذا ينبغي أن أفعل؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u6-9-q1",
+      "prompt": "أي جملة تعني «لا ينبغي أن تتحدث»؟",
+      "options": [
+        "Konuşmalısın.",
+        "Konuşabilirsin.",
+        "Konuşmamalısın.",
+        "Konuşuyorsun."
+      ],
+      "answerIndex": 2,
+      "explanation": "Konuşmamalısın تعني ينبغي ألا تتحدث."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u6",
+    "legacyLessonOrder": 9
+  }
+}

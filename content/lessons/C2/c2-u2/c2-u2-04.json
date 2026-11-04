@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u2-04",
+  "level": "C2",
+  "unitId": "c2-u2",
+  "order": 4,
+  "title": {
+    "ar": "الكتابة بأسلوب مقتصد وعميق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحرير والترجمة والنشر المتقدم",
+    "titleTr": "İleri Editörlük, Çeviri ve Yayın",
+    "description": "الدقة الدلالية والترجمة المفاهيمية والثقافية والتحرير والكتابة للنشر."
+  },
+  "contentStatus": "full",
+  "goal": "إنتاج نص مكثف يحافظ على الحجة والدقة دون حشو.",
+  "rule": "احذف التكرار مع إبقاء الروابط المنطقية والقيود التي تغير معنى الادعاء.",
+  "vocabulary": [
+    {
+      "term": "yoğun anlatım",
+      "meaningAr": "أسلوب مكثف",
+      "exampleTr": "Kısa bir paragrafta karmaşık ilişkiyi açık biçimde ortaya koydu.",
+      "exampleAr": "عرض العلاقة المعقدة بوضوح في فقرة قصيرة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kısa bir paragrafta karmaşık ilişkiyi açık biçimde ortaya koydu.",
+      "ar": "عرض العلاقة المعقدة بوضوح في فقرة قصيرة."
+    },
+    {
+      "tr": "Metni kısaltırken anlam katmanlarını korudum.",
+      "ar": "حافظت على طبقات المعنى أثناء الاختصار."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Daha kısa yazmak yeterli mi؟",
+      "ar": "هل يكفي أن نكتب أقصر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, temel ayrımları da korumalıyız.",
+      "ar": "لا، يجب الحفاظ على الفروق الأساسية أيضاً."
+    }
+  ],
+  "speakingTask": "اختصر تحليلاً طويلاً إلى 150 كلمة مع الحفاظ على نقاطه المنطقية.",
+  "questions": [
+    {
+      "id": "c2-u2-04-q1",
+      "prompt": "ما معنى «yoğun anlatım»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "أسلوب مكثف",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«yoğun anlatım» تعني: أسلوب مكثف."
+    },
+    {
+      "id": "c2-u2-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "عرض العلاقة المعقدة بوضوح في فقرة قصيرة."
+      ],
+      "answerIndex": 3,
+      "explanation": "عرض العلاقة المعقدة بوضوح في فقرة قصيرة."
+    },
+    {
+      "id": "c2-u2-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "dilsel ekonomi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «dilsel ekonomi». احذف التكرار مع إبقاء الروابط المنطقية والقيود التي تغير معنى الادعاء."
+    },
+    {
+      "id": "c2-u2-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "اختصار العبارة دون فقدان الدقة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "اختصار العبارة دون فقدان الدقة."
+    },
+    {
+      "id": "c2-u2-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اختصر تحليلاً طويلاً إلى 150 كلمة مع الحفاظ على نقاطه المنطقية."
+      ],
+      "answerIndex": 3,
+      "explanation": "اختصر تحليلاً طويلاً إلى 150 كلمة مع الحفاظ على نقاطه المنطقية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u2",
+    "legacyGlobalNumber": 434
+  }
+}

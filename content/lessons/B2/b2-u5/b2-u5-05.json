@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u5-05",
+  "level": "B2",
+  "unitId": "b2-u5",
+  "order": 5,
+  "title": {
+    "ar": "البحث عن المعلومات والتحقق منها",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التعليم والتعلم والبحث",
+    "titleTr": "Eğitim, Öğrenme ve Araştırma",
+    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+  },
+  "contentStatus": "full",
+  "goal": "تقييم موثوقية المعلومات الرقمية.",
+  "rule": "Bilgiyi paylaşmadan önce kaynağını doğrulamak gerekir.",
+  "vocabulary": [
+    {
+      "term": "doğrulamak",
+      "meaningAr": "يتحقق من صحة",
+      "exampleTr": "ينبغي التحقق من مصدر المعلومة قبل مشاركتها.",
+      "exampleAr": "يتحقق من صحة"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "التشبيه",
+      "ar": ""
+    },
+    {
+      "tr": "Birden fazla kaynağı karşılaştırın.",
+      "ar": "قارن أكثر من مصدر واحد."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Tarih ve yazar bilgilerini kontrol edin.|تحقق من التاريخ وبيانات الكاتب.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu haber doğru mu? — هل هذا الخبر صحيح؟\nB: Önce güvenilir kaynaklardan doğrulayalım. — لنتحقق أولاً من مصادر موثوقة.",
+  "questions": [
+    {
+      "id": "b2-u5-05-q1",
+      "prompt": "ما معنى «doğrulamak»؟",
+      "options": [
+        "يحذف",
+        "kaynağı doğrulamak|يتحقق من المصدر",
+        "ينسخ",
+        "يخمن"
+      ],
+      "answerIndex": 1,
+      "explanation": "doğrulamak تعني يتحقق من صحة."
+    },
+    {
+      "id": "b2-u5-05-q2",
+      "prompt": "ما ترجمة الجملة: «ينبغي التحقق من مصدر المعلومة قبل مشاركتها.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "ينبغي التحقق من مصدر المعلومة قبل مشاركتها.|يتحقق من صحة",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "ينبغي التحقق من مصدر المعلومة قبل مشاركتها. تعني يتحقق من صحة."
+    },
+    {
+      "id": "b2-u5-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "التحقق قبل النشر",
+        "النتيجة",
+        "الشرط",
+        "يخفي"
+      ],
+      "answerIndex": 3,
+      "explanation": "-madan önce."
+    },
+    {
+      "id": "b2-u5-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يخفي»؟",
+      "options": [
+        "قبل أن",
+        "التحقق قبل النشر",
+        "النتيجة",
+        "الشرط"
+      ],
+      "answerIndex": 0,
+      "explanation": "قبل أن"
+    },
+    {
+      "id": "b2-u5-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النتيجة",
+        "الشرط",
+        "قبل أن",
+        "التحقق قبل النشر"
+      ],
+      "answerIndex": 2,
+      "explanation": "قبل أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u5",
+    "legacyGlobalNumber": 225
+  }
+}

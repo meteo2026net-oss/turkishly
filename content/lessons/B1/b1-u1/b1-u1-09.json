@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u1-09",
+  "level": "B1",
+  "unitId": "b1-u1",
+  "order": 9,
+  "title": {
+    "ar": "التعبير عن «حتى» باستخدام -ene kadar",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "تحديد نهاية زمنية أو حدّ يستمر الفعل إليه.",
+  "rule": "نستخدم -ene/-ana kadar بمعنى حتى: gelene kadar = حتى يأتي، bitene kadar = حتى ينتهي. تتغير الصيغة وفق انسجام الحركات.",
+  "vocabulary": [
+    {
+      "term": "gelene kadar",
+      "meaningAr": "حتى يأتي",
+      "exampleTr": "Sen gelene kadar burada bekleyeceğim.",
+      "exampleAr": "سأنتظر هنا حتى تأتي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Film bitene kadar kaldık.",
+      "ar": "بقينا حتى انتهى الفيلم."
+    },
+    {
+      "tr": "Akşama kadar çalışacağım.",
+      "ar": "سأعمل حتى المساء."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ne kadar bekleyeceğiz?",
+      "ar": "كم سننتظر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Otobüs gelene kadar.",
+      "ar": "حتى تأتي الحافلة."
+    }
+  ],
+  "speakingTask": "تحدث عن شيء ستفعله حتى وقت محدد مستخدماً kadar.",
+  "questions": [
+    {
+      "id": "b1-u1-09-q1",
+      "prompt": "ما معنى «gelene kadar»؟",
+      "options": [
+        "لأنه يأتي",
+        "حتى يأتي",
+        "بعد أن يأتي",
+        "قبل أن يأتي"
+      ],
+      "answerIndex": 1,
+      "explanation": "gelene kadar تعني حتى يأتي."
+    },
+    {
+      "id": "b1-u1-09-q2",
+      "prompt": "ما ترجمة الجملة: «Sen gelene kadar burada bekleyeceğim.»؟",
+      "options": [
+        "سأذهب قبل أن تأتي.",
+        "سأنتظر لأنك أتيت.",
+        "سأنتظر هنا حتى تأتي.",
+        "سأنتظر بعد أن تأتي."
+      ],
+      "answerIndex": 2,
+      "explanation": "Sen gelene kadar burada bekleyeceğim. تعني سأنتظر هنا حتى تأتي.."
+    },
+    {
+      "id": "b1-u1-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "geldikten sonra",
+        "gelmeden önce",
+        "geldiği için",
+        "gelene kadar"
+      ],
+      "answerIndex": 3,
+      "explanation": "حتى وقوع الحدث أو بلوغ الحد."
+    },
+    {
+      "id": "b1-u1-09-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «gelene kadar»؟",
+      "options": [
+        "تحديد نهاية زمنية",
+        "تحديد بداية زمنية",
+        "ذكر السبب",
+        "ذكر الغاية"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحديد نهاية الفترة الزمنية أو الحدث."
+    },
+    {
+      "id": "b1-u1-09-q5",
+      "prompt": "أكمل التركيب: Sen gelene kadar burada bekleyeceğim.",
+      "options": [
+        "gelmeden önce",
+        "geldiği için",
+        "gelene kadar",
+        "geldikten sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي gelene kadar؛ حتى وقوع الحدث أو بلوغ الحد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u1",
+    "legacyGlobalNumber": 129
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-3",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a2-u8-03",
+      "order": 3,
+      "titleAr": "تركيب الإضافة بين المالك والمملوك",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "تركيب الإضافة بين المالك والمملوك.",
+  "rule": "عندما نذكر المالك بالاسم نضيف إليه لاحقة الإضافة -ın/-in/-un/-ün أو -nın/-nin/-nun/-nün، ثم نضيف لاحقة الشخص الثالث إلى الشيء المملوك: Ali'nin arabası، öğretmenin kitabı. مثال آخر: annemin telefonu.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ali'nin arabası",
+      "ar": "سيارة علي."
+    },
+    {
+      "tr": "Öğretmenin kitabı",
+      "ar": "كتاب المعلم."
+    },
+    {
+      "tr": "Annemin telefonu",
+      "ar": "هاتف أمي."
+    },
+    {
+      "tr": "Evin kapısı",
+      "ar": "باب المنزل."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-3-q1",
+      "prompt": "أكمل: Ayşe___ çantası (حقيبة عائشة).",
+      "options": [
+        "'nin",
+        "'ye",
+        "'de",
+        "'den"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ayşe'nin çantası: لاحقة الإضافة -nin ثم لاحقة الملكية على çanta."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 3
+  }
+}

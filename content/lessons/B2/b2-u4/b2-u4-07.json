@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u4-07",
+  "level": "B2",
+  "unitId": "b2-u4",
+  "order": 7,
+  "title": {
+    "ar": "التغذية الراجعة البنّاءة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المشاريع والقيادة المهنية",
+    "titleTr": "Proje Yönetimi ve Mesleki Liderlik",
+    "description": "تخطيط المشاريع وتوزيع المسؤوليات وإدارة المخاطر والعمل مع العملاء."
+  },
+  "contentStatus": "full",
+  "goal": "تقديم ملاحظات محددة ومحترمة وقابلة للتنفيذ.",
+  "rule": "Geri bildirimin açık, somut ve yapıcı olması gerekir.",
+  "vocabulary": [
+    {
+      "term": "yapıcı",
+      "meaningAr": "بنّاء",
+      "exampleTr": "ينبغي أن تكون التغذية الراجعة واضحة وملموسة وبنّاءة.",
+      "exampleAr": "بنّاء"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "شرط",
+      "ar": ""
+    },
+    {
+      "tr": "Güçlü yönlerinizi ve gelişim alanlarınızı belirttim.",
+      "ar": "حددت نقاط قوتكم ومجالات التطوير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Önerinizi dikkate alacağım.|سآخذ اقتراحك في الاعتبار.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Sunumum nasıldı? — كيف كان عرضي؟\nB: Açık ve düzenliydi; örnekleri artırabilirsin. — كان واضحاً ومنظماً؛ يمكنك زيادة الأمثلة.",
+  "questions": [
+    {
+      "id": "b2-u4-07-q1",
+      "prompt": "ما معنى «yapıcı»؟",
+      "options": [
+        "تهديد",
+        "yapıcı geri bildirim|تغذية راجعة بناءة",
+        "انتقاد جارح",
+        "تجاهل"
+      ],
+      "answerIndex": 1,
+      "explanation": "yapıcı تعني بنّاء."
+    },
+    {
+      "id": "b2-u4-07-q2",
+      "prompt": "ما ترجمة الجملة: «ينبغي أن تكون التغذية الراجعة واضحة وملموسة وبنّاءة.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "ينبغي أن تكون التغذية الراجعة واضحة وملموسة وبنّاءة.|بنّاء",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "ينبغي أن تكون التغذية الراجعة واضحة وملموسة وبنّاءة. تعني بنّاء."
+    },
+    {
+      "id": "b2-u4-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تحسين الأداء باحترام",
+        "إصدار أمر",
+        "نفي",
+        "مجاملة فارغة"
+      ],
+      "answerIndex": 3,
+      "explanation": "sıfat + isim."
+    },
+    {
+      "id": "b2-u4-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «مجاملة فارغة»؟",
+      "options": [
+        "صفة واسم",
+        "تحسين الأداء باحترام",
+        "إصدار أمر",
+        "نفي"
+      ],
+      "answerIndex": 0,
+      "explanation": "صفة واسم"
+    },
+    {
+      "id": "b2-u4-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "إصدار أمر",
+        "نفي",
+        "صفة واسم",
+        "تحسين الأداء باحترام"
+      ],
+      "answerIndex": 2,
+      "explanation": "صفة واسم"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u4",
+    "legacyGlobalNumber": 217
+  }
+}

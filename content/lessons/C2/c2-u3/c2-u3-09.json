@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-09",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 9,
+  "title": {
+    "ar": "مشروع تواصل مؤسسي متقدم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "تنفيذ سيناريو يدمج التفاوض والسياسة والإحاطة والوساطة.",
+  "rule": "حدد أصحاب المصلحة والرسائل والقرارات ومؤشرات النجاح، ثم قيّم الاتساق.",
+  "vocabulary": [
+    {
+      "term": "stratejik iletişim projesi",
+      "meaningAr": "مشروع تواصل استراتيجي",
+      "exampleTr": "Farklı paydaşlara yönelik mesajları ortak bir stratejiyle uyumlu hâle getirdik.",
+      "exampleAr": "وحدنا الرسائل الموجهة للأطراف المختلفة ضمن استراتيجية مشتركة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Farklı paydaşlara yönelik mesajları ortak bir stratejiyle uyumlu hâle getirdik.",
+      "ar": "وحدنا الرسائل الموجهة للأطراف المختلفة ضمن استراتيجية مشتركة."
+    },
+    {
+      "tr": "İletişim planını sonuçlarla birlikte değerlendirdim.",
+      "ar": "قيّمت خطة التواصل مع النتائج."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her paydaş aynı mesajı mı almalı؟",
+      "ar": "هل يتلقى كل طرف الرسالة نفسها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Temel ilke aynı, ayrıntılar ihtiyaca göre değişir.",
+      "ar": "المبدأ واحد والتفاصيل تختلف حسب الحاجة."
+    }
+  ],
+  "speakingTask": "نفذ محاكاة مشروع مؤسسي مع وثائق واجتماع وتقييم نهائي.",
+  "questions": [
+    {
+      "id": "c2-u3-09-q1",
+      "prompt": "ما معنى «stratejik iletişim projesi»؟",
+      "options": [
+        "طلب الإذن",
+        "مشروع تواصل استراتيجي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«stratejik iletişim projesi» تعني: مشروع تواصل استراتيجي."
+    },
+    {
+      "id": "c2-u3-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "وحدنا الرسائل الموجهة للأطراف المختلفة ضمن استراتيجية مشتركة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "وحدنا الرسائل الموجهة للأطراف المختلفة ضمن استراتيجية مشتركة."
+    },
+    {
+      "id": "c2-u3-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "iletişim stratejisi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «iletişim stratejisi». حدد أصحاب المصلحة والرسائل والقرارات ومؤشرات النجاح، ثم قيّم الاتساق."
+    },
+    {
+      "id": "c2-u3-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تنسيق الرسائل والقرارات عبر الأطراف.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تنسيق الرسائل والقرارات عبر الأطراف."
+    },
+    {
+      "id": "c2-u3-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "نفذ محاكاة مشروع مؤسسي مع وثائق واجتماع وتقييم نهائي.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "نفذ محاكاة مشروع مؤسسي مع وثائق واجتماع وتقييم نهائي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyGlobalNumber": 449
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u9-06",
+  "level": "C1",
+  "unitId": "c1-u9",
+  "order": 6,
+  "title": {
+    "ar": "المشاركة في مناظرة أكاديمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الإتقان والتقييم المتكامل لمستوى C1",
+    "titleTr": "C1 Yetkinliği ve Bütünleşik Değerlendirme",
+    "description": "الكتابة الحجاجية والعروض والأسئلة الصعبة والمناظرة والتحرير وملف الإنجاز."
+  },
+  "contentStatus": "full",
+  "goal": "عرض موقف والدفاع عنه والاستجابة للحجج المقابلة.",
+  "rule": "استمع إلى الحجة كاملة، ولخصها بإنصاف، ثم رد على أقوى نقطة لا على أضعف صياغة.",
+  "vocabulary": [
+    {
+      "term": "akademik münazara",
+      "meaningAr": "مناظرة أكاديمية",
+      "exampleTr": "Karşı tarafın temel savını özetleyip kanıtlarına yanıt verdim.",
+      "exampleAr": "لخصت الحجة الأساسية للطرف المقابل ورددت على أدلته."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karşı tarafın temel savını özetleyip kanıtlarına yanıt verdim.",
+      "ar": "لخصت الحجة الأساسية للطرف المقابل ورددت على أدلته."
+    },
+    {
+      "tr": "Tartışmada kişilere değil iddialara odaklandım.",
+      "ar": "ركزت في النقاش على الادعاءات لا الأشخاص."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Karşı tarafın görüşünü doğru aktardın mı؟",
+      "ar": "هل نقلت رأي الطرف الآخر بدقة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce özetledim, sonra itirazımı sundum.",
+      "ar": "لخصته أولاً ثم قدمت اعتراضي."
+    }
+  ],
+  "speakingTask": "شارك في مناظرة وسجل الحجة الأقوى للطرف الآخر وردك عليها.",
+  "questions": [
+    {
+      "id": "c1-u9-06-q1",
+      "prompt": "ما معنى «akademik münazara»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مناظرة أكاديمية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«akademik münazara» تعني: مناظرة أكاديمية."
+    },
+    {
+      "id": "c1-u9-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "لخصت الحجة الأساسية للطرف المقابل ورددت على أدلته."
+      ],
+      "answerIndex": 3,
+      "explanation": "لخصت الحجة الأساسية للطرف المقابل ورددت على أدلته."
+    },
+    {
+      "id": "c1-u9-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "kanıta dayalı tartışma",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «kanıta dayalı tartışma». استمع إلى الحجة كاملة، ولخصها بإنصاف، ثم رد على أقوى نقطة لا على أضعف صياغة."
+    },
+    {
+      "id": "c1-u9-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إدارة مناظرة تقوم على الأدلة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إدارة مناظرة تقوم على الأدلة."
+    },
+    {
+      "id": "c1-u9-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "شارك في مناظرة وسجل الحجة الأقوى للطرف الآخر وردك عليها."
+      ],
+      "answerIndex": 3,
+      "explanation": "شارك في مناظرة وسجل الحجة الأقوى للطرف الآخر وردك عليها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u9",
+    "legacyGlobalNumber": 386
+  }
+}

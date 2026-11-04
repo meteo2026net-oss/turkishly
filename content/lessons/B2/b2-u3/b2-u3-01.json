@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u3-01",
+  "level": "B2",
+  "unitId": "b2-u3",
+  "order": 1,
+  "title": {
+    "ar": "كتابة البريد الرسمي المتقدم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
+    "titleTr": "İleri Akademik ve Mesleki İletişim",
+    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "كتابة رسالة رسمية واضحة ذات هدف وبنية مناسبة.",
+  "rule": "ابدأ بمخاطبة مناسبة Sayın ...، اذكر الغرض من الرسالة، قدم التفاصيل والطلب، ثم اختم بـ Gereğini bilgilerinize arz ederim أو Saygılarımla بحسب السياق.",
+  "vocabulary": [
+    {
+      "term": "arz ederim",
+      "meaningAr": "أرفع إليكم / أرجو التفضل",
+      "exampleTr": "Başvuruma ilişkin değerlendirmenin tarafıma bildirilmesini arz ederim.",
+      "exampleAr": "أرجو إبلاغي بنتيجة تقييم طلبي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تعجب",
+      "ar": ""
+    },
+    {
+      "tr": "Bilgilerinize sunarım.",
+      "ar": "أضع ذلك بين أيديكم للعلم."
+    },
+    {
+      "tr": "İlginiz için teşekkür eder, iyi çalışmalar dilerim.",
+      "ar": "أشكركم على اهتمامكم وأتمنى لكم التوفيق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Başvurunuzla ilgili başka bir talebiniz var mı?",
+      "ar": "هل لديكم طلب آخر بخصوص طلبكم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Sonucun e-posta yoluyla bildirilmesini arz ederim.",
+      "ar": "أرجو إبلاغي بالنتيجة عبر البريد الإلكتروني."
+    }
+  ],
+  "speakingTask": "اكتب رسالة رسمية من 120–150 كلمة تطلب فيها معلومات عن برنامج تدريبي.",
+  "questions": [
+    {
+      "id": "b2-u3-01-q1",
+      "prompt": "ما معنى «arz ederim»؟",
+      "options": [
+        "يشير إلى شرط افتراضي",
+        "أرفع إليكم / أرجو التفضل",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن"
+      ],
+      "answerIndex": 1,
+      "explanation": "arz ederim تعني أرفع إليكم / أرجو التفضل."
+    },
+    {
+      "id": "b2-u3-01-q2",
+      "prompt": "ما ترجمة الجملة: «Başvuruma ilişkin değerlendirmenin tarafıma bildirilmesini arz ederim.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "أرجو إبلاغي بنتيجة تقييم طلبي.",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "Başvuruma ilişkin değerlendirmenin tarafıma bildirilmesini arz ederim. تعني أرجو إبلاغي بنتيجة تقييم طلبي.."
+    },
+    {
+      "id": "b2-u3-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "resmî yazışma",
+        "samimi mesaj",
+        "günlük konuşma",
+        "Sayın + amaç + ayrıntı + talep + kapanış"
+      ],
+      "answerIndex": 3,
+      "explanation": "بنية الرسالة الرسمية."
+    },
+    {
+      "id": "b2-u3-01-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «Sayın + amaç + ayrıntı + talep + kapanış»؟",
+      "options": [
+        "صياغة مراسلات مؤسسية مهذبة ومحددة.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "صياغة مراسلات مؤسسية مهذبة ومحددة."
+    },
+    {
+      "id": "b2-u3-01-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "صياغة مراسلات مؤسسية مهذبة ومحددة.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "صياغة مراسلات مؤسسية مهذبة ومحددة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u3",
+    "legacyGlobalNumber": 201
+  }
+}

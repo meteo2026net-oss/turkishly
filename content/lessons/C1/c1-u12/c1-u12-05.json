@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u12-05",
+  "level": "C1",
+  "unitId": "c1-u12",
+  "order": 5,
+  "title": {
+    "ar": "تقديم إحاطة تنفيذية مختصرة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الاستراتيجي والمشروع الختامي",
+    "titleTr": "Stratejik İletişim ve Bitirme Projesi",
+    "description": "التوصيات الاستراتيجية والتواصل في الأزمات وأصحاب المصلحة والقيادة والتقييم النهائي."
+  },
+  "contentStatus": "full",
+  "goal": "عرض قرار أو وضع معقد في دقائق مع إبراز المطلوب من الإدارة.",
+  "rule": "ابدأ بالخلاصة والقرار المطلوب، ثم ثلاثة أدلة ومخاطر وخطوة تالية.",
+  "vocabulary": [
+    {
+      "term": "yönetici bilgilendirmesi",
+      "meaningAr": "إحاطة إدارية",
+      "exampleTr": "Yönetim için temel bulguları ve karar seçeneklerini özetledim.",
+      "exampleAr": "لخصت النتائج الأساسية وخيارات القرار للإدارة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yönetim için temel bulguları ve karar seçeneklerini özetledim.",
+      "ar": "لخصت النتائج الأساسية وخيارات القرار للإدارة."
+    },
+    {
+      "tr": "Yönetici sunumunda ayrıntı yerine karara odaklandım.",
+      "ar": "ركزت في العرض الإداري على القرار بدلاً من التفاصيل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ayrıntılı raporu okuyalım mı؟",
+      "ar": "هل نقرأ التقرير التفصيلي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce karar özetini sunalım.",
+      "ar": "لنقدم ملخص القرار أولاً."
+    }
+  ],
+  "speakingTask": "قدم إحاطة من ثلاث دقائق تنتهي بطلب قرار محدد.",
+  "questions": [
+    {
+      "id": "c1-u12-05-q1",
+      "prompt": "ما معنى «yönetici bilgilendirmesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "إحاطة إدارية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«yönetici bilgilendirmesi» تعني: إحاطة إدارية."
+    },
+    {
+      "id": "c1-u12-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لخصت النتائج الأساسية وخيارات القرار للإدارة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "لخصت النتائج الأساسية وخيارات القرار للإدارة."
+    },
+    {
+      "id": "c1-u12-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "kısa yönetici sunumu",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «kısa yönetici sunumu». ابدأ بالخلاصة والقرار المطلوب، ثم ثلاثة أدلة ومخاطر وخطوة تالية."
+    },
+    {
+      "id": "c1-u12-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تقديم إحاطة مركزة لصانع القرار.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقديم إحاطة مركزة لصانع القرار."
+    },
+    {
+      "id": "c1-u12-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "قدم إحاطة من ثلاث دقائق تنتهي بطلب قرار محدد.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "قدم إحاطة من ثلاث دقائق تنتهي بطلب قرار محدد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u12",
+    "legacyGlobalNumber": 415
+  }
+}

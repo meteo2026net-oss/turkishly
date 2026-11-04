@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u5-04",
+  "level": "B2",
+  "unitId": "b2-u5",
+  "order": 4,
+  "title": {
+    "ar": "التعلم المستقل وتقييم التقدم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التعليم والتعلم والبحث",
+    "titleTr": "Eğitim, Öğrenme ve Araştırma",
+    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+  },
+  "contentStatus": "full",
+  "goal": "وضع أهداف ذاتية وقياس التقدم.",
+  "rule": "Kendi öğrenme sürecinizi düzenli olarak değerlendirmeniz önemlidir.",
+  "vocabulary": [
+    {
+      "term": "öz değerlendirme",
+      "meaningAr": "تقييم ذاتي",
+      "exampleTr": "من المهم أن تقيّم عملية تعلمك بانتظام.",
+      "exampleAr": "تقييم ذاتي"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الملكية",
+      "ar": ""
+    },
+    {
+      "tr": "Hedeflerimi her ay gözden geçiriyorum.",
+      "ar": "أراجع أهدافي كل شهر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Eksiklerimi belirleyip yeni bir plan hazırladım.|حددت نقاط النقص وأعددت خطة جديدة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: İlerlemeni nasıl ölçüyorsun? — كيف تقيس تقدمك؟\nB: Deneme sonuçları ve günlük tekrarlarla. — بنتائج الاختبارات والمراجعة اليومية.",
+  "questions": [
+    {
+      "id": "b2-u5-04-q1",
+      "prompt": "ما معنى «öz değerlendirme»؟",
+      "options": [
+        "öz değerlendirme yapmak|يجري تقييماً ذاتياً",
+        "تقليد",
+        "تأجيل",
+        "تخمين"
+      ],
+      "answerIndex": 0,
+      "explanation": "öz değerlendirme تعني تقييم ذاتي."
+    },
+    {
+      "id": "b2-u5-04-q2",
+      "prompt": "ما ترجمة الجملة: «من المهم أن تقيّم عملية تعلمك بانتظام.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "من المهم أن تقيّم عملية تعلمك بانتظام.|تقييم ذاتي",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "من المهم أن تقيّم عملية تعلمك بانتظام. تعني تقييم ذاتي."
+    },
+    {
+      "id": "b2-u5-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "النداء",
+        "المكان",
+        "إهمال",
+        "التقييم الذاتي"
+      ],
+      "answerIndex": 2,
+      "explanation": "-meniz önemlidir."
+    },
+    {
+      "id": "b2-u5-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «إهمال»؟",
+      "options": [
+        "التقييم الذاتي",
+        "النداء",
+        "المكان",
+        "من المهم أن"
+      ],
+      "answerIndex": 3,
+      "explanation": "من المهم أن"
+    },
+    {
+      "id": "b2-u5-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "المكان",
+        "من المهم أن",
+        "التقييم الذاتي",
+        "النداء"
+      ],
+      "answerIndex": 1,
+      "explanation": "من المهم أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u5",
+    "legacyGlobalNumber": 224
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u7-01",
+  "level": "C1",
+  "unitId": "c1-u7",
+  "order": 1,
+  "title": {
+    "ar": "صياغة أسئلة البحث الدقيقة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "منهجية البحث والحجاج المتقدم",
+    "titleTr": "İleri Araştırma ve Argümantasyon",
+    "description": "صياغة أسئلة البحث وتقييم المصادر والحدود والأدلة والاعتراضات وعرض النتائج."
+  },
+  "contentStatus": "full",
+  "goal": "تحويل موضوع واسع إلى سؤال بحث محدد قابل للتحقق.",
+  "rule": "ينبغي أن يحدد سؤال البحث المتغيرات والنطاق والفئة والسياق دون افتراض النتيجة مسبقاً.",
+  "vocabulary": [
+    {
+      "term": "araştırma sorusu",
+      "meaningAr": "سؤال بحث",
+      "exampleTr": "Bu araştırma, uzaktan çalışmanın ekip verimliliğini nasıl etkilediğini inceliyor.",
+      "exampleAr": "يدرس هذا البحث كيف يؤثر العمل عن بعد في إنتاجية الفريق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu araştırma, uzaktan çalışmanın ekip verimliliğini nasıl etkilediğini inceliyor.",
+      "ar": "يدرس هذا البحث كيف يؤثر العمل عن بعد في إنتاجية الفريق."
+    },
+    {
+      "tr": "Araştırma sorusunu açık ve ölçülebilir biçimde yazdım.",
+      "ar": "صغت سؤال البحث بوضوح وقابلية للقياس."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Konu çok geniş değil mi؟",
+      "ar": "أليس الموضوع واسعاً جداً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Soruyu belirli bir dönem ve örneklemle sınırlandırdım.",
+      "ar": "حددت السؤال بفترة وعينة."
+    }
+  ],
+  "speakingTask": "اكتب ثلاثة أسئلة بحث ثم اختر الأكثر قابلية للإجابة بالأدلة.",
+  "questions": [
+    {
+      "id": "c1-u7-01-q1",
+      "prompt": "ما معنى «araştırma sorusu»؟",
+      "options": [
+        "طلب الإذن",
+        "سؤال بحث",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«araştırma sorusu» تعني: سؤال بحث."
+    },
+    {
+      "id": "c1-u7-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يدرس هذا البحث كيف يؤثر العمل عن بعد في إنتاجية الفريق.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "يدرس هذا البحث كيف يؤثر العمل عن بعد في إنتاجية الفريق."
+    },
+    {
+      "id": "c1-u7-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "araştırma sorusunu sınırlandırmak"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «araştırma sorusunu sınırlandırmak». ينبغي أن يحدد سؤال البحث المتغيرات والنطاق والفئة والسياق دون افتراض النتيجة مسبقاً."
+    },
+    {
+      "id": "c1-u7-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد نطاق السؤال البحثي بدقة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحديد نطاق السؤال البحثي بدقة."
+    },
+    {
+      "id": "c1-u7-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب ثلاثة أسئلة بحث ثم اختر الأكثر قابلية للإجابة بالأدلة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب ثلاثة أسئلة بحث ثم اختر الأكثر قابلية للإجابة بالأدلة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u7",
+    "legacyGlobalNumber": 361
+  }
+}

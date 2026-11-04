@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u16-4",
+  "level": "A1",
+  "unitId": "a1-u16",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u16-04",
+      "order": 4,
+      "titleAr": "الطبيب والعيادة والمستشفى",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم والحالة العامة والأعراض الشائعة ومفردات العيادة والصيدلية وطلب المواعيد والمساعدة."
+  },
+  "contentStatus": "full",
+  "goal": "الطبيب والعيادة والمستشفى باللغة التركية.",
+  "rule": "أماكن وأشخاص: doktor طبيب، hemşire ممرض/ممرضة، hastane مستشفى، klinik عيادة، hasta مريض، muayene فحص طبي، randevu موعد، acil طوارئ. عبارات: Doktor nerede؟ (أين الطبيب؟)، Hastane nerede؟ (أين المستشفى؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "doktor",
+      "ar": "طبيب"
+    },
+    {
+      "tr": "hemşire",
+      "ar": "ممرض/ممرضة"
+    },
+    {
+      "tr": "hastane",
+      "ar": "مستشفى"
+    },
+    {
+      "tr": "klinik",
+      "ar": "عيادة"
+    },
+    {
+      "tr": "randevu",
+      "ar": "موعد"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u16-4-q1",
+      "prompt": "ما معنى hemşire؟",
+      "options": [
+        "صيدلية",
+        "ممرض أو ممرضة",
+        "مريض",
+        "موعد"
+      ],
+      "answerIndex": 1,
+      "explanation": "hemşire تعني ممرضاً أو ممرضة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u16",
+    "legacyLessonOrder": 4
+  }
+}

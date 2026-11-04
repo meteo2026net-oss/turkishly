@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-08",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 8,
+  "title": {
+    "ar": "التنوع الأسلوبي والسجل اللغوي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأدب والفنون واللغة المتقدمة",
+    "titleTr": "Edebiyat, Sanat ve İleri Dil",
+    "description": "السرد والمجاز والنقد الأدبي والفنون والخطاب والتحرير والتعبيرات الاصطلاحية."
+  },
+  "contentStatus": "full",
+  "goal": "üslup",
+  "rule": "Resmî ve samimi dil arasındaki farkı bağlama göre seçmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "أسلوب",
+      "meaningAr": "dil düzeyi",
+      "exampleTr": "Resmî ve samimi dil arasındaki farkı bağlama göre seçmeliyiz.",
+      "exampleAr": "ينبغي اختيار الفرق بين اللغة الرسمية والودية وفق السياق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "bağlama göre",
+      "ar": ""
+    },
+    {
+      "tr": "Resmî ve samimi dil arasındaki farkı bağlama göre seçmeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "بحسب السياق",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "اختيار أسلوب مناسب",
+  "questions": [
+    {
+      "id": "b2-u12-08-q1",
+      "prompt": "ما معنى «أسلوب»؟",
+      "options": [
+        "لهجة فقط",
+        "تعبير غير ملائم",
+        "مستوى اللغة",
+        "عدد"
+      ],
+      "answerIndex": 2,
+      "explanation": "أسلوب تعني dil düzeyi."
+    },
+    {
+      "id": "b2-u12-08-q2",
+      "prompt": "ما ترجمة الجملة: «Resmî ve samimi dil arasındaki farkı bağlama göre seçmeliyiz.»؟",
+      "options": [
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Resmî ve samimi dil arasındaki farkı bağlama göre seçmeliyiz.|ينبغي اختيار الفرق بين اللغة الرسمية والودية وفق السياق."
+      ],
+      "answerIndex": 3,
+      "explanation": "Resmî ve samimi dil arasındaki farkı bağlama göre seçmeliyiz. تعني ينبغي اختيار الفرق بين اللغة الرسمية والودية وفق السياق.."
+    },
+    {
+      "id": "b2-u12-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "resmî üslup",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "أسلوب رسمي."
+    },
+    {
+      "id": "b2-u12-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «resmî üslup»؟",
+      "options": [
+        "طلب الإذن",
+        "تكييف اللغة للموقف",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "تكييف اللغة للموقف"
+    },
+    {
+      "id": "b2-u12-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "تكييف اللغة للموقف"
+      ],
+      "answerIndex": 3,
+      "explanation": "تكييف اللغة للموقف"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 298
+  }
+}

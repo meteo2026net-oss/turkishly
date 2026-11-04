@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-6",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u18-06",
+      "order": 6,
+      "titleAr": "تحديد المكان والزمان للنشاط",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "full",
+  "goal": "تحديد المكان والزمان لممارسة نشاط.",
+  "rule": "أماكن الأنشطة: park حديقة، spor salonu نادٍ رياضي، sinema سينما، kütüphane مكتبة، yüzme havuzu مسبح، sahil شاطئ. أمثلة: Parkta buluşalım (لنلتقِ في الحديقة)، Saat altıda sinemada olacağım (سأكون في السينما الساعة السادسة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "park",
+      "ar": "حديقة"
+    },
+    {
+      "tr": "spor salonu",
+      "ar": "نادٍ رياضي"
+    },
+    {
+      "tr": "sinema",
+      "ar": "سينما"
+    },
+    {
+      "tr": "kütüphane",
+      "ar": "مكتبة"
+    },
+    {
+      "tr": "yüzme havuzu",
+      "ar": "مسبح"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u18-6-q1",
+      "prompt": "ما معنى kütüphane؟",
+      "options": [
+        "مكتبة",
+        "مسبح",
+        "حديقة",
+        "سينما"
+      ],
+      "answerIndex": 0,
+      "explanation": "kütüphane تعني مكتبة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 6
+  }
+}

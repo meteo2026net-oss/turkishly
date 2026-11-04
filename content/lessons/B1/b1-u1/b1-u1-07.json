@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u1-07",
+  "level": "B1",
+  "unitId": "b1-u1",
+  "order": 7,
+  "title": {
+    "ar": "التعبير عن «بعد أن» باستخدام -DIktan sonra",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "ترتيب حدثين وبيان أن أحدهما وقع بعد الآخر.",
+  "rule": "نضيف -DIK إلى الفعل ثم لاحقة الابتعاد -tan/-ten، وبعدها sonra: geldikten sonra = بعد أن جاء، bitirdikten sonra = بعد أن أنهى. انتبه إلى التغير الصوتي d/t.",
+  "vocabulary": [
+    {
+      "term": "bitirdikten sonra",
+      "meaningAr": "بعد أن أنهيت",
+      "exampleTr": "Ödevimi bitirdikten sonra dinlendim.",
+      "exampleAr": "استرحت بعد أن أنهيت واجبي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Eve geldikten sonra yemek yedim.",
+      "ar": "أكلت بعد أن وصلت إلى المنزل."
+    },
+    {
+      "tr": "Ders çalıştıktan sonra dışarı çıktık.",
+      "ar": "خرجنا بعد الدراسة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Ne zaman arayayım?",
+      "ar": "متى أتصل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Toplantı bittikten sonra ara.",
+      "ar": "اتصل بعد انتهاء الاجتماع."
+    }
+  ],
+  "speakingTask": "رتّب ثلاث خطوات من يومك باستخدام -DIktan sonra.",
+  "questions": [
+    {
+      "id": "b1-u1-07-q1",
+      "prompt": "ما معنى «bitirdikten sonra»؟",
+      "options": [
+        "قبل أن أنهي",
+        "لكي أنهي",
+        "لأنني أنهيت",
+        "بعد أن أنهيت"
+      ],
+      "answerIndex": 3,
+      "explanation": "bitirdikten sonra تعني بعد أن أنهيت."
+    },
+    {
+      "id": "b1-u1-07-q2",
+      "prompt": "ما ترجمة الجملة: «Ödevimi bitirdikten sonra dinlendim.»؟",
+      "options": [
+        "استرحت بعد أن أنهيت واجبي.",
+        "استرحت قبل أن أبدأ واجبي.",
+        "استرحت لكي أنهي واجبي.",
+        "لم أسترح بسبب الواجب."
+      ],
+      "answerIndex": 0,
+      "explanation": "Ödevimi bitirdikten sonra dinlendim. تعني استرحت بعد أن أنهيت واجبي.."
+    },
+    {
+      "id": "b1-u1-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "bitirdiğim için",
+        "bitirdikten sonra",
+        "bitirmeden önce",
+        "bitirmek için"
+      ],
+      "answerIndex": 1,
+      "explanation": "بعد إتمام الفعل الأول يبدأ الفعل الثاني."
+    },
+    {
+      "id": "b1-u1-07-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «bitirdikten sonra»؟",
+      "options": [
+        "ذكر غاية الفعل",
+        "التعبير عن التزامن",
+        "ترتيب حدث بعد حدث",
+        "ذكر سبب الحدث"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحديد أن الحدث الثاني يأتي زمنياً بعد الأول."
+    },
+    {
+      "id": "b1-u1-07-q5",
+      "prompt": "أكمل التركيب: Ödevimi bitirdikten sonra dinlendim.",
+      "options": [
+        "bitirdikten sonra",
+        "bitirmeden önce",
+        "bitirmek için",
+        "bitirdiğim için"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي bitirdikten sonra؛ بعد إتمام الفعل الأول يبدأ الفعل الثاني."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u1",
+    "legacyGlobalNumber": 127
+  }
+}

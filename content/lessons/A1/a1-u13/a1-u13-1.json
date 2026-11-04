@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u13-1",
+  "level": "A1",
+  "unitId": "a1-u13",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u13-01",
+      "order": 1,
+      "titleAr": "غرف المنزل وأجزاؤه",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والأثاث والحياة اليومية",
+    "titleTr": "Ev, Mobilyalar ve Günlük Yaşam",
+    "description": "غرف المنزل والأثاث وأدوات المطبخ ووصف المكان وتحديد مواقع الأشياء والأعمال المنزلية."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء غرف المنزل وأجزائه باللغة التركية.",
+  "rule": "كلمة ev تعني منزل. من الغرف: oda غرفة، oturma odası غرفة الجلوس، yatak odası غرفة النوم، mutfak مطبخ، banyo حمّام، salon صالة، balkon شرفة، bahçe حديقة، koridor ممر. للسؤال عن مكان شيء قل Nerede؟ (أين؟)، ولوصف المنزل قل Evim büyük (منزلي كبير).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "ev",
+      "ar": "منزل"
+    },
+    {
+      "tr": "oda",
+      "ar": "غرفة"
+    },
+    {
+      "tr": "mutfak",
+      "ar": "مطبخ"
+    },
+    {
+      "tr": "banyo",
+      "ar": "حمّام"
+    },
+    {
+      "tr": "balkon",
+      "ar": "شرفة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u13-1-q1",
+      "prompt": "ما معنى mutfak؟",
+      "options": [
+        "غرفة النوم",
+        "مطبخ",
+        "شرفة",
+        "حديقة"
+      ],
+      "answerIndex": 1,
+      "explanation": "mutfak تعني مطبخ."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u13",
+    "legacyLessonOrder": 1
+  }
+}

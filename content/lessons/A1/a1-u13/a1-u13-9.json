@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u13-9",
+  "level": "A1",
+  "unitId": "a1-u13",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u13-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والأثاث والحياة اليومية",
+    "titleTr": "Ev, Mobilyalar ve Günlük Yaşam",
+    "description": "غرف المنزل والأثاث وأدوات المطبخ ووصف المكان وتحديد مواقع الأشياء والأعمال المنزلية."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة غرف المنزل والأثاث والأدوات والمواقع والأعمال المنزلية.",
+  "rule": "راجع أسماء خمس غرف وخمس قطع أثاث، ثم صف منزلاً باستخدام صفتين على الأقل. اكتب ثلاث جمل تحدد فيها مكان الأشياء مستخدماً üstünde وaltında وyanında، وجملتين عن الأعمال المنزلية. اختم بوصف منزلك أو غرفة تتخيلها.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Ev büyük ve temiz.",
+      "ar": "المنزل كبير ونظيف."
+    },
+    {
+      "tr": "Kitap masanın üstünde.",
+      "ar": "الكتاب على الطاولة."
+    },
+    {
+      "tr": "Her gün odamı topluyorum.",
+      "ar": "أرتب غرفتي كل يوم."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u13-9-q1",
+      "prompt": "اختر العبارة التي تعني «الكتاب تحت الطاولة».",
+      "options": [
+        "Kitap masanın üstünde.",
+        "Kitap masanın altında.",
+        "Kitap odada.",
+        "Kitap masanın yanında."
+      ],
+      "answerIndex": 1,
+      "explanation": "altında تعني تحت، لذا Kitap masanın altında تعني الكتاب تحت الطاولة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u13",
+    "legacyLessonOrder": 9
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u11-02",
+  "level": "C2",
+  "unitId": "c2-u11",
+  "order": 2,
+  "title": {
+    "ar": "اختيار المنهج وأدوات جمع البيانات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث اللغوي والمنهجية الأكاديمية",
+    "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
+    "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
+  },
+  "contentStatus": "full",
+  "goal": "اختيار أدوات تتناسب مع سؤال البحث ونوع البيانات.",
+  "rule": "وازن بين المقابلة والاستبانة والمدونة النصية والملاحظة، وناقش تحيز كل أداة.",
+  "vocabulary": [
+    {
+      "term": "veri toplama aracı",
+      "meaningAr": "أداة جمع البيانات",
+      "exampleTr": "Araştırma sorusuna uygun veri toplama araçlarını karşılaştırdık.",
+      "exampleAr": "قارنّا أدوات جمع البيانات المناسبة لسؤال البحث."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Araştırma sorusuna uygun veri toplama araçlarını karşılaştırdık.",
+      "ar": "قارنّا أدوات جمع البيانات المناسبة لسؤال البحث."
+    },
+    {
+      "tr": "Yöntemi araştırma sorusuyla uyumlu seçtim.",
+      "ar": "اخترت المنهج بما يتوافق مع سؤال البحث."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her araştırmada anket kullanılır mı؟",
+      "ar": "هل تستخدم الاستبانة في كل بحث؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Araştırma sorusuna göre araç değişir.",
+      "ar": "تتغير الأداة وفق سؤال البحث."
+    }
+  ],
+  "speakingTask": "اختر منهجاً لدراسة استخدام صيغة لغوية وبرر اختيارك.",
+  "questions": [
+    {
+      "id": "c2-u11-02-q1",
+      "prompt": "ما معنى «veri toplama aracı»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "أداة جمع البيانات",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«veri toplama aracı» تعني: أداة جمع البيانات."
+    },
+    {
+      "id": "c2-u11-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قارنّا أدوات جمع البيانات المناسبة لسؤال البحث."
+      ],
+      "answerIndex": 3,
+      "explanation": "قارنّا أدوات جمع البيانات المناسبة لسؤال البحث."
+    },
+    {
+      "id": "c2-u11-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yöntem seçimi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «yöntem seçimi». وازن بين المقابلة والاستبانة والمدونة النصية والملاحظة، وناقش تحيز كل أداة."
+    },
+    {
+      "id": "c2-u11-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "مواءمة المنهج مع سؤال الدراسة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "مواءمة المنهج مع سؤال الدراسة."
+    },
+    {
+      "id": "c2-u11-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اختر منهجاً لدراسة استخدام صيغة لغوية وبرر اختيارك."
+      ],
+      "answerIndex": 3,
+      "explanation": "اختر منهجاً لدراسة استخدام صيغة لغوية وبرر اختيارك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u11",
+    "legacyGlobalNumber": 522
+  }
+}

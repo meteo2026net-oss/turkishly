@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u8-09",
+  "level": "C2",
+  "unitId": "c2-u8",
+  "order": 9,
+  "title": {
+    "ar": "مشروع الترجمة المتخصصة والنشر",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة والتحرير متعدد الطبقات",
+    "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
+    "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "إنتاج نص مترجم محرر وجاهز للنشر مع توثيق قراراته.",
+  "rule": "اجمع المسرد والتحرير والمراجعة والتنسيق ومذكرة القرارات في حزمة واحدة.",
+  "vocabulary": [
+    {
+      "term": "uzman çeviri projesi",
+      "meaningAr": "مشروع ترجمة متخصص",
+      "exampleTr": "Çeviriyi editörlük ve terim denetiminden geçirerek yayına hazırladık.",
+      "exampleAr": "جهزنا الترجمة للنشر بعد التحرير ومراجعة المصطلحات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çeviriyi editörlük ve terim denetiminden geçirerek yayına hazırladık.",
+      "ar": "جهزنا الترجمة للنشر بعد التحرير ومراجعة المصطلحات."
+    },
+    {
+      "tr": "Çeviri projesini kalite raporuyla tamamladım.",
+      "ar": "أكملت مشروع الترجمة بتقرير جودة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Son aşamada neyi kontrol ettin؟",
+      "ar": "ما الذي راجعته في المرحلة الأخيرة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Terimler, kaynak sadakati ve hedef metnin akıcılığı.",
+      "ar": "المصطلحات وأمانة الأصل وسلاسة النص الهدف."
+    }
+  ],
+  "speakingTask": "أنجز ترجمة طويلة مع مسرد ومذكرة تحرير وتقرير جودة.",
+  "questions": [
+    {
+      "id": "c2-u8-09-q1",
+      "prompt": "ما معنى «uzman çeviri projesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مشروع ترجمة متخصص"
+      ],
+      "answerIndex": 3,
+      "explanation": "«uzman çeviri projesi» تعني: مشروع ترجمة متخصص."
+    },
+    {
+      "id": "c2-u8-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "جهزنا الترجمة للنشر بعد التحرير ومراجعة المصطلحات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "جهزنا الترجمة للنشر بعد التحرير ومراجعة المصطلحات."
+    },
+    {
+      "id": "c2-u8-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "yayına hazır çeviri",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «yayına hazır çeviri». اجمع المسرد والتحرير والمراجعة والتنسيق ومذكرة القرارات في حزمة واحدة."
+    },
+    {
+      "id": "c2-u8-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تقديم ترجمة متخصصة جاهزة للنشر.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقديم ترجمة متخصصة جاهزة للنشر."
+    },
+    {
+      "id": "c2-u8-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "أنجز ترجمة طويلة مع مسرد ومذكرة تحرير وتقرير جودة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أنجز ترجمة طويلة مع مسرد ومذكرة تحرير وتقرير جودة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u8",
+    "legacyGlobalNumber": 499
+  }
+}

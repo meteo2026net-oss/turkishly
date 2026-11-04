@@ -1,0 +1,104 @@
+name: Validate Sara Turkii
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Validate web app manifest
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest_path = Path("web/manifest.json")
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          required = ("name", "short_name", "start_url", "scope", "display", "icons")
+          missing = [key for key in required if not manifest.get(key)]
+          if missing:
+              raise SystemExit(f"Web manifest is missing required fields: {missing}")
+          for icon in manifest["icons"]:
+              icon_path = Path("web") / icon["src"]
+              if not icon_path.is_file():
+                  raise SystemExit(f"Manifest icon does not exist: {icon_path}")
+          if manifest.get("lang") != "ar" or manifest.get("dir") != "rtl":
+              raise SystemExit("Web manifest must declare Arabic RTL metadata")
+          print("Web manifest and referenced icons are valid.")
+          PY
+
+      - name: Analyze Dart and Flutter code
+        run: flutter analyze --no-fatal-infos
+
+      - name: Run automated tests
+        run: flutter test
+
+      - name: Build Flutter web
+        run: flutter build web --release --base-href /turkishly/
+
+      - name: Upload Flutter web release artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: turkishly-web-build
+          path: build/web/
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Generate Android project files for CI smoke build
+        run: flutter create --platforms=android .
+
+      - name: Build Android debug APK
+        run: flutter build apk --debug
+
+      - name: Upload Android debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: turkishly-android-debug
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 7
+
+  validate_ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Generate iOS project files for CI smoke build
+        run: flutter create --platforms=ios .
+
+      - name: Build iOS without code signing
+        run: flutter build ios --no-codesign

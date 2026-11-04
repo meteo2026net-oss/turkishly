@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-08",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 8,
+  "title": {
+    "ar": "إدارة النشر والمراجعة العلمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "التعامل مع تعليقات المحكمين وتعديل المخطوط بصورة موثقة.",
+  "rule": "صنف الملاحظات، وأجب عنها نقطة بنقطة، ووضح التعديلات أو أسباب عدم الأخذ بها.",
+  "vocabulary": [
+    {
+      "term": "hakem değerlendirmesi",
+      "meaningAr": "تقييم المحكمين",
+      "exampleTr": "Hakem yorumlarına madde madde yanıt verip değişiklikleri belgeledim.",
+      "exampleAr": "أجبت عن تعليقات المحكمين نقطة بنقطة ووثقت التعديلات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Hakem yorumlarına madde madde yanıt verip değişiklikleri belgeledim.",
+      "ar": "أجبت عن تعليقات المحكمين نقطة بنقطة ووثقت التعديلات."
+    },
+    {
+      "tr": "Revizyon sürecini şeffaf biçimde belgeledim.",
+      "ar": "وثقت عملية المراجعة بشفافية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her öneriyi kabul etmek zorunda mıyız؟",
+      "ar": "هل علينا قبول كل اقتراح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, gerekçeli yanıt vermek yeterli.",
+      "ar": "لا، يكفي تقديم رد مبرر."
+    }
+  ],
+  "speakingTask": "اكتب خطاب رد على أربعة تعليقات تحكيمية مع بيان التعديل.",
+  "questions": [
+    {
+      "id": "c2-u3-08-q1",
+      "prompt": "ما معنى «hakem değerlendirmesi»؟",
+      "options": [
+        "تقييم المحكمين",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«hakem değerlendirmesi» تعني: تقييم المحكمين."
+    },
+    {
+      "id": "c2-u3-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "أجبت عن تعليقات المحكمين نقطة بنقطة ووثقت التعديلات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "أجبت عن تعليقات المحكمين نقطة بنقطة ووثقت التعديلات."
+    },
+    {
+      "id": "c2-u3-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "revizyon mektubu",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «revizyon mektubu». صنف الملاحظات، وأجب عنها نقطة بنقطة، ووضح التعديلات أو أسباب عدم الأخذ بها."
+    },
+    {
+      "id": "c2-u3-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إعداد رد علمي على ملاحظات المراجعة."
+      ],
+      "answerIndex": 3,
+      "explanation": "إعداد رد علمي على ملاحظات المراجعة."
+    },
+    {
+      "id": "c2-u3-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "اكتب خطاب رد على أربعة تعليقات تحكيمية مع بيان التعديل.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "اكتب خطاب رد على أربعة تعليقات تحكيمية مع بيان التعديل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyGlobalNumber": 448
+  }
+}

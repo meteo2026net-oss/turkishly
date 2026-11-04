@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u17-01",
+  "level": "C2",
+  "unitId": "c2-u17",
+  "order": 1,
+  "title": {
+    "ar": "تحليل صوت الكاتب وأسلوبه",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الأدبية والتحليل الأسلوبي",
+    "titleTr": "Edebî Çeviri ve Üslup Çözümlemesi",
+    "description": "صوت الكاتب والسجل اللغوي والاستعارة والإيقاع والغموض والإحالات الثقافية والتحرير الأدبي."
+  },
+  "contentStatus": "full",
+  "goal": "حلل اختيار المفردات والإيقاع ووجهة النظر وبناء الجمل لتحديد السمات الأسلوبية للكاتب.",
+  "rule": "حلل اختيار المفردات والإيقاع ووجهة النظر وبناء الجمل لتحديد السمات الأسلوبية للكاتب.",
+  "vocabulary": [
+    {
+      "term": "yazarın sesi",
+      "meaningAr": "صوت الكاتب",
+      "exampleTr": "Yazarın sesini sözcük seçimi ve cümle ritmi belirginleştiriyor.",
+      "exampleAr": "يبرز صوت الكاتب من خلال اختيار الكلمات وإيقاع الجمل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yazarın sesini sözcük seçimi ve cümle ritmi belirginleştiriyor.",
+      "ar": "يبرز صوت الكاتب من خلال اختيار الكلمات وإيقاع الجمل."
+    },
+    {
+      "tr": "Üslup, tek tek sözcüklerden çok seçimlerin bütününde görülür.",
+      "ar": "يظهر الأسلوب في مجموع الاختيارات لا في الكلمات المفردة فقط."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Metnin tonu neden farklı?",
+      "ar": "لماذا تختلف نبرة النص؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kısa cümleler ve ölçülü sözcükler anlatıcı sesini kuruyor.",
+      "ar": "تبني الجمل القصيرة والكلمات المتزنة صوت الراوي."
+    }
+  ],
+  "speakingTask": "حلل فقرة وحدد خمس سمات أسلوبية مدعومة بأمثلة من النص.",
+  "questions": [
+    {
+      "id": "c2-u17-01-q1",
+      "prompt": "ما معنى «yazarın sesi»؟",
+      "options": [
+        "طلب الإذن",
+        "صوت الكاتب",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«yazarın sesi» تعني: صوت الكاتب."
+    },
+    {
+      "id": "c2-u17-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يبرز صوت الكاتب من خلال اختيار الكلمات وإيقاع الجمل.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "يبرز صوت الكاتب من خلال اختيار الكلمات وإيقاع الجمل."
+    },
+    {
+      "id": "c2-u17-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "üslup çözümlemesi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «üslup çözümlemesi». حلل اختيار المفردات والإيقاع ووجهة النظر وبناء الجمل لتحديد السمات الأسلوبية للكاتب."
+    },
+    {
+      "id": "c2-u17-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحليل الأسلوب",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل الأسلوب"
+    },
+    {
+      "id": "c2-u17-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل فقرة وحدد خمس سمات أسلوبية مدعومة بأمثلة من النص.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل فقرة وحدد خمس سمات أسلوبية مدعومة بأمثلة من النص."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u17",
+    "legacyGlobalNumber": 581
+  }
+}

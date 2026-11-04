@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u5-01",
+  "level": "C1",
+  "unitId": "c1-u5",
+  "order": 1,
+  "title": {
+    "ar": "صياغة المراسلات التنفيذية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة الرسمية والمهنية",
+    "titleTr": "Resmî ve Mesleki Dil",
+    "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
+  },
+  "contentStatus": "full",
+  "goal": "كتابة رسالة موجزة تعرض الخلفية والقرار المطلوب والإجراء.",
+  "rule": "ابدأ بالغرض ثم الخلفية الضرورية فالخيارات والتوصية والموعد.",
+  "vocabulary": [
+    {
+      "term": "arz etmek",
+      "meaningAr": "يعرض رسمياً",
+      "exampleTr": "Uygun görmeniz hâlinde öneriyi gelecek hafta uygulamaya alabiliriz.",
+      "exampleAr": "إذا رأيتم مناسباً يمكننا تنفيذ المقترح الأسبوع القادم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Uygun görmeniz hâlinde öneriyi gelecek hafta uygulamaya alabiliriz.",
+      "ar": "إذا رأيتم مناسباً يمكننا تنفيذ المقترح الأسبوع القادم."
+    },
+    {
+      "tr": "Yönetim kuruluna kısa bir bilgilendirme gönderdim.",
+      "ar": "أرسلت إحاطة قصيرة إلى مجلس الإدارة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Mesajın amacı açık mı؟",
+      "ar": "هل هدف الرسالة واضح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Karar talebi ilk paragrafta belirtiliyor.",
+      "ar": "طلب القرار في الفقرة الأولى."
+    }
+  ],
+  "speakingTask": "اكتب رسالة تنفيذية تطلب اعتماد إجراء محدد.",
+  "questions": [
+    {
+      "id": "c1-u5-01-q1",
+      "prompt": "ما معنى «arz etmek»؟",
+      "options": [
+        "طلب الإذن",
+        "يعرض رسمياً",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«arz etmek» تعني: يعرض رسمياً."
+    },
+    {
+      "id": "c1-u5-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "إذا رأيتم مناسباً يمكننا تنفيذ المقترح الأسبوع القادم.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "إذا رأيتم مناسباً يمكننا تنفيذ المقترح الأسبوع القادم."
+    },
+    {
+      "id": "c1-u5-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "resmî yazışma"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «resmî yazışma». ابدأ بالغرض ثم الخلفية الضرورية فالخيارات والتوصية والموعد."
+    },
+    {
+      "id": "c1-u5-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "عرض طلب أو توصية بأسلوب مهني.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "عرض طلب أو توصية بأسلوب مهني."
+    },
+    {
+      "id": "c1-u5-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب رسالة تنفيذية تطلب اعتماد إجراء محدد.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب رسالة تنفيذية تطلب اعتماد إجراء محدد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u5",
+    "legacyGlobalNumber": 341
+  }
+}

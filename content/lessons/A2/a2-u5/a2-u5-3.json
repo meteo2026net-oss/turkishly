@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u5-3",
+  "level": "A2",
+  "unitId": "a2-u5",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a2-u5-03",
+      "order": 3,
+      "titleAr": "التعبير عن عدم القدرة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القدرة والإمكانية والطلب بأدب",
+    "titleTr": "Yeterlilik, Olanak ve Rica",
+    "description": "التعبير عن القدرة وعدم الاستطاعة، والسؤال عن الإمكانية، وطلب الإذن والمساعدة بصيغ مهذبة في المواقف اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن عدم القدرة.",
+  "rule": "للنفي نستخدم غالباً -ama/-eme قبل علامة الزمن والضمير: yapamam لا أستطيع أن أفعل، gelemem لا أستطيع المجيء، konuşamam لا أستطيع التحدث. مثال: Bugün gelemem (لا أستطيع المجيء اليوم).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "yapamam",
+      "ar": "لا أستطيع أن أفعل"
+    },
+    {
+      "tr": "gelemem",
+      "ar": "لا أستطيع المجيء"
+    },
+    {
+      "tr": "konuşamam",
+      "ar": "لا أستطيع التحدث"
+    },
+    {
+      "tr": "Bugün çalışamam.",
+      "ar": "لا أستطيع العمل اليوم."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u5-3-q1",
+      "prompt": "ما معنى gelemem؟",
+      "options": [
+        "أستطيع المجيء",
+        "لا أستطيع المجيء",
+        "أريد المجيء",
+        "جئت أمس"
+      ],
+      "answerIndex": 1,
+      "explanation": "gelemem تعني لا أستطيع المجيء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u5",
+    "legacyLessonOrder": 3
+  }
+}

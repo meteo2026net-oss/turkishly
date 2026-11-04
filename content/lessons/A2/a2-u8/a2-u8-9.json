@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-9",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a2-u8-09",
+      "order": 9,
+      "titleAr": "مراجعة الملكية والأسرة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الملكية والأسرة.",
+  "rule": "راجع ضمائر الملكية: benim، senin، onun، bizim، sizin، onların. تذكر اللواحق: kitabım، evin، arabası، odamız. في تركيب الإضافة نقول Ali'nin evi. للسؤال عن المالك استخدم Kimin؟، و-ki تحل محل الاسم المحذوف مثل benimki.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Benim kitabım.",
+      "ar": "كتابي."
+    },
+    {
+      "tr": "Ali'nin evi.",
+      "ar": "منزل علي."
+    },
+    {
+      "tr": "Bu seninki.",
+      "ar": "هذا الذي لك."
+    },
+    {
+      "tr": "Kimin ailesi?",
+      "ar": "عائلة مَن؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-9-q1",
+      "prompt": "اختر الجملة الصحيحة التي تعني «سيارة أمي».",
+      "options": [
+        "Annemin arabası.",
+        "Annem arabam.",
+        "Benim anne araba.",
+        "Annenin arabam."
+      ],
+      "answerIndex": 0,
+      "explanation": "Annemin arabası هي الصيغة الصحيحة: annemin + arabası."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 9
+  }
+}

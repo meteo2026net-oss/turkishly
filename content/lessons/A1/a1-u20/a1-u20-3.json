@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-3",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u20-03",
+      "order": 3,
+      "titleAr": "مراجعة الأرقام والوقت والتاريخ والطقس",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الأرقام والوقت والتاريخ والطقس.",
+  "rule": "راجع الأرقام وأيام الأسبوع والشهور والساعة. للسؤال عن الوقت: Saat kaç؟ (كم الساعة؟). للتاريخ: Bugün günlerden ne؟ (ما اليوم؟). للطقس: Hava nasıl؟ (كيف الطقس؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Saat üç.",
+      "ar": "الساعة الثالثة."
+    },
+    {
+      "tr": "Bugün pazartesi.",
+      "ar": "اليوم الاثنين."
+    },
+    {
+      "tr": "Hava soğuk.",
+      "ar": "الطقس بارد."
+    },
+    {
+      "tr": "Yarın yağmur yağacak.",
+      "ar": "غداً ستمطر."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u20-3-q1",
+      "prompt": "كيف تسأل عن الساعة باللغة التركية؟",
+      "options": [
+        "Hava nasıl?",
+        "Saat kaç?",
+        "Nereye gidiyorsun?",
+        "Kaç yaşındasın?"
+      ],
+      "answerIndex": 1,
+      "explanation": "Saat kaç تعني كم الساعة؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 3
+  }
+}

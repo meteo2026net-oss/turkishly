@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u1-03",
+  "level": "B1",
+  "unitId": "b1-u1",
+  "order": 3,
+  "title": {
+    "ar": "نقل الكلام بصورة غير مباشرة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "نقل أقوال الآخرين وأسئلتهم دون اقتباسها حرفياً.",
+  "rule": "يُستخدم -DIK أو -AcAK مع لواحق الملكية لنقل المحتوى: geleceğini söyledi = قال إنه سيأتي، ne istediğini sordu = سأل ماذا يريد. اختر الزمن بحسب زمن الكلام الأصلي.",
+  "vocabulary": [
+    {
+      "term": "geleceğini söyledi",
+      "meaningAr": "قال إنه سيأتي",
+      "exampleTr": "Yarın geleceğini söyledi.",
+      "exampleAr": "قال إنه سيأتي غداً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Beni arayacağını söyledi.",
+      "ar": "قال إنه سيتصل بي."
+    },
+    {
+      "tr": "Ne zaman döneceğini sordu.",
+      "ar": "سأل متى سيعود."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Müdür ne dedi?",
+      "ar": "ماذا قال المدير؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Toplantının erteleneceğini söyledi.",
+      "ar": "قال إن الاجتماع سيؤجَّل."
+    }
+  ],
+  "speakingTask": "انقل بصورة غير مباشرة قولاً مثل «قال صديقي إنه سيسافر».",
+  "questions": [
+    {
+      "id": "b1-u1-03-q1",
+      "prompt": "ما معنى «geleceğini söyledi»؟",
+      "options": [
+        "قال إنه جاء",
+        "سأل متى سيأتي",
+        "قال إنه لن يأتي",
+        "قال إنه سيأتي"
+      ],
+      "answerIndex": 3,
+      "explanation": "geleceğini söyledi تعني قال إنه سيأتي."
+    },
+    {
+      "id": "b1-u1-03-q2",
+      "prompt": "ما ترجمة الجملة: «Yarın geleceğini söyledi.»؟",
+      "options": [
+        "قال إنه سيأتي غداً.",
+        "قال إنه جاء أمس.",
+        "سأل إن كنت سأذهب.",
+        "قال إنه لا يعرف."
+      ],
+      "answerIndex": 0,
+      "explanation": "Yarın geleceğini söyledi. تعني قال إنه سيأتي غداً.."
+    },
+    {
+      "id": "b1-u1-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "geliyor musun dedi",
+        "geleceğini söyledi",
+        "geldiğini söyledi",
+        "gelmeyeceğini söyledi"
+      ],
+      "answerIndex": 1,
+      "explanation": "نقل وعد أو قول عن حدث مستقبلي."
+    },
+    {
+      "id": "b1-u1-03-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «geleceğini söyledi»؟",
+      "options": [
+        "طلب الإذن",
+        "تكوين شرط افتراضي",
+        "نقل قول الغير",
+        "إعطاء أمر"
+      ],
+      "answerIndex": 2,
+      "explanation": "نقل كلام شخص آخر بطريقة غير مباشرة."
+    },
+    {
+      "id": "b1-u1-03-q5",
+      "prompt": "أكمل التركيب: Yarın geleceğini söyledi.",
+      "options": [
+        "geleceğini söyledi",
+        "geldiğini söyledi",
+        "gelmeyeceğini söyledi",
+        "geliyor musun dedi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي geleceğini söyledi؛ نقل وعد أو قول عن حدث مستقبلي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u1",
+    "legacyGlobalNumber": 123
+  }
+}

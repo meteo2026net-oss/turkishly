@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-1",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a2-u7-01",
+      "order": 1,
+      "titleAr": "فهم حالات الاسم في اللغة التركية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حالات الاسم في اللغة التركية.",
+  "rule": "تُضاف لواحق إلى الاسم لتوضيح علاقته بالفعل: إلى أين؟ أين؟ من أين؟ وهل المفعول به محدد؟ من الحالات المهمة: الاتجاه -e/-a، والمكان -de/-da، والابتعاد -den/-dan، والمفعول المحدد -i/-ı/-u/-ü. مثال: okul (مدرسة)، okula (إلى المدرسة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "okul",
+      "ar": "مدرسة"
+    },
+    {
+      "tr": "okula",
+      "ar": "إلى المدرسة"
+    },
+    {
+      "tr": "okulda",
+      "ar": "في المدرسة"
+    },
+    {
+      "tr": "okuldan",
+      "ar": "من المدرسة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-1-q1",
+      "prompt": "ما معنى okula؟",
+      "options": [
+        "في المدرسة",
+        "من المدرسة",
+        "إلى المدرسة",
+        "المدرسة"
+      ],
+      "answerIndex": 2,
+      "explanation": "okula تعني إلى المدرسة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 1
+  }
+}

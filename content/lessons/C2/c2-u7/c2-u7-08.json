@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u7-08",
+  "level": "C2",
+  "unitId": "c2-u7",
+  "order": 8,
+  "title": {
+    "ar": "إدارة الحوار متعدد اللغات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب الشفهي والمناظرة المتقدمة",
+    "titleTr": "İleri Sözlü Söylem ve Münazara",
+    "description": "تحليل المداخلات والشرح الفوري وإدارة الاختلاف والنقاش متعدد اللغات."
+  },
+  "contentStatus": "full",
+  "goal": "تسهيل حوار يستخدم المشاركون فيه لغات وخلفيات مختلفة.",
+  "rule": "تحقق من المصطلحات المشتركة، واطلب إعادة الصياغة عند الحاجة، ووثق المعاني المتفق عليها.",
+  "vocabulary": [
+    {
+      "term": "çok dilli iletişim",
+      "meaningAr": "تواصل متعدد اللغات",
+      "exampleTr": "Terimlerin farklı dillerdeki karşılıklarını görüşme boyunca tutarlı kullandık.",
+      "exampleAr": "استخدمنا المقابلات اللغوية للمصطلحات بصورة متسقة طوال الاجتماع."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Terimlerin farklı dillerdeki karşılıklarını görüşme boyunca tutarlı kullandık.",
+      "ar": "استخدمنا المقابلات اللغوية للمصطلحات بصورة متسقة طوال الاجتماع."
+    },
+    {
+      "tr": "Anlam kaymasını önlemek için terimleri doğruladım.",
+      "ar": "تحققت من المصطلحات لمنع انزياح المعنى."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu terimi aynı anlamda mı kullanıyoruz؟",
+      "ar": "هل نستخدم هذا المصطلح بالمعنى نفسه؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ortak tanımı kontrol edelim.",
+      "ar": "لنراجع التعريف المشترك."
+    }
+  ],
+  "speakingTask": "أدر جلسة متعددة اللغات مع مسرد مشترك للمصطلحات.",
+  "questions": [
+    {
+      "id": "c2-u7-08-q1",
+      "prompt": "ما معنى «çok dilli iletişim»؟",
+      "options": [
+        "تواصل متعدد اللغات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«çok dilli iletişim» تعني: تواصل متعدد اللغات."
+    },
+    {
+      "id": "c2-u7-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "استخدمنا المقابلات اللغوية للمصطلحات بصورة متسقة طوال الاجتماع.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "استخدمنا المقابلات اللغوية للمصطلحات بصورة متسقة طوال الاجتماع."
+    },
+    {
+      "id": "c2-u7-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "diller arası arabuluculuk",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «diller arası arabuluculuk». تحقق من المصطلحات المشتركة، واطلب إعادة الصياغة عند الحاجة، ووثق المعاني المتفق عليها."
+    },
+    {
+      "id": "c2-u7-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "ضمان وضوح المعنى بين لغات متعددة."
+      ],
+      "answerIndex": 3,
+      "explanation": "ضمان وضوح المعنى بين لغات متعددة."
+    },
+    {
+      "id": "c2-u7-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أدر جلسة متعددة اللغات مع مسرد مشترك للمصطلحات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أدر جلسة متعددة اللغات مع مسرد مشترك للمصطلحات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u7",
+    "legacyGlobalNumber": 488
+  }
+}

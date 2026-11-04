@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-07",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 7,
+  "title": {
+    "ar": "مناقشة النتائج والاعتراضات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلم والبحث والتفكير النقدي",
+    "titleTr": "Bilim, Araştırma ve Eleştirel Düşünme",
+    "description": "الفرضيات والبيانات والاستدلال والتحفظ العلمي والكتابة الأكاديمية."
+  },
+  "contentStatus": "full",
+  "goal": "itiraz",
+  "rule": "Karşı görüşü dikkate alıp kanıtlarla yanıt vermeliyiz.",
+  "vocabulary": [
+    {
+      "term": "اعتراض",
+      "meaningAr": "karşı görüş",
+      "exampleTr": "Karşı görüşü dikkate alıp kanıtlarla yanıt vermeliyiz.",
+      "exampleAr": "ينبغي أخذ الرأي المقابل في الاعتبار والرد بالأدلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ربط فعلين متتابعين",
+      "ar": ""
+    },
+    {
+      "tr": "Karşı görüşü dikkate alıp kanıtlarla yanıt vermeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Bu itiraz önemli, ancak veriler farklı bir tablo sunuyor.|هذا الاعتراض مهم، لكن البيانات تقدم صورة مختلفة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu görüşe katılmıyor musun? — ألا توافق هذا الرأي؟\nB: Bazı yönlerine katılıyorum, fakat... — أوافق بعض جوانبه، لكن...",
+  "questions": [
+    {
+      "id": "b2-u9-07-q1",
+      "prompt": "ما معنى «اعتراض»؟",
+      "options": [
+        "karşı görüşü ele almak",
+        "يتناول الرأي المقابل",
+        "تعبير غير مناسب",
+        "رأي مقابل"
+      ],
+      "answerIndex": 3,
+      "explanation": "اعتراض تعني karşı görüş."
+    },
+    {
+      "id": "b2-u9-07-q2",
+      "prompt": "ما ترجمة الجملة: «Karşı görüşü dikkate alıp kanıtlarla yanıt vermeliyiz.»؟",
+      "options": [
+        "ينبغي أخذ الرأي المقابل في الاعتبار والرد بالأدلة.|ينبغي أخذ الرأي المقابل في الاعتبار والرد بالأدلة.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Karşı görüşü dikkate alıp kanıtlarla yanıt vermeliyiz. تعني ينبغي أخذ الرأي المقابل في الاعتبار والرد بالأدلة.."
+    },
+    {
+      "id": "b2-u9-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "بناء نقاش متوازن",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "-ıp/-ip."
+    },
+    {
+      "id": "b2-u9-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «بناء نقاش متوازن»؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "ثم / مع",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "ثم / مع"
+    },
+    {
+      "id": "b2-u9-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "ثم / مع",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "ثم / مع"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 267
+  }
+}

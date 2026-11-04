@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u19-07",
+  "level": "C2",
+  "unitId": "c2-u19",
+  "order": 7,
+  "title": {
+    "ar": "تحليل الحساسية والمتانة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث التطبيقي وتصميم الدراسات المتقدمة",
+    "titleTr": "İleri Uygulamalı Araştırma ve Araştırma Tasarımı",
+    "description": "تصميم المناهج المختلطة والقياس والاستدلال السببي وتحليل الحساسية وكتابة تقارير قابلة لإعادة الإنتاج."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم تحليل الحساسية والمتانة في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "duyarlılık analizi",
+      "meaningAr": "تحليل الحساسية",
+      "exampleTr": "Sonuçların varsayımlara duyarlılığını alternatif modellerle değerlendirdik.",
+      "exampleAr": "قيّمنا حساسية النتائج للافتراضات باستخدام نماذج بديلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Sonuçların varsayımlara duyarlılığını alternatif modellerle değerlendirdik.",
+      "ar": "قيّمنا حساسية النتائج للافتراضات باستخدام نماذج بديلة."
+    },
+    {
+      "tr": "Sağlamlık sınamaları bulguların güvenilirliğini değerlendirir.",
+      "ar": "تقيم اختبارات المتانة موثوقية النتائج."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Model değişince sonuç değişiyor mu?",
+      "ar": "هل تتغير النتيجة بتغير النموذج؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bunu duyarlılık analiziyle sınayabiliriz.",
+      "ar": "يمكننا اختبار ذلك بتحليل الحساسية."
+    }
+  ],
+  "speakingTask": "أعد تحليل نتيجة باستخدام افتراضين بديلين وقارن الاستنتاج.",
+  "questions": [
+    {
+      "id": "c2-u19-07-q1",
+      "prompt": "ما المقصود بالمصطلح «duyarlılık analizi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تحليل الحساسية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«duyarlılık analizi» يعني: تحليل الحساسية."
+    },
+    {
+      "id": "c2-u19-07-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "قيّمنا حساسية النتائج للافتراضات باستخدام نماذج بديلة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "قيّمنا حساسية النتائج للافتراضات باستخدام نماذج بديلة."
+    },
+    {
+      "id": "c2-u19-07-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "sağlamlık sınaması",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة: sağlamlık sınaması. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u19-07-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "التحقق من ثبات الاستنتاجات عند تغيير الافتراضات",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "التحقق من ثبات الاستنتاجات عند تغيير الافتراضات"
+    },
+    {
+      "id": "c2-u19-07-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "أعد تحليل نتيجة باستخدام افتراضين بديلين وقارن الاستنتاج.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أعد تحليل نتيجة باستخدام افتراضين بديلين وقارن الاستنتاج."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u19",
+    "legacyGlobalNumber": 607
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u13-06",
+  "level": "C2",
+  "unitId": "c2-u13",
+  "order": 6,
+  "title": {
+    "ar": "التحفظات والغموض القانوني",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة القانونية وصياغة الوثائق الرسمية",
+    "titleTr": "Hukuk Dili ve Resmî Belge Yazımı",
+    "description": "قراءة النصوص القانونية وتحليل الأحكام وصياغة العقود والمذكرات والوثائق الرسمية."
+  },
+  "contentStatus": "full",
+  "goal": "اللغة القانونية وصياغة الوثائق الرسمية",
+  "rule": "حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة.",
+  "vocabulary": [
+    {
+      "term": "hukuki belirsizlik",
+      "meaningAr": "غموض قانوني",
+      "exampleTr": "Belirsiz ifade farklı yorumlara yol açabileceği için açıklanmalıdır.",
+      "exampleAr": "ينبغي توضيح العبارة الغامضة لأنها قد تؤدي إلى تفسيرات مختلفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Belirsiz ifade farklı yorumlara yol açabileceği için açıklanmalıdır.",
+      "ar": "ينبغي توضيح العبارة الغامضة لأنها قد تؤدي إلى تفسيرات مختلفة."
+    },
+    {
+      "tr": "Belirsiz ifade farklı yorumlara yol açabileceği için açıklanmalıdır.",
+      "ar": "ينبغي توضيح العبارة الغامضة لأنها قد تؤدي إلى تفسيرات مختلفة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "hukuki belirsizlik konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في غموض قانوني؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "حلل نموذجاً افتراضياً متعلقاً بموضوع التحفظات والغموض القانوني، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u13-06-q1",
+      "prompt": "ما معنى «hukuki belirsizlik»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "غموض قانوني",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«hukuki belirsizlik» تعني: غموض قانوني."
+    },
+    {
+      "id": "c2-u13-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ينبغي توضيح العبارة الغامضة لأنها قد تؤدي إلى تفسيرات مختلفة."
+      ],
+      "answerIndex": 3,
+      "explanation": "ينبغي توضيح العبارة الغامضة لأنها قد تؤدي إلى تفسيرات مختلفة."
+    },
+    {
+      "id": "c2-u13-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "hukuki belirsizlik",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «hukuki belirsizlik». حلل النص القانوني وحدد الأطراف والحقوق والالتزامات والاستثناءات دون استنتاج ما يتجاوز الوثيقة."
+    },
+    {
+      "id": "c2-u13-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إتقان غموض قانوني في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إتقان غموض قانوني في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u13-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل نموذجاً افتراضياً متعلقاً بموضوع التحفظات والغموض القانوني، ثم وثق خطواتك والنتائج ومعايير الجودة."
+      ],
+      "answerIndex": 3,
+      "explanation": "حلل نموذجاً افتراضياً متعلقاً بموضوع التحفظات والغموض القانوني، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
+    "legacyUnitId": "c2-u13",
+    "legacyGlobalNumber": 546
+  }
+}

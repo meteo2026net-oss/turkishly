@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u14-03",
+  "level": "C2",
+  "unitId": "c2-u14",
+  "order": 3,
+  "title": {
+    "ar": "تحليل المخاطر التقنية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاتصال العلمي والتقني المتقدم",
+    "titleTr": "İleri Bilimsel ve Teknik İletişim",
+    "description": "المواصفات التقنية وتوثيق الأنظمة والمخاطر وتقديم النتائج وتوطين البرمجيات."
+  },
+  "contentStatus": "full",
+  "goal": "الاتصال العلمي والتقني المتقدم",
+  "rule": "حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود.",
+  "vocabulary": [
+    {
+      "term": "teknik risk analizi",
+      "meaningAr": "تحليل المخاطر التقنية",
+      "exampleTr": "Riskleri olasılık, etki ve azaltma seçeneklerine göre önceliklendirdik.",
+      "exampleAr": "رتبنا المخاطر وفق الاحتمال والأثر وخيارات التخفيف."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Riskleri olasılık, etki ve azaltma seçeneklerine göre önceliklendirdik.",
+      "ar": "رتبنا المخاطر وفق الاحتمال والأثر وخيارات التخفيف."
+    },
+    {
+      "tr": "Riskleri olasılık, etki ve azaltma seçeneklerine göre önceliklendirdik.",
+      "ar": "رتبنا المخاطر وفق الاحتمال والأثر وخيارات التخفيف."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "teknik risk analizi konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في تحليل المخاطر التقنية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "أنشئ مخرجاً تقنياً حول تحليل المخاطر التقنية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u14-03-q1",
+      "prompt": "ما معنى «teknik risk analizi»؟",
+      "options": [
+        "طلب الإذن",
+        "تحليل المخاطر التقنية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«teknik risk analizi» تعني: تحليل المخاطر التقنية."
+    },
+    {
+      "id": "c2-u14-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "رتبنا المخاطر وفق الاحتمال والأثر وخيارات التخفيف.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "رتبنا المخاطر وفق الاحتمال والأثر وخيارات التخفيف."
+    },
+    {
+      "id": "c2-u14-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "teknik risk analizi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «teknik risk analizi». حدد الجمهور والغرض والمتطلبات، واستعمل المصطلحات بثبات، واربط الادعاءات بمعايير تحقق، وصرح بالقيود."
+    },
+    {
+      "id": "c2-u14-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إتقان تحليل المخاطر التقنية في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إتقان تحليل المخاطر التقنية في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u14-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنشئ مخرجاً تقنياً حول تحليل المخاطر التقنية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أنشئ مخرجاً تقنياً حول تحليل المخاطر التقنية، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
+    "legacyUnitId": "c2-u14",
+    "legacyGlobalNumber": 553
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-7",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u10-07",
+      "order": 7,
+      "titleAr": "مفردات الأدوية والصيدلية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "فهم كلمات شائعة تتعلق بالأدوية والصيدلية دون الدخول في إرشادات علاجية.",
+  "rule": "في الصيدلية قد تسمع ilaç دواء، reçete وصفة طبية، eczacı صيدلي، kutu علبة، prospektüs نشرة الدواء، kullanım talimatı تعليمات الاستخدام. يمكنك السؤال Bu ilacın prospektüsü var mı؟ (هل توجد نشرة لهذا الدواء؟). اتبع تعليمات الطبيب أو الصيدلي بشأن أي دواء.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "ilaç",
+      "ar": "دواء"
+    },
+    {
+      "tr": "reçete",
+      "ar": "وصفة طبية"
+    },
+    {
+      "tr": "eczacı",
+      "ar": "صيدلي"
+    },
+    {
+      "tr": "prospektüs",
+      "ar": "نشرة الدواء"
+    },
+    {
+      "tr": "Eczane nerede?",
+      "ar": "أين الصيدلية؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-7-q1",
+      "prompt": "ما معنى reçete؟",
+      "options": [
+        "وصفة طبية",
+        "موعد",
+        "مستشفى",
+        "ممرض"
+      ],
+      "answerIndex": 0,
+      "explanation": "reçete تعني وصفة طبية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 7
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u2-01",
+  "level": "C1",
+  "unitId": "c1-u2",
+  "order": 1,
+  "title": {
+    "ar": "بناء أطروحة واضحة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الكتابة الأكاديمية المتقدمة",
+    "titleTr": "İleri Akademik Yazma",
+    "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
+  },
+  "contentStatus": "full",
+  "goal": "صياغة موقف مركزي قابل للنقاش والدعم بالأدلة.",
+  "rule": "تجيب الأطروحة عن سؤال محدد، وتعرض موقفاً قابلاً للاختبار لا موضوعاً عاماً فقط.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu çalışmanın tezi, erken dil eğitiminin kalıcı öğrenmeyi desteklediğidir.",
+      "ar": "أطروحة هذه الدراسة أن تعليم اللغة المبكر يدعم التعلم المستدام."
+    },
+    {
+      "tr": "Araştırma sorunuza uygun bir tez cümlesi yazın.",
+      "ar": "اكتب أطروحة محددة ثم اذكر نوعي الدليل اللازمين لدعمها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «savunulabilir tez»؟",
+      "options": [
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "أطروحة يمكن الدفاع عنها",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "«savunulabilir tez» تعني أطروحة يمكن الدفاع عنها.",
+      "id": "c1-u2-01-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bu çalışmanın tezi, erken dil eğitiminin kalıcı öğrenmeyi desteklediğidir.»؟",
+      "options": [
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أطروحة هذه الدراسة أن تعليم اللغة المبكر يدعم التعلم المستدام."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجمة الجملة: أطروحة هذه الدراسة أن تعليم اللغة المبكر يدعم التعلم المستدام.",
+      "id": "c1-u2-01-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «tez cümlesi»؟",
+      "options": [
+        "tez cümlesi",
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "جملة الأطروحة",
+      "id": "c1-u2-01-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية"
+      ],
+      "answerIndex": 1,
+      "explanation": "تجيب الأطروحة عن سؤال محدد، وتعرض موقفاً قابلاً للاختبار لا موضوعاً عاماً فقط.",
+      "id": "c1-u2-01-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-01-q5"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_course_data.dart",
+    "legacyUnitId": "c1-u2",
+    "legacyGlobalNumber": 311
+  }
+}

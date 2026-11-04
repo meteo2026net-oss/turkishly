@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-3",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u19-03",
+      "order": 3,
+      "titleAr": "الفندق وحجز غرفة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى مفردات الفندق وحجز غرفة.",
+  "rule": "مفردات الإقامة: otel فندق، oda غرفة، resepsiyon استقبال، rezervasyon حجز، anahtar مفتاح، tek kişilik غرفة لشخص واحد، çift kişilik غرفة لشخصين. عبارات: Bir oda ayırtmak istiyorum (أريد حجز غرفة)، Rezervasyonum var (لدي حجز)، Kahvaltı dahil mi؟ (هل الإفطار مشمول؟).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "otel",
+      "ar": "فندق"
+    },
+    {
+      "tr": "oda",
+      "ar": "غرفة"
+    },
+    {
+      "tr": "rezervasyon",
+      "ar": "حجز"
+    },
+    {
+      "tr": "resepsiyon",
+      "ar": "الاستقبال"
+    },
+    {
+      "tr": "Kahvaltı dahil mi?",
+      "ar": "هل الإفطار مشمول؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-3-q1",
+      "prompt": "ما معنى rezervasyon؟",
+      "options": [
+        "مفتاح",
+        "حجز",
+        "حقيبة",
+        "تذكرة"
+      ],
+      "answerIndex": 1,
+      "explanation": "rezervasyon تعني حجز."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 3
+  }
+}

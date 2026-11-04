@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u4-6",
+  "level": "A1",
+  "unitId": "a1-u4",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u4-06",
+      "order": 6,
+      "titleAr": "ضمائر الملكية مع أسماء العائلة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العائلة والأشخاص",
+    "titleTr": "Aile ve İnsanlar",
+    "description": "أفراد الأسرة والصفات الشخصية والعمر والمهن والتعريف بالعائلة."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام ضمائر الملكية مع أسماء أفراد العائلة.",
+  "rule": "تظهر الملكية كثيراً مع أسماء الأسرة: annem أمي، baban أبوك، kardeşi أخوه/أخته، ailemiz عائلتنا. انتبه إلى أن لاحقة الملكية تتصل بالكلمة، وقد تختلف وفق الانسجام الصوتي.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "annem",
+      "ar": "أمي"
+    },
+    {
+      "tr": "baban",
+      "ar": "أبوك"
+    },
+    {
+      "tr": "kardeşimiz",
+      "ar": "أخونا / أختنا"
+    },
+    {
+      "tr": "aileleri",
+      "ar": "عائلتهم"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u4-6-q1",
+      "prompt": "ما معنى annem؟",
+      "options": [
+        "أمك",
+        "أمي",
+        "أمه",
+        "أمنا"
+      ],
+      "answerIndex": 1,
+      "explanation": "anne + m تصبح annem، أي أمي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u4",
+    "legacyLessonOrder": 6
+  }
+}

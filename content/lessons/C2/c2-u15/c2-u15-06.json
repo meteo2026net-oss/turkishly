@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u15-06",
+  "level": "C2",
+  "unitId": "c2-u15",
+  "order": 6,
+  "title": {
+    "ar": "إدارة المصطلحات الحية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+    "titleTr": "İleri Sözlü Çeviri ve Dilsel Arabuluculuk",
+    "description": "الاستماع المتقدم والتدوين والترجمة التتابعية وإدارة المصطلحات ومراجعة الأداء."
+  },
+  "contentStatus": "full",
+  "goal": "الترجمة الشفوية والوساطة اللغوية المتقدمة",
+  "rule": "استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف.",
+  "vocabulary": [
+    {
+      "term": "anlık terminoloji yönetimi",
+      "meaningAr": "إدارة المصطلحات الفورية",
+      "exampleTr": "Yeni terimi duyduğumda bağlamını kaydedip tutarlı karşılık seçtim.",
+      "exampleAr": "عندما سمعت مصطلحاً جديداً سجلت سياقه واخترت مقابلاً متسقاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yeni terimi duyduğumda bağlamını kaydedip tutarlı karşılık seçtim.",
+      "ar": "عندما سمعت مصطلحاً جديداً سجلت سياقه واخترت مقابلاً متسقاً."
+    },
+    {
+      "tr": "Yeni terimi duyduğumda bağlamını kaydedip tutarlı karşılık seçtim.",
+      "ar": "عندما سمعت مصطلحاً جديداً سجلت سياقه واخترت مقابلاً متسقاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "anlık terminoloji yönetimi konusunda hangi ölçüt önemli?",
+      "ar": "ما المعيار المهم في إدارة المصطلحات الفورية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bağlamı ve temel ölçütleri birlikte değerlendirmeliyiz.",
+      "ar": "ينبغي تقييم السياق والمعايير الأساسية معاً."
+    }
+  ],
+  "speakingTask": "نفذ تمريناً شفهياً حول إدارة المصطلحات الحية، ثم وثق خطواتك والنتائج ومعايير الجودة.",
+  "questions": [
+    {
+      "id": "c2-u15-06-q1",
+      "prompt": "ما معنى «anlık terminoloji yönetimi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "إدارة المصطلحات الفورية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«anlık terminoloji yönetimi» تعني: إدارة المصطلحات الفورية."
+    },
+    {
+      "id": "c2-u15-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "عندما سمعت مصطلحاً جديداً سجلت سياقه واخترت مقابلاً متسقاً."
+      ],
+      "answerIndex": 3,
+      "explanation": "عندما سمعت مصطلحاً جديداً سجلت سياقه واخترت مقابلاً متسقاً."
+    },
+    {
+      "id": "c2-u15-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "anlık terminoloji yönetimi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «anlık terminoloji yönetimi». استمع إلى الفكرة والبنية، وقسم الرسالة إلى وحدات معنوية، وسجل العلاقات والأرقام، ثم أعد نقلها دون إضافة أو حذف."
+    },
+    {
+      "id": "c2-u15-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إتقان إدارة المصطلحات الفورية في سياق تخصصي متقدم",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إتقان إدارة المصطلحات الفورية في سياق تخصصي متقدم"
+    },
+    {
+      "id": "c2-u15-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "نفذ تمريناً شفهياً حول إدارة المصطلحات الحية، ثم وثق خطواتك والنتائج ومعايير الجودة."
+      ],
+      "answerIndex": 3,
+      "explanation": "نفذ تمريناً شفهياً حول إدارة المصطلحات الحية، ثم وثق خطواتك والنتائج ومعايير الجودة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_professional_course_data.dart",
+    "legacyUnitId": "c2-u15",
+    "legacyGlobalNumber": 566
+  }
+}

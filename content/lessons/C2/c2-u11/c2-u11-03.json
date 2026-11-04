@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u11-03",
+  "level": "C2",
+  "unitId": "c2-u11",
+  "order": 3,
+  "title": {
+    "ar": "تحليل المدونات اللغوية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث اللغوي والمنهجية الأكاديمية",
+    "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
+    "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام المدونات لاستخراج الأنماط والتواتر والسياق.",
+  "rule": "تحقق من تمثيل المدونة، وصنف النتائج، وافحص الأمثلة يدوياً قبل التعميم.",
+  "vocabulary": [
+    {
+      "term": "derlem çözümlemesi",
+      "meaningAr": "تحليل المدونات",
+      "exampleTr": "Derlemdeki sıklık verilerini bağlam örnekleriyle birlikte yorumladım.",
+      "exampleAr": "فسرت بيانات التواتر في المدونة مع أمثلة سياقية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Derlemdeki sıklık verilerini bağlam örnekleriyle birlikte yorumladım.",
+      "ar": "فسرت بيانات التواتر في المدونة مع أمثلة سياقية."
+    },
+    {
+      "tr": "Sıklık değerlerini bağlamdan bağımsız yorumlamadım.",
+      "ar": "لم أفسر قيم التواتر بمعزل عن السياق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "En sık kullanım her zaman en uygun mu؟",
+      "ar": "هل الاستعمال الأكثر شيوعاً هو الأنسب دائماً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tür ve bağlam da belirleyicidir.",
+      "ar": "النوع والسياق عاملان حاسمان أيضاً."
+    }
+  ],
+  "speakingTask": "قارن استعمال تعبيرين في مدونة وحدد حدود البيانات.",
+  "questions": [
+    {
+      "id": "c2-u11-03-q1",
+      "prompt": "ما معنى «derlem çözümlemesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تحليل المدونات"
+      ],
+      "answerIndex": 3,
+      "explanation": "«derlem çözümlemesi» تعني: تحليل المدونات."
+    },
+    {
+      "id": "c2-u11-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "فسرت بيانات التواتر في المدونة مع أمثلة سياقية.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "فسرت بيانات التواتر في المدونة مع أمثلة سياقية."
+    },
+    {
+      "id": "c2-u11-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "derlem temelli araştırma",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «derlem temelli araştırma». تحقق من تمثيل المدونة، وصنف النتائج، وافحص الأمثلة يدوياً قبل التعميم."
+    },
+    {
+      "id": "c2-u11-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحليل استعمال اللغة عبر المدونات.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحليل استعمال اللغة عبر المدونات."
+    },
+    {
+      "id": "c2-u11-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "قارن استعمال تعبيرين في مدونة وحدد حدود البيانات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "قارن استعمال تعبيرين في مدونة وحدد حدود البيانات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u11",
+    "legacyGlobalNumber": 523
+  }
+}

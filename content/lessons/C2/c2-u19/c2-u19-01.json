@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u19-01",
+  "level": "C2",
+  "unitId": "c2-u19",
+  "order": 1,
+  "title": {
+    "ar": "التخطيط البحثي متعدد المناهج",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث التطبيقي وتصميم الدراسات المتقدمة",
+    "titleTr": "İleri Uygulamalı Araştırma ve Araştırma Tasarımı",
+    "description": "تصميم المناهج المختلطة والقياس والاستدلال السببي وتحليل الحساسية وكتابة تقارير قابلة لإعادة الإنتاج."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم التخطيط البحثي متعدد المناهج في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "çok yöntemli araştırma tasarımı",
+      "meaningAr": "تصميم بحث متعدد المناهج",
+      "exampleTr": "Araştırma sorusuna göre nicel ve nitel yöntemleri birlikte kullandık.",
+      "exampleAr": "استخدمنا المنهجين الكمي والنوعي معاً وفقاً لسؤال البحث."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Araştırma sorusuna göre nicel ve nitel yöntemleri birlikte kullandık.",
+      "ar": "استخدمنا المنهجين الكمي والنوعي معاً وفقاً لسؤال البحث."
+    },
+    {
+      "tr": "Yöntemlerin bütünleştirilmesi bulguların yorumunu güçlendirir.",
+      "ar": "يساهم دمج المناهج في تعزيز تفسير النتائج."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Tek bir yöntem yeterli mi?",
+      "ar": "هل تكفي طريقة واحدة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Araştırma sorusu birden fazla veri türü gerektiriyor.",
+      "ar": "يتطلب سؤال البحث أكثر من نوع من البيانات."
+    }
+  ],
+  "speakingTask": "صمم مخططاً يوضح سؤال البحث والبيانات الكمية والنوعية وكيفية دمجها.",
+  "questions": [
+    {
+      "id": "c2-u19-01-q1",
+      "prompt": "ما المقصود بالمصطلح «çok yöntemli araştırma tasarımı»؟",
+      "options": [
+        "طلب الإذن",
+        "تصميم بحث متعدد المناهج",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«çok yöntemli araştırma tasarımı» يعني: تصميم بحث متعدد المناهج."
+    },
+    {
+      "id": "c2-u19-01-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "استخدمنا المنهجين الكمي والنوعي معاً وفقاً لسؤال البحث.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "استخدمنا المنهجين الكمي والنوعي معاً وفقاً لسؤال البحث."
+    },
+    {
+      "id": "c2-u19-01-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karma yöntem"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة: karma yöntem. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u19-01-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "اختيار مناهج متكاملة للإجابة عن سؤال بحثي معقد",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "اختيار مناهج متكاملة للإجابة عن سؤال بحثي معقد"
+    },
+    {
+      "id": "c2-u19-01-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "صمم مخططاً يوضح سؤال البحث والبيانات الكمية والنوعية وكيفية دمجها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "صمم مخططاً يوضح سؤال البحث والبيانات الكمية والنوعية وكيفية دمجها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u19",
+    "legacyGlobalNumber": 601
+  }
+}

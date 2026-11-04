@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-8",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a2-u3-08",
+      "order": 8,
+      "titleAr": "حوار للمفاضلة بين خيارين",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار للمفاضلة بين خيارين.",
+  "rule": "A: Bu iki otelden hangisi daha iyi؟ (أي الفندقين أفضل؟) B: Mavi otel daha ucuz, ama merkezdeki otel daha yakın (فندق مافي أرخص، لكن الفندق الموجود في المركز أقرب). A: Hangisini seçelim؟ (أيهما نختار؟) B: Bence merkezdeki otel daha uygun (برأيي الفندق المركزي أنسب).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "hangisi",
+      "ar": "أيّهما"
+    },
+    {
+      "tr": "daha iyi",
+      "ar": "أفضل"
+    },
+    {
+      "tr": "daha yakın",
+      "ar": "أقرب"
+    },
+    {
+      "tr": "daha uygun",
+      "ar": "أنسب"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-8-q1",
+      "prompt": "ما معنى hangisi؟",
+      "options": [
+        "أين؟",
+        "متى؟",
+        "أيّهما؟",
+        "كم؟"
+      ],
+      "answerIndex": 2,
+      "explanation": "hangisi تعني أيّهما."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 8
+  }
+}

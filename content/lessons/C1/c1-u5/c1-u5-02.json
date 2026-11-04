@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u5-02",
+  "level": "C1",
+  "unitId": "c1-u5",
+  "order": 2,
+  "title": {
+    "ar": "كتابة مقترح مهني",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة الرسمية والمهنية",
+    "titleTr": "Resmî ve Mesleki Dil",
+    "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
+  },
+  "contentStatus": "full",
+  "goal": "بناء مقترح يحدد المشكلة والأهداف والموارد والمخاطر.",
+  "rule": "اربط كل هدف بمخرج قابل للقياس وحدد المسؤول والمدة والموارد.",
+  "vocabulary": [
+    {
+      "term": "uygulanabilir öneri",
+      "meaningAr": "مقترح قابل للتنفيذ",
+      "exampleTr": "Önerinin başarısı üç aylık dönemde ölçülebilir göstergelerle izlenecek.",
+      "exampleAr": "ستتابع فاعلية المقترح بمؤشرات قابلة للقياس خلال ثلاثة أشهر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Önerinin başarısı üç aylık dönemde ölçülebilir göstergelerle izlenecek.",
+      "ar": "ستتابع فاعلية المقترح بمؤشرات قابلة للقياس خلال ثلاثة أشهر."
+    },
+    {
+      "tr": "Önerinin kapsamını ve kaynak ihtiyacını belirledim.",
+      "ar": "حددت نطاق المقترح وموارده."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Başarıyı nasıl ölçeceğiz؟",
+      "ar": "كيف نقيس النجاح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önceden belirlenen göstergelerle.",
+      "ar": "بالمؤشرات المحددة مسبقاً."
+    }
+  ],
+  "speakingTask": "أعد مقترحاً يتضمن هدفين ومؤشرين ومخاطرتين.",
+  "questions": [
+    {
+      "id": "c1-u5-02-q1",
+      "prompt": "ما معنى «uygulanabilir öneri»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مقترح قابل للتنفيذ",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«uygulanabilir öneri» تعني: مقترح قابل للتنفيذ."
+    },
+    {
+      "id": "c1-u5-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ستتابع فاعلية المقترح بمؤشرات قابلة للقياس خلال ثلاثة أشهر."
+      ],
+      "answerIndex": 3,
+      "explanation": "ستتابع فاعلية المقترح بمؤشرات قابلة للقياس خلال ثلاثة أشهر."
+    },
+    {
+      "id": "c1-u5-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "hedef ve gösterge",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «hedef ve gösterge». اربط كل هدف بمخرج قابل للقياس وحدد المسؤول والمدة والموارد."
+    },
+    {
+      "id": "c1-u5-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "ربط الهدف بمؤشر قياس واضح.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "ربط الهدف بمؤشر قياس واضح."
+    },
+    {
+      "id": "c1-u5-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أعد مقترحاً يتضمن هدفين ومؤشرين ومخاطرتين."
+      ],
+      "answerIndex": 3,
+      "explanation": "أعد مقترحاً يتضمن هدفين ومؤشرين ومخاطرتين."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u5",
+    "legacyGlobalNumber": 342
+  }
+}

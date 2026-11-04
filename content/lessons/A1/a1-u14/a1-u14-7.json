@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u14-7",
+  "level": "A1",
+  "unitId": "a1-u14",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u14-07",
+      "order": 7,
+      "titleAr": "المسافة والمدة ووسيلة الوصول",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والاتجاهات",
+    "titleTr": "Şehir, Ulaşım ve Yönler",
+    "description": "الأماكن العامة ووسائل النقل والاتجاهات والسؤال عن الطريق ومحطات النقل وشراء التذاكر."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث عن المسافة والمدة ووسيلة الوصول.",
+  "rule": "كلمات المسافة والوقت: dakika دقيقة، saat ساعة، kilometre كيلومتر، uzak بعيد، yakın قريب، yaklaşık تقريباً، yürüyerek سيراً على الأقدام. للسؤال قل Ne kadar sürer؟ (كم يستغرق؟)، أو Yürüyerek kaç dakika؟ (كم دقيقة مشياً؟). مثال: Beş dakika sürer (يستغرق خمس دقائق).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Beş dakika.",
+      "ar": "خمس دقائق."
+    },
+    {
+      "tr": "Ne kadar sürer?",
+      "ar": "كم يستغرق؟"
+    },
+    {
+      "tr": "Çok uzak mı?",
+      "ar": "هل هو بعيد جداً؟"
+    },
+    {
+      "tr": "Yürüyerek on dakika.",
+      "ar": "عشر دقائق سيراً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u14-7-q1",
+      "prompt": "ما معنى dakika؟",
+      "options": [
+        "ساعة",
+        "دقيقة",
+        "كيلومتر",
+        "تذكرة"
+      ],
+      "answerIndex": 1,
+      "explanation": "dakika تعني دقيقة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u14",
+    "legacyLessonOrder": 7
+  }
+}

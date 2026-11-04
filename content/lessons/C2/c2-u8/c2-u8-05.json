@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u8-05",
+  "level": "C2",
+  "unitId": "c2-u8",
+  "order": 5,
+  "title": {
+    "ar": "المراجعة المقارنة بين الترجمات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة والتحرير متعدد الطبقات",
+    "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
+    "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "تقييم بدائل ترجمة متعددة وفق معايير واضحة.",
+  "rule": "ضع معايير للدقة والطبيعية والنبرة والاتساق، ثم قارن الأثر لا الكلمات منفردة.",
+  "vocabulary": [
+    {
+      "term": "çeviri karşılaştırması",
+      "meaningAr": "مقارنة الترجمات",
+      "exampleTr": "Üç çeviri seçeneğini anlam, akıcılık ve üslup açısından değerlendirdim.",
+      "exampleAr": "قيّمت ثلاثة خيارات ترجمة من حيث المعنى والسلاسة والأسلوب."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Üç çeviri seçeneğini anlam, akıcılık ve üslup açısından değerlendirdim.",
+      "ar": "قيّمت ثلاثة خيارات ترجمة من حيث المعنى والسلاسة والأسلوب."
+    },
+    {
+      "tr": "Tercihimi açık ölçütlerle gerekçelendirdim.",
+      "ar": "بررت اختياري بمعايير واضحة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "En kısa çeviri en iyi mi؟",
+      "ar": "هل أقصر ترجمة هي الأفضل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, doğruluk ve üslup da değerlendirilir.",
+      "ar": "لا، فالدقة والأسلوب يُقيّمان أيضاً."
+    }
+  ],
+  "speakingTask": "قارن ثلاث ترجمات لفقرة واحدة واكتب تبريراً لاختيارك.",
+  "questions": [
+    {
+      "id": "c2-u8-05-q1",
+      "prompt": "ما معنى «çeviri karşılaştırması»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مقارنة الترجمات"
+      ],
+      "answerIndex": 3,
+      "explanation": "«çeviri karşılaştırması» تعني: مقارنة الترجمات."
+    },
+    {
+      "id": "c2-u8-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "قيّمت ثلاثة خيارات ترجمة من حيث المعنى والسلاسة والأسلوب.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "قيّمت ثلاثة خيارات ترجمة من حيث المعنى والسلاسة والأسلوب."
+    },
+    {
+      "id": "c2-u8-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "çeviri ölçütleri",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «çeviri ölçütleri». ضع معايير للدقة والطبيعية والنبرة والاتساق، ثم قارن الأثر لا الكلمات منفردة."
+    },
+    {
+      "id": "c2-u8-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "مقارنة الترجمات وفق معايير متعددة.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "مقارنة الترجمات وفق معايير متعددة."
+    },
+    {
+      "id": "c2-u8-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "قارن ثلاث ترجمات لفقرة واحدة واكتب تبريراً لاختيارك.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "قارن ثلاث ترجمات لفقرة واحدة واكتب تبريراً لاختيارك."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u8",
+    "legacyGlobalNumber": 495
+  }
+}

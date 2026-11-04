@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-4",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u10-04",
+      "order": 4,
+      "titleAr": "وصف الأعراض الشائعة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "وصف الأعراض الشائعة بعبارات تركية بسيطة.",
+  "rule": "يمكن وصف بعض الأعراض بكلمات مثل baş ağrısı صداع، boğaz ağrısı ألم الحلق، karın ağrısı ألم البطن، diş ağrısı ألم الأسنان، ateş حرارة، öksürük سعال، burun akıntısı سيلان الأنف. للتعبير عن وجود الألم قل Başım ağrıyor (رأسي يؤلمني) أو Boğazım ağrıyor (حلقي يؤلمني). هذه عبارات لغوية للتواصل وليست بديلاً عن تقييم المختص.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Başım ağrıyor.",
+      "ar": "رأسي يؤلمني."
+    },
+    {
+      "tr": "Dişim ağrıyor.",
+      "ar": "سني يؤلمني."
+    },
+    {
+      "tr": "Boğazım ağrıyor.",
+      "ar": "حلقي يؤلمني."
+    },
+    {
+      "tr": "Öksürüğüm var.",
+      "ar": "لديّ سعال."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-4-q1",
+      "prompt": "ما العبارة التي تعني «رأسي يؤلمني»؟",
+      "options": [
+        "Başım ağrıyor.",
+        "Karnım tok.",
+        "İyiyim.",
+        "Su içiyorum."
+      ],
+      "answerIndex": 0,
+      "explanation": "Başım ağrıyor تعني رأسي يؤلمني."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 4
+  }
+}

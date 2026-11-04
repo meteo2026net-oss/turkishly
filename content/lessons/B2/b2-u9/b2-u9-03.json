@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u9-03",
+  "level": "B2",
+  "unitId": "b2-u9",
+  "order": 3,
+  "title": {
+    "ar": "عرض النتائج العلمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العلم والبحث والتفكير النقدي",
+    "titleTr": "Bilim, Araştırma ve Eleştirel Düşünme",
+    "description": "الفرضيات والبيانات والاستدلال والتحفظ العلمي والكتابة الأكاديمية."
+  },
+  "contentStatus": "full",
+  "goal": "sonuç",
+  "rule": "Bulguları sunarken yöntem ve sınırlılıkları da açıklamalıyız.",
+  "vocabulary": [
+    {
+      "term": "نتيجة",
+      "meaningAr": "sınırlılık",
+      "exampleTr": "Bulguları sunarken yöntem ve sınırlılıkları da açıklamalıyız.",
+      "exampleAr": "عند عرض النتائج ينبغي توضيح المنهج والقيود أيضاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "ربط زمن العرض بالفعل",
+      "ar": ""
+    },
+    {
+      "tr": "Bulguları sunarken yöntem ve sınırlılıkları da açıklamalıyız.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Örneklem büyüklüğü araştırmanın sınırlılığıdır.|حجم العينة أحد قيود البحث.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Sonuçlar ne gösteriyor? — ماذا تظهر النتائج؟\nB: Belirli bir eğilime işaret ediyor. — تشير إلى اتجاه معين.",
+  "questions": [
+    {
+      "id": "b2-u9-03-q1",
+      "prompt": "ما معنى «نتيجة»؟",
+      "options": [
+        "bulguları sunmak",
+        "يعرض النتائج",
+        "تعبير غير مناسب",
+        "قيد / محدودية"
+      ],
+      "answerIndex": 3,
+      "explanation": "نتيجة تعني sınırlılık."
+    },
+    {
+      "id": "b2-u9-03-q2",
+      "prompt": "ما ترجمة الجملة: «Bulguları sunarken yöntem ve sınırlılıkları da açıklamalıyız.»؟",
+      "options": [
+        "عند عرض النتائج ينبغي توضيح المنهج والقيود أيضاً.|عند عرض النتائج ينبغي توضيح المنهج والقيود أيضاً.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bulguları sunarken yöntem ve sınırlılıkları da açıklamalıyız. تعني عند عرض النتائج ينبغي توضيح المنهج والقيود أيضاً.."
+    },
+    {
+      "id": "b2-u9-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "تقديم نتيجة مع حدودها",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "-ken."
+    },
+    {
+      "id": "b2-u9-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تقديم نتيجة مع حدودها»؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "عند / أثناء",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "عند / أثناء"
+    },
+    {
+      "id": "b2-u9-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "عند / أثناء",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "عند / أثناء"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u9",
+    "legacyGlobalNumber": 263
+  }
+}

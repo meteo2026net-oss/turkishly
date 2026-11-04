@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-01",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 1,
+  "title": {
+    "ar": "قيادة نقاشات الخبراء",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "إدارة نقاش تخصصي يضم مواقف متعارضة ومعرفة عميقة.",
+  "rule": "حدد السؤال المحوري، واطلب أدلة، ووازن المشاركة، ولخص النتائج المؤقتة.",
+  "vocabulary": [
+    {
+      "term": "uzmanlar arası tartışma",
+      "meaningAr": "نقاش بين الخبراء",
+      "exampleTr": "Tartışmayı kanıt ve ortak sorular etrafında yapılandırdım.",
+      "exampleAr": "نظمت النقاش حول الأدلة والأسئلة المشتركة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tartışmayı kanıt ve ortak sorular etrafında yapılandırdım.",
+      "ar": "نظمت النقاش حول الأدلة والأسئلة المشتركة."
+    },
+    {
+      "tr": "Uzmanlar arasındaki görüş ayrılığını verimli bir tartışmaya dönüştürdüm.",
+      "ar": "حولت اختلاف الخبراء إلى نقاش مثمر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Görüş ayrılığı süreci yavaşlatıyor mu؟",
+      "ar": "هل يبطئ الاختلاف العملية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Doğru yönetilirse analizi derinleştirir.",
+      "ar": "إذا أُدير جيداً فإنه يعمق التحليل."
+    }
+  ],
+  "speakingTask": "أدر جلسة خبراء وحدد نقاط الاتفاق والبحث المطلوب.",
+  "questions": [
+    {
+      "id": "c2-u3-01-q1",
+      "prompt": "ما معنى «uzmanlar arası tartışma»؟",
+      "options": [
+        "طلب الإذن",
+        "نقاش بين الخبراء",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«uzmanlar arası tartışma» تعني: نقاش بين الخبراء."
+    },
+    {
+      "id": "c2-u3-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "نظمت النقاش حول الأدلة والأسئلة المشتركة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "نظمت النقاش حول الأدلة والأسئلة المشتركة."
+    },
+    {
+      "id": "c2-u3-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "uzman diyaloğu"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «uzman diyaloğu». حدد السؤال المحوري، واطلب أدلة، ووازن المشاركة، ولخص النتائج المؤقتة."
+    },
+    {
+      "id": "c2-u3-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إدارة حوار تخصصي متقدم.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إدارة حوار تخصصي متقدم."
+    },
+    {
+      "id": "c2-u3-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أدر جلسة خبراء وحدد نقاط الاتفاق والبحث المطلوب.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أدر جلسة خبراء وحدد نقاط الاتفاق والبحث المطلوب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyGlobalNumber": 441
+  }
+}

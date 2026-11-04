@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u1-2",
+  "level": "A1",
+  "unitId": "a1-u1",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u1-02",
+      "order": 2,
+      "titleAr": "الحروف المتحركة والثقيلة والخفيفة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأبجدية والأصوات التركية",
+    "titleTr": "Türk Alfabesi ve Sesler",
+    "description": "التعرّف إلى الحروف التركية وطريقة نطقها والأصوات الخاصة."
+  },
+  "contentStatus": "full",
+  "goal": "تمييز الحروف المتحركة وتصنيفها إلى مجموعات.",
+  "rule": "الحروف المتحركة التركية هي: a, e, ı, i, o, ö, u, ü. وتنقسم إلى حروف خلفية (a, ı, o, u) وأمامية (e, i, ö, ü). هذا التصنيف مهم لفهم انسجام اللواحق.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "a – kapı",
+      "ar": "a حرف خلفي في كلمة باب"
+    },
+    {
+      "tr": "e – ev",
+      "ar": "e حرف أمامي في كلمة بيت"
+    },
+    {
+      "tr": "ü – üzüm",
+      "ar": "ü حرف أمامي مستدير في كلمة عنب"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u1-2-q1",
+      "prompt": "أي مجموعة تتكوّن من حروف متحركة خلفية؟",
+      "options": [
+        "e, i, ö, ü",
+        "a, ı, o, u",
+        "a, e, i, o",
+        "ı, i, u, ü"
+      ],
+      "answerIndex": 1,
+      "explanation": "الحروف الخلفية الأربعة هي a, ı, o, u."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u1",
+    "legacyLessonOrder": 2
+  }
+}

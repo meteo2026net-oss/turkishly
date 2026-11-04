@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u4-09",
+  "level": "C2",
+  "unitId": "c2-u4",
+  "order": 9,
+  "title": {
+    "ar": "كتابة نقد خطابي متخصص",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب والنقد الاجتماعي المتقدم",
+    "titleTr": "İleri Söylem ve Toplumsal Eleştiri",
+    "description": "تحليل الخطاب السياسي والهوية والاستعارة والحجج الأخلاقية والإعلامية."
+  },
+  "contentStatus": "full",
+  "goal": "إنتاج نقد يستند إلى تحليل اللغة والبنية والسياق والأثر.",
+  "rule": "اربط كل حكم بقرينة نصية، وميز الوصف من التقييم، وتجنب نسبة نية غير مثبتة.",
+  "vocabulary": [
+    {
+      "term": "söylem eleştirisi",
+      "meaningAr": "نقد الخطاب",
+      "exampleTr": "Eleştiri, kullanılan dilin hangi varsayımları doğal gösterdiğini sorguluyor.",
+      "exampleAr": "يتساءل النقد عن الافتراضات التي تجعلها اللغة تبدو طبيعية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Eleştiri, kullanılan dilin hangi varsayımları doğal gösterdiğini sorguluyor.",
+      "ar": "يتساءل النقد عن الافتراضات التي تجعلها اللغة تبدو طبيعية."
+    },
+    {
+      "tr": "Eleştirimi metinsel ve bağlamsal kanıtlarla destekledim.",
+      "ar": "دعمت نقدي بأدلة نصية وسياقية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Konuşmacının niyetini biliyor muyuz؟",
+      "ar": "هل نعرف نية المتحدث؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Niyet atfetmeden dilsel etkiyi inceleyebiliriz.",
+      "ar": "يمكننا دراسة الأثر اللغوي دون افتراض النية."
+    }
+  ],
+  "speakingTask": "اكتب نقداً لخطاب متخصص يوازن بين الأثر والحدود.",
+  "questions": [
+    {
+      "id": "c2-u4-09-q1",
+      "prompt": "ما معنى «söylem eleştirisi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "نقد الخطاب"
+      ],
+      "answerIndex": 3,
+      "explanation": "«söylem eleştirisi» تعني: نقد الخطاب."
+    },
+    {
+      "id": "c2-u4-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يتساءل النقد عن الافتراضات التي تجعلها اللغة تبدو طبيعية.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يتساءل النقد عن الافتراضات التي تجعلها اللغة تبدو طبيعية."
+    },
+    {
+      "id": "c2-u4-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "eleştirel söylem",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «eleştirel söylem». اربط كل حكم بقرينة نصية، وميز الوصف من التقييم، وتجنب نسبة نية غير مثبتة."
+    },
+    {
+      "id": "c2-u4-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "نقد الخطاب بالأدلة والسياق.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "نقد الخطاب بالأدلة والسياق."
+    },
+    {
+      "id": "c2-u4-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب نقداً لخطاب متخصص يوازن بين الأثر والحدود.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب نقداً لخطاب متخصص يوازن بين الأثر والحدود."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
+    "legacyUnitId": "c2-u4",
+    "legacyGlobalNumber": 459
+  }
+}

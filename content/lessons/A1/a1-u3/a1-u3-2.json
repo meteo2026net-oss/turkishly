@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u3-2",
+  "level": "A1",
+  "unitId": "a1-u3",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u3-02",
+      "order": 2,
+      "titleAr": "الألوان والصفات الأساسية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأشياء والأدوات والألوان",
+    "titleTr": "Nesneler, Eşyalar ve Renkler",
+    "description": "تسمية الأشياء ووصفها وتحديد مواقعها والتعبير عن الملكية."
+  },
+  "contentStatus": "full",
+  "goal": "وصف الأشياء باستخدام الألوان والصفات الأساسية.",
+  "rule": "تأتي الصفة عادة قبل الاسم في التركية. من الألوان: kırmızı أحمر، mavi أزرق، beyaz أبيض، siyah أسود. ومن الصفات: büyük كبير، küçük صغير، güzel جميل، yeni جديد.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kırmızı araba",
+      "ar": "سيارة حمراء"
+    },
+    {
+      "tr": "büyük ev",
+      "ar": "بيت كبير"
+    },
+    {
+      "tr": "mavi kalem",
+      "ar": "قلم أزرق"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u3-2-q1",
+      "prompt": "ما معنى beyaz؟",
+      "options": [
+        "أسود",
+        "أحمر",
+        "أبيض",
+        "أزرق"
+      ],
+      "answerIndex": 2,
+      "explanation": "beyaz تعني أبيض."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u3",
+    "legacyLessonOrder": 2
+  }
+}

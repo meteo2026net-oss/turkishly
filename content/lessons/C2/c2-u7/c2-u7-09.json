@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u7-09",
+  "level": "C2",
+  "unitId": "c2-u7",
+  "order": 9,
+  "title": {
+    "ar": "تقييم أثر الخطاب الشفهي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب الشفهي والمناظرة المتقدمة",
+    "titleTr": "İleri Sözlü Söylem ve Münazara",
+    "description": "تحليل المداخلات والشرح الفوري وإدارة الاختلاف والنقاش متعدد اللغات."
+  },
+  "contentStatus": "full",
+  "goal": "تحليل كيف أثرت بنية الحديث ونبرته والأدلة في استجابة الجمهور.",
+  "rule": "قارن هدف المتحدث بالاستجابة الفعلية، وميز الإقناع من مجرد الموافقة اللحظية.",
+  "vocabulary": [
+    {
+      "term": "sözlü etki",
+      "meaningAr": "أثر شفهي",
+      "exampleTr": "Dinleyici tepkileri, örneklerin soyut açıklamalardan daha etkili olduğunu gösterdi.",
+      "exampleAr": "أظهرت استجابات المستمعين أن الأمثلة أكثر تأثيراً من الشروح المجردة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Dinleyici tepkileri, örneklerin soyut açıklamalardan daha etkili olduğunu gösterdi.",
+      "ar": "أظهرت استجابات المستمعين أن الأمثلة أكثر تأثيراً من الشروح المجردة."
+    },
+    {
+      "tr": "Sunumun etkisini gözlemlenebilir tepkilerle değerlendirdim.",
+      "ar": "قيّمت أثر العرض من خلال الاستجابات الملحوظة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Alkış başarıyı kanıtlar mı؟",
+      "ar": "هل يثبت التصفيق النجاح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Tek başına değil; anlama ve geri bildirim de önemli.",
+      "ar": "ليس وحده؛ فالفهم والتغذية الراجعة مهمان أيضاً."
+    }
+  ],
+  "speakingTask": "حلل تسجيل عرض واستجابات الجمهور وحدد ثلاثة تحسينات.",
+  "questions": [
+    {
+      "id": "c2-u7-09-q1",
+      "prompt": "ما معنى «sözlü etki»؟",
+      "options": [
+        "طلب الإذن",
+        "أثر شفهي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«sözlü etki» تعني: أثر شفهي."
+    },
+    {
+      "id": "c2-u7-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أظهرت استجابات المستمعين أن الأمثلة أكثر تأثيراً من الشروح المجردة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "أظهرت استجابات المستمعين أن الأمثلة أكثر تأثيراً من الشروح المجردة."
+    },
+    {
+      "id": "c2-u7-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "etki analizi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «etki analizi». قارن هدف المتحدث بالاستجابة الفعلية، وميز الإقناع من مجرد الموافقة اللحظية."
+    },
+    {
+      "id": "c2-u7-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تقييم أثر العرض الشفهي.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تقييم أثر العرض الشفهي."
+    },
+    {
+      "id": "c2-u7-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل تسجيل عرض واستجابات الجمهور وحدد ثلاثة تحسينات.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل تسجيل عرض واستجابات الجمهور وحدد ثلاثة تحسينات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u7",
+    "legacyGlobalNumber": 489
+  }
+}

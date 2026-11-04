@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-02",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 2,
+  "title": {
+    "ar": "الطاقة والموارد",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القضايا العالمية والاقتصاد والتقنية",
+    "titleTr": "Küresel Konular, Ekonomi ve Teknoloji",
+    "description": "المناخ والطاقة والتجارة والعمل والابتكار والأخلاق والمدن الذكية."
+  },
+  "contentStatus": "full",
+  "goal": "kaynak",
+  "rule": "Enerji kaynaklarını çeşitlendirmek arz güvenliğini artırabilir.",
+  "vocabulary": [
+    {
+      "term": "مورد",
+      "meaningAr": "yenilenebilir",
+      "exampleTr": "Enerji kaynaklarını çeşitlendirmek arz güvenliğini artırabilir.",
+      "exampleAr": "قد يؤدي تنويع مصادر الطاقة إلى تعزيز أمن الإمدادات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "-ebilir",
+      "ar": ""
+    },
+    {
+      "tr": "Enerji kaynaklarını çeşitlendirmek arz güvenliğini artırabilir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "قد / يستطيع",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "التعبير عن إمكانية",
+  "questions": [
+    {
+      "id": "b2-u11-02-q1",
+      "prompt": "ما معنى «مورد»؟",
+      "options": [
+        "مجهول",
+        "تعبير غير ملائم",
+        "متجدد",
+        "مستهلك"
+      ],
+      "answerIndex": 2,
+      "explanation": "مورد تعني yenilenebilir."
+    },
+    {
+      "id": "b2-u11-02-q2",
+      "prompt": "ما ترجمة الجملة: «Enerji kaynaklarını çeşitlendirmek arz güvenliğini artırabilir.»؟",
+      "options": [
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Enerji kaynaklarını çeşitlendirmek arz güvenliğini artırabilir.|قد يؤدي تنويع مصادر الطاقة إلى تعزيز أمن الإمدادات."
+      ],
+      "answerIndex": 3,
+      "explanation": "Enerji kaynaklarını çeşitlendirmek arz güvenliğini artırabilir. تعني قد يؤدي تنويع مصادر الطاقة إلى تعزيز أمن الإمدادات.."
+    },
+    {
+      "id": "b2-u11-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "enerji verimliliği",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "كفاءة الطاقة."
+    },
+    {
+      "id": "b2-u11-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «enerji verimliliği»؟",
+      "options": [
+        "طلب الإذن",
+        "شرح التنويع",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "شرح التنويع"
+    },
+    {
+      "id": "b2-u11-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "شرح التنويع"
+      ],
+      "answerIndex": 3,
+      "explanation": "شرح التنويع"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 282
+  }
+}

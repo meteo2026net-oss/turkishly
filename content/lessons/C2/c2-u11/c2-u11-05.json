@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u11-05",
+  "level": "C2",
+  "unitId": "c2-u11",
+  "order": 5,
+  "title": {
+    "ar": "توثيق المصادر والنزاهة الأكاديمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث اللغوي والمنهجية الأكاديمية",
+    "titleTr": "Dil Araştırmaları ve Akademik Yöntem",
+    "description": "تصميم البحث وتحليل المدونات والبيانات والكتابة والتحكيم والدفاع العلمي."
+  },
+  "contentStatus": "full",
+  "goal": "توثيق الاقتباس وإعادة الصياغة والبيانات والقرارات البحثية.",
+  "rule": "ميز الاقتباس من التلخيص، وسجل المصدر الأصلي، وراجع الأمانة ودقة الإحالة.",
+  "vocabulary": [
+    {
+      "term": "akademik dürüstlük",
+      "meaningAr": "النزاهة الأكاديمية",
+      "exampleTr": "Başkasının düşüncesini kendi ifademle aktarsam da kaynağı belirtirim.",
+      "exampleAr": "حتى عندما أنقل فكرة شخص آخر بصياغتي أذكر المصدر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Başkasının düşüncesini kendi ifademle aktarsam da kaynağı belirtirim.",
+      "ar": "حتى عندما أنقل فكرة شخص آخر بصياغتي أذكر المصدر."
+    },
+    {
+      "tr": "Kaynak zincirini ve alıntı sınırlarını kontrol ettim.",
+      "ar": "راجعت سلسلة المصادر وحدود الاقتباس."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yeniden ifade etmek kaynak gerektirmez mi؟",
+      "ar": "ألا تحتاج إعادة الصياغة إلى مصدر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Fikir başkasına aitse kaynak gösterilmelidir.",
+      "ar": "إذا كانت الفكرة لشخص آخر فيجب ذكر المصدر."
+    }
+  ],
+  "speakingTask": "حرر فقرة بحثية وأضف إحالات دقيقة لكل فكرة مقتبسة.",
+  "questions": [
+    {
+      "id": "c2-u11-05-q1",
+      "prompt": "ما معنى «akademik dürüstlük»؟",
+      "options": [
+        "طلب الإذن",
+        "النزاهة الأكاديمية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«akademik dürüstlük» تعني: النزاهة الأكاديمية."
+    },
+    {
+      "id": "c2-u11-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حتى عندما أنقل فكرة شخص آخر بصياغتي أذكر المصدر.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "حتى عندما أنقل فكرة شخص آخر بصياغتي أذكر المصدر."
+    },
+    {
+      "id": "c2-u11-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kaynak gösterme"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «kaynak gösterme». ميز الاقتباس من التلخيص، وسجل المصدر الأصلي، وراجع الأمانة ودقة الإحالة."
+    },
+    {
+      "id": "c2-u11-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "توثيق المصادر بأمانة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "توثيق المصادر بأمانة."
+    },
+    {
+      "id": "c2-u11-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حرر فقرة بحثية وأضف إحالات دقيقة لكل فكرة مقتبسة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حرر فقرة بحثية وأضف إحالات دقيقة لكل فكرة مقتبسة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u11",
+    "legacyGlobalNumber": 525
+  }
+}

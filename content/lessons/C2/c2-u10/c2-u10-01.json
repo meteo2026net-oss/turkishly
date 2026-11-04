@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u10-01",
+  "level": "C2",
+  "unitId": "c2-u10",
+  "order": 1,
+  "title": {
+    "ar": "تحليل الخطاب السياسي المقارن",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "تحليل الخطاب والنقد المقارن",
+    "titleTr": "Söylem Çözümlemesi ve Karşılaştırmalı Eleştiri",
+    "description": "تحليل الأطر البلاغية والحجاج والتناص والمعلومات المضللة والخطاب العام."
+  },
+  "contentStatus": "full",
+  "goal": "تحليل الأطر والحجج والاستراتيجيات الخطابية في خطابات سياسية من سياقات مختلفة.",
+  "rule": "افصل بين مضمون الرسالة وإطارها البلاغي وافتراضاتها، وقارن المصطلحات والسياق والجمهور.",
+  "vocabulary": [
+    {
+      "term": "söylem çerçevesi",
+      "meaningAr": "الإطار الخطابي",
+      "exampleTr": "Konuşmanın çerçevesi, seçilen kavramlar ve vurgular aracılığıyla kuruluyor.",
+      "exampleAr": "يتشكل إطار الخطاب من خلال المفاهيم المختارة ونقاط التركيز."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Konuşmanın çerçevesi, seçilen kavramlar ve vurgular aracılığıyla kuruluyor.",
+      "ar": "يتشكل إطار الخطاب من خلال المفاهيم المختارة ونقاط التركيز."
+    },
+    {
+      "tr": "İki konuşmanın hedef kitlesini ve söylem çerçevesini karşılaştırdım.",
+      "ar": "قارنت الجمهور المستهدف والإطار الخطابي لخطابين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Aynı olay neden farklı anlatılıyor؟",
+      "ar": "لماذا يُروى الحدث نفسه بصورة مختلفة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Çünkü çerçeve ve öncelikler değişiyor.",
+      "ar": "لأن الإطار والأولويات يتغيران."
+    }
+  ],
+  "speakingTask": "قارن خطابين حول القضية نفسها وحدد الأطر والحجج والافتراضات.",
+  "questions": [
+    {
+      "id": "c2-u10-01-q1",
+      "prompt": "ما معنى «söylem çerçevesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "الإطار الخطابي"
+      ],
+      "answerIndex": 3,
+      "explanation": "«söylem çerçevesi» تعني: الإطار الخطابي."
+    },
+    {
+      "id": "c2-u10-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يتشكل إطار الخطاب من خلال المفاهيم المختارة ونقاط التركيز.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يتشكل إطار الخطاب من خلال المفاهيم المختارة ونقاط التركيز."
+    },
+    {
+      "id": "c2-u10-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "karşılaştırmalı söylem çözümlemesi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «karşılaştırmalı söylem çözümlemesi». افصل بين مضمون الرسالة وإطارها البلاغي وافتراضاتها، وقارن المصطلحات والسياق والجمهور."
+    },
+    {
+      "id": "c2-u10-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تحليل الخطاب ومقارنة أطره.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تحليل الخطاب ومقارنة أطره."
+    },
+    {
+      "id": "c2-u10-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "قارن خطابين حول القضية نفسها وحدد الأطر والحجج والافتراضات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "قارن خطابين حول القضية نفسها وحدد الأطر والحجج والافتراضات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u10",
+    "legacyGlobalNumber": 511
+  }
+}

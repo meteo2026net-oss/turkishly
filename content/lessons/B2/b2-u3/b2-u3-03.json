@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u3-03",
+  "level": "B2",
+  "unitId": "b2-u3",
+  "order": 3,
+  "title": {
+    "ar": "المقارنة النقدية بين المصادر",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
+    "titleTr": "İleri Akademik ve Mesleki İletişim",
+    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "تقييم مصادر متعددة ومقارنة موثوقيتها وحدودها.",
+  "rule": "استخدم kaynaklara göre (وفق المصادر)، buna karşılık (في المقابل)، tutarlılık (الاتساق)، güvenilirlik (الموثوقية)، sınırlılık (الحدود). لا تعتبر التشابه وحده دليلاً على الصحة.",
+  "vocabulary": [
+    {
+      "term": "güvenilirlik",
+      "meaningAr": "الموثوقية",
+      "exampleTr": "Kaynağın güvenilirliği, kullanılan yöntemle yakından ilişkilidir.",
+      "exampleAr": "ترتبط موثوقية المصدر ارتباطاً وثيقاً بالمنهج المستخدم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "أمر",
+      "ar": ""
+    },
+    {
+      "tr": "İki kaynak benzer sonuçlara ulaşıyor.",
+      "ar": "توصل مصدران إلى نتائج متشابهة."
+    },
+    {
+      "tr": "Ancak örneklem büyüklüğü sınırlı.",
+      "ar": "لكن حجم العينة محدود."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi kaynağı kullanmalıyız?",
+      "ar": "أي مصدر ينبغي أن نستخدم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yöntemi açık ve verileri tutarlı olanı.",
+      "ar": "المصدر الذي منهجه واضح وبياناته متسقة."
+    }
+  ],
+  "speakingTask": "قارن مصدرين افتراضيين واذكر قوة كل منهما وحدوده.",
+  "questions": [
+    {
+      "id": "b2-u3-03-q1",
+      "prompt": "ما معنى «güvenilirlik»؟",
+      "options": [
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "الموثوقية"
+      ],
+      "answerIndex": 3,
+      "explanation": "güvenilirlik تعني الموثوقية."
+    },
+    {
+      "id": "b2-u3-03-q2",
+      "prompt": "ما ترجمة الجملة: «Kaynağın güvenilirliği, kullanılan yöntemle yakından ilişkilidir.»؟",
+      "options": [
+        "ترتبط موثوقية المصدر ارتباطاً وثيقاً بالمنهج المستخدم.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "Kaynağın güvenilirliği, kullanılan yöntemle yakından ilişkilidir. تعني ترتبط موثوقية المصدر ارتباطاً وثيقاً بالمنهج المستخدم.."
+    },
+    {
+      "id": "b2-u3-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "kişisel tahmin",
+        "kaynak + kanıt + tutarlılık + sınırlılık",
+        "eleştirel değerlendirme",
+        "körü körüne kabul"
+      ],
+      "answerIndex": 1,
+      "explanation": "مصدر ودليل واتساق وحدود."
+    },
+    {
+      "id": "b2-u3-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «kaynak + kanıt + tutarlılık + sınırlılık»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تقييم قوة المعلومات وحدودها.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقييم قوة المعلومات وحدودها."
+    },
+    {
+      "id": "b2-u3-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تقييم قوة المعلومات وحدودها.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "تقييم قوة المعلومات وحدودها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u3",
+    "legacyGlobalNumber": 203
+  }
+}

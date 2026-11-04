@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u3-10",
+  "level": "B2",
+  "unitId": "b2-u3",
+  "order": 10,
+  "title": {
+    "ar": "الاختبار الختامي الشامل للمستوى B2",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
+    "titleTr": "İleri Akademik ve Mesleki İletişim",
+    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "إظهار القدرة على فهم النصوص المركبة وبناء حجج وتقارير وعروض متقدمة.",
+  "rule": "يتطلب B2 ربط الأفكار بدقة، استخدام الجمل التابعة والمبني للمجهول والتسبب والشرط والاستنتاج، كتابة مراسلات وتقارير، تقييم المصادر، وعرض رأي مع دليل واعتراض ورد. راجع الدقة والترابط وملاءمة الأسلوب.",
+  "vocabulary": [
+    {
+      "term": "tutarlılık",
+      "meaningAr": "الاتساق / الترابط المنطقي",
+      "exampleTr": "Bir metnin tutarlılığı, fikirlerin mantıklı biçimde birbirine bağlanmasına bağlıdır.",
+      "exampleAr": "يعتمد اتساق النص على ترابط الأفكار بطريقة منطقية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "كلمات غير مترابطة",
+      "ar": ""
+    },
+    {
+      "tr": "Veriler, önerilen yaklaşımın etkili olduğunu gösteriyor.",
+      "ar": "تظهر البيانات أن النهج المقترح فعال."
+    },
+    {
+      "tr": "Buna rağmen sınırlılıkları da dikkate almalıyız.",
+      "ar": "ومع ذلك ينبغي أن نأخذ حدوده في الاعتبار."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "B2 seviyesinde hangi beceriler önemlidir?",
+      "ar": "ما المهارات المهمة في مستوى B2؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Karmaşık fikirleri açıklamak, tartışmak ve tutarlı metinler üretmek.",
+      "ar": "شرح الأفكار المركبة ومناقشتها وإنتاج نصوص مترابطة."
+    }
+  ],
+  "speakingTask": "نفّذ تقييماً متكاملاً: اكتب تقريراً من 180 كلمة، ثم قدم عرضاً شفهياً من خمس دقائق، وناقش اعتراضاً واحداً مدعوماً بدليل.",
+  "questions": [
+    {
+      "id": "b2-u3-10-q1",
+      "prompt": "ما معنى «tutarlılık»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "الاتساق / الترابط المنطقي",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "tutarlılık تعني الاتساق / الترابط المنطقي."
+    },
+    {
+      "id": "b2-u3-10-q2",
+      "prompt": "ما ترجمة الجملة: «Bir metnin tutarlılığı, fikirlerin mantıklı biçimde birbirine bağlanmasına bağlıdır.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "يعتمد اتساق النص على ترابط الأفكار بطريقة منطقية."
+      ],
+      "answerIndex": 3,
+      "explanation": "Bir metnin tutarlılığı, fikirlerin mantıklı biçimde birbirine bağlanmasına bağlıdır. تعني يعتمد اتساق النص على ترابط الأفكار بطريقة منطقية.."
+    },
+    {
+      "id": "b2-u3-10-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "kanıt + gerekçe + karşı görüş + sonuç",
+        "B2 düzeyinde bütünleşik iletişim",
+        "yalnızca basit cümleler",
+        "ezberlenmiş tek ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "دليل وتعليل ورأي مقابل وخلاصة."
+    },
+    {
+      "id": "b2-u3-10-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «kanıt + gerekçe + karşı görüş + sonuç»؟",
+      "options": [
+        "النفي المطلق",
+        "إنتاج خطاب متقدم دقيق ومترابط ومناسب للسياق.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إنتاج خطاب متقدم دقيق ومترابط ومناسب للسياق."
+    },
+    {
+      "id": "b2-u3-10-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إنتاج خطاب متقدم دقيق ومترابط ومناسب للسياق."
+      ],
+      "answerIndex": 3,
+      "explanation": "إنتاج خطاب متقدم دقيق ومترابط ومناسب للسياق."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u3",
+    "legacyGlobalNumber": 210
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u3-09",
+  "level": "B1",
+  "unitId": "b1-u3",
+  "order": 9,
+  "title": {
+    "ar": "الجمع والنفي hem...hem de وne...ne de",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "الجمع بين عنصرين أو نفيهما معاً.",
+  "rule": "hem ... hem de تعني كلاهما/ليس هذا فقط بل ذاك أيضاً. ne ... ne de تعني لا ... ولا، وغالباً يبقى الفعل مثبت الشكل مع معنى النفي الذي تحمله البنية.",
+  "vocabulary": [
+    {
+      "term": "hem ... hem de",
+      "meaningAr": "كلاهما ... وكذلك",
+      "exampleTr": "Hem Türkçe hem de İngilizce öğreniyorum.",
+      "exampleAr": "أتعلم التركية والإنجليزية معاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Hem çalışıyor hem de okuyor.",
+      "ar": "يعمل ويدرس في الوقت نفسه."
+    },
+    {
+      "tr": "Ne kahve ne de çay istiyorum.",
+      "ar": "لا أريد القهوة ولا الشاي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Kahve mi çay mı?",
+      "ar": "قهوة أم شاي؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ne kahve ne de çay; su istiyorum.",
+      "ar": "لا قهوة ولا شاي؛ أريد ماءً."
+    }
+  ],
+  "speakingTask": "اكتب جملتين: واحدة للجمع بـ hem، وأخرى للنفي بـ ne.",
+  "questions": [
+    {
+      "id": "b1-u3-09-q1",
+      "prompt": "ما معنى «hem ... hem de»؟",
+      "options": [
+        "لأن",
+        "كلاهما ... وكذلك",
+        "إما ... أو",
+        "على الرغم من"
+      ],
+      "answerIndex": 1,
+      "explanation": "hem ... hem de تعني كلاهما ... وكذلك."
+    },
+    {
+      "id": "b1-u3-09-q2",
+      "prompt": "ما ترجمة الجملة: «Hem Türkçe hem de İngilizce öğreniyorum.»؟",
+      "options": [
+        "لا أتعلم التركية ولا الإنجليزية.",
+        "سأتعلم الإنجليزية لاحقاً.",
+        "أتعلم التركية والإنجليزية معاً.",
+        "أتعلم التركية فقط."
+      ],
+      "answerIndex": 2,
+      "explanation": "Hem Türkçe hem de İngilizce öğreniyorum. تعني أتعلم التركية والإنجليزية معاً.."
+    },
+    {
+      "id": "b1-u3-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "ya ... ya da",
+        "hem ... hem de",
+        "ister ... ister",
+        "ne ... ne de"
+      ],
+      "answerIndex": 3,
+      "explanation": "لا ... ولا، لنفي عنصرين أو أكثر."
+    },
+    {
+      "id": "b1-u3-09-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «ne ... ne de»؟",
+      "options": [
+        "نفي عنصرين أو أكثر",
+        "عرض خيارين",
+        "جمع عنصرين مثبتين",
+        "ذكر السبب"
+      ],
+      "answerIndex": 0,
+      "explanation": "الجمع بين عناصر أو نفيها بصورة مزدوجة."
+    },
+    {
+      "id": "b1-u3-09-q5",
+      "prompt": "أكمل التركيب: Hem Türkçe hem de İngilizce öğreniyorum.",
+      "options": [
+        "hem ... hem de",
+        "ister ... ister",
+        "ne ... ne de",
+        "ya ... ya da"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي ne ... ne de؛ لا ... ولا، لنفي عنصرين أو أكثر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u3",
+    "legacyGlobalNumber": 149
+  }
+}

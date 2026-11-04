@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u8-05",
+  "level": "C1",
+  "unitId": "c1-u8",
+  "order": 5,
+  "title": {
+    "ar": "إعادة الصياغة للوساطة اللغوية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التداولية والوساطة بين الثقافات",
+    "titleTr": "Edimbilim ve Kültürlerarası Arabuluculuk",
+    "description": "فهم النية الضمنية واللباقة والإحالات الثقافية وإصلاح سوء الفهم والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "نقل معنى طرف إلى آخر بلغة محايدة تحفظ المقصود.",
+  "rule": "احذف الأحكام الشخصية، ووضح النقاط المتفق عليها، وانسب كل موقف إلى صاحبه.",
+  "vocabulary": [
+    {
+      "term": "arabuluculuk",
+      "meaningAr": "وساطة",
+      "exampleTr": "Tarafların beklentilerini tarafsız bir dille yeniden ifade ettim.",
+      "exampleAr": "أعدت التعبير عن توقعات الأطراف بلغة محايدة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tarafların beklentilerini tarafsız bir dille yeniden ifade ettim.",
+      "ar": "أعدت التعبير عن توقعات الأطراف بلغة محايدة."
+    },
+    {
+      "tr": "Her iki tarafın görüşünü dengeli biçimde aktardım.",
+      "ar": "نقلت رأي الطرفين بصورة متوازنة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Benim söylediğimi doğru aktardınız mı؟",
+      "ar": "هل نقلت كلامي بدقة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, anlamı koruyup ifadeyi tarafsızlaştırdım.",
+      "ar": "نعم، حافظت على المعنى وجعلت الصياغة محايدة."
+    }
+  ],
+  "speakingTask": "قم بدور وسيط وأعد صياغة موقفين متعارضين بصورة محايدة.",
+  "questions": [
+    {
+      "id": "c1-u8-05-q1",
+      "prompt": "ما معنى «arabuluculuk»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "وساطة"
+      ],
+      "answerIndex": 3,
+      "explanation": "«arabuluculuk» تعني: وساطة."
+    },
+    {
+      "id": "c1-u8-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "أعدت التعبير عن توقعات الأطراف بلغة محايدة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "أعدت التعبير عن توقعات الأطراف بلغة محايدة."
+    },
+    {
+      "id": "c1-u8-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "tarafsız yeniden ifade",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «tarafsız yeniden ifade». احذف الأحكام الشخصية، ووضح النقاط المتفق عليها، وانسب كل موقف إلى صاحبه."
+    },
+    {
+      "id": "c1-u8-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "نقل الرسالة دون تحريف أو انحياز.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "نقل الرسالة دون تحريف أو انحياز."
+    },
+    {
+      "id": "c1-u8-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "قم بدور وسيط وأعد صياغة موقفين متعارضين بصورة محايدة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "قم بدور وسيط وأعد صياغة موقفين متعارضين بصورة محايدة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u8",
+    "legacyGlobalNumber": 375
+  }
+}

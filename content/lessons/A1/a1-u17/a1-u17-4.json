@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u17-4",
+  "level": "A1",
+  "unitId": "a1-u17",
+  "order": 4,
+  "title": {
+    "ar": {
+      "id": "a1-u17-04",
+      "order": 4,
+      "titleAr": "وصف المهام والمسؤوليات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمل والمهن والحياة المهنية",
+    "titleTr": "İşler, Meslekler ve İş Hayatı",
+    "description": "أسماء المهن وأماكن العمل والمهام والمسؤوليات وأوقات الدوام والمهارات والتعريف بالحياة المهنية."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام أفعال بسيطة لوصف مهام العمل.",
+  "rule": "أفعال شائعة: çalışmak يعمل، öğretmek يعلّم، yazmak يكتب، okumak يقرأ، üretmek ينتج، yönetmek يدير، yardım etmek يساعد. أمثلة: İnsanlara yardım ediyorum (أساعد الناس)، Öğrencilere Türkçe öğretiyorum (أعلّم التركية للطلاب).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "çalışmak",
+      "ar": "يعمل"
+    },
+    {
+      "tr": "öğretmek",
+      "ar": "يعلّم"
+    },
+    {
+      "tr": "yazmak",
+      "ar": "يكتب"
+    },
+    {
+      "tr": "üretmek",
+      "ar": "ينتج"
+    },
+    {
+      "tr": "yardım etmek",
+      "ar": "يساعد"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u17-4-q1",
+      "prompt": "ما معنى öğretmek؟",
+      "options": [
+        "ينتج",
+        "يعلّم",
+        "يقرأ",
+        "يدير"
+      ],
+      "answerIndex": 1,
+      "explanation": "öğretmek تعني يعلّم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u17",
+    "legacyLessonOrder": 4
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u9-08",
+  "level": "C1",
+  "unitId": "c1-u9",
+  "order": 8,
+  "title": {
+    "ar": "تحرير الأسلوب والاتساق النهائي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الإتقان والتقييم المتكامل لمستوى C1",
+    "titleTr": "C1 Yetkinliği ve Bütünleşik Değerlendirme",
+    "description": "الكتابة الحجاجية والعروض والأسئلة الصعبة والمناظرة والتحرير وملف الإنجاز."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة النص من حيث الوضوح والإحالة والتكرار والنبرة.",
+  "rule": "حرر على مراحل: بنية النص ثم الفقرة والجملة ثم المفردات وعلامات الترقيم.",
+  "vocabulary": [
+    {
+      "term": "son redaksiyon",
+      "meaningAr": "مراجعة تحريرية نهائية",
+      "exampleTr": "Son redaksiyonda terim birliğini ve paragraf geçişlerini kontrol ettim.",
+      "exampleAr": "تحققت في المراجعة النهائية من توحيد المصطلحات والانتقالات بين الفقرات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Son redaksiyonda terim birliğini ve paragraf geçişlerini kontrol ettim.",
+      "ar": "تحققت في المراجعة النهائية من توحيد المصطلحات والانتقالات بين الفقرات."
+    },
+    {
+      "tr": "Metnin son biçiminde tutarlılığı sağladım.",
+      "ar": "حققت الاتساق في النسخة النهائية."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Önce hangi bölümü düzelttin؟",
+      "ar": "أي جزء صححت أولاً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce yapıyı, sonra dili.",
+      "ar": "البنية أولاً ثم اللغة."
+    }
+  ],
+  "speakingTask": "حرر تقريراً طويلاً وسجل التغييرات الجوهرية وأسبابها.",
+  "questions": [
+    {
+      "id": "c1-u9-08-q1",
+      "prompt": "ما معنى «son redaksiyon»؟",
+      "options": [
+        "مراجعة تحريرية نهائية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«son redaksiyon» تعني: مراجعة تحريرية نهائية."
+    },
+    {
+      "id": "c1-u9-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "تحققت في المراجعة النهائية من توحيد المصطلحات والانتقالات بين الفقرات.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "تحققت في المراجعة النهائية من توحيد المصطلحات والانتقالات بين الفقرات."
+    },
+    {
+      "id": "c1-u9-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "metin tutarlılığı",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «metin tutarlılığı». حرر على مراحل: بنية النص ثم الفقرة والجملة ثم المفردات وعلامات الترقيم."
+    },
+    {
+      "id": "c1-u9-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "ضبط الاتساق الأسلوبي والمصطلحي."
+      ],
+      "answerIndex": 3,
+      "explanation": "ضبط الاتساق الأسلوبي والمصطلحي."
+    },
+    {
+      "id": "c1-u9-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "حرر تقريراً طويلاً وسجل التغييرات الجوهرية وأسبابها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "حرر تقريراً طويلاً وسجل التغييرات الجوهرية وأسبابها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u9",
+    "legacyGlobalNumber": 388
+  }
+}

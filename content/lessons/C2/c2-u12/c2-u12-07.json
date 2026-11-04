@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u12-07",
+  "level": "C2",
+  "unitId": "c2-u12",
+  "order": 7,
+  "title": {
+    "ar": "صياغة اتفاقات متعددة الأطراف",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الدبلوماسية والقيادة الدولية والمشروع الختامي",
+    "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
+    "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
+  },
+  "contentStatus": "full",
+  "goal": "كتابة اتفاق يحدد المصطلحات والالتزامات والاستثناءات وآليات المتابعة.",
+  "rule": "عرّف المصطلحات، وحدد الأطراف والمسؤوليات والجدول والتعديل وتسوية النزاع.",
+  "vocabulary": [
+    {
+      "term": "çok taraflı anlaşma",
+      "meaningAr": "اتفاق متعدد الأطراف",
+      "exampleTr": "Anlaşmada yükümlülükleri ve uygulama takvimini açıkça tanımladık.",
+      "exampleAr": "حددنا الالتزامات وجدول التنفيذ بوضوح في الاتفاق."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Anlaşmada yükümlülükleri ve uygulama takvimini açıkça tanımladık.",
+      "ar": "حددنا الالتزامات وجدول التنفيذ بوضوح في الاتفاق."
+    },
+    {
+      "tr": "Her yükümlülüğü sorumlu taraf ve tarihle eşleştirdim.",
+      "ar": "ربطت كل التزام بالطرف المسؤول والتاريخ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Belirsiz ifadeler sorun yaratır mı؟",
+      "ar": "هل تسبب العبارات الغامضة مشكلات؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Uygulamada farklı yorumlara yol açabilir.",
+      "ar": "قد تؤدي إلى تفسيرات مختلفة عند التطبيق."
+    }
+  ],
+  "speakingTask": "اكتب مسودة اتفاق من خمسة بنود مع آلية مراجعة وتسوية خلاف.",
+  "questions": [
+    {
+      "id": "c2-u12-07-q1",
+      "prompt": "ما معنى «çok taraflı anlaşma»؟",
+      "options": [
+        "طلب الإذن",
+        "اتفاق متعدد الأطراف",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«çok taraflı anlaşma» تعني: اتفاق متعدد الأطراف."
+    },
+    {
+      "id": "c2-u12-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حددنا الالتزامات وجدول التنفيذ بوضوح في الاتفاق.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "حددنا الالتزامات وجدول التنفيذ بوضوح في الاتفاق."
+    },
+    {
+      "id": "c2-u12-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "anlaşma hükümleri"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «anlaşma hükümleri». عرّف المصطلحات، وحدد الأطراف والمسؤوليات والجدول والتعديل وتسوية النزاع."
+    },
+    {
+      "id": "c2-u12-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "صياغة بنود اتفاق متعدد الأطراف.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "صياغة بنود اتفاق متعدد الأطراف."
+    },
+    {
+      "id": "c2-u12-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب مسودة اتفاق من خمسة بنود مع آلية مراجعة وتسوية خلاف.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب مسودة اتفاق من خمسة بنود مع آلية مراجعة وتسوية خلاف."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u12",
+    "legacyGlobalNumber": 537
+  }
+}

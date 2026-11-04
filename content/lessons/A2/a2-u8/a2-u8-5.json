@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-5",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 5,
+  "title": {
+    "ar": {
+      "id": "a2-u8-05",
+      "order": 5,
+      "titleAr": "أفراد الأسرة ومفردات القرابة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "أفراد الأسرة ومفردات القرابة.",
+  "rule": "anne الأم، baba الأب، kardeş الأخ أو الأخت، abla الأخت الكبرى، ağabey/abi الأخ الأكبر، kız kardeş الأخت، erkek kardeş الأخ، eş الزوج أو الزوجة. ومن الأقارب: teyze الخالة، hala العمة، dayı الخال، amca العم، kuzen ابن/بنت العم أو الخال.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "annem ve babam",
+      "ar": "أمي وأبي."
+    },
+    {
+      "tr": "ablam",
+      "ar": "أختي الكبرى."
+    },
+    {
+      "tr": "erkek kardeşim",
+      "ar": "أخي."
+    },
+    {
+      "tr": "teyzem ve dayım",
+      "ar": "خالتي وخالي."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-5-q1",
+      "prompt": "ما الكلمة التي تعني الأخ أو الأخت دون تحديد الجنس؟",
+      "options": [
+        "kardeş",
+        "abla",
+        "amca",
+        "teyze"
+      ],
+      "answerIndex": 0,
+      "explanation": "kardeş تعني أخاً أو أختاً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 5
+  }
+}

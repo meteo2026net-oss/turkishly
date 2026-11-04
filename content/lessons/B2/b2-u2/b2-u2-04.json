@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u2-04",
+  "level": "B2",
+  "unitId": "b2-u2",
+  "order": 4,
+  "title": {
+    "ar": "الروابط الحجاجية المتقدمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
+    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
+    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+  },
+  "contentStatus": "full",
+  "goal": "بناء حجة مترابطة وعرض وجهات النظر المختلفة.",
+  "rule": "تستخدم bununla birlikte (ومع ذلك/إلى جانب ذلك)، öte yandan (من ناحية أخرى)، dolayısıyla (وبالتالي)، nitekim (والدليل على ذلك).",
+  "vocabulary": [
+    {
+      "term": "öte yandan",
+      "meaningAr": "من ناحية أخرى",
+      "exampleTr": "Uzaktan çalışma esneklik sağlar; öte yandan iletişimi zorlaştırabilir.",
+      "exampleAr": "يوفر العمل عن بُعد مرونة؛ ومن ناحية أخرى قد يصعّب التواصل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تحديد مكان",
+      "ar": ""
+    },
+    {
+      "tr": "Bununla birlikte maliyetler de artabilir.",
+      "ar": "ومع ذلك قد ترتفع التكاليف أيضاً."
+    },
+    {
+      "tr": "Dolayısıyla yeni bir plan hazırlamalıyız.",
+      "ar": "وبالتالي علينا إعداد خطة جديدة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu yöntem tamamen iyi mi?",
+      "ar": "هل هذه الطريقة جيدة تماماً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Avantajları var; öte yandan bazı riskleri de bulunuyor.",
+      "ar": "لها مزايا؛ ومن ناحية أخرى لها بعض المخاطر."
+    }
+  ],
+  "speakingTask": "اكتب حجة من فقرتين تعرض فيها رأياً ورأياً مضاداً.",
+  "questions": [
+    {
+      "id": "b2-u2-04-q1",
+      "prompt": "ما معنى «öte yandan»؟",
+      "options": [
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "من ناحية أخرى",
+        "يُستخدم للتعبير عن السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "öte yandan تعني من ناحية أخرى."
+    },
+    {
+      "id": "b2-u2-04-q2",
+      "prompt": "ما ترجمة الجملة: «Uzaktan çalışma esneklik sağlar; öte yandan iletişimi zorlaştırabilir.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "يوفر العمل عن بُعد مرونة؛ ومن ناحية أخرى قد يصعّب التواصل."
+      ],
+      "answerIndex": 3,
+      "explanation": "Uzaktan çalışma esneklik sağlar; öte yandan iletişimi zorlaştırabilir. تعني يوفر العمل عن بُعد مرونة؛ ومن ناحية أخرى قد يصعّب التواصل.."
+    },
+    {
+      "id": "b2-u2-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "iddia + karşıt görüş + sonuç",
+        "karşıtlık ve bağlama",
+        "zaman sıralaması",
+        "emir"
+      ],
+      "answerIndex": 0,
+      "explanation": "رأي وحجة مقابلة ونتيجة."
+    },
+    {
+      "id": "b2-u2-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «iddia + karşıt görüş + sonuç»؟",
+      "options": [
+        "النفي المطلق",
+        "تنظيم حجة متعددة الجوانب.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تنظيم حجة متعددة الجوانب."
+    },
+    {
+      "id": "b2-u2-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تنظيم حجة متعددة الجوانب."
+      ],
+      "answerIndex": 3,
+      "explanation": "تنظيم حجة متعددة الجوانب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u2",
+    "legacyGlobalNumber": 194
+  }
+}

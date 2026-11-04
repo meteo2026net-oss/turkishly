@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-05",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 5,
+  "title": {
+    "ar": "إدارة جلسات الوساطة المعقدة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "إدارة وساطة تضم أطرافاً متعددة وموضوعات متشابكة.",
+  "rule": "حدد قواعد الحوار، وافصل المسائل، ودوّن نقاط الاتفاق والاختلاف والالتزامات.",
+  "vocabulary": [
+    {
+      "term": "çok konulu arabuluculuk",
+      "meaningAr": "وساطة متعددة الموضوعات",
+      "exampleTr": "Önce ortak konuları belirleyip tartışmalı maddeleri ayrı ele aldık.",
+      "exampleAr": "حددنا الموضوعات المشتركة أولاً ثم تناولنا البنود الخلافية منفصلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Önce ortak konuları belirleyip tartışmalı maddeleri ayrı ele aldık.",
+      "ar": "حددنا الموضوعات المشتركة أولاً ثم تناولنا البنود الخلافية منفصلة."
+    },
+    {
+      "tr": "Arabuluculuk sürecini aşamalara ayırdım.",
+      "ar": "قسمت عملية الوساطة إلى مراحل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bütün sorunları aynı oturumda mı çözelim؟",
+      "ar": "هل نحل كل المشكلات في جلسة واحدة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önceliklere göre ayrı oturumlar planlayalım.",
+      "ar": "لنخطط جلسات منفصلة وفق الأولويات."
+    }
+  ],
+  "speakingTask": "صمم جدول وساطة من ثلاث جلسات مع نتائج قابلة للتوثيق.",
+  "questions": [
+    {
+      "id": "c2-u3-05-q1",
+      "prompt": "ما معنى «çok konulu arabuluculuk»؟",
+      "options": [
+        "طلب الإذن",
+        "وساطة متعددة الموضوعات",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«çok konulu arabuluculuk» تعني: وساطة متعددة الموضوعات."
+    },
+    {
+      "id": "c2-u3-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حددنا الموضوعات المشتركة أولاً ثم تناولنا البنود الخلافية منفصلة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "حددنا الموضوعات المشتركة أولاً ثم تناولنا البنود الخلافية منفصلة."
+    },
+    {
+      "id": "c2-u3-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "arabuluculuk oturumu"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «arabuluculuk oturumu». حدد قواعد الحوار، وافصل المسائل، ودوّن نقاط الاتفاق والاختلاف والالتزامات."
+    },
+    {
+      "id": "c2-u3-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "إدارة وساطة منظمة متعددة المسائل.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "إدارة وساطة منظمة متعددة المسائل."
+    },
+    {
+      "id": "c2-u3-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "صمم جدول وساطة من ثلاث جلسات مع نتائج قابلة للتوثيق.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "صمم جدول وساطة من ثلاث جلسات مع نتائج قابلة للتوثيق."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyGlobalNumber": 445
+  }
+}

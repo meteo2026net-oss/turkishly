@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u8-6",
+  "level": "A2",
+  "unitId": "a2-u8",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a2-u8-06",
+      "order": 6,
+      "titleAr": "وصف العلاقات العائلية وصلات القرابة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الضمائر والملكية والعلاقات العائلية",
+    "titleTr": "Aile, İyelik ve Zamirler",
+    "description": "استخدام ضمائر الملكية ولواحقها وتراكيب الإضافة، والسؤال عن صاحب الأشياء، والتحدث عن أفراد الأسرة وصلات القرابة."
+  },
+  "contentStatus": "full",
+  "goal": "وصف العلاقات العائلية.",
+  "rule": "استخدم لاحقة الملكية مع أفراد الأسرة: annem أمي، baban أبوك، kardeşi أخوه/أخته، dedem جدي، ninem جدتي. للتعريف بالقرابة نقول O benim teyzem (هي خالتي)، وAli benim kuzenim (علي ابن عمي/خالتي).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "O benim teyzem.",
+      "ar": "هي خالتي."
+    },
+    {
+      "tr": "Ali benim kuzenim.",
+      "ar": "علي ابن عمي/خالتي."
+    },
+    {
+      "tr": "Bu benim dedem.",
+      "ar": "هذا جدي."
+    },
+    {
+      "tr": "Onlar benim akrabalarım.",
+      "ar": "هؤلاء أقاربي."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u8-6-q1",
+      "prompt": "كيف تقول «هذه جدتي»؟",
+      "options": [
+        "Bu benim ninem.",
+        "Bu benim dayım.",
+        "Bu benim abim.",
+        "Bu benim eşim."
+      ],
+      "answerIndex": 0,
+      "explanation": "ninem تعني جدتي، وdedem تعني جدي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u8",
+    "legacyLessonOrder": 6
+  }
+}

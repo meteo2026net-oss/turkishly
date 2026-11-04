@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-3",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u11-03",
+      "order": 3,
+      "titleAr": "الوجبات وأوقات الطعام",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى أسماء الوجبات وأوقات تناول الطعام.",
+  "rule": "وجبات اليوم: kahvaltı فطور، öğle yemeği غداء، akşam yemeği عشاء، ara öğün وجبة خفيفة. كلمة aç تعني جائع، tok تعني شبعان. يمكنك قول Kahvaltı yapıyorum (أتناول الفطور)، أو Çok açım (أنا جائع جداً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "kahvaltı",
+      "ar": "الفطور"
+    },
+    {
+      "tr": "öğle yemeği",
+      "ar": "الغداء"
+    },
+    {
+      "tr": "akşam yemeği",
+      "ar": "العشاء"
+    },
+    {
+      "tr": "Çok açım.",
+      "ar": "أنا جائع جداً."
+    },
+    {
+      "tr": "Tokum, teşekkürler.",
+      "ar": "أنا شبعان، شكراً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-3-q1",
+      "prompt": "ما معنى kahvaltı؟",
+      "options": [
+        "العشاء",
+        "الفطور",
+        "الغداء",
+        "الحلوى"
+      ],
+      "answerIndex": 1,
+      "explanation": "kahvaltı تعني الفطور."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 3
+  }
+}

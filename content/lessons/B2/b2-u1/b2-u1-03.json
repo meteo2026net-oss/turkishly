@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u1-03",
+  "level": "B2",
+  "unitId": "b2-u1",
+  "order": 3,
+  "title": {
+    "ar": "الجمل الاسمية الموصولة وتحديد الفاعل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التراكيب النحوية المتقدمة",
+    "titleTr": "İleri Dilbilgisi Yapıları",
+    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+  },
+  "contentStatus": "full",
+  "goal": "تحديد من قام بالفعل أو ما الذي حدث بدقة.",
+  "rule": "يمكن تحويل الجملة إلى وصف اسمي باستخدام -DIK أو -AcAK مع لواحق الملكية، ثم إضافة الاسم الموصوف أو حذفه إذا كان مفهوماً من السياق.",
+  "vocabulary": [
+    {
+      "term": "bildiğim",
+      "meaningAr": "الذي أعرفه",
+      "exampleTr": "Bildiğim tek şey, toplantının ertelendiği.",
+      "exampleAr": "الشيء الوحيد الذي أعرفه هو أن الاجتماع قد تأجل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "استمرار الفعل",
+      "ar": ""
+    },
+    {
+      "tr": "Onun söylediği doğru olabilir.",
+      "ar": "قد يكون ما قاله صحيحاً."
+    },
+    {
+      "tr": "Nereye gittiğini bilmiyorum.",
+      "ar": "لا أعرف إلى أين ذهب."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sonucu biliyor musun?",
+      "ar": "هل تعرف النتيجة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bildiğim kadarıyla henüz açıklanmadı.",
+      "ar": "حسب علمي لم تُعلن بعد."
+    }
+  ],
+  "speakingTask": "كوّن خمس جمل تبدأ بمعنى ما أعرفه أو ما أعتقده.",
+  "questions": [
+    {
+      "id": "b2-u1-03-q1",
+      "prompt": "ما معنى «bildiğim»؟",
+      "options": [
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "الذي أعرفه"
+      ],
+      "answerIndex": 3,
+      "explanation": "bildiğim تعني الذي أعرفه."
+    },
+    {
+      "id": "b2-u1-03-q2",
+      "prompt": "ما ترجمة الجملة: «Bildiğim tek şey, toplantının ertelendiği.»؟",
+      "options": [
+        "الشيء الوحيد الذي أعرفه هو أن الاجتماع قد تأجل.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bildiğim tek şey, toplantının ertelendiği. تعني الشيء الوحيد الذي أعرفه هو أن الاجتماع قد تأجل.."
+    },
+    {
+      "id": "b2-u1-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş",
+        "bildiğim / bildiğin / bildiği",
+        "-DIK + iyelik",
+        "-AcAk + iyelik"
+      ],
+      "answerIndex": 1,
+      "explanation": "تتغير لاحقة الملكية بحسب صاحب المعرفة."
+    },
+    {
+      "id": "b2-u1-03-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «bildiğim / bildiğin / bildiği»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "ربط جملة تابعة باسم أو معنى اسمي.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "ربط جملة تابعة باسم أو معنى اسمي."
+    },
+    {
+      "id": "b2-u1-03-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "ربط جملة تابعة باسم أو معنى اسمي.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "ربط جملة تابعة باسم أو معنى اسمي."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u1",
+    "legacyGlobalNumber": 183
+  }
+}

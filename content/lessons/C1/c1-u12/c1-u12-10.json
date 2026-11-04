@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u12-10",
+  "level": "C1",
+  "unitId": "c1-u12",
+  "order": 10,
+  "title": {
+    "ar": "مراجعة ملف الإنجاز النهائي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الاستراتيجي والمشروع الختامي",
+    "titleTr": "Stratejik İletişim ve Bitirme Projesi",
+    "description": "التوصيات الاستراتيجية والتواصل في الأزمات وأصحاب المصلحة والقيادة والتقييم النهائي."
+  },
+  "contentStatus": "full",
+  "goal": "تنظيم ملف الإنجاز وإثبات الكفاءة في مهارات C1 بأدلة منتقاة.",
+  "rule": "يضم الملف نماذج متنوعة ومعايير تقييم وتأملاً في التطور وأهدافاً مستقبلية قابلة للمتابعة.",
+  "vocabulary": [
+    {
+      "term": "portfolyo değerlendirmesi",
+      "meaningAr": "تقييم ملف الإنجاز",
+      "exampleTr": "Portfolyomda en güçlü çalışmalarımı ve gelişim notlarımı bir araya getirdim.",
+      "exampleAr": "جمعت في ملف إنجازي أفضل أعمالي وملاحظات تطوري."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Portfolyomda en güçlü çalışmalarımı ve gelişim notlarımı bir araya getirdim.",
+      "ar": "جمعت في ملف إنجازي أفضل أعمالي وملاحظات تطوري."
+    },
+    {
+      "tr": "Portfolyomdaki her çalışma belirli bir beceriyi gösteriyor.",
+      "ar": "يمثل كل عمل في ملف إنجازي مهارة محددة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Portfolyoyu nasıl tamamladın؟",
+      "ar": "كيف أكملت ملف الإنجاز؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Çalışmaları ölçütlere göre seçip gelişimimi açıkladım.",
+      "ar": "اخترت الأعمال وفق المعايير وشرحت تطوري."
+    }
+  ],
+  "speakingTask": "راجع ملفك واختر ستة أعمال تمثل المهارات الأربع مع تفسير سبب اختيار كل عمل.",
+  "questions": [
+    {
+      "id": "c1-u12-10-q1",
+      "prompt": "ما معنى «portfolyo değerlendirmesi»؟",
+      "options": [
+        "تقييم ملف الإنجاز",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«portfolyo değerlendirmesi» تعني: تقييم ملف الإنجاز."
+    },
+    {
+      "id": "c1-u12-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "جمعت في ملف إنجازي أفضل أعمالي وملاحظات تطوري.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "جمعت في ملف إنجازي أفضل أعمالي وملاحظات تطوري."
+    },
+    {
+      "id": "c1-u12-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kanıta dayalı öz değerlendirme",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «kanıta dayalı öz değerlendirme». يضم الملف نماذج متنوعة ومعايير تقييم وتأملاً في التطور وأهدافاً مستقبلية قابلة للمتابعة."
+    },
+    {
+      "id": "c1-u12-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "توثيق الكفاءة والتطور باستخدام عينات أداء ومعايير واضحة."
+      ],
+      "answerIndex": 3,
+      "explanation": "توثيق الكفاءة والتطور باستخدام عينات أداء ومعايير واضحة."
+    },
+    {
+      "id": "c1-u12-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "راجع ملفك واختر ستة أعمال تمثل المهارات الأربع مع تفسير سبب اختيار كل عمل.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "راجع ملفك واختر ستة أعمال تمثل المهارات الأربع مع تفسير سبب اختيار كل عمل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u12",
+    "legacyGlobalNumber": 420
+  }
+}

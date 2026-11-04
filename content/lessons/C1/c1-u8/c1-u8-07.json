@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u8-07",
+  "level": "C1",
+  "unitId": "c1-u8",
+  "order": 7,
+  "title": {
+    "ar": "الفروق التداولية في التعبيرات الاصطلاحية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التداولية والوساطة بين الثقافات",
+    "titleTr": "Edimbilim ve Kültürlerarası Arabuluculuk",
+    "description": "فهم النية الضمنية واللباقة والإحالات الثقافية وإصلاح سوء الفهم والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "تمييز ملاءمة التعبير الاصطلاحي بحسب العلاقة والمقام.",
+  "rule": "قد يكون التعبير طبيعياً بين الأصدقاء وغير مناسب في مراسلة رسمية؛ قيّم النبرة والجمهور.",
+  "vocabulary": [
+    {
+      "term": "deyimin kullanım alanı",
+      "meaningAr": "مجال استخدام التعبير الاصطلاحي",
+      "exampleTr": "Bu deyim günlük konuşmada doğal, resmî raporda ise uygun değildir.",
+      "exampleAr": "هذا التعبير طبيعي في الحديث اليومي لكنه غير مناسب في تقرير رسمي."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu deyim günlük konuşmada doğal, resmî raporda ise uygun değildir.",
+      "ar": "هذا التعبير طبيعي في الحديث اليومي لكنه غير مناسب في تقرير رسمي."
+    },
+    {
+      "tr": "Deyimin kullanım alanını dikkate aldım.",
+      "ar": "راعيت مجال استخدام التعبير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu deyimi raporda kullanabilir miyim؟",
+      "ar": "هل أستخدم هذا التعبير في التقرير؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Daha nötr bir ifade seçmek daha uygun.",
+      "ar": "اختيار تعبير محايد أنسب."
+    }
+  ],
+  "speakingTask": "صنف عشرة تعبيرات إلى يومية ومهنية ومحايدة.",
+  "questions": [
+    {
+      "id": "c1-u8-07-q1",
+      "prompt": "ما معنى «deyimin kullanım alanı»؟",
+      "options": [
+        "طلب الإذن",
+        "مجال استخدام التعبير الاصطلاحي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«deyimin kullanım alanı» تعني: مجال استخدام التعبير الاصطلاحي."
+    },
+    {
+      "id": "c1-u8-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "هذا التعبير طبيعي في الحديث اليومي لكنه غير مناسب في تقرير رسمي.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "هذا التعبير طبيعي في الحديث اليومي لكنه غير مناسب في تقرير رسمي."
+    },
+    {
+      "id": "c1-u8-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "bağlama uygun deyim"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «bağlama uygun deyim». قد يكون التعبير طبيعياً بين الأصدقاء وغير مناسب في مراسلة رسمية؛ قيّم النبرة والجمهور."
+    },
+    {
+      "id": "c1-u8-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "اختيار التعبير وفق المقام.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "اختيار التعبير وفق المقام."
+    },
+    {
+      "id": "c1-u8-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "صنف عشرة تعبيرات إلى يومية ومهنية ومحايدة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "صنف عشرة تعبيرات إلى يومية ومهنية ومحايدة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u8",
+    "legacyGlobalNumber": 377
+  }
+}

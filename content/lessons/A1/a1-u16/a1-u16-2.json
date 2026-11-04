@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u16-2",
+  "level": "A1",
+  "unitId": "a1-u16",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u16-02",
+      "order": 2,
+      "titleAr": "وصف الجسم والحالة العامة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم والحالة العامة والأعراض الشائعة ومفردات العيادة والصيدلية وطلب المواعيد والمساعدة."
+  },
+  "contentStatus": "full",
+  "goal": "وصف الجسم والحالة العامة باللغة التركية.",
+  "rule": "صفات شائعة: hasta مريض، sağlıklı بصحة جيدة، yorgun متعب، iyi جيد، kötü سيئ. للسؤال عن الحال نقول Nasılsın؟ (كيف حالك؟)، والرد İyiyim (أنا بخير) أو Biraz yorgunum (أنا متعب قليلاً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Nasılsın?",
+      "ar": "كيف حالك؟"
+    },
+    {
+      "tr": "İyiyim, teşekkürler.",
+      "ar": "أنا بخير، شكراً."
+    },
+    {
+      "tr": "Biraz yorgunum.",
+      "ar": "أنا متعب قليلاً."
+    },
+    {
+      "tr": "Kendimi iyi hissediyorum.",
+      "ar": "أشعر أنني بخير."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u16-2-q1",
+      "prompt": "ما معنى yorgun؟",
+      "options": [
+        "سعيد",
+        "متعب",
+        "سريع",
+        "جديد"
+      ],
+      "answerIndex": 1,
+      "explanation": "yorgun تعني متعب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u16",
+    "legacyLessonOrder": 2
+  }
+}

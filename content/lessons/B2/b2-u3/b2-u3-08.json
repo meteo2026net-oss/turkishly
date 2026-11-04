@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u3-08",
+  "level": "B2",
+  "unitId": "b2-u3",
+  "order": 8,
+  "title": {
+    "ar": "العرض الشفهي الأكاديمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
+    "titleTr": "İleri Akademik ve Mesleki İletişim",
+    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "تقديم موضوع منظم مدعوم بأمثلة وأدلة.",
+  "rule": "ابدأ بتعريف الموضوع والهدف، ثم اعرض المحاور، وانتقل بينها بـ ilk olarak وikinci olarak وbunun ardından، واختم بالنتائج والتوصيات. استخدم لغة واضحة وإشارات انتقالية.",
+  "vocabulary": [
+    {
+      "term": "sunumun amacı",
+      "meaningAr": "هدف العرض",
+      "exampleTr": "Sunumun amacı, elde edilen bulguları açık biçimde paylaşmaktır.",
+      "exampleAr": "هدف العرض هو مشاركة النتائج التي تم التوصل إليها بوضوح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "شعار إعلاني",
+      "ar": ""
+    },
+    {
+      "tr": "Öncelikle araştırmanın kapsamını açıklayacağım.",
+      "ar": "سأشرح أولاً نطاق البحث."
+    },
+    {
+      "tr": "Son bölümde önerilerimi sunacağım.",
+      "ar": "سأعرض توصياتي في القسم الأخير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sunumuna nasıl başlayacaksın?",
+      "ar": "كيف ستبدأ عرضك؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce amacı ve kapsamı açıklayacağım.",
+      "ar": "سأشرح الهدف والنطاق أولاً."
+    }
+  ],
+  "speakingTask": "حضّر مخطط عرض من خمس دقائق مع مقدمة وثلاثة محاور وخاتمة.",
+  "questions": [
+    {
+      "id": "b2-u3-08-q1",
+      "prompt": "ما معنى «sunumun amacı»؟",
+      "options": [
+        "هدف العرض",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي"
+      ],
+      "answerIndex": 0,
+      "explanation": "sunumun amacı تعني هدف العرض."
+    },
+    {
+      "id": "b2-u3-08-q2",
+      "prompt": "ما ترجمة الجملة: «Sunumun amacı, elde edilen bulguları açık biçimde paylaşmaktır.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "هدف العرض هو مشاركة النتائج التي تم التوصل إليها بوضوح.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "Sunumun amacı, elde edilen bulguları açık biçimde paylaşmaktır. تعني هدف العرض هو مشاركة النتائج التي تم التوصل إليها بوضوح.."
+    },
+    {
+      "id": "b2-u3-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "günlük sohbet",
+        "rastgele anlatım",
+        "giriş + ana bölümler + sonuç",
+        "akademik sunum"
+      ],
+      "answerIndex": 2,
+      "explanation": "مقدمة ومحاور رئيسية وخاتمة."
+    },
+    {
+      "id": "b2-u3-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «giriş + ana bölümler + sonuç»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تنظيم عرض شفهي مفهوم ومقنع."
+      ],
+      "answerIndex": 3,
+      "explanation": "تنظيم عرض شفهي مفهوم ومقنع."
+    },
+    {
+      "id": "b2-u3-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النفي المطلق",
+        "تنظيم عرض شفهي مفهوم ومقنع.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تنظيم عرض شفهي مفهوم ومقنع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u3",
+    "legacyGlobalNumber": 208
+  }
+}

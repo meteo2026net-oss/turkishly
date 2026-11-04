@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u2-05",
+  "level": "C2",
+  "unitId": "c2-u2",
+  "order": 5,
+  "title": {
+    "ar": "التناص والتحويل الإبداعي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحرير والترجمة والنشر المتقدم",
+    "titleTr": "İleri Editörlük, Çeviri ve Yayın",
+    "description": "الدقة الدلالية والترجمة المفاهيمية والثقافية والتحرير والكتابة للنشر."
+  },
+  "contentStatus": "full",
+  "goal": "توظيف نص سابق في إنتاج جديد مع وعي بالتغيير الدلالي.",
+  "rule": "حدد ما الذي يستعيره النص وما الذي يعيد تأويله، وميز التلميح من الاقتباس المباشر.",
+  "vocabulary": [
+    {
+      "term": "yeniden yorumlama",
+      "meaningAr": "إعادة تأويل",
+      "exampleTr": "Yeni metin, eski anlatıyı çağdaş bir bağlamda yeniden yorumluyor.",
+      "exampleAr": "يعيد النص الجديد تفسير السرد القديم في سياق معاصر."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yeni metin, eski anlatıyı çağdaş bir bağlamda yeniden yorumluyor.",
+      "ar": "يعيد النص الجديد تفسير السرد القديم في سياق معاصر."
+    },
+    {
+      "tr": "Önceki metni taklit etmeden yeniden yorumladım.",
+      "ar": "أعدت تفسير النص السابق دون تقليده."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu bir alıntı mı؟",
+      "ar": "هل هذا اقتباس؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Daha çok önceki metne eleştirel bir gönderme.",
+      "ar": "إنه أقرب إلى إحالة نقدية للنص السابق."
+    }
+  ],
+  "speakingTask": "اكتب فقرة تحاور نصاً سابقاً ثم اشرح التحول الذي أحدثته.",
+  "questions": [
+    {
+      "id": "c2-u2-05-q1",
+      "prompt": "ما معنى «yeniden yorumlama»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "إعادة تأويل"
+      ],
+      "answerIndex": 3,
+      "explanation": "«yeniden yorumlama» تعني: إعادة تأويل."
+    },
+    {
+      "id": "c2-u2-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "يعيد النص الجديد تفسير السرد القديم في سياق معاصر.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "يعيد النص الجديد تفسير السرد القديم في سياق معاصر."
+    },
+    {
+      "id": "c2-u2-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "yaratıcı dönüşüm",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «yaratıcı dönüşüm». حدد ما الذي يستعيره النص وما الذي يعيد تأويله، وميز التلميح من الاقتباس المباشر."
+    },
+    {
+      "id": "c2-u2-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إعادة توظيف نص سابق بمعنى جديد.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إعادة توظيف نص سابق بمعنى جديد."
+    },
+    {
+      "id": "c2-u2-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب فقرة تحاور نصاً سابقاً ثم اشرح التحول الذي أحدثته.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب فقرة تحاور نصاً سابقاً ثم اشرح التحول الذي أحدثته."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u2",
+    "legacyGlobalNumber": 435
+  }
+}

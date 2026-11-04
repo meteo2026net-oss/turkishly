@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u1-05",
+  "level": "B1",
+  "unitId": "b1-u1",
+  "order": 5,
+  "title": {
+    "ar": "التعبير عن الغرض باستخدام -mek için",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "توضيح الهدف من القيام بفعل ما.",
+  "rule": "يأتي المصدر -mak/-mek قبل için للتعبير عن الغاية: öğrenmek için = لكي أتعلم، dinlenmek için = لكي أرتاح. يبقى الفعل في صيغة المصدر.",
+  "vocabulary": [
+    {
+      "term": "öğrenmek için",
+      "meaningAr": "لكي أتعلم / من أجل التعلم",
+      "exampleTr": "Türkçe öğrenmek için çalışıyorum.",
+      "exampleAr": "أدرس لكي أتعلم التركية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Seni görmek için geldim.",
+      "ar": "أتيت لكي أراك."
+    },
+    {
+      "tr": "Para biriktirmek için çalışıyor.",
+      "ar": "يعمل لكي يدّخر المال."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden kursa gidiyorsun?",
+      "ar": "لماذا تذهب إلى الدورة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Türkçe öğrenmek için.",
+      "ar": "لكي أتعلم التركية."
+    }
+  ],
+  "speakingTask": "اذكر هدفين من أهدافك مستخدماً -mek için.",
+  "questions": [
+    {
+      "id": "b1-u1-05-q1",
+      "prompt": "ما معنى «öğrenmek için»؟",
+      "options": [
+        "رغم التعلم",
+        "لكي أتعلم",
+        "لأنني تعلمت",
+        "بعد أن أتعلم"
+      ],
+      "answerIndex": 1,
+      "explanation": "öğrenmek için تعني لكي أتعلم / من أجل التعلم."
+    },
+    {
+      "id": "b1-u1-05-q2",
+      "prompt": "ما ترجمة الجملة: «Türkçe öğrenmek için çalışıyorum.»؟",
+      "options": [
+        "توقفت عن تعلم التركية.",
+        "تعلمت التركية أمس.",
+        "أدرس لكي أتعلم التركية.",
+        "أدرس لأنني تعلمت التركية."
+      ],
+      "answerIndex": 2,
+      "explanation": "Türkçe öğrenmek için çalışıyorum. تعني أدرس لكي أتعلم التركية.."
+    },
+    {
+      "id": "b1-u1-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "öğrendiğim için",
+        "öğrendikten sonra",
+        "öğrenmeden önce",
+        "öğrenmek için"
+      ],
+      "answerIndex": 3,
+      "explanation": "مصدر متبوع بـ için لبيان الغرض."
+    },
+    {
+      "id": "b1-u1-05-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «öğrenmek için»؟",
+      "options": [
+        "التعبير عن الغاية",
+        "التعبير عن السبب الماضي",
+        "التعبير عن التوقيت السابق",
+        "التعبير عن التنازل"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير عن الهدف أو الغاية من الفعل."
+    },
+    {
+      "id": "b1-u1-05-q5",
+      "prompt": "أكمل التركيب: Türkçe öğrenmek için çalışıyorum.",
+      "options": [
+        "öğrendikten sonra",
+        "öğrenmeden önce",
+        "öğrenmek için",
+        "öğrendiğim için"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي öğrenmek için؛ مصدر متبوع بـ için لبيان الغرض."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u1",
+    "legacyGlobalNumber": 125
+  }
+}

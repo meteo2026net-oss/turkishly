@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-9",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u2-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة التحيات والتعارف والضمائر والأرقام.",
+  "rule": "تأكد من قدرتك على بدء التعارف، ذكر اسمك وبلدك، السؤال عن شخص آخر، استخدام الضمائر، وتكوين سؤال بسيط وجواب منفي. حاول أن تنشئ حواراً من أربع إلى ست جمل.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Benim adım Lina.",
+      "ar": "اسمي لينا."
+    },
+    {
+      "tr": "Nerelisin? – Mısırlıyım.",
+      "ar": "من أين أنت؟ – أنا مصري/مصرية."
+    },
+    {
+      "tr": "Kaç yaşındasın? – Yirmi yaşındayım.",
+      "ar": "كم عمرك؟ – عمري عشرون عاماً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u2-9-q1",
+      "prompt": "اختر العبارة التي تعني «أنا أيضاً بخير».",
+      "options": [
+        "Ben de iyiyim.",
+        "Ben öğrenciyim.",
+        "İyi geceler.",
+        "Adın ne?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ben de iyiyim تعني أنا أيضاً بخير."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 9
+  }
+}

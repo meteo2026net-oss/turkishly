@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u1-01",
+  "level": "C2",
+  "unitId": "c2-u1",
+  "order": 1,
+  "title": {
+    "ar": "تحليل الخطاب متعدد الطبقات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل النقدي والخطاب المعقد",
+    "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
+    "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
+  },
+  "contentStatus": "full",
+  "goal": "تحليل البنية اللغوية والحجاجية والاجتماعية لخطاب معقد.",
+  "rule": "افصل مستويات الخطاب: المعنى الصريح والضمني والبنية الحجاجية والسياق والافتراضات.",
+  "vocabulary": [
+    {
+      "term": "söylem katmanları",
+      "meaningAr": "طبقات الخطاب",
+      "exampleTr": "Metnin açık anlamı kadar örtük varsayımları da incelenmelidir.",
+      "exampleAr": "ينبغي تحليل الافتراضات الضمنية بقدر المعنى الصريح للنص."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Metnin açık anlamı kadar örtük varsayımları da incelenmelidir.",
+      "ar": "ينبغي تحليل الافتراضات الضمنية بقدر المعنى الصريح للنص."
+    },
+    {
+      "tr": "Söylemin farklı katmanlarını birbirinden ayırdım.",
+      "ar": "فصلت طبقات الخطاب المختلفة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yalnızca sözcükleri mi inceliyoruz؟",
+      "ar": "هل نحلل الكلمات فقط؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, bağlamı ve güç ilişkilerini de dikkate alıyoruz.",
+      "ar": "لا، نراعي السياق وعلاقات القوة أيضاً."
+    }
+  ],
+  "speakingTask": "حلل خطاباً عاماً وحدد طبقاته الدلالية والحجاجية والاجتماعية.",
+  "questions": [
+    {
+      "id": "c2-u1-01-q1",
+      "prompt": "ما معنى «söylem katmanları»؟",
+      "options": [
+        "طلب الإذن",
+        "طبقات الخطاب",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«söylem katmanları» تعني: طبقات الخطاب."
+    },
+    {
+      "id": "c2-u1-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "ينبغي تحليل الافتراضات الضمنية بقدر المعنى الصريح للنص.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "ينبغي تحليل الافتراضات الضمنية بقدر المعنى الصريح للنص."
+    },
+    {
+      "id": "c2-u1-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "çok katmanlı söylem çözümlemesi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «çok katmanlı söylem çözümlemesi». افصل مستويات الخطاب: المعنى الصريح والضمني والبنية الحجاجية والسياق والافتراضات."
+    },
+    {
+      "id": "c2-u1-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحليل الخطاب على مستويات لغوية وسياقية متعددة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحليل الخطاب على مستويات لغوية وسياقية متعددة."
+    },
+    {
+      "id": "c2-u1-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل خطاباً عاماً وحدد طبقاته الدلالية والحجاجية والاجتماعية.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل خطاباً عاماً وحدد طبقاته الدلالية والحجاجية والاجتماعية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u1",
+    "legacyGlobalNumber": 421
+  }
+}

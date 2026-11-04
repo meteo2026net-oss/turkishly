@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u8-7",
+  "level": "A1",
+  "unitId": "a1-u8",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u8-07",
+      "order": 7,
+      "titleAr": "الاختيار واتخاذ قرار الشراء",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الملابس والتسوّق والألوان والأسعار",
+    "titleTr": "Kıyafetler, Alışveriş, Renkler ve Fiyatlar",
+    "description": "أسماء الملابس والألوان والمقاسات والسؤال عن الأسعار وتجربة الملابس والشراء من المتاجر."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الاختيار وقرار الشراء أو عدمه.",
+  "rule": "للتعبير عن اختيارك يمكنك قول Bunu istiyorum (أريد هذا)، Bunu alıyorum (سآخذ هذا)، أو Başka bir renk var mı؟ (هل يوجد لون آخر؟). للإشارة إلى شيء قريب استخدم bu، وللإشارة إلى شيء أبعد استخدم şu أو o بحسب السياق.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bunu istiyorum.",
+      "ar": "أريد هذا."
+    },
+    {
+      "tr": "Bunu alıyorum.",
+      "ar": "سآخذ هذا."
+    },
+    {
+      "tr": "Başka bir renk var mı?",
+      "ar": "هل يوجد لون آخر؟"
+    },
+    {
+      "tr": "Sadece bakıyorum.",
+      "ar": "أنا أتفرج فقط."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u8-7-q1",
+      "prompt": "ما معنى Bunu alıyorum؟",
+      "options": [
+        "أبحث عن هذا",
+        "سآخذ هذا",
+        "كم سعر هذا؟",
+        "لا أريد هذا"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bunu alıyorum تعني سآخذ هذا أو أشتريه."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u8",
+    "legacyLessonOrder": 7
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u1-09",
+  "level": "B2",
+  "unitId": "b2-u1",
+  "order": 9,
+  "title": {
+    "ar": "التنازل رغم وجود عائق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التراكيب النحوية المتقدمة",
+    "titleTr": "İleri Dilbilgisi Yapıları",
+    "description": "الجمل الموصولة والمبني للمجهول والتسبب والكلام غير المباشر والشرط والتنازل."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن حدوث أمر رغم وجود سبب معاكس.",
+  "rule": "تُستخدم -mesine rağmen أو -DIğı halde أو her ne kadar ... olsa da بمعنى رغم أن. يجب أن يتضح التناقض بين العائق والنتيجة.",
+  "vocabulary": [
+    {
+      "term": "rağmen",
+      "meaningAr": "على الرغم من",
+      "exampleTr": "Yoğun olmasına rağmen toplantıya katıldı.",
+      "exampleAr": "حضر الاجتماع رغم انشغاله الشديد."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الاستنتاج",
+      "ar": ""
+    },
+    {
+      "tr": "Yağmur yağmasına rağmen dışarı çıktık.",
+      "ar": "خرجنا رغم هطول المطر."
+    },
+    {
+      "tr": "Her ne kadar zor olsa da deneyeceğim.",
+      "ar": "سأحاول رغم أنه صعب."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden geldin? Çok yorgundun.",
+      "ar": "لماذا أتيت؟ كنت متعباً جداً."
+    },
+    {
+      "speaker": "B",
+      "tr": "Yorgun olmama rağmen gelmek istedim.",
+      "ar": "أردت الحضور رغم تعبي."
+    }
+  ],
+  "speakingTask": "اكتب خمس جمل تبدأ بمعنى رغم أن.",
+  "questions": [
+    {
+      "id": "b2-u1-09-q1",
+      "prompt": "ما معنى «rağmen»؟",
+      "options": [
+        "يشير إلى شرط افتراضي",
+        "على الرغم من",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن"
+      ],
+      "answerIndex": 1,
+      "explanation": "rağmen تعني على الرغم من."
+    },
+    {
+      "id": "b2-u1-09-q2",
+      "prompt": "ما ترجمة الجملة: «Yoğun olmasına rağmen toplantıya katıldı.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "حضر الاجتماع رغم انشغاله الشديد.",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "Yoğun olmasına rağmen toplantıya katıldı. تعني حضر الاجتماع رغم انشغاله الشديد.."
+    },
+    {
+      "id": "b2-u1-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "rağmen",
+        "bu nedenle",
+        "çünkü",
+        "-mesine rağmen / -dığı halde"
+      ],
+      "answerIndex": 3,
+      "explanation": "تركيب تنازلي يربط عائقاً بنتيجة مخالفة."
+    },
+    {
+      "id": "b2-u1-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «-mesine rağmen / -dığı halde»؟",
+      "options": [
+        "إظهار أن النتيجة حدثت رغم العائق.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "إظهار أن النتيجة حدثت رغم العائق."
+    },
+    {
+      "id": "b2-u1-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "إظهار أن النتيجة حدثت رغم العائق.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إظهار أن النتيجة حدثت رغم العائق."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u1",
+    "legacyGlobalNumber": 189
+  }
+}

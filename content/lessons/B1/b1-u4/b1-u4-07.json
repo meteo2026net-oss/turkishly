@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u4-07",
+  "level": "B1",
+  "unitId": "b1-u4",
+  "order": 7,
+  "title": {
+    "ar": "التعبير عن الغاية والنتيجة المتوقعة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "شرح الهدف من فعل أو قرار.",
+  "rule": "للتعبير عن الغاية استخدم -mek/-mak için قبل الفعل: Türkçe öğrenmek için çalışıyorum. ويمكن استخدام amacıyla في الأسلوب الرسمي بمعنى بهدف.",
+  "vocabulary": [
+    {
+      "term": "amacıyla",
+      "meaningAr": "بهدف / بغرض",
+      "exampleTr": "Yeni beceriler kazanmak amacıyla kursa katıldı.",
+      "exampleAr": "شارك في الدورة بهدف اكتساب مهارات جديدة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Daha iyi konuşmak için pratik yapıyorum.",
+      "ar": "أتدرب لكي أتحدث بصورة أفضل."
+    },
+    {
+      "tr": "Bilgi almak amacıyla aradım.",
+      "ar": "اتصلت بغرض الحصول على معلومات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden bu kursa katıldın?",
+      "ar": "لماذا التحقت بهذه الدورة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Mesleğimi geliştirmek için.",
+      "ar": "لكي أطور مهنتي."
+    }
+  ],
+  "speakingTask": "اشرح ثلاثة أهداف تتعلم التركية من أجلها.",
+  "questions": [
+    {
+      "id": "b1-u4-07-q1",
+      "prompt": "ما معنى «amacıyla»؟",
+      "options": [
+        "المقارنة",
+        "بهدف / بغرض",
+        "السبب / النتيجة",
+        "الاحتمال"
+      ],
+      "answerIndex": 1,
+      "explanation": "amacıyla تعني بهدف / بغرض."
+    },
+    {
+      "id": "b1-u4-07-q2",
+      "prompt": "ما ترجمة الجملة: «Yeni beceriler kazanmak amacıyla kursa katıldı.»؟",
+      "options": [
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "شارك في الدورة بهدف اكتساب مهارات جديدة.",
+        "سأفعل ذلك في وقت آخر."
+      ],
+      "answerIndex": 2,
+      "explanation": "Yeni beceriler kazanmak amacıyla kursa katıldı. تعني شارك في الدورة بهدف اكتساب مهارات جديدة.."
+    },
+    {
+      "id": "b1-u4-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "fiil-mek için / amacıyla"
+      ],
+      "answerIndex": 3,
+      "explanation": "تركيب يوضح الغاية والهدف."
+    },
+    {
+      "id": "b1-u4-07-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «fiil-mek için / amacıyla»؟",
+      "options": [
+        "بيان الغرض الذي من أجله يحدث الفعل.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "بيان الغرض الذي من أجله يحدث الفعل."
+    },
+    {
+      "id": "b1-u4-07-q5",
+      "prompt": "أكمل التركيب: Yeni beceriler kazanmak amacıyla kursa katıldı.",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "fiil-mek için / amacıyla",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي fiil-mek için / amacıyla؛ تركيب يوضح الغاية والهدف."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u4",
+    "legacyGlobalNumber": 157
+  }
+}

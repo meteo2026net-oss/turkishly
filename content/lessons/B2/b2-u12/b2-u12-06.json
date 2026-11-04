@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u12-06",
+  "level": "B2",
+  "unitId": "b2-u12",
+  "order": 6,
+  "title": {
+    "ar": "المراجعة والتحرير المتقدم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الأدب والفنون واللغة المتقدمة",
+    "titleTr": "Edebiyat, Sanat ve İleri Dil",
+    "description": "السرد والمجاز والنقد الأدبي والفنون والخطاب والتحرير والتعبيرات الاصطلاحية."
+  },
+  "contentStatus": "full",
+  "goal": "editör",
+  "rule": "Son metni yayımlamadan önce dil ve anlam bakımından gözden geçirmeliyiz.",
+  "vocabulary": [
+    {
+      "term": "محرر",
+      "meaningAr": "düzeltme",
+      "exampleTr": "Son metni yayımlamadan önce dil ve anlam bakımından gözden geçirmeliyiz.",
+      "exampleAr": "ينبغي مراجعة النص لغوياً ودلالياً قبل نشره."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "yayımlamadan önce",
+      "ar": ""
+    },
+    {
+      "tr": "Son metni yayımlamadan önce dil ve anlam bakımından gözden geçirmeliyiz.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "قبل النشر",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "ترتيب المراجعة",
+  "questions": [
+    {
+      "id": "b2-u12-06-q1",
+      "prompt": "ما معنى «محرر»؟",
+      "options": [
+        "تصحيح",
+        "نسخ",
+        "تأجيل",
+        "تعبير غير ملائم"
+      ],
+      "answerIndex": 0,
+      "explanation": "محرر تعني düzeltme."
+    },
+    {
+      "id": "b2-u12-06-q2",
+      "prompt": "ما ترجمة الجملة: «Son metni yayımlamadan önce dil ve anlam bakımından gözden geçirmeliyiz.»؟",
+      "options": [
+        "لا تناسب هذه الجملة السياق.",
+        "Son metni yayımlamadan önce dil ve anlam bakımından gözden geçirmeliyiz.|ينبغي مراجعة النص لغوياً ودلالياً قبل نشره.",
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد."
+      ],
+      "answerIndex": 1,
+      "explanation": "Son metni yayımlamadan önce dil ve anlam bakımından gözden geçirmeliyiz. تعني ينبغي مراجعة النص لغوياً ودلالياً قبل نشره.."
+    },
+    {
+      "id": "b2-u12-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-miş gibi",
+        "-sa bile",
+        "metni gözden geçirmek",
+        "-DIktan sonra"
+      ],
+      "answerIndex": 2,
+      "explanation": "يراجع النص."
+    },
+    {
+      "id": "b2-u12-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «metni gözden geçirmek»؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "تحرير النص النهائي"
+      ],
+      "answerIndex": 3,
+      "explanation": "تحرير النص النهائي"
+    },
+    {
+      "id": "b2-u12-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "طلب الإذن",
+        "تحرير النص النهائي",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحرير النص النهائي"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u12",
+    "legacyGlobalNumber": 296
+  }
+}

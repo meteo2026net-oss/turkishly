@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u3-2",
+  "level": "A2",
+  "unitId": "a2-u3",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a2-u3-02",
+      "order": 2,
+      "titleAr": "تكوين المقارنة باستخدام daha",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المقارنة والتفضيل ووصف الأشخاص والأشياء",
+    "titleTr": "Karşılaştırma ve Üstünlük",
+    "description": "استخدام الصفات للمقارنة بين الأشخاص والأماكن والأشياء، والتعبير عن الدرجة العليا والتساوي والمفاضلة بين الخيارات."
+  },
+  "contentStatus": "full",
+  "goal": "تكوين المقارنة باستخدام daha.",
+  "rule": "نضع daha قبل الصفة للمقارنة بمعنى «أكثر»: daha büyük أكبر، daha güzel أجمل، daha hızlı أسرع. مثال: Bu araba daha hızlı (هذه السيارة أسرع). ويمكن ذكر الطرف الثاني باستخدام -den/-dan: Bu ev o evden daha büyük (هذا المنزل أكبر من ذلك المنزل).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "daha büyük",
+      "ar": "أكبر"
+    },
+    {
+      "tr": "daha güzel",
+      "ar": "أجمل"
+    },
+    {
+      "tr": "daha hızlı",
+      "ar": "أسرع"
+    },
+    {
+      "tr": "Bu kitap daha ilginç.",
+      "ar": "هذا الكتاب أكثر إثارة للاهتمام."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u3-2-q1",
+      "prompt": "ما معنى daha hızlı؟",
+      "options": [
+        "أبطأ",
+        "أسرع",
+        "أجمل",
+        "أصغر"
+      ],
+      "answerIndex": 1,
+      "explanation": "daha hızlı تعني أسرع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u3",
+    "legacyLessonOrder": 2
+  }
+}

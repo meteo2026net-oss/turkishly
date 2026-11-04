@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u1-03",
+  "level": "C1",
+  "unitId": "c1-u1",
+  "order": 3,
+  "title": {
+    "ar": "استنتاج المعنى الضمني",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القراءة الأكاديمية وتحليل النصوص",
+    "titleTr": "Akademik Okuma ve Metin Çözümleme",
+    "description": "تحليل الأطروحات والأدلة والدلالات الضمنية ومواقف الكتّاب وتلخيص النصوص المعقدة."
+  },
+  "contentStatus": "full",
+  "goal": "استخلاص ما يوحي به النص دون أن يصرّح به مباشرة.",
+  "rule": "تُبنى الدلالة الضمنية من القرائن والسياق، وتُصاغ بحذر: Bu durum ... düşündürüyor.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Yazar, bu kararla kurumun önceliklerini ima ediyor.",
+      "ar": "يلمح الكاتب بهذا القرار إلى أولويات المؤسسة."
+    },
+    {
+      "tr": "İma edilen düşünceyi metindeki ipuçlarıyla açıklayın.",
+      "ar": "استخرج فكرتين ضمنيتين واذكر القرينة التي قادت إليهما."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «ima etmek»؟",
+      "options": [
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "يلمّح إلى",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "«ima etmek» تعني يلمّح إلى.",
+      "id": "c1-u1-03-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Yazar, bu kararla kurumun önceliklerini ima ediyor.»؟",
+      "options": [
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يلمح الكاتب بهذا القرار إلى أولويات المؤسسة."
+      ],
+      "answerIndex": 3,
+      "explanation": "ترجمة الجملة: يلمح الكاتب بهذا القرار إلى أولويات المؤسسة.",
+      "id": "c1-u1-03-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «bağlamdan çıkarım»؟",
+      "options": [
+        "bağlamdan çıkarım",
+        "rastgele bir ifade",
+        "geçmiş zaman",
+        "yer bildiren ifade"
+      ],
+      "answerIndex": 0,
+      "explanation": "استنتاج من السياق",
+      "id": "c1-u1-03-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص",
+        "تحويل كل احتمال إلى حقيقة قطعية"
+      ],
+      "answerIndex": 1,
+      "explanation": "تُبنى الدلالة الضمنية من القرائن والسياق، وتُصاغ بحذر: Bu durum ... düşündürüyor.",
+      "id": "c1-u1-03-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد",
+        "حفظ كلمة واحدة دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u1-03-q5"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_course_data.dart",
+    "legacyUnitId": "c1-u1",
+    "legacyGlobalNumber": 303
+  }
+}

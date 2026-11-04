@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u9-6",
+  "level": "A1",
+  "unitId": "a1-u9",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u9-06",
+      "order": 6,
+      "titleAr": "التنقل ووسائل النقل والمدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المدينة والمواصلات والأماكن العامة",
+    "titleTr": "Şehir, Ulaşım ve Kamu Alanları",
+    "description": "أماكن المدينة ووسائل النقل والاتجاهات والسؤال عن الطريق وشراء تذاكر المواصلات."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام وسائل النقل والسؤال عن الوجهة والمدة.",
+  "rule": "يمكنك أن تقول Otobüsle gidiyorum (أذهب بالحافلة)، Metroyla gidiyorum (أذهب بالمترو)، أو yürüyerek gidiyorum (أذهب مشياً). اللاحقة -le/-la تعني بواسطة أو مع، وتأتي بعد اسم وسيلة النقل. للسؤال عن المدة قل Ne kadar sürüyor؟ أي كم يستغرق؟.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Otobüsle gidiyorum.",
+      "ar": "أذهب بالحافلة."
+    },
+    {
+      "tr": "Metroyla merkeze gidiyorum.",
+      "ar": "أذهب إلى المركز بالمترو."
+    },
+    {
+      "tr": "Yürüyerek gidiyorum.",
+      "ar": "أذهب مشياً."
+    },
+    {
+      "tr": "Ne kadar sürüyor?",
+      "ar": "كم يستغرق؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u9-6-q1",
+      "prompt": "ما معنى Otobüsle gidiyorum؟",
+      "options": [
+        "أنتظر الحافلة",
+        "أذهب بالحافلة",
+        "أقود الحافلة",
+        "أشتري حافلة"
+      ],
+      "answerIndex": 1,
+      "explanation": "Otobüsle تعني بواسطة الحافلة، وgidiyorum تعني أذهب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u9",
+    "legacyLessonOrder": 6
+  }
+}

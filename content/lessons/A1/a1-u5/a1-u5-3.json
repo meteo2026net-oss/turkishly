@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u5-3",
+  "level": "A1",
+  "unitId": "a1-u5",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u5-03",
+      "order": 3,
+      "titleAr": "الوجبات وأوقات الطعام",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والطلب في المطعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranda Sipariş",
+    "description": "مفردات الطعام والوجبات والمشروبات والتعبير عن الرغبات والطلب والسؤال عن الأسعار."
+  },
+  "contentStatus": "full",
+  "goal": "التحدث عن الوجبات وأوقات تناول الطعام.",
+  "rule": "وجبات اليوم: kahvaltı الإفطار، öğle yemeği الغداء، akşam yemeği العشاء. الفعل yemek يعني يأكل أو طعام بحسب السياق، وiçmek يعني يشرب. استخدم هذه الكلمات لوصف ما تتناوله خلال اليوم.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Kahvaltı yapıyorum.",
+      "ar": "أتناول الإفطار."
+    },
+    {
+      "tr": "Öğle yemeği yiyorum.",
+      "ar": "أتناول الغداء."
+    },
+    {
+      "tr": "Akşam çorba içiyorum.",
+      "ar": "أشرب الحساء مساءً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u5-3-q1",
+      "prompt": "ما معنى kahvaltı؟",
+      "options": [
+        "العشاء",
+        "الإفطار",
+        "الغداء",
+        "الحلوى"
+      ],
+      "answerIndex": 1,
+      "explanation": "kahvaltı تعني وجبة الإفطار."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u5",
+    "legacyLessonOrder": 3
+  }
+}

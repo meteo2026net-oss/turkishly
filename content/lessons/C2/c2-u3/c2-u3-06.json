@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-06",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 6,
+  "title": {
+    "ar": "تقديم إحاطة لصناع القرار",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "اختصار قضية متعددة الأبعاد إلى خيارات ونتائج قابلة للقرار.",
+  "rule": "اعرض الخلاصة والخيارات والمخاطر والآثار والتوصية بوضوح، وميّز الحقائق عن التوقعات.",
+  "vocabulary": [
+    {
+      "term": "karar verici özeti",
+      "meaningAr": "ملخص لصانع القرار",
+      "exampleTr": "Karar vericilere seçeneklerin sonuçlarını karşılaştırmalı olarak sundum.",
+      "exampleAr": "عرضت لصناع القرار نتائج الخيارات بصورة مقارنة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karar vericilere seçeneklerin sonuçlarını karşılaştırmalı olarak sundum.",
+      "ar": "عرضت لصناع القرار نتائج الخيارات بصورة مقارنة."
+    },
+    {
+      "tr": "Karar sürecini destekleyen kısa bir not hazırladım.",
+      "ar": "أعددت مذكرة موجزة تدعم عملية اتخاذ القرار."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bütün ayrıntıları ekleyelim mi؟",
+      "ar": "هل نضيف كل التفاصيل؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Karar için gerekli olanları seçelim.",
+      "ar": "لنختر ما يلزم لاتخاذ القرار."
+    }
+  ],
+  "speakingTask": "أعد إحاطة من صفحة واحدة تتضمن ثلاثة خيارات وتوصية.",
+  "questions": [
+    {
+      "id": "c2-u3-06-q1",
+      "prompt": "ما معنى «karar verici özeti»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "ملخص لصانع القرار",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«karar verici özeti» تعني: ملخص لصانع القرار."
+    },
+    {
+      "id": "c2-u3-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "عرضت لصناع القرار نتائج الخيارات بصورة مقارنة."
+      ],
+      "answerIndex": 3,
+      "explanation": "عرضت لصناع القرار نتائج الخيارات بصورة مقارنة."
+    },
+    {
+      "id": "c2-u3-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "karar odaklı iletişim",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «karar odaklı iletişim». اعرض الخلاصة والخيارات والمخاطر والآثار والتوصية بوضوح، وميّز الحقائق عن التوقعات."
+    },
+    {
+      "id": "c2-u3-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تقديم المعلومات بما يدعم قراراً محدداً.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تقديم المعلومات بما يدعم قراراً محدداً."
+    },
+    {
+      "id": "c2-u3-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أعد إحاطة من صفحة واحدة تتضمن ثلاثة خيارات وتوصية."
+      ],
+      "answerIndex": 3,
+      "explanation": "أعد إحاطة من صفحة واحدة تتضمن ثلاثة خيارات وتوصية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyGlobalNumber": 446
+  }
+}

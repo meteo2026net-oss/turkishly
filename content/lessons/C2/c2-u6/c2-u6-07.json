@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u6-07",
+  "level": "C2",
+  "unitId": "c2-u6",
+  "order": 7,
+  "title": {
+    "ar": "تصميم استراتيجية تواصل طويلة المدى",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والوساطة الاستراتيجية المتقدمة",
+    "titleTr": "İleri Stratejik Liderlik ve Arabuluculuk",
+    "description": "التفاوض متعدد الأطراف والاتفاقات والتواصل المؤسسي وقيادة فرق الخبراء."
+  },
+  "contentStatus": "full",
+  "goal": "بناء خطة تواصل مستمرة ذات أهداف وجمهور ومؤشرات.",
+  "rule": "حدد الرسائل الأساسية والقنوات والمسؤوليات ومواعيد القياس والتحديث.",
+  "vocabulary": [
+    {
+      "term": "iletişim stratejisi",
+      "meaningAr": "استراتيجية تواصل",
+      "exampleTr": "Strateji, hedef kitleleri ve başarı göstergelerini birlikte tanımlıyor.",
+      "exampleAr": "تحدد الاستراتيجية الجمهور المستهدف ومؤشرات النجاح معاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Strateji, hedef kitleleri ve başarı göstergelerini birlikte tanımlıyor.",
+      "ar": "تحدد الاستراتيجية الجمهور المستهدف ومؤشرات النجاح معاً."
+    },
+    {
+      "tr": "Stratejinin etkisini düzenli göstergelerle izledim.",
+      "ar": "تابعت أثر الاستراتيجية بمؤشرات منتظمة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Başarıyı hangi aralıklarla ölçelim؟",
+      "ar": "كل كم نقيس النجاح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Üç ayda bir değerlendirme yapalım.",
+      "ar": "لنجر تقييماً كل ثلاثة أشهر."
+    }
+  ],
+  "speakingTask": "أعد خطة تواصل لستة أشهر تتضمن أهدافاً ومؤشرات وقنوات.",
+  "questions": [
+    {
+      "id": "c2-u6-07-q1",
+      "prompt": "ما معنى «iletişim stratejisi»؟",
+      "options": [
+        "طلب الإذن",
+        "استراتيجية تواصل",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«iletişim stratejisi» تعني: استراتيجية تواصل."
+    },
+    {
+      "id": "c2-u6-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تحدد الاستراتيجية الجمهور المستهدف ومؤشرات النجاح معاً.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تحدد الاستراتيجية الجمهور المستهدف ومؤشرات النجاح معاً."
+    },
+    {
+      "id": "c2-u6-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "uzun vadeli planlama"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «uzun vadeli planlama». حدد الرسائل الأساسية والقنوات والمسؤوليات ومواعيد القياس والتحديث."
+    },
+    {
+      "id": "c2-u6-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تخطيط التواصل وقياس أثره.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تخطيط التواصل وقياس أثره."
+    },
+    {
+      "id": "c2-u6-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أعد خطة تواصل لستة أشهر تتضمن أهدافاً ومؤشرات وقنوات.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أعد خطة تواصل لستة أشهر تتضمن أهدافاً ومؤشرات وقنوات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
+    "legacyUnitId": "c2-u6",
+    "legacyGlobalNumber": 477
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u8-03",
+  "level": "C2",
+  "unitId": "c2-u8",
+  "order": 3,
+  "title": {
+    "ar": "التوطين اللغوي والثقافي المتقدم",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الترجمة والتحرير متعدد الطبقات",
+    "titleTr": "Çok Katmanlı Çeviri ve Editörlük",
+    "description": "الترجمة الأدبية والثقافية وإدارة الغموض والمراجعة والجودة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "تكييف المحتوى لجمهور جديد دون فقد الوظيفة أو الهوية.",
+  "rule": "حدد العناصر الثابتة والقابلة للتكييف، واختبر الصياغة مع مستخدمين من الجمهور المستهدف.",
+  "vocabulary": [
+    {
+      "term": "yerelleştirme",
+      "meaningAr": "توطين لغوي وثقافي",
+      "exampleTr": "Arayüz metinlerini hedef kültürün kullanım alışkanlıklarına göre uyarladık.",
+      "exampleAr": "كيفنا نصوص الواجهة وفق عادات الاستخدام في الثقافة المستهدفة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Arayüz metinlerini hedef kültürün kullanım alışkanlıklarına göre uyarladık.",
+      "ar": "كيفنا نصوص الواجهة وفق عادات الاستخدام في الثقافة المستهدفة."
+    },
+    {
+      "tr": "Yerelleştirme kararlarını kullanıcı beklentileriyle doğruladım.",
+      "ar": "تحققت من قرارات التوطين وفق توقعات المستخدمين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her örneği doğrudan çevirelim mi؟",
+      "ar": "هل نترجم كل مثال مباشرة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "İşlevi koruyarak uygun örnek seçelim.",
+      "ar": "لنختر مثالاً مناسباً مع الحفاظ على الوظيفة."
+    }
+  ],
+  "speakingTask": "صمم خطة توطين لمحتوى رقمي تشمل المصطلحات والنبرة والأمثلة.",
+  "questions": [
+    {
+      "id": "c2-u8-03-q1",
+      "prompt": "ما معنى «yerelleştirme»؟",
+      "options": [
+        "طلب الإذن",
+        "توطين لغوي وثقافي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«yerelleştirme» تعني: توطين لغوي وثقافي."
+    },
+    {
+      "id": "c2-u8-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "كيفنا نصوص الواجهة وفق عادات الاستخدام في الثقافة المستهدفة.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "كيفنا نصوص الواجهة وفق عادات الاستخدام في الثقافة المستهدفة."
+    },
+    {
+      "id": "c2-u8-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "kültürel yerelleştirme"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «kültürel yerelleştirme». حدد العناصر الثابتة والقابلة للتكييف، واختبر الصياغة مع مستخدمين من الجمهور المستهدف."
+    },
+    {
+      "id": "c2-u8-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكييف المحتوى للسياق المحلي.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تكييف المحتوى للسياق المحلي."
+    },
+    {
+      "id": "c2-u8-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "صمم خطة توطين لمحتوى رقمي تشمل المصطلحات والنبرة والأمثلة.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "صمم خطة توطين لمحتوى رقمي تشمل المصطلحات والنبرة والأمثلة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u8",
+    "legacyGlobalNumber": 493
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-8",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u11-08",
+      "order": 8,
+      "titleAr": "حوار في المطعم وطلب الفاتورة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار قصير في مطعم من الجلوس حتى طلب الفاتورة.",
+  "rule": "اقرأ الحوار ولاحظ ترتيب المحادثة: الترحيب، اختيار الطاولة، طلب قائمة الطعام، اختيار الوجبة، ثم طلب الحساب. عبارات مهمة: Buyurun (تفضل)، Ne alırsınız؟ (ماذا تطلب؟)، Afiyet olsun (صحة وعافية)، Hesap lütfen (الفاتورة من فضلك).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Garson: Hoş geldiniz.",
+      "ar": "النادل: أهلاً وسهلاً."
+    },
+    {
+      "tr": "Müşteri: Bir masa alabilir miyiz?",
+      "ar": "الزبون: هل يمكننا الحصول على طاولة؟"
+    },
+    {
+      "tr": "Garson: Ne alırsınız?",
+      "ar": "النادل: ماذا تطلبون؟"
+    },
+    {
+      "tr": "Müşteri: Bir çorba ve su lütfen.",
+      "ar": "الزبون: حساء وماء من فضلك."
+    },
+    {
+      "tr": "Garson: Afiyet olsun.",
+      "ar": "النادل: صحة وعافية."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-8-q1",
+      "prompt": "ما العبارة التركية التي تقال بمعنى «صحة وعافية»؟",
+      "options": [
+        "Afiyet olsun.",
+        "Güle güle.",
+        "İyi geceler.",
+        "Geçmiş olsun."
+      ],
+      "answerIndex": 0,
+      "explanation": "Afiyet olsun تقال عند تقديم الطعام أو تمني وجبة شهية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 8
+  }
+}

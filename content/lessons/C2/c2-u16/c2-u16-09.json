@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u16-09",
+  "level": "C2",
+  "unitId": "c2-u16",
+  "order": 9,
+  "title": {
+    "ar": "متابعة تنفيذ الاتفاق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التفاوض متعدد الأطراف والوساطة المتقدمة",
+    "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
+    "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
+  },
+  "contentStatus": "full",
+  "goal": "حوّل الالتزامات إلى مؤشرات ومواعيد ومراجعات دورية، وحدد طريقة معالجة التأخر.",
+  "rule": "حوّل الالتزامات إلى مؤشرات ومواعيد ومراجعات دورية، وحدد طريقة معالجة التأخر.",
+  "vocabulary": [
+    {
+      "term": "uygulama takibi",
+      "meaningAr": "متابعة التنفيذ",
+      "exampleTr": "Kararların uygulanmasını ölçülebilir göstergelerle izliyoruz.",
+      "exampleAr": "نتابع تنفيذ القرارات بمؤشرات قابلة للقياس."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Kararların uygulanmasını ölçülebilir göstergelerle izliyoruz.",
+      "ar": "نتابع تنفيذ القرارات بمؤشرات قابلة للقياس."
+    },
+    {
+      "tr": "Düzenli izleme, anlaşmanın kâğıt üzerinde kalmasını önler.",
+      "ar": "تمنع المتابعة المنتظمة بقاء الاتفاق حبراً على ورق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Uygulamayı nasıl değerlendireceğiz?",
+      "ar": "كيف سنقيّم التنفيذ؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Aylık göstergeleri ve sapmaları inceleyeceğiz.",
+      "ar": "سنراجع المؤشرات الشهرية والانحرافات."
+    }
+  ],
+  "speakingTask": "صمم لوحة متابعة لاتفاق تشمل المؤشر والمسؤول والموعد والحالة.",
+  "questions": [
+    {
+      "id": "c2-u16-09-q1",
+      "prompt": "ما معنى «uygulama takibi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "متابعة التنفيذ"
+      ],
+      "answerIndex": 3,
+      "explanation": "«uygulama takibi» تعني: متابعة التنفيذ."
+    },
+    {
+      "id": "c2-u16-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "نتابع تنفيذ القرارات بمؤشرات قابلة للقياس.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "نتابع تنفيذ القرارات بمؤشرات قابلة للقياس."
+    },
+    {
+      "id": "c2-u16-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "ilerleme göstergesi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «ilerleme göstergesi». حوّل الالتزامات إلى مؤشرات ومواعيد ومراجعات دورية، وحدد طريقة معالجة التأخر."
+    },
+    {
+      "id": "c2-u16-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "مؤشر التقدم",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "مؤشر التقدم"
+    },
+    {
+      "id": "c2-u16-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "صمم لوحة متابعة لاتفاق تشمل المؤشر والمسؤول والموعد والحالة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "صمم لوحة متابعة لاتفاق تشمل المؤشر والمسؤول والموعد والحالة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u16",
+    "legacyGlobalNumber": 579
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u11-2",
+  "level": "A1",
+  "unitId": "a1-u11",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u11-02",
+      "order": 2,
+      "titleAr": "المشروبات وطلبها",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والمطاعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranlar",
+    "description": "مفردات الأطعمة والمشروبات والوجبات والتفضيلات وقراءة قائمة الطعام والطلب في المطعم."
+  },
+  "contentStatus": "full",
+  "goal": "تسمية المشروبات وطلبها بطريقة بسيطة.",
+  "rule": "من المشروبات içecek مشروب، su ماء، çay شاي، kahve قهوة، süt حليب، meyve suyu عصير فواكه، ayran شراب الزبادي، limonata ليمونادة. للسؤال عمّا يرغب به الشخص قل Ne içersiniz؟ (ماذا تشرب؟ بصيغة مهذبة)، ويمكنك قول Bir çay lütfen (شاي واحد من فضلك).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "su",
+      "ar": "ماء"
+    },
+    {
+      "tr": "çay",
+      "ar": "شاي"
+    },
+    {
+      "tr": "kahve",
+      "ar": "قهوة"
+    },
+    {
+      "tr": "süt",
+      "ar": "حليب"
+    },
+    {
+      "tr": "ayran",
+      "ar": "شراب الزبادي"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u11-2-q1",
+      "prompt": "ما معنى süt؟",
+      "options": [
+        "قهوة",
+        "حليب",
+        "ماء",
+        "عصير"
+      ],
+      "answerIndex": 1,
+      "explanation": "süt تعني حليب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u11",
+    "legacyLessonOrder": 2
+  }
+}

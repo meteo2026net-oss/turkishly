@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u7-3",
+  "level": "A1",
+  "unitId": "a1-u7",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u7-03",
+      "order": 3,
+      "titleAr": "وصف المنزل والغرف بالصفات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والغرف والأثاث والاتجاهات",
+    "titleTr": "Ev, Odalar, Mobilyalar ve Yönler",
+    "description": "أسماء المنزل والغرف والأثاث ووصف الأماكن وتحديد مواقع الأشياء والاتجاهات الأساسية."
+  },
+  "contentStatus": "full",
+  "goal": "وصف المنزل والغرف باستخدام الصفات الأساسية.",
+  "rule": "يمكن وصف المنزل بكلمات büyük كبير، küçük صغير، geniş واسع، dar ضيّق، güzel جميل، temiz نظيف، eski قديم، yeni جديد. تأتي الصفة قبل الاسم: büyük ev منزل كبير، temiz oda غرفة نظيفة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "büyük bir ev",
+      "ar": "منزل كبير"
+    },
+    {
+      "tr": "küçük oda",
+      "ar": "غرفة صغيرة"
+    },
+    {
+      "tr": "temiz mutfak",
+      "ar": "مطبخ نظيف"
+    },
+    {
+      "tr": "geniş balkon",
+      "ar": "شرفة واسعة"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u7-3-q1",
+      "prompt": "ما معنى geniş؟",
+      "options": [
+        "ضيق",
+        "واسع",
+        "قديم",
+        "متسخ"
+      ],
+      "answerIndex": 1,
+      "explanation": "geniş تعني واسع."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u7",
+    "legacyLessonOrder": 3
+  }
+}

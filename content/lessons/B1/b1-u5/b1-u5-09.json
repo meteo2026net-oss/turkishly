@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u5-09",
+  "level": "B1",
+  "unitId": "b1-u5",
+  "order": 9,
+  "title": {
+    "ar": "التعبير عن التحذير والتنبيه",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "تنبيه شخص إلى خطر أو نتيجة محتملة بطريقة واضحة.",
+  "rule": "استخدم dikkat et بمعنى انتبه، sakın + فعل بمعنى إياك أن، ve dikkatli ol بمعنى كن حذراً. التحذير اللطيف يمكن أن يبدأ بـ Lütfen.",
+  "vocabulary": [
+    {
+      "term": "sakın",
+      "meaningAr": "إياك أن / احذر أن",
+      "exampleTr": "Sakın bu bilgiyi kimseyle paylaşma.",
+      "exampleAr": "إياك أن تشارك هذه المعلومة مع أي شخص."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Dikkat et, zemin ıslak.",
+      "ar": "انتبه، الأرضية مبللة."
+    },
+    {
+      "tr": "Sakın geç kalma.",
+      "ar": "إياك أن تتأخر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu cihazı nasıl kullanmalıyım?",
+      "ar": "كيف أستخدم هذا الجهاز؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Dikkatli ol ve talimatları oku.",
+      "ar": "كن حذراً واقرأ التعليمات."
+    }
+  ],
+  "speakingTask": "قدّم خمسة تحذيرات مهذبة في المنزل أو المدرسة أو العمل.",
+  "questions": [
+    {
+      "id": "b1-u5-09-q1",
+      "prompt": "ما معنى «sakın»؟",
+      "options": [
+        "المقارنة",
+        "إياك أن / احذر أن",
+        "السبب / النتيجة",
+        "الاحتمال"
+      ],
+      "answerIndex": 1,
+      "explanation": "sakın تعني إياك أن / احذر أن."
+    },
+    {
+      "id": "b1-u5-09-q2",
+      "prompt": "ما ترجمة الجملة: «Sakın bu bilgiyi kimseyle paylaşma.»؟",
+      "options": [
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "إياك أن تشارك هذه المعلومة مع أي شخص.",
+        "سأفعل ذلك في وقت آخر."
+      ],
+      "answerIndex": 2,
+      "explanation": "Sakın bu bilgiyi kimseyle paylaşma. تعني إياك أن تشارك هذه المعلومة مع أي شخص.."
+    },
+    {
+      "id": "b1-u5-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-madan önce",
+        "-dığı için",
+        "-seydi",
+        "Sakın + olumsuz emir"
+      ],
+      "answerIndex": 3,
+      "explanation": "تحذير قوي من القيام بفعل."
+    },
+    {
+      "id": "b1-u5-09-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «Sakın + olumsuz emir»؟",
+      "options": [
+        "منع فعل قد يسبب مشكلة أو خطراً.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "منع فعل قد يسبب مشكلة أو خطراً."
+    },
+    {
+      "id": "b1-u5-09-q5",
+      "prompt": "أكمل التركيب: Sakın bu bilgiyi kimseyle paylaşma.",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "Sakın + olumsuz emir",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي Sakın + olumsuz emir؛ تحذير قوي من القيام بفعل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u5",
+    "legacyGlobalNumber": 169
+  }
+}

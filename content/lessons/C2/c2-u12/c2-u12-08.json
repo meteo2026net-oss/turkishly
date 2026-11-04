@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u12-08",
+  "level": "C2",
+  "unitId": "c2-u12",
+  "order": 8,
+  "title": {
+    "ar": "التواصل الاستراتيجي في المؤسسات الدولية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الدبلوماسية والقيادة الدولية والمشروع الختامي",
+    "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
+    "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
+  },
+  "contentStatus": "full",
+  "goal": "مواءمة الرسائل مع الأهداف والجمهور والمخاطر المؤسسية.",
+  "rule": "حدد الرسالة المحورية والقنوات والمتحدثين ومؤشرات الفهم والتفاعل.",
+  "vocabulary": [
+    {
+      "term": "uluslararası stratejik iletişim",
+      "meaningAr": "تواصل استراتيجي دولي",
+      "exampleTr": "Mesajları farklı paydaşlara göre uyarlarken temel tutarlılığı koruduk.",
+      "exampleAr": "حافظنا على الاتساق الأساسي مع تكييف الرسائل لمختلف أصحاب المصلحة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Mesajları farklı paydaşlara göre uyarlarken temel tutarlılığı koruduk.",
+      "ar": "حافظنا على الاتساق الأساسي مع تكييف الرسائل لمختلف أصحاب المصلحة."
+    },
+    {
+      "tr": "Her paydaş için mesajın amacını netleştirdim.",
+      "ar": "وضحت هدف الرسالة لكل صاحب مصلحة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her gruba aynı metni mi gönderelim؟",
+      "ar": "هل نرسل النص نفسه لكل مجموعة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Ana mesaj aynı kalmalı, sunum uyarlanabilir.",
+      "ar": "تبقى الرسالة الأساسية نفسها ويمكن تكييف طريقة عرضها."
+    }
+  ],
+  "speakingTask": "ضع خطة تواصل لبرنامج دولي مع رسائل وقنوات ومؤشرات.",
+  "questions": [
+    {
+      "id": "c2-u12-08-q1",
+      "prompt": "ما معنى «uluslararası stratejik iletişim»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تواصل استراتيجي دولي",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«uluslararası stratejik iletişim» تعني: تواصل استراتيجي دولي."
+    },
+    {
+      "id": "c2-u12-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "حافظنا على الاتساق الأساسي مع تكييف الرسائل لمختلف أصحاب المصلحة."
+      ],
+      "answerIndex": 3,
+      "explanation": "حافظنا على الاتساق الأساسي مع تكييف الرسائل لمختلف أصحاب المصلحة."
+    },
+    {
+      "id": "c2-u12-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "paydaş iletişimi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «paydaş iletişimi». حدد الرسالة المحورية والقنوات والمتحدثين ومؤشرات الفهم والتفاعل."
+    },
+    {
+      "id": "c2-u12-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "إدارة التواصل مع أصحاب المصلحة الدوليين.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "إدارة التواصل مع أصحاب المصلحة الدوليين."
+    },
+    {
+      "id": "c2-u12-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "ضع خطة تواصل لبرنامج دولي مع رسائل وقنوات ومؤشرات."
+      ],
+      "answerIndex": 3,
+      "explanation": "ضع خطة تواصل لبرنامج دولي مع رسائل وقنوات ومؤشرات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u12",
+    "legacyGlobalNumber": 538
+  }
+}

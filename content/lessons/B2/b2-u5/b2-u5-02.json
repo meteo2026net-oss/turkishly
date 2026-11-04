@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u5-02",
+  "level": "B2",
+  "unitId": "b2-u5",
+  "order": 2,
+  "title": {
+    "ar": "التعليم الرسمي والتدريب العملي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التعليم والتعلم والبحث",
+    "titleTr": "Eğitim, Öğrenme ve Araştırma",
+    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+  },
+  "contentStatus": "full",
+  "goal": "المقارنة بين الدراسة النظرية والتطبيق.",
+  "rule": "Teorik bilgi, uygulamayla desteklendiğinde daha kalıcı olur.",
+  "vocabulary": [
+    {
+      "term": "uygulama",
+      "meaningAr": "تطبيق عملي",
+      "exampleTr": "تصبح المعرفة النظرية أكثر رسوخاً عندما تدعم بالتطبيق.",
+      "exampleAr": "تطبيق عملي"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "كي",
+      "ar": ""
+    },
+    {
+      "tr": "Staj sırasında gerçek deneyim kazandım.",
+      "ar": "اكتسبت خبرة حقيقية أثناء التدريب."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Uygulama, bilgiyi pekiştirir.|يعزز التطبيق المعرفة.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Hangisi daha etkili? — أيهما أكثر فاعلية؟\nB: İkisini birlikte kullanmak. — استخدامهما معاً.",
+  "questions": [
+    {
+      "id": "b2-u5-02-q1",
+      "prompt": "ما معنى «uygulama»؟",
+      "options": [
+        "عطلة",
+        "تسلية",
+        "teorik ve uygulamalı eğitim|تعليم نظري وعملي",
+        "تعليم عشوائي"
+      ],
+      "answerIndex": 2,
+      "explanation": "uygulama تعني تطبيق عملي."
+    },
+    {
+      "id": "b2-u5-02-q2",
+      "prompt": "ما ترجمة الجملة: «تصبح المعرفة النظرية أكثر رسوخاً عندما تدعم بالتطبيق.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "تصبح المعرفة النظرية أكثر رسوخاً عندما تدعم بالتطبيق.|تطبيق عملي"
+      ],
+      "answerIndex": 3,
+      "explanation": "تصبح المعرفة النظرية أكثر رسوخاً عندما تدعم بالتطبيق. تعني تطبيق عملي."
+    },
+    {
+      "id": "b2-u5-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "عقوبة",
+        "ربط النظرية بالتطبيق",
+        "رغم أن",
+        "قبل أن"
+      ],
+      "answerIndex": 0,
+      "explanation": "-DIğında."
+    },
+    {
+      "id": "b2-u5-02-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «عقوبة»؟",
+      "options": [
+        "قبل أن",
+        "عندما",
+        "ربط النظرية بالتطبيق",
+        "رغم أن"
+      ],
+      "answerIndex": 1,
+      "explanation": "عندما"
+    },
+    {
+      "id": "b2-u5-02-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "ربط النظرية بالتطبيق",
+        "رغم أن",
+        "قبل أن",
+        "عندما"
+      ],
+      "answerIndex": 3,
+      "explanation": "عندما"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u5",
+    "legacyGlobalNumber": 222
+  }
+}

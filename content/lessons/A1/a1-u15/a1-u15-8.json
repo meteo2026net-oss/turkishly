@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u15-8",
+  "level": "A1",
+  "unitId": "a1-u15",
+  "order": 8,
+  "title": {
+    "ar": {
+      "id": "a1-u15-08",
+      "order": 8,
+      "titleAr": "حوار متكامل في متجر الملابس",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التسوق والملابس والأسعار",
+    "titleTr": "Alışveriş, Giysiler ve Fiyatlar",
+    "description": "الملابس والألوان والمقاسات والمتاجر والأسعار والتحدث مع البائع والتخفيضات والدفع."
+  },
+  "contentStatus": "full",
+  "goal": "فهم حوار متكامل في متجر للملابس من السؤال حتى الدفع.",
+  "rule": "اقرأ الحوار ولاحظ تسلسل التسوق: البحث عن قميص، السؤال عن السعر، طلب مقاس آخر، تجربة القطعة ثم الدفع. انتبه إلى arıyorum (أبحث)، ne kadar (كم السعر)، beden (المقاس)، deneyebilir miyim (هل يمكنني التجربة)، وkartla (بالبطاقة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "A: Merhaba, bir gömlek arıyorum.",
+      "ar": "أ: مرحباً، أبحث عن قميص."
+    },
+    {
+      "tr": "B: Hangi renk?",
+      "ar": "ب: أي لون؟"
+    },
+    {
+      "tr": "A: Mavi olsun. Fiyatı ne kadar?",
+      "ar": "أ: ليكن أزرق. كم سعره؟"
+    },
+    {
+      "tr": "B: Beş yüz lira.",
+      "ar": "ب: خمسمئة ليرة."
+    },
+    {
+      "tr": "A: Daha büyük beden var mı?",
+      "ar": "أ: هل يوجد مقاس أكبر؟"
+    },
+    {
+      "tr": "B: Evet, buyurun.",
+      "ar": "ب: نعم، تفضل."
+    },
+    {
+      "tr": "A: Kartla ödeyeceğim, teşekkürler.",
+      "ar": "أ: سأدفع بالبطاقة، شكراً."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u15-8-q1",
+      "prompt": "ما معنى Daha büyük beden var mı؟",
+      "options": [
+        "هل يوجد مقاس أكبر؟",
+        "هل يوجد تخفيض؟",
+        "كم سعر القميص؟",
+        "أين صندوق المحاسبة؟"
+      ],
+      "answerIndex": 0,
+      "explanation": "السؤال عن توفر مقاس أكبر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u15",
+    "legacyLessonOrder": 8
+  }
+}

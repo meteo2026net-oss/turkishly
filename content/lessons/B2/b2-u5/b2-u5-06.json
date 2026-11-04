@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u5-06",
+  "level": "B2",
+  "unitId": "b2-u5",
+  "order": 6,
+  "title": {
+    "ar": "التعلم التعاوني والعمل الجماعي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التعليم والتعلم والبحث",
+    "titleTr": "Eğitim, Öğrenme ve Araştırma",
+    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن تبادل المعرفة والتعلم المشترك.",
+  "rule": "Birlikte çalışmak farklı bakış açıları kazandırır.",
+  "vocabulary": [
+    {
+      "term": "bakış açısı",
+      "meaningAr": "وجهة نظر",
+      "exampleTr": "يمنح العمل المشترك وجهات نظر مختلفة.",
+      "exampleAr": "وجهة نظر"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "النفي",
+      "ar": ""
+    },
+    {
+      "tr": "Grup çalışmasında herkes katkı sağladı.",
+      "ar": "ساهم الجميع في العمل الجماعي."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Fikir alışverişi çözümü geliştirdi.|طوّر تبادل الأفكار الحل.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Grup çalışması neden yararlı? — لماذا العمل الجماعي مفيد؟\nB: Birbirimizden öğreniyoruz. — نتعلم من بعضنا.",
+  "questions": [
+    {
+      "id": "b2-u5-06-q1",
+      "prompt": "ما معنى «bakış açısı»؟",
+      "options": [
+        "تذكرة",
+        "فاتورة",
+        "farklı bakış açıları|وجهات نظر مختلفة",
+        "موعد نهائي"
+      ],
+      "answerIndex": 2,
+      "explanation": "bakış açısı تعني وجهة نظر."
+    },
+    {
+      "id": "b2-u5-06-q2",
+      "prompt": "ما ترجمة الجملة: «يمنح العمل المشترك وجهات نظر مختلفة.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "يمنح العمل المشترك وجهات نظر مختلفة.|وجهة نظر"
+      ],
+      "answerIndex": 3,
+      "explanation": "يمنح العمل المشترك وجهات نظر مختلفة. تعني وجهة نظر."
+    },
+    {
+      "id": "b2-u5-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "مفتاح",
+        "التعلم التعاوني",
+        "المبني للمجهول",
+        "المقارنة فقط"
+      ],
+      "answerIndex": 0,
+      "explanation": "birlikte + fiil."
+    },
+    {
+      "id": "b2-u5-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «مفتاح»؟",
+      "options": [
+        "المقارنة فقط",
+        "العمل بصورة مشتركة",
+        "التعلم التعاوني",
+        "المبني للمجهول"
+      ],
+      "answerIndex": 1,
+      "explanation": "العمل بصورة مشتركة"
+    },
+    {
+      "id": "b2-u5-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعلم التعاوني",
+        "المبني للمجهول",
+        "المقارنة فقط",
+        "العمل بصورة مشتركة"
+      ],
+      "answerIndex": 3,
+      "explanation": "العمل بصورة مشتركة"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u5",
+    "legacyGlobalNumber": 226
+  }
+}

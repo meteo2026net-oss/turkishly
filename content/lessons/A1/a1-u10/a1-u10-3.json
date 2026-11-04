@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u10-3",
+  "level": "A1",
+  "unitId": "a1-u10",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u10-03",
+      "order": 3,
+      "titleAr": "مفردات الصحة والعافية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الصحة والجسم وزيارة الطبيب",
+    "titleTr": "Sağlık, Vücut ve Doktor Ziyareti",
+    "description": "أجزاء الجسم ومفردات الصحة والأعراض الشائعة والأماكن الطبية والتواصل البسيط في العيادة والصيدلية."
+  },
+  "contentStatus": "full",
+  "goal": "تعلّم مفردات الصحة والعافية والتعبير عن الشعور العام.",
+  "rule": "كلمات أساسية: sağlık صحة، hasta مريض، sağlıklı بصحة جيدة، yorgun متعب، iyi جيد، kötü سيئ، ağrı ألم، ateş حرارة، öksürük سعال، dinlenmek يستريح. للتعبير عن حالتك يمكنك قول İyiyim (أنا بخير)، Yorgunum (أنا متعب)، أو Kendimi iyi hissetmiyorum (لا أشعر أنني بخير).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Nasılsın?",
+      "ar": "كيف حالك؟"
+    },
+    {
+      "tr": "İyiyim, teşekkürler.",
+      "ar": "أنا بخير، شكراً."
+    },
+    {
+      "tr": "Biraz yorgunum.",
+      "ar": "أنا متعب قليلاً."
+    },
+    {
+      "tr": "Kendimi iyi hissetmiyorum.",
+      "ar": "لا أشعر أنني بخير."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u10-3-q1",
+      "prompt": "ما معنى yorgun؟",
+      "options": [
+        "سعيد",
+        "متعب",
+        "جائع",
+        "سريع"
+      ],
+      "answerIndex": 1,
+      "explanation": "yorgun تعني متعب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u10",
+    "legacyLessonOrder": 3
+  }
+}

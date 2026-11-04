@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u2-05",
+  "level": "B2",
+  "unitId": "b2-u2",
+  "order": 5,
+  "title": {
+    "ar": "التعبير عن التعميم والاستثناء",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
+    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
+    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+  },
+  "contentStatus": "full",
+  "goal": "تحديد القاعدة العامة والحالات التي لا تنطبق عليها.",
+  "rule": "استخدم genellikle (عادة)، çoğunlukla (في الغالب)، istisna olarak (استثناءً)، bunun dışında (عدا ذلك). وللتقييد قل her durumda değil (ليس في كل حالة).",
+  "vocabulary": [
+    {
+      "term": "istisna olarak",
+      "meaningAr": "على سبيل الاستثناء",
+      "exampleTr": "Bu kural herkes için geçerlidir; istisna olarak bazı durumlar hariçtir.",
+      "exampleAr": "هذه القاعدة تنطبق على الجميع، باستثناء بعض الحالات."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "مقارنة",
+      "ar": ""
+    },
+    {
+      "tr": "Genellikle erken başlar, ancak bugün geç kaldı.",
+      "ar": "يبدأ عادة مبكراً، لكنه تأخر اليوم."
+    },
+    {
+      "tr": "Bunun dışında ek bir şart yok.",
+      "ar": "لا يوجد شرط إضافي عدا ذلك."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Herkes katılabilir mi?",
+      "ar": "هل يستطيع الجميع المشاركة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Evet, birkaç özel durum dışında.",
+      "ar": "نعم، باستثناء حالات خاصة قليلة."
+    }
+  ],
+  "speakingTask": "اذكر ثلاث قواعد عامة وثلاثة استثناءات من الحياة اليومية.",
+  "questions": [
+    {
+      "id": "b2-u2-05-q1",
+      "prompt": "ما معنى «istisna olarak»؟",
+      "options": [
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "على سبيل الاستثناء"
+      ],
+      "answerIndex": 3,
+      "explanation": "istisna olarak تعني على سبيل الاستثناء."
+    },
+    {
+      "id": "b2-u2-05-q2",
+      "prompt": "ما ترجمة الجملة: «Bu kural herkes için geçerlidir; istisna olarak bazı durumlar hariçtir.»؟",
+      "options": [
+        "هذه القاعدة تنطبق على الجميع، باستثناء بعض الحالات.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bu kural herkes için geçerlidir; istisna olarak bazı durumlar hariçtir. تعني هذه القاعدة تنطبق على الجميع، باستثناء بعض الحالات.."
+    },
+    {
+      "id": "b2-u2-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "zorunluluk",
+        "genel kural + istisna",
+        "istisna",
+        "genelleme"
+      ],
+      "answerIndex": 1,
+      "explanation": "قاعدة عامة يعقبها استثناء."
+    },
+    {
+      "id": "b2-u2-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «genel kural + istisna»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تجنب التعميم المطلق وتحديد نطاق الحكم.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تجنب التعميم المطلق وتحديد نطاق الحكم."
+    },
+    {
+      "id": "b2-u2-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تجنب التعميم المطلق وتحديد نطاق الحكم.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "تجنب التعميم المطلق وتحديد نطاق الحكم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u2",
+    "legacyGlobalNumber": 195
+  }
+}

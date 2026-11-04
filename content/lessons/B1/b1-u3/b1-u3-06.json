@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u3-06",
+  "level": "B1",
+  "unitId": "b1-u3",
+  "order": 6,
+  "title": {
+    "ar": "الأفعال الانعكاسية والمتبادلة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "التمييز بين الفعل الذي يعود على فاعله والفعل الذي يحدث بين طرفين.",
+  "rule": "تُستخدم لاحقة -in/-ın/-un/-ün في بعض الأفعال الانعكاسية مثل giyinmek يرتدي ملابسه وyıkanmak يغتسل. وتُستخدم -iş/-ış/-uş/-üş في أفعال متبادلة مثل görüşmek يتقابل/يتحدث معاً.",
+  "vocabulary": [
+    {
+      "term": "giyinmek",
+      "meaningAr": "ارتداء الملابس",
+      "exampleTr": "Sabah erken giyiniyorum.",
+      "exampleAr": "أرتدي ملابسي باكراً في الصباح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çocuklar bahçede buluştu.",
+      "ar": "التقى الأطفال في الحديقة."
+    },
+    {
+      "tr": "Her sabah yıkanırım.",
+      "ar": "أغتسل كل صباح."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Arkadaşlarınla ne zaman görüşüyorsun?",
+      "ar": "متى تلتقي بأصدقائك؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Genellikle hafta sonları görüşüyoruz.",
+      "ar": "نلتقي عادةً في عطلة نهاية الأسبوع."
+    }
+  ],
+  "speakingTask": "اكتب مثالين لفعل انعكاسي ومثالين لفعل متبادل.",
+  "questions": [
+    {
+      "id": "b1-u3-06-q1",
+      "prompt": "ما معنى «giyinmek»؟",
+      "options": [
+        "التحدث معاً",
+        "الاستيقاظ",
+        "ارتداء الملابس",
+        "الاستحمام"
+      ],
+      "answerIndex": 2,
+      "explanation": "giyinmek تعني ارتداء الملابس."
+    },
+    {
+      "id": "b1-u3-06-q2",
+      "prompt": "ما ترجمة الجملة: «Sabah erken giyiniyorum.»؟",
+      "options": [
+        "أغسل السيارة.",
+        "أتحدث مع صديقي أمس.",
+        "أذهب إلى المدرسة.",
+        "أرتدي ملابسي باكراً في الصباح."
+      ],
+      "answerIndex": 3,
+      "explanation": "Sabah erken giyiniyorum. تعني أرتدي ملابسي باكراً في الصباح.."
+    },
+    {
+      "id": "b1-u3-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "görüşmek",
+        "görmek",
+        "göstermek",
+        "görülmek"
+      ],
+      "answerIndex": 0,
+      "explanation": "فعل متبادل يدل على تفاعل طرفين أو أكثر."
+    },
+    {
+      "id": "b1-u3-06-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «görüşmek»؟",
+      "options": [
+        "اسم مكان",
+        "فعل متبادل بين طرفين",
+        "فعل مبني للمجهول",
+        "فعل سببي"
+      ],
+      "answerIndex": 1,
+      "explanation": "بيان أن الفعل يعود على الفاعل أو يتم بصورة متبادلة."
+    },
+    {
+      "id": "b1-u3-06-q5",
+      "prompt": "أكمل التركيب: Sabah erken giyiniyorum.",
+      "options": [
+        "görmek",
+        "göstermek",
+        "görülmek",
+        "görüşmek"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي görüşmek؛ فعل متبادل يدل على تفاعل طرفين أو أكثر."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u3",
+    "legacyGlobalNumber": 146
+  }
+}

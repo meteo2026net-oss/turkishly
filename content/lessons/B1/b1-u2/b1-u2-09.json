@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u2-09",
+  "level": "B1",
+  "unitId": "b1-u2",
+  "order": 9,
+  "title": {
+    "ar": "روابط ترتيب الأفكار وتنظيم الكلام",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "تنظيم الحديث أو الكتابة باستخدام روابط افتتاح وتسلسل وخاتمة.",
+  "rule": "من الروابط: öncelikle أولاً، ayrıca بالإضافة إلى ذلك، bunun yanında إلى جانب ذلك، son olarak أخيراً. تساعد على ترتيب الحجج وجعل النص واضحاً.",
+  "vocabulary": [
+    {
+      "term": "öncelikle",
+      "meaningAr": "أولاً / بادئ ذي بدء",
+      "exampleTr": "Öncelikle konuyu açıklayacağım.",
+      "exampleAr": "سأشرح الموضوع أولاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ayrıca iki önerim var.",
+      "ar": "بالإضافة إلى ذلك لدي اقتراحان."
+    },
+    {
+      "tr": "Son olarak sonuçları değerlendirelim.",
+      "ar": "أخيراً دعونا نقيّم النتائج."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Nasıl başlayalım?",
+      "ar": "كيف نبدأ؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle amacı açıklayalım, ayrıca örnek verelim.",
+      "ar": "أولاً لنشرح الهدف، ثم نضيف مثالاً."
+    }
+  ],
+  "speakingTask": "قدّم رأياً من أربع جمل مستخدماً ثلاثة روابط تنظيمية.",
+  "questions": [
+    {
+      "id": "b1-u2-09-q1",
+      "prompt": "ما معنى «öncelikle»؟",
+      "options": [
+        "أخيراً",
+        "رغم ذلك",
+        "لأن",
+        "أولاً / بادئ ذي بدء"
+      ],
+      "answerIndex": 3,
+      "explanation": "öncelikle تعني أولاً / بادئ ذي بدء."
+    },
+    {
+      "id": "b1-u2-09-q2",
+      "prompt": "ما ترجمة الجملة: «Öncelikle konuyu açıklayacağım.»؟",
+      "options": [
+        "سأشرح الموضوع أولاً.",
+        "سأشرح الموضوع أخيراً.",
+        "لن أشرح الموضوع.",
+        "شرحت الموضوع أمس."
+      ],
+      "answerIndex": 0,
+      "explanation": "Öncelikle konuyu açıklayacağım. تعني سأشرح الموضوع أولاً.."
+    },
+    {
+      "id": "b1-u2-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "belki",
+        "son olarak",
+        "çünkü",
+        "rağmen"
+      ],
+      "answerIndex": 1,
+      "explanation": "رابط لتقديم النقطة الأخيرة أو الخاتمة."
+    },
+    {
+      "id": "b1-u2-09-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «son olarak»؟",
+      "options": [
+        "إظهار التنازل",
+        "إظهار الاحتمال",
+        "تنظيم وتسلسل الأفكار",
+        "إظهار السبب"
+      ],
+      "answerIndex": 2,
+      "explanation": "تنظيم الأفكار وتسلسلها في الكلام والكتابة."
+    },
+    {
+      "id": "b1-u2-09-q5",
+      "prompt": "أكمل التركيب: Öncelikle konuyu açıklayacağım.",
+      "options": [
+        "son olarak",
+        "çünkü",
+        "rağmen",
+        "belki"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي son olarak؛ رابط لتقديم النقطة الأخيرة أو الخاتمة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u2",
+    "legacyGlobalNumber": 139
+  }
+}

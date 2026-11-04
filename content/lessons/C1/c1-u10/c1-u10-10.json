@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u10-10",
+  "level": "C1",
+  "unitId": "c1-u10",
+  "order": 10,
+  "title": {
+    "ar": "مشروع العرض الأكاديمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العرض الأكاديمي المتقدم",
+    "titleTr": "İleri Akademik Sunum",
+    "description": "بناء العروض والانتقالات وشرح البيانات وإدارة الأسئلة والنقاش."
+  },
+  "contentStatus": "full",
+  "goal": "إنتاج عرض متخصص متكامل يعرض قضية ونتائج وأدلة ويرد على أسئلة الجمهور.",
+  "rule": "اجمع بين وضوح الأطروحة وتسلسل المحاور والبيانات الدقيقة والتفاعل مع الأسئلة.",
+  "vocabulary": [
+    {
+      "term": "sunum projesi",
+      "meaningAr": "مشروع عرض تقديمي",
+      "exampleTr": "Araştırma sonuçlarını uzman bir dinleyici kitlesine sundum.",
+      "exampleAr": "عرضت نتائج البحث على جمهور من المتخصصين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Araştırma sonuçlarını uzman bir dinleyici kitlesine sundum.",
+      "ar": "عرضت نتائج البحث على جمهور من المتخصصين."
+    },
+    {
+      "tr": "Sunumumu prova ederek süreyi ve açıklığı geliştirdim.",
+      "ar": "طورت مدة العرض ووضوحه من خلال التدريب."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sunumun en güçlü yönü neydi؟",
+      "ar": "ما أقوى جانب في العرض؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kanıtları açık biçimde sunup soruları yanıtlamak.",
+      "ar": "عرض الأدلة بوضوح والإجابة عن الأسئلة."
+    }
+  ],
+  "speakingTask": "أنجز عرضاً من عشر دقائق مع شرائح ومراجع وجلسة أسئلة.",
+  "questions": [
+    {
+      "id": "c1-u10-10-q1",
+      "prompt": "ما معنى «sunum projesi»؟",
+      "options": [
+        "مشروع عرض تقديمي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«sunum projesi» تعني: مشروع عرض تقديمي."
+    },
+    {
+      "id": "c1-u10-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "عرضت نتائج البحث على جمهور من المتخصصين.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "عرضت نتائج البحث على جمهور من المتخصصين."
+    },
+    {
+      "id": "c1-u10-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "bütünleşik akademik sunum",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «bütünleşik akademik sunum». اجمع بين وضوح الأطروحة وتسلسل المحاور والبيانات الدقيقة والتفاعل مع الأسئلة."
+    },
+    {
+      "id": "c1-u10-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "دمج مهارات العرض والإقناع والتفسير والرد على الأسئلة."
+      ],
+      "answerIndex": 3,
+      "explanation": "دمج مهارات العرض والإقناع والتفسير والرد على الأسئلة."
+    },
+    {
+      "id": "c1-u10-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "أنجز عرضاً من عشر دقائق مع شرائح ومراجع وجلسة أسئلة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "أنجز عرضاً من عشر دقائق مع شرائح ومراجع وجلسة أسئلة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u10",
+    "legacyGlobalNumber": 400
+  }
+}

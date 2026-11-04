@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Turkishly lesson record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "level",
+    "unitId",
+    "order",
+    "title",
+    "contentStatus",
+    "unit",
+    "source"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "level": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "unitId": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "object",
+      "required": [
+        "ar",
+        "tr"
+      ],
+      "properties": {
+        "ar": {
+          "oneOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "object",
+              "required": ["titleAr"],
+              "properties": {
+                "titleAr": {"type": "string", "minLength": 1}
+              }
+            }
+          ]
+        },
+        "tr": {
+          "type": "string"
+        }
+      }
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "titleAr",
+        "titleTr",
+        "description"
+      ],
+      "properties": {
+        "titleAr": {
+          "type": "string"
+        },
+        "titleTr": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "contentStatus": {
+      "enum": [
+        "metadata_only",
+        "full"
+      ]
+    },
+    "goal": {
+      "type": "string"
+    },
+    "rule": {
+      "type": "string"
+    },
+    "vocabulary": {
+      "type": "array"
+    },
+    "examples": {
+      "type": "array"
+    },
+    "dialogue": {
+      "type": "array"
+    },
+    "speakingTask": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "prompt",
+          "options",
+          "answerIndex",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "answerIndex": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "explanation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "media": {
+      "type": "array"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "legacyFile": {
+          "type": "string"
+        },
+        "legacyUnitId": {
+          "type": "string"
+        },
+        "legacyLessonOrder": {
+          "type": "integer"
+        },
+        "legacyGlobalNumber": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

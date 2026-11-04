@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-07",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 7,
+  "title": {
+    "ar": "القيادة الفكرية والتوجيه",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "توجيه فريق متخصص عبر الأسئلة والرؤية والتغذية الراجعة.",
+  "rule": "وضح المعايير والرؤية، وامنح استقلالية، وراجع النتائج دون فرض حل واحد.",
+  "vocabulary": [
+    {
+      "term": "entelektüel liderlik",
+      "meaningAr": "قيادة فكرية",
+      "exampleTr": "Ekip üyelerinin farklı uzmanlıklarını ortak hedefte birleştirdim.",
+      "exampleAr": "جمعت خبرات أعضاء الفريق المختلفة حول هدف مشترك."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Ekip üyelerinin farklı uzmanlıklarını ortak hedefte birleştirdim.",
+      "ar": "جمعت خبرات أعضاء الفريق المختلفة حول هدف مشترك."
+    },
+    {
+      "tr": "Ekibin bağımsız düşünmesini destekledim.",
+      "ar": "دعمت التفكير المستقل للفريق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her kararı sen mi vereceksin؟",
+      "ar": "هل ستتخذ كل قرار بنفسك؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, sorumluluğu ve karar alanını paylaşacağız.",
+      "ar": "لا، سنشارك المسؤولية ومساحة القرار."
+    }
+  ],
+  "speakingTask": "ضع خطة توجيه لفريق بحثي تشمل أهدافاً ومراجعات دورية.",
+  "questions": [
+    {
+      "id": "c2-u3-07-q1",
+      "prompt": "ما معنى «entelektüel liderlik»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "قيادة فكرية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«entelektüel liderlik» تعني: قيادة فكرية."
+    },
+    {
+      "id": "c2-u3-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "جمعت خبرات أعضاء الفريق المختلفة حول هدف مشترك.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "جمعت خبرات أعضاء الفريق المختلفة حول هدف مشترك."
+    },
+    {
+      "id": "c2-u3-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "uzman ekip liderliği",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «uzman ekip liderliği». وضح المعايير والرؤية، وامنح استقلالية، وراجع النتائج دون فرض حل واحد."
+    },
+    {
+      "id": "c2-u3-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "توجيه فريق خبراء نحو هدف مشترك.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "توجيه فريق خبراء نحو هدف مشترك."
+    },
+    {
+      "id": "c2-u3-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "ضع خطة توجيه لفريق بحثي تشمل أهدافاً ومراجعات دورية.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "ضع خطة توجيه لفريق بحثي تشمل أهدافاً ومراجعات دورية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyGlobalNumber": 447
+  }
+}

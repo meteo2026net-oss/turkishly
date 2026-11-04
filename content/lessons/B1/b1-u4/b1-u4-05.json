@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u4-05",
+  "level": "B1",
+  "unitId": "b1-u4",
+  "order": 5,
+  "title": {
+    "ar": "التعبير عن الندم وما كان ينبغي فعله",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "وصف قرار سابق مع الإشارة إلى ما كان الأفضل فعله.",
+  "rule": "استخدم keşke + الماضي الشرطي للتمني والندم: Keşke daha erken gelseydim. وللتعبير عن واجب لم يتحقق: daha dikkatli olmalıydım (كان ينبغي أن أكون أكثر انتباهاً).",
+  "vocabulary": [
+    {
+      "term": "Keşke",
+      "meaningAr": "ليت / أتمنى لو",
+      "exampleTr": "Keşke o fırsatı kaçırmasaydım.",
+      "exampleAr": "ليتني لم أضيّع تلك الفرصة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Keşke daha çok kitap okusaydım.",
+      "ar": "ليتني قرأت كتباً أكثر."
+    },
+    {
+      "tr": "Daha erken çıkmalıydık.",
+      "ar": "كان ينبغي أن نخرج أبكر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Sınava hazır mısın?",
+      "ar": "هل أنت مستعد للامتحان؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Keşke daha önce çalışsaydım.",
+      "ar": "ليتني درست في وقت أبكر."
+    }
+  ],
+  "speakingTask": "اكتب ثلاث جمل ندم أو تمنٍ عن مواقف افتراضية.",
+  "questions": [
+    {
+      "id": "b1-u4-05-q1",
+      "prompt": "ما معنى «Keşke»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "ليت / أتمنى لو"
+      ],
+      "answerIndex": 3,
+      "explanation": "Keşke تعني ليت / أتمنى لو."
+    },
+    {
+      "id": "b1-u4-05-q2",
+      "prompt": "ما ترجمة الجملة: «Keşke o fırsatı kaçırmasaydım.»؟",
+      "options": [
+        "ليتني لم أضيّع تلك الفرصة.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Keşke o fırsatı kaçırmasaydım. تعني ليتني لم أضيّع تلك الفرصة.."
+    },
+    {
+      "id": "b1-u4-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "Keşke + -seydi/-saydı",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "تمني أو ندم متعلق بحالة غير واقعة."
+    },
+    {
+      "id": "b1-u4-05-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «Keşke + -seydi/-saydı»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "التعبير عن الندم أو تمني اختلاف الماضي.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير عن الندم أو تمني اختلاف الماضي."
+    },
+    {
+      "id": "b1-u4-05-q5",
+      "prompt": "أكمل التركيب: Keşke o fırsatı kaçırmasaydım.",
+      "options": [
+        "Keşke + -seydi/-saydı",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي Keşke + -seydi/-saydı؛ تمني أو ندم متعلق بحالة غير واقعة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u4",
+    "legacyGlobalNumber": 155
+  }
+}

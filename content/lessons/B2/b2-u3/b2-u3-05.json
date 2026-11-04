@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u3-05",
+  "level": "B2",
+  "unitId": "b2-u3",
+  "order": 5,
+  "title": {
+    "ar": "التعبير عن الدقة والتحفظ العلمي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
+    "titleTr": "İleri Akademik ve Mesleki İletişim",
+    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "صياغة نتائج لا تتجاوز ما تسمح به الأدلة.",
+  "rule": "استخدم büyük ölçüde (إلى حد كبير)، kısmen (جزئياً)، sınırlı ölçüde (بدرجة محدودة)، kesin olarak söylenemez (لا يمكن الجزم). تجنب التعميم عندما تكون العينة محدودة.",
+  "vocabulary": [
+    {
+      "term": "kesin olarak söylenemez",
+      "meaningAr": "لا يمكن الجزم بشكل قاطع",
+      "exampleTr": "Bu sonuçlardan tek başına kesin bir yargıya varılamaz.",
+      "exampleAr": "لا يمكن الوصول إلى حكم قاطع اعتماداً على هذه النتائج وحدها."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "أمر",
+      "ar": ""
+    },
+    {
+      "tr": "Bulgular bu görüşü kısmen destekliyor.",
+      "ar": "تدعم النتائج هذا الرأي جزئياً."
+    },
+    {
+      "tr": "Daha fazla veriye ihtiyaç vardır.",
+      "ar": "هناك حاجة إلى مزيد من البيانات."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu araştırma her şeyi kanıtlıyor mu?",
+      "ar": "هل يثبت هذا البحث كل شيء؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hayır, sonuçları dikkatli yorumlamak gerekir.",
+      "ar": "لا، ينبغي تفسير النتائج بحذر."
+    }
+  ],
+  "speakingTask": "اكتب ثلاث نتائج بصياغة متحفظة وثلاث عبارات جزم غير مناسبة لها.",
+  "questions": [
+    {
+      "id": "b2-u3-05-q1",
+      "prompt": "ما معنى «kesin olarak söylenemez»؟",
+      "options": [
+        "يشير إلى شرط افتراضي",
+        "لا يمكن الجزم بشكل قاطع",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن"
+      ],
+      "answerIndex": 1,
+      "explanation": "kesin olarak söylenemez تعني لا يمكن الجزم بشكل قاطع."
+    },
+    {
+      "id": "b2-u3-05-q2",
+      "prompt": "ما ترجمة الجملة: «Bu sonuçlardan tek başına kesin bir yargıya varılamaz.»؟",
+      "options": [
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "لا يمكن الوصول إلى حكم قاطع اعتماداً على هذه النتائج وحدها.",
+        "سأعود إلى المنزل بعد انتهاء العمل."
+      ],
+      "answerIndex": 2,
+      "explanation": "Bu sonuçlardan tek başına kesin bir yargıya varılamaz. تعني لا يمكن الوصول إلى حكم قاطع اعتماداً على هذه النتائج وحدها.."
+    },
+    {
+      "id": "b2-u3-05-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "bilimsel ihtiyat",
+        "kesin hüküm",
+        "abartılı genelleme",
+        "sınırlı kanıt + temkinli sonuç"
+      ],
+      "answerIndex": 3,
+      "explanation": "دليل محدود واستنتاج متحفظ."
+    },
+    {
+      "id": "b2-u3-05-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «sınırlı kanıt + temkinli sonuç»؟",
+      "options": [
+        "التعبير بدقة عن درجة اليقين.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير بدقة عن درجة اليقين."
+    },
+    {
+      "id": "b2-u3-05-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "التعبير بدقة عن درجة اليقين.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير بدقة عن درجة اليقين."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u3",
+    "legacyGlobalNumber": 205
+  }
+}

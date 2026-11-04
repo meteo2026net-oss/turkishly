@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-9",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u18-09",
+      "order": 9,
+      "titleAr": "مراجعة واختبار الوحدة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "full",
+  "goal": "مراجعة الهوايات والرياضات والتفضيلات والدعوات.",
+  "rule": "راجع أسماء الهوايات والرياضات، وعبارات الإعجاب والقدرة، وظروف التكرار، وصيغ الدعوة والقبول والاعتذار. كوّن جملتين عن هواياتك، ثم ادعُ صديقاً إلى نشاط وحدد المكان والوقت.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bazen tenis oynarım.",
+      "ar": "ألعب التنس أحياناً."
+    },
+    {
+      "tr": "Kitap okumayı seviyorum.",
+      "ar": "أحب قراءة الكتب."
+    },
+    {
+      "tr": "Benimle sinemaya gelir misin?",
+      "ar": "هل تأتي معي إلى السينما؟"
+    },
+    {
+      "tr": "Parkta buluşalım.",
+      "ar": "لنلتقِ في الحديقة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u18-9-q1",
+      "prompt": "اختر ترجمة «هل نتمشى معاً؟»",
+      "options": [
+        "Birlikte yürüyüş yapalım mı?",
+        "Yüzemem.",
+        "Kütüphane nerede?",
+        "Saat beşte."
+      ],
+      "answerIndex": 0,
+      "explanation": "Birlikte yürüyüş yapalım mı تعني هل نتمشى معاً؟"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 9
+  }
+}

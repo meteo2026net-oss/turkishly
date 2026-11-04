@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u5-2",
+  "level": "A1",
+  "unitId": "a1-u5",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a1-u5-02",
+      "order": 2,
+      "titleAr": "المشروبات وطلبها",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الطعام والشراب والطلب في المطعم",
+    "titleTr": "Yiyecekler, İçecekler ve Restoranda Sipariş",
+    "description": "مفردات الطعام والوجبات والمشروبات والتعبير عن الرغبات والطلب والسؤال عن الأسعار."
+  },
+  "contentStatus": "full",
+  "goal": "التعرّف إلى المشروبات وطلبها بطريقة بسيطة.",
+  "rule": "من المشروبات الشائعة su ماء، çay شاي، kahve قهوة، süt حليب، meyve suyu عصير فواكه. يمكن استخدام Bir ... lütfen لطلب شيء بأدب، أي واحد من ... من فضلك.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bir çay, lütfen.",
+      "ar": "شاي واحد، من فضلك."
+    },
+    {
+      "tr": "Su istiyorum.",
+      "ar": "أريد ماءً."
+    },
+    {
+      "tr": "Kahve içer misin?",
+      "ar": "هل تشرب القهوة؟"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u5-2-q1",
+      "prompt": "أي كلمة تعني «ماء»؟",
+      "options": [
+        "süt",
+        "çay",
+        "su",
+        "kahve"
+      ],
+      "answerIndex": 2,
+      "explanation": "su تعني ماء."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u5",
+    "legacyLessonOrder": 2
+  }
+}

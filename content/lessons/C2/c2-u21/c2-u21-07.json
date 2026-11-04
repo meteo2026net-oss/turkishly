@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u21-07",
+  "level": "C2",
+  "unitId": "c2-u21",
+  "order": 7,
+  "title": {
+    "ar": "قياس مؤشرات الأداء والأثر",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السياسات والحوكمة والتواصل الاستراتيجي الدولي",
+    "titleTr": "Politika, Yönetişim ve Uluslararası Stratejik İletişim",
+    "description": "تصميم السياسات وتقييم الأثر وإدارة أصحاب المصلحة والأزمات والاتفاقات والمؤشرات والمخاطر."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم قياس مؤشرات الأداء والأثر في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "performans ve etki göstergeleri",
+      "meaningAr": "مؤشرات الأداء والأثر",
+      "exampleTr": "Çıktı göstergelerini uzun vadeli etki göstergelerinden ayırdık.",
+      "exampleAr": "فصلنا مؤشرات المخرجات عن مؤشرات الأثر طويل الأمد."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Çıktı göstergelerini uzun vadeli etki göstergelerinden ayırdık.",
+      "ar": "فصلنا مؤشرات المخرجات عن مؤشرات الأثر طويل الأمد."
+    },
+    {
+      "tr": "Doğru gösterge karar kalitesini artırır.",
+      "ar": "يحسن المؤشر الصحيح جودة القرار."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Eğitim sayısı başarıyı gösterir mi?",
+      "ar": "هل يوضح عدد الدورات النجاح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öğrenme sonuçlarını da ölçmeliyiz.",
+      "ar": "علينا قياس نتائج التعلم أيضاً."
+    }
+  ],
+  "speakingTask": "صمم سلسلة نتائج تتضمن مؤشراً لكل مستوى ومصدر بياناته.",
+  "questions": [
+    {
+      "id": "c2-u21-07-q1",
+      "prompt": "ما المقصود بالمصطلح «performans ve etki göstergeleri»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "مؤشرات الأداء والأثر"
+      ],
+      "answerIndex": 3,
+      "explanation": "«performans ve etki göstergeleri» يعني: مؤشرات الأداء والأثر."
+    },
+    {
+      "id": "c2-u21-07-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "فصلنا مؤشرات المخرجات عن مؤشرات الأثر طويل الأمد.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "فصلنا مؤشرات المخرجات عن مؤشرات الأثر طويل الأمد."
+    },
+    {
+      "id": "c2-u21-07-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "sonuç göstergesi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة: sonuç göstergesi. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u21-07-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر",
+        "التمييز بين النشاط والمخرج والنتيجة والأثر",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "التمييز بين النشاط والمخرج والنتيجة والأثر"
+    },
+    {
+      "id": "c2-u21-07-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "صمم سلسلة نتائج تتضمن مؤشراً لكل مستوى ومصدر بياناته.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "صمم سلسلة نتائج تتضمن مؤشراً لكل مستوى ومصدر بياناته."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u21",
+    "legacyGlobalNumber": 627
+  }
+}

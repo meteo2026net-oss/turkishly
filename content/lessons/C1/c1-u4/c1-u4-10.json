@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u4-10",
+  "level": "C1",
+  "unitId": "c1-u4",
+  "order": 10,
+  "title": {
+    "ar": "تطبيق شامل للاستماع",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاستماع المتقدم وتحليل الخطاب",
+    "titleTr": "İleri Dinleme ve Söylem Analizi",
+    "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مهارات الاستماع في محاضرة ومقابلة ونقاش.",
+  "rule": "قارن المصادر الشفهية وحدد موقف كل متحدث والقرائن ودرجة اليقين.",
+  "vocabulary": [
+    {
+      "term": "dinleme stratejisi",
+      "meaningAr": "استراتيجية الاستماع",
+      "exampleTr": "Farklı konuşmacıların iddialarını kanıtlarıyla karşılaştırdım.",
+      "exampleAr": "قارنت ادعاءات المتحدثين مع أدلتهم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Farklı konuşmacıların iddialarını kanıtlarıyla karşılaştırdım.",
+      "ar": "قارنت ادعاءات المتحدثين مع أدلتهم."
+    },
+    {
+      "tr": "Üç kaynaktan ortak ve farklı noktaları belirledim.",
+      "ar": "حددت النقاط المشتركة والمختلفة من ثلاثة مصادر."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi kaynak daha ikna ediciydi؟",
+      "ar": "أي مصدر كان أكثر إقناعاً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kanıtları daha açık sunan kaynak.",
+      "ar": "المصدر الذي عرض الأدلة بوضوح أكبر."
+    }
+  ],
+  "speakingTask": "قدّم ملفاً يقارن محاضرة ومقابلة ونقاشاً في القضية نفسها.",
+  "questions": [
+    {
+      "id": "c1-u4-10-q1",
+      "prompt": "ما معنى «dinleme stratejisi»؟",
+      "options": [
+        "استراتيجية الاستماع",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«dinleme stratejisi» تعني: استراتيجية الاستماع."
+    },
+    {
+      "id": "c1-u4-10-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "قارنت ادعاءات المتحدثين مع أدلتهم.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "قارنت ادعاءات المتحدثين مع أدلتهم."
+    },
+    {
+      "id": "c1-u4-10-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "karşılaştırmalı dinleme",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «karşılaştırmalı dinleme». قارن المصادر الشفهية وحدد موقف كل متحدث والقرائن ودرجة اليقين."
+    },
+    {
+      "id": "c1-u4-10-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "مقارنة الخطاب الشفهي وتحليل أدلته."
+      ],
+      "answerIndex": 3,
+      "explanation": "مقارنة الخطاب الشفهي وتحليل أدلته."
+    },
+    {
+      "id": "c1-u4-10-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "قدّم ملفاً يقارن محاضرة ومقابلة ونقاشاً في القضية نفسها.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "قدّم ملفاً يقارن محاضرة ومقابلة ونقاشاً في القضية نفسها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u4",
+    "legacyGlobalNumber": 340
+  }
+}

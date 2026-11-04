@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u11-05",
+  "level": "C1",
+  "unitId": "c1-u11",
+  "order": 5,
+  "title": {
+    "ar": "تحليل الحجاج في المقالات الفكرية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل الأدبي والأسلوبي المتقدم",
+    "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
+    "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
+  },
+  "contentStatus": "full",
+  "goal": "استخراج الأطروحة والافتراضات والأدلة والنتيجة في مقال فكري.",
+  "rule": "حدد الادعاء الرئيس والافتراضات غير المعلنة ونوع الدليل، ثم قيّم صلة النتيجة بالمقدمات.",
+  "vocabulary": [
+    {
+      "term": "entelektüel argüman",
+      "meaningAr": "حجة فكرية",
+      "exampleTr": "Yazarın savı, örtük bir varsayıma dayanıyor.",
+      "exampleAr": "تستند حجة الكاتب إلى افتراض ضمني."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Yazarın savı, örtük bir varsayıma dayanıyor.",
+      "ar": "تستند حجة الكاتب إلى افتراض ضمني."
+    },
+    {
+      "tr": "Yazarın varsayımlarını metindeki kanıtlarla karşılaştırdım.",
+      "ar": "قارنت افتراضات الكاتب بأدلة النص."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu sonuç öncüllerden çıkıyor mu؟",
+      "ar": "هل تنتج هذه النتيجة عن المقدمات؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yalnızca bir varsayım kabul edilirse.",
+      "ar": "فقط إذا قُبل افتراض معين."
+    }
+  ],
+  "speakingTask": "حلل مقالاً وحدد الأطروحة وافتراضين ودليلين.",
+  "questions": [
+    {
+      "id": "c1-u11-05-q1",
+      "prompt": "ما معنى «entelektüel argüman»؟",
+      "options": [
+        "طلب الإذن",
+        "حجة فكرية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«entelektüel argüman» تعني: حجة فكرية."
+    },
+    {
+      "id": "c1-u11-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تستند حجة الكاتب إلى افتراض ضمني.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تستند حجة الكاتب إلى افتراض ضمني."
+    },
+    {
+      "id": "c1-u11-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "argüman çözümlemesi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «argüman çözümlemesi». حدد الادعاء الرئيس والافتراضات غير المعلنة ونوع الدليل، ثم قيّم صلة النتيجة بالمقدمات."
+    },
+    {
+      "id": "c1-u11-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تفكيك الحجة والافتراضات.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تفكيك الحجة والافتراضات."
+    },
+    {
+      "id": "c1-u11-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حلل مقالاً وحدد الأطروحة وافتراضين ودليلين.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حلل مقالاً وحدد الأطروحة وافتراضين ودليلين."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u11",
+    "legacyGlobalNumber": 405
+  }
+}

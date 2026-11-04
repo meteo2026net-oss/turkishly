@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u2-06",
+  "level": "B2",
+  "unitId": "b2-u2",
+  "order": 6,
+  "title": {
+    "ar": "التعبير عن السبب الرسمي والتعليل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحجاج والاستنتاج والتفكير النقدي",
+    "titleTr": "Argümantasyon, Çıkarım ve Eleştirel Düşünme",
+    "description": "بناء الحجج والاستنتاج والاحتمال والتعميم والتعليل والتلخيص."
+  },
+  "contentStatus": "full",
+  "goal": "صياغة مبررات رسمية لقرار أو طلب.",
+  "rule": "في السياق الرسمي استخدم gerekçesiyle (بمبرر/بسبب)، nedeniyle، sebebiyle، göz önünde bulundurarak (مع أخذ ... في الاعتبار).",
+  "vocabulary": [
+    {
+      "term": "göz önünde bulundurarak",
+      "meaningAr": "مع أخذ ... في الاعتبار",
+      "exampleTr": "Bütçe kısıtlarını göz önünde bulundurarak yeni bir takvim hazırladık.",
+      "exampleAr": "أعددنا جدولاً جديداً مع أخذ قيود الميزانية في الاعتبار."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "تعبير عن شعور",
+      "ar": ""
+    },
+    {
+      "tr": "Teknik nedenlerle hizmet geçici olarak durduruldu.",
+      "ar": "توقفت الخدمة مؤقتاً لأسباب تقنية."
+    },
+    {
+      "tr": "Yoğun talep nedeniyle süre uzatıldı.",
+      "ar": "مُددت الفترة بسبب الطلب المرتفع."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Neden tarihi değiştirdiniz?",
+      "ar": "لماذا غيرتم الموعد؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Katılımcıların durumunu göz önünde bulundurarak karar verdik.",
+      "ar": "اتخذنا القرار مع مراعاة ظروف المشاركين."
+    }
+  ],
+  "speakingTask": "اكتب تعليلاً رسمياً لقرار يتضمن ثلاثة عوامل.",
+  "questions": [
+    {
+      "id": "b2-u2-06-q1",
+      "prompt": "ما معنى «göz önünde bulundurarak»؟",
+      "options": [
+        "مع أخذ ... في الاعتبار",
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي"
+      ],
+      "answerIndex": 0,
+      "explanation": "göz önünde bulundurarak تعني مع أخذ ... في الاعتبار."
+    },
+    {
+      "id": "b2-u2-06-q2",
+      "prompt": "ما ترجمة الجملة: «Bütçe kısıtlarını göz önünde bulundurarak yeni bir takvim hazırladık.»؟",
+      "options": [
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "أعددنا جدولاً جديداً مع أخذ قيود الميزانية في الاعتبار.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل."
+      ],
+      "answerIndex": 1,
+      "explanation": "Bütçe kısıtlarını göz önünde bulundurarak yeni bir takvim hazırladık. تعني أعددنا جدولاً جديداً مع أخذ قيود الميزانية في الاعتبار.."
+    },
+    {
+      "id": "b2-u2-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "istek bildirme",
+        "zaman sıralaması",
+        "... göz önünde bulundurarak",
+        "gerekçelendirme"
+      ],
+      "answerIndex": 2,
+      "explanation": "تركيب يوضح العوامل التي روعيت عند اتخاذ القرار."
+    },
+    {
+      "id": "b2-u2-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «... göz önünde bulundurarak»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تعليل قرار مع مراعاة عدة عوامل."
+      ],
+      "answerIndex": 3,
+      "explanation": "تعليل قرار مع مراعاة عدة عوامل."
+    },
+    {
+      "id": "b2-u2-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "النفي المطلق",
+        "تعليل قرار مع مراعاة عدة عوامل.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تعليل قرار مع مراعاة عدة عوامل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u2",
+    "legacyGlobalNumber": 196
+  }
+}

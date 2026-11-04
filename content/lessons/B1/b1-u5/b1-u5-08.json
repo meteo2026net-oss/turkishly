@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u5-08",
+  "level": "B1",
+  "unitId": "b1-u5",
+  "order": 8,
+  "title": {
+    "ar": "التعبير عن التوقعات المستقبلية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "توقع ما قد يحدث في المستقبل مع توضيح أساس التوقع.",
+  "rule": "استخدم beklemek بمعنى يتوقع/ينتظر، ummak بمعنى يأمل، وtahmin etmek بمعنى يتنبأ. يمكن إرفاق جملة مستقبلية: Gelecek yıl daha çok gelişeceğimizi umuyorum.",
+  "vocabulary": [
+    {
+      "term": "ummak",
+      "meaningAr": "يأمل / يرجو",
+      "exampleTr": "Gelecek yıl daha fazla öğrenci geleceğini umuyoruz.",
+      "exampleAr": "نأمل أن يأتي عدد أكبر من الطلاب في العام القادم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Hava güzel olacak diye tahmin ediyorum.",
+      "ar": "أتوقع أن يكون الطقس جميلاً."
+    },
+    {
+      "tr": "Sınavı geçeceğini umuyor.",
+      "ar": "يأمل أن ينجح في الامتحان."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Gelecek yıl ne bekliyorsun?",
+      "ar": "ماذا تتوقع في العام القادم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Daha çok konuşabileceğimi umuyorum.",
+      "ar": "آمل أن أستطيع التحدث أكثر."
+    }
+  ],
+  "speakingTask": "اذكر أربعة توقعات وأمنيتين للعام القادم.",
+  "questions": [
+    {
+      "id": "b1-u5-08-q1",
+      "prompt": "ما معنى «ummak»؟",
+      "options": [
+        "يأمل / يرجو",
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة"
+      ],
+      "answerIndex": 0,
+      "explanation": "ummak تعني يأمل / يرجو."
+    },
+    {
+      "id": "b1-u5-08-q2",
+      "prompt": "ما ترجمة الجملة: «Gelecek yıl daha fazla öğrenci geleceğini umuyoruz.»؟",
+      "options": [
+        "هذا التعبير لا يصف المعنى المقصود.",
+        "نأمل أن يأتي عدد أكبر من الطلاب في العام القادم.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً."
+      ],
+      "answerIndex": 1,
+      "explanation": "Gelecek yıl daha fazla öğrenci geleceğini umuyoruz. تعني نأمل أن يأتي عدد أكبر من الطلاب في العام القادم.."
+    },
+    {
+      "id": "b1-u5-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-dığı için",
+        "-seydi",
+        "... olacağını umuyorum / bekliyorum",
+        "-madan önce"
+      ],
+      "answerIndex": 2,
+      "explanation": "جملة تابعة تصف توقعاً مستقبلياً."
+    },
+    {
+      "id": "b1-u5-08-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «... olacağını umuyorum / bekliyorum»؟",
+      "options": [
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "عرض أمل أو توقع بشأن المستقبل."
+      ],
+      "answerIndex": 3,
+      "explanation": "عرض أمل أو توقع بشأن المستقبل."
+    },
+    {
+      "id": "b1-u5-08-q5",
+      "prompt": "أكمل التركيب: Gelecek yıl daha fazla öğrenci geleceğini umuyoruz.",
+      "options": [
+        "-seydi",
+        "... olacağını umuyorum / bekliyorum",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "الصيغة المستهدفة هي ... olacağını umuyorum / bekliyorum؛ جملة تابعة تصف توقعاً مستقبلياً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u5",
+    "legacyGlobalNumber": 168
+  }
+}

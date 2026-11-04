@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u3-07",
+  "level": "B2",
+  "unitId": "b2-u3",
+  "order": 7,
+  "title": {
+    "ar": "إعادة الصياغة وتجنب التكرار",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التواصل الأكاديمي والمهني المتقدم",
+    "titleTr": "İleri Akademik ve Mesleki İletişim",
+    "description": "الرسائل والتقارير وتقييم المصادر والنقاش والعروض والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "تنويع التعبير مع المحافظة على الدقة والمعنى.",
+  "rule": "استخدم eş anlamlı ifadeler (تعبيرات مترادفة)، bu durum (هذه الحالة)، söz konusu (المذكور/المعني)، ilgili konu (الموضوع ذي الصلة). لا تستبدل المصطلح التقني بمرادف يغير المعنى.",
+  "vocabulary": [
+    {
+      "term": "söz konusu",
+      "meaningAr": "المذكور / المعني بالأمر",
+      "exampleTr": "Söz konusu düzenleme gelecek yıl yürürlüğe girecek.",
+      "exampleAr": "سيدخل التنظيم المذكور حيز التنفيذ العام القادم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "الخروج عن الموضوع",
+      "ar": ""
+    },
+    {
+      "tr": "Bu yaklaşım, yani söz konusu yöntem, daha etkilidir.",
+      "ar": "هذا النهج، أي الطريقة المذكورة، أكثر فعالية."
+    },
+    {
+      "tr": "Aynı görüş farklı biçimde ifade edilebilir.",
+      "ar": "يمكن التعبير عن الرأي نفسه بصيغة مختلفة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Metinde neden aynı kelime çok geçiyor?",
+      "ar": "لماذا تتكرر الكلمة نفسها كثيراً في النص؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bazı ifadeleri yeniden düzenleyebiliriz.",
+      "ar": "يمكننا إعادة صياغة بعض التعبيرات."
+    }
+  ],
+  "speakingTask": "أعد صياغة فقرة قصيرة لتقليل التكرار مع الحفاظ على المصطلحات.",
+  "questions": [
+    {
+      "id": "b2-u3-07-q1",
+      "prompt": "ما معنى «söz konusu»؟",
+      "options": [
+        "يُستخدم للتعبير عن السبب",
+        "يدل على التزامن",
+        "يشير إلى شرط افتراضي",
+        "المذكور / المعني بالأمر"
+      ],
+      "answerIndex": 3,
+      "explanation": "söz konusu تعني المذكور / المعني بالأمر."
+    },
+    {
+      "id": "b2-u3-07-q2",
+      "prompt": "ما ترجمة الجملة: «Söz konusu düzenleme gelecek yıl yürürlüğe girecek.»؟",
+      "options": [
+        "سيدخل التنظيم المذكور حيز التنفيذ العام القادم.",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "Söz konusu düzenleme gelecek yıl yürürlüğe girecek. تعني سيدخل التنظيم المذكور حيز التنفيذ العام القادم.."
+    },
+    {
+      "id": "b2-u3-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "anlam kayması",
+        "eş anlamlı + gönderim ifadesi",
+        "yeniden ifade",
+        "gereksiz tekrar"
+      ],
+      "answerIndex": 1,
+      "explanation": "مرادف أو تعبير إحالي يعود على فكرة سابقة."
+    },
+    {
+      "id": "b2-u3-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «eş anlamlı + gönderim ifadesi»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "تقليل التكرار وتحسين ترابط النص.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقليل التكرار وتحسين ترابط النص."
+    },
+    {
+      "id": "b2-u3-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تقليل التكرار وتحسين ترابط النص.",
+        "التعبير عن الزمن فقط",
+        "التعبير عن المكان فقط",
+        "النفي المطلق"
+      ],
+      "answerIndex": 0,
+      "explanation": "تقليل التكرار وتحسين ترابط النص."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u3",
+    "legacyGlobalNumber": 207
+  }
+}

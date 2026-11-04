@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u4-04",
+  "level": "B2",
+  "unitId": "b2-u4",
+  "order": 4,
+  "title": {
+    "ar": "إدارة المخاطر والبدائل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المشاريع والقيادة المهنية",
+    "titleTr": "Proje Yönetimi ve Mesleki Liderlik",
+    "description": "تخطيط المشاريع وتوزيع المسؤوليات وإدارة المخاطر والعمل مع العملاء."
+  },
+  "contentStatus": "full",
+  "goal": "تحديد المخاطر ووضع خطط بديلة.",
+  "rule": "Olası riskleri önceden değerlendirip önlem almalıyız.",
+  "vocabulary": [
+    {
+      "term": "önlem",
+      "meaningAr": "إجراء وقائي",
+      "exampleTr": "ينبغي تقييم المخاطر المحتملة مسبقاً واتخاذ تدابير.",
+      "exampleAr": "إجراء وقائي"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "سؤال",
+      "ar": ""
+    },
+    {
+      "tr": "Bir aksilik yaşanırsa alternatif planımız hazır.",
+      "ar": "إذا حدث طارئ فخطتنا البديلة جاهزة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Riskin etkisini azaltmayı hedefliyoruz.|نهدف إلى تقليل أثر الخطر.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Sistem durursa ne yapacağız? — ماذا سنفعل إذا توقف النظام؟\nB: Yedek sisteme geçeceğiz. — سننتقل إلى النظام الاحتياطي.",
+  "questions": [
+    {
+      "id": "b2-u4-04-q1",
+      "prompt": "ما معنى «önlem»؟",
+      "options": [
+        "تجاهل",
+        "تكرار",
+        "önlem almak|يتخذ إجراءً وقائياً",
+        "تأجيل"
+      ],
+      "answerIndex": 2,
+      "explanation": "önlem تعني إجراء وقائي."
+    },
+    {
+      "id": "b2-u4-04-q2",
+      "prompt": "ما ترجمة الجملة: «ينبغي تقييم المخاطر المحتملة مسبقاً واتخاذ تدابير.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "ينبغي تقييم المخاطر المحتملة مسبقاً واتخاذ تدابير.|إجراء وقائي"
+      ],
+      "answerIndex": 3,
+      "explanation": "ينبغي تقييم المخاطر المحتملة مسبقاً واتخاذ تدابير. تعني إجراء وقائي."
+    },
+    {
+      "id": "b2-u4-04-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تجميل",
+        "الاستعداد للمخاطر",
+        "وصف عادة",
+        "نقل كلام"
+      ],
+      "answerIndex": 0,
+      "explanation": "isim + fiil."
+    },
+    {
+      "id": "b2-u4-04-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تجميل»؟",
+      "options": [
+        "نقل كلام",
+        "تلازم لفظي",
+        "الاستعداد للمخاطر",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "تلازم لفظي"
+    },
+    {
+      "id": "b2-u4-04-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "الاستعداد للمخاطر",
+        "وصف عادة",
+        "نقل كلام",
+        "تلازم لفظي"
+      ],
+      "answerIndex": 3,
+      "explanation": "تلازم لفظي"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u4",
+    "legacyGlobalNumber": 214
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u20-9",
+  "level": "A1",
+  "unitId": "a1-u20",
+  "order": 9,
+  "title": {
+    "ar": {
+      "id": "a1-u20-09",
+      "order": 9,
+      "titleAr": "اختبار ختامي شامل لمهارات A1",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "مراجعة شاملة وتقييم المستوى A1",
+    "titleTr": "Genel Tekrar ve A1 Seviye Değerlendirmesi",
+    "description": "مراجعة تراكمية للمفردات والقواعد والمحادثات ومواقف الحياة اليومية، مع اختبار ختامي لتقييم أساسيات المستوى A1."
+  },
+  "contentStatus": "full",
+  "goal": "اختبار ختامي شامل لمهارات A1.",
+  "rule": "هذه المحطة تجمع أساسيات A1. اقرأ الجملة، حدّد الزمن والمعنى، وانتبه إلى اللواحق والسياق. الجملة: Yarın arkadaşım ile İstanbul'a gideceğim (غداً سأذهب إلى إسطنبول مع صديقي). لاحظ أن gideceğim صيغة مستقبل من gitmek.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Yarın",
+      "ar": "غداً"
+    },
+    {
+      "tr": "arkadaşım ile",
+      "ar": "مع صديقي"
+    },
+    {
+      "tr": "İstanbul'a",
+      "ar": "إلى إسطنبول"
+    },
+    {
+      "tr": "gideceğim",
+      "ar": "سأذهب"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u20-9-q1",
+      "prompt": "ما زمن gideceğim؟",
+      "options": [
+        "الماضي",
+        "الحاضر المستمر",
+        "المستقبل",
+        "الأمر"
+      ],
+      "answerIndex": 2,
+      "explanation": "gideceğim صيغة المستقبل وتعني سأذهب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u20",
+    "legacyLessonOrder": 9
+  }
+}

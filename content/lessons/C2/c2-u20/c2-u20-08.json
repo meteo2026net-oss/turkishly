@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u20-08",
+  "level": "C2",
+  "unitId": "c2-u20",
+  "order": 8,
+  "title": {
+    "ar": "التحرير القانوني المقارن",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "هندسة المصطلحات والتحرير والترجمة المتقدمة",
+    "titleTr": "İleri Terim Mühendisliği, Editörlük ve Çeviri",
+    "description": "إدارة المصطلحات والغموض والتكافؤ التداولي والتحرير متعدد المؤلفين والترجمة القانونية والتوطين."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم التحرير القانوني المقارن في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "karşılaştırmalı hukuk editörlüğü",
+      "meaningAr": "التحرير القانوني المقارن",
+      "exampleTr": "İki dildeki hukuki kavramların kapsamını karşılaştırarak metni düzelttik.",
+      "exampleAr": "صححنا النص بمقارنة نطاق المفاهيم القانونية في اللغتين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "İki dildeki hukuki kavramların kapsamını karşılaştırarak metni düzelttik.",
+      "ar": "صححنا النص بمقارنة نطاق المفاهيم القانونية في اللغتين."
+    },
+    {
+      "tr": "Hukuki kavramlar farklı sistemlerde aynı kapsamı taşımayabilir.",
+      "ar": "قد لا تحمل المفاهيم القانونية النطاق نفسه في الأنظمة المختلفة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu terimin doğrudan karşılığı var mı?",
+      "ar": "هل لهذا المصطلح مقابل مباشر؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Hukuk sistemlerini karşılaştırmadan karar vermeyelim.",
+      "ar": "لا نتخذ قراراً قبل مقارنة النظامين القانونيين."
+    }
+  ],
+  "speakingTask": "قارن مصطلحين قانونيين وحدد مواضع عدم التطابق والحاجة إلى شرح.",
+  "questions": [
+    {
+      "id": "c2-u20-08-q1",
+      "prompt": "ما المقصود بالمصطلح «karşılaştırmalı hukuk editörlüğü»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "التحرير القانوني المقارن",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«karşılaştırmalı hukuk editörlüğü» يعني: التحرير القانوني المقارن."
+    },
+    {
+      "id": "c2-u20-08-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "صححنا النص بمقارنة نطاق المفاهيم القانونية في اللغتين."
+      ],
+      "answerIndex": 3,
+      "explanation": "صححنا النص بمقارنة نطاق المفاهيم القانونية في اللغتين."
+    },
+    {
+      "id": "c2-u20-08-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "hukuki kavram eşdeğerliği",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة: hukuki kavram eşdeğerliği. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u20-08-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "السؤال عن السعر",
+        "تجنب افتراض تطابق المفاهيم القانونية بين الأنظمة",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تجنب افتراض تطابق المفاهيم القانونية بين الأنظمة"
+    },
+    {
+      "id": "c2-u20-08-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قارن مصطلحين قانونيين وحدد مواضع عدم التطابق والحاجة إلى شرح."
+      ],
+      "answerIndex": 3,
+      "explanation": "قارن مصطلحين قانونيين وحدد مواضع عدم التطابق والحاجة إلى شرح."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u20",
+    "legacyGlobalNumber": 618
+  }
+}

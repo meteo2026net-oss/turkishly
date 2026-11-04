@@ -19,16 +19,61 @@ class LearningProgress {
   static const _levelPassPrefix = 'sara_turkii_level_pass_v1_';
   static const _levelHistoryKey = 'sara_turkii_level_assessment_history_v1';
   static const _activityDatesKey = 'sara_turkii_learning_activity_dates_v1';
+  static const _conversationHistoryKey = 'sara_turkii_conversation_history_v1';
 
+
+  static bool _isSupportedBackupKey(String key) {
+    const fixedKeys = <String>{
+      _completedKey,
+      _learnedWordsKey,
+      _quizBestKey,
+      _quizLatestKey,
+      _quizCountKey,
+      _quizHistoryKey,
+      _missedQuestionsKey,
+      _missedQuestionDetailsKey,
+      _levelHistoryKey,
+      _activityDatesKey,
+      _conversationHistoryKey,
+    };
+    bool hasDynamicId(String prefix) =>
+        key.startsWith(prefix) && key.length > prefix.length;
+
+    return fixedKeys.contains(key) ||
+        hasDynamicId(_attemptPrefix) ||
+        hasDynamicId(_wordReviewPrefix) ||
+        hasDynamicId(_wordStreakPrefix) ||
+        hasDynamicId(_levelPassPrefix);
+  }
+
+  /// Validates both the key and its expected SharedPreferences value type.
+  /// Prevents a malformed backup from changing a known key to an incompatible type.
+  static bool _isSupportedBackupValue(String key, Object? value) {
+    if (!_isSupportedBackupKey(key)) return false;
+
+    const integerKeys = <String>{
+      _quizBestKey,
+      _quizLatestKey,
+      _quizCountKey,
+    };
+    final isDynamicInteger = key.startsWith(_attemptPrefix) ||
+        key.startsWith(_wordReviewPrefix) ||
+        key.startsWith(_wordStreakPrefix) ||
+        key.startsWith(_levelPassPrefix);
+
+    if (integerKeys.contains(key) || isDynamicInteger) {
+      return value is int;
+    }
+    return value is List && value.every((item) => item is String);
+  }
 
   /// Creates a portable, versioned backup of this app's learning data.
   static Future<String> exportBackup() async {
     final prefs = await SharedPreferences.getInstance();
     final values = <String, dynamic>{};
-    for (final key in prefs.getKeys().where((key) => key.startsWith('sara_turkii_'))) {
+    for (final key in prefs.getKeys().where(_isSupportedBackupKey)) {
       final value = prefs.get(key);
-      if (value is String || value is int || value is double || value is bool ||
-          (value is List<String>)) {
+      if (_isSupportedBackupValue(key, value)) {
         values[key] = value;
       }
     }
@@ -57,20 +102,14 @@ class LearningProgress {
     final prefs = await SharedPreferences.getInstance();
     var restored = 0;
     for (final entry in data.entries) {
-      if (!entry.key.startsWith('sara_turkii_')) continue;
+      if (!_isSupportedBackupValue(entry.key, entry.value)) continue;
       final value = entry.value;
-      var saved = false;
-      if (value is String) {
-        saved = await prefs.setString(entry.key, value);
-      } else if (value is int) {
-        saved = await prefs.setInt(entry.key, value);
-      } else if (value is double) {
-        saved = await prefs.setDouble(entry.key, value);
-      } else if (value is bool) {
-        saved = await prefs.setBool(entry.key, value);
-      } else if (value is List && value.every((item) => item is String)) {
-        saved = await prefs.setStringList(entry.key, value.cast<String>());
-      }
+      final saved = value is int
+          ? await prefs.setInt(entry.key, value)
+          : await prefs.setStringList(
+              entry.key,
+              (value as List).cast<String>(),
+            );
       if (saved) restored++;
     }
     return restored;
@@ -88,16 +127,20 @@ class LearningProgress {
   }
 
   /// Counts consecutive active days ending today, or yesterday if today has not yet been used.
-  static Future<int> currentLearningStreak() async {
+  static Future<int> currentLearningStreak({DateTime? now}) async {
     final prefs = await SharedPreferences.getInstance();
     final dates = (prefs.getStringList(_activityDatesKey) ?? <String>[]).toSet();
-    var cursor = DateTime.now();
+    final reference = now ?? DateTime.now();
+    DateTime cursor = DateTime(reference.year, reference.month, reference.day);
     String key(DateTime value) => '${value.year.toString().padLeft(4, '0')}-${value.month.toString().padLeft(2, '0')}-${value.day.toString().padLeft(2, '0')}';
-    if (!dates.contains(key(cursor))) cursor = cursor.subtract(const Duration(days: 1));
+    // Calendar arithmetic avoids 23/25-hour DST days being mistaken for a missed day.
+    if (!dates.contains(key(cursor))) {
+      cursor = DateTime(cursor.year, cursor.month, cursor.day - 1);
+    }
     var streak = 0;
     while (dates.contains(key(cursor))) {
       streak++;
-      cursor = cursor.subtract(const Duration(days: 1));
+      cursor = DateTime(cursor.year, cursor.month, cursor.day - 1);
     }
     return streak;
   }
@@ -166,15 +209,17 @@ class LearningProgress {
   static Future<void> recordQuizResult({required int score, required int total, String source = 'الاختبار الشامل'}) async {
     await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
-    final percent = total <= 0 ? 0 : (score * 100 ~/ total);
+    final safeTotal = total < 0 ? 0 : total;
+    final safeScore = score.clamp(0, safeTotal).toInt();
+    final percent = safeTotal == 0 ? 0 : safeScore * 100 ~/ safeTotal;
     final best = prefs.getInt(_quizBestKey) ?? 0;
     await prefs.setInt(_quizLatestKey, percent);
     if (percent > best) await prefs.setInt(_quizBestKey, percent);
     await prefs.setInt(_quizCountKey, (prefs.getInt(_quizCountKey) ?? 0) + 1);
     final history = prefs.getStringList(_quizHistoryKey) ?? <String>[];
     history.add(jsonEncode(<String, dynamic>{
-      'score': score,
-      'total': total,
+      'score': safeScore,
+      'total': safeTotal,
       'percent': percent,
       'source': source,
       'completedAt': DateTime.now().toIso8601String(),
@@ -185,6 +230,7 @@ class LearningProgress {
 
   /// Returns the latest completed attempts, newest first. Legacy aggregate scores remain intact.
   static Future<List<Map<String, dynamic>>> quizHistory({int limit = 30}) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_quizHistoryKey) ?? <String>[];
     final result = <Map<String, dynamic>>[];
@@ -193,6 +239,50 @@ class LearningProgress {
         result.add(Map<String, dynamic>.from(jsonDecode(value) as Map));
       } catch (_) {
         // Skip an incomplete history entry without affecting other records.
+      }
+      if (result.length >= limit) break;
+    }
+    return result;
+  }
+
+  /// Stores completed offline conversation practice attempts.
+  static Future<void> recordConversationResult({
+    required String scenarioId,
+    required String title,
+    required String level,
+    required int score,
+    required int total,
+  }) async {
+    await recordLearningActivity();
+    final prefs = await SharedPreferences.getInstance();
+    final safeTotal = total < 0 ? 0 : total;
+    final safeScore = score.clamp(0, safeTotal);
+    final percent = safeTotal == 0 ? 0 : safeScore * 100 ~/ safeTotal;
+    final history = prefs.getStringList(_conversationHistoryKey) ?? <String>[];
+    history.add(jsonEncode(<String, dynamic>{
+      'scenarioId': scenarioId,
+      'title': title,
+      'level': level,
+      'score': safeScore,
+      'total': safeTotal,
+      'percent': percent,
+      'completedAt': DateTime.now().toIso8601String(),
+    }));
+    if (history.length > 100) history.removeRange(0, history.length - 100);
+    await prefs.setStringList(_conversationHistoryKey, history);
+  }
+
+  static Future<List<Map<String, dynamic>>> conversationHistory({int limit = 30}) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getStringList(_conversationHistoryKey) ?? <String>[];
+    final result = <Map<String, dynamic>>[];
+    for (final value in raw.reversed) {
+      try {
+        final item = Map<String, dynamic>.from(jsonDecode(value) as Map);
+        if (item['title'] is String && item['percent'] is num) result.add(item);
+      } catch (_) {
+        // Skip malformed entries without breaking the remaining history.
       }
       if (result.length >= limit) break;
     }
@@ -225,6 +315,7 @@ class LearningProgress {
     String? lessonTitle,
     String? source,
   }) async {
+    await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_missedQuestionDetailsKey) ?? <String>[];
     final items = raw.map((value) {
@@ -268,6 +359,30 @@ class LearningProgress {
     return result;
   }
 
+  /// Summarizes recurring weak topics from saved mistakes for targeted revision.
+  /// This is a transparent count-based recommendation, not an AI-generated diagnosis.
+  static Future<List<Map<String, dynamic>>> missedQuestionTopicSummary({
+    int limit = 5,
+  }) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
+    final details = await missedQuestionDetails();
+    final counts = <String, int>{};
+    for (final item in details) {
+      final topic = item['topic']?.toString().trim() ?? '';
+      if (topic.isEmpty) continue;
+      counts[topic] = (counts[topic] ?? 0) + 1;
+    }
+    final topics = counts.entries.toList()
+      ..sort((a, b) {
+        final byCount = b.value.compareTo(a.value);
+        return byCount != 0 ? byCount : a.key.compareTo(b.key);
+      });
+    return topics.take(limit).map((entry) => <String, dynamic>{
+      'topic': entry.key,
+      'count': entry.value,
+    }).toList(growable: false);
+  }
+
   static Future<void> clearMissedQuestions() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_missedQuestionsKey);
@@ -293,15 +408,19 @@ class LearningProgress {
     final prefs = await SharedPreferences.getInstance();
     final key = '$_levelPassPrefix$level';
     final previous = prefs.getInt(key) ?? 0;
-    if (percent > previous) await prefs.setInt(key, percent);
+    final safePercent = percent.clamp(0, 100).toInt();
+    if (safePercent > previous) await prefs.setInt(key, safePercent);
   }
 
   static Future<void> recordLevelAssessmentAttempt({required String level, required int score, required int total}) async {
+    await recordLearningActivity();
     final prefs = await SharedPreferences.getInstance();
     final history = prefs.getStringList(_levelHistoryKey) ?? <String>[];
-    final percent = total <= 0 ? 0 : score * 100 ~/ total;
+    final safeTotal = total < 0 ? 0 : total;
+    final safeScore = score.clamp(0, safeTotal).toInt();
+    final percent = safeTotal == 0 ? 0 : safeScore * 100 ~/ safeTotal;
     history.add(jsonEncode(<String, dynamic>{
-      'level': level, 'score': score, 'total': total, 'percent': percent,
+      'level': level, 'score': safeScore, 'total': safeTotal, 'percent': percent,
       'completedAt': DateTime.now().toIso8601String(),
     }));
     if (history.length > 100) history.removeRange(0, history.length - 100);
@@ -309,6 +428,7 @@ class LearningProgress {
   }
 
   static Future<List<Map<String, dynamic>>> levelAssessmentHistory({int limit = 30}) async {
+    if (limit <= 0) return <Map<String, dynamic>>[];
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getStringList(_levelHistoryKey) ?? <String>[];
     final result = <Map<String, dynamic>>[];

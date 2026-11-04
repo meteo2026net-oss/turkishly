@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u8-09",
+  "level": "C1",
+  "unitId": "c1-u8",
+  "order": 9,
+  "title": {
+    "ar": "التفاوض عبر الثقافات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التداولية والوساطة بين الثقافات",
+    "titleTr": "Edimbilim ve Kültürlerarası Arabuluculuk",
+    "description": "فهم النية الضمنية واللباقة والإحالات الثقافية وإصلاح سوء الفهم والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "التفاوض مع مراعاة اختلاف أساليب المباشرة والوقت واتخاذ القرار.",
+  "rule": "اسأل عن توقعات الطرف الآخر ولا تعمم الصفات الثقافية، واتفق على معايير واضحة.",
+  "vocabulary": [
+    {
+      "term": "kültürlerarası müzakere",
+      "meaningAr": "تفاوض بين الثقافات",
+      "exampleTr": "Karar sürecindeki beklentileri baştan netleştirdik.",
+      "exampleAr": "وضحنا التوقعات المتعلقة بعملية اتخاذ القرار منذ البداية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karar sürecindeki beklentileri baştan netleştirdik.",
+      "ar": "وضحنا التوقعات المتعلقة بعملية اتخاذ القرار منذ البداية."
+    },
+    {
+      "tr": "Kültürel farklılıkları genellemeden ele aldım.",
+      "ar": "تعاملت مع الاختلافات الثقافية دون تعميم."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Kararı hemen verebilir miyiz؟",
+      "ar": "هل يمكننا اتخاذ القرار فوراً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Önce tüm tarafların beklentilerini netleştirelim.",
+      "ar": "لنوضح توقعات جميع الأطراف أولاً."
+    }
+  ],
+  "speakingTask": "صمم حوار تفاوض بين فريقين يختلفان في أسلوب اتخاذ القرار.",
+  "questions": [
+    {
+      "id": "c1-u8-09-q1",
+      "prompt": "ما معنى «kültürlerarası müzakere»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تفاوض بين الثقافات"
+      ],
+      "answerIndex": 3,
+      "explanation": "«kültürlerarası müzakere» تعني: تفاوض بين الثقافات."
+    },
+    {
+      "id": "c1-u8-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "وضحنا التوقعات المتعلقة بعملية اتخاذ القرار منذ البداية.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "وضحنا التوقعات المتعلقة بعملية اتخاذ القرار منذ البداية."
+    },
+    {
+      "id": "c1-u8-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "beklenti yönetimi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «beklenti yönetimi». اسأل عن توقعات الطرف الآخر ولا تعمم الصفات الثقافية، واتفق على معايير واضحة."
+    },
+    {
+      "id": "c1-u8-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "إدارة التوقعات في التفاوض متعدد الثقافات.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "إدارة التوقعات في التفاوض متعدد الثقافات."
+    },
+    {
+      "id": "c1-u8-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "صمم حوار تفاوض بين فريقين يختلفان في أسلوب اتخاذ القرار.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "صمم حوار تفاوض بين فريقين يختلفان في أسلوب اتخاذ القرار."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u8",
+    "legacyGlobalNumber": 379
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u1-04",
+  "level": "C2",
+  "unitId": "c2-u1",
+  "order": 4,
+  "title": {
+    "ar": "تحليل التحيز الخطابي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل النقدي والخطاب المعقد",
+    "titleTr": "Eleştirel Çözümleme ve Karmaşık Söylem",
+    "description": "تحليل الخطاب والافتراضات والاستدلال والمصادر والنظريات وعدم اليقين."
+  },
+  "contentStatus": "full",
+  "goal": "رصد اختيار الألفاظ والأمثلة وترتيب المعلومات الذي يوجه المتلقي.",
+  "rule": "قارن التسمية والتأطير وما تم إبرازه أو حذفه، وميّز التحيز من الخطأ غير المقصود.",
+  "vocabulary": [
+    {
+      "term": "çerçeveleme",
+      "meaningAr": "تأطير القضية",
+      "exampleTr": "Aynı olayın farklı sözcüklerle sunulması algıyı değiştirebilir.",
+      "exampleAr": "يمكن أن يغير عرض الحدث نفسه بألفاظ مختلفة طريقة إدراكه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Aynı olayın farklı sözcüklerle sunulması algıyı değiştirebilir.",
+      "ar": "يمكن أن يغير عرض الحدث نفسه بألفاظ مختلفة طريقة إدراكه."
+    },
+    {
+      "tr": "Çerçeveleme tercihlerinin etkisini karşılaştırdım.",
+      "ar": "قارنت أثر اختيارات التأطير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İki haber neden farklı görünüyor؟",
+      "ar": "لماذا يبدو الخبران مختلفين؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Olayı farklı çerçevelerle sunuyorlar.",
+      "ar": "يعرضان الحدث ضمن أطر مختلفة."
+    }
+  ],
+  "speakingTask": "قارن تغطيتين للحدث نفسه وحدد أدوات التأطير.",
+  "questions": [
+    {
+      "id": "c2-u1-04-q1",
+      "prompt": "ما معنى «çerçeveleme»؟",
+      "options": [
+        "تأطير القضية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "«çerçeveleme» تعني: تأطير القضية."
+    },
+    {
+      "id": "c2-u1-04-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لا تتضمن الجملة هذا المعنى.",
+        "يمكن أن يغير عرض الحدث نفسه بألفاظ مختلفة طريقة إدراكه.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً."
+      ],
+      "answerIndex": 1,
+      "explanation": "يمكن أن يغير عرض الحدث نفسه بألفاظ مختلفة طريقة إدراكه."
+    },
+    {
+      "id": "c2-u1-04-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "istek kipi",
+        "yer tamlayıcısı",
+        "söylemsel önyargı",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير المستهدف «söylemsel önyargı». قارن التسمية والتأطير وما تم إبرازه أو حذفه، وميّز التحيز من الخطأ غير المقصود."
+    },
+    {
+      "id": "c2-u1-04-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "كشف التحيز الناتج عن التأطير اللغوي."
+      ],
+      "answerIndex": 3,
+      "explanation": "كشف التحيز الناتج عن التأطير اللغوي."
+    },
+    {
+      "id": "c2-u1-04-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "تجاهل القرائن والأدلة",
+        "قارن تغطيتين للحدث نفسه وحدد أدوات التأطير.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم"
+      ],
+      "answerIndex": 1,
+      "explanation": "قارن تغطيتين للحدث نفسه وحدد أدوات التأطير."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u1",
+    "legacyGlobalNumber": 424
+  }
+}

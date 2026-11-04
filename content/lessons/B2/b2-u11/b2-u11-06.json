@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u11-06",
+  "level": "B2",
+  "unitId": "b2-u11",
+  "order": 6,
+  "title": {
+    "ar": "الأخلاق والمسؤولية التقنية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القضايا العالمية والاقتصاد والتقنية",
+    "titleTr": "Küresel Konular, Ekonomi ve Teknoloji",
+    "description": "المناخ والطاقة والتجارة والعمل والابتكار والأخلاق والمدن الذكية."
+  },
+  "contentStatus": "full",
+  "goal": "etik",
+  "rule": "Teknolojiyi geliştirirken etik ilkeleri göz önünde bulundurmalıyız.",
+  "vocabulary": [
+    {
+      "term": "أخلاقي",
+      "meaningAr": "etik ilke",
+      "exampleTr": "Teknolojiyi geliştirirken etik ilkeleri göz önünde bulundurmalıyız.",
+      "exampleAr": "ينبغي مراعاة المبادئ الأخلاقية أثناء تطوير التقنية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "göz önünde bulundurmak",
+      "ar": ""
+    },
+    {
+      "tr": "Teknolojiyi geliştirirken etik ilkeleri göz önünde bulundurmalıyız.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "يأخذ في الحسبان",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "إظهار الاعتبار",
+  "questions": [
+    {
+      "id": "b2-u11-06-q1",
+      "prompt": "ما معنى «أخلاقي»؟",
+      "options": [
+        "شهرة",
+        "تعبير غير ملائم",
+        "مبدأ أخلاقي",
+        "سرعة"
+      ],
+      "answerIndex": 2,
+      "explanation": "أخلاقي تعني etik ilke."
+    },
+    {
+      "id": "b2-u11-06-q2",
+      "prompt": "ما ترجمة الجملة: «Teknolojiyi geliştirirken etik ilkeleri göz önünde bulundurmalıyız.»؟",
+      "options": [
+        "سأذهب إلى السوق بعد الدرس.",
+        "لم أقرأ الكتاب بعد.",
+        "لا تناسب هذه الجملة السياق.",
+        "Teknolojiyi geliştirirken etik ilkeleri göz önünde bulundurmalıyız.|ينبغي مراعاة المبادئ الأخلاقية أثناء تطوير التقنية."
+      ],
+      "answerIndex": 3,
+      "explanation": "Teknolojiyi geliştirirken etik ilkeleri göz önünde bulundurmalıyız. تعني ينبغي مراعاة المبادئ الأخلاقية أثناء تطوير التقنية.."
+    },
+    {
+      "id": "b2-u11-06-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "etik sorumluluk",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "مسؤولية أخلاقية."
+    },
+    {
+      "id": "b2-u11-06-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «etik sorumluluk»؟",
+      "options": [
+        "طلب الإذن",
+        "التفكير في أثر التقنية",
+        "التعبير عن مكان",
+        "وصف عادة"
+      ],
+      "answerIndex": 1,
+      "explanation": "التفكير في أثر التقنية"
+    },
+    {
+      "id": "b2-u11-06-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة",
+        "طلب الإذن",
+        "التفكير في أثر التقنية"
+      ],
+      "answerIndex": 3,
+      "explanation": "التفكير في أثر التقنية"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u11",
+    "legacyGlobalNumber": 286
+  }
+}

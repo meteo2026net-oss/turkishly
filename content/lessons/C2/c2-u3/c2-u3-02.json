@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u3-02",
+  "level": "C2",
+  "unitId": "c2-u3",
+  "order": 2,
+  "title": {
+    "ar": "التفاوض على المصالح المعقدة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القيادة والتواصل الاستراتيجي المتقدم",
+    "titleTr": "İleri Liderlik ve Stratejik İletişim",
+    "description": "قيادة نقاشات الخبراء والتفاوض والسياسات والتواصل الدبلوماسي والوساطة والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "التعامل مع مصالح متعددة وشروط مترابطة في التفاوض.",
+  "rule": "حدد الحد الأدنى المقبول والبدائل والمصالح المشتركة، ثم صغ اتفاقاً مشروطاً واضحاً.",
+  "vocabulary": [
+    {
+      "term": "karmaşık müzakere",
+      "meaningAr": "تفاوض معقد",
+      "exampleTr": "Taraflar, birbirine bağlı koşulları aşamalı biçimde müzakere etti.",
+      "exampleAr": "تفاوضت الأطراف على الشروط المترابطة بصورة مرحلية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Taraflar, birbirine bağlı koşulları aşamalı biçimde müzakere etti.",
+      "ar": "تفاوضت الأطراف على الشروط المترابطة بصورة مرحلية."
+    },
+    {
+      "tr": "Müzakereyi ortak çıkarlar üzerinden ilerlettim.",
+      "ar": "قدمت التفاوض انطلاقاً من المصالح المشتركة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Her koşulu aynı anda mı çözelim؟",
+      "ar": "هل نحل كل شرط في الوقت نفسه؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelik sırasına göre ilerlemek daha etkili.",
+      "ar": "التقدم حسب الأولوية أكثر فاعلية."
+    }
+  ],
+  "speakingTask": "اكتب سيناريو تفاوض متعدد الأطراف يتضمن ثلاثة شروط مترابطة.",
+  "questions": [
+    {
+      "id": "c2-u3-02-q1",
+      "prompt": "ما معنى «karmaşık müzakere»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تفاوض معقد",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«karmaşık müzakere» تعني: تفاوض معقد."
+    },
+    {
+      "id": "c2-u3-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تفاوضت الأطراف على الشروط المترابطة بصورة مرحلية."
+      ],
+      "answerIndex": 3,
+      "explanation": "تفاوضت الأطراف على الشروط المترابطة بصورة مرحلية."
+    },
+    {
+      "id": "c2-u3-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "çıkar dengesi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «çıkar dengesi». حدد الحد الأدنى المقبول والبدائل والمصالح المشتركة، ثم صغ اتفاقاً مشروطاً واضحاً."
+    },
+    {
+      "id": "c2-u3-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تحقيق توازن بين مصالح متعددة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحقيق توازن بين مصالح متعددة."
+    },
+    {
+      "id": "c2-u3-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب سيناريو تفاوض متعدد الأطراف يتضمن ثلاثة شروط مترابطة."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب سيناريو تفاوض متعدد الأطراف يتضمن ثلاثة شروط مترابطة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_course_data.dart",
+    "legacyUnitId": "c2-u3",
+    "legacyGlobalNumber": 442
+  }
+}

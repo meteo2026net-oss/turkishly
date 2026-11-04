@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-09",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 9,
+  "title": {
+    "ar": "اللغة الرسمية والمراسلات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القانون والحقوق والمؤسسات",
+    "titleTr": "Hukuk, Haklar ve Kurumlar",
+    "description": "الحقوق والإجراءات الرسمية والخصوصية والعقود وتسوية الخلافات."
+  },
+  "contentStatus": "full",
+  "goal": "resmî",
+  "rule": "Resmî yazışmalarda açık ve ölçülü bir dil kullanılmalıdır.",
+  "vocabulary": [
+    {
+      "term": "رسمي",
+      "meaningAr": "hitap",
+      "exampleTr": "Resmî yazışmalarda açık ve ölçülü bir dil kullanılmalıdır.",
+      "exampleAr": "ينبغي استخدام لغة واضحة ومعتدلة في المراسلات الرسمية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "إبراز الإجراء لا الفاعل",
+      "ar": ""
+    },
+    {
+      "tr": "Resmî yazışmalarda açık ve ölçülü bir dil kullanılmalıdır.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Talebiniz değerlendirmeye alınmıştır.|تم إدراج طلبكم للتقييم.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: E-postaya nasıl başlamalıyım? — كيف أبدأ البريد؟\nB: Sayın Yetkili, ifadesiyle. — بعبارة: السيد المسؤول المحترم.",
+  "questions": [
+    {
+      "id": "b2-u8-09-q1",
+      "prompt": "ما معنى «رسمي»؟",
+      "options": [
+        "resmî yazışma",
+        "مراسلة رسمية",
+        "تعبير غير مناسب",
+        "صيغة مخاطبة"
+      ],
+      "answerIndex": 3,
+      "explanation": "رسمي تعني hitap."
+    },
+    {
+      "id": "b2-u8-09-q2",
+      "prompt": "ما ترجمة الجملة: «Resmî yazışmalarda açık ve ölçülü bir dil kullanılmalıdır.»؟",
+      "options": [
+        "ينبغي استخدام لغة واضحة ومعتدلة في المراسلات الرسمية.|ينبغي استخدام لغة واضحة ومعتدلة في المراسلات الرسمية.",
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق."
+      ],
+      "answerIndex": 0,
+      "explanation": "Resmî yazışmalarda açık ve ölçülü bir dil kullanılmalıdır. تعني ينبغي استخدام لغة واضحة ومعتدلة في المراسلات الرسمية.."
+    },
+    {
+      "id": "b2-u8-09-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-sa bile",
+        "اختيار أسلوب مناسب للمخاطب",
+        "-DIktan sonra",
+        "-miş gibi"
+      ],
+      "answerIndex": 1,
+      "explanation": "edilgen yapı."
+    },
+    {
+      "id": "b2-u8-09-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «اختيار أسلوب مناسب للمخاطب»؟",
+      "options": [
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "صيغة المبني للمجهول",
+        "التعبير عن مكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "صيغة المبني للمجهول"
+    },
+    {
+      "id": "b2-u8-09-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "صيغة المبني للمجهول",
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن"
+      ],
+      "answerIndex": 0,
+      "explanation": "صيغة المبني للمجهول"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 259
+  }
+}

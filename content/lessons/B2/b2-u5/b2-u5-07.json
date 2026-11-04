@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u5-07",
+  "level": "B2",
+  "unitId": "b2-u5",
+  "order": 7,
+  "title": {
+    "ar": "التخصص والمسار المهني",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التعليم والتعلم والبحث",
+    "titleTr": "Eğitim, Öğrenme ve Araştırma",
+    "description": "التعلم مدى الحياة والتكنولوجيا والتعليم المستقل والتحقق من المصادر."
+  },
+  "contentStatus": "full",
+  "goal": "شرح اختيار التخصص وأسباب القرار.",
+  "rule": "Uzmanlaşmak istediğim alanı dikkatle seçtim.",
+  "vocabulary": [
+    {
+      "term": "uzmanlaşmak",
+      "meaningAr": "يتخصص",
+      "exampleTr": "اخترت المجال الذي أريد التخصص فيه بعناية.",
+      "exampleAr": "يتخصص"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "التنازل",
+      "ar": ""
+    },
+    {
+      "tr": "Mesleki hedeflerim zamanla değişti.",
+      "ar": "تغيرت أهدافي المهنية مع الوقت."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Bu alanda deneyim kazanmak istiyorum.|أريد اكتساب خبرة في هذا المجال.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Neden bu alanı seçtin? — لماذا اخترت هذا المجال؟\nB: İlgi alanlarıma uygun olduğu için. — لأنه يناسب اهتماماتي.",
+  "questions": [
+    {
+      "id": "b2-u5-07-q1",
+      "prompt": "ما معنى «uzmanlaşmak»؟",
+      "options": [
+        "يستريح",
+        "يسافر",
+        "يستعير",
+        "bir alanda uzmanlaşmak|يتخصص في مجال"
+      ],
+      "answerIndex": 3,
+      "explanation": "uzmanlaşmak تعني يتخصص."
+    },
+    {
+      "id": "b2-u5-07-q2",
+      "prompt": "ما ترجمة الجملة: «اخترت المجال الذي أريد التخصص فيه بعناية.»؟",
+      "options": [
+        "اخترت المجال الذي أريد التخصص فيه بعناية.|يتخصص",
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب."
+      ],
+      "answerIndex": 0,
+      "explanation": "اخترت المجال الذي أريد التخصص فيه بعناية. تعني يتخصص."
+    },
+    {
+      "id": "b2-u5-07-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "المكان",
+        "يتقاعد",
+        "التعبير عن مجال التخصص",
+        "السبب الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "-mak istediğim."
+    },
+    {
+      "id": "b2-u5-07-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يتقاعد»؟",
+      "options": [
+        "السبب الماضي",
+        "المكان",
+        "الذي أريد أن",
+        "التعبير عن مجال التخصص"
+      ],
+      "answerIndex": 2,
+      "explanation": "الذي أريد أن"
+    },
+    {
+      "id": "b2-u5-07-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "الذي أريد أن",
+        "التعبير عن مجال التخصص",
+        "السبب الماضي",
+        "المكان"
+      ],
+      "answerIndex": 0,
+      "explanation": "الذي أريد أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u5",
+    "legacyGlobalNumber": 227
+  }
+}

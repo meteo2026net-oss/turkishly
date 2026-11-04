@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u5-01",
+  "level": "C2",
+  "unitId": "c2-u5",
+  "order": 1,
+  "title": {
+    "ar": "التحرير البنيوي للنصوص الطويلة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحرير والنشر الأكاديمي المتخصص",
+    "titleTr": "Uzman Akademik Editörlük ve Yayın",
+    "description": "التحرير البنيوي وإدارة المصطلحات والتوثيق والتحرير متعدد التخصصات والنشر."
+  },
+  "contentStatus": "full",
+  "goal": "إعادة بناء ترتيب الأفكار والحجج على مستوى العمل الكامل.",
+  "rule": "راجع منطق الأقسام أولاً ثم تسلسل الفقرات والإحالات قبل تحرير الجمل.",
+  "vocabulary": [
+    {
+      "term": "yapısal editörlük",
+      "meaningAr": "تحرير بنيوي",
+      "exampleTr": "Bölümlerin sırasını değiştirerek argümanın gelişimini daha görünür kıldım.",
+      "exampleAr": "جعلت تطور الحجة أوضح بتغيير ترتيب الأقسام."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bölümlerin sırasını değiştirerek argümanın gelişimini daha görünür kıldım.",
+      "ar": "جعلت تطور الحجة أوضح بتغيير ترتيب الأقسام."
+    },
+    {
+      "tr": "Metnin yapısını ana savın gelişimine göre düzenledim.",
+      "ar": "نظمت بنية النص وفق تطور الحجة الرئيسة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "İlk olarak hangi düzeyi gözden geçirdin؟",
+      "ar": "أي مستوى راجعت أولاً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Bölümlerin mantıksal sırasını.",
+      "ar": "الترتيب المنطقي للأقسام."
+    }
+  ],
+  "speakingTask": "حرر تقريراً طويلاً بإعادة ترتيب الأقسام وتبرير كل تعديل.",
+  "questions": [
+    {
+      "id": "c2-u5-01-q1",
+      "prompt": "ما معنى «yapısal editörlük»؟",
+      "options": [
+        "طلب الإذن",
+        "تحرير بنيوي",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«yapısal editörlük» تعني: تحرير بنيوي."
+    },
+    {
+      "id": "c2-u5-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "جعلت تطور الحجة أوضح بتغيير ترتيب الأقسام.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "جعلت تطور الحجة أوضح بتغيير ترتيب الأقسام."
+    },
+    {
+      "id": "c2-u5-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "metin mimarisi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «metin mimarisi». راجع منطق الأقسام أولاً ثم تسلسل الفقرات والإحالات قبل تحرير الجمل."
+    },
+    {
+      "id": "c2-u5-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تحسين هندسة النص وبنيته.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحسين هندسة النص وبنيته."
+    },
+    {
+      "id": "c2-u5-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حرر تقريراً طويلاً بإعادة ترتيب الأقسام وتبرير كل تعديل.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "حرر تقريراً طويلاً بإعادة ترتيب الأقسام وتبرير كل تعديل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_expert_course_data.dart",
+    "legacyUnitId": "c2-u5",
+    "legacyGlobalNumber": 461
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u7-01",
+  "level": "C2",
+  "unitId": "c2-u7",
+  "order": 1,
+  "title": {
+    "ar": "تحليل الأداء الشفهي عالي التعقيد",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الخطاب الشفهي والمناظرة المتقدمة",
+    "titleTr": "İleri Sözlü Söylem ve Münazara",
+    "description": "تحليل المداخلات والشرح الفوري وإدارة الاختلاف والنقاش متعدد اللغات."
+  },
+  "contentStatus": "full",
+  "goal": "إدارة خطاب شفهي طويل يجمع التحليل والارتجال والتفاعل.",
+  "rule": "ابنِ أطروحة شفوية واضحة، ووازن بين التلقائية والدقة، وعدّل المسار وفق أسئلة الجمهور.",
+  "vocabulary": [
+    {
+      "term": "ileri sözlü anlatım",
+      "meaningAr": "خطاب شفهي متقدم",
+      "exampleTr": "Karmaşık bir konuyu farklı dinleyici gruplarına göre yeniden yapılandırdım.",
+      "exampleAr": "أعدت تنظيم موضوع معقد وفق مجموعات مختلفة من المستمعين."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karmaşık bir konuyu farklı dinleyici gruplarına göre yeniden yapılandırdım.",
+      "ar": "أعدت تنظيم موضوع معقد وفق مجموعات مختلفة من المستمعين."
+    },
+    {
+      "tr": "Sözlü anlatımımı dinleyici tepkilerine göre uyarladım.",
+      "ar": "كيفت خطابي وفق استجابات المستمعين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Açıklamayı değiştirmek gerekir mi؟",
+      "ar": "هل يلزم تغيير الشرح؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Dinleyicinin sorularına göre derinliği ayarlayalım.",
+      "ar": "لنضبط العمق وفق أسئلة المستمع."
+    }
+  ],
+  "speakingTask": "قدم عرضاً متخصصاً ثم أعد شرحه لجمهور غير متخصص.",
+  "questions": [
+    {
+      "id": "c2-u7-01-q1",
+      "prompt": "ما معنى «ileri sözlü anlatım»؟",
+      "options": [
+        "طلب الإذن",
+        "خطاب شفهي متقدم",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«ileri sözlü anlatım» تعني: خطاب شفهي متقدم."
+    },
+    {
+      "id": "c2-u7-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أعدت تنظيم موضوع معقد وفق مجموعات مختلفة من المستمعين.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "أعدت تنظيم موضوع معقد وفق مجموعات مختلفة من المستمعين."
+    },
+    {
+      "id": "c2-u7-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "sözlü söylem stratejisi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «sözlü söylem stratejisi». ابنِ أطروحة شفوية واضحة، ووازن بين التلقائية والدقة، وعدّل المسار وفق أسئلة الجمهور."
+    },
+    {
+      "id": "c2-u7-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تنظيم الخطاب الشفهي لجمهور متنوع.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "تنظيم الخطاب الشفهي لجمهور متنوع."
+    },
+    {
+      "id": "c2-u7-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "قدم عرضاً متخصصاً ثم أعد شرحه لجمهور غير متخصص.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدم عرضاً متخصصاً ثم أعد شرحه لجمهور غير متخصص."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u7",
+    "legacyGlobalNumber": 481
+  }
+}

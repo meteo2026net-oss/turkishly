@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u4-08",
+  "level": "B2",
+  "unitId": "b2-u4",
+  "order": 8,
+  "title": {
+    "ar": "التواصل مع العملاء",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "إدارة المشاريع والقيادة المهنية",
+    "titleTr": "Proje Yönetimi ve Mesleki Liderlik",
+    "description": "تخطيط المشاريع وتوزيع المسؤوليات وإدارة المخاطر والعمل مع العملاء."
+  },
+  "contentStatus": "full",
+  "goal": "فهم طلب العميل وتأكيد التفاصيل وتوضيح الحل.",
+  "rule": "Talebinizi doğru anladığımdan emin olmak istiyorum.",
+  "vocabulary": [
+    {
+      "term": "talep",
+      "meaningAr": "طلب",
+      "exampleTr": "أريد التأكد من أنني فهمت طلبكم بشكل صحيح.",
+      "exampleAr": "طلب"
+    }
+  ],
+  "examples": [
+    {
+      "tr": "المقارنة",
+      "ar": ""
+    },
+    {
+      "tr": "Talebinizi ilgili birime ileteceğim.",
+      "ar": "سأنقل طلبكم إلى القسم المختص."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Çözüm sürecini size bildireceğiz.|سنبلغكم بمسار الحل.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Sorunum ne zaman çözülür? — متى تُحل مشكلتي؟\nB: Süreci bugün başlatıyoruz. — نبدأ الإجراءات اليوم.",
+  "questions": [
+    {
+      "id": "b2-u4-08-q1",
+      "prompt": "ما معنى «talep»؟",
+      "options": [
+        "يخفي",
+        "ينسى",
+        "talebi karşılamak|يلبي الطلب",
+        "يعارض"
+      ],
+      "answerIndex": 2,
+      "explanation": "talep تعني طلب."
+    },
+    {
+      "id": "b2-u4-08-q2",
+      "prompt": "ما ترجمة الجملة: «أريد التأكد من أنني فهمت طلبكم بشكل صحيح.»؟",
+      "options": [
+        "سأعود إلى المنزل بعد انتهاء العمل.",
+        "لم أقرأ هذا التقرير من قبل.",
+        "لا تعبّر هذه الجملة عن المعنى المطلوب.",
+        "أريد التأكد من أنني فهمت طلبكم بشكل صحيح.|طلب"
+      ],
+      "answerIndex": 3,
+      "explanation": "أريد التأكد من أنني فهمت طلبكم بشكل صحيح. تعني طلب."
+    },
+    {
+      "id": "b2-u4-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "يؤخر",
+        "تأكيد فهم الطلب",
+        "التعبير عن التمني",
+        "الشرط الافتراضي"
+      ],
+      "answerIndex": 0,
+      "explanation": "-DIğından emin olmak."
+    },
+    {
+      "id": "b2-u4-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «يؤخر»؟",
+      "options": [
+        "الشرط الافتراضي",
+        "التأكد من أن",
+        "تأكيد فهم الطلب",
+        "التعبير عن التمني"
+      ],
+      "answerIndex": 1,
+      "explanation": "التأكد من أن"
+    },
+    {
+      "id": "b2-u4-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "تأكيد فهم الطلب",
+        "التعبير عن التمني",
+        "الشرط الافتراضي",
+        "التأكد من أن"
+      ],
+      "answerIndex": 3,
+      "explanation": "التأكد من أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u4",
+    "legacyGlobalNumber": 218
+  }
+}

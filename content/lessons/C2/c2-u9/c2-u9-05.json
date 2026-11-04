@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u9-05",
+  "level": "C2",
+  "unitId": "c2-u9",
+  "order": 5,
+  "title": {
+    "ar": "إدارة السمعة والثقة المؤسسية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحوكمة والقيادة الاستراتيجية المتقدمة",
+    "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
+    "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
+  },
+  "contentStatus": "full",
+  "goal": "التواصل المتسق عند وجود معلومات متضاربة أو انتقادات عامة.",
+  "rule": "اعترف بالمعلومة الصحيحة، وصحح الخطأ، وقدم إجراء متابعة قابل للتحقق.",
+  "vocabulary": [
+    {
+      "term": "kurumsal itibar",
+      "meaningAr": "سمعة مؤسسية",
+      "exampleTr": "Güveni yeniden kurmak için açık bilgi ve tutarlı uygulama gerekiyor.",
+      "exampleAr": "تتطلب استعادة الثقة معلومات واضحة وتطبيقاً متسقاً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Güveni yeniden kurmak için açık bilgi ve tutarlı uygulama gerekiyor.",
+      "ar": "تتطلب استعادة الثقة معلومات واضحة وتطبيقاً متسقاً."
+    },
+    {
+      "tr": "Güvenin sözle değil uygulamayla desteklenmesi gerektiğini vurguladım.",
+      "ar": "أكدت أن الثقة يجب أن تدعمها الممارسة لا الأقوال."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bir açıklama yeterli olur mu؟",
+      "ar": "هل يكفي بيان واحد؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Sürekli ve ölçülebilir adımlar gerekir.",
+      "ar": "نحتاج خطوات مستمرة وقابلة للقياس."
+    }
+  ],
+  "speakingTask": "صمم خطة استعادة ثقة تشمل رسائل ومؤشرات ومواعيد.",
+  "questions": [
+    {
+      "id": "c2-u9-05-q1",
+      "prompt": "ما معنى «kurumsal itibar»؟",
+      "options": [
+        "طلب الإذن",
+        "سمعة مؤسسية",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«kurumsal itibar» تعني: سمعة مؤسسية."
+    },
+    {
+      "id": "c2-u9-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تتطلب استعادة الثقة معلومات واضحة وتطبيقاً متسقاً.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "تتطلب استعادة الثقة معلومات واضحة وتطبيقاً متسقاً."
+    },
+    {
+      "id": "c2-u9-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "güven yönetimi"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «güven yönetimi». اعترف بالمعلومة الصحيحة، وصحح الخطأ، وقدم إجراء متابعة قابل للتحقق."
+    },
+    {
+      "id": "c2-u9-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "حماية الثقة عبر الشفافية والاتساق.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "حماية الثقة عبر الشفافية والاتساق."
+    },
+    {
+      "id": "c2-u9-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "صمم خطة استعادة ثقة تشمل رسائل ومؤشرات ومواعيد.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "صمم خطة استعادة ثقة تشمل رسائل ومؤشرات ومواعيد."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u9",
+    "legacyGlobalNumber": 505
+  }
+}

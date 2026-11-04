@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u12-01",
+  "level": "C2",
+  "unitId": "c2-u12",
+  "order": 1,
+  "title": {
+    "ar": "التواصل الدبلوماسي الدقيق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الدبلوماسية والقيادة الدولية والمشروع الختامي",
+    "titleTr": "Diplomasi, Uluslararası Liderlik ve Bitirme Projesi",
+    "description": "التواصل الدبلوماسي والتفاوض والوساطة والاتفاقات متعددة الأطراف ومشروع C2 الختامي."
+  },
+  "contentStatus": "full",
+  "goal": "صياغة رسائل تراعي العلاقات الرسمية والحساسية والسياق.",
+  "rule": "وازن بين الوضوح والتحفظ، وحدد الأفعال الكلامية، وتجنب العبارات التي تخلق التزاماً غير مقصود.",
+  "vocabulary": [
+    {
+      "term": "diplomatik dil",
+      "meaningAr": "لغة دبلوماسية",
+      "exampleTr": "Tarafların hassasiyetlerini gözeten dengeli bir ifade kullandık.",
+      "exampleAr": "استخدمنا صياغة متوازنة تراعي حساسيات الأطراف."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tarafların hassasiyetlerini gözeten dengeli bir ifade kullandık.",
+      "ar": "استخدمنا صياغة متوازنة تراعي حساسيات الأطراف."
+    },
+    {
+      "tr": "Mesajın tonunu ilişki ve bağlama göre ayarladım.",
+      "ar": "ضبطت نبرة الرسالة وفق العلاقة والسياق."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu ifade fazla kesin mi؟",
+      "ar": "هل هذه العبارة حاسمة أكثر من اللازم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Biraz daha ihtiyatlı bir seçenek kullanabiliriz.",
+      "ar": "يمكننا استخدام صيغة أكثر تحفظاً."
+    }
+  ],
+  "speakingTask": "اكتب ثلاث صيغ لرسالة واحدة بدرجات مختلفة من التحفظ.",
+  "questions": [
+    {
+      "id": "c2-u12-01-q1",
+      "prompt": "ما معنى «diplomatik dil»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "لغة دبلوماسية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«diplomatik dil» تعني: لغة دبلوماسية."
+    },
+    {
+      "id": "c2-u12-01-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "استخدمنا صياغة متوازنة تراعي حساسيات الأطراف.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "استخدمنا صياغة متوازنة تراعي حساسيات الأطراف."
+    },
+    {
+      "id": "c2-u12-01-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "diplomatik iletişim",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «diplomatik iletişim». وازن بين الوضوح والتحفظ، وحدد الأفعال الكلامية، وتجنب العبارات التي تخلق التزاماً غير مقصود."
+    },
+    {
+      "id": "c2-u12-01-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "التواصل الرسمي الحساس.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "التواصل الرسمي الحساس."
+    },
+    {
+      "id": "c2-u12-01-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب ثلاث صيغ لرسالة واحدة بدرجات مختلفة من التحفظ.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب ثلاث صيغ لرسالة واحدة بدرجات مختلفة من التحفظ."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_capstone_course_data.dart",
+    "legacyUnitId": "c2-u12",
+    "legacyGlobalNumber": 531
+  }
+}

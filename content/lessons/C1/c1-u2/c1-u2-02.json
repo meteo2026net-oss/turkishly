@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u2-02",
+  "level": "C1",
+  "unitId": "c1-u2",
+  "order": 2,
+  "title": {
+    "ar": "تنظيم الفقرة الأكاديمية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الكتابة الأكاديمية المتقدمة",
+    "titleTr": "İleri Akademik Yazma",
+    "description": "بناء الأطروحة والفقرات وإعادة الصياغة والاقتباس والتقارير والتحرير."
+  },
+  "contentStatus": "full",
+  "goal": "بناء فقرة تبدأ بفكرة رئيسية وتتطور بأدلة وتفسير.",
+  "rule": "تتكون الفقرة المتماسكة من جملة موضوعية وتفسير ودليل وتحليل وجملة انتقال أو خلاصة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Bu bölümde enerji tüketiminin ekonomik etkileri incelenmektedir.",
+      "ar": "يُدرس في هذا القسم الأثر الاقتصادي لاستهلاك الطاقة."
+    },
+    {
+      "tr": "Bir paragrafı konu cümlesi ve kanıtlarla geliştirin.",
+      "ar": "اكتب فقرة من 6 جمل تتضمن فكرة رئيسية ودليلاً وتحليلاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu konuda ne düşünüyorsunuz?",
+      "ar": "ما رأيكم في هذا الموضوع؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Öncelikle kanıtları değerlendirmemiz gerekiyor.",
+      "ar": "ينبغي أولاً تقييم الأدلة."
+    }
+  ],
+  "speakingTask": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+  "questions": [
+    {
+      "prompt": "ما معنى التعبير التركي «konu cümlesi»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "التعبير عن الزمن الماضي فقط",
+        "طلب الإذن",
+        "الجملة الموضوعية"
+      ],
+      "answerIndex": 3,
+      "explanation": "«konu cümlesi» تعني الجملة الموضوعية.",
+      "id": "c1-u2-02-q1"
+    },
+    {
+      "prompt": "ما ترجمة الجملة: «Bu bölümde enerji tüketiminin ekonomik etkileri incelenmektedir.»؟",
+      "options": [
+        "يُدرس في هذا القسم الأثر الاقتصادي لاستهلاك الطاقة.",
+        "لم تبدأ الدراسة بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "ترجمة الجملة: يُدرس في هذا القسم الأثر الاقتصادي لاستهلاك الطاقة.",
+      "id": "c1-u2-02-q2"
+    },
+    {
+      "prompt": "أي تعبير يطابق وظيفة «paragraf bütünlüğü»؟",
+      "options": [
+        "yer bildiren ifade",
+        "paragraf bütünlüğü",
+        "rastgele bir ifade",
+        "geçmiş zaman"
+      ],
+      "answerIndex": 1,
+      "explanation": "تماسك الفقرة",
+      "id": "c1-u2-02-q3"
+    },
+    {
+      "prompt": "ما المبدأ الأنسب عند تطبيق قاعدة هذا الدرس؟",
+      "options": [
+        "تحويل كل احتمال إلى حقيقة قطعية",
+        "تجاهل بنية النص",
+        "ربط الادعاء أو الفكرة بدليل وسياق واضح",
+        "إضافة تفاصيل لا يدعمها النص"
+      ],
+      "answerIndex": 2,
+      "explanation": "تتكون الفقرة المتماسكة من جملة موضوعية وتفسير ودليل وتحليل وجملة انتقال أو خلاصة.",
+      "id": "c1-u2-02-q4"
+    },
+    {
+      "prompt": "أي نشاط يثبت إتقان مهارة الدرس؟",
+      "options": [
+        "حفظ كلمة واحدة دون سياق",
+        "ترجمة آلية دون مراجعة",
+        "تكرار الفكرة نفسها بلا دليل",
+        "إنتاج تحليل أو نص أو مداخلة تستند إلى شواهد"
+      ],
+      "answerIndex": 3,
+      "explanation": "قدّم عرضاً شفهياً منظماً يدعم أطروحتك بالأدلة ويجيب عن سؤال نقدي.",
+      "id": "c1-u2-02-q5"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_course_data.dart",
+    "legacyUnitId": "c1-u2",
+    "legacyGlobalNumber": 312
+  }
+}

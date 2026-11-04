@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-u8-08",
+  "level": "B2",
+  "unitId": "b2-u8",
+  "order": 8,
+  "title": {
+    "ar": "الاستدلال وتفسير الأدلة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "القانون والحقوق والمؤسسات",
+    "titleTr": "Hukuk, Haklar ve Kurumlar",
+    "description": "الحقوق والإجراءات الرسمية والخصوصية والعقود وتسوية الخلافات."
+  },
+  "contentStatus": "full",
+  "goal": "kanıt",
+  "rule": "Bir iddiayı savunmak için güvenilir kanıt sunmak gerekir.",
+  "vocabulary": [
+    {
+      "term": "دليل",
+      "meaningAr": "iddia",
+      "exampleTr": "Bir iddiayı savunmak için güvenilir kanıt sunmak gerekir.",
+      "exampleAr": "ينبغي تقديم دليل موثوق للدفاع عن ادعاء."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "صياغة ضرورة عامة",
+      "ar": ""
+    },
+    {
+      "tr": "Bir iddiayı savunmak için güvenilir kanıt sunmak gerekir.",
+      "ar": ""
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "S1",
+      "tr": "Araştırma sonuçları bu görüşü destekliyor.|تدعم نتائج البحث هذا الرأي.",
+      "ar": ""
+    }
+  ],
+  "speakingTask": "A: Bu iddianın dayanağı nedir? — ما أساس هذا الادعاء؟\nB: Ölçülebilir veriler. — بيانات قابلة للقياس.",
+  "questions": [
+    {
+      "id": "b2-u8-08-q1",
+      "prompt": "ما معنى «دليل»؟",
+      "options": [
+        "يقدم دليلاً",
+        "تعبير غير مناسب",
+        "ادعاء",
+        "kanıt sunmak"
+      ],
+      "answerIndex": 2,
+      "explanation": "دليل تعني iddia."
+    },
+    {
+      "id": "b2-u8-08-q2",
+      "prompt": "ما ترجمة الجملة: «Bir iddiayı savunmak için güvenilir kanıt sunmak gerekir.»؟",
+      "options": [
+        "سأزور المكتبة غداً.",
+        "لم أفهم السؤال السابق.",
+        "هذا التعبير لا يناسب السياق.",
+        "ينبغي تقديم دليل موثوق للدفاع عن ادعاء.|ينبغي تقديم دليل موثوق للدفاع عن ادعاء."
+      ],
+      "answerIndex": 3,
+      "explanation": "Bir iddiayı savunmak için güvenilir kanıt sunmak gerekir. تعني ينبغي تقديم دليل موثوق للدفاع عن ادعاء.."
+    },
+    {
+      "id": "b2-u8-08-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "تفسير الحجة",
+        "-DIktan sonra",
+        "-miş gibi",
+        "-sa bile"
+      ],
+      "answerIndex": 0,
+      "explanation": "-mek gerekir."
+    },
+    {
+      "id": "b2-u8-08-q4",
+      "prompt": "ما الوظيفة اللغوية للتعبير «تفسير الحجة»؟",
+      "options": [
+        "طلب الإذن",
+        "ينبغي أن",
+        "التعبير عن مكان",
+        "وصف عادة متكررة"
+      ],
+      "answerIndex": 1,
+      "explanation": "ينبغي أن"
+    },
+    {
+      "id": "b2-u8-08-q5",
+      "prompt": "أي تعبير يحقق الوظيفة المستهدفة في الدرس؟",
+      "options": [
+        "التعبير عن مكان",
+        "وصف عادة متكررة",
+        "طلب الإذن",
+        "ينبغي أن"
+      ],
+      "answerIndex": 3,
+      "explanation": "ينبغي أن"
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b2_course_data.dart",
+    "legacyUnitId": "b2-u8",
+    "legacyGlobalNumber": 258
+  }
+}

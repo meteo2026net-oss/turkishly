@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u7-6",
+  "level": "A1",
+  "unitId": "a1-u7",
+  "order": 6,
+  "title": {
+    "ar": {
+      "id": "a1-u7-06",
+      "order": 6,
+      "titleAr": "لاحقة المكان والسؤال Nerede؟",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "المنزل والغرف والأثاث والاتجاهات",
+    "titleTr": "Ev, Odalar, Mobilyalar ve Yönler",
+    "description": "أسماء المنزل والغرف والأثاث ووصف الأماكن وتحديد مواقع الأشياء والاتجاهات الأساسية."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام لاحقة المكان -da/-de/-ta/-te للسؤال والإجابة عن الموقع.",
+  "rule": "تُضاف لاحقة المكان إلى الاسم للإجابة عن سؤال Nerede؟ (أين؟). نختار -da أو -de وفق آخر حركة، وقد تتحول d إلى t بعد بعض الحروف المهموسة مثل ç, f, h, k, p, s, ş, t. أمثلة: evde في المنزل، okulda في المدرسة، parkta في الحديقة العامة.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Evdeyim.",
+      "ar": "أنا في المنزل."
+    },
+    {
+      "tr": "Kitap çantada.",
+      "ar": "الكتاب في الحقيبة."
+    },
+    {
+      "tr": "Çocuk parkta.",
+      "ar": "الطفل في الحديقة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u7-6-q1",
+      "prompt": "ما الصيغة الصحيحة لمعنى «في المنزل»؟",
+      "options": [
+        "evda",
+        "evde",
+        "evta",
+        "evte"
+      ],
+      "answerIndex": 1,
+      "explanation": "ev تنتهي بحركة أمامية e، لذلك نقول evde."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u7",
+    "legacyLessonOrder": 6
+  }
+}

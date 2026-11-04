@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u7-3",
+  "level": "A2",
+  "unitId": "a2-u7",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a2-u7-03",
+      "order": 3,
+      "titleAr": "حالة الاتجاه",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "حالات الاسم وحروف الجر التركية",
+    "titleTr": "İsim Hâlleri ve Edatlar",
+    "description": "استخدام حالات المفعول والاتجاه والمكان والابتعاد، واختيار اللواحق المناسبة، والتعبير عن المعية والسبب والتشبيه."
+  },
+  "contentStatus": "full",
+  "goal": "حالة الاتجاه -(y)a/-(y)e.",
+  "rule": "تدل هذه الحالة غالباً على الاتجاه أو الوجهة أو المستفيد: okula إلى المدرسة، eve إلى المنزل، Ankara'ya إلى أنقرة. بعد حرف علة نضيف y فاصلة: arabaya (إلى السيارة). مثال: Yarın doktora gidiyorum (أذهب إلى الطبيب غداً).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "okula",
+      "ar": "إلى المدرسة"
+    },
+    {
+      "tr": "eve",
+      "ar": "إلى المنزل"
+    },
+    {
+      "tr": "Ankara'ya",
+      "ar": "إلى أنقرة"
+    },
+    {
+      "tr": "arkadaşıma",
+      "ar": "إلى صديقي"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u7-3-q1",
+      "prompt": "ما معنى eve gidiyorum؟",
+      "options": [
+        "أذهب من المنزل",
+        "أنا في المنزل",
+        "أذهب إلى المنزل",
+        "أرى المنزل"
+      ],
+      "answerIndex": 2,
+      "explanation": "eve gidiyorum تعني أذهب إلى المنزل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u7",
+    "legacyLessonOrder": 3
+  }
+}

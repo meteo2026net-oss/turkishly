@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u19-09",
+  "level": "C2",
+  "unitId": "c2-u19",
+  "order": 9,
+  "title": {
+    "ar": "كتابة مناقشة علمية متوازنة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "البحث التطبيقي وتصميم الدراسات المتقدمة",
+    "titleTr": "İleri Uygulamalı Araştırma ve Araştırma Tasarımı",
+    "description": "تصميم المناهج المختلطة والقياس والاستدلال السببي وتحليل الحساسية وكتابة تقارير قابلة لإعادة الإنتاج."
+  },
+  "contentStatus": "full",
+  "goal": "تطبيق مفاهيم كتابة مناقشة علمية متوازنة في تحليل متقدم.",
+  "rule": "استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه.",
+  "vocabulary": [
+    {
+      "term": "tartışma bölümü",
+      "meaningAr": "قسم المناقشة",
+      "exampleTr": "Bulguları önceki çalışmalarla karşılaştırıp sınırlılıkları açıkça belirttik.",
+      "exampleAr": "قارنّا النتائج بالدراسات السابقة وحددنا القيود بوضوح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bulguları önceki çalışmalarla karşılaştırıp sınırlılıkları açıkça belirttik.",
+      "ar": "قارنّا النتائج بالدراسات السابقة وحددنا القيود بوضوح."
+    },
+    {
+      "tr": "İyi bir tartışma beklenmeyen sonuçları da açıklar.",
+      "ar": "تفسر المناقشة الجيدة النتائج غير المتوقعة أيضاً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Beklentimiz doğrulanmadı.",
+      "ar": "لم تتأكد توقعاتنا."
+    },
+    {
+      "speaker": "B",
+      "tr": "Bu sonucu sınırlılıklarla birlikte tartışalım.",
+      "ar": "لنناقش هذه النتيجة مع القيود."
+    }
+  ],
+  "speakingTask": "اكتب فقرة مناقشة توازن بين دلالة النتيجة وحدودها.",
+  "questions": [
+    {
+      "id": "c2-u19-09-q1",
+      "prompt": "ما المقصود بالمصطلح «tartışma bölümü»؟",
+      "options": [
+        "طلب الإذن",
+        "قسم المناقشة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«tartışma bölümü» يعني: قسم المناقشة."
+    },
+    {
+      "id": "c2-u19-09-q2",
+      "prompt": "ما الترجمة الأدق للجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "قارنّا النتائج بالدراسات السابقة وحددنا القيود بوضوح.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "قارنّا النتائج بالدراسات السابقة وحددنا القيود بوضوح."
+    },
+    {
+      "id": "c2-u19-09-q3",
+      "prompt": "أي مصطلح يرتبط مباشرة بموضوع الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "bulguların yorumlanması"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة: bulguların yorumlanması. استخدم المصطلحات والسياق والأدلة لتفسير الموضوع وتقييمه."
+    },
+    {
+      "id": "c2-u19-09-q4",
+      "prompt": "ما الوظيفة التطبيقية الأساسية؟",
+      "options": [
+        "ربط النتائج بالأدبيات والفرضيات والقيود",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "السؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "ربط النتائج بالأدبيات والفرضيات والقيود"
+    },
+    {
+      "id": "c2-u19-09-q5",
+      "prompt": "أي نشاط يثبت اكتساب المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب فقرة مناقشة توازن بين دلالة النتيجة وحدودها.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب فقرة مناقشة توازن بين دلالة النتيجة وحدودها."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_global_course_data.dart",
+    "legacyUnitId": "c2-u19",
+    "legacyGlobalNumber": 609
+  }
+}

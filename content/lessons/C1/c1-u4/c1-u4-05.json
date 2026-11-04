@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u4-05",
+  "level": "C1",
+  "unitId": "c1-u4",
+  "order": 5,
+  "title": {
+    "ar": "تدوين الملاحظات المنظمة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الاستماع المتقدم وتحليل الخطاب",
+    "titleTr": "İleri Dinleme ve Söylem Analizi",
+    "description": "تحليل المواقف والنبرة والاستدلال وتلخيص المحاضرات والمقابلات."
+  },
+  "contentStatus": "full",
+  "goal": "تحويل الاستماع إلى ملاحظات قابلة للمراجعة.",
+  "rule": "دوّن الكلمات المفتاحية والعلاقات والأسئلة لا الجمل كاملة.",
+  "vocabulary": [
+    {
+      "term": "not almak",
+      "meaningAr": "يدوّن ملاحظات",
+      "exampleTr": "Sunum sırasında neden-sonuç ilişkilerini oklarla gösterdim.",
+      "exampleAr": "أشرت إلى علاقات السبب والنتيجة بالأسهم أثناء العرض."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Sunum sırasında neden-sonuç ilişkilerini oklarla gösterdim.",
+      "ar": "أشرت إلى علاقات السبب والنتيجة بالأسهم أثناء العرض."
+    },
+    {
+      "tr": "Notlarımı konu başlıklarına göre düzenledim.",
+      "ar": "نظمت ملاحظاتي وفق عناوين الموضوع."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Notların neden kısa؟",
+      "ar": "لماذا ملاحظاتك مختصرة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Anahtar sözcükleri seçtim.",
+      "ar": "اخترت الكلمات المفتاحية."
+    }
+  ],
+  "speakingTask": "أنشئ صفحة ملاحظات لمحاضرة فيها تعريف وثلاث حجج ونتيجة.",
+  "questions": [
+    {
+      "id": "c1-u4-05-q1",
+      "prompt": "ما معنى «not almak»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "يدوّن ملاحظات"
+      ],
+      "answerIndex": 3,
+      "explanation": "«not almak» تعني: يدوّن ملاحظات."
+    },
+    {
+      "id": "c1-u4-05-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "أشرت إلى علاقات السبب والنتيجة بالأسهم أثناء العرض.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "أشرت إلى علاقات السبب والنتيجة بالأسهم أثناء العرض."
+    },
+    {
+      "id": "c1-u4-05-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "anahtar kelime ve hiyerarşi",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «anahtar kelime ve hiyerarşi». دوّن الكلمات المفتاحية والعلاقات والأسئلة لا الجمل كاملة."
+    },
+    {
+      "id": "c1-u4-05-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تنظيم الملاحظات حسب الكلمات المفتاحية والتسلسل.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تنظيم الملاحظات حسب الكلمات المفتاحية والتسلسل."
+    },
+    {
+      "id": "c1-u4-05-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "أنشئ صفحة ملاحظات لمحاضرة فيها تعريف وثلاث حجج ونتيجة.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "أنشئ صفحة ملاحظات لمحاضرة فيها تعريف وثلاث حجج ونتيجة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u4",
+    "legacyGlobalNumber": 335
+  }
+}

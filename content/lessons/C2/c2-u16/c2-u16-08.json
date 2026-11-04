@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u16-08",
+  "level": "C2",
+  "unitId": "c2-u16",
+  "order": 8,
+  "title": {
+    "ar": "صياغة بنود الاتفاق",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التفاوض متعدد الأطراف والوساطة المتقدمة",
+    "titleTr": "Çok Taraflı Müzakere ve İleri Arabuluculuk",
+    "description": "التحضير للتفاوض وصياغة العروض وإدارة الجمود وبناء الاتفاقات ومتابعة تنفيذها."
+  },
+  "contentStatus": "full",
+  "goal": "استخدم لغة محددة، وحدد الأطراف والأفعال والمواعيد وآلية التحقق والاستثناءات.",
+  "rule": "استخدم لغة محددة، وحدد الأطراف والأفعال والمواعيد وآلية التحقق والاستثناءات.",
+  "vocabulary": [
+    {
+      "term": "anlaşma hükmü",
+      "meaningAr": "بند اتفاق",
+      "exampleTr": "Tarafların sorumlulukları ve teslim tarihleri açıkça yazıldı.",
+      "exampleAr": "كُتبت مسؤوليات الأطراف ومواعيد التسليم بوضوح."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tarafların sorumlulukları ve teslim tarihleri açıkça yazıldı.",
+      "ar": "كُتبت مسؤوليات الأطراف ومواعيد التسليم بوضوح."
+    },
+    {
+      "tr": "Açık hükümler yorum farklılıklarını sınırlar.",
+      "ar": "تحد البنود الواضحة من اختلافات التفسير."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu ifade yeterince açık mı?",
+      "ar": "هل هذه العبارة واضحة بما يكفي؟\\"
+    },
+    {
+      "speaker": "B",
+      "tr": "Sorumlu tarafı ve tarihi de belirtmeliyiz.",
+      "ar": "ينبغي أن نحدد الطرف المسؤول والتاريخ أيضاً."
+    }
+  ],
+  "speakingTask": "حرر بنداً اتفاقياً يتضمن مسؤولية وموعداً ومؤشر تحقق.",
+  "questions": [
+    {
+      "id": "c2-u16-08-q1",
+      "prompt": "ما معنى «anlaşma hükmü»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "بند اتفاق",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«anlaşma hükmü» تعني: بند اتفاق."
+    },
+    {
+      "id": "c2-u16-08-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "كُتبت مسؤوليات الأطراف ومواعيد التسليم بوضوح."
+      ],
+      "answerIndex": 3,
+      "explanation": "كُتبت مسؤوليات الأطراف ومواعيد التسليم بوضوح."
+    },
+    {
+      "id": "c2-u16-08-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "uygulama maddesi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «uygulama maddesi». استخدم لغة محددة، وحدد الأطراف والأفعال والمواعيد وآلية التحقق والاستثناءات."
+    },
+    {
+      "id": "c2-u16-08-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "بند تنفيذي",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "بند تنفيذي"
+    },
+    {
+      "id": "c2-u16-08-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "حرر بنداً اتفاقياً يتضمن مسؤولية وموعداً ومؤشر تحقق."
+      ],
+      "answerIndex": 3,
+      "explanation": "حرر بنداً اتفاقياً يتضمن مسؤولية وموعداً ومؤشر تحقق."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_strategic_course_data.dart",
+    "legacyUnitId": "c2-u16",
+    "legacyGlobalNumber": 578
+  }
+}

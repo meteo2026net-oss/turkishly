@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-u4-2",
+  "level": "A2",
+  "unitId": "a2-u4",
+  "order": 2,
+  "title": {
+    "ar": {
+      "id": "a2-u4-02",
+      "order": 2,
+      "titleAr": "التعبير عن التكرار والعادات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الظروف والتكرار وتفاصيل الروتين اليومي",
+    "titleTr": "Zarflar ve Günlük Rutinler",
+    "description": "التعبير عن تكرار الأفعال وطريقتها وزمانها ومكانها، واستخدام الظروف في وصف العادات والمحادثات اليومية."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن التكرار والعادات.",
+  "rule": "تصف كلمات التكرار عدد مرات حدوث الفعل. من الشائع: her gün كل يوم، her zaman دائماً، genellikle عادةً، bazen أحياناً، nadiren نادراً، hiçbir zaman أبداً. مثال: Genellikle otobüsle gidiyorum (أذهب عادةً بالحافلة).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "her gün",
+      "ar": "كل يوم"
+    },
+    {
+      "tr": "genellikle",
+      "ar": "عادةً"
+    },
+    {
+      "tr": "bazen",
+      "ar": "أحياناً"
+    },
+    {
+      "tr": "nadiren",
+      "ar": "نادراً"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a2-u4-2-q1",
+      "prompt": "ما معنى genellikle؟",
+      "options": [
+        "نادراً",
+        "أحياناً",
+        "عادةً",
+        "أبداً"
+      ],
+      "answerIndex": 2,
+      "explanation": "genellikle تعني عادةً أو غالباً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a2-u4",
+    "legacyLessonOrder": 2
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u17-7",
+  "level": "A1",
+  "unitId": "a1-u17",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u17-07",
+      "order": 7,
+      "titleAr": "التقديم إلى وظيفة ومقابلة بسيطة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "العمل والمهن والحياة المهنية",
+    "titleTr": "İşler, Meslekler ve İş Hayatı",
+    "description": "أسماء المهن وأماكن العمل والمهام والمسؤوليات وأوقات الدوام والمهارات والتعريف بالحياة المهنية."
+  },
+  "contentStatus": "full",
+  "goal": "فهم عبارات عامة في التقديم إلى وظيفة.",
+  "rule": "عبارات: İş arıyorum (أبحث عن عمل)، İş başvurusu (طلب توظيف)، özgeçmiş السيرة الذاتية، görüşme مقابلة، deneyimim var لدي خبرة، Teşekkür ederim (شكراً). هذه عبارات تعلّم لغوي للتعرّف إلى مفردات المواقف المهنية.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "İş arıyorum.",
+      "ar": "أبحث عن عمل."
+    },
+    {
+      "tr": "İş başvurusu",
+      "ar": "طلب توظيف"
+    },
+    {
+      "tr": "özgeçmiş",
+      "ar": "السيرة الذاتية"
+    },
+    {
+      "tr": "Görüşme ne zaman?",
+      "ar": "متى المقابلة؟"
+    },
+    {
+      "tr": "Deneyimim var.",
+      "ar": "لدي خبرة."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u17-7-q1",
+      "prompt": "ما معنى İş arıyorum؟",
+      "options": [
+        "أبحث عن عمل",
+        "أنا في المدرسة",
+        "أذهب إلى المنزل",
+        "أكتب رسالة"
+      ],
+      "answerIndex": 0,
+      "explanation": "İş arıyorum تعني أبحث عن عمل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u17",
+    "legacyLessonOrder": 7
+  }
+}

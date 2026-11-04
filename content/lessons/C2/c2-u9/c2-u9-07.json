@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c2-u9-07",
+  "level": "C2",
+  "unitId": "c2-u9",
+  "order": 7,
+  "title": {
+    "ar": "تقييم أثر السياسات والقرارات",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الحوكمة والقيادة الاستراتيجية المتقدمة",
+    "titleTr": "İleri Yönetişim ve Stratejik Liderlik",
+    "description": "التفاوض طويل المدى والمخاطر والسياسات والسمعة والأزمات وتقييم الأثر."
+  },
+  "contentStatus": "full",
+  "goal": "قياس النتائج المقصودة وغير المقصودة لقرار مؤسسي.",
+  "rule": "حدد خط أساس ومؤشرات ومجموعة مقارنة، وافصل الارتباط عن أثر التدخل.",
+  "vocabulary": [
+    {
+      "term": "politika etki değerlendirmesi",
+      "meaningAr": "تقييم أثر السياسة",
+      "exampleTr": "Uygulamanın beklenen ve beklenmeyen sonuçlarını ayrı ölçtük.",
+      "exampleAr": "قسنا النتائج المتوقعة وغير المتوقعة للتنفيذ بصورة منفصلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Uygulamanın beklenen ve beklenmeyen sonuçlarını ayrı ölçtük.",
+      "ar": "قسنا النتائج المتوقعة وغير المتوقعة للتنفيذ بصورة منفصلة."
+    },
+    {
+      "tr": "Politikanın etkisini yalnızca tek göstergeye bağlamadım.",
+      "ar": "لم أربط أثر السياسة بمؤشر واحد فقط."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Başarı yalnızca maliyetle mi ölçülür؟",
+      "ar": "هل يقاس النجاح بالتكلفة فقط؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Toplumsal ve uzun vadeli etkiler de incelenmeli.",
+      "ar": "ينبغي دراسة الآثار الاجتماعية وطويلة المدى أيضاً."
+    }
+  ],
+  "speakingTask": "اكتب إطار تقييم لقرار يتضمن خط أساس وأربعة مؤشرات.",
+  "questions": [
+    {
+      "id": "c2-u9-07-q1",
+      "prompt": "ما معنى «politika etki değerlendirmesi»؟",
+      "options": [
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تقييم أثر السياسة"
+      ],
+      "answerIndex": 3,
+      "explanation": "«politika etki değerlendirmesi» تعني: تقييم أثر السياسة."
+    },
+    {
+      "id": "c2-u9-07-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "قسنا النتائج المتوقعة وغير المتوقعة للتنفيذ بصورة منفصلة.",
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى."
+      ],
+      "answerIndex": 0,
+      "explanation": "قسنا النتائج المتوقعة وغير المتوقعة للتنفيذ بصورة منفصلة."
+    },
+    {
+      "id": "c2-u9-07-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "yer tamlayıcısı",
+        "etki ölçümü",
+        "geçmiş zaman",
+        "istek kipi"
+      ],
+      "answerIndex": 1,
+      "explanation": "التعبير المستهدف «etki ölçümü». حدد خط أساس ومؤشرات ومجموعة مقارنة، وافصل الارتباط عن أثر التدخل."
+    },
+    {
+      "id": "c2-u9-07-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر",
+        "تقييم نتائج السياسة وفق مؤشرات.",
+        "تحديد المكان فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "تقييم نتائج السياسة وفق مؤشرات."
+    },
+    {
+      "id": "c2-u9-07-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "اكتب إطار تقييم لقرار يتضمن خط أساس وأربعة مؤشرات.",
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة"
+      ],
+      "answerIndex": 0,
+      "explanation": "اكتب إطار تقييم لقرار يتضمن خط أساس وأربعة مؤشرات."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c2_mastery_course_data.dart",
+    "legacyUnitId": "c2-u9",
+    "legacyGlobalNumber": 507
+  }
+}

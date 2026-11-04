@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u5-03",
+  "level": "B1",
+  "unitId": "b1-u5",
+  "order": 3,
+  "title": {
+    "ar": "التعبير عن المدة اللازمة لإتمام الفعل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "تقدير الوقت الذي يحتاجه إنجاز مهمة.",
+  "rule": "استخدم ... sürer بمعنى يستغرق، و... kadar sürüyor بمعنى يستغرق حتى، وyaklaşık بمعنى تقريباً. مثال: Yolculuk iki saat sürer.",
+  "vocabulary": [
+    {
+      "term": "sürmek",
+      "meaningAr": "يستغرق / يستمر",
+      "exampleTr": "Bu işi bitirmek yaklaşık bir hafta sürer.",
+      "exampleAr": "يستغرق إنهاء هذا العمل أسبوعاً تقريباً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Toplantı bir saat sürdü.",
+      "ar": "استغرق الاجتماع ساعة."
+    },
+    {
+      "tr": "Eve gitmek yarım saat sürüyor.",
+      "ar": "يستغرق الذهاب إلى المنزل نصف ساعة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Havaalanına gitmek ne kadar sürer?",
+      "ar": "كم يستغرق الذهاب إلى المطار؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Trafiğe göre kırk dakika sürer.",
+      "ar": "يستغرق أربعين دقيقة بحسب الازدحام."
+    }
+  ],
+  "speakingTask": "قدّر مدة خمس مهام يومية واشرح إجابتك.",
+  "questions": [
+    {
+      "id": "b1-u5-03-q1",
+      "prompt": "ما معنى «sürmek»؟",
+      "options": [
+        "السبب / النتيجة",
+        "الاحتمال",
+        "المقارنة",
+        "يستغرق / يستمر"
+      ],
+      "answerIndex": 3,
+      "explanation": "sürmek تعني يستغرق / يستمر."
+    },
+    {
+      "id": "b1-u5-03-q2",
+      "prompt": "ما ترجمة الجملة: «Bu işi bitirmek yaklaşık bir hafta sürer.»؟",
+      "options": [
+        "يستغرق إنهاء هذا العمل أسبوعاً تقريباً.",
+        "سأفعل ذلك في وقت آخر.",
+        "لم يحدث هذا الأمر مطلقاً.",
+        "هذا التعبير لا يصف المعنى المقصود."
+      ],
+      "answerIndex": 0,
+      "explanation": "Bu işi bitirmek yaklaşık bir hafta sürer. تعني يستغرق إنهاء هذا العمل أسبوعاً تقريباً.."
+    },
+    {
+      "id": "b1-u5-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "-seydi",
+        "süre + sürmek",
+        "-madan önce",
+        "-dığı için"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحديد الزمن المستغرق."
+    },
+    {
+      "id": "b1-u5-03-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «süre + sürmek»؟",
+      "options": [
+        "التعبير عن المكان فقط",
+        "النفي المطلق",
+        "بيان المدة اللازمة لإتمام نشاط.",
+        "التعبير عن الزمن فقط"
+      ],
+      "answerIndex": 2,
+      "explanation": "بيان المدة اللازمة لإتمام نشاط."
+    },
+    {
+      "id": "b1-u5-03-q5",
+      "prompt": "أكمل التركيب: Bu işi bitirmek yaklaşık bir hafta sürer.",
+      "options": [
+        "süre + sürmek",
+        "-madan önce",
+        "-dığı için",
+        "-seydi"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي süre + sürmek؛ تحديد الزمن المستغرق."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u5",
+    "legacyGlobalNumber": 163
+  }
+}

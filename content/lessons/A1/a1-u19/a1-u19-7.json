@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u19-7",
+  "level": "A1",
+  "unitId": "a1-u19",
+  "order": 7,
+  "title": {
+    "ar": {
+      "id": "a1-u19-07",
+      "order": 7,
+      "titleAr": "مدة الإقامة وأنشطة العطلة",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "السفر والعطلات والإقامة",
+    "titleTr": "Seyahat, Tatil ve Konaklama",
+    "description": "وسائل السفر والوجهات وخطط الرحلات والمطار وحجز الفنادق والغرف والخدمات والاتجاهات ومدة الإقامة."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن مدة الإقامة والأنشطة في العطلة.",
+  "rule": "للسؤال عن المدة: Kaç gün؟ (كم يوماً؟)، Ne kadar kalacaksınız؟ (كم ستقيمون؟). عبارات: Üç gün kalacağım (سأقيم ثلاثة أيام)، Bir hafta tatildeyim (أنا في عطلة لمدة أسبوع)، Deniz kenarında dinleniyorum (أستريح على شاطئ البحر).",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Kaç gün?",
+      "ar": "كم يوماً؟"
+    },
+    {
+      "tr": "Üç gün kalacağım.",
+      "ar": "سأقيم ثلاثة أيام."
+    },
+    {
+      "tr": "Bir hafta",
+      "ar": "أسبوع واحد"
+    },
+    {
+      "tr": "Deniz kenarında",
+      "ar": "على شاطئ البحر"
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u19-7-q1",
+      "prompt": "ما معنى Üç gün kalacağım؟",
+      "options": [
+        "سأغادر اليوم",
+        "سأقيم ثلاثة أيام",
+        "أريد غرفة",
+        "أين المطار؟"
+      ],
+      "answerIndex": 1,
+      "explanation": "Üç gün kalacağım تعني سأقيم ثلاثة أيام."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u19",
+    "legacyLessonOrder": 7
+  }
+}

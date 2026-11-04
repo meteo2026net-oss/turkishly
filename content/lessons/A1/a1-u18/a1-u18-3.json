@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u18-3",
+  "level": "A1",
+  "unitId": "a1-u18",
+  "order": 3,
+  "title": {
+    "ar": {
+      "id": "a1-u18-03",
+      "order": 3,
+      "titleAr": "التعبير عن الهوايات والتفضيلات",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الهوايات والرياضة ووقت الفراغ",
+    "titleTr": "Hobiler, Spor ve Boş Zaman",
+    "description": "الهوايات والرياضات والتفضيلات الشخصية والأنشطة المتكررة ودعوة الأصدقاء وتحديد مكان ووقت النشاط."
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن الهوايات والتفضيلات الشخصية.",
+  "rule": "للتعبير عن الإعجاب نستخدم hoşlanmak أو sevmek. أمثلة: Kitap okumayı seviyorum (أحب قراءة الكتب)، Müzik dinlemekten hoşlanıyorum (أستمتع بالاستماع إلى الموسيقى)، Futbolu seviyorum (أحب كرة القدم). انتبه إلى اللاحقة التي تأتي مع الفعل في كل تركيب.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Kitap okumayı seviyorum.",
+      "ar": "أحب قراءة الكتب."
+    },
+    {
+      "tr": "Müzik dinlemekten hoşlanıyorum.",
+      "ar": "أستمتع بالاستماع إلى الموسيقى."
+    },
+    {
+      "tr": "Futbolu seviyorum.",
+      "ar": "أحب كرة القدم."
+    },
+    {
+      "tr": "Dans etmeyi seviyorum.",
+      "ar": "أحب الرقص."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u18-3-q1",
+      "prompt": "كيف تقول «أحب قراءة الكتب»؟",
+      "options": [
+        "Kitap okumayı seviyorum.",
+        "Kitap nerede?",
+        "Saat kaç?",
+        "Yemek yapıyorum."
+      ],
+      "answerIndex": 0,
+      "explanation": "Kitap okumayı seviyorum تعني أحب قراءة الكتب."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u18",
+    "legacyLessonOrder": 3
+  }
+}

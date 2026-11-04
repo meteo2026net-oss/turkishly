@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u8-03",
+  "level": "C1",
+  "unitId": "c1-u8",
+  "order": 3,
+  "title": {
+    "ar": "اختيار السجل في المواقف الحساسة",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التداولية والوساطة بين الثقافات",
+    "titleTr": "Edimbilim ve Kültürlerarası Arabuluculuk",
+    "description": "فهم النية الضمنية واللباقة والإحالات الثقافية وإصلاح سوء الفهم والتفاوض."
+  },
+  "contentStatus": "full",
+  "goal": "تكييف درجة الرسمية والوضوح في مواقف تتطلب لباقة.",
+  "rule": "وازن بين احترام المخاطب ووضوح الرسالة وتجنب الغموض الذي يعرقل الفهم.",
+  "vocabulary": [
+    {
+      "term": "hitap biçimi",
+      "meaningAr": "صيغة المخاطبة",
+      "exampleTr": "Bu konuyu sizinle ayrıca değerlendirmek isterim.",
+      "exampleAr": "أود مناقشة هذا الموضوع معكم على نحو منفصل."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Bu konuyu sizinle ayrıca değerlendirmek isterim.",
+      "ar": "أود مناقشة هذا الموضوع معكم على نحو منفصل."
+    },
+    {
+      "tr": "Muhataba uygun bir hitap biçimi seçtim.",
+      "ar": "اخترت صيغة مخاطبة مناسبة للمستلم."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bu ifade fazla mı doğrudan؟",
+      "ar": "هل هذه العبارة مباشرة أكثر من اللازم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Daha yumuşak bir biçim tercih edebiliriz.",
+      "ar": "يمكننا اختيار صيغة ألطف."
+    }
+  ],
+  "speakingTask": "اكتب رسالة اعتذار رسمية ثم نسخة ودية مع الحفاظ على المعنى.",
+  "questions": [
+    {
+      "id": "c1-u8-03-q1",
+      "prompt": "ما معنى «hitap biçimi»؟",
+      "options": [
+        "طلب الإذن",
+        "صيغة المخاطبة",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«hitap biçimi» تعني: صيغة المخاطبة."
+    },
+    {
+      "id": "c1-u8-03-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أود مناقشة هذا الموضوع معكم على نحو منفصل.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "أود مناقشة هذا الموضوع معكم على نحو منفصل."
+    },
+    {
+      "id": "c1-u8-03-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "uygun hitap"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «uygun hitap». وازن بين احترام المخاطب ووضوح الرسالة وتجنب الغموض الذي يعرقل الفهم."
+    },
+    {
+      "id": "c1-u8-03-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "اختيار صيغة مخاطبة ملائمة.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "اختيار صيغة مخاطبة ملائمة."
+    },
+    {
+      "id": "c1-u8-03-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب رسالة اعتذار رسمية ثم نسخة ودية مع الحفاظ على المعنى.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "اكتب رسالة اعتذار رسمية ثم نسخة ودية مع الحفاظ على المعنى."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u8",
+    "legacyGlobalNumber": 373
+  }
+}

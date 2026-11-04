@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u1-0121",
+  "level": "B1",
+  "unitId": "b1-u1",
+  "order": 1,
+  "title": {
+    "ar": "الجمل الموصولة لوصف الأشخاص والأماكن",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "ربط الاسم بجملة تصفه باستخدام تراكيب مثل çalıştığım yer وyaşadığın şehir.",
+  "rule": "تُستخدم صيغ الفعل المشتقة مع لاحقة الملكية لتحديد الاسم: çalıştığım yer = المكان الذي أعمل فيه، yaşadığın şehir = المدينة التي تعيش فيها. تتغير اللاحقة بحسب الشخص والانسجام الصوتي.",
+  "vocabulary": [
+    {
+      "term": "çalıştığım yer",
+      "meaningAr": "المكان الذي أعمل فيه",
+      "exampleTr": "Burası çalıştığım yer.",
+      "exampleAr": "هذا هو المكان الذي أعمل فيه."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Tanıdığım kişi",
+      "ar": "الشخص الذي أعرفه"
+    },
+    {
+      "tr": "Yaşadığın şehir çok güzel.",
+      "ar": "المدينة التي تعيش فيها جميلة جداً."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi şehirde yaşıyorsun?",
+      "ar": "في أي مدينة تعيش؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yaşadığım şehir İzmir.",
+      "ar": "المدينة التي أعيش فيها هي إزمير."
+    }
+  ],
+  "speakingTask": "صف شخصاً تعرفه ومكاناً تعيش فيه مستخدماً tanıdığım وyaşadığım.",
+  "questions": [
+    {
+      "id": "b1-u1-01-q1",
+      "prompt": "ما معنى «çalıştığım yer»؟",
+      "options": [
+        "مكان العمل السابق",
+        "المكان الذي أعمل فيه",
+        "العمل الذي سأبدأه",
+        "مكان عملك"
+      ],
+      "answerIndex": 1,
+      "explanation": "çalıştığım yer تعني المكان الذي أعمل فيه."
+    },
+    {
+      "id": "b1-u1-01-q2",
+      "prompt": "ما ترجمة الجملة: «Burası çalıştığım yer.»؟",
+      "options": [
+        "هذا المكان لا يعمل.",
+        "أنا أعمل في المنزل.",
+        "هذا هو المكان الذي أعمل فيه.",
+        "هذا هو المكان الذي سأزوره."
+      ],
+      "answerIndex": 2,
+      "explanation": "Burası çalıştığım yer. تعني هذا هو المكان الذي أعمل فيه.."
+    },
+    {
+      "id": "b1-u1-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "çalışacağım",
+        "çalışıyorum",
+        "çalıştım",
+        "çalıştığım"
+      ],
+      "answerIndex": 3,
+      "explanation": "صيغة موصولة تعني «الذي أعمل فيه» مع المتكلم."
+    },
+    {
+      "id": "b1-u1-01-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «çalıştığım»؟",
+      "options": [
+        "وصف اسم بجملة موصولة",
+        "التعبير عن المستقبل",
+        "نفي الفعل",
+        "السؤال عن المكان"
+      ],
+      "answerIndex": 0,
+      "explanation": "تحديد الاسم ووصفه بجملة تابعة بدلاً من جملة مستقلة."
+    },
+    {
+      "id": "b1-u1-01-q5",
+      "prompt": "أكمل التركيب: Burası çalıştığım yer.",
+      "options": [
+        "çalışıyorum",
+        "çalıştım",
+        "çalıştığım",
+        "çalışacağım"
+      ],
+      "answerIndex": 2,
+      "explanation": "الصيغة المستهدفة هي çalıştığım؛ صيغة موصولة تعني «الذي أعمل فيه» مع المتكلم."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u1",
+    "legacyGlobalNumber": 121
+  }
+}

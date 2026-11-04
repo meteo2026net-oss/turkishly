@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u3-02",
+  "level": "B1",
+  "unitId": "b1-u3",
+  "order": 2,
+  "title": {
+    "ar": "وصف مشكلة وتقديم حل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "شرح مشكلة وأسبابها وآثارها ثم اقتراح حلول عملية.",
+  "rule": "استخدم sorun/problem للمشكلة، nedeni للسبب، sonuç/etki للنتيجة، çözüm للحل. اربط الأفكار بـ çünkü وbu nedenle وbuna göre.",
+  "vocabulary": [
+    {
+      "term": "çözüm",
+      "meaningAr": "حل",
+      "exampleTr": "Bu soruna etkili bir çözüm bulmalıyız.",
+      "exampleAr": "ينبغي أن نجد حلاً فعالاً لهذه المشكلة."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Sorunun nedeni trafik.",
+      "ar": "سبب المشكلة هو حركة المرور."
+    },
+    {
+      "tr": "Bu nedenle toplu taşıma kullanmalıyız.",
+      "ar": "لذلك ينبغي أن نستخدم النقل العام."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "En büyük sorun ne?",
+      "ar": "ما أكبر مشكلة؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Zaman kaybı. Bu nedenle plan yapmalıyız.",
+      "ar": "ضياع الوقت؛ لذلك ينبغي أن نضع خطة."
+    }
+  ],
+  "speakingTask": "اختر مشكلة يومية واشرح سببها وحلاً مناسباً لها.",
+  "questions": [
+    {
+      "id": "b1-u3-02-q1",
+      "prompt": "ما معنى «çözüm»؟",
+      "options": [
+        "سبب",
+        "نتيجة",
+        "حل",
+        "مشكلة"
+      ],
+      "answerIndex": 2,
+      "explanation": "çözüm تعني حل."
+    },
+    {
+      "id": "b1-u3-02-q2",
+      "prompt": "ما ترجمة الجملة: «Bu soruna etkili bir çözüm bulmalıyız.»؟",
+      "options": [
+        "ينبغي أن نزيد المشكلة.",
+        "لا نعرف المشكلة.",
+        "هذه النتيجة غير ممكنة.",
+        "ينبغي أن نجد حلاً فعالاً لهذه المشكلة."
+      ],
+      "answerIndex": 3,
+      "explanation": "Bu soruna etkili bir çözüm bulmalıyız. تعني ينبغي أن نجد حلاً فعالاً لهذه المشكلة.."
+    },
+    {
+      "id": "b1-u3-02-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "bu nedenle",
+        "rağmen",
+        "gibi",
+        "önce"
+      ],
+      "answerIndex": 0,
+      "explanation": "لذلك / لهذا السبب، لربط السبب بالنتيجة."
+    },
+    {
+      "id": "b1-u3-02-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «bu nedenle»؟",
+      "options": [
+        "التوقيت السابق",
+        "ربط السبب بالنتيجة",
+        "التشبيه",
+        "التنازل"
+      ],
+      "answerIndex": 1,
+      "explanation": "شرح علاقة المشكلة بسببها ثم الانتقال إلى حل أو نتيجة."
+    },
+    {
+      "id": "b1-u3-02-q5",
+      "prompt": "أكمل التركيب: Bu soruna etkili bir çözüm bulmalıyız.",
+      "options": [
+        "rağmen",
+        "gibi",
+        "önce",
+        "bu nedenle"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصيغة المستهدفة هي bu nedenle؛ لذلك / لهذا السبب، لربط السبب بالنتيجة."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u3",
+    "legacyGlobalNumber": 142
+  }
+}

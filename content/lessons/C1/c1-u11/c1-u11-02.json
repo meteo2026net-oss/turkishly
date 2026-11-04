@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u11-02",
+  "level": "C1",
+  "unitId": "c1-u11",
+  "order": 2,
+  "title": {
+    "ar": "بناء الشخصية والتحول النفسي",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحليل الأدبي والأسلوبي المتقدم",
+    "titleTr": "İleri Edebî ve Üslup Çözümlemesi",
+    "description": "وجهة النظر السردية والرموز والتناص والنقد والترجمة الأدبية."
+  },
+  "contentStatus": "full",
+  "goal": "استنتاج تطور الشخصية من أفعالها وحوارها وتناقضاتها.",
+  "rule": "لا تعتمد على الوصف المباشر وحده؛ تتبع القرارات والتغيرات وردود الفعل عبر النص.",
+  "vocabulary": [
+    {
+      "term": "karakter gelişimi",
+      "meaningAr": "تطور الشخصية",
+      "exampleTr": "Karakterin kararları, zamanla değişen değerlerini ortaya koyuyor.",
+      "exampleAr": "تكشف قرارات الشخصية عن قيمها المتغيرة مع الوقت."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Karakterin kararları, zamanla değişen değerlerini ortaya koyuyor.",
+      "ar": "تكشف قرارات الشخصية عن قيمها المتغيرة مع الوقت."
+    },
+    {
+      "tr": "Karakterin dönüşümünü davranışlarıyla açıkladım.",
+      "ar": "شرحت تحول الشخصية من خلال سلوكها."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Karakter neden fikir değiştirdi؟",
+      "ar": "لماذا غيرت الشخصية رأيها؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yaşadığı olaylar önceliklerini değiştirdi.",
+      "ar": "غيرت الأحداث التي عاشتها أولوياته."
+    }
+  ],
+  "speakingTask": "اكتب تحليلاً يشرح تحول شخصية مع ثلاثة شواهد نصية.",
+  "questions": [
+    {
+      "id": "c1-u11-02-q1",
+      "prompt": "ما معنى «karakter gelişimi»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تطور الشخصية",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«karakter gelişimi» تعني: تطور الشخصية."
+    },
+    {
+      "id": "c1-u11-02-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "تكشف قرارات الشخصية عن قيمها المتغيرة مع الوقت."
+      ],
+      "answerIndex": 3,
+      "explanation": "تكشف قرارات الشخصية عن قيمها المتغيرة مع الوقت."
+    },
+    {
+      "id": "c1-u11-02-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "karakter çözümlemesi",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «karakter çözümlemesi». لا تعتمد على الوصف المباشر وحده؛ تتبع القرارات والتغيرات وردود الفعل عبر النص."
+    },
+    {
+      "id": "c1-u11-02-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "تحليل الشخصية وتطور دوافعها.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "تحليل الشخصية وتطور دوافعها."
+    },
+    {
+      "id": "c1-u11-02-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب تحليلاً يشرح تحول شخصية مع ثلاثة شواهد نصية."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب تحليلاً يشرح تحول شخصية مع ثلاثة شواهد نصية."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_mastery_course_data.dart",
+    "legacyUnitId": "c1-u11",
+    "legacyGlobalNumber": 402
+  }
+}

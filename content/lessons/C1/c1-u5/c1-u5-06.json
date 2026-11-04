@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u5-06",
+  "level": "C1",
+  "unitId": "c1-u5",
+  "order": 6,
+  "title": {
+    "ar": "التفاوض المهني",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "اللغة الرسمية والمهنية",
+    "titleTr": "Resmî ve Mesleki Dil",
+    "description": "المراسلات التنفيذية والمقترحات والتقارير والاجتماعات والتفاوض والتوصيات."
+  },
+  "contentStatus": "full",
+  "goal": "اقتراح بدائل والتفاوض على المصالح مع الحفاظ على العلاقة.",
+  "rule": "ميّز الموقف المعلن عن المصلحة وقدم تنازلاً مشروطاً مقابل مكسب متوازن.",
+  "vocabulary": [
+    {
+      "term": "karşılıklı uzlaşma",
+      "meaningAr": "تسوية متبادلة",
+      "exampleTr": "Teslim tarihini korumak karşılığında kapsamı daraltabiliriz.",
+      "exampleAr": "يمكننا تقليص النطاق مقابل الحفاظ على موعد التسليم."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Teslim tarihini korumak karşılığında kapsamı daraltabiliriz.",
+      "ar": "يمكننا تقليص النطاق مقابل الحفاظ على موعد التسليم."
+    },
+    {
+      "tr": "Her iki tarafın önceliklerini dikkate aldık.",
+      "ar": "راعينا أولويات الطرفين."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Bütçeyi artırabilir misiniz؟",
+      "ar": "هل يمكن زيادة الميزانية؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Kapsamı sabit tutarsak süreyi uzatabiliriz.",
+      "ar": "إذا ثبتنا النطاق نمدد المدة."
+    }
+  ],
+  "speakingTask": "اكتب حوار تفاوض يتضمن مصلحة كل طرف واتفاقاً.",
+  "questions": [
+    {
+      "id": "c1-u5-06-q1",
+      "prompt": "ما معنى «karşılıklı uzlaşma»؟",
+      "options": [
+        "التعبير عن الزمن الماضي",
+        "طلب الإذن",
+        "تسوية متبادلة",
+        "التعبير عن المكان"
+      ],
+      "answerIndex": 2,
+      "explanation": "«karşılıklı uzlaşma» تعني: تسوية متبادلة."
+    },
+    {
+      "id": "c1-u5-06-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "لم يبدأ الاجتماع بعد.",
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "يمكننا تقليص النطاق مقابل الحفاظ على موعد التسليم."
+      ],
+      "answerIndex": 3,
+      "explanation": "يمكننا تقليص النطاق مقابل الحفاظ على موعد التسليم."
+    },
+    {
+      "id": "c1-u5-06-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "koşullu taviz",
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı"
+      ],
+      "answerIndex": 0,
+      "explanation": "التعبير المستهدف «koşullu taviz». ميّز الموقف المعلن عن المصلحة وقدم تنازلاً مشروطاً مقابل مكسب متوازن."
+    },
+    {
+      "id": "c1-u5-06-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "تكوين سؤال عن السعر",
+        "عرض تنازل مشروط يوازن المصالح.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط"
+      ],
+      "answerIndex": 1,
+      "explanation": "عرض تنازل مشروط يوازن المصالح."
+    },
+    {
+      "id": "c1-u5-06-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "حفظ كلمات دون سياق",
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "اكتب حوار تفاوض يتضمن مصلحة كل طرف واتفاقاً."
+      ],
+      "answerIndex": 3,
+      "explanation": "اكتب حوار تفاوض يتضمن مصلحة كل طرف واتفاقاً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_advanced_course_data.dart",
+    "legacyUnitId": "c1-u5",
+    "legacyGlobalNumber": 346
+  }
+}

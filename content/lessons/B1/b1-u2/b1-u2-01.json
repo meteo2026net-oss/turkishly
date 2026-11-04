@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u2-01",
+  "level": "B1",
+  "unitId": "b1-u2",
+  "order": 1,
+  "title": {
+    "ar": "الاحتمال باستخدام -abilir/-ebilir وbelki",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "التعبير عن إمكانية حدوث شيء أو عدم التأكد منه.",
+  "rule": "تُستخدم صيغة القدرة -abilir/-ebilir للدلالة على الاحتمال بحسب السياق: gelebilir = قد يأتي/يستطيع أن يأتي. وتسبق belki الجملة بمعنى ربما.",
+  "vocabulary": [
+    {
+      "term": "belki",
+      "meaningAr": "ربما",
+      "exampleTr": "Belki yarın yağmur yağabilir.",
+      "exampleAr": "ربما تمطر غداً."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Akşam gelebilirim.",
+      "ar": "قد أستطيع المجيء مساءً."
+    },
+    {
+      "tr": "Belki toplantı iptal olabilir.",
+      "ar": "ربما يُلغى الاجتماع."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Yarın gelir misin?",
+      "ar": "هل ستأتي غداً؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Belki, işim erken bitebilir.",
+      "ar": "ربما، قد ينتهي عملي مبكراً."
+    }
+  ],
+  "speakingTask": "اذكر ثلاثة احتمالات عن الغد باستخدام belki أو -abilir.",
+  "questions": [
+    {
+      "id": "b1-u2-01-q1",
+      "prompt": "ما معنى «belki»؟",
+      "options": [
+        "بالتأكيد",
+        "مستحيل",
+        "أمس",
+        "ربما"
+      ],
+      "answerIndex": 3,
+      "explanation": "belki تعني ربما."
+    },
+    {
+      "id": "b1-u2-01-q2",
+      "prompt": "ما ترجمة الجملة: «Belki yarın yağmur yağabilir.»؟",
+      "options": [
+        "ربما تمطر غداً.",
+        "ستمطر بالتأكيد غداً.",
+        "أمطرت أمس.",
+        "لا تمطر أبداً."
+      ],
+      "answerIndex": 0,
+      "explanation": "Belki yarın yağmur yağabilir. تعني ربما تمطر غداً.."
+    },
+    {
+      "id": "b1-u2-01-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "yağarken",
+        "yağabilir",
+        "yağmalı",
+        "yağdı"
+      ],
+      "answerIndex": 1,
+      "explanation": "صيغة احتمال أو إمكانية حدوث الفعل."
+    },
+    {
+      "id": "b1-u2-01-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «yağabilir»؟",
+      "options": [
+        "الماضي المحدد",
+        "التزامن",
+        "الاحتمال والإمكانية",
+        "الوجوب"
+      ],
+      "answerIndex": 2,
+      "explanation": "التعبير عن احتمال أو إمكانية غير مؤكدة."
+    },
+    {
+      "id": "b1-u2-01-q5",
+      "prompt": "أكمل التركيب: Belki yarın yağmur yağabilir.",
+      "options": [
+        "yağabilir",
+        "yağmalı",
+        "yağdı",
+        "yağarken"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي yağabilir؛ صيغة احتمال أو إمكانية حدوث الفعل."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u2",
+    "legacyGlobalNumber": 131
+  }
+}

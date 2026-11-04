@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "c1-u9-09",
+  "level": "C1",
+  "unitId": "c1-u9",
+  "order": 9,
+  "title": {
+    "ar": "محاكاة تقييم C1 المتكامل",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "الإتقان والتقييم المتكامل لمستوى C1",
+    "titleTr": "C1 Yetkinliği ve Bütünleşik Değerlendirme",
+    "description": "الكتابة الحجاجية والعروض والأسئلة الصعبة والمناظرة والتحرير وملف الإنجاز."
+  },
+  "contentStatus": "full",
+  "goal": "أداء مهام قراءة واستماع وكتابة وتحدث في سيناريو واحد.",
+  "rule": "وزع الوقت، وحدد المطلوب في كل مهمة، وراجع الإجابات وفق الدقة والترابط والملاءمة.",
+  "vocabulary": [
+    {
+      "term": "bütünleşik değerlendirme",
+      "meaningAr": "تقييم متكامل",
+      "exampleTr": "Dört beceriyi aynı konu çevresinde kullanarak değerlendirmeyi tamamladım.",
+      "exampleAr": "أكملت التقييم باستخدام المهارات الأربع حول موضوع واحد."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Dört beceriyi aynı konu çevresinde kullanarak değerlendirmeyi tamamladım.",
+      "ar": "أكملت التقييم باستخدام المهارات الأربع حول موضوع واحد."
+    },
+    {
+      "tr": "Performansımı ölçütlere göre değerlendirdim.",
+      "ar": "قيّمت أدائي وفق معايير محددة."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Hangi beceri daha çok zaman aldı؟",
+      "ar": "أي مهارة استغرقت وقتاً أطول؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yazma, çünkü kanıtları düzenlemem gerekti.",
+      "ar": "الكتابة لأنني احتجت إلى تنظيم الأدلة."
+    }
+  ],
+  "speakingTask": "أنجز محاكاة تشمل نصاً ومحاضرة ومقالاً وعرضاً شفهياً.",
+  "questions": [
+    {
+      "id": "c1-u9-09-q1",
+      "prompt": "ما معنى «bütünleşik değerlendirme»؟",
+      "options": [
+        "طلب الإذن",
+        "تقييم متكامل",
+        "التعبير عن المكان",
+        "التعبير عن الزمن الماضي"
+      ],
+      "answerIndex": 1,
+      "explanation": "«bütünleşik değerlendirme» تعني: تقييم متكامل."
+    },
+    {
+      "id": "c1-u9-09-q2",
+      "prompt": "ما ترجمة الجملة التركية؟",
+      "options": [
+        "سأعود إلى المنزل غداً.",
+        "لا تتضمن الجملة هذا المعنى.",
+        "أكملت التقييم باستخدام المهارات الأربع حول موضوع واحد.",
+        "لم يبدأ الاجتماع بعد."
+      ],
+      "answerIndex": 2,
+      "explanation": "أكملت التقييم باستخدام المهارات الأربع حول موضوع واحد."
+    },
+    {
+      "id": "c1-u9-09-q3",
+      "prompt": "أي تعبير يرتبط بمهارة الدرس؟",
+      "options": [
+        "geçmiş zaman",
+        "istek kipi",
+        "yer tamlayıcısı",
+        "beceri bütünleştirme"
+      ],
+      "answerIndex": 3,
+      "explanation": "التعبير المستهدف «beceri bütünleştirme». وزع الوقت، وحدد المطلوب في كل مهمة، وراجع الإجابات وفق الدقة والترابط والملاءمة."
+    },
+    {
+      "id": "c1-u9-09-q4",
+      "prompt": "ما الوظيفة التواصلية الأساسية؟",
+      "options": [
+        "دمج المهارات الأربع في تقييم واحد.",
+        "تحديد المكان فقط",
+        "تغيير زمن الجملة فقط",
+        "تكوين سؤال عن السعر"
+      ],
+      "answerIndex": 0,
+      "explanation": "دمج المهارات الأربع في تقييم واحد."
+    },
+    {
+      "id": "c1-u9-09-q5",
+      "prompt": "أي ممارسة تثبت إتقان المهارة؟",
+      "options": [
+        "نسخ نص دون فهم",
+        "تجاهل القرائن والأدلة",
+        "أنجز محاكاة تشمل نصاً ومحاضرة ومقالاً وعرضاً شفهياً.",
+        "حفظ كلمات دون سياق"
+      ],
+      "answerIndex": 2,
+      "explanation": "أنجز محاكاة تشمل نصاً ومحاضرة ومقالاً وعرضاً شفهياً."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/c1_expert_course_data.dart",
+    "legacyUnitId": "c1-u9",
+    "legacyGlobalNumber": 389
+  }
+}

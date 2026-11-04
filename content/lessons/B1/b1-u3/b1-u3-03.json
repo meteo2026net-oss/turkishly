@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-u3-03",
+  "level": "B1",
+  "unitId": "b1-u3",
+  "order": 3,
+  "title": {
+    "ar": "التعبير عن الأهداف والخطط المستقبلية",
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "",
+    "titleTr": "",
+    "description": ""
+  },
+  "contentStatus": "full",
+  "goal": "شرح هدف شخصي أو مهني وخطوات تحقيقه.",
+  "rule": "للهدف استخدم amacım ... (هدفي...)، وأفعال المستقبل -acak/-ecek للخطة، و-mek için للغرض: Amacım Türkçemi geliştirmek.",
+  "vocabulary": [
+    {
+      "term": "amacım",
+      "meaningAr": "هدفي",
+      "exampleTr": "Amacım Türkçemi geliştirmek.",
+      "exampleAr": "هدفي هو تطوير لغتي التركية."
+    }
+  ],
+  "examples": [
+    {
+      "tr": "Gelecek yıl üniversiteye başlayacağım.",
+      "ar": "سأبدأ الجامعة العام القادم."
+    },
+    {
+      "tr": "Daha iyi konuşmak için pratik yapıyorum.",
+      "ar": "أتدرب لكي أتحدث بشكل أفضل."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "tr": "Gelecek yıl ne yapacaksın?",
+      "ar": "ماذا ستفعل العام القادم؟"
+    },
+    {
+      "speaker": "B",
+      "tr": "Yeni bir dil öğrenmek için kursa başlayacağım.",
+      "ar": "سأبدأ دورة لتعلم لغة جديدة."
+    }
+  ],
+  "speakingTask": "اشرح هدفاً تريد تحقيقه والخطوات التي ستتخذها.",
+  "questions": [
+    {
+      "id": "b1-u3-03-q1",
+      "prompt": "ما معنى «amacım»؟",
+      "options": [
+        "خطتي السابقة",
+        "مشكلتي",
+        "نتيجتي",
+        "هدفي"
+      ],
+      "answerIndex": 3,
+      "explanation": "amacım تعني هدفي."
+    },
+    {
+      "id": "b1-u3-03-q2",
+      "prompt": "ما ترجمة الجملة: «Amacım Türkçemi geliştirmek.»؟",
+      "options": [
+        "هدفي هو تطوير لغتي التركية.",
+        "طورت لغتي التركية أمس.",
+        "لا أريد تعلم التركية.",
+        "هذه مدينتي."
+      ],
+      "answerIndex": 0,
+      "explanation": "Amacım Türkçemi geliştirmek. تعني هدفي هو تطوير لغتي التركية.."
+    },
+    {
+      "id": "b1-u3-03-q3",
+      "prompt": "اختر الصيغة الصحيحة المرتبطة بالقاعدة:",
+      "options": [
+        "geliştirirken",
+        "geliştirmek için",
+        "geliştirdiğim için",
+        "geliştikten sonra"
+      ],
+      "answerIndex": 1,
+      "explanation": "لكي أطور / من أجل التطوير."
+    },
+    {
+      "id": "b1-u3-03-q4",
+      "prompt": "ما الوظيفة النحوية للتعبير «geliştirmek için»؟",
+      "options": [
+        "ترتيب ما بعد الحدث",
+        "التزامن",
+        "التعبير عن الغاية",
+        "ذكر السبب الماضي"
+      ],
+      "answerIndex": 2,
+      "explanation": "ذكر الهدف وربطه بخطة أو خطوات مستقبلية."
+    },
+    {
+      "id": "b1-u3-03-q5",
+      "prompt": "أكمل التركيب: Amacım Türkçemi geliştirmek.",
+      "options": [
+        "geliştirmek için",
+        "geliştirdiğim için",
+        "geliştikten sonra",
+        "geliştirirken"
+      ],
+      "answerIndex": 0,
+      "explanation": "الصيغة المستهدفة هي geliştirmek için؛ لكي أطور / من أجل التطوير."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/data/b1_course_data.dart",
+    "legacyUnitId": "b1-u3",
+    "legacyGlobalNumber": 143
+  }
+}

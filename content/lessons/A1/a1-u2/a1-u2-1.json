@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-u2-1",
+  "level": "A1",
+  "unitId": "a1-u2",
+  "order": 1,
+  "title": {
+    "ar": {
+      "id": "a1-u2-01",
+      "order": 1,
+      "titleAr": "التحيات في المواقف اليومية",
+      "contentStatus": "metadata_only"
+    },
+    "tr": ""
+  },
+  "unit": {
+    "titleAr": "التحيات والتعارف",
+    "titleTr": "Selamlaşma ve Tanışma",
+    "description": "التحية والتعريف بالنفس وطرح الأسئلة الشخصية البسيطة."
+  },
+  "contentStatus": "full",
+  "goal": "استخدام التحيات المناسبة في أوقات ومواقف مختلفة.",
+  "rule": "تختلف التحية التركية بحسب الوقت والرسمية. Merhaba تحية عامة، Günaydın للصباح، İyi akşamlar للمساء. عند المغادرة نقول Hoşça kal أو Güle güle بحسب المتحدث والسياق.",
+  "vocabulary": [],
+  "examples": [
+    {
+      "tr": "Merhaba!",
+      "ar": "مرحباً!"
+    },
+    {
+      "tr": "Günaydın!",
+      "ar": "صباح الخير!"
+    },
+    {
+      "tr": "İyi akşamlar.",
+      "ar": "مساء الخير."
+    }
+  ],
+  "dialogue": [],
+  "speakingTask": "",
+  "questions": [
+    {
+      "id": "a1-u2-1-q1",
+      "prompt": "ما التحية المناسبة في الصباح؟",
+      "options": [
+        "İyi geceler",
+        "Günaydın",
+        "Hoşça kal",
+        "Güle güle"
+      ],
+      "answerIndex": 1,
+      "explanation": "Günaydın تعني صباح الخير."
+    }
+  ],
+  "media": [],
+  "source": {
+    "legacyFile": "lib/screens/course_lesson_screen.dart",
+    "legacyUnitId": "a1-u2",
+    "legacyLessonOrder": 1
+  }
+}
